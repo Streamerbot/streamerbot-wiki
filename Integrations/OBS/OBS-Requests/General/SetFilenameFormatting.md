@@ -2,7 +2,7 @@
 title: SetFilenameFormatting
 description: Set the filename formatting string
 published: true
-date: 2022-06-29T18:03:59.488Z
+date: 2022-06-29T18:16:53.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-29T17:58:28.934Z
@@ -17,6 +17,7 @@ dateCreated: 2022-06-29T17:58:28.934Z
 "filename-formatting": "%CCYY-%MM-%DD %hh-%mm-%ss"
 }
 ```
+
 ## Request Fields
 | Name | Type | Description |
 |-----:|:----:|:------------|
