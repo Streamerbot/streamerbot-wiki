@@ -2,7 +2,7 @@
 title: SceneItemVisibilityChanged
 description: A scene item's visibility has been toggled.
 published: true
-date: 2022-06-28T17:45:23.824Z
+date: 2022-06-29T02:41:01.707Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:45:20.166Z
@@ -22,6 +22,6 @@ dateCreated: 2022-06-28T17:45:20.166Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SceneItemVisibilityChanged`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemvisibilitychanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemvisibilitychanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
