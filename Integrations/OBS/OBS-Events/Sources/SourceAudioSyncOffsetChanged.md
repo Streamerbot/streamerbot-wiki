@@ -2,7 +2,7 @@
 title: SourceAudioSyncOffsetChanged
 description: The audio sync offset of a source has changed.
 published: true
-date: 2022-06-28T15:18:34.707Z
+date: 2022-06-29T02:37:47.531Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:18:29.858Z
@@ -20,6 +20,6 @@ dateCreated: 2022-06-28T15:18:29.858Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceAudioSyncOffsetChanged`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourceaudiosyncoffsetchanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourceaudiosyncoffsetchanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
