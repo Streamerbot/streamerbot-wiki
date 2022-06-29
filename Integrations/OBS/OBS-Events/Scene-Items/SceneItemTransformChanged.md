@@ -2,7 +2,7 @@
 title: SceneItemTransformChanged
 description: A scene item's transform has been changed.
 published: true
-date: 2022-06-28T18:13:14.024Z
+date: 2022-06-29T02:41:12.060Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:13:10.114Z
@@ -42,6 +42,6 @@ dateCreated: 2022-06-28T18:13:10.114Z
 | `obsEvent.update-type` | <kbd>string</kbd> | The update type of the OBS event in this case `SceneItemTransformChanged`
 | `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemtransformchanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemtransformchanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
