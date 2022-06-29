@@ -2,7 +2,7 @@
 title: SourceFilterVisibilityChanged
 description: The visibility/enabled state of a filter changed
 published: true
-date: 2022-06-28T16:00:05.849Z
+date: 2022-06-29T02:38:07.336Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:00:01.166Z
@@ -21,6 +21,6 @@ dateCreated: 2022-06-28T16:00:01.166Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceFilterVisibilityChanged`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcefiltervisibilitychanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcefiltervisibilitychanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
