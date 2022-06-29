@@ -2,7 +2,7 @@
 title: OBS Requests
 description: 
 published: true
-date: 2022-06-28T20:01:24.002Z
+date: 2022-06-29T18:00:26.776Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T11:00:55.416Z
@@ -17,7 +17,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 {.is-warning}
 * [GetVersion](/en/Integrations/OBS/OBS-Requests/General/GetVersion)
 * [GetAuthRequired](/en/Integrations/OBS/OBS-Requests/General/GetAuthRequired)
-* [Authenticate](/en/Integrations/OBS/OBS-Requests/General/Authenticate)
+* [Authenticate *Being put off for the time being*](/en/Integrations/OBS/OBS-Requests/General/Authenticate)
 * [SetHeartbeat](/en/Integrations/OBS/OBS-Requests/General/SetHeartbeat)
 * [SetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/SetFilenameFormatting)
 * [GetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/GetFilenameFormatting)
