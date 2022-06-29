@@ -2,7 +2,7 @@
 title: SceneItemLockChanged
 description: A scene item's locked status has been toggled.
 published: true
-date: 2022-06-28T17:48:10.050Z
+date: 2022-06-29T02:41:06.644Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:48:06.836Z
@@ -22,6 +22,6 @@ dateCreated: 2022-06-28T17:48:06.836Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SceneItemLockChanged`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemlockchanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemlockchanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
