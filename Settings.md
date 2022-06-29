@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-06-03T18:53:58.518Z
+date: 2022-06-29T13:30:46.501Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -378,7 +378,7 @@ Configuration of event monitoring is found in this sub-section, see [Events](/en
 * [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
 * [Stream Update *When the Stream Category or Title changes* *CREATE ME*](/Events/Stream-Update)
 * [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Twitch/Polls)
-* [Predictions *Set up a 2 option prediction that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
+* [Predictions *Set up a prediction between 2-5 options that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
 {.links-list}
 
 
