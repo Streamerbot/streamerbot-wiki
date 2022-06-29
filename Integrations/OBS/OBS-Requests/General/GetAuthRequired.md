@@ -2,7 +2,7 @@
 title: GetAuthRequired
 description: Tells the client if authentication is required. If so, returns authentication parameters challenge and salt.
 published: true
-date: 2022-06-29T18:12:45.025Z
+date: 2022-06-29T18:15:14.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T20:01:18.573Z
@@ -16,6 +16,7 @@ dateCreated: 2022-06-28T20:01:18.573Z
 "request-type": "GetAuthRequired"
 }
 ```
+
 ## Request Fields
 > No request fields required.
 {.is-success}
