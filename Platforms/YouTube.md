@@ -2,7 +2,7 @@
 title: YouTube
 description: 
 published: true
-date: 2022-06-28T23:32:55.410Z
+date: 2022-06-29T15:17:39.029Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -16,7 +16,7 @@ Streamer bot now has YouTube integration so let’s go ahead and link your YouTu
 ## Account
 First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
 
-![youtube_tab_new.png](/youtube/youtube_tab_new.png){.align-center}
+![youtube_tab_.png](/youtube/youtube_tab_.png)
 
 
 
