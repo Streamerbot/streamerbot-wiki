@@ -2,7 +2,7 @@
 title: Streamer.bot
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-01-15T20:44:37.730Z
+date: 2022-06-29T19:06:03.443Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-15T19:25:31.763Z
@@ -10,43 +10,43 @@ dateCreated: 2022-01-15T19:25:31.763Z
 
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
 
-# Welcome to Streamer.bot
+# Bienvenido a Streamer.bot
 
-Documentation for Streamer.bot. Here are the changelogs and information on all aspects of the application.
+Documentación para Streamer.bot. Aquí están los registros de cambios e información sobre todos los aspectos de la aplicación.
 
-Additionally, there are channels on the Stremer.bot discord to seek help/support, share discoveries, and present what you're working on.  The application can advance/evolve optimally if we all share new/interesting ways to do things.
+Además, hay canales en la discordia de Stremer.bot para buscar ayuda/soporte, compartir descubrimientos y presentar en qué está trabajando. La aplicación puede avanzar/evolucionar de manera óptima si todos compartimos formas nuevas/interesantes de hacer las cosas.
 
-If you would like to help build this wiki with information, please get in contact with me on Discord 😃 
+Si desea ayudar a construir este wiki con información, comuníquese conmigo en Discord😃 
 
-* [Discord *Be sure to join the Discord for examples, help, to share what you've made, or just to hang out!*](https://discord.streamer.bot)
+* [Discord *¡Asegúrate de unirte a Discord para obtener ejemplos, ayuda, compartir lo que has hecho o simplemente pasar el rato!*](https://discord.streamer.bot)
 {.links-list}
 
-Also be sure to share on Twitter and tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!  Uploading videoes on YouTube, be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
+¡Asegúrese también de compartir en Twitter y etiquetar a **@streamerdotbot** y/o usar los hashtags **#streamerdotbot**, **#streamerbot**! Al cargar videos en YouTube, asegúrese de agregar los hashtags **#streamerbot** y/o **#streamerdotbot** para ayudar a otros a encontrar sus videos.
 
-## Available Plugins
+## Complementos disponibles
 
 * [StreamDeck](https://github.com/nate1280/streamdeck-Streamer.bot)
 * [TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
 * [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
 * LoupeDeck (available in the discord for the moment)
-* [DeckBoard *Can be installed through the server app*](https://github.com/rivafarabi/streamerbot-deckboard)
+* [DeckBoard *Se puede instalar a través de la aplicación del servidor.*](https://github.com/rivafarabi/streamerbot-deckboard)
 {.links-list}
 
-## Extended Features
+## Características extendidas
 
-Don't have a StreamDeck, or a LoupeDeck? Looking for a web based deck you can just setup and use.
+¿No tiene un StreamDeck o un LoupeDeck? Buscando una plataforma basada en la web que pueda configurar y usar.
 
-Well, be sure to check out **[Streamer.bot Decks](https://streamer.bot/user/decks)**, it is currently a **WIP** feature, created by the very talented **Whipstickgostop**
+Bueno, asegúrese de revisar **[Streamer.bot Decks](https://streamer.bot/user/decks)**, actualmente es una característica de **WIP**, creada por el muy talentoso **Whipstickgostop *
 
-## Thanks
+## Gracias
 
-Wanted to first off, say thank you to everyone who has been using this bot, providing feedback (i.e. breaking it 😁), and being supportive of my efforts to just provide another option for streamers out there to use.
+En primer lugar, quería dar las gracias a todos los que han estado usando este bot, brindando comentarios (es decir, rompiéndolo 😁) y apoyando mis esfuerzos para proporcionar otra opción para que los streamers la usen.
 
-A very big thank you to the amazing folks who have been supporting me through the hectic release: 
+Muchas gracias a la gente increíble que me ha estado apoyando durante el frenético lanzamiento:
 (**[Lyfesaver74](https://twitch.tv/lyfesaver74)**, **[Geocym](https://twitch.tv/geocym)**, **[VRFlad](https://twitch.tv/vrflad)**, **[Krayn_](https://twitch.tv/krayn_)**, **[Njna_Grimsdottir](https://twitch.tv/njna_grimsdottir)**, & **[Whipstickgostop](https://twitch.tv/whipstickgostop)**)
 
 
-I appreciate all the support from everyone and to all using this software.  Thank you.
+Agradezco todo el apoyo de todos y para todos los que usan este software. Gracias.
 
-* [Patreon *It's never required, I have setup a Patreon if you would like to support development.*](https://patreon.com/nate1280)
+* [Patreon *Nunca es obligatorio, configuré un Patreon si desea apoyar el desarrollo.*](https://patreon.com/nate1280)
 {.links-list}
