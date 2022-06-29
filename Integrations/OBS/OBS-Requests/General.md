@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-28T20:07:42.942Z
+date: 2022-06-29T17:41:35.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T20:07:39.855Z
@@ -13,7 +13,7 @@ dateCreated: 2022-06-28T20:07:39.855Z
 {.is-warning}
 * [GetVersion](/en/Integrations/OBS/OBS-Requests/General/GetVersion)
 * [GetAuthRequired](/en/Integrations/OBS/OBS-Requests/General/GetAuthRequired)
-* [Authenticate](/en/Integrations/OBS/OBS-Requests/General/Authenticate)
+* [Authenticate *Being put off for the time being*](/en/Integrations/OBS/OBS-Requests/General/Authenticate)
 * [SetHeartbeat](/en/Integrations/OBS/OBS-Requests/General/SetHeartbeat)
 * [SetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/SetFilenameFormatting)
 * [GetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/GetFilenameFormatting)
