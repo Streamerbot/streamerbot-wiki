@@ -2,7 +2,7 @@
 title: SourceMuteStateChanged
 description: A source has been muted or unmuted.
 published: true
-date: 2022-06-28T14:17:25.623Z
+date: 2022-06-29T02:36:51.651Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T14:17:21.696Z
@@ -20,6 +20,6 @@ dateCreated: 2022-06-28T14:17:21.696Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceMuteStateChanged`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcemutestatechanged)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcemutestatechanged)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
