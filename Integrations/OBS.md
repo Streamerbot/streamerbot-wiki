@@ -2,7 +2,7 @@
 title: OBS
 description: 
 published: true
-date: 2022-06-27T03:12:23.108Z
+date: 2022-06-29T17:33:05.401Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -69,5 +69,6 @@ The data that an event emits, is added onto the arguents the same way it is with
 
 OBS events are per-connection based.
 
-* [OBS Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists.*](/en/Integrations/OBS/OBS-Events) 
+* [OBS Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists.*](/en/Integrations/OBS/OBS-Events)
+* [OBS Requests *Contains a list of requests that are supported with OBS raw.*](/en/Integrations/OBS/OBS-Events) 
 {.links-list}
