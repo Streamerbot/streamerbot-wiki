@@ -1,8 +1,8 @@
 ---
 title: SetFilenameFormatting
-description: Enable/disable sending of the Heartbeat event
+description: Set the filename formatting string
 published: true
-date: 2022-06-29T17:58:28.934Z
+date: 2022-06-29T18:03:59.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-29T17:58:28.934Z
