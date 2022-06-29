@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-29T21:16:50.147Z
+date: 2022-06-29T21:21:41.231Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -243,16 +243,9 @@ void SendAction(string action, bool bot = true);
 void SendWhisper(string userName, string message);
 void TimeoutUser(string userName, int duration);
 ```
-
-> Requires minimum version 0.0.50
-{.is-info}
-
 ```csharp
 List<Cheermote> GetCheermotes();
 ```
-
-> Requires minimum version 0.1.3
-{.is-info}
 
 ```csharp
 void TwitchSubscriberOnly(bool enabled = true);
