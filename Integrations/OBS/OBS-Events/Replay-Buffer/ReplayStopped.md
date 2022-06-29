@@ -2,7 +2,7 @@
 title: ReplayStopped
 description: Replay Buffer stopped successfully
 published: true
-date: 2022-06-28T13:28:41.979Z
+date: 2022-06-29T02:33:50.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:12:14.645Z
@@ -18,6 +18,6 @@ dateCreated: 2022-06-27T20:12:14.645Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `ReplayStopped`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#replaystopped)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#replaystopped)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
