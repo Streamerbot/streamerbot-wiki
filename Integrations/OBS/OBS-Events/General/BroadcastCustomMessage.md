@@ -2,7 +2,7 @@
 title: BroadcastCustomMessage
 description: A custom broadcast message, sent by the server, requested by one of the websocket clients.
 published: true
-date: 2022-06-28T13:24:01.607Z
+date: 2022-06-29T02:35:17.146Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:56:37.417Z
@@ -20,6 +20,6 @@ dateCreated: 2022-06-27T20:56:37.417Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `BroadcastCustomMessage`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#broadcastcustommessage)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#broadcastcustommessage)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
