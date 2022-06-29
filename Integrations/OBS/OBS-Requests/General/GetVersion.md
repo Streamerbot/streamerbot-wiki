@@ -2,7 +2,7 @@
 title: GetVersion
 description: Returns the latest version of the plugin and the API.
 published: true
-date: 2022-06-29T18:11:57.709Z
+date: 2022-06-29T18:13:38.619Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T10:44:13.410Z
@@ -16,6 +16,7 @@ dateCreated: 2022-06-27T10:44:13.410Z
 "request-type": "GetVersion"
 }
 ```
+
 ## Request Fields
 > No request fields required.
 {.is-success}
