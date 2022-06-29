@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-06-03T19:04:49.193Z
+date: 2022-06-29T15:07:47.669Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -36,9 +36,11 @@ These are be broken down into the following 10 Categories, each will have its ow
 
 ## Channel Point Rewards
 - [Channel Point Rewards *Execute actions on point redemptions*](/Twitch/Channel-Point-Rewards)
+{.links-list}
 
 ## Polls
 - [Polls *Variables*](/Twitch/Polls) 
+{.links-list}
 
 ## Predictions
 - [Predictions *Variables*](/Twitch/Predictions)
