@@ -22,5 +22,5 @@ Next in the Sub-Action's pane you will need to add this sub action so to do this
 
 
 
-In this Dialog box you have a **'Voice:'** input field here you would enter the voices ID of your choice  . 
+
 
