@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-06-29T13:30:46.501Z
+date: 2022-06-29T13:33:15.315Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -378,10 +378,11 @@ Configuration of event monitoring is found in this sub-section, see [Events](/en
 * [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
 * [Stream Update *When the Stream Category or Title changes* *CREATE ME*](/Events/Stream-Update)
 * [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Twitch/Polls)
-* [Predictions *Set up a prediction between 2-5 options that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
+* [Predictions *Set up a prediction between 2-10 options that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
 {.links-list}
 
-
+> For predictions you need to be on v0.1.9 to have 2-10 options available on lower versions it's 2 options
+{.is-danger}
 
 
 
