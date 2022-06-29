@@ -2,7 +2,7 @@
 title: GetFilenameFormatting
 description: Get the filename formatting string
 published: true
-date: 2022-06-29T18:08:58.087Z
+date: 2022-06-29T18:17:16.439Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-29T18:08:58.087Z
@@ -16,6 +16,7 @@ dateCreated: 2022-06-29T18:08:58.087Z
 "request-type": "GetFilenameFormatting"
 }
 ```
+
 ## Request Fields
 > No request fields required.
 {.is-success}
@@ -26,6 +27,7 @@ dateCreated: 2022-06-29T18:08:58.087Z
 | `obsRaw.filename-formatting` | <kbd>string</kbd> | Filename formatting string to set.
 | `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
 | `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+
 ## Explaination
 > Details coming soon...
 {.is-info}
