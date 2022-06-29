@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-27T12:33:14.729Z
+date: 2022-06-29T21:16:50.147Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -377,9 +377,6 @@ float Duration;
 
 ## Markers
 
-> Requires minimum verion 0.1.4
-{.is-info}
-
 ```csharp
 StreamMarker CreateStreamMarker(string description);
 ```
@@ -419,12 +416,12 @@ bool SetChannelGameById(string gameId);
 > Requires minimum verion 0.1.9
 {.is-info}
 
+> Even though the color parameter is present, currently, due to a Twitch limitation, only null is supported, this will use the default announce command.  When Twitch fixes this, supported values will be `blue`, `orange`, `green`, `purple`
+{.is-warning}
+
 ```csharp
 void TwitchAnnounce(string message, string color = null);
 ```
-
-> Even though the color parameter is present, currently, due to a Twitch limitation, only null is supported, this will use the default announce command.  When Twitch fixes this, supported values will be `blue`, `orange`, `green`, `purple`
-{.is-warning}
 
 ## OAuth & Client Id
 > Requires minimum verion 0.1.10
