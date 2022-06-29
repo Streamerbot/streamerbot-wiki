@@ -2,7 +2,7 @@
 title: PreviewSceneChanged
 description: The selected preview scene has changed (only available in Studio Mode).
 published: true
-date: 2022-06-28T20:26:02.648Z
+date: 2022-06-29T02:41:26.168Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T19:12:25.206Z
