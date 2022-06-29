@@ -2,7 +2,7 @@
 title: SourceAudioActivated
 description: A source has added audio.
 published: true
-date: 2022-06-28T15:13:12.467Z
+date: 2022-06-29T02:37:44.052Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:12:08.670Z
@@ -19,6 +19,6 @@ dateCreated: 2022-06-28T15:12:08.670Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceAudioActivated`
 | `obsEvent._json` | Everything above in a json format
 
-* [Offical OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourceaudioactivated)
+* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourceaudioactivated)
 * [<= Back](/en/Integrations/OBS/OBS-Events)
 {.links-list}
