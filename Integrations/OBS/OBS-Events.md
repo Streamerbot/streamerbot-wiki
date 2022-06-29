@@ -2,7 +2,7 @@
 title: OBS Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: true
-date: 2022-06-28T19:20:36.504Z
+date: 2022-06-29T03:03:23.755Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -15,6 +15,10 @@ There are a handful of events that the OBS websocket broadcasts when things occu
 It's important to note, that while it may seem like one event maybe the one to use, there is the possibility that another one is better suited for the use case.
 
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
+
+> This page is done
+{.is-success}
+
 
 ## [Scenes](/en/Integrations/OBS/OBS-Events/Scenes)
 * [SwitchScenes](/en/Integrations/OBS/OBS-Events/Scenes/SwitchScenes)
