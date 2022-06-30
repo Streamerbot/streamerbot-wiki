@@ -2,14 +2,11 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T19:59:57.592Z
+date: 2022-06-30T20:02:16.989Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
-
-- [Generic](/en/Variables/Generic)
-{.links-list}
 
 > This page will be revamped everything below is going to be changed
 {.is-warning}
@@ -63,6 +60,10 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 ***
 
 # Generic
+
+
+- [Generic](/en/Variables/Generic)
+{.links-list}
 
 Generic variables are available to most event sources, so consider these the minimum you can use. Other sources will expand on these with variables specific to that event or sub-action
 
