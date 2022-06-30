@@ -2,7 +2,7 @@
 title: OBS Requests
 description: 
 published: true
-date: 2022-06-30T05:45:21.259Z
+date: 2022-06-30T05:56:52.156Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T11:00:55.416Z
@@ -47,126 +47,126 @@ dateCreated: 2022-06-27T11:00:55.416Z
 ## [Sources](/en/Integrations/OBS/OBS-Requests/Sources)
 > These pages don't exist.
 {.is-danger}
-* GetMediaSourcesList
-* CreateSource
-* GetSourcesList
-* GetSourceTypesList
-* GetVolume
-* SetVolume
-* SetAudioTracks
-* GetAudioTracks
-* GetMute
-* SetMute
-* ToggleMute
-* GetSourceActive
-* GetAudioActive
-* SetSourceName
-* SetSyncOffset
-* GetSyncOffset
-* GetSourceSettings
-* SetSourceSettings
-* GetTextGDIPlusProperties
-* SetTextGDIPlusProperties
-* GetTextFreetype2Properties
-* SetTextFreetype2Properties
-* GetBrowserSourceProperties
-* SetBrowserSourceProperties
-* GetSpecialSources
-* GetSourceFilters
-* GetSourceFilterInfo
-* AddFilterToSource
-* RemoveFilterFromSource
-* ReorderSourceFilter
-* MoveSourceFilter
-* SetSourceFilterSettings
-* SetSourceFilterVisibility
-* GetAudioMonitorType
-* SetAudioMonitorType
-* GetSourceDefaultSettings
-* TakeSourceScreenshot
-* RefreshBrowserSource
+* [GetMediaSourcesList](/en/Integrations/OBS/OBS-Requests/Sources/GetMediaSourcesList)
+* [CreateSource](/en/Integrations/OBS/OBS-Requests/Sources/CreateSource)
+* [GetSourcesList](/en/Integrations/OBS/OBS-Requests/Sources/GetSourcesList)
+* [GetSourceTypesList](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceTypesList)
+* [GetVolume](/en/Integrations/OBS/OBS-Requests/Sources/GetVolume)
+* [SetVolume](/en/Integrations/OBS/OBS-Requests/Sources/SetVolume)
+* [SetAudioTracks](/en/Integrations/OBS/OBS-Requests/Sources/SetAudioTracks)
+* [GetAudioTracks](/en/Integrations/OBS/OBS-Requests/Sources/GetAudioTracks)
+* [GetMute](/en/Integrations/OBS/OBS-Requests/Sources/GetMute)
+* [SetMute](/en/Integrations/OBS/OBS-Requests/Sources/SetMute)
+* [ToggleMute](/en/Integrations/OBS/OBS-Requests/Sources/ToggleMute)
+* [GetSourceActive](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceActive)
+* [GetAudioActive](/en/Integrations/OBS/OBS-Requests/Sources/GetAudioActive)
+* [SetSourceName](/en/Integrations/OBS/OBS-Requests/Sources/SetSourceName)
+* [SetSyncOffset](/en/Integrations/OBS/OBS-Requests/Sources/SetSyncOffset)
+* [GetSyncOffset](/en/Integrations/OBS/OBS-Requests/Sources/GetSyncOffset)
+* [GetSourceSettings](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceSettings)
+* [SetSourceSettings](/en/Integrations/OBS/OBS-Requests/Sources/SetSourceSettings)
+* [GetTextGDIPlusProperties](/en/Integrations/OBS/OBS-Requests/Sources/GetTextGDIPlusProperties)
+* [SetTextGDIPlusProperties](/en/Integrations/OBS/OBS-Requests/Sources/SetTextGDIPlusProperties)
+* [GetTextFreetype2Properties](/en/Integrations/OBS/OBS-Requests/Sources/GetTextFreetype2Properties)
+* [SetTextFreetype2Properties](/en/Integrations/OBS/OBS-Requests/Sources/SetTextFreetype2Properties)
+* [GetBrowserSourceProperties](/en/Integrations/OBS/OBS-Requests/Sources/GetBrowserSourceProperties)
+* [SetBrowserSourceProperties](/en/Integrations/OBS/OBS-Requests/Sources/SetBrowserSourceProperties)
+* [GetSpecialSources](/en/Integrations/OBS/OBS-Requests/Sources/GetSpecialSources)
+* [GetSourceFilters](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceFilters)
+* [GetSourceFilterInfo](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceFilterInfo)
+* [AddFilterToSource](/en/Integrations/OBS/OBS-Requests/Sources/AddFilterToSource)
+* [RemoveFilterFromSource](/en/Integrations/OBS/OBS-Requests/Sources/RemoveFilterFromSource)
+* [ReorderSourceFilter](/en/Integrations/OBS/OBS-Requests/Sources/ReorderSourceFilter)
+* [MoveSourceFilter](/en/Integrations/OBS/OBS-Requests/Sources/MoveSourceFilter)
+* [SetSourceFilterSettings](/en/Integrations/OBS/OBS-Requests/Sources/SetSourceFilterSettings)
+* [SetSourceFilterVisibility](/en/Integrations/OBS/OBS-Requests/Sources/SetSourceFilterVisibility)
+* [GetAudioMonitorType](/en/Integrations/OBS/OBS-Requests/Sources/GetAudioMonitorType)
+* [SetAudioMonitorType](/en/Integrations/OBS/OBS-Requests/Sources/SetAudioMonitorType)
+* [GetSourceDefaultSettings](/en/Integrations/OBS/OBS-Requests/Sources/GetSourceDefaultSettings)
+* [TakeSourceScreenshot](/en/Integrations/OBS/OBS-Requests/Sources/TakeSourceScreenshot)
+* [RefreshBrowserSource](/en/Integrations/OBS/OBS-Requests/Sources/RefreshBrowserSource)
 {.links-list}
 ## [Outputs](/en/Integrations/OBS/OBS-Requests/Outputs)
 > These pages don't exist.
 {.is-danger}
-* ListOutputs
-* GetOutputInfo
-* StartOutput
-* StopOutput
+* [ListOutputs](/en/Integrations/OBS/OBS-Requests/Outputs/ListOutputs)
+* [GetOutputInfo](/en/Integrations/OBS/OBS-Requests/Outputs/GetOutputInfo)
+* [StartOutput](/en/Integrations/OBS/OBS-Requests/Outputs/StartOutput)
+* [StopOutput](/en/Integrations/OBS/OBS-Requests/Outputs/StopOutput)
 {.links-list}
 ## [Profiles](/en/Integrations/OBS/OBS-Requests/Profiles)
 > These pages don't exist.
 {.is-danger}
-* SetCurrentProfile
-* GetCurrentProfile
-* ListProfiles
+* [SetCurrentProfile](/en/Integrations/OBS/OBS-Requests/Profiles/SetCurrentProfile)
+* [GetCurrentProfile](/en/Integrations/OBS/OBS-Requests/Profiles/GetCurrentProfile)
+* [ListProfiles](/en/Integrations/OBS/OBS-Requests/Profiles/ListProfiles)
 {.links-list}
 ## [Recording](/en/Integrations/OBS/OBS-Requests/Recording)
 > These pages don't exist.
 {.is-danger}
-* GetRecordingStatus
-* StartStopRecording
-* StartRecording
-* StopRecording
-* PauseRecording
-* ResumeRecording
-* SetRecordingFolder
-* GetRecordingFolder
+* [GetRecordingStatus](/en/Integrations/OBS/OBS-Requests/Recording/GetRecordingStatus)
+* [StartStopRecording](/en/Integrations/OBS/OBS-Requests/Recording/StartStopRecording)
+* [StartRecording](/en/Integrations/OBS/OBS-Requests/Recording/StartRecording)
+* [StopRecording](/en/Integrations/OBS/OBS-Requests/Recording/StopRecording)
+* [PauseRecording](/en/Integrations/OBS/OBS-Requests/Recording/PauseRecording)
+* [ResumeRecording](/en/Integrations/OBS/OBS-Requests/Recording/ResumeRecording)
+* [SetRecordingFolder](/en/Integrations/OBS/OBS-Requests/Recording/SetRecordingFolder)
+* [GetRecordingFolder](/en/Integrations/OBS/OBS-Requests/Recording/GetRecordingFolder)
 {.links-list}
 ## [Replay Buffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer)
 > These pages don't exist.
 {.is-danger}
-* GetReplayBufferStatus
-* StartStopReplayBuffer
-* StartReplayBuffer
-* StopReplayBuffer
-* SaveReplayBuffer
+* [GetReplayBufferStatus](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/GetReplayBufferStatus)
+* [StartStopReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/StartStopReplayBuffer)
+* [StartReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/StartReplayBuffer)
+* [StopReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/StopReplayBuffer)
+* [SaveReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/SaveReplayBuffer)
 {.links-list}
 ## [Scene Collections](/en/Integrations/OBS/OBS-Requests/Scene-Collections)
 > These pages don't exist.
 {.is-danger}
-* SetCurrentSceneCollection
-* GetCurrentSceneCollection
-* ListSceneCollections
+* [SetCurrentSceneCollection](/en/Integrations/OBS/OBS-Requests/Scene-Collections/SetCurrentSceneCollection)
+* [GetCurrentSceneCollection](/en/Integrations/OBS/OBS-Requests/Scene-Collections/GetCurrentSceneCollection)
+* [ListSceneCollections](/en/Integrations/OBS/OBS-Requests/Scene-Collections/ListSceneCollections)
 {.links-list}
 ## [Scene Items](/en/Integrations/OBS/OBS-Requests/Scene-Items)
 > These pages don't exist.
 {.is-danger}
-* GetSceneItemList
-* GetSceneItemProperties
-* SetSceneItemProperties
-* ResetSceneItem
-* SetSceneItemRender
-* SetSceneItemPosition
-* SetSceneItemTransform
-* SetSceneItemCrop
-* DeleteSceneItem
-* AddSceneItem
-* DuplicateSceneItem
+* [GetSceneItemList](/en/Integrations/OBS/OBS-Requests/Scene-Items/GetSceneItemList)
+* [GetSceneItemProperties](/en/Integrations/OBS/OBS-Requests/Scene-Items/GetSceneItemProperties)
+* [SetSceneItemProperties](/en/Integrations/OBS/OBS-Requests/Scene-Items/SetSceneItemProperties)
+* [ResetSceneItem](/en/Integrations/OBS/OBS-Requests/Scene-Items/ResetSceneItem)
+* [SetSceneItemRender](/en/Integrations/OBS/OBS-Requests/Scene-Items/SetSceneItemRender)
+* [SetSceneItemPosition](/en/Integrations/OBS/OBS-Requests/Scene-Items/SetSceneItemPosition)
+* [SetSceneItemTransform](/en/Integrations/OBS/OBS-Requests/Scene-Items/SetSceneItemTransform)
+* [SetSceneItemCrop](/en/Integrations/OBS/OBS-Requests/Scene-Items/SetSceneItemCrop)
+* [DeleteSceneItem](/en/Integrations/OBS/OBS-Requests/Scene-Items/DeleteSceneItem)
+* [AddSceneItem](/en/Integrations/OBS/OBS-Requests/Scene-Items/AddSceneItem)
+* [DuplicateSceneItem](/en/Integrations/OBS/OBS-Requests/Scene-Items/DuplicateSceneItem)
 {.links-list}
 ## [Scenes](/en/Integrations/OBS/OBS-Requests/Scenes)
 > These pages don't exist.
 {.is-danger}
-* SetCurrentScene
-* GetCurrentScene
-* GetSceneList
-* CreateScene
-* ReorderSceneItems
-* SetSceneTransitionOverride
-* RemoveSceneTransitionOverride
-* GetSceneTransitionOverride
+* [SetCurrentScene](/en/Integrations/OBS/OBS-Requests/Scenes/SetCurrentScene)
+* [GetCurrentScene](/en/Integrations/OBS/OBS-Requests/Scenes/GetCurrentScene)
+* [GetSceneList](/en/Integrations/OBS/OBS-Requests/Scenes/GetSceneList)
+* [CreateScene](/en/Integrations/OBS/OBS-Requests/Scenes/CreateScene)
+* [ReorderSceneItems](/en/Integrations/OBS/OBS-Requests/Scenes/ReorderSceneItems)
+* [SetSceneTransitionOverride](/en/Integrations/OBS/OBS-Requests/Scenes/SetSceneTransitionOverride)
+* [RemoveSceneTransitionOverride](/en/Integrations/OBS/OBS-Requests/Scenes/RemoveSceneTransitionOverride)
+* [GetSceneTransitionOverride](/en/Integrations/OBS/OBS-Requests/Scenes/GetSceneTransitionOverride)
 {.links-list}
 ## [Streaming](/en/Integrations/OBS/OBS-Requests/Streaming)
 > These pages don't exist.
 {.is-danger}
-* GetStreamingStatus
-* StartStopStreaming
-* StartStreaming
-* StopStreaming
-* SetStreamSettings
-* GetStreamSettings
-* SaveStreamSettings
-* SendCaptions
+* [GetStreamingStatus](/en/Integrations/OBS/OBS-Requests/Streaming/GetStreamingStatus)
+* [StartStopStreaming](/en/Integrations/OBS/OBS-Requests/Streaming/StartStopStreaming)
+* [StartStreaming](/en/Integrations/OBS/OBS-Requests/Streaming/StartStreaming)
+* [StopStreaming](/en/Integrations/OBS/OBS-Requests/Streaming/StopStreaming)
+* [SetStreamSettings](/en/Integrations/OBS/OBS-Requests/Streaming/SetStreamSettings)
+* [GetStreamSettings](/en/Integrations/OBS/OBS-Requests/Streaming/GetStreamSettings)
+* [SaveStreamSettings](/en/Integrations/OBS/OBS-Requests/Streaming/SaveStreamSettings)
+* [SendCaptions](/en/Integrations/OBS/OBS-Requests/Streaming/SendCaptions)
 {.links-list}
 ## [Studio Mode](/en/Integrations/OBS/OBS-Requests/Studio-Mode)
 > These pages don't exist.
