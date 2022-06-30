@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-06-29T15:07:47.669Z
+date: 2022-06-30T20:22:38.352Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -24,7 +24,7 @@ These are be broken down into the following 10 Categories, each will have its ow
 * [General *Follows and Chat related events*](/Events/General)
 * [Cheers *Bit Cheer events*](/Events/Cheers)
 * [Sub *First time subscribers*](/Events/Sub)
-* [Re-Sub *Users renewing their own subscription*](/Events/Resub)
+* [Re-Sub *Users renewing their own subscription*](/Events/Sub)
 * [Gift Sub *Gifting a subscription to a named person*](/Events/Gift-Sub)
 * [Gift Bomb *Gifting 1 or more subscriptions to random users*](/Events/Gift-Bomb)
 * [Raid *Incoming and Outgoing Raids*](/Events/Raid)
