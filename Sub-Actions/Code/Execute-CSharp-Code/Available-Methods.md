@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-29T21:21:41.231Z
+date: 2022-06-30T14:19:39.084Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -516,7 +516,7 @@ void ObsSourceUnMute(string scene, string source, string filterName, int connect
 void ObsSourceMuteToggle(string scene, string source, string filterName, int connection = 0);
 ```
 
-## Raw
+## [Raw](/en/Sub-Actions/OBS/Raw)
 > There was an error with the ObsSendRaw method, it does actually return the JSON string from the call for you to parse, and takes a JSON string for the data to send.  A changelog had this information, but forgot to update the list of methods.
 {.is-info}
 
