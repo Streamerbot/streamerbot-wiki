@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-06-30T04:43:06.051Z
+date: 2022-06-30T14:16:25.297Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -106,8 +106,6 @@ I will provide some samples for folks to use here
 {.links-list}
 
 ## Tutorials for beginners
-### nutty VODs
-* [Programming In C# Crash Course For Streamer.bot *by nutty VODs* *1 video: 1:21:48*](https://youtu.be/rS5ZuIZV_y0)
-{.links-list}
-### TerrierDarts
+* [Programming In C# Crash Course For Streamer.bot *by nutty VODs* *1 video 1:21:48*](https://youtu.be/rS5ZuIZV_y0)
+* [C# Shorts *by Terrier Darts* *1 video 3:42*](https://www.youtube.com/playlist?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g)
 {.links-list}
