@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T20:50:57.494Z
+date: 2022-06-30T20:53:41.156Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -122,8 +122,22 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Hosts *When a user begins hosting your channel*](/en/Events/hosts)
 - [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
 - [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
+- [Stream Update *Whenever the `Title` or `Category` of your stream is changed*](/en/Events/Stream-Update)
 
 {.links-list}
+
+Variable | Description
+---------:|------------
+`status` | Stream's current Title
+`gameUpdate` | Boolean value denoting the Game category changed
+`statusUpdate` | Boolean value denoting the stream Title changed
+`gameId` | Stream's current game category ID
+`gameName` | Stream's current game name
+`oldStatus` | Previous stream status
+`oldGameId` | Previous game category ID
+`oldGameName` | Previous game name
+`gameBoxArt` | URL for current game boxart image <span style="color:blue">*(0.15+)*</span>
+`oldGameBoxArt` | URL for previous game boxart image <span style="color:blue">*(0.15+)*</span>
 
 
 
@@ -169,20 +183,6 @@ Variable | Description
 
 
 
-### [Stream Update](/en/Events/Stream-Update)
-
-Variable | Description
----------:|------------
-`status` | Stream's current Title
-`gameUpdate` | Boolean value denoting the Game category changed
-`statusUpdate` | Boolean value denoting the stream Title changed
-`gameId` | Stream's current game category ID
-`gameName` | Stream's current game name
-`oldStatus` | Previous stream status
-`oldGameId` | Previous game category ID
-`oldGameName` | Previous game name
-`gameBoxArt` | URL for current game boxart image <span style="color:blue">*(0.15+)*</span>
-`oldGameBoxArt` | URL for previous game boxart image <span style="color:blue">*(0.15+)*</span>
 
 ### [Polls](/en/Twitch/Polls)
 
