@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T21:34:20.526Z
+date: 2022-06-30T21:45:14.572Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -228,9 +228,9 @@ The above variables are available for all poll actions
 
 ***
 
-## YouTube
+# YouTube Platform
 
-# {.tabset}
+
 
 ## Broadcast Started
 
