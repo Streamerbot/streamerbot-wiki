@@ -2,7 +2,7 @@
 title: Gift Bombs
 description: 
 published: true
-date: 2021-12-28T00:11:35.202Z
+date: 2022-06-30T20:33:20.325Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-12T22:44:55.140Z
@@ -25,3 +25,14 @@ Different alerts can also be configured for `anonymous` and `non-anonymous` gift
 The ranges here refer to the number of gift subs in this specific purchase.
 Ranges can be `Generic` to match any Tier or can be set to count gifts of specific tiers only.
 The Ranges can also be `Anonymous`, `Non-Anonymous` or `Either`
+
+# Variables
+
+
+Variable | Description
+---------:|------------
+`gifts` | Number of subscriptions in this gift bomb
+`totalGifts` | Total number of subscriptions this user has gifted
+`fromGiftBomb` | Boolean value if sub came from a gift bomb |  `True`/`False` 
+`anonymous` | Boolean value indicating the gift was anonymous |  `True`/`False` 
+`tier` | Subscription tier as a string | `tier 1`. `tier 2`, `tier 3`
