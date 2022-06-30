@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-27T21:20:36.596Z
+date: 2022-06-30T16:53:50.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -43,8 +43,8 @@ Variable | Description
 `randomUser0` | The username of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
 `randomUserName0` | The Display name of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
 `__source` | The name of the event triggering the action
-`date` | current system date
-`time` | current system time
+`date` | current system date | Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`
+`time` | current system time | Accepts any standard formtting notation eg. `HH-mm`
 `actionId` | The unique ID number of the first action called |  <span style="color:blue">*(0.1.8+)*</span>
 `runningActionId` | The instance ID number of the action in the queue | <span style="color:blue">*(0.1.8+)*</span>
 `eventSource` | a string value to specify which platform generated the event| <span style="color:blue">*(0.1.8+)*</span> `twitch`, `youtube`
