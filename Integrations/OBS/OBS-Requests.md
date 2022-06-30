@@ -2,7 +2,7 @@
 title: OBS Requests
 description: 
 published: true
-date: 2022-06-30T05:56:52.156Z
+date: 2022-06-30T07:51:00.217Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T11:00:55.416Z
@@ -31,7 +31,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [Sleep](/en/Integrations/OBS/OBS-Requests/General/Sleep)
 {.links-list}
 ## [Media Control](/en/Integrations/OBS/OBS-Requests/Media-Control)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [PlayPauseMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/PlayPauseMedia)
 * [RestartMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/RestartMedia)
@@ -45,7 +45,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [GetMediaState](/en/Integrations/OBS/OBS-Requests/Media-Control/GetMediaState)
 {.links-list}
 ## [Sources](/en/Integrations/OBS/OBS-Requests/Sources)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [GetMediaSourcesList](/en/Integrations/OBS/OBS-Requests/Sources/GetMediaSourcesList)
 * [CreateSource](/en/Integrations/OBS/OBS-Requests/Sources/CreateSource)
@@ -87,7 +87,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [RefreshBrowserSource](/en/Integrations/OBS/OBS-Requests/Sources/RefreshBrowserSource)
 {.links-list}
 ## [Outputs](/en/Integrations/OBS/OBS-Requests/Outputs)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [ListOutputs](/en/Integrations/OBS/OBS-Requests/Outputs/ListOutputs)
 * [GetOutputInfo](/en/Integrations/OBS/OBS-Requests/Outputs/GetOutputInfo)
@@ -95,14 +95,14 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [StopOutput](/en/Integrations/OBS/OBS-Requests/Outputs/StopOutput)
 {.links-list}
 ## [Profiles](/en/Integrations/OBS/OBS-Requests/Profiles)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [SetCurrentProfile](/en/Integrations/OBS/OBS-Requests/Profiles/SetCurrentProfile)
 * [GetCurrentProfile](/en/Integrations/OBS/OBS-Requests/Profiles/GetCurrentProfile)
 * [ListProfiles](/en/Integrations/OBS/OBS-Requests/Profiles/ListProfiles)
 {.links-list}
 ## [Recording](/en/Integrations/OBS/OBS-Requests/Recording)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [GetRecordingStatus](/en/Integrations/OBS/OBS-Requests/Recording/GetRecordingStatus)
 * [StartStopRecording](/en/Integrations/OBS/OBS-Requests/Recording/StartStopRecording)
@@ -114,7 +114,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [GetRecordingFolder](/en/Integrations/OBS/OBS-Requests/Recording/GetRecordingFolder)
 {.links-list}
 ## [Replay Buffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [GetReplayBufferStatus](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/GetReplayBufferStatus)
 * [StartStopReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/StartStopReplayBuffer)
@@ -123,14 +123,14 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [SaveReplayBuffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer/SaveReplayBuffer)
 {.links-list}
 ## [Scene Collections](/en/Integrations/OBS/OBS-Requests/Scene-Collections)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [SetCurrentSceneCollection](/en/Integrations/OBS/OBS-Requests/Scene-Collections/SetCurrentSceneCollection)
 * [GetCurrentSceneCollection](/en/Integrations/OBS/OBS-Requests/Scene-Collections/GetCurrentSceneCollection)
 * [ListSceneCollections](/en/Integrations/OBS/OBS-Requests/Scene-Collections/ListSceneCollections)
 {.links-list}
 ## [Scene Items](/en/Integrations/OBS/OBS-Requests/Scene-Items)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [GetSceneItemList](/en/Integrations/OBS/OBS-Requests/Scene-Items/GetSceneItemList)
 * [GetSceneItemProperties](/en/Integrations/OBS/OBS-Requests/Scene-Items/GetSceneItemProperties)
@@ -145,7 +145,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [DuplicateSceneItem](/en/Integrations/OBS/OBS-Requests/Scene-Items/DuplicateSceneItem)
 {.links-list}
 ## [Scenes](/en/Integrations/OBS/OBS-Requests/Scenes)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [SetCurrentScene](/en/Integrations/OBS/OBS-Requests/Scenes/SetCurrentScene)
 * [GetCurrentScene](/en/Integrations/OBS/OBS-Requests/Scenes/GetCurrentScene)
@@ -157,7 +157,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [GetSceneTransitionOverride](/en/Integrations/OBS/OBS-Requests/Scenes/GetSceneTransitionOverride)
 {.links-list}
 ## [Streaming](/en/Integrations/OBS/OBS-Requests/Streaming)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
 * [GetStreamingStatus](/en/Integrations/OBS/OBS-Requests/Streaming/GetStreamingStatus)
 * [StartStopStreaming](/en/Integrations/OBS/OBS-Requests/Streaming/StartStopStreaming)
@@ -169,35 +169,35 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [SendCaptions](/en/Integrations/OBS/OBS-Requests/Streaming/SendCaptions)
 {.links-list}
 ## [Studio Mode](/en/Integrations/OBS/OBS-Requests/Studio-Mode)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
-* GetStudioModeStatus
-* GetPreviewScene
-* SetPreviewScene
-* TransitionToProgram
-* EnableStudioMode
-* DisableStudioMode
-* ToggleStudioMode
+* [GetStudioModeStatus](/en/Integrations/OBS/OBS-Requests/Studio-Mode/GetStudioModeStatus)
+* [GetPreviewScene](/en/Integrations/OBS/OBS-Requests/Studio-Mode/GetPreviewScene)
+* [SetPreviewScene](/en/Integrations/OBS/OBS-Requests/Studio-Mode/SetPreviewScene)
+* [TransitionToProgram](/en/Integrations/OBS/OBS-Requests/Studio-Mode/TransitionToProgram)
+* [EnableStudioMode](/en/Integrations/OBS/OBS-Requests/Studio-Mode/EnableStudioMode)
+* [DisableStudioMode](/en/Integrations/OBS/OBS-Requests/Studio-Mode/DisableStudioMode)
+* [ToggleStudioMode](/en/Integrations/OBS/OBS-Requests/Studio-Mode/ToggleStudioMode)
 {.links-list}
 ## [Transitions](/en/Integrations/OBS/OBS-Requests/Transitions)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
-* GetTransitionList
-* GetCurrentTransition
-* SetCurrentTransition
-* SetTransitionDuration
-* GetTransitionDuration
-* GetTransitionPosition
-* GetTransitionSettings
-* SetTransitionSettings
-* ReleaseTBar
-* SetTBarPosition
+* [GetTransitionList](/en/Integrations/OBS/OBS-Requests/Transitions/GetTransitionList)
+* [GetCurrentTransition](/en/Integrations/OBS/OBS-Requests/Transitions/GetCurrentTransition)
+* [SetCurrentTransition](/en/Integrations/OBS/OBS-Requests/Transitions/SetCurrentTransition)
+* [SetTransitionDuration](/en/Integrations/OBS/OBS-Requests/Transitions/SetTransitionDuration)
+* [GetTransitionDuration](/en/Integrations/OBS/OBS-Requests/Transitions/GetTransitionDuration)
+* [GetTransitionPosition](/en/Integrations/OBS/OBS-Requests/Transitions/GetTransitionPosition)
+* [GetTransitionSettings](/en/Integrations/OBS/OBS-Requests/Transitions/GetTransitionSettings)
+* [SetTransitionSettings](/en/Integrations/OBS/OBS-Requests/Transitions/SetTransitionSettings)
+* [ReleaseTBar](/en/Integrations/OBS/OBS-Requests/Transitions/ReleaseTBar)
+* [SetTBarPosition](/en/Integrations/OBS/OBS-Requests/Transitions/SetTBarPosition)
 {.links-list}
 ## [Virtual Cam](/en/Integrations/OBS/OBS-Requests/Virtual-Cam)
-> These pages don't exist.
+> These pages don't exist yet.
 {.is-danger}
-* GetVirtualCamStatus
-* StartStopVirtualCam
-* StartVirtualCam
-* StopVirtualCam
+* [GetVirtualCamStatus](/en/Integrations/OBS/OBS-Requests/Virtual-Cam/GetVirtualCamStatus)
+* [StartStopVirtualCam](/en/Integrations/OBS/OBS-Requests/Virtual-Cam/StartStopVirtualCam)
+* [StartVirtualCam](/en/Integrations/OBS/OBS-Requests/Virtual-Cam/StartVirtualCam)
+* [StopVirtualCam](/en/Integrations/OBS/OBS-Requests/Virtual-Cam/StopVirtualCam)
 {.links-list}
