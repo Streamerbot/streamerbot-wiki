@@ -2,7 +2,7 @@
 title: YouTube
 description: 
 published: true
-date: 2022-06-29T15:17:39.029Z
+date: 2022-06-30T23:04:58.166Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -22,7 +22,7 @@ First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you 
 
 Now a third row of tabs will appear, Navigate to the `Account` Tab in this YouTube section. It should look like the one below. 
 
-![yt_account_new.png](/youtube/yt_account_new.png){.align-center}
+![yt_account_new.png](/youtube/yt_account_new.png)
 
 Next click the `Sign in with Google` button your default browser will open. In the browser you will need to login to Google. when you have done this, you will be presented with a similar screen to the one below here you will need to select your "YouTube" Account to proceed to the permissions page.
 
