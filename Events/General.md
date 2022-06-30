@@ -1,8 +1,8 @@
 ---
 title: General
-description: 
+description: Documentation for the Platforms -> Twitch -> Events -> General tab
 published: true
-date: 2022-06-30T20:49:00.074Z
+date: 2022-06-30T20:52:56.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
