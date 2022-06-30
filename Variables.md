@@ -2,11 +2,17 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T18:59:44.732Z
+date: 2022-06-30T19:59:57.592Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
+
+- [Generic](/en/Variables/Generic)
+{.links-list}
+
+> This page will be revamped everything below is going to be changed
+{.is-warning}
 
 # Variables (Arguments)
 
