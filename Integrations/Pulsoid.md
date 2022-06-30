@@ -2,7 +2,7 @@
 title: Pulsoid
 description: 
 published: true
-date: 2022-06-30T23:27:45.160Z
+date: 2022-06-30T23:27:57.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z
@@ -12,7 +12,7 @@ dateCreated: 2022-06-01T04:14:54.410Z
 
 No longer an extension written in C#, Pulsoid support is now a native part of **Streamer.bot**
 
-![pulsoid-integration.png](/pulsoid-integration.png)
+![pulsoid-integration.png](/pulsoid-integration.png =x400)
 
 After connecting your account, by clicking **Connect to Pulsoid** and following the prompts in your browser.  You can assign an action to the `Heart Rate` Event, and when Pulsoid broadcasts a heart beat, this action will run.
 
