@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-30T14:19:39.084Z
+date: 2022-06-30T14:21:33.338Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -87,8 +87,6 @@ void UnsetUser(string userName, bool persisted = true);
 ```
 
 ## Groups
-> Requires minimum version 0.0.58
-{.is-info}
 
 ```csharp
 bool UserInGroup(int userId, string groupName);
@@ -148,8 +146,6 @@ void WebsocketSend(byte[] data, int connection = 0);
 ```
 
 ## Custom Websocket Servers
-> Requires minimum version 0.0.59
-{.is-info}
 
 ```csharp
 void WebsocketCustomServerStart(int connection = 0);
@@ -170,8 +166,6 @@ int WebsocketCustomServerGetConnectionByName(string name);
 
 ## General
 
-> Requires minimum version 0.0.61
-{.is-info}
 ```csharp
 bool RunAction(string actionName, bool runImmediately = true);
 ```
@@ -188,9 +182,6 @@ void EnableAction(string actionName);
 ```
 
 ## Action Queues
-
-> Requires version 0.0.50 or higher
-{.is-info}
 
 ```csharp
 void PauseActionQueue(string name);
@@ -285,9 +276,6 @@ bool UpdateReward(string rewardId, string title = null, string prompt = null, in
 
 ## Polls
 
-> Requires minimum version 0.0.61
-{.is-info}
-
 ```csharp
 bool TwitchPollCreate(string title, List<string> choices, int duration, int bitsPerVote = 0, int channelPointsPerVote = 0);
 void TwitchPollTerminate(string pollId);
@@ -295,9 +283,6 @@ void TwitchPollArchive(string pollId);
 ```
 
 ## Predictions
-
-> Requires minimum version 0.1.4
-{.is-info}
 
 ```csharp
 string TwitchPredictionCreate(string title, List<string> options, int duration);
@@ -311,18 +296,12 @@ void TwitchPredictionResolve(string predictionId, string winningId);
 > All clip data is returned as oldest to newest, this is a limitation of the Twitch API.  To get most recent clips, one would have to get all the clips for the user, one got-ya for this, there is a hard limit of 1000 clips that can be returned
 {.is-info}
 
-> Requires minimum verion 0.0.50
-{.is-info}
-
 ```csharp
 List<ClipData> GetAllClips();
 List<ClipData> GetClipsForGame(int gameId);
 List<ClipData> GetClipsForUser(int userId);
 List<ClipData> GetClipsForUser(string username);
 ```
-
-> Requires minimum verion 0.1.4
-{.is-info}
 
 ```csharp
 ClipData CreateClip();
