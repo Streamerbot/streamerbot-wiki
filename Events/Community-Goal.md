@@ -2,7 +2,7 @@
 title: Community Goal
 description: Twitch Community Goal
 published: true
-date: 2022-01-22T03:32:07.002Z
+date: 2022-06-30T20:51:05.270Z
 tags: twitch, community, goal
 editor: markdown
 dateCreated: 2022-01-21T05:48:30.807Z
@@ -24,3 +24,26 @@ In the image above we have 2 options one is to add an action to each time a chat
 All you need to do is create an action of each of these and assign them to the relevant triggers `Contribution` or `Finished`
 
 On the right side of this tab you have a test area where you can emulate/test the actions you have assigned to the relevant triggers.
+
+# Variables
+
+
+Variable | Description
+---------:|------------
+`title` | Name of community goal
+`goalAmount` | The total amount required to complete the goal
+`goalAmountFormatted` | The total amount required to complete the goal, formatted
+`contributed` | How much has been contributed to this goal so far
+`contributedFormatted` | How much has been contributed to this goal so far, formatted
+`percentComplete` | How far along the community goal is
+`userContributed` | How much the user have contributed
+`userContribFormatted` | How much the user  contributed as a formatted number
+`userTotalContributed` | The total amount the user has contributed to this goal
+`userTotalContribFormatted` | The total amount the user has contributed to this goal, formatted
+
+Unverified variables - Mileage may vary
+Variable | Description
+---------:|------------
+`startedAt` | Date Time the community goal was started
+`endedAt` | Date Time the community goal ends 
+`daysLeft` | `endedAt` - Current Date Time
