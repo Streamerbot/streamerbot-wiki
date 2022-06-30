@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T20:12:33.751Z
+date: 2022-06-30T20:14:45.484Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -117,29 +117,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
 {.links-list}
 
-Variable | Description| Notes
----------:|------------|---
-`msgId` | Twitch's message ID 
-`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-`isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
-`color` | User's color (if they have chosen one or a random one if not)
-`colorR` | Red value of the `color` variable
-`colorG` | Green value of the `color` variable
-`colorB` | Blue value of the `color` variable
-`message` | Message that was sent to chat
-`emoteCount` | How many Twitch! emotes were found
-`emotes` | Comma Separated list of Twitch! emotes found
-`messageStripped` | The chat message with emotes stripped
-`messageCheermotesStripped` | The chat message with cheer emotes stripped
-`isHighlight` | Boolean for message highlight | `True`/`False`
-`bits` | Number of bits the message has
-`isAction` | Boolean value indicating the message is a `/me` action | `True`/`False`
-`isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
-`replyTo`| if `isReply` is True, populates the username the message is replying to
-`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
-* `cheerEmotes` | List of cheermotes found in the message | [Cheer Event Only] 
-* `anonymous` | Boolean value indicating if the cheer was anonymous| [Cheer Event Only] `True`/`False`
-* `cheerEmoteCount` | How many Twitch! cheer emotes were found | [Cheer Event Only] 
+
 
 ***
 
