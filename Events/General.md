@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T17:45:01.021Z
+date: 2022-06-30T17:50:05.024Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -20,7 +20,7 @@ Event | Description | Notes
 ---|---
 `Follows` | When someone follows your channel, perform this [action](Actions)
 `Whispers` | When someone whispers you directly perform this action | If the whisper itself contains a command, the command action will trigger instead of this generic one
-`Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of [variables](/en/Variables#present-viewers) for each user in chat
+`Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat. [Click Here for Details](/en/Variables#present-viewers) 
 `Chat Message` | When any chat message is recieved that does not contain a command | If the message contains a command, the command action will trigger instead of this generic one
 `Announcement` | When an announcement is made is chat
 `First Words` | The first message a particular user sends to chat within the `Auto Reset` window | This runs alongside the `Chat Message` event so if you have actions set for both, they will both run
@@ -59,6 +59,46 @@ Variable | Description| Notes
 `isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
 `replyTo`| The username the message is replying to | Only populated is `isReply` is `True` 
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
+
+### [Present Viewers](/en/Events/General)
+
+| Value | Description |
+|   ---:|-------------|
+| `isLive` |Boolean for current streaming status |  `True`/`False` 
+
+| `isTest` |Boolean for if this is demo data or not |  `True`/`False` 
+
+| `users` | A Dictionary list of usernames present in IRC chat
+
+
+#### User Dictionary
+>
+> Each user entry will contain the following data:
+> 
+> 
+> | Value | Description | Notes
+> |   ---:|-------------|
+> | `id` | The Numeric ID of this user
+> | `userName` | The user name of this user
+> | `display` | The display name of this user
+> | `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
+> | `isSubscribed` | Boolean for this users subscription status |  `True`/`False` 
+
+{.is-info}
+
+
+***
+#### Live Variables 
+
+If `isLive` is `True` the following variables will also be populated on each tick of the event:
+
+| Value | Description |
+|   ---:|-------------|
+| `title` | The current stream title
+| `gameID` | The ID of the category you are streaming
+| `gameName` | The name of the category you are streaming
+| `viewerCount` | Viewer count at the time of the tick
+| `startedAt` | The time stamp when you started streaming
 
 ### [Announcement](/en/Twitch/Announcement)
 
