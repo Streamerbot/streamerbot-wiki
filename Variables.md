@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T21:00:31.914Z
+date: 2022-06-30T21:12:03.015Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -107,7 +107,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 # Platform Specific
 
 ## Twitch 
-
+# {.tabset}
 ### Events
 
 
