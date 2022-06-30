@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T19:48:57.284Z
+date: 2022-06-30T20:39:40.911Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -17,7 +17,7 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 ## Events
 
 Event | Description | Notes
----|---
+---:|---
 `Follows` | When someone follows your channel
 `Whispers` | When someone whispers your broadcaster account directly | If the whisper itself contains a command, the command action will trigger instead of this generic one
 `Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat
