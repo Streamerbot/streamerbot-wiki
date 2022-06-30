@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T17:50:05.024Z
+date: 2022-06-30T17:57:54.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -18,9 +18,9 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 Event | Description | Notes
 ---|---
-`Follows` | When someone follows your channel, perform this [action](Actions)
-`Whispers` | When someone whispers you directly perform this action | If the whisper itself contains a command, the command action will trigger instead of this generic one
-`Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat. [Click Here for Details](/en/Variables#present-viewers) 
+`Follows` | When someone follows your channel
+`Whispers` | When someone whispers your broadcaster account directly | If the whisper itself contains a command, the command action will trigger instead of this generic one
+`Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat
 `Chat Message` | When any chat message is recieved that does not contain a command | If the message contains a command, the command action will trigger instead of this generic one
 `Announcement` | When an announcement is made is chat
 `First Words` | The first message a particular user sends to chat within the `Auto Reset` window | This runs alongside the `Chat Message` event so if you have actions set for both, they will both run
@@ -37,7 +37,7 @@ Variable | Description | Notes
 ---------:|------------
 `isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False`
 
-### [Chat Message](/en/Events/General) / Whispers & First Words
+### Chat Message / Whispers & First Words
 
 Variable | Description| Notes
 ---------:|------------|---
@@ -60,20 +60,18 @@ Variable | Description| Notes
 `replyTo`| The username the message is replying to | Only populated is `isReply` is `True` 
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
 
-### [Present Viewers](/en/Events/General)
+### Present Viewers
 
-| Value | Description |
+| Value | Description | Notes
 |   ---:|-------------|
 | `isLive` |Boolean for current streaming status |  `True`/`False` 
-
 | `isTest` |Boolean for if this is demo data or not |  `True`/`False` 
-
-| `users` | A Dictionary list of usernames present in IRC chat
+| `users` | A Dictionary list of usernames present in IRC chat | Each user present will get the following data
 
 
 #### User Dictionary
 >
-> Each user entry will contain the following data:
+> 
 > 
 > 
 > | Value | Description | Notes
@@ -115,20 +113,20 @@ If `isLive` is `True` the following variables will also be populated on each tic
 > This also contains the user's picked color, and user's months subscribed
 {.is-info}
 
-### [Message Deleted](/en/Events/General)
+### Message Deleted
 
 | Value | Description | Notes
 |   ---:|-------------|
 | `message` | The message that was deleted from chat
 
-### [User Timed Out](/en/Events/General)
+### User Timed Out
 
 | Value | Description | Notes
 |   ---:|-------------|
 | `duration` | The amount of time the user was timed out for
 | `user` | The user that was timed out 
 
-### [User Banned](/en/Events/General)
+### User Banned
 
 | Value | Description | Notes
 |   ---:|-------------|
