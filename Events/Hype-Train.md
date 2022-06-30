@@ -2,13 +2,13 @@
 title: Hype Train
 description: Twitch Hype Train Events
 published: true
-date: 2022-06-30T20:45:04.456Z
+date: 2022-06-30T20:46:16.971Z
 tags: twitch, hypetrain
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
 ---
 
-# Hype Train's
+# Hype Train
 In this tab you can assign actions to the various levels of the hype train. 
 
 To get to this tab you need to click through the following tabs, First click the `Settings` tab next click on the `Events` tab then finally click the `Hype Train` tab. You should now see a window just like the image below.
