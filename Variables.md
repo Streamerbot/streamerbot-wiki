@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T20:02:16.989Z
+date: 2022-06-30T20:12:33.751Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -110,11 +110,12 @@ From version <span style="color:blue">*(0.1.8+)*</span> you need to do a sub-act
 
 The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
-### [Follow](/en/Events/General)
-### [Chat Message](/en/Events/General)
-### [Whispers](/en/Events/General)
-### [First Words](/en/Events/General)
-### [Cheers](/en/Events/Cheers)
+- [Follow *When someone follows your channel*](/en/Events/General)
+- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General)
+- [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
+- [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General)
+- [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
+{.links-list}
 
 Variable | Description| Notes
 ---------:|------------|---
