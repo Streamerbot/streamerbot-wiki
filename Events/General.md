@@ -2,7 +2,7 @@
 title: General
 description: Documentation for the Platforms -> Twitch -> Events -> General tab
 published: true
-date: 2022-06-30T20:52:56.935Z
+date: 2022-06-30T21:20:54.237Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-25T21:31:30.022Z
 
 The `General` tab covers 10 Simple events and a single action can be assigned to each; 
 
-## Events
+# Events
 
 Event | Description | Notes
 ---:|---
@@ -30,14 +30,14 @@ Event | Description | Notes
 `Ad Run` | When a commercial is triggered on your channel by any source
 
 
-## Variables 
+# Variables 
 
-### Follow
+## Follow
 Variable | Description | Notes
 ---------:|------------
 `isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False`
 
-### Chat Message / Whispers & First Words
+## Chat Message / Whispers & First Words
 
 Variable | Description| Notes
 ---------:|------------|---
@@ -60,7 +60,7 @@ Variable | Description| Notes
 `replyTo`| The username the message is replying to | Only populated is `isReply` is `True` 
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
 
-### Present Viewers
+## Present Viewers
 
 | Value | Description | Notes
 |   ---:|-------------|
@@ -69,7 +69,7 @@ Variable | Description| Notes
 | `users` | A Dictionary list of usernames present in IRC chat | Each user present will get the following data
 
 
-#### User Dictionary
+### User Dictionary
 >
 > 
 > 
@@ -85,7 +85,7 @@ Variable | Description| Notes
 {.is-info}
 
 
-#### Live Variables 
+### Live Variables 
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
 
@@ -99,7 +99,7 @@ If `isLive` is `True` the following variables will also be populated on each tic
 
 ***
 
-### Announcement
+## Announcement
 
 | Value | Description | Notes
 |   ---:|-------------|
@@ -117,26 +117,26 @@ If `isLive` is `True` the following variables will also be populated on each tic
 > This also contains the user's picked color, and user's months subscribed
 {.is-info}
 
-### Message Deleted
+## Message Deleted
 
 | Value | Description | Notes
 |   ---:|-------------|
 | `message` | The message that was deleted from chat
 
-### User Timed Out
+## User Timed Out
 
 | Value | Description | Notes
 |   ---:|-------------|
 | `duration` | The amount of time the user was timed out for
 | `user` | The user that was timed out 
 
-### User Banned
+## User Banned
 
 | Value | Description | Notes
 |   ---:|-------------|
 | `user` | The user that was banned | This will not be populated if the user has never been present in chat
 
-### Ad Run
+## Ad Run
 
 | Value | Description | Notes
 |   ---:|-------------|
