@@ -2,7 +2,7 @@
 title: Hype Train
 description: Twitch Hype Train Events
 published: true
-date: 2022-01-26T13:36:41.984Z
+date: 2022-06-30T20:45:04.456Z
 tags: twitch, hypetrain
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
@@ -47,4 +47,30 @@ In this section you can set an action to trigger when a Hype Train has finished 
 ## Test Section 
 
 On the right in this tab is the test section where you can test all that you have just set up. You can test the events, level goal and level total these will let you test the variations and the progression actions you have. Total will let you test the finished event you have set.
+
+
+# Variables
+
+
+Variable | Description | Notes
+---------:|------------|---
+`level` | Current level | `(1-5)`
+`percent` | percent complete of the level
+`percentDecimal` | percent completion of the level as a decimal value
+*`contributors` | Number of contributors in the hype train | Not available on `Hype Train Start`
+`conductor` | Twitch User ID of the conductor
+
+
+
+## Level Up
+
+Variable | Description
+---------:|------------
+`prevLevel` | Previous level of the hype train | `(1-4)`
+
+## Progression
+
+Variable | Description
+---------:|------------
+`user` | The user who is contributing to the hype train
 
