@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T20:39:40.911Z
+date: 2022-06-30T20:49:00.074Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -85,7 +85,6 @@ Variable | Description| Notes
 {.is-info}
 
 
-***
 #### Live Variables 
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
@@ -98,7 +97,9 @@ If `isLive` is `True` the following variables will also be populated on each tic
 | `viewerCount` | Viewer count at the time of the tick
 | `startedAt` | The time stamp when you started streaming
 
-### [Announcement](/en/Twitch/Announcement)
+***
+
+### Announcement
 
 | Value | Description | Notes
 |   ---:|-------------|
@@ -109,6 +110,9 @@ If `isLive` is `True` the following variables will also be populated on each tic
 | `emotes` | The emotes in the message, this is a List<> object
 | `badgeCount` | The number of badges for the user making the announcement
 | `badges` | The badges for the user making the announcement | This is a `List<>` object
+
+- [More Info](/en/Twitch/Announcement)
+{.links-list}
 
 > This also contains the user's picked color, and user's months subscribed
 {.is-info}
