@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T21:13:29.997Z
+date: 2022-06-30T21:34:20.526Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -103,17 +103,21 @@ From version <span style="color:blue">*(0.1.8+)*</span> you need to do a sub-act
 
 The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
-# Platform Specific
+# Twitch Platform
 
-## Twitch 
-## {.tabset}
-### Events
+
+## Events
 
 
 - [Follow *When someone follows your channel*](/en/Events/General)
-- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General)
 - [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
+-  [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General)
+- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General)
+- [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
 - [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General)
+- [Message Deleted *When a single message is deleted in your chat*](/en/Events/General)
+- [User Timed Out *When a user is timed out in your channel*](/en/Events/General)
+- [User Banned *When a user is banned from your channel*](/en/Events/General)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
 - [Subscriptions & Re-Subs *When someone subscribes or resubscribes to your channel themselves*](/en/Events/Sub)
 - [Gift Subscriptions *When a user purchases a subscription for a specific **named** recipient*](/Events/Gift-Sub)
@@ -140,20 +144,11 @@ Variable | Description
 `oldGameBoxArt` | URL for previous game boxart image <span style="color:blue">*(0.15+)*</span>
 
 
-
-
-
-
 ***
 
-### [Channel Reward Redemption](/en/Twitch/Channel-Point-Rewards)
+## [Channel Reward Redemption](/en/Twitch/Channel-Point-Rewards)
 
-
-
-
-
-
-### [Polls](/en/Twitch/Polls)
+## [Polls](/en/Twitch/Polls)
 
 | Variable | Description |
 |      ---:|-------------|
@@ -203,7 +198,7 @@ The above variables are available for all poll actions
 - [Polls](/Twitch/Polls)
 {.links-list}
 
-### [Predictions](/en/Twitch/Predictions)
+## [Predictions](/en/Twitch/Predictions)
 
 | Value | Description |
 |   ---:|-------------|
@@ -218,7 +213,7 @@ The above variables are available for all poll actions
 - [Predictions](/Twitch/Predictions)
 {.links-list}
 
-### [Commercials](/en/Twitch/Commercials)
+## [Commercials](/en/Twitch/Commercials)
 | Variable | Description |
 |---------:|-------------|
 | `adLength` | The length of the ad in seconds
@@ -227,41 +222,9 @@ The above variables are available for all poll actions
 
 ***
 
-### [Message Deleted](/en/Events/General)
 
-| Value | Description |
-|   ---:|-------------|
-| `message` | The message that was deleted from chat
 
-### [User Timed Out](/en/Events/General)
 
-| Value | Description |
-|   ---:|-------------|
-| `duration` | The amount of time the user was timed out for
-| `user` | The user that was timed out 
-
-### [User Banned](/en/Events/General)
-
-| Value | Description |
-|   ---:|-------------|
-| `user` | The user that was banned 
->This will not be populated if the user has never been present in chat
-{.is-info}
-
-### [Announcement](/en/Twitch/Announcement)
-
-| Value | Description |
-|   ---:|-------------|
-| `announceColor` | The color of the announcement, `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
-| `message` | The announcement message
-| `messageStripped` | The announcement message without emotes
-| `emoteCount` | The number of emotes in the message
-| `emotes` | The emotes in the message, this is a List<> object
-| `badgeCount` | The number of badges for the user making the announcement
-| `badged` | The badges for the user making the announcement, this is a List<> object
-
-> This also contains the user's picked color, and user's months subscribed
-{.is-info}
 
 ***
 
