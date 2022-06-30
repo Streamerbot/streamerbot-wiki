@@ -2,7 +2,7 @@
 title: OBS Requests
 description: 
 published: true
-date: 2022-06-29T18:00:26.776Z
+date: 2022-06-30T05:45:21.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T11:00:55.416Z
@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T11:00:55.416Z
 > Information to these requests are to be added soon.
 {.is-info}
 
-## General
-> These pages aren't done yet, so they may not exist.
+## [General](/en/Integrations/OBS/OBS-Requests/General)
+> These pages are currently in the workings, not all are done yet.
 {.is-warning}
 * [GetVersion](/en/Integrations/OBS/OBS-Requests/General/GetVersion)
 * [GetAuthRequired](/en/Integrations/OBS/OBS-Requests/General/GetAuthRequired)
@@ -22,7 +22,7 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [SetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/SetFilenameFormatting)
 * [GetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/GetFilenameFormatting)
 * [GetStats](/en/Integrations/OBS/OBS-Requests/General/GetStats)
-* [BroadcastCustomMessage](/en/Integrations/OBS/OBS-Requests/General/BroadcastCustomMessage)
+* [BroadcastCustomMessage *Page will be finished later, when I know more information about this specific request.*](/en/Integrations/OBS/OBS-Requests/General/BroadcastCustomMessage)
 * [GetVideoInfo](/en/Integrations/OBS/OBS-Requests/General/GetVideoInfo)
 * [OpenProjector](/en/Integrations/OBS/OBS-Requests/General/OpenProjector)
 * [TriggerHotkeyByName](/en/Integrations/OBS/OBS-Requests/General/TriggerHotkeyByName)
@@ -30,9 +30,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [ExecuteBatch](/en/Integrations/OBS/OBS-Requests/General/ExecuteBatch)
 * [Sleep](/en/Integrations/OBS/OBS-Requests/General/Sleep)
 {.links-list}
-## Media Control
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Media Control](/en/Integrations/OBS/OBS-Requests/Media-Control)
+> These pages don't exist.
+{.is-danger}
 * [PlayPauseMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/PlayPauseMedia)
 * [RestartMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/RestartMedia)
 * [StopMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/StopMedia)
@@ -44,9 +44,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * [ScrubMedia](/en/Integrations/OBS/OBS-Requests/Media-Control/ScrubMedia)
 * [GetMediaState](/en/Integrations/OBS/OBS-Requests/Media-Control/GetMediaState)
 {.links-list}
-## Sources
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Sources](/en/Integrations/OBS/OBS-Requests/Sources)
+> These pages don't exist.
+{.is-danger}
 * GetMediaSourcesList
 * CreateSource
 * GetSourcesList
@@ -86,24 +86,24 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * TakeSourceScreenshot
 * RefreshBrowserSource
 {.links-list}
-## Outputs
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Outputs](/en/Integrations/OBS/OBS-Requests/Outputs)
+> These pages don't exist.
+{.is-danger}
 * ListOutputs
 * GetOutputInfo
 * StartOutput
 * StopOutput
 {.links-list}
-## Profiles
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Profiles](/en/Integrations/OBS/OBS-Requests/Profiles)
+> These pages don't exist.
+{.is-danger}
 * SetCurrentProfile
 * GetCurrentProfile
 * ListProfiles
 {.links-list}
-## Recording
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Recording](/en/Integrations/OBS/OBS-Requests/Recording)
+> These pages don't exist.
+{.is-danger}
 * GetRecordingStatus
 * StartStopRecording
 * StartRecording
@@ -113,25 +113,25 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * SetRecordingFolder
 * GetRecordingFolder
 {.links-list}
-## Replay Buffer
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Replay Buffer](/en/Integrations/OBS/OBS-Requests/Replay-Buffer)
+> These pages don't exist.
+{.is-danger}
 * GetReplayBufferStatus
 * StartStopReplayBuffer
 * StartReplayBuffer
 * StopReplayBuffer
 * SaveReplayBuffer
 {.links-list}
-## Scene Collections
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Scene Collections](/en/Integrations/OBS/OBS-Requests/Scene-Collections)
+> These pages don't exist.
+{.is-danger}
 * SetCurrentSceneCollection
 * GetCurrentSceneCollection
 * ListSceneCollections
 {.links-list}
-## Scene Items
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Scene Items](/en/Integrations/OBS/OBS-Requests/Scene-Items)
+> These pages don't exist.
+{.is-danger}
 * GetSceneItemList
 * GetSceneItemProperties
 * SetSceneItemProperties
@@ -144,9 +144,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * AddSceneItem
 * DuplicateSceneItem
 {.links-list}
-## Scenes
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Scenes](/en/Integrations/OBS/OBS-Requests/Scenes)
+> These pages don't exist.
+{.is-danger}
 * SetCurrentScene
 * GetCurrentScene
 * GetSceneList
@@ -156,9 +156,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * RemoveSceneTransitionOverride
 * GetSceneTransitionOverride
 {.links-list}
-## Streaming
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Streaming](/en/Integrations/OBS/OBS-Requests/Streaming)
+> These pages don't exist.
+{.is-danger}
 * GetStreamingStatus
 * StartStopStreaming
 * StartStreaming
@@ -168,9 +168,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * SaveStreamSettings
 * SendCaptions
 {.links-list}
-## Studio Mode
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Studio Mode](/en/Integrations/OBS/OBS-Requests/Studio-Mode)
+> These pages don't exist.
+{.is-danger}
 * GetStudioModeStatus
 * GetPreviewScene
 * SetPreviewScene
@@ -179,9 +179,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * DisableStudioMode
 * ToggleStudioMode
 {.links-list}
-## Transitions
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Transitions](/en/Integrations/OBS/OBS-Requests/Transitions)
+> These pages don't exist.
+{.is-danger}
 * GetTransitionList
 * GetCurrentTransition
 * SetCurrentTransition
@@ -193,9 +193,9 @@ dateCreated: 2022-06-27T11:00:55.416Z
 * ReleaseTBar
 * SetTBarPosition
 {.links-list}
-## Virtual Cam
-> These pages aren't done yet, so they may not exist.
-{.is-warning}
+## [Virtual Cam](/en/Integrations/OBS/OBS-Requests/Virtual-Cam)
+> These pages don't exist.
+{.is-danger}
 * GetVirtualCamStatus
 * StartStopVirtualCam
 * StartVirtualCam
