@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T17:57:54.910Z
+date: 2022-06-30T19:48:57.284Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -31,7 +31,7 @@ Event | Description | Notes
 
 
 ## Variables 
-## {.tabset}
+
 ### Follow
 Variable | Description | Notes
 ---------:|------------
