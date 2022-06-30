@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T21:12:03.015Z
+date: 2022-06-30T21:13:29.997Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -62,8 +62,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 # Generic
 
 
-- [Generic](/en/Variables/Generic)
-{.links-list}
+
 
 Generic variables are available to most event sources, so consider these the minimum you can use. Other sources will expand on these with variables specific to that event or sub-action
 
@@ -107,7 +106,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 # Platform Specific
 
 ## Twitch 
-# {.tabset}
+## {.tabset}
 ### Events
 
 
