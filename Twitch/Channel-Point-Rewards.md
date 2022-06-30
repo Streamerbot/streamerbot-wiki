@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: 
 published: true
-date: 2022-06-29T15:12:03.048Z
+date: 2022-06-30T20:59:43.967Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -26,7 +26,7 @@ To create a new reward Right-Click in the empty space and click `Add`
 
 ![New Channel Point Reward](/119646229-d4949f80-be16-11eb-806f-8dca85bdce45.png)
 
-### Title
+## Title
 
 The name of the reward
 
@@ -34,13 +34,13 @@ The name of the reward
 
 `Paused` The reward can not be redeemed but can be seen if `Enabled` is also checked
 
-### Cost
+## Cost
 
 The number of channel points needed to redeem this reward
 
 `User Input Required` This will show a text box to the user to allow them to enter a message. This can be read by [sub-actions](/Sub-Actions#main) with the `%rawInput%` variable
 
-### Prompt
+## Prompt
 
 This is the text that will be displayed to the user before they confirm redemption to explain what will happen
 
@@ -52,7 +52,7 @@ This is the text that will be displayed to the user before they confirm redempti
 
 `Global Cooldown` Defines the miniimum time in seconds before this reward can be redeemed again by anyone
 
-### Counters
+## Counters
 
 Actions in **Streamer.bot** have per-session and per-command variables `%counter%`, and `%userCounter%` that records how many times that channel reward has been used. 
 
@@ -62,6 +62,22 @@ By default this clears when the application is closed but the following options 
 
 `Persist per User Counter` Will save details of how often each user has executed this command
 
-### Action
+## Action
 
 `Action` Defines the action that will be executed when the reward is redeemed
+
+# Variables
+
+Variable | Description
+---------:|------------
+`redemptionId` | Twitch's internal ID for the redemption (used to refund reward)
+`rewardId` | Twitch's internal ID of the reward
+`rewardName` | Name of the reward
+`counter` | How many times the reward has been redeemed
+`userCounter` | How many times the user has redeemed the reward
+`rawInput` | The text a user entered if input was required
+`rawInputEscaped` | The text a user entered but escaped
+`input<x>` | Single words from the `rawInput` using spaces as delimiters, this will populate consecutive variables starting at `input0` 
+`rewardCost` | The channel point cost of the redeemed reward <span style="color:blue">*(0.15+)*</span>
+`rewardPrompt` | The verbiage shown on the channel point description <span style="color:blue">*(0.15+)*</span>
+***
