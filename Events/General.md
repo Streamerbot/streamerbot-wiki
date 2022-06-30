@@ -2,13 +2,13 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T17:31:21.594Z
+date: 2022-06-30T17:36:17.655Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
 ---
 
-The `General` tab covers 9 Simple events and a single action can be assigned to each; `Follows`, `Whispers`, `Present Viewers`, `Chat Message`, `First Words`, `Message Deleted`, `User Timed Out`, `User Banned` and `Ad Run`
+The `General` tab covers 10 Simple events and a single action can be assigned to each; `Follows`, `Whispers`, `Present Viewers`, `Chat Message`, `Announcement`, `First Words`, `Message Deleted`, `User Timed Out`, `User Banned` and `Ad Run`
 
 ![twitch-events-general-0110.png](/twitch-events-general-0110.png)
 
@@ -18,6 +18,7 @@ Event | Description | Notes
 `Whispers` | When someone whispers you directly perform this action | If the whisper itself contains a command, the command action will trigger instead of this generic one
 `Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of [variables](/en/Variables#present-viewers) for each user in chat
 `Chat Message` | When any chat message is recieved that does not contain a command | If the message contains a command, the command action will trigger instead of this generic one
+`Announcement` | When an announcement is made is chat
 `First Words` | The first message a particular user sends to chat within the `Auto Reset` window | This runs alongside the `Chat Message` event so if you have actions set for both, they will both run
 `Message Deleted` | When a message gets deleted from chat | When this event is triggered, the `message` argument will be populated with the message being deleted
 `User Timed Out` | When a user present in chat gets timed out | This event will populate the `duration` argument with the time-out length
@@ -54,6 +55,21 @@ Variable | Description| Notes
 `isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
 `replyTo`| if `isReply` is True, populates the username the message is replying to
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
+
+### [Announcement](/en/Twitch/Announcement)
+
+| Value | Description | Notes
+|   ---:|-------------|
+| `announceColor` | The color of the announcement | `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
+| `message` | The announcement message
+| `messageStripped` | The announcement message without emotes
+| `emoteCount` | The number of emotes in the message
+| `emotes` | The emotes in the message, this is a List<> object
+| `badgeCount` | The number of badges for the user making the announcement
+| `badges` | The badges for the user making the announcement | This is a `List<>` object
+
+> This also contains the user's picked color, and user's months subscribed
+{.is-info}
 
 ### [Message Deleted](/en/Events/General)
 
