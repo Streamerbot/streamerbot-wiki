@@ -2,7 +2,7 @@
 title: OpenProjector
 description: Open a projector window or create a projector on a monitor. Requires OBS v24.0.4 or newer.
 published: true
-date: 2022-06-30T15:01:04.324Z
+date: 2022-06-30T15:02:44.981Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-30T15:01:04.324Z
@@ -13,9 +13,9 @@ dateCreated: 2022-06-30T15:01:04.324Z
 ## Example
 ```json
 {
-"request-type": "OpenProjector",
-"type": "Preview",
-"monitor": "1",
+  "request-type": "OpenProjector",
+  "type": "Preview",
+  "monitor": "1"
 }
 ```
 
