@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Cheer Events 
 published: true
-date: 2022-01-31T15:18:23.852Z
+date: 2022-06-30T20:13:53.791Z
 tags: twitch, cheer
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -42,4 +42,30 @@ Any action you have assign to this type is for the anonymous cheerers only. This
 
 Any action you assign to this type will be triggered when a non-anonymous cheer is given. This action will not run if the cheerer is anonymous.
 
+
+## Variables
+
+Variable | Description| Notes
+---------:|------------|---
+`msgId` | Twitch's message ID 
+`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
+`isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
+`color` | User's color (if they have chosen one or a random one if not)
+`colorR` | Red value of the `color` variable
+`colorG` | Green value of the `color` variable
+`colorB` | Blue value of the `color` variable
+`message` | Message that was sent to chat
+`emoteCount` | How many Twitch! emotes were found
+`emotes` | Comma Separated list of Twitch! emotes found
+`messageStripped` | The chat message with emotes stripped
+`messageCheermotesStripped` | The chat message with cheer emotes stripped
+`isHighlight` | Boolean for message highlight | `True`/`False`
+`bits` | Number of bits the message has
+`isAction` | Boolean value indicating the message is a `/me` action | `True`/`False`
+`isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
+`replyTo`| if `isReply` is True, populates the username the message is replying to
+`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
+* `cheerEmotes` | List of cheermotes found in the message | [Cheer Event Only] 
+* `anonymous` | Boolean value indicating if the cheer was anonymous| [Cheer Event Only] `True`/`False`
+* `cheerEmoteCount` | How many Twitch! cheer emotes were found | [Cheer Event Only] 
 
