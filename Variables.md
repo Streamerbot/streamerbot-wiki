@@ -2,25 +2,54 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T16:53:50.080Z
+date: 2022-06-30T18:59:44.732Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
 
-Cheatsheat of all variables available to [Actions](/Actions) and [Sub-Actions](/Sub-Actions) and a description of their function. This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility
+# Variables (Arguments)
+
+Every event that `streamer.bot` can monitor generates an argument stack specific to that event that presents variable data to the action it calls. 
+
+Below is a cheatsheat of the Generic arguments available to use in your [Sub-Actions](/Sub-Actions) and a description of their function. 
+Most general use triggers will have all generic arguemnts listed, any exceptions will be listed on the page detailing that function
+Events and sub-actions will add additional arguments to the stack but these are too numerous to list in one place so they will be detailed on the pages that cover those functions and will be hyperlinked.
+
+
+This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility
+
+> If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see what is available for use.
+{.is-success}
+
+
+***
+
+## Tips
+
+To use a variable / argument in most external contexts like OBS sources, bookend the variable name with a % symbol on either end - e.g. `%userName%`
+
+> You do not need the % symbols for logic statements like `If` and `Global`
+> This was required in older versions of `streamer.bot` and it will still work with them in but current version ignores these by default.
+{.is-success}
+
+***
+
+
+> Arguments only persist until the called action finishes execution and can not be referenced by any other simultaneous action unless writen out to a `Global` variable
+{.is-info}
+
+
 
 > Variables are only populated into the active Arguments when the event or sub-action they are tied to executes. If you are testing and it is only returning the name of the variable you are probably not testing the complete Action / Event
 {.is-success}
 
 
-To use a variable in most external contexts like OBS sources bookend the variable name with a % symbol on either end, you do not need the % symbols for logic statements like `If` and `Global`
+## Formatting Variables
 
-If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see what is available for use.
-
-> Variables can also be formatted inline using standard C# notation
-e.g. `tipAmount` will give a number but you could also use `tipAmount:c2` to have it formatted as a currency with 2 decimal places
-Similarly `time` can be used like `time:t` to have it formatted in short notation with AM/PM suffix
+> Variables can be formatted inline using standard C# notation
+e.g. `%tipAmount%` will give a number but you could also use `%tipAmount:c2%` to have it formatted as a currency with 2 decimal places
+Similarly `%time%` can be written `%time:t%` to have it formatted in short notation with AM/PM suffix
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 {.is-info}
 
@@ -31,16 +60,16 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 Generic variables are available to most event sources, so consider these the minimum you can use. Other sources will expand on these with variables specific to that event or sub-action
 
-Variable | Description
+Variable | Description | Notes
 ---------:|------------
 `user` | User's Display Name | (**Note** this is case sensitive when using in a comparison)
-`userType` | Specifies which streaming service the triggering user is coming from| <span style="color:blue">*(0.1.8+)*</span>  
-`userName` | User's Twitch Login Name |(**Note** this is all lowercase when using in a comparison for Twitch)
-`userId` | User's unique ID
-`isSubscribed` | is the user a current subscriber
-`isVip` | is the user a current VIP
-`isModerator` | is the user a current Moderator
-`randomUser0` | The username of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
+`userType` | Specifies which streaming service the triggering user is coming from| <span style="color:blue">*(0.1.8+)*</span>  `twitch`,`youtube`
+`userName` | User's Login Name |(**Note** this is all lowercase when using in a comparison for Twitch)
+`userId` | Triggering user's unique ID
+`isSubscribed` | Boolean for Twitch subscription status of triggering user | `True` / `False`
+`isVip` | Boolean for Twitch VIP status of triggering user | `True` / `False`
+`isModerator` | Boolean for Twitch moderator status of triggering user | `True` / `False`
+`randomUser0` | The `username` of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
 `randomUserName0` | The Display name of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
 `__source` | The name of the event triggering the action
 `date` | current system date | Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`
@@ -56,27 +85,29 @@ If Twitch is connected, actions will have the following five variables available
 
 From version <span style="color:blue">*(0.1.8+)*</span> you need to do a sub-action for this
 
-| Variable | Description |
+| Variable | Description | Notes
 |   ---:|-------------|
-| `broadcastUser` | The Twitch display name of the broadcast account |
-| `broadcastUserName` | The Twitch user name of the broadcast account |
-| `broadcastUserId` | The Twitch user ID of the broadcast account |
-| `broadcastIsAffiliate` | `True`/`False` value indicating if the broadcast account is an affiliate |
-| `broadcastIsPartner` | `True`/`False` value indicating if the broadcast account is a partner |
+| `broadcastUser` | The Twitch display name of the broadcaster account |
+| `broadcastUserName` | The Twitch user name of the broadcaster account |
+| `broadcastUserId` | The Twitch user ID of the broadcaster account |
+| `broadcastIsAffiliate` | Boolean value indicating if the broadcast account is a Twitch affiliate | `True` / `False`
+| `broadcastIsPartner` | Boolean value indicating if the broadcast account is a Twitch partner | `True` / `False`
 
 ***
-Various variables that [Events](/en/Events) can add to the argument stack
 
-# Platforms
+
+# Platform Events
 
 ## Twitch 
-## {.tabset}
-### Follow
-Variable | Description
----------:|------------
-`isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False` 
 
-### [Chat Message](/en/Events/General), Whispers, [Cheers](/en/Events/Cheers), & First Words
+
+The arguments that each event adds to the stack will be detailed on the page that explains that function 
+
+### [Follow](/en/Events/General)
+### [Chat Message](/en/Events/General)
+### [Whispers](/en/Events/General)
+### [First Words](/en/Events/General)
+### [Cheers](/en/Events/Cheers)
 
 Variable | Description| Notes
 ---------:|------------|---
