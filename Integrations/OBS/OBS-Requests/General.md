@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T05:39:38.301Z
+date: 2022-06-30T05:40:01.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T20:07:39.855Z
@@ -18,7 +18,7 @@ dateCreated: 2022-06-28T20:07:39.855Z
 * [SetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/SetFilenameFormatting)
 * [GetFilenameFormatting](/en/Integrations/OBS/OBS-Requests/General/GetFilenameFormatting)
 * [GetStats](/en/Integrations/OBS/OBS-Requests/General/GetStats)
-* [BroadcastCustomMessage *Page will be finished later, when I know more information about this specif request.*](/en/Integrations/OBS/OBS-Requests/General/BroadcastCustomMessage)
+* [BroadcastCustomMessage *Page will be finished later, when I know more information about this specific request.*](/en/Integrations/OBS/OBS-Requests/General/BroadcastCustomMessage)
 * [GetVideoInfo](/en/Integrations/OBS/OBS-Requests/General/GetVideoInfo)
 * [OpenProjector](/en/Integrations/OBS/OBS-Requests/General/OpenProjector)
 * [TriggerHotkeyByName](/en/Integrations/OBS/OBS-Requests/General/TriggerHotkeyByName)
