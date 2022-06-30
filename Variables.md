@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T20:14:45.484Z
+date: 2022-06-30T20:50:57.494Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -115,7 +115,18 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
 - [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
+- [Subscriptions & Re-Subs *When someone subscribes or resubscribes to your channel themselves*](/en/Events/Sub)
+- [Gift Subscriptions *When a user purchases a subscription for a specific **named** recipient*](/Events/Gift-Sub)
+- [Gift Bombs *When a user purchases one or more subscriptions for **random** recipients*](/en/Events/Gift-Bomb)
+- [Raids *When a user brings a raid into your channel or when you raid another user*](/en/Events/Raid)
+- [Hosts *When a user begins hosting your channel*](/en/Events/hosts)
+- [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
+- [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
+
 {.links-list}
+
+
+
 
 
 
@@ -146,130 +157,16 @@ Variable | Description
 
 ***
 
-### [Subscriptions](/en/Events/Sub) & Re-subs
-
-Variable | Description
----------:|------------
-`tier` | Subscription tier | `Prime`, `Tier 1`. `Tier 2`, `Tier 3`
-`monthStreak` | Current subscription streak in months | Not for sub event.  Only for re-sub event.
-`cumulative` | Total number of months a user has been subscribed for | Not for sub event.  Only for re-sub event.
-`message` | Message that was sent to chat
-`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-`color` | User's color (if they have chosen one or a random one if not)
-
-#### [Gift Subscriptions](/en/Events/gift-sub)
-
-Variable | Description | Notes
----------:|------------
-`recipientUser` | Recipient user's display name
-`recipientUserName` | Recipient user's Twitch! login name
-`recipientId` | Recipient user's Twitch! ID
-`totalSubsGifted` | Total number of subscriptions this user has gifted
-`monthsGifted` | Number of prepaid months gifted, usually 1 but could be 3, 6 or 12
-`fromGiftBomb` | Boolean value if source was a `giftBomb` |  `True`/`False` 
-`subBombCount` | A value to record the number of Gift Subs if part of a Bomb
-`cumulativeMonths` | Total months recipient has been subscribed for. If 1 this is a new subscriber, any larger it is a re-sub
-`badgeCount` | | <span style="color:blue">*(0.1.8+)*</span>
-`badges` | | <span style="color:blue">*(0.1.8+)*</span>
-`anonymous` | Boolean value indicating the gift was anonymous | `True`/`False` 
-`tier` | Subscription tier as a string | `tier 1`, `tier 2`, `tier 3`
-`role` | What role the gifter has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-`isSubscribed` | Boolean value indicating the sender's subscription status |  `True`/`False`
-`isModerator` | Boolean value indicating the sender's moderator status |  `True`/`False`
-`isVip` | Boolean value indicating the sender's VIP status |  `True`/`False`
-
-#### [Gift Bombs](/en/Events/gift-bomb)
-
-Variable | Description
----------:|------------
-`gifts` | Number of subscriptions in this gift bomb
-`totalGifts` | Total number of subscriptions this user has gifted
-`fromGiftBomb` | Boolean value if sub came from a gift bomb |  `True`/`False` 
-`anonymous` | Boolean value indicating the gift was anonymous |  `True`/`False` 
-`tier` | Subscription tier as a string | `tier 1`. `tier 2`, `tier 3`
-
-
-### [Raids](/en/Events/Raid)
-
-#### Incoming
-
-Variable | Description
----------:|------------
-`user` | The user who is raiding the channel
-`viewers` | Number of viewers in the raid as reported by Twitch
-`raiderNames` | A comma separated list of display names of users in the raid, any names in groups that have been marked as bots will be excluded.
-
-> **%raiderNames%** is a best guess effort in determining who came along in the raid, there is currently no mechanism from Twitch that provides this information during a raid, so a few extra API calls are made to "guess" at this list
-{.is-info}
-
-
-#### Sending a Raid
-
-Variable | Description
----------:|------------
-`raidUser` | Target user's display name
-`raidUserName` | Target user's Twitch! login name
-`raidUserId` | Target user's Twitch! ID
-`raidUserProfileImageURL` | Target user's Twitch! profile image
-`raidUserProfileImageEscaped` | Target user's Twitch! profile imagewith escaped characters
-
-> This event relies on a Twitch PubSub message, and it seems the profile image can sometimes be 70x70, or 300x300.  This has been updated with `0.1.4` to replace the 70x70 with 300x300, so you can get the full size profile image.  The test button, defaults to a 300x300 size profile image, as it makes another call to get this information.
-{.is-info}
-
-### [Hosts](/en/Events/hosts)
-> Mileage may vary, Twitch API documentation does not match real life results
-{.is-warning}
-
-Variable | Description
----------:|------------
-`user` | The user who is hosting the channel
-`viewers` | Provides an estimate of live viewers watching a hosted stream
-
-
-### [Hype Trains](/en/Events/Hype-Train)
-
-Variable | Description | Notes
----------:|------------|---
-`level` | Current level | `(1-5)`
-`percent` | percent complete of the level
-`percentDecimal` | percent completion of the level as a decimal value
-*`contributors` | Number of contributors in the hype train | Not available on `Hype Train Start`
-`conductor` | Twitch User ID of the conductor
 
 
 
-#### Level Up
-
-Variable | Description
----------:|------------
-`prevLevel` | Previous level of the hype train | `(1-4)`
-
-#### Progression
-
-Variable | Description
----------:|------------
-`user` | The user who is contributing to the hype train
 
 
-### [Community Goal](/en/Events/Community-Goal)
 
-Variable | Description
----------:|------------
-`title` | Name of community goal
-`goalAmount` | The total amount required to complete the goal
-`goalAmountFormatted` | The total amount required to complete the goal, formatted
-`contributed` | How much has been contributed to this goal so far
-`contributedFormatted` | How much has been contributed to this goal so far, formatted
-`percentComplete` | How far along the community goal is
-`userContributed` | How much the user have contributed
-`userContribFormatted` | How much the user  contributed as a formatted number
-`userTotalContributed` | The total amount the user has contributed to this goal
-`userTotalContribFormatted` | The total amount the user has contributed to this goal, formatted
 
-Unverified variables - Mileage may vary
-`startedAt` | Date Time the community goal was started
-`endedAt` | Date Time the community goal ends 
-`daysLeft` | `endedAt` - Current Date Time
+
+
+
 
 
 ### [Stream Update](/en/Events/Stream-Update)
