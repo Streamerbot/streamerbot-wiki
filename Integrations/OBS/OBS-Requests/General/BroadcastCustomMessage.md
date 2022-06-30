@@ -2,14 +2,14 @@
 title: BroadcastCustomMessage
 description: Broadcast custom message to all connected WebSocket clients
 published: true
-date: 2022-06-30T05:37:11.438Z
+date: 2022-06-30T05:40:17.846Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-30T05:37:11.438Z
 ---
 
 
-> Page will be finished later, when I know more information about this specif request.
+> Page will be finished later, when I know more information about this specific request.
 {.is-danger}
 
 # BroadcastCustomMessage
