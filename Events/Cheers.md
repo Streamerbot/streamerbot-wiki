@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Cheer Events 
 published: true
-date: 2022-06-30T20:14:40.566Z
+date: 2022-06-30T20:26:36.261Z
 tags: twitch, cheer
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -23,13 +23,14 @@ As mentioned above you can set a specific action to run when a specified range i
 ![twitch_cheers_range.png](/twitch_cheers_range.png)
 
 
-### Cheer Types / States
+## Cheer Types / States
 
 There are 3 cheer types. Generic (Either), Generic (Anon) for Anonymous Cheers and Generic (Non-Anon) is for those public cheerers.
 
 #### Generic (Either) Type / State 
 
 Any action assigned to this type will be triggered for both anonymous and non-anonymous cheerers and those that have not been set up for a specific range. 
+
 > This event is triggered if the bits hit the max value in the Cheer range. So it's suggested to have max range + 1 set. i.e 100 + 1 = max value (101) 
 {.is-info}
 
@@ -43,7 +44,7 @@ Any action you have assign to this type is for the anonymous cheerers only. This
 Any action you assign to this type will be triggered when a non-anonymous cheer is given. This action will not run if the cheerer is anonymous.
 
 
-## Variables
+# Variables
 
 Variable | Description| Notes
 ---------:|------------|---
