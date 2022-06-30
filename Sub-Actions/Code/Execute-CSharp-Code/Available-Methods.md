@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-30T14:21:33.338Z
+date: 2022-06-30T21:52:26.254Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -52,9 +52,6 @@ void LogDebug(string logLine);
 ```csharp
 void AddToCredits(string section, string value, bool json = true)
 ```
-
-> Requires minimum version 0.0.59
-{.is-info}
 
 ```csharp
 void ResetCredits();
