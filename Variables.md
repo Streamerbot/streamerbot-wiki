@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T20:53:41.156Z
+date: 2022-06-30T21:00:31.914Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -102,13 +102,14 @@ From version <span style="color:blue">*(0.1.8+)*</span> you need to do a sub-act
 
 ***
 
+The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
-# Platform Events
+# Platform Specific
 
 ## Twitch 
 
+### Events
 
-The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
 - [Follow *When someone follows your channel*](/en/Events/General)
 - [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General)
@@ -147,37 +148,6 @@ Variable | Description
 ***
 
 ### [Channel Reward Redemption](/en/Twitch/Channel-Point-Rewards)
-
-Variable | Description
----------:|------------
-`redemptionId` | Twitch's internal ID for the redemption (used to refund reward)
-`rewardId` | Twitch's internal ID of the reward
-`rewardName` | Name of the reward
-`counter` | How many times the reward has been redeemed
-`userCounter` | How many times the user has redeemed the reward
-`rawInput` | The text a user entered if input was required
-`rawInputEscaped` | The text a user entered but escaped
-`input<x>` | Single words from the `rawInput` using spaces as delimiters, this will populate consecutive variables starting at `input0` 
-`rewardCost` | The channel point cost of the redeemed reward <span style="color:blue">*(0.15+)*</span>
-`rewardPrompt` | The verbiage shown on the channel point description <span style="color:blue">*(0.15+)*</span>
-***
-
-### [Commercials](/en/Twitch/Commercials)
-| Variable | Description |
-|---------:|-------------|
-| `adLength` | The length of the ad in seconds
-| `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
-
-
-***
-
-
-
-
-
-
-
-
 
 
 
@@ -248,6 +218,15 @@ The above variables are available for all poll actions
 
 - [Predictions](/Twitch/Predictions)
 {.links-list}
+
+### [Commercials](/en/Twitch/Commercials)
+| Variable | Description |
+|---------:|-------------|
+| `adLength` | The length of the ad in seconds
+| `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
+
+
+***
 
 ### [Message Deleted](/en/Events/General)
 
