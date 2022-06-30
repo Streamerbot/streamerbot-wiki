@@ -2,16 +2,13 @@
 title: API Calls
 description: These new calls can be used to replicate some functionality from SLCB without needing C# coding.
 published: true
-date: 2022-04-28T02:22:33.510Z
+date: 2022-06-30T22:52:03.646Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-28T02:22:27.286Z
 ---
 
 # API Calls
-
->This requires Streamer.bot 0.1.3 or later!
-{.is-danger}
 
 ## Description
 These new calls can be used to replicate some functionality from SLCB without needing C# coding.
