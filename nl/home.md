@@ -52,3 +52,7 @@ Ik waardeer alle steun van iedereen en van iedereen voor het gebruik van deze so
 {.links-list}
 
 [Over](/About) Streamer.bot
+
+
+> Pagina vertaald bij ik#1497 op discord
+{.is-info}
