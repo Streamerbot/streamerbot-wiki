@@ -2,14 +2,14 @@
 title: Translations
 description: 
 published: false
-date: 2022-07-01T06:16:26.174Z
+date: 2022-07-01T06:20:09.782Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
 ---
 
 # Translations
-Help translation the wiki in `Arabic`, `German`, `Spanish`, `French`, `Dutch`, `Portuguese`!
+Help translation the wiki in `Arabic`, `German`, `Spanish`, `French`, `Dutch` and `Portuguese`!
 
 To do so you need to do a couple of things.
 Download one of these files on github.
