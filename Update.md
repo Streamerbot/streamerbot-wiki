@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-07-01T17:35:20.191Z
+date: 2022-07-01T17:36:31.054Z
 tags: install, update
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z
@@ -29,5 +29,6 @@ Update to the new version by following these steps:
 3. Open Streamer.bot and you will now be on the latest version!
 
 # Video Tutorial
+<small>Thanks to VRFlad for this tutorial!</small>
 
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/DmzVuyAXefI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none; max-width: 100%;"></iframe>
