@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-01T17:53:33.795Z
+date: 2022-07-01T17:56:29.451Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -67,17 +67,8 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 ***
 
 ### Broadcaster Variables <span style="color:cyan">*(0.1.5+)*</span>
-If Twitch is connected, actions will have the following five variables available to them
-
-From version <span style="color:cyan">*(0.1.8+)*</span> you need to do a sub-action for this
-
-| Variable | Description | Notes
-|   ---:|-------------|
-| `broadcastUser` | The Twitch display name of the broadcaster account |
-| `broadcastUserName` | The Twitch user name of the broadcaster account |
-| `broadcastUserId` | The Twitch user ID of the broadcaster account |
-| `broadcastIsAffiliate` | Boolean value indicating if the broadcast account is a Twitch affiliate | `True` / `False`
-| `broadcastIsPartner` | Boolean value indicating if the broadcast account is a Twitch partner | `True` / `False`
+* [Broadcaster](/en/Variables/Broadcaster)
+{.links-list}
 
 ***
 
