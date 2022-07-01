@@ -34,4 +34,3 @@ Done with translating it?, fill in this google form below
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
-
