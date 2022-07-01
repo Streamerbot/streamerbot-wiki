@@ -2,7 +2,7 @@
 title: Predictions
 description: 
 published: true
-date: 2022-06-24T00:47:35.998Z
+date: 2022-07-01T17:26:04.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z
@@ -26,6 +26,18 @@ dateCreated: 2021-08-25T21:34:38.706Z
 | `%prediction.outcome#.users%` | How many users picked this outcome |
 |`%prediction.outcome#.points%` | Total number of rewards used |
 | `%prediction.outcome#.color%` | The rgb hex color |
+
+
+| Value | Description |
+|   ---:|-------------|
+| `prediction.winningIndex` | Either a 0 or 1 depending on which outcome was chosen as the winner |
+| `prediction.winningOutcome.id` | The ID of the winning outcome |
+| `prediction.winningOutcome.title` | The title of the winning outcome |
+| `prediction.winningOutcome.users` | How many users voted for this prediction |
+| `prediction.winningOutcome.points` | The total number of channel points used by users |
+| `prediction.winningOutcome.color` | The colour of the winning outcome |
+| `prediction._json` | JSON string of complete event information that can be parsed
+
 
 Replace the # in outcome# with 0 or 1, to get the outcome entry
 
