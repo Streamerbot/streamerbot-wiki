@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-07-01T19:59:30.483Z
+date: 2022-07-01T20:01:35.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -106,10 +106,16 @@ I will provide some samples for folks to use here
 {.links-list}
 
 ## Tutorials for beginners
+
+
 * [Programming In C# Crash Course For Streamer.bot *by nutty VODs* *1 video 1:21:48*](https://youtu.be/rS5ZuIZV_y0)
-* [C# Shorts *by Terrier Darts* *1 video 3:42*](https://www.youtube.com/playlist?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g)
 {.links-list}
+
+<iframe width="280" height="158" src="https://www.youtube.com/embed/rS5ZuIZV_y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***
 
-<iframe width="280" height="158" src="https://www.youtube.com/embed/rS5ZuIZV_y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* [C# Shorts *by Terrier Darts* *1 video 3:42*](https://www.youtube.com/playlist?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g)
+{.links-list}
+
+<iframe width="280" height="158" src="https://www.youtube.com/embed/videoseries?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
