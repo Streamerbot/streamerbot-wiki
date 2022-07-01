@@ -43,5 +43,5 @@ dateCreated: 2022-06-28T18:13:10.114Z
 | `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
 
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemtransformchanged)
-* [<= Back](/en/Integrations/OBS/OBS-Events)
+* [<= Back](/en/Integrations/OBS/Events)
 {.links-list}
