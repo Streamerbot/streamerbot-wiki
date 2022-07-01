@@ -9,9 +9,9 @@ dateCreated: 2022-06-27T09:53:46.091Z
 ---
 
 # [Streaming](/en/Integrations/OBS/OBS-Events)
-* [StreamStarting](/en/Integrations/OBS/OBS-Events/Streaming/StreamStarting)
-* [StreamStarted](/en/Integrations/OBS/OBS-Events/Streaming/StreamStarted)
-* [StreamStopping](/en/Integrations/OBS/OBS-Events/Streaming/StreamStopping)
-* [StreamStopped](/en/Integrations/OBS/OBS-Events/Streaming/StreamStopped)
-* [StreamStatus](/en/Integrations/OBS/OBS-Events/Streaming/StreamStatus)
+* [StreamStarting](/en/Sub-Actions/OBS/Events/Streaming/StreamStarting)
+* [StreamStarted](/en/Sub-Actions/OBS/Events/Streaming/StreamStarted)
+* [StreamStopping](/en/Sub-Actions/OBS/Events/Streaming/StreamStopping)
+* [StreamStopped](/en/Sub-Actions/OBS/Events/Streaming/StreamStopped)
+* [StreamStatus](/en/Sub-Actions/OBS/Events/Streaming/StreamStatus)
 {.links-list}

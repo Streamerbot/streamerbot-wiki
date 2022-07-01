@@ -9,5 +9,5 @@ dateCreated: 2022-06-27T09:59:31.475Z
 ---
 
 # [Other](/en/Integrations/OBS/OBS-Events)
-* [Exiting](/en/Integrations/OBS/OBS-Events/Other/Exiting)
+* [Exiting](/en/Sub-Actions/OBS/Events/Other/Exiting)
 {.links-list}

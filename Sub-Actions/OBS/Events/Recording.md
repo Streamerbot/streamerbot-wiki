@@ -9,10 +9,10 @@ dateCreated: 2022-06-27T09:57:04.373Z
 ---
 
 # [Recording](/en/Integrations/OBS/OBS-Events)
-* [RecordingStarting](/en/Integrations/OBS/OBS-Events/Recording/RecordingStarting)
-* [RecordingStarted](/en/Integrations/OBS/OBS-Events/Recording/RecordingStarted)
-* [RecordingStopping](/en/Integrations/OBS/OBS-Events/Recording/RecordingStopping)
-* [RecordingStopped](/en/Integrations/OBS/OBS-Events/Recording/RecordingStopped)
-* [RecordingPaused](/en/Integrations/OBS/OBS-Events/Recording/RecordingPaused)
-* [RecordingResumed](/en/Integrations/OBS/OBS-Events/Recording/RecordingResumed)
+* [RecordingStarting](/en/Sub-Actions/OBS/Events/Recording/RecordingStarting)
+* [RecordingStarted](/en/Sub-Actions/OBS/Events/Recording/RecordingStarted)
+* [RecordingStopping](/en/Sub-Actions/OBS/Events/Recording/RecordingStopping)
+* [RecordingStopped](/en/Sub-Actions/OBS/Events/Recording/RecordingStopped)
+* [RecordingPaused](/en/Sub-Actions/OBS/Events/Recording/RecordingPaused)
+* [RecordingResumed](/en/Sub-Actions/OBS/Events/Recording/RecordingResumed)
 {.links-list}

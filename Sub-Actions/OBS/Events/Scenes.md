@@ -9,8 +9,8 @@ dateCreated: 2022-06-27T02:12:46.803Z
 ---
 
 # [Scenes](/en/Integrations/OBS/OBS-Events)
-* [SwitchScenes](/en/Integrations/OBS/OBS-Events/Scenes/SwitchScenes)
-* [ScenesChanged](/en/Integrations/OBS/OBS-Events/Scenes/ScenesChanged)
-* [SceneCollectionChanged](/en/Integrations/OBS/OBS-Events/Scenes/SceneCollectionChanged)
-* [SceneCollectionListChanged](/en/Integrations/OBS/OBS-Events/Scenes/SceneCollectionListChanged)
+* [SwitchScenes](/en/Sub-Actions/OBS/Events/Scenes/SwitchScenes)
+* [ScenesChanged](/en/Sub-Actions/OBS/Events/Scenes/ScenesChanged)
+* [SceneCollectionChanged](/en/Sub-Actions/OBS/Events/Scenes/SceneCollectionChanged)
+* [SceneCollectionListChanged](/en/Sub-Actions/OBS/Events/Scenes/SceneCollectionListChanged)
 {.links-list}

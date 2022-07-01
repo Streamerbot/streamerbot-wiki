@@ -9,6 +9,6 @@ dateCreated: 2022-06-27T10:00:23.113Z
 ---
 
 # [General](/en/Integrations/OBS/OBS-Events)
-* [Heartbeat](/en/Integrations/OBS/OBS-Events/General/Heartbeat)
-* [BroadcastCustomMessage](/en/Integrations/OBS/OBS-Events/General/BroadcastCustomMessage)
+* [Heartbeat](/en/Sub-Actions/OBS/Events/General/Heartbeat)
+* [BroadcastCustomMessage](/en/Sub-Actions/OBS/Events/General/BroadcastCustomMessage)
 {.links-list}

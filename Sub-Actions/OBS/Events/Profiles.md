@@ -9,6 +9,6 @@ dateCreated: 2022-06-27T09:37:11.526Z
 ---
 
 # [Profiles](/en/Integrations/OBS/OBS-Events)
-* [ProfileChanged](/en/Integrations/OBS/OBS-Events/Profiles/ProfileChanged)
-* [ProfileListChanged](/en/Integrations/OBS/OBS-Events/Profiles/ProfileListChanged)
+* [ProfileChanged](/en/Sub-Actions/OBS/Events/Profiles/ProfileChanged)
+* [ProfileListChanged](/en/Sub-Actions/OBS/Events/Profiles/ProfileListChanged)
 {.links-list}
