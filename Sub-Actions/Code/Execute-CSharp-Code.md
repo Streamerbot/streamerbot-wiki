@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-06-30T14:17:38.746Z
+date: 2022-07-01T19:57:25.804Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -109,3 +109,5 @@ I will provide some samples for folks to use here
 * [Programming In C# Crash Course For Streamer.bot *by nutty VODs* *1 video 1:21:48*](https://youtu.be/rS5ZuIZV_y0)
 * [C# Shorts *by Terrier Darts* *1 video 3:42*](https://www.youtube.com/playlist?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g)
 {.links-list}
+
+<iframe src="https://www.youtube-nocookie.com/embed/rS5ZuIZV_y0?start=0" width="560" height="315" title="Programming In C# Crash Course For Streamer.bot" frameborder="0" allowfullscreen></iframe>
