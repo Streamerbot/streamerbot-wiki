@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: false
-date: 2022-07-01T06:15:30.810Z
+date: 2022-07-01T06:16:26.174Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -19,7 +19,7 @@ Download one of these files on github.
 
 Then when you have downloaded the file translate it.
 Done with translating it?, fill in this google form below
-(You need to paste the text in the file you can't just drag and drop the file because of google limitations)
+(You need to paste the text of the file you can't just drag and drop the file because of google limitations)
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
