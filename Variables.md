@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-06-30T21:45:14.572Z
+date: 2022-07-01T17:21:28.811Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -69,27 +69,27 @@ Generic variables are available to most event sources, so consider these the min
 Variable | Description | Notes
 ---------:|------------
 `user` | User's Display Name | (**Note** this is case sensitive when using in a comparison)
-`userType` | Specifies which streaming service the triggering user is coming from| <span style="color:blue">*(0.1.8+)*</span>  `twitch`,`youtube`
+`userType` | Specifies which streaming service the triggering user is coming from| <span style="color:cyan">*(0.1.8+)*</span>  `twitch`,`youtube`
 `userName` | User's Login Name |(**Note** this is all lowercase when using in a comparison for Twitch)
 `userId` | Triggering user's unique ID
 `isSubscribed` | Boolean for Twitch subscription status of triggering user | `True` / `False`
 `isVip` | Boolean for Twitch VIP status of triggering user | `True` / `False`
 `isModerator` | Boolean for Twitch moderator status of triggering user | `True` / `False`
-`randomUser0` | The `username` of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
-`randomUserName0` | The Display name of a random user present in chat |  <span style="color:blue">*(0.1.8+ does not include random users by default)*</span>
+`randomUser0` | The `username` of a random user present in chat |  <span style="color:cyan">*(0.1.8+ does not include random users by default)*</span>
+`randomUserName0` | The Display name of a random user present in chat |  <span style="color:cyan">*(0.1.8+ does not include random users by default)*</span>
 `__source` | The name of the event triggering the action
 `date` | current system date | Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`
 `time` | current system time | Accepts any standard formtting notation eg. `HH-mm`
-`actionId` | The unique ID number of the first action called |  <span style="color:blue">*(0.1.8+)*</span>
-`runningActionId` | The instance ID number of the action in the queue | <span style="color:blue">*(0.1.8+)*</span>
-`eventSource` | a string value to specify which platform generated the event| <span style="color:blue">*(0.1.8+)*</span> `twitch`, `youtube`
+`actionId` | The unique ID number of the first action called |  <span style="color:cyan">*(0.1.8+)*</span>
+`runningActionId` | The instance ID number of the action in the queue | <span style="color:cyan">*(0.1.8+)*</span>
+`eventSource` | a string value to specify which platform generated the event| <span style="color:cyan">*(0.1.8+)*</span> `twitch`, `youtube`
 
 ***
 
-### Broadcaster Variables <span style="color:blue">*(0.1.5+)*</span>
+### Broadcaster Variables <span style="color:cyan">*(0.1.5+)*</span>
 If Twitch is connected, actions will have the following five variables available to them
 
-From version <span style="color:blue">*(0.1.8+)*</span> you need to do a sub-action for this
+From version <span style="color:cyan">*(0.1.8+)*</span> you need to do a sub-action for this
 
 | Variable | Description | Notes
 |   ---:|-------------|
@@ -140,8 +140,8 @@ Variable | Description
 `oldStatus` | Previous stream status
 `oldGameId` | Previous game category ID
 `oldGameName` | Previous game name
-`gameBoxArt` | URL for current game boxart image <span style="color:blue">*(0.15+)*</span>
-`oldGameBoxArt` | URL for previous game boxart image <span style="color:blue">*(0.15+)*</span>
+`gameBoxArt` | URL for current game boxart image <span style="color:cyan">*(0.15+)*</span>
+`oldGameBoxArt` | URL for previous game boxart image <span style="color:cyan">*(0.15+)*</span>
 
 
 ***
