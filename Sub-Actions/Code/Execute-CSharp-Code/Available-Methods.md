@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-06-30T21:52:26.254Z
+date: 2022-07-01T03:55:09.850Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -304,7 +304,7 @@ List<ClipData> GetClipsForUser(string username);
 ClipData CreateClip();
 ```
 
-> Requires minimum verion 0.1.5
+> Requires minimum version 0.1.5
 {.is-info}
 
 ```csharp
@@ -382,7 +382,7 @@ bool SetChannelGameById(string gameId);
 ```
 
 ## Announcement
-> Requires minimum verion 0.1.9
+> Requires minimum version 0.1.9
 {.is-info}
 
 > Even though the color parameter is present, currently, due to a Twitch limitation, only null is supported, this will use the default announce command.  When Twitch fixes this, supported values will be `blue`, `orange`, `green`, `purple`
@@ -393,7 +393,7 @@ void TwitchAnnounce(string message, string color = null);
 ```
 
 ## OAuth & Client Id
-> Requires minimum verion 0.1.10
+> Requires minimum version 0.1.10
 {.is-info}
 
 ```csharp
@@ -402,7 +402,7 @@ string TwitchOAuthToken();
 ```
 
 # YouTube
-> Requires minimum verion 0.1.8
+> Requires minimum version 0.1.8
 {.is-info}
 
 ## Chat Message
@@ -617,7 +617,7 @@ void SlobsSourceMuteToggle(string scene, string source, string filterName, int c
 ```
 
 # Voicemod
-> Requires minimum verion 0.1.8
+> Requires minimum version 0.1.8
 {.is-info}
 
 ## Select Voice
