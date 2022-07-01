@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: false
-date: 2022-07-01T06:20:09.782Z
+date: 2022-07-01T06:33:48.732Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -23,4 +23,12 @@ Done with translating it?, fill in this google form below
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
+
+Here some images to help you.
+
+![wiki-translations-1.png](/wiki-translations/wiki-translations-1.png)
+![wiki-translations-2.png](/wiki-translations/wiki-translations-2.png)
+![wiki-translations-3.png](/wiki-translations/wiki-translations-3.png)
+![wiki-translations-4.png](/wiki-translations/wiki-translations-4.png)
+![wiki-translations-5.png](/wiki-translations/wiki-translations-5.png)
 
