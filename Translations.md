@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: false
-date: 2022-07-01T06:34:20.893Z
+date: 2022-07-01T14:30:34.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -32,3 +32,9 @@ Here some images to help you.
 ![wiki-translations-4.png](/wiki-translations/wiki-translations-4.png)
 ![wiki-translations-5.png](/wiki-translations/wiki-translations-5.png)
 
+---
+
+<details>
+  
+  
+</details>
