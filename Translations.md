@@ -9,10 +9,13 @@ dateCreated: 2022-07-01T06:14:49.147Z
 ---
 
 # Translations
+> This way of translating the wiki is temporary `KK964` out the discord is working on a way better solutation for this, but that will take a some time to do, so **don't** expect that being released tomorrow.
+{.is-warning}
+
 Help translating the wiki in `Arabic`, `German`, `Spanish`, `French`, `Dutch` and `Portuguese`!
 
 To do so you need to do a couple of things.
-Download one of these files.
+Download one of these files below.
 
 * [About.md](https://github.com/Daan-Tutorials/wiki-translations/releases/download/v1/about.md)
 * [Actions.md](https://github.com/Daan-Tutorials/wiki-translations/releases/download/v1/Actions.md)
@@ -30,7 +33,6 @@ Download one of these files.
 
 Then when you have downloaded the file translate it.
 Done with translating it?, fill in this google form below
-(You need to paste the text of the file you can't just drag and drop the file because of google limitations)
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
