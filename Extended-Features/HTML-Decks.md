@@ -2,13 +2,12 @@
 title: HTML Decks
 description: How to use the HTML based decks built on the Streamer.bot website
 published: true
-date: 2022-06-27T12:14:07.673Z
+date: 2022-07-02T20:33:03.035Z
 tags: decks, website
 editor: markdown
 dateCreated: 2022-06-01T14:35:51.843Z
 ---
 
-# HTML Decks
 ## Description
 The streamer.bot website offers a "streamer deck" interface utilizing HTML that can be run on any device. Local and remote connections are available so that your mods can help you stream.
 
