@@ -2,7 +2,7 @@
 title: Streamer.bot
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-01T17:53:59.769Z
+date: 2022-07-02T20:32:31.882Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -36,7 +36,7 @@ Are you uploading videoes on YouTube, be sure to add the **#streamerbot** and/or
 
 ## Extended Features
 
-* [Streamer.bot Decks *Web-based StreamDeck or LoupeDeck alternative by Whipstickgostop*](https://streamer.bot/user/decks)
+* [Streamer.bot Decks *Web-based StreamDeck or LoupeDeck alternative by Whipstickgostop*](/en/Extended-Features/HTML-Decks)
 * [HTML Overlay](/en/Extended-Features/HTML-Overlay)
 {.links-list}
 
