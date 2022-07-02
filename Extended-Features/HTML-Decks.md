@@ -2,7 +2,7 @@
 title: HTML Decks
 description: How to use the HTML based decks built on the Streamer.bot website
 published: true
-date: 2022-07-02T20:35:46.487Z
+date: 2022-07-02T20:42:11.990Z
 tags: decks, website
 editor: markdown
 dateCreated: 2022-06-01T14:35:51.843Z
@@ -12,11 +12,11 @@ dateCreated: 2022-06-01T14:35:51.843Z
 The streamer.bot website offers a "streamer deck" interface utilizing HTML that can be run on any device. Local and remote connections are available so that your mods can help you stream.
 
 ## Requirements
-- Logged in to https://streamer.bot and enabled the connection to your local bot (It should be enabled by default).
+- Log in to https://streamer.bot
+- Ensure the `Streamer.bot Connection` option is enabled in your user settings (it should be enabled by default)
+  ![wiki1.png](https://cdn.discordapp.com/attachments/734080487009681490/981539873787875379/wiki1.png =800x)
 
-![wiki1.png](https://cdn.discordapp.com/attachments/734080487009681490/981539873787875379/wiki1.png =800x)
-
-Have the bot connected to the website service integration
+- Enable the `Streamer.bot Website` integration in Streamer.bot
 ![bot-integration.png](https://cdn.discordapp.com/attachments/626215226261635082/981966838932074526/unknown.png =800x)
 
 ## Create a New Deck
@@ -77,11 +77,12 @@ Icons can be set using the icon name from https://icones.js.org
 Clcik the "Launch Deck" button in the top right to open a new tab with your URL for the deck. This can be opened on another PC, phone, tablet or even docked into your OBS. If access allowed by other users or it's public, copy and paste the URL to share.
 
 ## Variables
-The following arguments are sent with all button actions and are available in Streamer.bot as variables:
+The following arguments are sent with all button actions and will be available in your Streamer.bot instance as variables
 
 | Variable | Description |
 |      ---:|-------------|
-| `streamerbotUserId` | The streamer.bot user ID |
-| `streamerbotUserDiscordId` | The discord ID of the redeemer |
-| `streamerbotUserUsername` | The username of the redeemer |
-| | Your own inputted variables on the decks |
+| `streamerbotUserId` | Streamer.bot user ID |
+| `streamerbotUserDiscordId` | The Discord user ID of the redeemer |
+| `streamerbotUserUsername` | The Streamer.bot username of the redeemer e.g. DiscordUsername#0000 |
+
+Any additional variables you have configured at the deck or button level will also be available in your Streamer.bot actions.
