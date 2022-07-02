@@ -2,7 +2,7 @@
 title: Streamer.bot
 description: Officiële documentatie voor Streamer.bot
 published: true
-date: 2022-07-01T01:14:30.573Z
+date: 2022-07-02T00:18:27.160Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T01:14:30.573Z
@@ -21,7 +21,7 @@ Bovendien, zijn er kanalen in de Streamer.bot discord voor hulp en ondersteuning
 * [Discord *Sluit je aan bij Discord voor voorbeelden, hulp, om te delen wat je hebt gemaakt, of gewoon om rond te hangen!*](https://discord.streamer.bot)
 {.links-list}
 
-Je creaties delen op Twitter? Zorg ervoor dat je **@streamerdotbot**tagt, en/of gebruik de hashtags **#streamerdotbot**, **#streamerbot**!
+Je creaties delen op Twitter? Zorg ervoor dat je **@streamerdotbot** tagt, en/of gebruik de hashtags **#streamerdotbot**, **#streamerbot**!
 
 Maak jij Streamer. bot video’s op YouTube, zorg ervoor dat je de **#streamerbot** en/of **#streamerdotbot** hashtags toevoegt om anderen te helpen jouw video's te vinden!
 
