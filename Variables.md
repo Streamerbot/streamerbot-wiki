@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-01T17:56:29.451Z
+date: 2022-07-03T17:19:43.848Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -66,7 +66,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 ***
 
-### Broadcaster Variables <span style="color:cyan">*(0.1.5+)*</span>
+### Broadcaster Variables *v0.1.5+*{.version-badge}
 * [Broadcaster](/en/Variables/Broadcaster)
 {.links-list}
 
@@ -111,8 +111,8 @@ Variable | Description
 `oldStatus` | Previous stream status
 `oldGameId` | Previous game category ID
 `oldGameName` | Previous game name
-`gameBoxArt` | URL for current game boxart image <span style="color:cyan">*(0.15+)*</span>
-`oldGameBoxArt` | URL for previous game boxart image <span style="color:cyan">*(0.15+)*</span>
+`gameBoxArt` | URL for current game boxart image *v0.1.5+*{.version-badge}
+`oldGameBoxArt` | URL for previous game boxart image *v0.1.5+*{.version-badge}
 
 
 ***
@@ -651,8 +651,8 @@ Variable | Description
 `altPhraseText#` | 
 `altPhraseConfidence#` | 
 `altPhraseConfidencePercent#` | 
-`spokenTextInput` | Detected spoken phrase with trigger command stripped <span style="color:blue">*(0.15+)*</span> <br>(Only works with `Start` based commands)
-`spokenCommand` | Detected Trigger command <span style="color:blue">*(0.15+)*</span>
+`spokenTextInput` | Detected spoken phrase with trigger command stripped *v0.1.5+*{.version-badge} <br>(Only works with `Start` based commands)
+`spokenCommand` | Detected Trigger command *v0.1.5+*{.version-badge}
 
 ***
 
@@ -661,7 +661,7 @@ Variable | Description
 | Variable | Description | Notes
 |   ---:|-------------|---
 | `command` | The command that was used |
-| `commandID` | The ID of the command that was used | <span style="color:blue">*(0.18+)*</span>
+| `commandID` | The ID of the command that was used | *v0.1.8+*{.version-badge}
 | `rawInput` | The message entered, if the command was a Starts With, this will be removed |
 | `rawInputEscaped` | The message escaped |
 | `rawInputUrlEncoded` | The message URL encoded |
