@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sub-Actions",
+    "\\Sub-Actions\\Voice Control",
+    "\\Sub-Actions\\VoiceMod"
   ],
-  "SelectedNode": "\\C:\\Users\\Samuel James\\Desktop\\Wiki Main Stuff\\streamerbot-wiki",
+  "SelectedNode": "\\Sub-Actions\\Voice Control\\Set-Voice-Control-Command.md",
   "PreviewInSolutionExplorer": false
 }

@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-03T17:15:20.478Z
+date: 2022-07-03T20:41:50.696Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -103,13 +103,13 @@ Some functions have been known to fail when they are named the same
 * [Set Active Scene *Set actively broadcasting scene*](/Sub-Actions/OBS/Set-Active-Scene)
 * [Set Browser Source URL *Set the URL of an OBS browser source*](/Sub-Actions/OBS/Set-Browser-Source-URL)
 * [Set GDI Text *Change the text shown in a GDI+ source*](/Sub-Actions/OBS/Set-GDI-Text)
-* [Set Image Source File *Set filepath for Image source* *v0.1.5+* ](/Sub-Actions/OBS/Set-Image-Source-File)
-* [Set Media Source File *Set filepath for Media source* *v0.1.5+* *CREATE ME*](/Sub-Actions/OBS/Set-Media-Source-File)
+* [Set Image Source File *Set filepath for Image source* *v0.1.5+*{.version-badge} ](/Sub-Actions/OBS/Set-Image-Source-File)
+* [Set Media Source File *Set filepath for Media source* *v0.1.5+*{.version-badge} *CREATE ME*](/Sub-Actions/OBS/Set-Media-Source-File)
 * [Set Media State *Media playback controls for specified source* *`Play`,`Pause`,`Restart`,`Stop`,`Next`,`Previous`* *CREATE ME*](/Sub-Actons/OBS/Set-Media-State)
 * [Set Random Group Source Visible *Set a random source in an OBS group to `Visible`* *Excludes sources already visible*](/Sub-Actions/OBS/Set-Random-Group-Source-Visible)
-* [Set Replay Buffer State *Sets the state of the OBS Replay Buffer* *v0.1.5+* *CREATE ME*](/Sub-Actions/OBS/Replay-Buffer-State)
+* [Set Replay Buffer State *Sets the state of the OBS Replay Buffer* *v0.1.5+*{.version-badge} *CREATE ME*](/Sub-Actions/OBS/Replay-Buffer-State)
 * [Set Scene Filter State *Enable / Disable a scene filter* *CREATE ME*](/Sub-Actions/OBS/Scene-Filter-State)
-* [Set Source Audio Track State *Enable / Disable an OBS audio track* (**Requires obs-websocket 4.9.1** *CREATE ME*)](/Sub-Actions/OBS/Source-Audio-Track-State)
+* [Set Source Audio Track State *Enable / Disable an OBS audio track* *Requires obs-websocket 4.9.1*{.version-badge} *CREATE ME*](/Sub-Actions/OBS/Source-Audio-Track-State)
 * [Set Source Filter State *Enable / Disable a source filter*](/Sub-Actions/OBS/Set-Source-Filter-State)
 * [Set Source Mute State *Mute / Unmute a source* *UPDATE ME*](/Sub-Actions/OBS/Set-Source-Mute-State)
 * [Set Source Visibility *Hide / Unhide a source*](/Sub-Actions/OBS/Set-Source-Visibility)
@@ -119,7 +119,7 @@ Some functions have been known to fail when they are named the same
 {.links-list}
 
 # PolyPop
-> Available as of **Streamer.bot** v0.1.8 and higher
+> Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
 * [Trigger Alert](/en/Sub-Actions/PolyPop/Trigger-Alert)
 {.links-list}
@@ -128,11 +128,11 @@ Some functions have been known to fail when they are named the same
 * [Configure Reward *Enable / Disable one or more channel point rewards*](/Sub-Actions/Rewards/Configure-Reward)
 * [Set Cost *Change the channel point cost of a reward*](/Sub-Actions/Rewards/Set-Cost)
 * [Set Enabled State *Enable / Disable a channel point reward*](/Sub-Actions/Reward/Set-Enabled-State)
-* [Set Global Cooldown *Set cooldown time for a channel point reward* *v0.0.50+* *CREATE ME*](/Sub-Actions/Rewards/Set-Global-Cooldown)
+* [Set Global Cooldown *Set cooldown time for a channel point reward* *CREATE ME*](/Sub-Actions/Rewards/Set-Global-Cooldown)
 * [Set Paused State *Pause / Unpause redemptions for a channel point reward*](/Sub-Actions/Rewards/Set-Paused-State)
-* [Set Prompt *Set the prompt text shown for a channel point reward* *v0.1.5+*](/Sub-Actions/Rewards/Set-Prompt)
-* [Set Title *Set the name of a channel point reward* *v0.1.5+*](/Sub-Actions/Rewards/Set-Title)
-* [Update *Set `Title`,`Prompt`,`Cost` and `Cooldown` for a channel point reward in single sub-action* *v0.1.5+*](/Sub-Actions/Rewards/Update)
+* [Set Prompt *Set the prompt text shown for a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Prompt)
+* [Set Title *Set the name of a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Title)
+* [Update *Set `Title`,`Prompt`,`Cost` and `Cooldown` for a channel point reward in single sub-action* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Update)
 * [Update Redemption Status *Mark the channel point redeem as `Completed` or `Rejected` (Rejecting will automatically refund points to the user)*](/Sub-Actions/Rewards/Redemption-Status)
 {.links-list}
 
@@ -161,7 +161,7 @@ Some functions have been known to fail when they are named the same
 {.links-list}
 
 # TwitchSpeaker
-* [Speak *Send a custom message to be spoken to the TwitchSpeaker application* *v0.1.5+* ](/Sub-Actions/TwitchSpeaker/Speak)
+* [Speak *Send a custom message to be spoken to the TwitchSpeaker application* *v0.1.5+*{.version-badge} ](/Sub-Actions/TwitchSpeaker/Speak)
 {.links-list}
 
 # Voice Control
@@ -172,7 +172,7 @@ Some functions have been known to fail when they are named the same
 {.links-list}
 
 # VoiceMod
-> Available as of **Streamer.bot** v0.1.8 and higher
+> Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
 * [Get Current Voice *Queries VoiceMod for the current voice in use*](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
 * [Select Random Voice *Make Streamer.bot pick a random voice* ](/en/Sub-Actions/VoiceMod/Select-Random-Voice)
@@ -186,7 +186,7 @@ Some functions have been known to fail when they are named the same
 {.links-list}
 
 # YouTube
-> Available as of **Streamer.bot** v0.1.8 and higher
+> Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
 * [Send Message To Channel *Send a messeage to your Youtube Channel*](/en/Sub-Actions/Youtube/Send-Message-To-YouTube)
 * [Set Title *Set the title of your Youtube Stream*](/en/Sub-Actions/Youtube/Set-Title-YouTube)
