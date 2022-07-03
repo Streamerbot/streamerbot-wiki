@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-01T15:03:23.999Z
+date: 2022-07-03T19:19:05.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -36,3 +36,5 @@ Done with translating it?, fill in this google form below
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
+
+When translated your discord can go on the top right corner of the page: *Translated by example#0000*{.translation-badge}
