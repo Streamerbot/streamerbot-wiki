@@ -2,21 +2,23 @@
 title: Twitch Accounts
 description: 
 published: true
-date: 2021-08-28T02:16:58.974Z
+date: 2022-07-03T20:13:35.755Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:56.848Z
 ---
 
-![Twitch Account Settings](/119614942-c20a6e00-bdf6-11eb-9647-e56d80d9a8f1.png)
+![twitch-accounts-019.png](/twitch-accounts-019.png)
 
 ## Broadcaster Account
 
-If you want CPH to be able to monitor chat and Twitch events, a `Broadcaster` account must be defined
+If you want streamer.bot to be able to monitor chat and Twitch! events, a `Broadcaster` account must be defined
 
 Press `Connect to Twitch` to automatically obtain a token 
 
-`Auto Connect` will set CPH to connect to twitch with the defined account on startup
+`Auto Connect` will set streamer.bot to connect to twitch with the defined account on startup
+
+`Auto Reconnect` instructs streamer.bot to attempt reconnection in the case of any network interruption to the platform
 
 ***
 
