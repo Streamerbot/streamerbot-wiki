@@ -2,7 +2,7 @@
 title: OBS
 description: 
 published: true
-date: 2022-07-01T18:10:16.052Z
+date: 2022-07-03T20:20:18.699Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -13,15 +13,15 @@ dateCreated: 2021-08-25T21:32:10.502Z
 # Overview
 Configuration page for one or more connection(s) to OBS Studio instance(s)
 
-> OBS Websocket v4.x is the only supported version at this time, v5.x requires a re-write and is being worked on
-Download OBS Websocket plugin **4.9.1** [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+> OBS Websocket *v4.X.X*{.version-badge} is the only supported version at this time, *v5.X*{.version-badge} requires a re-write and is being worked on
+The latest supported version is *4.9.1*{.version-badge} and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
 
 Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
 ![broadcasters-obs-018.png](/broadcasters-obs-018.png)
 
-> If you are using **0.1.7** or below the OBS configuration is found as a top level tab but the functionality is the same
+> If you are using *v0.1.7*{.version-badge} or below the OBS configuration is found as a top level tab but the functionality is the same
 {.is-info}
 
 
@@ -60,7 +60,7 @@ Lists all sources present on the currently selected scene
 
 # Events
 
-> OBS Events requires **Streamer.bot** version 0.1.4 or higher.
+> OBS Events requires **Streamer.bot** *v0.1.4*{.version-badge} or higher.
 {.is-info}
 
 You can assign actions to events that OBS transmits across the websocket connection.
