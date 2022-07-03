@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: false
-date: 2022-07-03T20:06:19.129Z
+date: 2022-07-03T20:12:29.403Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -13,3 +13,9 @@ dateCreated: 2022-07-03T19:53:46.241Z
 
 > A star is a luminous ball of gas, mostly hydrogen and helium, held together by its own gravity. Nuclear fusion reactions in its core support the star against gravity and produce photons and heat, as well as small amounts of heavier elements.
 {.is-star}
+
+> test
+{.is-success}
+
+> test
+{.is-succesbetter}
