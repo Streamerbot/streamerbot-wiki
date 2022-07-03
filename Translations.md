@@ -2,19 +2,21 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-03T19:25:43.481Z
+date: 2022-07-03T19:34:30.243Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
 ---
 
 # Translations
-> This way of translating the wiki is temporary `KK964` out the discord is working on a way better solutation for this, but that will take a some time to do, so **don't** expect that being released tomorrow.
+> This way of translating the wiki is temporary. 
+>`KK964` on the streamer.bot Discord is working on a better solution for this, but that will take a some time to do, so **don't** expect that being released tomorrow.
 {.is-warning}
 
-Help translating the wiki in `Arabic`, `German`, `Spanish`, `French`, `Dutch` and `Portuguese`!
+We are looking for volunteers to help the translate the wiki into  `Arabic`, `German`, `Spanish`, `French`, `Dutch` and `Portuguese`!
 
-To do so you need to do a couple of things.
+If you want to assist, you need to do a couple of things.
+
 Download one of these files below.
 
 * [About.md](https://github.com/Daan-Tutorials/wiki-translations/releases/download/v1/about.md)
