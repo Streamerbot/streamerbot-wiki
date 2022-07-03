@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-03T21:26:12.002Z
+date: 2022-07-03T22:23:45.721Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -24,3 +24,6 @@ dateCreated: 2022-07-03T19:53:46.241Z
 {.is-succesbetter}
 
 *[Mady by robophill](https://www.twitch.tv/robophill)*{.translation-badge}
+
+> This page is admin only
+{.is-admin}
