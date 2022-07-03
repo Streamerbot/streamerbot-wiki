@@ -1,26 +1,27 @@
 ---
-title: Quick Start Guides
+title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-06-12T20:26:50.463Z
-tags: 
+date: 2022-07-03T16:20:58.570Z
+tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
 ---
 
-# Quick Start Guide
-## Description
-This page is dedicated to getting your bot up and runninag as fast as possible. If you are new to local bots and want to learn about the bot while installing some pre-configured (but still awesome) content then you might want to take a quick side trip to [VRFlad's Fasttrack](https://vrflad.com/fasttrack). Don't worry, the wiki will be here when you get back.
+# Overview
+This page is dedicated to getting your bot up and runninag as fast as possible. 
+
+If you are new to local bots and want to learn about the bot while installing some pre-configured (but still awesome) content then you might want to take a quick side trip to [VRFlad's Fasttrack](https://vrflad.com/fasttrack). Don't worry, the wiki will be here when you get back.
 
 For the more advanced users that want to start off with a clean slate and start building, then by all means... read on!
 
 # Getting Started
 ## Connecting your Twitch account!
-![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png)
-> To add an account navigate through the following `Platforms` ---> `Twitch` ----> `Accounts` under the broadcaster account section in this tab then press the `Connect to Twitch` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
-{.is-info}
+![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png =800x)
+1. Navigate through the following: `Platforms` ---> `Twitch` ----> `Accounts`
+2. Press the `Connect to Twitch` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
 
-> You can not type into either of the username boxes, this is only for reference.
+> You can not type into either of the username boxes. They will display your username once you have authenticated.
 {.is-warning}
 ### Broadcaster Account
 
