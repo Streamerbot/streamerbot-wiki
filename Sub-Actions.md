@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-03T17:06:45.517Z
+date: 2022-07-03T17:12:14.003Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -118,7 +118,8 @@ Some functions have been known to fail when they are named the same
 * [Take Screenshot *Take a screenshot of a scene / source and save to file*](/Sub-Actions/OBS/Take-Screenshot)
 {.links-list}
 
-# PolyPop <span class="version-badge">v0.1.8+</span>
+# PolyPop
+*v0.1.8+*{.version-badge}
 * [Trigger Alert](/en/Sub-Actions/PolyPop/Trigger-Alert)
 {.links-list}
 
