@@ -2,7 +2,7 @@
 title: OBS
 description: 
 published: true
-date: 2022-07-03T20:28:25.345Z
+date: 2022-07-03T20:30:23.720Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -72,5 +72,5 @@ OBS events are per-connection based.
 * [OBS Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists.*](/en/Broadcasters/OBS/OBS-Events)
 {.links-list}
 # Requests
-* [OBS Requests *Contains a list of requests that are supported with OBS raw.*](/en/Integrations/OBS/OBS-Requests) 
+* [OBS Requests *Contains a list of requests that are supported with OBS raw.*](/en/Broadcasters/OBS/OBS-Requests) 
 {.links-list}
