@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-06-30T20:22:38.352Z
+date: 2022-07-03T20:04:37.282Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -11,17 +11,21 @@ dateCreated: 2021-08-25T21:34:42.553Z
 ![twitch-logo.png](/logos/twitch-logo.png){.align-abstopright}
 
 # Overview
-> All things Twitch related will eventually wind up on this tab, but for now, this is where you can find the options for Polls and Predictions, available as of v0.50
-{.is-info}
 
-# Twitch Integrations
+Streamer.bot can integrate directly with Twitch! to bring a new level of interactivity to your stream. Details on how to configure your accounts and the different options available to you through the platform will be detailed on their own pages linked below. 
 
-## Events
+# Accounts
+
+* [Accounts *Configuration of `Broadcaster` & `Bot` account* *Before **v0.1.8** this tab is found under the `Settings` tab*](/en/Platforms/Twitch/Twitch-Accounts)
+{.links-list}
+
+# Events
 Streamerbot constantly listens for various events while connected to a Twitch! account and can perform an action for each of them. 
+Many of these will require at least Twitch! affiliate status to utilise and some may be unavailable if prohibited by local laws
 
-These are be broken down into the following 10 Categories, each will have its own page to explain their uses 
+These are be broken down into the following 11 tabs, each will have its own page to explain their uses 
 
-* [General *Follows and Chat related events*](/Events/General)
+* [General *Follows & Chat related events*](/Events/General)
 * [Cheers *Bit Cheer events*](/Events/Cheers)
 * [Sub *First time subscribers*](/Events/Sub)
 * [Re-Sub *Users renewing their own subscription*](/Events/Sub)
@@ -34,14 +38,14 @@ These are be broken down into the following 10 Categories, each will have its ow
 * [Stream Update *When the Stream Category or Title changes*](/Events/Stream-Update)
 {.links-list}
 
-## Channel Point Rewards
+# Channel Point Rewards
 - [Channel Point Rewards *Execute actions on point redemptions*](/Twitch/Channel-Point-Rewards)
 {.links-list}
 
-## Polls
-- [Polls *Variables*](/Twitch/Polls) 
+# Polls
+- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls) 
 {.links-list}
 
-## Predictions
-- [Predictions *Variables*](/Twitch/Predictions)
+# Predictions
+- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/Twitch/Predictions)
 {.links-list}
