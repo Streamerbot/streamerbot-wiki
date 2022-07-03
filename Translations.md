@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-03T19:38:51.855Z
+date: 2022-07-03T19:39:46.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -39,4 +39,4 @@ Done with translating it?, fill in this google form below
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
 {.links-list}
 
-When translated, your discord can go on the top right corner of the page: *Translated by example#0000*{.version-badge} (if on the question: "Do you want to be anonymous?" you anwered no it will say *Translated by anonymous*{.version-badge} )
+When translated, your discord can go on the top right corner of the page: *Translated by example#0000*{.version-badge} (if on the question: `Do you want to be credited for your translation?` you anwered no it will say *Translated by anonymous*{.version-badge} )
