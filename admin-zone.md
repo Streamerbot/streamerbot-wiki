@@ -2,11 +2,14 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-03T20:13:14.824Z
+date: 2022-07-03T21:24:54.598Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
 ---
+
+# Admin Zone
+### A place for admins to test wiki things!
 
 > **THIS PAGE IS RADIOACTIVE!!!**
 {.is-radioactive}
@@ -19,3 +22,5 @@ dateCreated: 2022-07-03T19:53:46.241Z
 
 > test
 {.is-succesbetter}
+
+*[Mady by robophill](https://www.twitch.tv/robophill)*{.translation-badge}
