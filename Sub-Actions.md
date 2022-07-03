@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-03T17:12:14.003Z
+date: 2022-07-03T17:15:20.478Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -119,7 +119,8 @@ Some functions have been known to fail when they are named the same
 {.links-list}
 
 # PolyPop
-*v0.1.8+*{.version-badge}
+> Available as of **Streamer.bot** v0.1.8 and higher
+{.is-info}
 * [Trigger Alert](/en/Sub-Actions/PolyPop/Trigger-Alert)
 {.links-list}
 
