@@ -2,14 +2,14 @@
 title: Streamer.bot
 description: Officiële documentatie voor Streamer.bot
 published: true
-date: 2022-07-03T19:00:14.019Z
+date: 2022-07-03T19:02:57.219Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T01:14:30.573Z
 ---
 
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
-
+*Translated by ik#1497*{.translation-badge}
 # Welkom bij Streamer.bot
 
 Documentatie voor Streamer.bot. Hier zijn de changelogs en informatie van alle aspecten van dit programma.
