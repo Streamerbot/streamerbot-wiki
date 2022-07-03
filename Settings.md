@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-03T19:17:55.164Z
+date: 2022-07-03T20:23:00.074Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -91,7 +91,7 @@ Volume can be overridden on a per sub-action basis if needed
 
 *v0.1.8+*{.version-badge}
 
-> [Twitch Accounts](/en/Platforms/Twitch/Accounts) have been relocated to `Platforms > Twitch > Accounts` in 0.1.8. Please click the link for more information
+> As of  *v0.1.8+*{.version-badge} [Twitch Account Configuration](/en/Platforms/Twitch-Accounts)  has been relocated to `Platforms > Twitch > Accounts`
 {.is-info}
 
 *v0.1.0 - v0.1.7*{.version-badge}
