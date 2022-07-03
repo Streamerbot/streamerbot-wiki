@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-03T18:45:35.740Z
+date: 2022-07-03T19:17:55.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -358,12 +358,12 @@ The default C# compiler in **0.1.8** is already very robust and will find its ow
 
 # [Events](/en/Events)
 
-### 0.1.8
+*v0.1.8+*{.version-badge}
 
 > In **0.1.8** configuration of Twitch! event monitoring has moved to `Platforms > Twitch > Events` 
 {.is-info}
 
-### 0.1.7
+*v0.1.0 - v0.1.7*{.version-badge}
 
 Configuration of event monitoring is found in this sub-section, see [Events](/en/Events) for details
 
@@ -382,8 +382,9 @@ Configuration of event monitoring is found in this sub-section, see [Events](/en
 * [Predictions *Set up a prediction between 2-10 options that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
 {.links-list}
 
-> For predictions you need to be on v0.1.9 to have 2-10 options available on lower versions it's 2 options
-{.is-danger}
+> Predictions with more than 2 outcomes requires *v0.1.9+*{.version-badge}
+{.is-info}
+
 
 
 
