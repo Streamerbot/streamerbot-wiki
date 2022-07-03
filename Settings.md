@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-06-29T13:33:15.315Z
+date: 2022-07-03T18:45:35.740Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:33:03.053Z
 
 Settings have recieved a major overhaul in 0.1.8 as can be seen below 
 
-0.1.7|0.1.8
+*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
 ---|---
 ![ui-settings.png](/ui-settings.png)|![settings-018.png](/settings-018.png)
 
@@ -43,20 +43,20 @@ The tab order on each level can be changed by dragging the tab to the desired po
 
 ## General
 
-0.1.7|0.1.8
+*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
 ---|---
 ![Settings General](/130132575-9efb23f4-d56f-4c6f-ba21-985ccefda2e9.png)|![settings-general-018.png](/settings-general-018.png)
 
 
 ### Action Queues 
 
-#### 0.1.8
+*v0.1.8+*{.version-badge}
 
 > [Action Queues](en/action-queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
 {.is-info}
 
 
-#### 0.1.0 - 0.1.7
+*v0.1.0 - v0.1.7*{.version-badge}
 
 All [Actions](/en/Actions) defined in Streamerbot must be assigned to an `Action Queue` 
 
@@ -89,12 +89,12 @@ Volume can be overridden on a per sub-action basis if needed
 
 ## Twitch Accounts
 
-#### 0.1.8
+*v0.1.8+*{.version-badge}
 
 > [Twitch Accounts](/en/Platforms/Twitch/Accounts) have been relocated to `Platforms > Twitch > Accounts` in 0.1.8. Please click the link for more information
 {.is-info}
 
-#### 0.1.7
+*v0.1.0 - v0.1.7*{.version-badge}
 
 ![Twitch Account Settings](/119614942-c20a6e00-bdf6-11eb-9647-e56d80d9a8f1.png)
 
@@ -143,11 +143,12 @@ Folder watch actions that have been defined will show in this pane to indicate t
 
 ### Edit File Watch Dialogue
 
-0.1.7|0.1.8
+*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
 ---|---
 ![image](/130543487-37f328d3-55b9-4dab-8f53-c46fde0ff967.png)|![file-folder-watcher-edit-018.png](/file-folder-watcher-edit-018.png)
+Can only monitor specific files | Monitors entire folders and will trigger on every match defined in the filter
 
-**0.1.7** could only monitor specific files, **0.1.8** expands this functionality to monitor entire folders and will trigger on every match defined in the filter
+
 
 > Filters can be a generic or specific as required and uses the `*` symbol as a wildcard.
 > eg. `*.*` will match all files in a folder, `*.txt` will match all text files, `some*.txt` will match all text files that begin with the word `some` and so on
@@ -245,7 +246,7 @@ As the function is quite extensive, this will remain on its own page. [click her
 
 ## Pyramids
 
-0.1.7|0.1.8
+*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
 ---|---
 ![Pyramids Settings](/119623512-28e05500-be00-11eb-8340-5a02c1c94521.png)|![settings-pyramids-018.png](/settings-pyramids-018.png)
 
