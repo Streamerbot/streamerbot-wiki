@@ -1,14 +1,12 @@
 ---
 title: Set Voice Control Command
-description: Trigger an action with your voice 
-published: false
-date: 2022-06-28T10:34:06.448Z
-tags: twitch, integrations, youtube, streamerbot, voice
+description: Trigger an action with your voice
+published: true
+date: 2022-07-04T01:28:53.023Z
+tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
-dateCreated: 2022-06-27T00:23:56.400Z
+dateCreated: 2022-07-04T01:16:31.435Z
 ---
-
-
 
 # Set Voice Control Command
 
@@ -30,15 +28,16 @@ First make sure that streamer.bot is open and then navigate through the followin
 
 In this dialog you can see the following option and input fields we need to configure so starting with the top input field 
 
-Name - here you would need to enter the name of the voice command (This is how you would identify this later.)
-Enabled- this check box controls whether the voice command is enabled or not.
-Command - In this input field you need to type what you're going to say. (This is what streamer.bot will listen for before it runs the action that is attached)
-Location - This drop down lets you choose from 3 options 
-			Exact - what you say, needs to match whatever you have typed in Command Input field.
-			Start - the bot will listen for the command you inputted in the command field at the beginning of the sentence ensure you have the stop after checked so the bot will pause listening for that command while the action linked is running.
-			Anywhere - the bot will trigger the command anywhere you say the text you inputted in the command field. Ensure you have the stop after checked so the bot will pause listening for that command while the action linked is running.
-Action - click the `<No Action Selected>` button to select the action you want to run when you say the command you entered in the command field.
-Override Global -  only check this is you want the bot to trigger a command with specific certainty that you said the trigger words. this threshold is defined in the `Confidence Threshold` input field.
+**Name** - here you would need to enter the name of the voice command (This is how you would identify this later.)
+**Enabled** - this check box controls whether the voice command is enabled or not.
+**Command** - In this input field you need to type what you're going to say. (This is what streamer.bot will listen for before it runs the action that is attached)
+**Location** - This drop down lets you choose from 3 options 
+- <p style="text-align: center;">  Exact - what you say, needs to match whatever you have typed in Command Input field.
+-  Start - the bot will listen for the command you've inputted in the command field at the beginning of the sentence ensure you have the `stop after` checked so the bot will pause listening for that command while the action its link to linked is running.
+- Anywhere - the bot will trigger the command anywhere you say the text you inputted in the command field. Ensure you have the stop after checked so the bot will pause listening for that command while the action linked is running.</p>
+
+**Action** - click the `<No Action Selected>` button to select the action you want to run when you say the command you entered in the command field.
+**Override Global** -  only check this is you want the bot to trigger a command with specific certainty that you said the trigger words. this threshold is defined in the `Confidence Threshold` input field.
 
 When you happy with this click the `Ok` button. Save then you have created your first of many voice control commands 
 
