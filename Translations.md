@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-04T03:09:41.840Z
+date: 2022-07-04T03:10:11.291Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -43,7 +43,7 @@ When translated, your discord can go on the top right corner of the page: *Trans
 `Do you want to be credited for your translation?` you anwered no it will say *Translated by anonymous*{.translation-badge})
 
 Language examples of translated by
-*example#0000 name ترجمه*{.translation-badge} (AR)
+*example#0000 ترجمه*{.translation-badge} (AR)
 
 *Übersetzt von example#0000*{.translation-badge} (DE)
 
