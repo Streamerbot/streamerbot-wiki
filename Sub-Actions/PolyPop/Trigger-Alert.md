@@ -2,7 +2,7 @@
 title: Trigger-Alert
 description: 
 published: true
-date: 2022-07-04T22:58:11.905Z
+date: 2022-07-04T22:58:52.044Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
@@ -19,7 +19,7 @@ Image here
 3. Install the PolyPop web-socket add in which can be found [here](https://github.com/Jabbey92/PolyPopWebsocketPlugin/releases/tag/1.1)
 
 ## Getting it connected with Streamer.bot
-Once you have installed the PolpPop web-socket go ahead and open PolyPop and Streamer.bot (0.1.8) or later . Next in Streamer.bot navigate through the following tabs `Stream Apps` then in the second row of tabs click `PolyPop` 
+Once you have installed the PolyPop web-socket go ahead and open PolyPop and Streamer.bot (0.1.8) or later . Next in Streamer.bot navigate through the following tabs `Stream Apps` then in the second row of tabs click `PolyPop` 
 In this tab click the `auto start` check box and leave the other setting as default next, click the start server button. just like the one below.
 
 Image here 
