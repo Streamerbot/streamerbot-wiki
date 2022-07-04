@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-04T07:22:46.666Z
+date: 2022-07-04T07:33:26.467Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -26,13 +26,7 @@ dateCreated: 2022-07-03T19:53:46.241Z
 > test
 {.is-succesbetter}
 
-
----
-
----
-
----
-
----
-
-test form
+*in-consideration*{.in-consideration-badge}
+*in-progress*{.in-progress-badge}
+*approved*{.approved-badge}
+*available*{.available-badge}
