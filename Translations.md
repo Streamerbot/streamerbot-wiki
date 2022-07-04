@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-04T03:10:11.291Z
+date: 2022-07-04T08:08:01.979Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -56,3 +56,9 @@ Language examples of translated by
 *Vertaald door example#0000*{.translation-badge} (NL)
 
 *Traduzido por example#0000*{.translation-badge} (PT)
+
+> Temporaly
+{.is-warning}
+
+
+<div class=“iframe-container”><iframe src="https://submissions.botextensions.dev/embed/feedback" style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
