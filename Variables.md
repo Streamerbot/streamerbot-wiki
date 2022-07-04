@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-04T17:50:17.640Z
+date: 2022-07-04T17:52:28.650Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -119,11 +119,11 @@ Variable | Description
 
 ## Channel Rewards
 
-- [Channel Reward Redemption](/en/Twitch/Channel-Point-Rewards)
+- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
 {.links-list}
 
 ## Polls
-- [Polls](/en/Twitch/Polls)
+- [Polls *When a Twitch Poll is `Created`, `Ended` or `Updated`*](/en/Twitch/Polls)
 {.links-list}
 
 | Variable | Description |
