@@ -8,6 +8,6 @@ editor: markdown
 dateCreated: 2022-06-27T09:59:31.475Z
 ---
 
-# [Other](/en/Broadcasters/OBS/
+# [Other](/en/Broadcasters/OBS/Events)
 * [Exiting](/en/Integrations/OBS/OBS-Events/Other/Exiting)
 {.links-list}

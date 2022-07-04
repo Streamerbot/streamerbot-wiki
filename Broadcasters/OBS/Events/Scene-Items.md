@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-07-01T18:38:58.156Z
 ---
 
-# [Scene Items](/en/Broadcasters/OBS/
+# [Scene Items](/en/Broadcasters/OBS/Events)
 * [SourceOrderChanged](/en/Broadcasters/OBS/Events/Scene-Items/SourceOrderChanged)
 * [SceneItemAdded](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemAdded)
 * [SceneItemRemoved](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemRemoved)

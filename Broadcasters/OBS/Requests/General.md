@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-06-28T20:07:39.855Z
 ---
 
-# General
+# [General](/en/Broadcasters/OBS/Requests)
 > These pages aren't done yet, so they may not exist.
 {.is-warning}
 * [GetVersion](/en/Broadcasters/OBS/Requests/General/GetVersion)

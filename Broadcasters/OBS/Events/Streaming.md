@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:16.364Z
 ---
 
-# [Streaming](/en/Broadcasters/OBS/
+# [Streaming](/en/Broadcasters/OBS/Events)
 * [StreamStarting](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
 * [StreamStarted](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
 * [StreamStopping](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)

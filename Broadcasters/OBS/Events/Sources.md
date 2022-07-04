@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:10.304Z
 ---
 
-# [Sources](/en/Broadcasters/OBS/
+# [Sources](/en/Broadcasters/OBS/Events)
 * [SourceCreated](/en/Broadcasters/OBS/Events/Sources/SourceCreated)
 * [SourceDestroyed](/en/Broadcasters/OBS/Events/Sources/SourceDestroyed)
 * [SourceVolumeChanged](/en/Broadcasters/OBS/Events/Sources/SourceVolumeChanged)

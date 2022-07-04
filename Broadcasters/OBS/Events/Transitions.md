@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:23.492Z
 ---
 
-# [Transitions](/en/Broadcasters/OBS/
+# [Transitions](/en/Broadcasters/OBS/Events)
 * [SwitchTransition](/en/Broadcasters/OBS/Events/Transitions/SwitchTransition)
 * [TransitionListChanged](/en/Broadcasters/OBS/Events/Transitions/TransitionListChanged)
 * [TransitionDurationChanged](/en/Broadcasters/OBS/Events/Transitions/TransitionDurationChanged)
