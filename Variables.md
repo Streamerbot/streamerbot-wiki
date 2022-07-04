@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-04T17:17:45.728Z
+date: 2022-07-04T17:22:08.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -102,7 +102,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 {.links-list}
 
 Variable | Description
----------:|------------
+:---------:|------------
 `status` | Stream's current Title
 `gameUpdate` | Boolean value denoting the Game category changed
 `statusUpdate` | Boolean value denoting the stream Title changed
@@ -122,7 +122,7 @@ Variable | Description
 ## [Polls](/en/Twitch/Polls)
 
 | Variable | Description |
-|      ---:|-------------|
+|:---:|-------------|
 | `poll.Id` | Twitch's ID for the poll |
 | `poll.StartedAt` | When the poll was started |
 | `poll.Title` | The title of the poll |
