@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-04T07:40:51.432Z
+date: 2022-07-04T08:06:00.619Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -30,3 +30,5 @@ dateCreated: 2022-07-03T19:53:46.241Z
 *in-progress*{.ideas-in-progress}
 *approved*{.ideas-approved}
 *available*{.ideas-available}
+
+<div class=“iframe-container”><iframe src="https://submissions.botextensions.dev/embed/feedback"></iframe></div>
