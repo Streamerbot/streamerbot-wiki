@@ -2,7 +2,7 @@
 title: Get Current Voice 
 description: Get the Current Voice in Use via VoiceMod
 published: true
-date: 2022-06-28T10:33:24.176Z
+date: 2022-07-04T22:49:35.828Z
 tags: twitch, integrations, sub-action, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-23T20:40:12.499Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-23T20:40:12.499Z
 
 # Get Current Voice 
 
-With the Streamer.bot (0.18 +) update came the VoiceMod Integration and various actions we can use. The first of the actions being **Get Current Voice** in use via VoiceMod
+With the Streamer.bot *v0.1.8*{.version-badge} update came the VoiceMod Integration and various actions we can use. The first of the actions being **Get Current Voice** in use via VoiceMod
 
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here](/en/Integrations/VoiceMod))
