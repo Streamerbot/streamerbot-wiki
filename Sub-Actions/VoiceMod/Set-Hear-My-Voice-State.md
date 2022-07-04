@@ -2,7 +2,7 @@
 title: Set Hear My Voice State
 description: Toggle the Hear My Voice State
 published: true
-date: 2022-06-28T15:05:21.322Z
+date: 2022-07-04T22:50:22.563Z
 tags: twitch, sub-action, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T14:58:52.893Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-28T14:58:52.893Z
 
 # Set Hear Myself State
 
-With the Streamer.bot (0.18 +) you can set the Hear My Voice State that is included with the VoiceMod Application.
+With the Streamer.bot *v0.1.8*{.version-badge} you can set the Hear My Voice State that is included with the VoiceMod Application.
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod))
 Once you have done this you can now proceed to the set up this Sub-Action.
