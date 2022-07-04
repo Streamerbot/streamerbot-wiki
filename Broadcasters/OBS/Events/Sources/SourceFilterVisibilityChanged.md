@@ -22,5 +22,5 @@ dateCreated: 2022-06-28T16:00:01.166Z
 | `obsEvent._json` | Everything above in a json format
 
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcefiltervisibilitychanged)
-* [<= Back](/en/Integrations/OBS/OBS-Events)
+* [<= Back](/en/Broadcasters/OBS/
 {.links-list}

@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-06-27T10:00:23.113Z
 ---
 
-# [General](/en/Integrations/OBS/OBS-Events)
+# [General](/en/Broadcasters/OBS/
 * [Heartbeat](/en/Integrations/OBS/OBS-Events/General/Heartbeat)
 * [BroadcastCustomMessage](/en/Integrations/OBS/OBS-Events/General/BroadcastCustomMessage)
 {.links-list}

@@ -8,9 +8,9 @@ editor: markdown
 dateCreated: 2022-07-01T18:38:53.015Z
 ---
 
-# [Replay Buffer](/en/Integrations/OBS/OBS-Events)
-* [ReplayStarting](/en/Sub-Actions/OBS/Events/Replay-Buffer/ReplayStarting)
-* [ReplayStarted](/en/Sub-Actions/OBS/Events/Replay-Buffer/ReplayStarted)
-* [ReplayStopping](/en/Sub-Actions/OBS/Events/Replay-Buffer/ReplayStopping)
-* [ReplayStopped](/en/Sub-Actions/OBS/Events/Replay-Buffer/ReplayStopped)
+# [Replay Buffer](/en/Broadcasters/OBS/
+* [ReplayStarting](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
+* [ReplayStarted](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
+* [ReplayStopping](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
+* [ReplayStopped](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
 {.links-list}

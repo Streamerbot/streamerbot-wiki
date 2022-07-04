@@ -8,9 +8,9 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:05.038Z
 ---
 
-# [Scenes](/en/Integrations/OBS/OBS-Events)
-* [SwitchScenes](/en/Sub-Actions/OBS/Events/Scenes/SwitchScenes)
-* [ScenesChanged](/en/Sub-Actions/OBS/Events/Scenes/ScenesChanged)
-* [SceneCollectionChanged](/en/Sub-Actions/OBS/Events/Scenes/SceneCollectionChanged)
-* [SceneCollectionListChanged](/en/Sub-Actions/OBS/Events/Scenes/SceneCollectionListChanged)
+# [Scenes](/en/Broadcasters/OBS/
+* [SwitchScenes](/en/Broadcasters/OBS/Events/Scenes/SwitchScenes)
+* [ScenesChanged](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
+* [SceneCollectionChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
+* [SceneCollectionListChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
 {.links-list}

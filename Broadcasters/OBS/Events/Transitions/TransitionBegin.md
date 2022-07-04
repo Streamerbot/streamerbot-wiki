@@ -23,5 +23,5 @@ dateCreated: 2022-06-27T02:40:20.421Z
 | `obsEvent.update-type	` | The update type of the OBS event in this case `TransitionBegin`
 | `obsEvent._json` | Everything above in a json format
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#transitionbegin)
-* [<= Back](/en/Integrations/OBS/OBS-Events)
+* [<= Back](/en/Broadcasters/OBS/
 {.links-list}

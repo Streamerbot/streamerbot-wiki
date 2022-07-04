@@ -8,13 +8,13 @@ editor: markdown
 dateCreated: 2022-07-01T18:38:39.880Z
 ---
 
-# [Media](/en/Integrations/OBS/OBS-Events)
-* [MediaPlaying](/en/Sub-Actions/OBS/Events/Media/MediaPlaying)
-* [MediaPaused](/en/Sub-Actions/OBS/Events/Media/MediaPaused)
-* [MediaRestarted](/en/Sub-Actions/OBS/Events/Media/MediaRestarted)
-* [MediaStopped](/en/Sub-Actions/OBS/Events/Media/MediaStopped)
-* [MediaNext](/en/Sub-Actions/OBS/Events/Media/MediaNext)
-* [MediaPrevious](/en/Sub-Actions/OBS/Events/Media/MediaPrevious)
-* [MediaStarted](/en/Sub-Actions/OBS/Events/Media/MediaStarted)
-* [MediaEnded](/en/Sub-Actions/OBS/Events/Media/MediaEnded)
+# [Media](/en/Broadcasters/OBS/
+* [MediaPlaying](/en/Broadcasters/OBS/Events/Media/MediaPlaying)
+* [MediaPaused](/en/Broadcasters/OBS/Events/Media/MediaPaused)
+* [MediaRestarted](/en/Broadcasters/OBS/Events/Media/MediaRestarted)
+* [MediaStopped](/en/Broadcasters/OBS/Events/Media/MediaStopped)
+* [MediaNext](/en/Broadcasters/OBS/Events/Media/MediaNext)
+* [MediaPrevious](/en/Broadcasters/OBS/Events/Media/MediaPrevious)
+* [MediaStarted](/en/Broadcasters/OBS/Events/Media/MediaStarted)
+* [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
 {.links-list}

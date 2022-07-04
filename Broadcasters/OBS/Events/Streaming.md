@@ -8,10 +8,10 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:16.364Z
 ---
 
-# [Streaming](/en/Integrations/OBS/OBS-Events)
-* [StreamStarting](/en/Sub-Actions/OBS/Events/Streaming/StreamStarting)
-* [StreamStarted](/en/Sub-Actions/OBS/Events/Streaming/StreamStarted)
-* [StreamStopping](/en/Sub-Actions/OBS/Events/Streaming/StreamStopping)
-* [StreamStopped](/en/Sub-Actions/OBS/Events/Streaming/StreamStopped)
-* [StreamStatus](/en/Sub-Actions/OBS/Events/Streaming/StreamStatus)
+# [Streaming](/en/Broadcasters/OBS/
+* [StreamStarting](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
+* [StreamStarted](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
+* [StreamStopping](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
+* [StreamStopped](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
+* [StreamStatus](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
 {.links-list}

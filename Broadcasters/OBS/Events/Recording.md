@@ -8,11 +8,11 @@ editor: markdown
 dateCreated: 2022-07-01T18:38:46.909Z
 ---
 
-# [Recording](/en/Integrations/OBS/OBS-Events)
-* [RecordingStarting](/en/Sub-Actions/OBS/Events/Recording/RecordingStarting)
-* [RecordingStarted](/en/Sub-Actions/OBS/Events/Recording/RecordingStarted)
-* [RecordingStopping](/en/Sub-Actions/OBS/Events/Recording/RecordingStopping)
-* [RecordingStopped](/en/Sub-Actions/OBS/Events/Recording/RecordingStopped)
-* [RecordingPaused](/en/Sub-Actions/OBS/Events/Recording/RecordingPaused)
-* [RecordingResumed](/en/Sub-Actions/OBS/Events/Recording/RecordingResumed)
+# [Recording](/en/Broadcasters/OBS/
+* [RecordingStarting](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
+* [RecordingStarted](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
+* [RecordingStopping](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
+* [RecordingStopped](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
+* [RecordingPaused](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
+* [RecordingResumed](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
 {.links-list}

@@ -19,5 +19,5 @@ dateCreated: 2022-06-27T02:25:48.408Z
 | `obsEvent.update-type	` | The update type of the OBS event in this case `SwitchTransition`
 | `obsEvent._json` | Everything above in a json format
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#switchtransition)
-* [<= Back](/en/Integrations/OBS/OBS-Events)
+* [<= Back](/en/Broadcasters/OBS/
 {.links-list}
