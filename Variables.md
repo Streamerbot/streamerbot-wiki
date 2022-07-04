@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-03T17:19:51.144Z
+date: 2022-07-04T17:17:45.728Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -61,13 +61,13 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 # Generic
 
-* [Generic](/en/Variables/Generic)
+* [Generic *Available to most triggers automatically*](/en/Variables/Generic)
 {.links-list}
 
 ***
 
 ### Broadcaster Variables *v0.1.5+*{.version-badge}
-* [Broadcaster](/en/Variables/Broadcaster)
+* [Broadcaster *Variables related to the Twitch account configured as `Broadcaster`*](/en/Variables/Broadcaster)
 {.links-list}
 
 ***
