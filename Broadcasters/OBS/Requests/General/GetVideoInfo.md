@@ -2,7 +2,7 @@
 title: GetVideoInfo
 description: Get basic OBS video information
 published: true
-date: 2022-07-03T21:05:33.136Z
+date: 2022-07-04T18:53:04.909Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-30T14:50:06.558Z
@@ -29,7 +29,7 @@ dateCreated: 2022-06-30T14:50:06.558Z
 | `obsRaw.colorRange` | <kbd>string</kbd> | Color range (full or partial)
 | `obsRaw.colorSpace` | <kbd>string</kbd> | Color space for YUV
 | `obsRaw.fps` | <kbd>double</kbd> | Frames rendered per second
-| `obsRaw.outputHeight` | <kbd>intger</kbd> | Output height
+| `obsRaw.outputHeight` | <kbd>integer</kbd> | Output height
 | `obsRaw.outputWidth` | <kbd>integer</kbd> | Output width
 | `obsRaw.scaleType` | <kbd>string</kbd> | Scaling method used if output size differs from base size
 | `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
