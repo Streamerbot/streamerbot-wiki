@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-03T19:44:10.212Z
+date: 2022-07-04T03:09:41.840Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -41,3 +41,18 @@ Done with translating it?, fill in this google form below
 
 When translated, your discord can go on the top right corner of the page: *Translated by example#0000*{.translation-badge} (if on the question: 
 `Do you want to be credited for your translation?` you anwered no it will say *Translated by anonymous*{.translation-badge})
+
+Language examples of translated by
+*example#0000 name ترجمه*{.translation-badge} (AR)
+
+*Übersetzt von example#0000*{.translation-badge} (DE)
+
+*Translated by example#0000*{.translation-badge} (EN)
+
+*Traducido por example#0000*{.translation-badge} (ES)
+
+*Traduit par example#0000*{.translation-badge} (FR)
+
+*Vertaald door example#0000*{.translation-badge} (NL)
+
+*Traduzido por example#0000*{.translation-badge} (PT)
