@@ -2,7 +2,7 @@
 title: Set Voice Control Command
 description: Trigger an action with your voice
 published: true
-date: 2022-07-04T01:28:53.023Z
+date: 2022-07-04T01:34:25.445Z
 tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
 dateCreated: 2022-07-04T01:16:31.435Z
@@ -13,18 +13,18 @@ dateCreated: 2022-07-04T01:16:31.435Z
 With the Streamer.bot (0.18 +) you can now assign an action to a voice control command, then trigger this with a keyword or sentence that you say.
 To do this you need to make sure you have streamer.bot listening to you on the correct input device. The microphone that you are going to use. 
 
-### Pre requirement 
+### Pre-requirement 
 First open streamer.bot and then navigate the following tabs `Voice Control` then in the second row of tabs click `Settings` in this take provide you have a support speech recognition package installed it should be usable.
 You will want the bot to start listening to you when you start the bot up so go ahead and enable the "Auto Start Listen" by checking the box just like the image below. Also in this tab on the bottom is the "Audio Input Device"
 when you have done this be sure the bot is listening by click the **Start Listening** button. click Save button at the top.
 
-![vc-setting-tab.png](/voicecontrol/images/vc-setting-tab.png){.align-center}
+![vc-setting-tab.png](/voice-control/vc-setting-tab.png){.align-center}
 
 ### Setting up your voice command 
 
 First make sure that streamer.bot is open and then navigate through the following tabs `Voice Control` then in the second row of tabs click `Commands` in this tab is where we set up the voice commands so in the white space right click here and click `Add` a new dialog box will appear like the one below.
 
-![vc-add-dialog.png](/voicecontrol/images/vc-add-dialog.png){.align-center}
+![vc-add-dialog.png](/voice-control/vc-add-dialog.png){.align-center}
 
 In this dialog you can see the following option and input fields we need to configure so starting with the top input field 
 
@@ -41,4 +41,4 @@ In this dialog you can see the following option and input fields we need to conf
 
 When you happy with this click the `Ok` button. Save then you have created your first of many voice control commands 
 
-![vc-command-complete.png](/voicecontrol/images/vc-command-complete.png){.align-center}
+![vc-command-complete.png](/voice-control/vc-command-complete.png){.align-center}
