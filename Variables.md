@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-04T17:31:15.957Z
+date: 2022-07-04T17:50:17.640Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -127,7 +127,7 @@ Variable | Description
 {.links-list}
 
 | Variable | Description |
-|:---:|-------------|
+|---:|-------------|
 | `poll.Id` | Twitch's ID for the poll |
 | `poll.StartedAt` | When the poll was started |
 | `poll.Title` | The title of the poll |
@@ -662,6 +662,12 @@ Variable | Description
 ***
 
 # Commands
+
+Commands are platform agnostic and will trigger when a matching phrase is typed into chat / whisper
+
+> Command events can trigger chat events at the same time but the argument stack for each are completely separate.
+{.is-warning}
+
 
 | Variable | Description | Notes
 |   ---:|-------------|---
