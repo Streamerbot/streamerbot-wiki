@@ -2,7 +2,7 @@
 title: Select Random Voice
 description: Set a random voice to use 
 published: true
-date: 2022-06-28T10:32:54.091Z
+date: 2022-07-04T22:50:03.334Z
 tags: twitch, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-24T03:40:28.684Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-24T03:40:28.684Z
 
 # Select Random Voice 
 
-With the Streamer.bot (0.18 +) you can set a Random Voice in VoiceMod 
+With the Streamer.bot *v0.1.8*{.version-badge} you can set a Random Voice in VoiceMod 
 
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here](/en/Integrations/VoiceMod))
