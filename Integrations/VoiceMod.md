@@ -2,7 +2,7 @@
 title: VoiceMod
 description: Connecting your Streamer.bot to VoiceMod 
 published: true
-date: 2022-07-03T18:29:18.304Z
+date: 2022-07-03T18:29:22.851Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z

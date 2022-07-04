@@ -2,7 +2,7 @@
 title: Hide Source Filters 
 description: Hide your OBS / SLOBS Source Filters 
 published: true
-date: 2022-04-11T04:16:18.622Z
+date: 2022-07-03T20:15:02.131Z
 tags: twitch, obs, slobs
 editor: markdown
 dateCreated: 2022-03-19T16:40:42.314Z

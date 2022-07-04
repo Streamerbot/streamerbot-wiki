@@ -2,7 +2,7 @@
 title: Community Goal
 description: Twitch Community Goal
 published: true
-date: 2022-06-30T20:51:05.270Z
+date: 2022-06-30T20:51:09.315Z
 tags: twitch, community, goal
 editor: markdown
 dateCreated: 2022-01-21T05:48:30.807Z

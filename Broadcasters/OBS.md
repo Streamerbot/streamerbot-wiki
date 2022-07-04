@@ -2,7 +2,7 @@
 title: OBS
 description: 
 published: true
-date: 2022-07-03T20:30:23.720Z
+date: 2022-07-03T20:31:40.885Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z

@@ -2,7 +2,7 @@
 title: HTML Decks
 description: How to use the HTML based decks built on the Streamer.bot website
 published: true
-date: 2022-07-02T20:42:11.990Z
+date: 2022-07-02T20:42:15.304Z
 tags: decks, website
 editor: markdown
 dateCreated: 2022-06-01T14:35:51.843Z

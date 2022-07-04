@@ -2,10 +2,10 @@
 title: Media
 description: 
 published: true
-date: 2022-06-28T16:35:44.798Z
+date: 2022-07-03T21:54:31.509Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-27T10:01:58.919Z
+dateCreated: 2022-07-01T18:38:39.880Z
 ---
 
 # [Media](/en/Integrations/OBS/OBS-Events)

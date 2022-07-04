@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-06-30T05:40:01.360Z
+date: 2022-07-03T21:56:15.291Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T20:07:39.855Z

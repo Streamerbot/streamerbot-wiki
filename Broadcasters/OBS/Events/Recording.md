@@ -2,10 +2,10 @@
 title: Recording
 description: 
 published: true
-date: 2022-06-27T18:17:04.719Z
+date: 2022-07-03T21:54:38.171Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-27T09:57:04.373Z
+dateCreated: 2022-07-01T18:38:46.909Z
 ---
 
 # [Recording](/en/Integrations/OBS/OBS-Events)

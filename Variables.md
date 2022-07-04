@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-03T17:19:43.848Z
+date: 2022-07-03T17:19:51.144Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z

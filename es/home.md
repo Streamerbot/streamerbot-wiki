@@ -2,7 +2,7 @@
 title: Streamer.bot
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-06-29T19:06:03.443Z
+date: 2022-06-29T19:06:08.880Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-15T19:25:31.763Z
