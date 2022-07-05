@@ -101,8 +101,8 @@ The arguments that each event adds to the stack will be detailed on the page tha
 
 {.links-list}
 
-Variable | Description
-:---------:|------------
+| Variable | Description |
+|---------:|:------------|
 `status` | Stream's current Title
 `gameUpdate` | Boolean value denoting the Game category changed
 `statusUpdate` | Boolean value denoting the stream Title changed
@@ -127,7 +127,7 @@ Variable | Description
 {.links-list}
 
 | Variable | Description |
-|---:|-------------|
+|---------:|:------------|
 | `poll.Id` | Twitch's ID for the poll |
 | `poll.StartedAt` | When the poll was started |
 | `poll.Title` | The title of the poll |
@@ -138,7 +138,7 @@ Variable | Description
 #### Choices available
 
 | Variable | Description |
-|      ---:|-------------|
+|---------:|:------------|
 | `poll.choice#.title` | The title of the poll choice |
 | `poll.choice#.votes` | Number of regular votes for the choice |
 | `poll.choice#.bitVotes` | Number of bit based votes for the choice |
@@ -148,7 +148,7 @@ Variable | Description
 Replace the # in choice# with 0 to 4, depending how many choices there are, to get the choice entry
 
 | Variable | Description |
-|      ---:|-------------|
+|---------:|:------------|
 | `poll.votes` | Total number of regular votes |
 | `poll.bitVotes` | Total number of bit based votes |
 | `poll.rewardVotes` | Total number of reward based votes |
@@ -346,8 +346,8 @@ This event is fired whenever any of the values below change.
 
 ### Donation
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `tipUsername` | Username of the user as provided by StreamElements
 `tipAvatar` | Avatar of the user
 `tipAmount` | The amount of the tip
@@ -357,8 +357,8 @@ Variable | Description
 
 ### Merchandise
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `merchUsername` | Username of the user as provided by StreamElements
 `merchAvatar` | Avatar of the user
 `merchAmount` | The amount of the purchase
@@ -376,8 +376,8 @@ Variable | Description
 
 ### Donations
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `donationFrom` | Who the donation was from, as the user filled out
 `donationAmount` | the amount of the donation
 `donationCurrency` | 3 letter currency code
@@ -388,8 +388,8 @@ Variable | Description
 
 ### Merchandise
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `merchandiseFrom` | Who purchased a product
 `merchandiseMessage` | Any message the user attached to the purchase
 `merchandiseProduct` | The product that was purchased
@@ -401,8 +401,8 @@ Variable | Description
 
 ### Donation
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `tipUsername` | Who the donation was from, as the user filled out
 `tipAvatar` | Avatar of the user
 `tipAmount` | The amount of the tip (decimal value)
@@ -546,7 +546,7 @@ Details coming soon
  
 #### Variables
 | Variable | Description |
-|      ---:|-------------|
+|---------:|:------------|
 | `streamerbotUserId` | The streamer.bot user ID |
 | `streamerbotUserDiscordId` | The discord ID of the redeemer |
 | `streamerbotUserUsername` | The username of the redeemer |
@@ -621,7 +621,7 @@ If you have `As JSON` ticked, it will add all root elements as arguments.
 If `As JSON` is not ticked, it will add the following variables:
 
 | Variable | Description |
-|      ---:|-------------|
+|---------:|:------------|
 | `lineCount` | The number of lines in the file |
 | `line#` | The line of the file, replace # with the line number you want |
 | `lineEscaped#` | The line of the file URL encoded, replace # with the line number you want |
@@ -629,7 +629,7 @@ If `As JSON` is not ticked, it will add the following variables:
 ## [Sub Counter](/en/Settings#sub-counter)
 
 | Variable | Description |
-|      ---:|-------------|
+|---------:|:------------|
 | `subCounter` | The number of subs SB has been able to count |
 | `rollover` | The target number for the sub-counter - triggers the specified action and resets the counter |
 | `rolloverCount` | The number of times the rollover target has been reached |
@@ -648,8 +648,8 @@ When using the built in `!quote` command the following variables will be availab
 
 Any action triggered by Voice Control will have access to the following arguments that can be used in other Sub-Actions or C# code
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `spokenText` | The full spoken phrase detected, *including the trigger phrase* 
 `spokenTextConfidence` | Voice Recognition confidence raw value
 `spokenTextConfidencePercent` | Confidence value as a percentage
@@ -702,8 +702,8 @@ Variables that various [Sub-Actions](/Sub-Actions) can add to the argument stack
 
 ## [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `targetUser` | Display name of the target user
 `targetUserName` | User name of the target user
 `targetUserId` | User Id of the target user
@@ -729,8 +729,8 @@ Test it from the bot acocunt or any other Twitch! user
 {.is-info}
 
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `followDate`| The date the user followed
 `followAgeLong` | How long the user has been following in a long format, 1 year, 10 months, 5 days, etc
 `followAgeShort` | How long the user has been following in a short format, 1y, 10m, 5d, 22h, 3m, 25s
@@ -745,14 +745,14 @@ Variable | Description
 
 If you pick a random number between 2 values, you will get the following variables
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `randomNumber` | Random number
 
 If you pick next float, you will get the following
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `randomFloat` | A floating point number between 0 and 1
 `randomPercent` | The floating point number represented as a percentage
 
@@ -764,21 +764,21 @@ Variable|Description
 
 ## [Read Lines From File](/en/Sub-Actions/File#read-lines-from-file)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `lineCount` | The number of lines read from the file
 `line#` | The line number from the file, replace `#` with the line number, starting from **0**
 
 ## [Read Random Line](/en/Sub-Actions/File#read-random-line-from-file)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `randomLine#` | Reads a random line from a given source file, the first will have no number, then 1, 2, 3 and so on for each concurrent use within the same action. i.e. `%randomLine%`, `randomLine1`, `randomLine2`
 
 ## [OBS Take Screenshot](/en/Sub-Actions/OBS/Take-Screenshot)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `screenshotFile` | The full path to the screenshot that was taken
 `filedatetime` | Date Time varible that can be used for file name, `yyyyMMdd.hhmmss` formatting
 
@@ -787,8 +787,8 @@ Variable | Description
 > `var` needs to be changed with the variable you have putted in the `Variable Name` box
 {.is-info}
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `var.color.a` | The alpha value |
 | `var.color.r` | The red value |
 | `var.color.g` | The green value |
@@ -799,35 +799,35 @@ Variable | Description
 
 ## [Get Commands](/en/Sub-Actions/Commands#get-commands)
 This subaction populates 2 variables with the custom name you specify, one as a string and one as a list
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action |
 | `<variableName.List` | List object for C# containing all commands matching criteria specified in the sub-action |
 
 ## [Get Command State](/en/Sub-Actions/Commands#get-command-state)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `commandState` | Boolean for command enabled state | `True`/`False` 
 
 ## [Get Command Group State](/en/Sub-Actions/Commands#get-command-group-state)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `commandGroupState` | Boolean for command group enabled state | `True`/`False` 
 | `commandsEnabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
 | `commandsDisabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |
 
 ## [Get Action State](/en/Sub-Actions/Actions#get-action-state)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `actionState` | Boolean for action enabled state | `True`/`False` 
 
 ## [Get Action Group State](/en/Sub-Actions/Actions#get-action-group-state)
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 | `actionGroupState` | Boolean for action group enabled state | `True`/`False` 
 | `actionsEnabled` | A list of action IDs, of actions that are enabled |
 | `actionsDisabled` | A list of action IDs, of commands that are disabled |
@@ -864,8 +864,8 @@ e.g `props.visible` will return `True` if the source is showing. This can then b
 
 ## Timeout User
 
-Variable | Description
----------:|------------
+| Variable | Description |
+|---------:|:------------|
 `timedoutUser0` | The username of the user currently timed out by Streamerbot action
 `timedoutUserName0` | The Display of the user currently timed out by Streamerbot action
 
