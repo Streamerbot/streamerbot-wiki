@@ -2,7 +2,7 @@
 title: Trigger-Alert
 description: 
 published: true
-date: 2022-07-05T21:10:09.188Z
+date: 2022-07-05T21:35:10.224Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
@@ -29,21 +29,21 @@ Next open the PolyPop application assuming you have already got a scene with som
 
 ![polypop-library.png](/polypop/polypop-library.png){.align-center}
 
-Next in the `Library` Section you will see a giant `+` button click this and menu will appear now click the `WebSocket` option this will now add this to the alert objects. but we need to configure this so select the WebSocket so it properties appears in the `Properties` pane 
-![polypop-web-socket-library.png](/polypop/polypop-web-socket-library.png)
+Next in the `Library` Section you will see a giant `+` button click this and menu will appear now click the `WebSocket` option this will now add this to the alert objects. but we need to configure this so select the WebSocket so it properties appears in the `Properties` pane.
+![polypop-web-socket-library.png](/polypop/polypop-web-socket-library.png){.align-center}
 
-In the Properties pane we need to point the WebSocket to Streamer.bot so if you used default settings you can change the **Port Number** in the properties to **9652**. Next we need to amend the `Trigger Alert` section inside properties so here if you expand the `Trigger Alerts` section you see 2 input fields first one being `Alert title` and the Second being `Alert Value`.  Go ahead and fill these in but remember these as you will need to tell Streamer.bot these values.  Next you will see the `Alerts` section within the `properties` pane you will need to click the small `+` button this will allow you give the alert trigger a name this will also need to be given to Streamer.bot  
-![polypop--config.png](/polypop/polypop--config.png)
+In the `Properties` pane we need to point the WebSocket to Streamer.bot so if you used default settings you can change the **Port Number** in the properties to **9652**. Next, we need to amend the `Trigger Alert` section inside properties so here if you expand the `Trigger Alerts` section you see 2 input fields first one being `Alert title` and the Second being `Alert Value`.  Go ahead and fill these in but remember these as you will need to tell Streamer.bot these values.  Next you will see the `Alerts` section within the `Properties` pane you will need to click the small `+` button this will allow you give the alert trigger a name this will also need to be given to Streamer.bot. Next link the WebSocket to the action or scene that you want it to trigger. Just like the image below.
+![polypop--config.png](/polypop/polypop--config.png){.align-center}
 
 Now we need to create a sub action or amend an existing one and link it to a command or a redeem but we will just create the action for this. So, if you create an action or use an existing action then in the right pane you have sub actions from here you right click and navigate the following `Add Sub-Action` then down `PolyPop` then click `Trigger Alert` a dialog box like the one below will appear.
 
 ![polypop-ta-dialog.png](/polypop/polypop-ta-dialog.png){.align-center}
-![polypop-ta-complete.png](/polypop/polypop-ta-complete.png)
 
+In this Dialog box you to input the detail you have specified in the `WebSocket Properties` pane in the PolyPop application. so, the alert name you used in WebSocket properties pane need to match here and repeat this process for the variable name and the value. once completed click `Ok` now that the sub-action is made. You can tie this to a command / redeem via the Streamer.bot action. 
 
+![polypop-ta-complete.png](/polypop/polypop-ta-complete.png){.align-center} 
 
+You have successfully linked Streamer.bot to PolyPop and configured the trigger via WebSocket.
 
+![polypop-complete.png](/polypop/polypop-complete.png){.align-center}
 
-![polypop--config.png](/polypop/polypop--config.png)
-> More details coming soon...
-{.is-info}
