@@ -2,14 +2,14 @@
 title: Set Censor State
 description: 
 published: true
-date: 2022-06-28T15:05:39.866Z
+date: 2022-07-04T22:50:17.003Z
 tags: twitch, sub-action, voice, youtube, voicemod, censor
 editor: markdown
 dateCreated: 2022-06-28T02:13:56.492Z
 ---
 
 # Set Censor State
-With the Streamer.bot (0.18 +) you can set the Censor State that is included with the VoiceMod Application.
+With the Streamer.bot *v0.1.8*{.version-badge} you can set the Censor State that is included with the VoiceMod Application.
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod))
 Once you have done this you can now proceed to the set up this Sub-Action.

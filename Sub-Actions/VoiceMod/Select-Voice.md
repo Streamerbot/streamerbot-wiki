@@ -2,14 +2,14 @@
 title: Select Voice 
 description: Have Streamer.bot Select a voice 
 published: true
-date: 2022-06-28T10:35:44.305Z
+date: 2022-07-04T22:50:07.705Z
 tags: twitch, sub-action, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-25T02:03:26.535Z
 ---
 
 # Select Voice 
-With the Streamer.bot (0.18 +) you can set a Specific Voice in VoiceMod
+With the Streamer.bot *v0.1.8*{.version-badge} you can set a Specific Voice in VoiceMod
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod))
 Once you have done this you can now proceed to the set up this Sub-Action.

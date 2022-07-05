@@ -2,7 +2,7 @@
 title: Select Voice Via ID
 description: use streamer.bot to select a voice in voice mod via it's ID
 published: false
-date: 2022-06-29T23:16:10.170Z
+date: 2022-07-04T22:48:25.902Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-27T00:23:56.400Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-27T00:23:56.400Z
 
 # Select Voice By ID
 
-With the Streamer.bot (0.18 +) you can set a Voice in VoiceMod via its ID
+With the Streamer.bot *v0.1.8*{.version-badge} you can set a Voice in VoiceMod via its ID
 
 First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod here)
 Once you have done this you can now proceed to the set up this Sub-Action.
