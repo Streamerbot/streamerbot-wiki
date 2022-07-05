@@ -11,21 +11,21 @@ dateCreated: 2021-08-25T21:34:38.706Z
 ## Prediction Variables
 
 | Variable | Description |
-|      ---:|-------------|
-| `%prediction.Id%` | Twitch's ID of the prediction |
-| `%prediction.CreatedAt%` | When it was created |
-| `%prediction.Title%` | It's title |
-| `%prediction.PredictionWindow%` | the duration of the prediction, in seconds |
+|---------:|:------------|
+| `prediction.Id` | Twitch's ID of the prediction |
+| `prediction.CreatedAt` | When it was created |
+| `prediction.Title` | It's title |
+| `prediction.PredictionWindow` | the duration of the prediction, in seconds |
 
 ### Outcomes available
 
 | Variable | Description |
-|      ---:|-------------|
-| `%prediction.outcome#.id%` | Twitch's ID for the prediction |
-| `%prediction.outcome#.title%` | Title for the prediction |
-| `%prediction.outcome#.users%` | How many users picked this outcome |
-|`%prediction.outcome#.points%` | Total number of rewards used |
-| `%prediction.outcome#.color%` | The rgb hex color |
+|---------:|:------------|
+| `prediction.outcome#.id` | Twitch's ID for the prediction |
+| `prediction.outcome#.title` | Title for the prediction |
+| `prediction.outcome#.users` | How many users picked this outcome |
+|`prediction.outcome#.points` | Total number of rewards used |
+| `prediction.outcome#.color` | The rgb hex color |
 
 
 | Value | Description |
@@ -46,9 +46,9 @@ The above are available for all prediction events
 The two additional variable are availabe for `Completed`, `Pending` and `Locked` events
 
 | Variable | Description |
-|      ---:|-------------|
-| `%prediction.LockedAt%` | When it was locked |
-| `%prediction.EndedAt%` | When it ended |
+|---------:|:------------|
+| `prediction.LockedAt` | When it was locked |
+| `prediction.EndedAt` | When it ended |
 
 Because how some of this is handled, it is recommended that Execute C# code is used for these as some logic maybe required
 
