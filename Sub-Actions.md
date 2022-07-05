@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-04T01:36:12.644Z
+date: 2022-07-05T12:27:46.331Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -31,7 +31,7 @@ dateCreated: 2021-08-25T21:34:29.815Z
 * [Get Random Number *Generate a Random Number* *Populates the `randomNumber` variable*](/Sub-Actions/Get-Random-Number)
 * [Keyboard Press *Simulate a keybaord button press*](/Sub-Actions/Keyboard-Press)
 * [Perform Command *Execute a Windows program / File*](/Sub-Actions/Perform-Command)
-* [Pick Color *Populate colour conversion arguments*](/Sub-Actions/Pick-Color) [Variables](/Variables#pick-color)
+* [Pick Color *Populate colour conversion arguments*](/Sub-Actions/Pick-Color) [ - Variables](/Variables#pick-color)
 * [Set Timer State *Enable / Disable timed actions*](/Sub-Actions/Set-Timer-State)
 {.links-list}
 
