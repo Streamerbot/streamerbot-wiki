@@ -24,7 +24,13 @@ In this tab click the `auto start` check box and leave the other setting as defa
 
 Image here 
 
-Now we need to create a sub action or amend an existing one and link it to a command or a redeem but we will just create the action for this. So if you create an action or use an existing action in the right pane you have sub actions from here you right click and 
+
+Next open PolyPop 
+Now we need to create a sub action or amend an existing one and link it to a command or a redeem but we will just create the action for this. So if you create an action or use an existing action then in the right pane you have sub actions from here you right click and navigate the following `Add Sub-Action` then down `PolyPop` then click `Trigger Alert` a dialog box like the one below will appear.
+
+Image here 
+
+
 
 
 
