@@ -2,7 +2,7 @@
 title: Trigger-Alert
 description: 
 published: true
-date: 2022-07-05T18:58:13.797Z
+date: 2022-07-05T20:10:20.738Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
@@ -25,17 +25,25 @@ In this tab click the `Auto Start` check box and leave the other setting as defa
 
 ![polypop-streamerbot.png](/polypop/polypop-streamerbot.png){.align-center}
 
-Next open PolyPop 
+Next open the PolyPop application assuming you have already got a scene with some events and alerts there setup we next need to navigate to the `Open Library` button in the bottom left of the PolyPop application next you will see a pop up window, you will see a windows just like the one below. 
 
-![polypop-main.png](/polypop/polypop-main.png){.align-center}
+![polypop-library.png](/polypop/polypop-library.png){.align-center}
+
+Next in the `Library` Section you will see a  giant `+` button click this and menu will appear now click the `WebSocket` option this will now add this to the alert objects. but, we need to configure this so select the websocket so it properties appears in the `Properties` pane 
+![polypop-web-socket-library.png](/polypop/polypop-web-socket-library.png)
+
+In the properties pane we need to point the websocket to Streamer.bot so if you used default settings you can change the **Port Number** in the propties to **9652**. Next we need to amend the `Trigger Alert`
+![polypop--config.png](/polypop/polypop--config.png)
 
 Now we need to create a sub action or amend an existing one and link it to a command or a redeem but we will just create the action for this. So if you create an action or use an existing action then in the right pane you have sub actions from here you right click and navigate the following `Add Sub-Action` then down `PolyPop` then click `Trigger Alert` a dialog box like the one below will appear.
 
 ![polypop-ta-dialog.png](/polypop/polypop-ta-dialog.png){.align-center}
+![polypop-ta-complete.png](/polypop/polypop-ta-complete.png)
 
 
 
 
 
+![polypop--config.png](/polypop/polypop--config.png)
 > More details coming soon...
 {.is-info}
