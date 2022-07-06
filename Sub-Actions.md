@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-05T12:27:46.331Z
+date: 2022-07-05T21:37:30.986Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -121,7 +121,7 @@ Some functions have been known to fail when they are named the same
 # PolyPop
 > Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
-* [Trigger Alert](/en/Sub-Actions/PolyPop/Trigger-Alert)
+* [Trigger Alert *Trigger Events in PolyPop via Websocket*](/en/Sub-Actions/PolyPop/Trigger-Alert)
 {.links-list}
 
 # Rewards
