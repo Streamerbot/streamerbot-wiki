@@ -2,14 +2,14 @@
 title: Trigger-Alert
 description: 
 published: true
-date: 2022-07-05T21:35:10.224Z
+date: 2022-07-06T01:12:35.211Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
 ---
 
 # Trigger Alert
-With Streamer.bot 0.1.8 came PolyPop integration although its's limited. It's currently limited due to PolyPop still in its infancy, but we can trigger some cool things via WebSocket connection and a little configuration. 
+With Streamer.bot *0.1.8 +*{.version-badge} came PolyPop integration although its's limited. It's currently limited due to PolyPop still in its infancy, but we can trigger some cool things via WebSocket connection and a little configuration. 
 
 ![polypop-streamerbot-notconnected.png](/polypop/polypop-streamerbot-notconnected.png){.align-center}
 
