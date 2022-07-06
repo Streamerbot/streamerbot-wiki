@@ -22,5 +22,5 @@ dateCreated: 2022-06-28T14:01:31.642Z
 | `obsEvent._json` | Everything above in a json format
 
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcedestroyed)
-* [<= Back](/en/Broadcasters/OBS/)
+* [<= Back](/en/Broadcasters/OBS/Events)
 {.links-list}

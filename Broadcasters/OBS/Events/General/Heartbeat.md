@@ -31,5 +31,5 @@ dateCreated: 2022-06-27T20:47:31.411Z
 | `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format 
 
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#heartbeat)
-* [<= Back](/en/Broadcasters/OBS/)
+* [<= Back](/en/Broadcasters/OBS/Events)
 {.links-list}
