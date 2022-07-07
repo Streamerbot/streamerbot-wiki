@@ -2,7 +2,7 @@
 title: General
 description: Documentation for the Platforms -> Twitch -> Events -> General tab
 published: true
-date: 2022-07-01T17:33:50.816Z
+date: 2022-07-07T22:15:07.398Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -49,7 +49,7 @@ Variable | Description| Notes
 `colorG` | Hex value for Green component of the `color` variable
 `colorB` | Hex value for Blue component of the `color` variable
 `message` | Message that was sent to chat
-`emoteCount` | How many Twitch! emotes were found
+`emoteCount` | How many Twitch emotes were found
 `emotes` | Comma Separated list of Twitch! emotes found
 `messageStripped` | The chat message with emotes stripped
 `messageCheermotesStripped` | The chat message with cheer emotes stripped
