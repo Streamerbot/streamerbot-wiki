@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:22:33.413Z
+date: 2022-07-08T04:22:58.308Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -75,10 +75,6 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
 # Twitch Platform
-
-
-## Events
-
 
 - [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
 - [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
