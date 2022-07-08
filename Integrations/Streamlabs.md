@@ -2,14 +2,13 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-08T19:09:50.359Z
+date: 2022-07-08T19:10:17.267Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
 ---
 
 ![streamlabs-logo.png](/logos/streamlabs-logo.png){.align-abstopright}
-<br>
 # Overview
 
 **Streamer.bot** can monitor your Streamlabs account and perform actions on Donation and Merchandise events.
