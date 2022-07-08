@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:24:49.578Z
+date: 2022-07-08T04:26:37.269Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -102,10 +102,10 @@ The arguments that each event adds to the stack will be detailed on the page tha
 
 ***
 
+
 # YouTube Platform
 
-
-
+# {.tabset}
 ## Broadcast Started
 
 | Variable | Description |
