@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:26:37.269Z
+date: 2022-07-08T04:27:50.840Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -597,7 +597,7 @@ If a cooldown action is set, and the command is in cooldown, the following varia
 # Sub-Actions
 
 Variables that various [Sub-Actions](/Sub-Actions) can add to the argument stack
-
+# {.tabset}
 ## [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
 
 | Variable | Description |
