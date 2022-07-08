@@ -2,12 +2,13 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-07-08T19:08:15.875Z
+date: 2022-07-08T19:11:17.894Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
 ---
 
+![streamlabs-logo.png](https://streamer.bot/img/integrations/streamelements.png){.align-abstopright}
 # Overview
 
 The StreamElements integration allows you to connect Streamer.bot with your StreamElements account to receive tip and merch events.
