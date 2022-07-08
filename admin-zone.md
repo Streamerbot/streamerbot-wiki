@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-04T08:07:36.948Z
+date: 2022-07-08T18:33:35.157Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -30,3 +30,8 @@ dateCreated: 2022-07-03T19:53:46.241Z
 *in-progress*{.ideas-in-progress}
 *approved*{.ideas-approved}
 *available*{.ideas-available}
+
+- Grid Item 1
+- Grid Item 2
+- Grid Item 3
+{.grid-list}
