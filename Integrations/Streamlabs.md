@@ -2,7 +2,7 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-08T19:08:38.027Z
+date: 2022-07-08T19:09:50.359Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
@@ -24,10 +24,30 @@ To enable Streamlabs integration you will need a `Socket API token` from [stream
 
 # Events
 
-For the Donations, different actions can be run based on the size of the donation. 
-
 Both `Donations` and `Merchandise` have access to a number of text [variables](/Variables) that can be passed to your [sub-actions](/Sub-Actions)
 
-![SL Donations](/130133717-8c965769-1c22-435b-a3ca-4151177526c1.png)
-![SL Merch](/130133779-f67e5714-6594-4fd8-a11f-c27d2ef42219.png)
+For donation events, different actions can be run based on the size of the donation. 
+
+### Donations
+
+| Variable | Description |
+|---------:|:------------|
+`donationFrom` | Who the donation was from, as the user filled out
+`donationAmount` | the amount of the donation
+`donationCurrency` | 3 letter currency code
+`donationFormattedAmount` | The donation amount with the currency symbol
+`donationMessage` | Any donation message the user may have included
+`isTest` | Boolean value indicating if the donation was a test |  `True`/`False` 
+
+
+### Merchandise
+
+| Variable | Description |
+|---------:|:------------|
+`merchandiseFrom` | Who purchased a product
+`merchandiseMessage` | Any message the user attached to the purchase
+`merchandiseProduct` | The product that was purchased
+`merchandiseImageUrl` | URL to the image of the product
+`merchandiseImageEscaped` | URL to the image of the product with escaped characters
+`isTest` | Boolean value indicating if the purchase was a test |  `True`/`False` 
 
