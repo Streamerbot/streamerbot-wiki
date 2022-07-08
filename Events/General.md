@@ -2,7 +2,7 @@
 title: General
 description: Documentation for the Platforms -> Twitch -> Events -> General tab
 published: true
-date: 2022-07-07T22:15:33.454Z
+date: 2022-07-08T04:01:35.068Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -16,8 +16,8 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 # Events
 
-Event | Description | Notes
----:|---
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 `Follows` | When someone follows your channel
 `Whispers` | When someone whispers your broadcaster account directly | If the whisper itself contains a command, the command action will trigger instead of this generic one
 `Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat
@@ -33,14 +33,14 @@ Event | Description | Notes
 # Variables 
 
 ## Follow
-Variable | Description | Notes
----------:|------------
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 `isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False`
 
 ## Chat Message / Whispers & First Words
 
-Variable | Description| Notes
----------:|------------|---
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 `msgId` | Twitch's message ID 
 `role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
@@ -62,8 +62,8 @@ Variable | Description| Notes
 
 ## Present Viewers
 
-| Value | Description | Notes
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `isLive` |Boolean for current streaming status |  `True`/`False` 
 | `isTest` |Boolean for if this is demo data or not |  `True`/`False` 
 | `users` | A Dictionary list of usernames present in IRC chat | Each user present will get the following data
@@ -74,8 +74,8 @@ Variable | Description| Notes
 > 
 > 
 > 
-> | Value | Description | Notes
-> |   ---:|-------------|
+> | Value | Description | Notes |
+> |------:|:-----------:|:------|
 > | `id` | The Numeric ID of this user
 > | `userName` | The user name of this user
 > | `display` | The display name of this user
@@ -89,8 +89,8 @@ Variable | Description| Notes
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
 
-| Value | Description |
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `title` | The current stream title
 | `gameID` | The ID of the category you are streaming
 | `gameName` | The name of the category you are streaming
@@ -101,8 +101,8 @@ If `isLive` is `True` the following variables will also be populated on each tic
 
 ## Announcement
 
-| Value | Description | Notes
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `announceColor` | The color of the announcement | `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
 | `message` | The announcement message
 | `messageStripped` | The announcement message without emotes
@@ -121,26 +121,27 @@ If `isLive` is `True` the following variables will also be populated on each tic
 
 ## Message Deleted
 
-| Value | Description | Notes
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `message` | The message that was deleted from chat
 
 ## User Timed Out
 
-| Value | Description | Notes
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `duration` | The amount of time the user was timed out for
 | `user` | The user that was timed out 
 
 ## User Banned
 
-| Value | Description | Notes
-|   ---:|-------------|
+| Value | Description | Notes |
+|------:|:-----------:|:------|
 | `user` | The user that was banned | This will not be populated if the user has never been present in chat
 
 ## Ad Run
 
-| Value | Description | Notes
-|   ---:|-------------|
-
+| Value | Description | Notes |
+|------:|:-----------:|:------|
+| `adLength` | The length of the ad in seconds
+| `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
 
