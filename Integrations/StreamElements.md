@@ -2,7 +2,7 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-07-08T18:52:42.977Z
+date: 2022-07-08T19:08:15.875Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
@@ -14,7 +14,7 @@ The StreamElements integration allows you to connect Streamer.bot with your Stre
 
 ![integrations-streamelements-events-018.png](/integrations-streamelements-events-018.png =800x)
 
-# Settings
+# Configuration
 
 You can find the configuration for this integration at `Integrations -> StreamElements -> Settings`
 
