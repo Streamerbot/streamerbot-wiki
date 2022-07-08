@@ -2,7 +2,7 @@
 title: OBS
 description: 
 published: true
-date: 2022-07-05T20:22:25.769Z
+date: 2022-07-08T22:21:49.575Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -13,8 +13,9 @@ dateCreated: 2021-08-25T21:32:10.502Z
 # Overview
 Configuration page for one or more connection(s) to OBS Studio instance(s)
 
-> OBS Websocket *v4.X.X*{.version-badge} is the only supported version at this time, *v5.X*{.version-badge} requires a re-write and is being worked on
-The latest supported version is *4.9.1*{.version-badge} and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+> OBS Websocket **4.x.x** is the only supported version at this time. 
+> **v5.x** requires a re-write and is being worked on
+> The latest supported version is **4.9.1** and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
 
 Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
