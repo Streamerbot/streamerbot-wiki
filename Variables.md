@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:18:03.446Z
+date: 2022-07-08T04:21:02.739Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -91,6 +91,8 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Hosts *When a user begins hosting your channel*](/en/Events/hosts)
 - [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
 - [Message Deleted *When a single message is deleted in your chat*](/en/Events/General#message-deleted)
+- [Polls *When a Twitch Poll is `Created`, `Ended` or `Updated`*](/en/Twitch/Polls)
+- [Predictions](/Twitch/Predictions)
 - [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General#present-viewers)
 - [Raids *When a user brings a raid into your channel or when you raid another user*](/en/Events/Raid)
 - [Stream Update *Whenever the `Title` or `Category` of your stream is changed*](/en/Events/Stream-Update)
@@ -107,85 +109,11 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
 {.links-list}
 
-## Polls
-- [Polls *When a Twitch Poll is `Created`, `Ended` or `Updated`*](/en/Twitch/Polls)
-{.links-list}
-
-| Variable | Description |
-|---------:|:------------|
-| `poll.Id` | Twitch's ID for the poll |
-| `poll.StartedAt` | When the poll was started |
-| `poll.Title` | The title of the poll |
-| `poll.Duration` | How long the poll will run for, in seconds |
-| `poll.DurationRemaining` | How much longer the poll has left, in seconds |
-| `poll.choices.count` | The number of choices |
-
-#### Choices available
-
-| Variable | Description |
-|---------:|:------------|
-| `poll.choice#.title` | The title of the poll choice |
-| `poll.choice#.votes` | Number of regular votes for the choice |
-| `poll.choice#.bitVotes` | Number of bit based votes for the choice |
-| `poll.choice#.rewardVotes` | Number of reward based votes for the choice |
-| `poll.choice#.totalVotes`| Total number of votes for the choice |
-
-Replace the # in choice# with 0 to 4, depending how many choices there are, to get the choice entry
-
-| Variable | Description |
-|---------:|:------------|
-| `poll.votes` | Total number of regular votes |
-| `poll.bitVotes` | Total number of bit based votes |
-| `poll.rewardVotes` | Total number of reward based votes |
-| `poll.totalVotes` | Overall total number of votes |
-
-The above variables are available for all poll actions
-
-`poll.EndedAt` is also available for the completed action
-
-#### Poll Ended
-
-| Value | Description |
-|   ---:|-------------|
-| `poll.winningIndex` | The index of the winning choice, from 0 to 4 |
-| `poll.winningChoice.id` | The ID of the winning choice |
-| `poll.winningChoice.title` | The title of the winning choice |
-| `poll.winningChoice.votes` | Number of regular votes |
-| `poll.winningChoice.bitVotes` | Number of bit based votes |
-| `poll.winningChoice.rewardVotes` | Number of channel point based votes |
-| `poll.winningChoice.totalVotes` | Total number of votes for the choice |
-| `poll._json` | JSON string of complete event information that can be parsed
-
-- [Polls](/Twitch/Polls)
-{.links-list}
-
-## [Predictions](/en/Twitch/Predictions)
-
-| Value | Description |
-|   ---:|-------------|
-| `prediction.winningIndex` | Either a 0 or 1 depending on which outcome was chosen as the winner |
-| `prediction.winningOutcome.id` | The ID of the winning outcome |
-| `prediction.winningOutcome.title` | The title of the winning outcome |
-| `prediction.winningOutcome.users` | How many users voted for this prediction |
-| `prediction.winningOutcome.points` | The total number of channel points used by users |
-| `prediction.winningOutcome.color` | The colour of the winning outcome |
-| `prediction._json` | JSON string of complete event information that can be parsed
-
-- [Predictions](/Twitch/Predictions)
-{.links-list}
-
 ## [Commercials](/en/Twitch/Commercials)
 | Variable | Description |
 |---------:|-------------|
 | `adLength` | The length of the ad in seconds
 | `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
-
-
-***
-
-
-
-
 
 ***
 
