@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:22:22.054Z
+date: 2022-07-08T18:22:42.218Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -36,7 +36,7 @@ This list is not exhaustive and some variables may work with sub-actions / event
 - Variables are only populated into the active Arguments when the event or sub-action they are tied to executes. If you are testing and it is only returning the name of the variable you are probably not testing the complete Action / Event
 
 
-## Formatting Variables
+## Formatting
 
 **Variables can be formatted inline using standard C# notation**
 
