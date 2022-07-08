@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-08T22:29:29.433Z
+date: 2022-07-08T22:30:21.259Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -68,14 +68,15 @@ Documentation for Streamer.bot. Here are the changelogs and information on all a
     <ul>
       <li><a href="/en/Extended-Features/HTML-Decks">Streamer.bot Decks</a></li>
       <li><a href="/en/Extended-Features/HTML-Overlay">HTML-Overlay</a></li>
-      <li><a href="https://extensions.streamer.bot">Extensions Wiki</a></li>
+      <li><a href="https://extensions.streamer.bot" target="_blank" rel="noopener">Extensions Wiki</a></li>
     </ul>
   </div>
   <div>
  	  <h4 class="overline">Additional Links</h4>
     <ul>
-      <li><a href="https://streamer.bot">Streamer.bot Website</a></li>
-      <li><a href="https://ideas.streamer.bot">Submit Your Ideas &amp; Suggestions</a></li>
+      <li><a href="https://streamer.bot" target="_blank" rel="noopener">Streamer.bot Website</a></li>
+      <li><a href="https://ideas.streamer.bot" target="_blank" rel="noopener">Submit Your Ideas &amp; Suggestions</a></li>
+      <li><a href="https://discord.streamer.bot" target="_blank" rel="noopener">Discord</a></li>
     </ul>
   </div>
 </section>
