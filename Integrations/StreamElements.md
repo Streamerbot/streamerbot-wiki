@@ -1,8 +1,8 @@
 ---
 title: StreamElements
-description: 
+description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-06-03T19:58:49.639Z
+date: 2022-07-08T18:41:43.439Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
