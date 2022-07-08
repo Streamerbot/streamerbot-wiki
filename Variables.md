@@ -2,13 +2,13 @@
 title: Variables
 description: Reference of all variables that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:16:59.377Z
+date: 2022-07-08T18:21:05.920Z
 tags: variables
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
 
-# Variables (Arguments)
+# Overview
 
 All events in [Streamer.bot](/) will generate an argument stack specific to that event source, providing variable data to the action being called.
 
