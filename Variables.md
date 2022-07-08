@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:40:56.152Z
+date: 2022-07-08T19:03:37.991Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -101,35 +101,11 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 # Integrations
 
-## [Stream Elements](/en/Integrations/StreamElements)
+## StreamElements
 
-### Donation
-
-| Variable | Description |
-|---------:|:------------|
-`tipUsername` | Username of the user as provided by StreamElements
-`tipAvatar` | Avatar of the user
-`tipAmount` | The amount of the tip
-`tipCurrency` | 3 letter currency code
-`tipMessage` | Any tip message the user included
-`isTest` | Boolean value indicating the tip was a test |  `True`/`False` 
-
-### Merchandise
-
-| Variable | Description |
-|---------:|:------------|
-`merchUsername` | Username of the user as provided by StreamElements
-`merchAvatar` | Avatar of the user
-`merchAmount` | The amount of the purchase
-`merchCurrency` | 3 letter currency code
-`merchMessage` | Any message the user included
-`merchQuantity` | The total number of items purchased
-`merchItems` | The number of distinct items purchased
-
-`merchItem#.name` | Name of the item purchased, where # is the index of the item (0 based)
-`merchItem#.price` | Price of the item purchased, where # is the index of the item (0 based)
-`merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
-
+- [Tips / Donations *Tips received through StreamElements*](/en/Integrations/StreamElements#events)
+- [Merch *Merchandise item purchased through StreamElements*](/en/Integrations/StreamElements#events)
+{.links-list}
 
 ## [StreamLabs](/en/Integrations/Streamlabs)
 
