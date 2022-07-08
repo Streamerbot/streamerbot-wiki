@@ -80,7 +80,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
 - [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
-- [Commercials](/en/Twitch/Commercials)
+- [Commercials](/en/Twitch/Ad-Run)
 - [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
 - [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General#chat-message-whispers-first-words)
 - [Follow *When someone follows your channel*](/en/Events/General#follow)
