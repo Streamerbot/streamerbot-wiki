@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-03T19:16:37.436Z
+date: 2022-07-08T21:30:28.306Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -49,7 +49,8 @@ A very big thank you to the amazing folks who have been supporting me through th
 
 I appreciate all the support from everyone and to all using this software.  Thank you.
 
-* [Patreon *It is never required, I have setup a Patreon if you would like to support development.*](https://patreon.com/nate1280)
-{.links-list}
-
 [About](/About) Streamer.bot
+
+## Support
+* [<i class="mdi mdi-patreon"></i> Patreon *It is never required, I have setup a Patreon if you would like to support development.*](https://patreon.com/nate1280)
+{.links-list}
