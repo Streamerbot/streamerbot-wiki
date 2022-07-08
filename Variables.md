@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T19:05:07.232Z
+date: 2022-07-08T19:15:53.906Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -107,30 +107,11 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 - [Merchandise *Merchandise item purchased through StreamElements *v0.1.8+*{.version-badge}*](/en/Integrations/StreamElements#merch)
 {.links-list}
 
-## [StreamLabs](/en/Integrations/Streamlabs)
+## Streamlabs
 
-### Donations
-
-| Variable | Description |
-|---------:|:------------|
-`donationFrom` | Who the donation was from, as the user filled out
-`donationAmount` | the amount of the donation
-`donationCurrency` | 3 letter currency code
-`donationFormattedAmount` | The donation amount with the currency symbol
-`donationMessage` | Any donation message the user may have included
-`isTest` | Boolean value indicating if the donation was a test |  `True`/`False` 
-
-
-### Merchandise
-
-| Variable | Description |
-|---------:|:------------|
-`merchandiseFrom` | Who purchased a product
-`merchandiseMessage` | Any message the user attached to the purchase
-`merchandiseProduct` | The product that was purchased
-`merchandiseImageUrl` | URL to the image of the product
-`merchandiseImageEscaped` | URL to the image of the product with escaped characters
-`isTest` | Boolean value indicating if the purchase was a test |  `True`/`False` 
+- [Tips / Donations *Tips received through Streamlabs*](/en/Integrations/Streamlabs#donations)
+- [Merchandise *Merchandise item purchased through Streamlabs*](/en/Integrations/Streamlabs#merchandise)
+{.links-list}
 
 ## [TipeeeStream](/en/Integrations/TipeeeStream)
 
