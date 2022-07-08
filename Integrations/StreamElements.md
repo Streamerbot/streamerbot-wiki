@@ -2,7 +2,7 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-07-08T18:50:43.205Z
+date: 2022-07-08T18:52:42.977Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
@@ -28,14 +28,34 @@ To connect Streamer.bot with your StreamElements account:
 # Events
 The following StreamElements events are monitored by Streamer.bot and will allow you to execute actions with their content:
 
-## Tips
-**Streamer.bot** can monitor your StreamElements account for tips (donations) and perform different actions based on the value.
+## Tips / Donations
 
-`Tips` have access to a number of text [variables](/Variables) that can be passed to your [sub-actions](/Sub-Actions)
+The Tip event is fired any time a new donation is receieved through StreamElements
 
-![SE Tip](/130134906-db4e10d9-5fd9-4b17-a99f-2e860a526825.png)
+| Variable | Description |
+|---------:|:------------|
+`tipUsername` | Username of the user as provided by StreamElements
+`tipAvatar` | Avatar of the user
+`tipAmount` | The amount of the tip
+`tipCurrency` | 3 letter currency code
+`tipMessage` | Any tip message the user included
+`isTest` | Boolean value indicating the tip was a test |  `True`/`False` 
 
 ## Merch
 *v0.1.8*{.version-badge}
 
-With version 0.1.8, the ability to attach an action to a Merch Event was introduced, information for this event will be filled out soon.
+With version 0.1.8, the ability to attach an action to a Merch event was introduced.
+
+| Variable | Description |
+|---------:|:------------|
+`merchUsername` | Username of the user as provided by StreamElements
+`merchAvatar` | Avatar of the user
+`merchAmount` | The amount of the purchase
+`merchCurrency` | 3 letter currency code
+`merchMessage` | Any message the user included
+`merchQuantity` | The total number of items purchased
+`merchItems` | The number of distinct items purchased
+
+`merchItem#.name` | Name of the item purchased, where # is the index of the item (0 based)
+`merchItem#.price` | Price of the item purchased, where # is the index of the item (0 based)
+`merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
