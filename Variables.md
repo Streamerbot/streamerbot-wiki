@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:11:47.440Z
+date: 2022-07-08T18:12:44.201Z
 tags: variables
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -21,8 +21,7 @@ Events and sub-actions will add additional arguments to the stack but these are 
 
 This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility.
 
-> If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see what is available for use.
-{.is-info}
+**If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see all variables available to you.**
 
 
 ***
