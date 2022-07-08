@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:14:59.588Z
+date: 2022-07-08T18:16:47.840Z
 tags: variables
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -47,14 +47,14 @@ Similarly, `%time%` can formatted in short notation with AM/PM using the followi
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 
 
-# Generic
+# General
 
 * [Generic *Available to most triggers automatically*](/en/Variables/Generic)
 {.links-list}
 
 
-## Broadcaster Variables *v0.1.5+*{.version-badge}
-* [Broadcaster *Variables related to the Twitch account configured as `Broadcaster`*](/en/Variables/Broadcaster)
+## Broadcaster Variables 
+* [Broadcaster *Variables related to the Twitch account configured as `Broadcaster` *v0.1.5+*{.version-badge}*](/en/Variables/Broadcaster)
 {.links-list}
 
 
