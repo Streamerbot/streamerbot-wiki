@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-08T21:30:28.306Z
+date: 2022-07-08T21:30:42.244Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -18,7 +18,7 @@ Additionally, there are channels on the Streamer.bot discord to seek help/suppor
 
 **This wiki is very much a work in progress, if you would like to help build this wiki with information, please get in contact with me on Discord**
 
-* [Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!*](https://discord.streamer.bot)
+* [<i class="mdi mdi-discord"></i> Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!*](https://discord.streamer.bot)
 {.links-list}
 
 Sharing your creations on Twitter? Be sure to tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!
