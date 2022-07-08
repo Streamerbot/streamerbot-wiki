@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:22:58.308Z
+date: 2022-07-08T04:24:49.578Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -90,7 +90,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
 - [Message Deleted *When a single message is deleted in your chat*](/en/Events/General#message-deleted)
 - [Polls *When a Twitch Poll is `Created`, `Ended` or `Updated`*](/en/Twitch/Polls)
-- [Predictions](/Twitch/Predictions)
+- [Predictions *When a Twitch Prediction is `Created`, `Updated`, `Locked`, `Resolved` or `Canceled`*](/Twitch/Predictions)
 - [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General#present-viewers)
 - [Raids *When a user brings a raid into your channel or when you raid another user*](/en/Events/Raid)
 - [Stream Update *Whenever the `Title` or `Category` of your stream is changed*](/en/Events/Stream-Update)
