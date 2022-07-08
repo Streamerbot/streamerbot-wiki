@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T19:04:15.467Z
+date: 2022-07-08T19:04:44.475Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -104,7 +104,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 ## StreamElements
 
 - [Tips / Donations *Tips received through StreamElements*](/en/Integrations/StreamElements#events)
-- [Merch *Merchandise item purchased through StreamElements *v0.1.8+*{.version-badge}*](/en/Integrations/StreamElements#events)
+- [Merchandise *Merchandise item purchased through StreamElements *v0.1.8+*{.version-badge}*](/en/Integrations/StreamElements#events)
 {.links-list}
 
 ## [StreamLabs](/en/Integrations/Streamlabs)
