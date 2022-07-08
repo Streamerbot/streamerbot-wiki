@@ -2,59 +2,52 @@
 title: Variables
 description: Reference of all variables that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:02:14.005Z
+date: 2022-07-08T18:11:47.440Z
 tags: variables
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
 
-> This page will be revamped everything below is going to be changed!
-{.is-warning}
-
 # Variables (Arguments)
 
-Every event that `streamer.bot` can monitor generates an argument stack specific to that event that presents variable data to the action it calls. 
+All events in [Streamer.bot](/) will generate an argument stack specific to that event source, providing variable data to the action being called.
 
-Below is a cheatsheat of the Generic arguments available to use in your [Sub-Actions](/Sub-Actions) and a description of their function. 
-Most general use triggers will have all generic arguemnts listed, any exceptions will be listed on the page detailing that function
+Below is a quick reference of the arguments available to use in your [Sub-Actions](/Sub-Actions) and a description of their function.
+
+Most general use triggers will have all generic arguemnts listed, any exceptions will be listed on the page detailing that function.
+
 Events and sub-actions will add additional arguments to the stack but these are too numerous to list in one place so they will be detailed on the pages that cover those functions and will be hyperlinked.
 
 
-This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility
+This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility.
 
 > If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see what is available for use.
-{.is-success}
+{.is-info}
 
 
 ***
 
 ## Tips
 
-To use a variable / argument in most external contexts like OBS sources, bookend the variable name with a % symbol on either end - e.g. `%userName%`
+- To use a variable / argument in most external contexts like OBS sources, bookend the variable name with a % symbol on either end - e.g. `%userName%`
 
-> You do not need the % symbols for logic statements like `If` and `Global`
-> This was required in older versions of `streamer.bot` and it will still work with them in but current version ignores these by default.
-{.is-success}
+- You do not need the % symbols for logic statements like `If` and `Global`
+  - This was required in older versions of `streamer.bot` and it will still work with them in but current version ignores these by default.
 
-***
+- Arguments only persist until the called action finishes execution and can not be referenced by any other simultaneous action unless writen out to a `Global` variable
 
-
-> Arguments only persist until the called action finishes execution and can not be referenced by any other simultaneous action unless writen out to a `Global` variable
-{.is-info}
-
-
-
-> Variables are only populated into the active Arguments when the event or sub-action they are tied to executes. If you are testing and it is only returning the name of the variable you are probably not testing the complete Action / Event
-{.is-success}
+- Variables are only populated into the active Arguments when the event or sub-action they are tied to executes. If you are testing and it is only returning the name of the variable you are probably not testing the complete Action / Event
 
 
 ## Formatting Variables
 
-> Variables can be formatted inline using standard C# notation
-e.g. `%tipAmount%` will give a number but you could also use `%tipAmount:c2%` to have it formatted as a currency with 2 decimal places
-Similarly `%time%` can be written `%time:t%` to have it formatted in short notation with AM/PM suffix
+**Variables can be formatted inline using standard C# notation**
+
+For example, `%tipAmount%` contains a numeric variable which can be formatted as currency with 2 decimal places with the following syntax: `%tipAmount:c2%`
+
+Similarly, `%time%` can formatted in short notation with AM/PM using the following syntax: `%time:t%`
+
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
-{.is-info}
 
 
 ***
