@@ -2,13 +2,13 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:28:23.197Z
+date: 2022-07-08T14:04:59.055Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
 
-> This page will be revamped everything below is going to be changed
+> This page will be revamped everything below is going to be changed!
 {.is-warning}
 
 # Variables (Arguments)
