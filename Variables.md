@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:12:01.279Z
+date: 2022-07-08T04:12:17.874Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -81,7 +81,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 
 
 - [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
-- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-wordss)
+- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
 - [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
 - [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General)
