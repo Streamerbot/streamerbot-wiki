@@ -1,9 +1,9 @@
 ---
 title: YouTube Event Variables
-description: 
+description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-06-24T23:22:39.929Z
-tags: 
+date: 2022-07-08T18:26:49.257Z
+tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
 ---
