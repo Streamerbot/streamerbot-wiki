@@ -2,7 +2,7 @@
 title: Streamlabs Desktop
 description: 
 published: true
-date: 2022-06-29T00:13:14.323Z
+date: 2022-07-08T11:18:18.827Z
 tags: broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2021-08-25T21:32:18.787Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-25T21:32:18.787Z
 
 ![streamlabs-logo.png](/logos/streamlabs-logo.png){.align-abstopright}
 # Overview
-> New with v0.50, CPH can now control your instances of Streamlabs Desktop!
+> New with v0.0.50, Streamerbot can now control your instances of Streamlabs Desktop!
 {.is-success}
 
 Configuration page for one or more connection(s) to Streamlabs Desktop instance(s)
