@@ -1,9 +1,9 @@
 ---
 title: Twitch Accounts
-description: 
+description: Set up your Broadcaster and Bot accounts for Streamer.bot to interact with Twitch
 published: true
-date: 2022-07-03T20:13:38.994Z
-tags: 
+date: 2022-07-08T21:02:16.587Z
+tags: twitch
 editor: markdown
 dateCreated: 2021-08-25T21:32:56.848Z
 ---
