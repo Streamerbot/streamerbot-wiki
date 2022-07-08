@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-07-08T22:37:12.375Z
+date: 2022-07-08T22:37:27.833Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -13,7 +13,7 @@ Streamer.bot integrates with many streaming servioces, detailed below.
 
 Don't see an integration you're looking for? Check out the [Ideas &amp; Suggestions](https://ideas.streamer.bot) site to see if it's already been requested or to submit a new feature request.
 
-# Integrations
+# Supported Integrations
 
 - [Streamlabs *Connect your Streamlabs account for donations & merch events*](/en/Integrations/Streamlabs)
 - [StreamElements *Connect your StreamElements account for tips & merch events*](/en/Integrations/StreamElements)
