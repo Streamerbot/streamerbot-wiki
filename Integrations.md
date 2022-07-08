@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-07-08T22:37:27.833Z
+date: 2022-07-08T22:39:49.919Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -17,12 +17,12 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 
 - [Streamlabs *Connect your Streamlabs account for donations & merch events*](/en/Integrations/Streamlabs)
 - [StreamElements *Connect your StreamElements account for tips & merch events*](/en/Integrations/StreamElements)
-- [VoiceMod](/en/Integrations/VoiceMod)
+- [VoiceMod *v0.1.8*{.version-badge}](/en/Integrations/VoiceMod)
 - [DonorDrive](/en/Integrations/DonorDrive)
-- [Pulsoid](/en/Integrations/Pulsoid)
-- [HypeRate.io](/en/Integrations/HypeRate-io)
-- [TipeeeStream](/en/Integrations/TipeeeStream)
-- [TreatStream](/en/Integrations/TreatStream)
-- [Ko-Fi](/en/Integrations/Ko-Fi)
-- [Patreon](/en/Integrations/Patreon)
+- [Pulsoid *v0.1.8*{.version-badge}](/en/Integrations/Pulsoid)
+- [HypeRate.io *v0.1.8*{.version-badge}](/en/Integrations/HypeRate-io)
+- [TipeeeStream *v0.1.8*{.version-badge}](/en/Integrations/TipeeeStream)
+- [TreatStream *v0.1.8*{.version-badge}](/en/Integrations/TreatStream)
+- [Ko-Fi *v0.1.8*{.version-badge}](/en/Integrations/Ko-Fi)
+- [Patreon *v0.1.8*{.version-badge}](/en/Integrations/Patreon)
 {.links-list}
