@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:14:31.939Z
+date: 2022-07-08T04:18:03.446Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -98,22 +98,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [User Banned *When a user is banned from your channel*](/en/Events/General)
 - [User Timed Out *When a user is timed out in your channel*](/en/Events/General)
 - [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
-
 {.links-list}
-
-| Variable | Description |
-|---------:|:------------|
-`status` | Stream's current Title
-`gameUpdate` | Boolean value denoting the Game category changed
-`statusUpdate` | Boolean value denoting the stream Title changed
-`gameId` | Stream's current game category ID
-`gameName` | Stream's current game name
-`oldStatus` | Previous stream status
-`oldGameId` | Previous game category ID
-`oldGameName` | Previous game name
-`gameBoxArt` | URL for current game boxart image *v0.1.5+*{.version-badge}
-`oldGameBoxArt` | URL for previous game boxart image *v0.1.5+*{.version-badge}
-
 
 ***
 
