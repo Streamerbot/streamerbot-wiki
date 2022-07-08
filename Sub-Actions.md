@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-05T21:37:30.986Z
+date: 2022-07-08T20:51:22.713Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -168,7 +168,7 @@ Some functions have been known to fail when they are named the same
 > Available as of **Streamer.bot** v0.1.8 and higher
 {.is-info}
 * [Set Voice Control Command *Trigger a command with your voice*](/en/Sub-Actions/Set-Voice-Control-Command)
-* Set Voice Control Command State
+* [Set Voice Control Command State *Set the Voice Control Command State*](/en/Sub-Actions/Set-Voice-Control-Command-State)
 {.links-list}
 
 # VoiceMod
