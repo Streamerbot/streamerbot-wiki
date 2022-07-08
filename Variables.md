@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:12:44.201Z
+date: 2022-07-08T18:14:59.588Z
 tags: variables
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -23,8 +23,6 @@ This list is not exhaustive and some variables may work with sub-actions / event
 
 **If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see all variables available to you.**
 
-
-***
 
 ## Tips
 
@@ -49,22 +47,16 @@ Similarly, `%time%` can formatted in short notation with AM/PM using the followi
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 
 
-***
-
 # Generic
 
 * [Generic *Available to most triggers automatically*](/en/Variables/Generic)
 {.links-list}
 
-***
 
-### Broadcaster Variables *v0.1.5+*{.version-badge}
+## Broadcaster Variables *v0.1.5+*{.version-badge}
 * [Broadcaster *Variables related to the Twitch account configured as `Broadcaster`*](/en/Variables/Broadcaster)
 {.links-list}
 
-***
-
-The arguments that each event adds to the stack will be detailed on the page that explains that function 
 
 # Twitch Platform
 
@@ -92,8 +84,6 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
 {.links-list}
 
-***
-
 
 # YouTube Platform
 
@@ -112,8 +102,6 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Statistics Updated](/en/Platforms/YouTube/Events#statistics-updated)
 - [Broadcast Update](/en/Platforms/YouTube/Events#broadcast-update)
 {.links-list}
-
-***
 
 # Integrations
 
@@ -369,7 +357,6 @@ Details coming soon
 {.is-info}
 
 
-***
 ### Live Variables 
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
@@ -435,7 +422,6 @@ Any action triggered by Voice Control will have access to the following argument
 `spokenTextInput` | Detected spoken phrase with trigger command stripped *v0.1.5+*{.version-badge} <br>(Only works with `Start` based commands)
 `spokenCommand` | Detected Trigger command *v0.1.5+*{.version-badge}
 
-***
 
 # Commands
 
@@ -636,7 +622,6 @@ all variables will be in the format `props.***`
 
 e.g `props.visible` will return `True` if the source is showing. This can then be used in an IF statement in the same action for example. 
 
-***
 
 ## Timeout User
 
@@ -644,14 +629,3 @@ e.g `props.visible` will return `True` if the source is showing. This can then b
 |---------:|:------------|
 `timedoutUser0` | The username of the user currently timed out by Streamerbot action
 `timedoutUserName0` | The Display of the user currently timed out by Streamerbot action
-
-***
-
-
-
-***
-
-
-
-> *More to be added soon
-{.is-info}
