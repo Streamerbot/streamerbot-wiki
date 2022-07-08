@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:12:17.874Z
+date: 2022-07-08T04:14:31.939Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -84,14 +84,14 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
 - [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
-- [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General)
-- [Follow *When someone follows your channel*](/en/Events/General)
+- [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General#chat-message-whispers-first-words)
+- [Follow *When someone follows your channel*](/en/Events/General#follow)
 - [Gift Bombs *When a user purchases one or more subscriptions for **random** recipients*](/en/Events/Gift-Bomb)
 - [Gift Subscriptions *When a user purchases a subscription for a specific **named** recipient*](/Events/Gift-Sub)
 - [Hosts *When a user begins hosting your channel*](/en/Events/hosts)
 - [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
-- [Message Deleted *When a single message is deleted in your chat*](/en/Events/General)
-- [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General)
+- [Message Deleted *When a single message is deleted in your chat*](/en/Events/General#message-deleted)
+- [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General#present-viewers)
 - [Raids *When a user brings a raid into your channel or when you raid another user*](/en/Events/Raid)
 - [Stream Update *Whenever the `Title` or `Category` of your stream is changed*](/en/Events/Stream-Update)
 - [Subscriptions & Re-Subs *When someone subscribes or resubscribes to your channel themselves*](/en/Events/Sub)
