@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-08T22:00:47.268Z
+date: 2022-07-08T22:01:21.774Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -81,7 +81,7 @@ Sharing your creations on Twitter? Be sure to tag **@streamerdotbot**, and/or us
 
 Are you uploading videoes on YouTube, be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
 
-# Thanks
+# Special Thanks
 
 Wanted to first off, say thank you to everyone who has been using this bot, providing feedback (i.e. breaking it 😁), and being supportive of my efforts to just provide another option for streamers out there to use.
 
@@ -92,6 +92,6 @@ I appreciate all the support from everyone and to all using this software.  Than
 
 [About](/About) Streamer.bot
 
-# Support
+# Support the Project
 * [<i class="mdi mdi-patreon"></i> Patreon *It is never required, I have setup a Patreon if you would like to support development.*](https://patreon.com/nate1280)
 {.links-list}
