@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:23:36.679Z
+date: 2022-07-08T18:24:32.064Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -101,7 +101,6 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 # Integrations
 
-# {.tabset}
 ## [Stream Elements](en/Settings/StreamElements)
 
 ### Donation
