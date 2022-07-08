@@ -2,14 +2,14 @@
 title: Stream Update
 description: 
 published: true
-date: 2022-07-08T04:16:50.387Z
+date: 2022-07-08T04:17:35.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T04:16:50.386Z
 ---
 
 # Stream Update
-> More details comming soon!
+> More details coming soon!
 {.is-info}
 
 | Variable | Description |
