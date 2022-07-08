@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-08T21:30:52.882Z
+date: 2022-07-08T21:58:25.718Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -10,13 +10,69 @@ dateCreated: 2021-08-25T17:28:59.469Z
 
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
 
-# Welcome to Streamer.bot
+# Streamer.bot Documentation
 
 Documentation for Streamer.bot. Here are the changelogs and information on all aspects of the application.
 
-Additionally, there are channels on the Streamer.bot discord to seek help/support, share discoveries, and present what you're working on.  The application can advance/evolve optimally if we all share new/interesting ways to do things.
-
 **This wiki is very much a work in progress, if you would like to help build this wiki with information, please get in contact with me on Discord**
+
+<section class="overview-grid my-5">
+  <div>
+    <h4 class="overline">Basics</h4>
+    <ul>
+      <li><a href="/en/Quick-Start">Quick Start Guide</a></li>
+      <li><a href="/en/Update">How to Upgrade</a></li>
+      <li><a href="/en/Linux-Support">Linux Setup</a></li>
+      <li><a href="/en/Platforms/Twitch">Setup Platform: Twitch</a></li>
+      <li><a href="/en/Linux-Support">Setup Platform: YouTube</a></li>
+      <li><a href="/en/Broadcasters/OBS">Setup Broadcaster: OBS</a></li>
+      <li><a href="/en/Broadcasters/StreamlabsDesktop">Setup Broadcaster: Streamlabs Desktop</a></li>
+    </ul>
+  </div>
+  <div>
+  	<h4 class="overline">Configuration</h4>
+    <ul>
+      <li><a href="/en/Actions">Actions</a></li>
+      <li><a href="/en/Sub-Actions">Sub-Actions</a></li>
+      <li><a href="/en/Commands">Commands</a></li>
+      <li><a href="/en/Settings">Settings</a></li>
+      <li><a href="/en/Voice-Control">Voice-Control</a></li>
+      <li><a href="/en/Variables">Variables</a></li>
+      <li><a href="/en/Inline-Functions">Inline-Functions</a></li>
+    </ul>
+  </div>
+  <div>
+  	<h4 class="overline">Integrations</h4>
+    <ul>
+      <li><a href="/en/Integrations/Streamlabs">Streamlabs</a></li>
+      <li><a href="/en/Integrations/StreamElements">StreamElements</a></li>
+      <li><a href="/en/Integrations/VoiceMod">VoiceMod</a></li>
+      <li><a href="/en/Integrations/DonorDrive">DonorDrive</a></li>
+      <li><a href="/en/Integrations/Kofi">Ko-Fi</a></li>
+      <li><a href="/en/Integrations/Patreon">Patreon</a></li>
+      <li><a href="/en/Integrations">View all integrations...</a></li>
+    </ul>
+  </div>
+  <div>
+ 	  <h4 class="overline">Available Plugins</h4>
+    <ul>
+      <li><a href="https://github.com/nate1280/streamdeck-Streamer.bot" target="_blank" rel="noopener">StreamDeck</a></li>
+      <li><a href="https://www.christophecvb.com/touch-portal/plugins/streamer-bot" target="_blank" rel="noopener">TouchPortal</a></li>
+      <li><a href="https://github.com/nate1280/voiceattack-Streamer.bot" target="_blank" rel="noopener">Voice Attack</a></li>
+      <li><a href="https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot" target="_blank" rel="noopener">LoupeDeck</a></li>
+      <li><a href="https://github.com/rivafarabi/streamerbot-deckboard" target="_blank" rel="noopener">DeckBoard</a></li>
+    </ul>
+  </div>
+  <div>
+ 	  <h4 class="overline">Extended Features</h4>
+    <ul>
+      <li><a href="/en/Extended-Features/HTML-Decks">Streamer.bot Decks</a></li>
+      <li><a href="/en/Extended-Features/HTML-Overlay">HTML-Overlay</a></li>
+    </ul>
+  </div>
+</section>
+
+Additionally, there are channels on the Streamer.bot discord to seek help/support, share discoveries, and present what you're working on.  The application can advance/evolve optimally if we all share new/interesting ways to do things.
 
 * [<i class="mdi mdi-discord"></i> Streamer.bot Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!*](https://discord.streamer.bot)
 {.links-list}
@@ -24,21 +80,6 @@ Additionally, there are channels on the Streamer.bot discord to seek help/suppor
 Sharing your creations on Twitter? Be sure to tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!
 
 Are you uploading videoes on YouTube, be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
-
-## Available Plugins
-
-* [StreamDeck](https://github.com/nate1280/streamdeck-Streamer.bot)
-* [TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
-* [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
-* [LoupeDeck](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
-* [DeckBoard *Can be installed through the server app*](https://github.com/rivafarabi/streamerbot-deckboard)
-{.links-list}
-
-## Extended Features
-
-* [Streamer.bot Decks *Web-based StreamDeck or LoupeDeck alternative by Whipstickgostop*](/en/Extended-Features/HTML-Decks)
-* [HTML Overlay *Browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating (by Ruirize)*](/en/Extended-Features/HTML-Overlay)
-{.links-list}
 
 ## Thanks
 
