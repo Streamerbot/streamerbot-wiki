@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-08T18:21:43.128Z
+date: 2022-07-08T18:22:22.054Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -40,9 +40,8 @@ This list is not exhaustive and some variables may work with sub-actions / event
 
 **Variables can be formatted inline using standard C# notation**
 
-For example, `%tipAmount%` contains a numeric variable which can be formatted as currency with 2 decimal places with the following syntax: `%tipAmount:c2%`
-
-Similarly, `%time%` can formatted in short notation with AM/PM using the following syntax: `%time:t%`
+- For example, `%tipAmount%` contains a numeric variable which can be formatted as currency with 2 decimal places with the following syntax: `%tipAmount:c2%`
+- Similarly, `%time%` can formatted in short notation with AM/PM using the following syntax: `%time:t%`
 
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 
