@@ -2,13 +2,19 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-08T19:11:01.336Z
+date: 2022-07-08T19:13:44.439Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
 ---
 
 ![streamlabs-logo.png](https://streamer.bot/img/integrations/streamlabs.png){.align-abstopright}
+
+> **Looking for Streamlabs OBS?**
+> This page outlines Streamlabs account features, you can find information on using SLOBS with Streamer.bot [here](/en/Boadcasters/StreamlabsDesktop)
+{.is-info}
+
+
 # Overview
 
 **Streamer.bot** can monitor your Streamlabs account and perform actions on Donation and Merchandise events.
