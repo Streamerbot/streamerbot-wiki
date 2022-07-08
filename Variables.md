@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T17:47:44.442Z
+date: 2022-07-08T18:01:19.684Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -156,7 +156,7 @@ The arguments that each event adds to the stack will be detailed on the page tha
 `merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
 
 
-## [StreamLabs](/en/Settings/Streamlabs)
+## [StreamLabs](/en/Integrations/Streamlabs)
 
 ### Donations
 
