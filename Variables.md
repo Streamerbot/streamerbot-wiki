@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2022-07-08T04:21:02.739Z
+date: 2022-07-08T04:22:33.413Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -81,8 +81,10 @@ The arguments that each event adds to the stack will be detailed on the page tha
 
 
 - [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
+- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
 - [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
+- [Commercials](/en/Twitch/Commercials)
 - [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
 - [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General#chat-message-whispers-first-words)
 - [Follow *When someone follows your channel*](/en/Events/General#follow)
@@ -101,19 +103,6 @@ The arguments that each event adds to the stack will be detailed on the page tha
 - [User Timed Out *When a user is timed out in your channel*](/en/Events/General)
 - [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
 {.links-list}
-
-***
-
-## Channel Rewards
-
-- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
-{.links-list}
-
-## [Commercials](/en/Twitch/Commercials)
-| Variable | Description |
-|---------:|-------------|
-| `adLength` | The length of the ad in seconds
-| `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
 
 ***
 
