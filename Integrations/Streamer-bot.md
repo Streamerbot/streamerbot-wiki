@@ -11,7 +11,7 @@ dateCreated: 2022-06-01T04:51:05.664Z
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
 # Overview
 
-The Streamer.bot Website integration enables additional functionality within Streamer.bot.
+The Streamer.bot Website integration enables additional functionality within Streamer.bot which would otherwise not be possible.
 
 # Supported Features
 
