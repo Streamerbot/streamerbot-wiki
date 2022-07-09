@@ -232,6 +232,9 @@ h6::after {
   gap: 2rem;
   justify-content: space-around;
 }
+#root .v-application .overview-grid a {
+  text-decoration: none !important;
+}
 #root .v-application .overview-grid .overline {
   font-size: 1rem!important;
   color: #ddd!important
