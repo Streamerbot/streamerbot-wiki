@@ -2,7 +2,7 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-09T17:43:32.879Z
+date: 2022-07-09T17:55:52.604Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
@@ -34,7 +34,7 @@ Both `Donations` and `Merchandise` have access to a number of text [variables](/
 
 For donation events, different actions can be run based on the size of the donation. 
 
-### Donations
+## Donations
 
 | Variable | Description | Values |
 |---------:|:------------|---------|
@@ -46,7 +46,7 @@ For donation events, different actions can be run based on the size of the donat
 `isTest` | Boolean value indicating if the donation was a test |  `True`/`False` |
 
 
-### Merchandise
+## Merchandise
 
 | Variable | Description | Values |
 |---------:|:------------|---------|
