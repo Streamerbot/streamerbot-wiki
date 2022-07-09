@@ -2,7 +2,7 @@
 title: Import Variables
 description: 
 published: true
-date: 2022-06-30T22:27:53.890Z
+date: 2022-07-09T03:24:07.859Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T03:40:03.549Z
@@ -64,5 +64,16 @@ double fourteenDecimal = Convert.ToDouble(args["fourteenDecimal"]);
 > `double`is for numbers with up to 28 decimals after the comma
 {.is-info}
 ```csharp
+decimal twentyEightDecimal = Convert.ToDecimal(args["twentyEightDecimal"]);
+```
+
+## all
+```csharp
+var variable = args["variable"];
+string text = args["text"].ToString();
+int number = Convert.ToInt32(args["number"].ToString());
+bool boolean = Convert.ToBoolean(args["boolean"]);
+float sevenDecimal = float.Parse(args["sevenDecimal"].ToString());
+double fourteenDecimal = Convert.ToDouble(args["fourteenDecimal"]);
 decimal twentyEightDecimal = Convert.ToDecimal(args["twentyEightDecimal"]);
 ```
