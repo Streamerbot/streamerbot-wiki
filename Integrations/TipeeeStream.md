@@ -2,7 +2,7 @@
 title: TipeeeStream
 description: 
 published: true
-date: 2022-06-27T12:00:55.854Z
+date: 2022-07-09T19:42:30.413Z
 tags: tipeeestream, donations
 editor: markdown
 dateCreated: 2022-06-26T23:38:57.275Z
@@ -21,3 +21,9 @@ Variable | Description
 `tipAmount` | The amount of the tip (decimal value)
 `tipCurrency` | 3 letter curency code
 `tipMessage` | Any donation message the user may have included
+
+<div class="btn-grid">
+  
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Return***](/test/)
+  
+</div>
