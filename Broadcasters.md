@@ -2,7 +2,7 @@
 title: Broadcasters
 description: Connect your preferred streaming software with Streamer.bot
 published: true
-date: 2022-07-09T07:47:44.476Z
+date: 2022-07-09T07:55:45.825Z
 tags: obs, broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2022-07-08T22:05:23.839Z
@@ -28,19 +28,23 @@ Broadcasters consist of the supported streaming software applications.
       <li><a href="/en/Broadcasters/OBS/Get-Scene-Item-Properties">Get Scene Item Properties</a></li>
       <li><a href="/en/Broadcasters/OBS/Hide-Group's-Sources">Hide Group's Sources</a></li>
       <li><a href="/en/Broadcasters/OBS/Hide-Source-Filters">Hide Source Filters</a></li>
-      <li><a href="/en/Broadcasters/OBS/Hide-Source-Filters">Hide Source Filters</a></li>
       <li><a href="/en/Broadcasters/OBS/Raw">Raw</a></li>
       <li><a href="/en/Broadcasters/OBS/Recording">Recording</a></li>
       <li><a href="/en/Broadcasters/OBS/Rotate-Source">Rotate Source</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Active-Scene">Set Active Scene</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Browser-Source-URL">Set Browser Source URL</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-GDI-Text">Set GDI Text</a></li>
-      <li><a href="/en/Broadcasters/OBS/Set-Image-Source">Set Image Source</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-Image-Source-File">Set Image Source File</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-Media-Source-File">Set Media Source File</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-Media-State">Set Media State</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Random-Group-Source-Visible">Set Random Group Source Visible</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-Replay-Buffer-State">Set Replay Buffer State</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Scene-Filter-State">Set Scene Filter State</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-Source-Audio-Track-State">Set Source Audio Track State</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Source-Filter-State">Set Source Filter State</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Source-Mute-State">Set Source Mute State</a></li>
       <li><a href="/en/Broadcasters/OBS/Set-Source-Visibility">Set Source Visibility</a></li>
+      <li><a href="/en/Broadcasters/OBS/Set-State-of-a-Random-Filter">Set State of a Random Filter</a></li>
       <li><a href="/en/Broadcasters/OBS/Streaming">Streaming</a></li>
       <li><a href="/en/Broadcasters/OBS/Take-Screenshot">Take Screenshot</a></li>
     </ul>
