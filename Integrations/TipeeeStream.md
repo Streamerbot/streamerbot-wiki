@@ -2,7 +2,7 @@
 title: TipeeeStream
 description: 
 published: true
-date: 2022-07-09T19:42:30.413Z
+date: 2022-07-09T19:44:28.927Z
 tags: tipeeestream, donations
 editor: markdown
 dateCreated: 2022-06-26T23:38:57.275Z
@@ -24,6 +24,6 @@ Variable | Description
 
 <div class="btn-grid">
   
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Return***](/test/)
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/test/)
   
 </div>
