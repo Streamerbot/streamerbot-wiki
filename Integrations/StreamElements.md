@@ -2,7 +2,7 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-07-08T19:11:17.894Z
+date: 2022-07-09T20:14:04.383Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
@@ -62,9 +62,8 @@ With version 0.1.8, the ability to attach an action to a Merch event was introdu
 `merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
 
 
-
 <div class="btn-grid">
-
+  
   [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-
+  
 </div>
