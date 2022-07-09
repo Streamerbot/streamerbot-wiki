@@ -2,12 +2,13 @@
 title: Ko-Fi
 description: Integrate Streamer.bot with your Ko-Fi account!
 published: true
-date: 2022-07-09T19:34:01.738Z
+date: 2022-07-09T20:14:41.974Z
 tags: integrations, ko-fi
 editor: markdown
 dateCreated: 2022-06-01T04:37:51.447Z
 ---
 
+<i class="mdi mdi-coffee"></i>{.abs-topright}
 # Kofi
 
 Kofi, a highly requested integration, is now available in **Streamer.bot**
