@@ -139,10 +139,6 @@ h6::after {
 .v-application.theme--dark .overline {
   color: #a158ed !important;
 }
-.v-application.theme--dark blockquote {
-  opacity: 0.8 !important;
-}
-
 
 /* search results */
 .theme--dark .search-results-items .highlighted {
@@ -167,6 +163,24 @@ h6::after {
 .overline .v-btn > .v-btn__content > i.indigo--text {
   color: #a257ed !important;
 }
+
+/* blockquotes */
+.theme--dark .v-main .contents blockquote {
+  border-radius: 0 !important;
+}
+.theme--dark .v-main .contents blockquote.is-info {
+  background-color: #1364bf91 !important;
+}
+.theme-darks .v-main .contents blockquote.is-success {
+  background-color: #4caf5054 !important;
+}
+.theme-darks .v-main .contents blockquote.is-warning {
+  background-color: #cd480078 !important;
+}
+.theme-darks .v-main .contents blockquote.is-danger {
+  background-color: #b71c1c5c !important;
+}
+
 
 /* custom badges */
 .version-badge {
@@ -264,4 +278,12 @@ h6::after {
   font-weight: normal;
   color: #ccc;
   font-size: 0.6em;
+}
+
+/* colors */
+.text--twitch {
+  color: #6441a5
+}
+.text--youtube {
+  color: #FF0000;
 }
