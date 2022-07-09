@@ -109,3 +109,10 @@ This event is triggered when a commission is purchased on Kofi
 | `message` | Message the user left |
 | `amount` | The commission amount |
 | `currency` | The currency of the commission |
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

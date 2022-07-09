@@ -1,9 +1,9 @@
 ---
 title: Pulsoid
-description: 
+description:
 published: true
 date: 2022-06-30T23:29:57.614Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z
 ---
@@ -27,3 +27,10 @@ After connecting your account, by clicking **Connect to Pulsoid** and following 
 |   ---:|-------------|
 | `measuredAt` | Time the measurement was taken |
 | `heartRate` | Heart Rate value |
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

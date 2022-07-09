@@ -22,7 +22,7 @@ You can find the configuration for this integration at `Integrations -> StreamEl
 ## Authentication
 **The StreamElements integration now uses OAuth for authorizing against your account**
 
-To connect Streamer.bot with your StreamElements account: 
+To connect Streamer.bot with your StreamElements account:
 1. Navigate to the settings tab within the StreamElements integration
 2. Click `Connect` and authorize **Streamer.bot** to connect to your account
 
@@ -40,7 +40,7 @@ The Tip event is fired any time a new donation is receieved through StreamElemen
 `tipAmount` | The amount of the tip
 `tipCurrency` | 3 letter currency code
 `tipMessage` | Any tip message the user included
-`isTest` | Boolean value indicating the tip was a test |  `True`/`False` 
+`isTest` | Boolean value indicating the tip was a test |  `True`/`False`
 
 ## Merch
 *v0.1.8*{.version-badge}
@@ -60,3 +60,11 @@ With version 0.1.8, the ability to attach an action to a Merch event was introdu
 `merchItem#.name` | Name of the item purchased, where # is the index of the item (0 based)
 `merchItem#.price` | Price of the item purchased, where # is the index of the item (0 based)
 `merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
+
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

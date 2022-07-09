@@ -1,9 +1,9 @@
 ---
 title: Streamer.bot
-description: 
+description:
 published: true
 date: 2022-06-01T04:52:44.383Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-01T04:51:05.664Z
 ---
@@ -17,3 +17,11 @@ With this integration, you will be enabling the use of [Remote Decks](/Decks/Rem
 
 > The usage of [Kofi](/Integrations/Kofi) and [Patreon](/Integrations/Patreon) require further configuration
 {.is-info}
+
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

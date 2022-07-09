@@ -1,9 +1,9 @@
 ---
 title: HypeRate.io
-description: 
+description:
 published: true
 date: 2022-06-01T04:20:18.663Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-01T04:20:14.642Z
 ---
@@ -27,3 +27,10 @@ To connect to HypeRate.io, provide your ID in the `ID` field, and click on Conne
 | Variable | Description |
 |   ---:|-------------|
 | `%heartRate%` | Heart Rate value |
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

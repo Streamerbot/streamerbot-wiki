@@ -1,9 +1,9 @@
 ---
 title: Patreon
-description: 
+description:
 published: true
 date: 2022-06-01T04:58:56.246Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-01T04:43:25.450Z
 ---
@@ -35,3 +35,10 @@ You will need to update your patreon with the WebHook the **Streamer.bot** websi
 ## Pledge Updated
 
 ## Pledge Deleted
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>

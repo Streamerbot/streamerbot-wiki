@@ -1,6 +1,6 @@
 ---
 title: VoiceMod
-description: Connecting your Streamer.bot to VoiceMod 
+description: Connecting your Streamer.bot to VoiceMod
 published: true
 date: 2022-07-03T18:29:22.851Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
@@ -29,7 +29,7 @@ To do this navigate the following tabs top row of tabs click `Integrations` then
 ![connect-to-voicemod.png](/voicemod/connect-to-voicemod.png){.align-center}
 
 
-When Streamer.bot is connected to VoiceMod successfully you will see that the `Connect to VoiceMod` button has changed to `Disconnect from VoiceMod`. Now we are ready to use the new integration action that are available to us. 
+When Streamer.bot is connected to VoiceMod successfully you will see that the `Connect to VoiceMod` button has changed to `Disconnect from VoiceMod`. Now we are ready to use the new integration action that are available to us.
 
 
 ![disconnect-from-voicemod.png](/voicemod/disconnect-from-voicemod.png){.align-center}
@@ -48,3 +48,10 @@ This is it we are now ready to put the VoiceMod Integration to work.
 * [Set Mute State *Turn your mic on or off*](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [Set Voice Changer State *Turn the voice changer on or off*](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
 {.links-list}
+
+
+<div class="btn-grid">
+
+  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+
+</div>
