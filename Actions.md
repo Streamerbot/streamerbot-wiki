@@ -1,9 +1,9 @@
 ---
 title: Actions
-description: 
+description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-06-02T23:51:33.814Z
-tags: 
+date: 2022-07-09T22:20:30.311Z
+tags: subactions, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
 ---
