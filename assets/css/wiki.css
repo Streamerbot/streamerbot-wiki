@@ -207,9 +207,61 @@ h6::after {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: 2rem;
-  justify-content: space-around
+  justify-content: space-around;
 }
 #root .v-application .overview-grid .overline {
   font-size: 1rem!important;
   color: #ddd!important
+}
+
+/* button grid layout */
+#root .v-main .contents .btn-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 1rem;
+  justify-content: space-around;
+}
+#root .v-main .contents .btn-grid > p {
+  border: 1px solid #292929;
+  background: #1c1c1c;
+  padding: 0 !important;
+  margin: 0 !important;
+  transition-property: color,border-color,background-color;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+#root .v-main .contents .btn-grid > p > a {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem !important;
+  display: flex;
+  align-items: center;
+}
+#root .v-main .contents .btn-grid > p > a > i {
+  display: block;
+  font-size: 2rem;
+  width: 35px;
+  margin-right: 1rem;
+}
+#root .v-main .contents .btn-grid > p > a > img {
+  margin-right: 1rem;
+  height: 35px;
+  width: 35px;
+}
+#root .v-main .contents .btn-grid > p:hover {
+  box-shadow: 4px 2px 16px 4px rgb(33 96 253 / 8%), 0 8px 24px rgb(33 96 253 / 8%);
+  border-color: #00b9ff !important;
+}
+#root .v-main .contents .btn-grid > p > a > strong {
+  font-weight: 600 !important;
+  display: flex;
+  flex-direction: column;
+}
+#root .v-main .contents .btn-grid > p > a > strong > em {
+  font-style: normal;
+  font-weight: normal;
+  color: #ccc;
+  font-size: 0.6em;
 }
