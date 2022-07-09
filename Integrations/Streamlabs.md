@@ -2,7 +2,7 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-08T19:14:36.865Z
+date: 2022-07-09T17:41:41.004Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
@@ -10,8 +10,9 @@ dateCreated: 2021-08-25T21:32:50.615Z
 
 ![streamlabs-logo.png](https://streamer.bot/img/integrations/streamlabs.png){.align-abstopright}
 
-> **Looking for Streamlabs OBS?**
-> This page outlines Streamlabs donation & merch events, you can find information on using SLOBS with Streamer.bot [here](/en/Boadcasters/StreamlabsDesktop)
+> **Looking for Streamlabs Desktop?**
+> This page outlines Streamlabs donation & merch events, 
+> You can find information on connecting Streamlabs Desktop with Streamer.bot [here](/en/Boadcasters/StreamlabsDesktop)
 {.is-info}
 
 
