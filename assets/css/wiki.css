@@ -169,16 +169,20 @@ h6::after {
   border-radius: 0 !important;
 }
 .theme--dark .v-main .contents blockquote.is-info {
-  background-color: #1364bf91 !important;
+  background-color: #1e2c37 !important;
+  border-color: #2196f3 !important;
 }
-.theme-darks .v-main .contents blockquote.is-success {
-  background-color: #4caf5054 !important;
+.theme--dark .v-main .contents blockquote.is-success {
+  background-color: #232f23 !important;
+  border-color: #4caf50 !important;
 }
-.theme-darks .v-main .contents blockquote.is-warning {
-  background-color: #cd480078 !important;
+.theme--dark .v-main .contents blockquote.is-warning {
+  background-color: #382a1a !important;
+  border-color: #fb8c00 !important;
 }
-.theme-darks .v-main .contents blockquote.is-danger {
-  background-color: #b71c1c5c !important;
+.theme--dark .v-main .contents blockquote.is-danger {
+  background-color: #382424 !important;
+  border-color: #ff5252 !important;
 }
 
 
@@ -208,6 +212,11 @@ h6::after {
   position: absolute;
   top: 0;
   right: 0;
+}
+#root .v-main .contents .version-badge > a
+#root .v-main .contents .translation-badge > a {
+  color: #fff !important;
+  text-decoration: none !important;;
 }
 
 /* helpers */
