@@ -2,7 +2,7 @@
 title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
-date: 2022-07-09T17:41:41.004Z
+date: 2022-07-09T17:43:32.879Z
 tags: integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
@@ -36,24 +36,24 @@ For donation events, different actions can be run based on the size of the donat
 
 ### Donations
 
-| Variable | Description |
-|---------:|:------------|
-`donationFrom` | Who the donation was from, as the user filled out
-`donationAmount` | the amount of the donation
-`donationCurrency` | 3 letter currency code
-`donationFormattedAmount` | The donation amount with the currency symbol
-`donationMessage` | Any donation message the user may have included
-`isTest` | Boolean value indicating if the donation was a test |  `True`/`False` 
+| Variable | Description | Values |
+|---------:|:------------|---------|
+`donationFrom` | Who the donation was from, as the user filled out | |
+`donationAmount` | the amount of the donation | |
+`donationCurrency` | 3 letter currency code | |
+`donationFormattedAmount` | The donation amount with the currency symbol | |
+`donationMessage` | Any donation message the user may have included | |
+`isTest` | Boolean value indicating if the donation was a test |  `True`/`False` |
 
 
 ### Merchandise
 
-| Variable | Description |
-|---------:|:------------|
-`merchandiseFrom` | Who purchased a product
-`merchandiseMessage` | Any message the user attached to the purchase
-`merchandiseProduct` | The product that was purchased
-`merchandiseImageUrl` | URL to the image of the product
-`merchandiseImageEscaped` | URL to the image of the product with escaped characters
+| Variable | Description | Values |
+|---------:|:------------|---------|
+`merchandiseFrom` | Who purchased a product | |
+`merchandiseMessage` | Any message the user attached to the purchase | |
+`merchandiseProduct` | The product that was purchased | |
+`merchandiseImageUrl` | URL to the image of the product | |
+`merchandiseImageEscaped` | URL to the image of the product with escaped characters | |
 `isTest` | Boolean value indicating if the purchase was a test |  `True`/`False` 
 
