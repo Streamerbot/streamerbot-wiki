@@ -1,6 +1,6 @@
 ---
 title: Streamer.bot
-description:
+description: Enable additional Streamer.bot functionality by configuring the Streamer.bot Website integration!
 published: true
 date: 2022-06-01T04:52:44.383Z
 tags:
@@ -9,18 +9,24 @@ dateCreated: 2022-06-01T04:51:05.664Z
 ---
 
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
-# Streamer.bot
+# Overview
 
-With this integration, you will be enabling the use of [Remote Decks](/Decks/Remote), [Kofi](/Integrations/Kofi) and [Patreon](/Integrations/Patreon)
+The Streamer.bot Website integration enables additional functionality within Streamer.bot.
 
-![streamer.bot-integration.png](/streamer.bot-integration.png)
+# Supported Features
 
-> The usage of [Kofi](/Integrations/Kofi) and [Patreon](/Integrations/Patreon) require further configuration
-{.is-info}
+<section class="btn-grid my-5">
+
+  [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Decks *HTML based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
+
+  [<i class="mdi mdi-coffee"></i>**Ko-Fi *Donations integration***](/en/Integrations/Ko-Fi)
+
+  [<i class="mdi mdi-patreon"></i>**Patreon *Donations integration***](/en/Integrations/Patreon)
+
+</section>
 
 
-
-<div class="btn-grid">
+<div class="btn-grid my-5">
 
   [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
 
