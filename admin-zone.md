@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-08T18:33:35.157Z
+date: 2022-07-09T03:25:46.803Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -35,3 +35,29 @@ dateCreated: 2022-07-03T19:53:46.241Z
 - Grid Item 2
 - Grid Item 3
 {.grid-list}
+
+## code language
+```csharp
+using System;
+using System.Net;
+using System.Net.Http;
+using Newtonsoft.Json;
+
+public class CPHInline
+{
+	public bool Execute()
+	{
+	string discordWebhook = args["webhook"].ToString();
+		string user = args["user"].ToString();
+        string precolor = "#ff0000";
+		int color = Convert.ToInt32(precolor.Substring(1), 16);
+		string discordJson = JsonConvert.SerializeObject(new {embeds = new[] { new { title = $"{user} is banned", color = color, description = "" } } });
+		MultipartFormDataContent dataContent = new MultipartFormDataContent();
+		dataContent.Add(new StringContent(discordJson), "payload_json");
+		HttpClient httpClient = new HttpClient();
+		httpClient.PostAsync(discordWebhook, dataContent).Wait();
+		httpClient.Dispose();	
+	return true;
+	}
+}
+```
