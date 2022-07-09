@@ -1,15 +1,12 @@
 ---
 title: YouTube
-description: 
+description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-09T20:17:46.237Z
+date: 2022-07-09T20:18:34.445Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
 ---
-
-# Overview
-Streamer bot now has YouTube integration so let’s go ahead and link your YouTube channel to the Streamer.bot. 
 
 ## Account
 First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
