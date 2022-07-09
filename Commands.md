@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-07-01T19:44:33.935Z
+date: 2022-07-09T22:10:48.205Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
@@ -129,7 +129,7 @@ Option | Description | Notes
 `User Cooldown` | Defines the minimum time in seconds before the command can be used again by that specific chat user
 `Cooldown Action` | Defines which action should run if the command set is called while a cooldown is in effect | This is useful to output a message to chat to explain they have to wait, but there is no spam protection on the cooldown action 
 
-> The `Broadcaster` is always exepmt from cooldowns. If you need to test this is working correctly use a different account
+> The **Broadcaster** is always exempt from cooldowns. Use a different account when testing this feature.
 {.is-success}
 
 
@@ -146,10 +146,11 @@ By default, commands can be executed by anyone in chat but you may wish to restr
 `Allow` | Only `Groups` / `Users` specified can use this command
 `Deny` | Everyone except specified `Groups` / `Users` can use this command
 
->  If the `Allowed` / `Denied` pane is blank then the permission applies to everyone, otherwise it applies to only the entities listed
+>  If the **Allowed / Denied** pane is blank, the permission applies to everyone. Otherwise, it applies only to the listed entities.
 {.is-info}
 
-> The `Broadcaster` is always exempt from permission settings. If you want to specifically exclude the broadcaster from an action you should define this with a `Logic > If` subaction
+> The **Broadcaster** is always exempt from permission settings. 
+> If you want to exclude the broadcaster from an action, you should use a `Logic > If` sub-action
 {.is-success}
 
 
