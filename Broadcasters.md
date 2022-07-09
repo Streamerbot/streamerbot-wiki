@@ -2,7 +2,7 @@
 title: Broadcasters
 description: Connect your preferred streaming software with Streamer.bot
 published: true
-date: 2022-07-09T07:58:00.535Z
+date: 2022-07-09T08:00:39.107Z
 tags: obs, broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2022-07-08T22:05:23.839Z
@@ -19,7 +19,7 @@ Broadcasters consist of the supported streaming software applications.
 
 # Overview
 
-<section class="overview-grid my-5">
+<section class="overview-grid my-3">
   <div>
     <h4 class="overline">OBS Studio</h4>
     <ul>
