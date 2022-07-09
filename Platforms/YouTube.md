@@ -2,13 +2,13 @@
 title: YouTube
 description: 
 published: true
-date: 2022-06-30T23:05:04.175Z
+date: 2022-07-09T20:17:17.134Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
 ---
 
-![youtube_logo.png](/logos/youtube_logo.png){.align-abstopright}
+![youtube_logo.png](https://streamer.bot/img/integrations/youtube.png){.align-abstopright}
 
 # YouTube
 Streamer bot now has YouTube integration so let’s go ahead and link your YouTube channel to the Streamer.bot. 
