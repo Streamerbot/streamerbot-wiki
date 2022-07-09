@@ -1,9 +1,9 @@
 ---
-title: Kofi
-description: 
+title: Ko-Fi
+description: Integrate Streamer.bot with your Ko-Fi account!
 published: true
-date: 2022-06-27T15:24:38.157Z
-tags: 
+date: 2022-07-09T19:34:01.738Z
+tags: integrations, ko-fi
 editor: markdown
 dateCreated: 2022-06-01T04:37:51.447Z
 ---
