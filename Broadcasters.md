@@ -2,7 +2,7 @@
 title: Broadcasters
 description: Connect your preferred streaming software with Streamer.bot
 published: true
-date: 2022-07-09T15:29:59.584Z
+date: 2022-07-09T20:28:07.578Z
 tags: obs, broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2022-07-08T22:05:23.839Z
@@ -13,7 +13,13 @@ dateCreated: 2022-07-08T22:05:23.839Z
 Broadcasters consist of the supported streaming software applications.
 
 # Supported Broadcasters
-* [OBS Studio *Open Broadcasting Software* <i class="mdi mdi-chevron-right white--text abs-right"></i>](/en/Broadcasters/OBS)
-* [Streamlabs Desktop *Formerly SLOBS* <i class="mdi mdi-chevron-right white--text abs-right"></i>](/en/Broadcasters/StreamlabsDesktop)
-* [PolyPop *New!* <i class="mdi mdi-chevron-right white--text abs-right"></i>](/en/Broadcasters/PolyPop)
-{.links-list}
+
+<section class="btn-grid my-5">
+  
+  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Open Broadcasting Software***](/en/Broadcasters/OBS)
+
+  [<img src="https://streamer.bot/img/integrations/streamlabs.png"/> **Streamlabs Desktop *Formerly SLOBS***](/en/Broadcasters/StreamlabsDesktop)
+
+  [<img src="https://streamer.bot/img/integrations/polypop.png"/> **PolyPop *New!***](/en/Broadcasters/PolyPop)
+  
+</section>
