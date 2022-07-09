@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-07-09T03:05:36.569Z
+date: 2022-07-09T03:10:46.153Z
 tags: obs, raw
 editor: markdown
 dateCreated: 2021-11-02T04:00:37.158Z
@@ -137,7 +137,7 @@ width: It is a number so it doesn't need ""
 
 ## Tutorials for beginners
 
-* [OBS RAW WITH STREAMER.BOT *by Daan - Tutorials*](https://youtu.be/4Lf0VTs14W4)
+* [OBS RAW WITH STREAMER.BOT *by Daan - Tutorials*](https://youtu.be/zZbsybhaXuE)
 {.links-list}
 <p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/zZbsybhaXuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
 
