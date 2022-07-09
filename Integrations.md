@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-07-09T19:26:10.944Z
+date: 2022-07-09T19:26:42.352Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -17,9 +17,9 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 
 <section class="btn-grid my-5">
 
-[<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Connect your Streamlabs account for donation &amp; merch events***](/en/Integrations/Streamlabs)
+[<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Donation &amp; merch events***](/en/Integrations/Streamlabs)
   
-[<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Connect your StreamElements account for tip &amp; merch events***](/en/Integrations/Streamlabs)
+[<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/en/Integrations/Streamlabs)
 
 [<i class="mdi mdi-coffee"></i>**Ko-Fi *Donations integration***](/en/Integrations/Ko-fi)
 
