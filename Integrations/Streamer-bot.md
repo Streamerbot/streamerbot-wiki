@@ -17,7 +17,7 @@ The Streamer.bot Website integration enables additional functionality within Str
 
 <section class="btn-grid my-5">
 
-  [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Decks *HTML based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
+  [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
 
   [<i class="mdi mdi-coffee"></i>**Ko-Fi *Donations integration***](/en/Integrations/Ko-Fi)
 
