@@ -2,7 +2,7 @@
 title: YouTube Sub-Actions
 description: Reference of all YouTube Sub-Actions
 published: true
-date: 2022-07-10T18:41:53.894Z
+date: 2022-07-10T18:43:28.348Z
 tags: subactions, youtube
 editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
@@ -15,3 +15,13 @@ dateCreated: 2022-07-10T18:41:53.894Z
 * [Set Description *Set the Description of your Youtube Stream*](/en/Sub-Actions/Youtube/Set-Description-YouTube)
 * [Set Title and Description *Set the Title and Description in One*](/en/Sub-Actions/Youtube/Set-Title-Description-YouTube)
 {.links-list}
+
+---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Sub-Actions to control every aspect of OBS***](/en/Sub-Actions/OBS)
+  
+</section>
