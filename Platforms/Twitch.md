@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-10T01:10:46.832Z
+date: 2022-07-10T01:11:03.258Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -20,7 +20,7 @@ Streamer.bot can integrate directly with Twitch! to bring a new level of interac
 {.links-list}
 
 # Events
-Streamerbot constantly listens for various events while connected to a Twitch! account and can perform an action for each of them. 
+Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them. 
 Many of these will require at least Twitch! affiliate status to utilise and some may be unavailable if prohibited by local laws
 
 These are be broken down into the following 11 tabs, each will have its own page to explain their uses 
