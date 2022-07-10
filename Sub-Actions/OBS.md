@@ -2,7 +2,7 @@
 title: OBS Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-10T18:49:11.651Z
+date: 2022-07-10T19:11:56.929Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -36,3 +36,10 @@ dateCreated: 2022-07-10T18:49:11.651Z
 
 ---
 
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<img src="https://streamer.bot/img/integrations/streamlabs.png"/> **Streamlabs Desktop *Using Streamlabs Desktop instead? Click here!***](/en/Sub-Actions/Streamlabs-Desktop)
+  
+</section>
