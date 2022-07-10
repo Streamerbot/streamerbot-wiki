@@ -2,7 +2,7 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-07-10T01:25:27.617Z
+date: 2022-07-10T01:40:18.426Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z
@@ -40,3 +40,11 @@ If the chosen account is not more than **12** months old, or already pre-verifie
 {.is-success}
 
 Once you have a bot account configured, you can select which account should send chat messages on a per [sub-actions](/Sub-Actions#main) level. 
+
+<section class="btn-grid my-5">
+
+[<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
+  
+[<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/en/Quick-Start/OBS)
+
+</section>
