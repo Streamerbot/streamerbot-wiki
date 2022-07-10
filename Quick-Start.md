@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:19:40.326Z
+date: 2022-07-10T01:23:02.083Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -25,7 +25,8 @@ Select the platform you would like to set up:
 
 [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Connect your Twitch account with Streamer.bot***](/en/Quick-Start/Twitch)
   
-[<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Quick-Start Guide Coming Soon***](/en/Quick-Start/YouTube){.disabled}
+[<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Quick-Start Guide Coming Soon***](/en/Quick-Start/YouTube)
+{.disabled}
 
 </section>
 
