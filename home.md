@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-10T20:48:02.176Z
+date: 2022-07-10T20:49:04.904Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -86,7 +86,8 @@ Additional Links{.overline}
 {.is-info}
 
 
-Additionally, there are channels on the Streamer.bot discord to seek help/support, share discoveries, and present what you're working on.  The application can advance/evolve optimally if we all share new/interesting ways to do things.
+Additionally, there are channels on the Streamer.bot discord to seek help/support, share discoveries, and present what you're working on.  
+The application can advance/evolve optimally if we all share new/interesting ways to do things.
 
 <section class="btn-grid my-5">
 
@@ -94,9 +95,10 @@ Additionally, there are channels on the Streamer.bot discord to seek help/suppor
 
 </section>
 
-Sharing your creations on Twitter? Be sure to tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!
+Sharing your creations on **Twitter**? Be sure to tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!
 
-Are you uploading videoes on YouTube, be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
+Are you uploading videos on **YouTube**? Be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
+
 
 # Special Thanks
 
