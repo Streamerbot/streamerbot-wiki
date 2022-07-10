@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:35:43.098Z
+date: 2022-07-10T01:35:58.392Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -48,13 +48,6 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 
 </section>
 
-## Streaming Software {.tabset}
-
-
-### Streamlabs Desktop
-While **Streamer.bot** does support the use of `Streamlabs Desktop`, it is highly recommended by most users to use `OBS`.
-
-This section will be updated with information, but is near identical to the OBS setup.
 
 ## Chatbot Response Examples
 
