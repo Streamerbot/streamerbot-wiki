@@ -2,13 +2,12 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-07-10T19:06:14.215Z
+date: 2022-07-10T19:31:06.717Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
 ---
 
-# VoiceMod
 > Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
 * [Get Current Voice *Queries VoiceMod for the current voice in use*](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
@@ -21,3 +20,11 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [Set Mute State *Toggles the mute state*](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [Set Voice Changer State *Toggles the Voice Changer state*](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
 {.links-list}
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<i class="mdi mdi-speaker text--twitch"></i> **TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker/Speak)
+  
+</section>
