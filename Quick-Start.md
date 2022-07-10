@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:42:59.791Z
+date: 2022-07-10T01:44:20.974Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -50,3 +50,8 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 
 ## Configure Chat Commands
 
+<section class="btn-grid my-5">
+
+  [<i class="mdi mdi-chat"></i> **Chatbot Example *Learn how to enable some basic chat commands with Streamer.bot***](/en/Quick-Start/Commands)
+
+</section>
