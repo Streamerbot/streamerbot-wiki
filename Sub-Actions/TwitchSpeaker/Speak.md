@@ -2,7 +2,7 @@
 title: Speak 
 description: How to pair up Streamer.bot and Twitch Speaker
 published: true
-date: 2022-07-10T19:30:06.132Z
+date: 2022-07-10T19:30:27.479Z
 tags: twitch, tts, speak, voice
 editor: markdown
 dateCreated: 2022-03-03T03:27:48.570Z
@@ -39,6 +39,6 @@ Last step is the message box you can either hard write the message in the box or
     
   [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
   
-  [<img src="/logos/voicemod.png"/> **VoiceMod *Sub-actions reference for controlling VoiceMod***](/en/Sub-Actions/Commands)
+  [<img src="/logos/voicemod.png"/> **VoiceMod *Sub-actions reference for controlling VoiceMod***](/en/Sub-Actions/VoiceMod)
   
 </section>
