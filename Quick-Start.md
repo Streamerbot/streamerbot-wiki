@@ -2,8 +2,8 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:44:20.974Z
-tags: guides
+date: 2022-07-10T17:32:40.589Z
+tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
 ---
