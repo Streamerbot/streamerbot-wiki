@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-10T19:06:30.534Z
+date: 2022-07-10T19:22:09.363Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -40,12 +40,12 @@ dateCreated: 2021-08-25T21:34:29.815Z
 <section class="btn-grid my-5">
     
   [<i class="mdi mdi-view-agenda primary--text"></i>**Main *Keystrokes, timers, delays, comments, and more...***](/en/Sub-Actions/Main)
-  
+
   [<i class="mdi mdi-lightning-bolt primary--text"></i>**Actions *Modify Streamer.bot action state***](/en/Sub-Actions/Actions)
   
-  [<i class="mdi mdi-code-braces primary--text"></i>**C# *Custom code actions***](/en/Sub-Actions/CSharp)
+  [<i class="mdi mdi-comment-alert primary--text"></i>**Commands *Manage chat command state***](/en/Sub-Actions/Commands)
   
-  [<i class="mdi mdi-comment-alert primary--text"></i>**Commands *Manage chat command state***](/en/Sub-Actions/CSharp)
+  [<i class="mdi mdi-code-braces primary--text"></i>**C# *Custom code actions***](/en/Sub-Actions/CSharp)
   
   [<i class="mdi mdi-file-code primary--text"></i>**File *Read &amp; write from local files***](/en/Sub-Actions/File)
   
