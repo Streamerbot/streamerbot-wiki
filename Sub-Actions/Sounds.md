@@ -2,13 +2,12 @@
 title: Sounds
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-01-23T22:38:23.985Z
+date: 2022-07-10T19:28:00.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
 ---
 
-# Sounds
 Streamer.bot has the capability of playing sounds directly from the application, no sources in your streaming software are required.
 
 > Currently there is no way to pause or stop a sound once it has started other than forcing the application to close
@@ -68,3 +67,13 @@ Example: In the image below you can see the `<sub directory>\filename.mp3` of wh
 
 ## Volume
 Adjust the volume of the sound file.  This is a very basic volume adjustment, and is usually better to adjust the volume with a tool like Audacity.
+
+---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Sub-actions reference for managing Voice Control commands***](/en/Sub-Actions/Voice-Control)
+  
+</section>
