@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-03T20:04:41.474Z
+date: 2022-07-10T01:09:10.420Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -16,7 +16,7 @@ Streamer.bot can integrate directly with Twitch! to bring a new level of interac
 
 # Accounts
 
-* [Accounts *Configuration of `Broadcaster` & `Bot` account* *Before **v0.1.8** this tab is found under the `Settings` tab*](/en/Platforms/Twitch/Twitch-Accounts)
+* [Accounts *Configuration of `Broadcaster` & `Bot` account* *Before **v0.1.8** this tab is found under the `Settings` tab*](/en/Platforms/Twitch/Accounts)
 {.links-list}
 
 # Events
