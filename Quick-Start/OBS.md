@@ -2,7 +2,7 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-07-10T01:33:32.353Z
+date: 2022-07-10T01:42:21.856Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
@@ -33,3 +33,12 @@ The Default values of `127.0.0.1` and `4444` will look for the out-of-box config
 
 > Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
 {.is-success}
+
+
+<section class="btn-grid my-5">
+
+[<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
+  
+[<i class="mdi mdi-chat"></i> **Up Next *Configure basic chat commands***](/en/Quick-Start/Commands)
+
+</section>
