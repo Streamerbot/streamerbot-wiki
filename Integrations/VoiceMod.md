@@ -1,12 +1,14 @@
 ---
 title: VoiceMod
-description: Connecting your Streamer.bot to VoiceMod
+description: Controlling VoiceMod software via Streamer.bot actions
 published: true
-date: 2022-07-03T18:29:22.851Z
+date: 2022-07-10T20:53:43.521Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z
 ---
+
+![voicemod-logo.png](/logos/voicemod.png){.align-abstopright}
 
 # VoiceMod
 With Streamer.bot *v0.1.8*{.version-badge} came with VoiceMod Integration and various actions we can use this  includes those listed below:
