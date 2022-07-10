@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-07-10T18:56:47.197Z
+date: 2022-07-10T19:25:33.861Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -60,3 +60,12 @@ Appending to a file will add the incoming data to the end of the file. So, the d
 
 If the Append to File option is unchecked it will overwrite everytime each time new data is written.
 
+---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<i class="mdi mdi-state-machine primary--text"></i> **Logic *Sub-actions reference for custom logic operations***](/en/Sub-Actions/Logic)
+  
+</section>
