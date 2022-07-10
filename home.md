@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-10T20:49:04.904Z
+date: 2022-07-10T20:49:30.122Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -100,7 +100,7 @@ Sharing your creations on **Twitter**? Be sure to tag **@streamerdotbot**, and/o
 Are you uploading videos on **YouTube**? Be sure to add the **#streamerbot** and/or **#streamerdotbot** hashtags to help others find your videos!
 
 
-# Special Thanks
+## Special Thanks
 
 Wanted to first off, say thank you to everyone who has been using this bot, providing feedback (i.e. breaking it 😁), and being supportive of my efforts to just provide another option for streamers out there to use.
 
@@ -111,7 +111,7 @@ I appreciate all the support from everyone and to all using this software.  Than
 
 [About](/About) Streamer.bot
 
-# Support the Project
+## Support the Project
 
 <section class="btn-grid my-5">
 
