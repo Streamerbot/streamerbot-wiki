@@ -2,15 +2,14 @@
 title: Patreon
 description: 
 published: true
-date: 2022-07-10T21:08:13.656Z
+date: 2022-07-10T21:11:38.196Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:43:25.450Z
 ---
 
 
-
-<i class="mdi mdi-patreon"></i>{.align-abstopright}
+![digital-patreon-logo_coral.png](/digital-patreon-logo_coral.png){.align-abstopright}
 
 # Patreon
 
