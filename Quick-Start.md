@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:24:32.255Z
+date: 2022-07-10T01:26:59.731Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -15,7 +15,9 @@ If you are new to local bots and want to learn about the bot while installing so
 
 For the more advanced users that want to start off with a clean slate and start building, then by all means... read on!
 
-# Getting Started
+# Getting Started Guide
+
+## Select your Platform
 
 Streamer.bot now supports both **Twitch** and **YouTube** as streaming platforms.
 
@@ -32,7 +34,7 @@ Select the platform you would like to set up:
 
 ---
 
-## Connecting OBS / Streamlabs Desktop
+## Connect your Broadcasting Software
 
 ## Streaming Software {.tabset}
 ### OBS
