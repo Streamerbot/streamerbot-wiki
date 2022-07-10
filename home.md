@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-10T17:12:34.981Z
+date: 2022-07-10T17:50:49.923Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -20,9 +20,9 @@ Documentation for Streamer.bot. Here are the changelogs and information on all a
 <div>
 
 Basics{.overline}
-- [Quick Start Guide](/en/Quick-Start)
-- [How to Upgrade](/en/Update)
-- [Linux Setup](/en/Linux-Support)
+- [🚀 Quick Start Guide](/en/Quick-Start)
+- [⬆️ How to Upgrade](/en/Update)
+- [🐧 Linux Setup](/en/Linux-Support)
 - [Setup Platform: Twitch](/en/Platforms/Twitch)
 - [Setup Platform: YouTube](/en/Linux-Support)
 - [Setup Broadcaster: OBS](/en/Broadcasters/OBS)
