@@ -2,7 +2,7 @@
 title: Streamlabs Desktop Sub-Actions
 description: Reference of all Streamlabs Desktop Sub-Actions
 published: true
-date: 2022-07-10T19:12:41.886Z
+date: 2022-07-10T19:14:33.415Z
 tags: subactions, streamlabsdesktop, streamlabs
 editor: markdown
 dateCreated: 2022-07-10T18:50:04.028Z
@@ -32,6 +32,6 @@ dateCreated: 2022-07-10T18:50:04.028Z
     
   [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
   
-  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Using OBS Studio instead? Click here!***](/en/Sub-Actions/Streamlabs-Desktop)
+  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Using OBS Studio instead? Click here!***](/en/Sub-Actions/OBS)
   
 </section>
