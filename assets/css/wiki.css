@@ -291,6 +291,17 @@ h6::after {
   color: #ccc;
   font-size: 0.6em;
 }
+#root .v-main .contents .btn-grid > p.disabled,
+#root .v-main .contents .btn-grid > p.disabled > a,
+#root .v-main .contents .btn-grid > p.disabled > a > i {
+  pointer-events: none !important;
+  color: #919191 !important;
+  filter: grayscale(1);
+}
+#root .v-main .contents .btn-grid a.is-external-link:after {
+  position: absolute;
+  right: 1rem;
+}
 
 /* colors */
 .text--twitch {
@@ -298,4 +309,10 @@ h6::after {
 }
 .text--youtube {
   color: #FF0000;
+}
+.text--discord {
+  color: #404eed;
+}
+.text--patreon {
+  color: #ff6871;
 }
