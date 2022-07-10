@@ -2,7 +2,7 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-09T20:18:34.445Z
+date: 2022-07-10T00:52:06.384Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -54,11 +54,18 @@ If you edit any of these fields, be sure to click the `Save` button inside the `
 
 ## Events
 
-This is the part you have been waiting for what can Streamer bot do with your YouTube stream events well look no further.  
+<section class="btn-grid">
+
+  [<i class="mdi mdi-file-document-multiple"></i> **YouTube Event Reference *Click here for the full list of all YouTube events and variables***](/en/Platforms/YouTube/Events)
+  
+</section>
+
+This is the part you have been waiting for what can Streamer bot do with your YouTube stream events well look no further. 
 
 To get to this tab first, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this, then navigate to the `Events` tab. 
 
 ![yt_events_new.png](/youtube/yt_events_new.png){.align-center}
+
 
 This tab is where you can assign the magic of Streamer bot to each of the events. 
 
@@ -70,7 +77,6 @@ This tab is where you can assign the magic of Streamer bot to each of the events
 - Member Milestone Event
 - Membership Gifting, and Gift Membership Received
 
-You can see [YouTube Event Variables](/en/Platforms/YouTube/Events) for the variables that are usable for each event type
 
 Assigning an action to these events works in the same way you have done with the Twitch actions. 
 Click the ` <No Action Selected> ` button under the event that you want to assign an action to. A pop-up window will appear like this one below.
