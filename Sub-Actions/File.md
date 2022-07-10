@@ -2,16 +2,14 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-01-23T19:39:59.279Z
+date: 2022-07-10T18:56:47.197Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
 ---
 
-# File Operations
 Streamer.bot has the capability of reading the contents of files into variables and writing back to files when needed.
 
----
 ## Read Lines From File
 
 Using this sub-action, you can load the entire contents of a file into your action, each line will be added as a new variable, `%line#%` where `#` would be from 0 to n-number of lines in the file.
