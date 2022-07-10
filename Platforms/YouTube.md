@@ -2,11 +2,20 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-10T00:56:15.604Z
+date: 2022-07-10T00:57:27.368Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
 ---
+
+##  Resources
+<section class="btn-grid my-5">
+
+  [<i class="mdi mdi-file-document-multiple primary--text"></i> **YouTube Event Reference *Click here for the full list of all YouTube events and variables***](/en/Platforms/YouTube/Events)
+  
+  [<i class="mdi mdi-file-document-multiple primary--text"></i> **YouTube Sub-Action Reference *Click here for the full list of all YouTube sub-actions***](/en/Sub-Actions/YouTube)
+  
+</section>
 
 ## Account
 First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
@@ -52,15 +61,7 @@ In this tab you can edit the title of the YouTube Stream, its description and th
 If you edit any of these fields, be sure to click the `Save` button inside the `Stream Info` tab to confirm the changes. Here you also see the `Revert` button this button will only revert the changes you have made to the stream’s information.
  
 
-## Events
-
-<section class="btn-grid">
-
-  [<i class="mdi mdi-file-document-multiple primary--text"></i> **YouTube Event Reference *Click here for the full list of all YouTube events and variables***](/en/Platforms/YouTube/Events)
-  
-  [<i class="mdi mdi-file-document-multiple primary--text"></i> **YouTube Sub-Action Reference *Click here for the full list of all YouTube sub-actions***](/en/Sub-Actions/YouTube)
-  
-</section>
+# Events
 
 This is the part you have been waiting for what can Streamer bot do with your YouTube stream events well look no further. 
 
