@@ -224,6 +224,14 @@ h6::after {
   position: absolute !important;
   right: .5rem !important;
 }
+.v-main .contents .align-abstopright i {
+  position: absolute;
+  top: -90px;
+  right: 1rem;
+  height: 58px;
+  font-size: 2rem;
+  width: auto;
+}
 
 /* grid layout */
 .overview-grid {
