@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-03T16:21:06.202Z
+date: 2022-07-10T01:19:40.326Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -16,6 +16,20 @@ If you are new to local bots and want to learn about the bot while installing so
 For the more advanced users that want to start off with a clean slate and start building, then by all means... read on!
 
 # Getting Started
+
+Streamer.bot now supports both **Twitch** and **YouTube** as streaming platforms.
+
+Select the platform you would like to set up:
+
+<section class="btn-grid my-5">
+
+[<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Connect your Twitch account with Streamer.bot***](/en/Quick-Start/Twitch)
+  
+[<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Quick-Start Guide Coming Soon***](/en/Quick-Start/YouTube){.disabled}
+
+</section>
+
+
 ## Connecting your Twitch account!
 ![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png =800x)
 1. Navigate through the following: `Platforms` ---> `Twitch` ----> `Accounts`
