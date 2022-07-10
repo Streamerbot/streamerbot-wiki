@@ -220,6 +220,11 @@ h6::after {
 }
 
 /* helpers */
+.v-main .contents p.subtitle {
+  padding-top: 0;
+  color: #ccc;
+  font-size: 0.7rem;
+}
 .abs-right {
   position: absolute !important;
   right: .5rem !important;
