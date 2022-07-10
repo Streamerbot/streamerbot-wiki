@@ -2,7 +2,7 @@
 title: Logic
 description: 
 published: true
-date: 2022-07-10T19:00:16.802Z
+date: 2022-07-10T19:26:34.533Z
 tags: logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
@@ -186,3 +186,12 @@ The data you want to store in the argument
 
 This is a diagnostic Sub-action that will cancel execution of the action
 
+---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<i class="mdi mdi-network primary--text"></i> **Network *Sub-actions reference for network requests***](/en/Sub-Actions/Network)
+  
+</section>
