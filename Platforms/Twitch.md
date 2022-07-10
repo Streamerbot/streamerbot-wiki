@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-10T01:09:10.420Z
+date: 2022-07-10T01:10:46.832Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-25T21:34:42.553Z
 
 Streamer.bot can integrate directly with Twitch! to bring a new level of interactivity to your stream. Details on how to configure your accounts and the different options available to you through the platform will be detailed on their own pages linked below. 
 
-# Accounts
+# Account Configuration
 
-* [Accounts *Configuration of `Broadcaster` & `Bot` account* *Before **v0.1.8** this tab is found under the `Settings` tab*](/en/Platforms/Twitch/Accounts)
+* [Accounts *Configuration of Twitch **Broadcaster** and **Bot** accounts*](/en/Platforms/Twitch/Accounts)
 {.links-list}
 
 # Events
