@@ -2,21 +2,32 @@
 title: Logic
 description: 
 published: true
-date: 2022-06-28T00:50:36.710Z
+date: 2022-07-10T19:00:16.802Z
 tags: logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
 ---
 
-# Logic 
+Complex actions can be built using the logic operators in Streamer.bot. 
 
-Complex actions can be built using the logic operators in Streamer.bot. These will take data from various sources and evalutate them to direct the action, so understanding how they interact is key to building the workflow you want.
+These will take data from various sources and evalutate them to direct the action, so understanding how they interact is key to building the workflow you want.
 
-> All variables in SB should always be in `camelCase` ie. with a lower case initial letter, Streamer.bot can not retrieve data from any store if the initial letter is capitalised
+All logic in Streamer.bot must be performed against active Arguments. As any argument can only persist until the end of the running action if data need to be saved between actions, Global Variables can be used. Their data must be copied into an Argument to be usable
+
+> Global Variables should always be stored in `camelCase` ie. with a lower case initial letter.
+> Streamer.bot can not retrieve data from any store if the initial letter is capitalised.
+{.is-danger}
+
+> It is best practice to always name your `Arguments` something different than the `Global` you are reading from. 
+> This will make your workflow easier to read and debug and can also prevent strange issues with logic and inline functions
 {.is-warning}
 
-> It is best practice to always name your `Arguments` something different than the `Global` you are reading from. Not only does this make your workflow easier to read and debug, it can also prevent strange issues with logic and inline functions
-{.is-success}
+* [Global (Get) *Read data from a`Global Variable` into an argument*](/en/Sub-Actions/Logic/Global-Variables#global-get)
+* [Global (Set) *Save data to a custom `Global Variable`*](/en/Sub-Actions/Logic/Global-Variables#global-set)
+* [If/Else *Performs an `Action` if logical test is `True`*](/en/Sub-Actions/Logic/if-else)
+* [Set Argument *Store / Manipulate data in an argument*](/Sub-Actions/Logic/Set-Argument)
+* [Break *Diagnostic user only, cancels the running action*](/Sub-Actions/Logic/Break)
+{.links-list}
 
 
 ## Variable Types
