@@ -1,9 +1,9 @@
 ---
-title: Websocket Clients
-description: 
+title: WebSocket Clients
+description: Configure Streamer.bot to connect to an external WebSocket server
 published: true
-date: 2022-07-10T17:38:38.927Z
-tags: 
+date: 2022-07-10T17:39:45.322Z
+tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:08.368Z
 ---
@@ -15,6 +15,7 @@ dateCreated: 2021-08-25T21:37:08.368Z
 # Overview
 
 WebSocket clients allow you to connect to external WebSocket servers and setup corresponding actions using the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action to react to events that are emitted by the the respective server.  
+
 For example, you could connect to the **Data Puller Beat Saber Mod** and perform various actions based on the data receieved.
 
 
