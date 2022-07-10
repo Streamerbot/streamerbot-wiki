@@ -2,7 +2,7 @@
 title: Quick Start - Chatbot Example
 description: Learn how to configure some basic chat commands with Streamer.bot
 published: true
-date: 2022-07-10T02:12:23.656Z
+date: 2022-07-10T02:12:50.771Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-07-10T01:47:22.629Z
@@ -22,7 +22,7 @@ Below, you will find a code to import them directly into your setup for immediat
 The following commands will be imported into your Streamer.bot instance:
 
 ![ActionExamples](https://media.discordapp.net/attachments/880176943566299136/933519049042825216/unknown.png)
-### Import Code
+## Import Code
 
 Click **Import** at the top of Streamer.bot and paste the following code into the **Import String** field:
 
