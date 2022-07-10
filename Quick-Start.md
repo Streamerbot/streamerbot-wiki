@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-10T01:26:59.731Z
+date: 2022-07-10T01:31:38.807Z
 tags: guides
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -32,36 +32,24 @@ Select the platform you would like to set up:
 
 </section>
 
----
 
 ## Connect your Broadcasting Software
 
+Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and PolyPop.
+
+**OBS Studio** is highly recommended.
+
+<section class="btn-grid my-5">
+
+[<img src="https://streamer.bot/img/integrations/obs.svg" /> **OBS Studio *Enable remote control of OBS from Streamer.bot***](/en/Quick-Start/OBS)
+  
+[<img src="https://streamer.bot/img/integrations/streamlabs.png" /> **Streamlabs Desktop *Quick-Start Guide Coming Soon***](/en/Quick-Start/YouTube)
+{.disabled}
+
+</section>
+
 ## Streaming Software {.tabset}
-### OBS
-To enable remote control of your `OBS` from **Streamer.bot** you will need to first install the OBS Websocket Plugin
-> OBS Websocket v4.x is the only supported version at this time, v5.x requires a re-write and is being worked on, but is still missing capabilities
-Download OBS Websocket plugin [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
-{.is-warning}
 
-Once this is installed, configure your port settings and password if you want one inside OBS. You will need to match these settings in Streamer.bot
-![WebsocketSettings](https://lh3.googleusercontent.com/-VCh9WVIx1ZI/YPtSPtSppaI/AAAAAAAAEA4/OK-jMEvnI3YAXDRBpLPhO8lG1V6jimZOwCLcBGAsYHQ/image.png)
-
----
-
-Go to the OBS tab, Once configured, connected OBS sessions will report their status on this screen.
-
-![obs_event_01_.png](/quick-start/obs_event_01_.png)
-
-To add a new connection, `Right-Click` -> `Add` to open the new connection dialogue
-![New Connection](/119574587-9adb7e80-bdad-11eb-82c1-ec9ed668a40d.png)
-
-Give it a name and set the IP address and Port number of the OBS Websocket
-The Default values of `127.0.0.1` and `4444` will look for the out-of-box configuration for OBS installed on the same computer as Streamer.bot is running
-
-`Password` Will not be required unless you have specified one in OBS
-
-> Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
-{.is-success}
 
 ### Streamlabs Desktop
 While **Streamer.bot** does support the use of `Streamlabs Desktop`, it is highly recommended by most users to use `OBS`.
