@@ -2,7 +2,7 @@
 title: PolyPop Sub-Actions
 description: Reference of all PolyPop Sub-Actions
 published: true
-date: 2022-07-10T18:51:37.383Z
+date: 2022-07-10T19:14:14.238Z
 tags: subactions, polypop
 editor: markdown
 dateCreated: 2022-07-10T18:51:37.383Z
@@ -16,3 +16,11 @@ dateCreated: 2022-07-10T18:51:37.383Z
 
 
 ---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Sub-Action reference for controlling OBS Studio***](/en/Sub-Actions/OBS)
+  
+</section>
