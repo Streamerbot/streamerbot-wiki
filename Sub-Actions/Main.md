@@ -2,7 +2,7 @@
 title: Main Sub-Actions
 description: Reference of general Sub-Actions available in Streamer.bot
 published: true
-date: 2022-07-10T18:53:32.059Z
+date: 2022-07-10T19:19:54.781Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T18:53:32.059Z
@@ -19,3 +19,11 @@ dateCreated: 2022-07-10T18:53:32.059Z
 {.links-list}
 
 ---
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+  
+  [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Sub-actions reference for modifying Streamer.bot Action state***](/en/Sub-Actions/Actions)
+  
+</section>
