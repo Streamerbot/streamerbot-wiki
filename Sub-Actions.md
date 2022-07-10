@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-10T19:22:09.363Z
+date: 2022-07-10T19:38:09.832Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-25T21:34:29.815Z
 </section>
 <section class="btn-grid my-5">
     
-  [<i class="mdi mdi-twitch text--twitch"></i>**Rewards *Control every aspect of your Twitch Channel Point Rewards***](/en/Sub-Actions/Rewards)
+  [<i class="mdi mdi-twitch text--twitch"></i>**Channel Point Rewards *Control every aspect of your Twitch Channel Point Rewards***](/en/Sub-Actions/Rewards)
   
 </section>
 
