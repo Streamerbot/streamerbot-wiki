@@ -2,7 +2,7 @@
 title: Quick Start - Chatbot Example
 description: Learn how to configure some basic chat commands with Streamer.bot
 published: true
-date: 2022-07-10T02:12:50.771Z
+date: 2022-07-10T02:13:02.379Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-07-10T01:47:22.629Z
@@ -17,7 +17,7 @@ Streamer.bot ships with a blank slate - but a few simple actions can provide sim
 
 Below, you will find a code to import them directly into your setup for immediate use and also explanations on why the workflows are set up this way so you can build more advanced actions if you want them.
 
-# Examples
+# Commands
 
 The following commands will be imported into your Streamer.bot instance:
 
