@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-10T01:11:03.258Z
+date: 2022-07-10T01:11:37.011Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -21,9 +21,8 @@ Streamer.bot can integrate directly with Twitch! to bring a new level of interac
 
 # Events
 Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them. 
-Many of these will require at least Twitch! affiliate status to utilise and some may be unavailable if prohibited by local laws
 
-These are be broken down into the following 11 tabs, each will have its own page to explain their uses 
+Many of these will require at least Twitch affiliate status to utilize and some may be unavailable if prohibited by local laws.
 
 * [General *Follows & Chat related events*](/Events/General)
 * [Cheers *Bit Cheer events*](/Events/Cheers)
