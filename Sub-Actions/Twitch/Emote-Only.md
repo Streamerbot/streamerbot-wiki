@@ -2,7 +2,7 @@
 title: Emote Only 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T22:28:37.700Z
+date: 2022-07-11T22:28:54.825Z
 tags: twitch, emote, toggles, subactions
 editor: markdown
 dateCreated: 2021-11-20T03:24:28.555Z
@@ -15,7 +15,7 @@ This sub-action can be used to toggle [emote only mode](https://help.twitch.tv/s
 ![emote_only.png](/emote_only.png)
 
 > **WARNING**
-> Moderator priveleges are required on your bot account for this sub-action to work!
+> Moderator privileges are required on your bot account for this sub-action to work!
 {.is-warning}
 
 
