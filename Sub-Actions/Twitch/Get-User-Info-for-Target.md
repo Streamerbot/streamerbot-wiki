@@ -2,7 +2,7 @@
 title: Get User Info for Target
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T21:47:33.667Z
+date: 2022-07-11T21:51:44.391Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:30.189Z
@@ -50,3 +50,12 @@ The following variables will be available after execution of this sub-action:
 `gameId` | The numeric id of the game category
 `createdAt` | Datetime of when the account was created (v0.1.4+)
 `accountAge` | Age of the account in seconds (v0.1.4+)
+
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Send Message To Channel *Up Next***](/en/Sub-Actions/Send-Message-To-Channel)
+  
+</section>
