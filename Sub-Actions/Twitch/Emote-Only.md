@@ -2,7 +2,7 @@
 title: Emote Only 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T22:28:54.825Z
+date: 2022-07-11T22:29:19.880Z
 tags: twitch, emote, toggles, subactions
 editor: markdown
 dateCreated: 2021-11-20T03:24:28.555Z
@@ -36,6 +36,6 @@ No variables generated.
     
   [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
   
-  [<i class="mdi mdi-twitch text--twitch"></i>**Get Follow Age Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
+  [<i class="mdi mdi-twitch text--twitch"></i>**Get Follow Age Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-Follow-Age)
   
 </section>
