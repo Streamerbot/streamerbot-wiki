@@ -2,7 +2,7 @@
 title: Get Follow Age Info for Target
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T22:50:17.975Z
+date: 2022-07-11T22:54:32.306Z
 tags: twitch, subactions, follow age
 editor: markdown
 dateCreated: 2022-02-20T04:01:00.028Z
@@ -10,9 +10,9 @@ dateCreated: 2022-02-20T04:01:00.028Z
 
 ## Overview
 
-This is option allows you to pull the command user follow age info for use with commands or arguments. To do this you need to open Streamer.bot and go to the action tab. Next right click inside the sub-action so the rightclick menu appears now mouse down to twitch then click get follow age info for target. now this window will appears with 3 options you can choose from. 
-
 ![follow_age_info_from_user.png](/follow_age_info_from_user.png)
+
+This sub-action collects various data for a specified Twitch user and populates a set of [variables](#variables) that other [Sub-Actions](/Sub-Actions) can use.
 
 ## Configuration
 
