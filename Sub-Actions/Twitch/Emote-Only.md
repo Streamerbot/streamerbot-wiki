@@ -2,7 +2,7 @@
 title: Emote Only 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T22:26:59.503Z
+date: 2022-07-11T22:28:37.700Z
 tags: twitch, emote, toggles, subactions
 editor: markdown
 dateCreated: 2021-11-20T03:24:28.555Z
@@ -30,3 +30,12 @@ This sub-action can be used to toggle [emote only mode](https://help.twitch.tv/s
 
 ## Variables
 No variables generated.
+
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Get Follow Age Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
+  
+</section>
