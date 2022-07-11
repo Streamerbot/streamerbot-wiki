@@ -2,7 +2,7 @@
 title: Create Stream Marker
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T22:21:44.193Z
+date: 2022-07-11T22:31:18.870Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-11-02T04:18:32.823Z
@@ -29,7 +29,7 @@ This field can be set to any value you like, or even a [variable](/en/Variables)
  
 Click the `OK` button to finalize your configuration and now you’re ready to tie this action to a command or a voice control!
  
- ![sb-create-marker.png](/stream-marker/sb-create-marker.png)
+ ![sb-create-marker.png](/stream-marker/sb-create-marker.png =700x)
  
  ## Variables
  
