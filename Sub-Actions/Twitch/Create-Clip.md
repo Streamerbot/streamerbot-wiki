@@ -2,24 +2,34 @@
 title: Create Clip
 description: 
 published: true
-date: 2022-06-06T02:14:28.777Z
+date: 2022-07-11T22:07:07.344Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T04:15:59.794Z
 ---
 
-# Create Clip
+## Overview
 
-Streamer bot can create a 30 second clip.
+This sub-action will create a 30 second [Twitch Clip](https://help.twitch.tv/s/article/how-to-use-clips?language=en_US).
 
-There is no user configuration as regards to the title of the clip as this sub-action, and the underlying API call it makes to Twitch is basic. Because of this nature by default, it creates a 30 second clip, and the title is set to your current stream title.
+Due to Twitch API restrictions, the generated clip will always be 30 seconds long and will be titled to match your current stream title. 
+To make your own changes to the clip duration or title, you must manually edit the clip later.
 
-To alter any of this, you would have to go back and edit the clip afterwards.
+![image.png](/create-clip/image.png =700x)
 
-To have Streamer Bot do this all you need to do will be detailed here.
+This sub-action could be used to create a clip command so your users can quickly create clips directly from chat by entering a command e.g. `!clipit`
 
-Select an action or create one just like in this screenshot below. In the sub-action pane right click then select `Add Sub-Action` next navigate down to `Twitch` then click `Create Clip` this will now create a sub-action called create clip.
+## Configuration
+No configuration required.
 
-![image.png](/create-clip/image.png){.align-center}
+## Variables
+No variables generated.
 
-Example use of this could be to tie this action to a clip command so your mobile users can clip your streams right from chat in the twitch app. 
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Create Stream Marker *Up Next***](/en/Sub-Actions/Twitch/Create-Stream-Marker)
+  
+</section>
