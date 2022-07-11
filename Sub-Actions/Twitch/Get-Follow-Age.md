@@ -2,7 +2,7 @@
 title: Get Follow Age Info for Target
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T22:49:42.009Z
+date: 2022-07-11T22:50:17.975Z
 tags: twitch, subactions, follow age
 editor: markdown
 dateCreated: 2022-02-20T04:01:00.028Z
@@ -48,3 +48,12 @@ The following variables will be available after execution of this sub-action:
 `followUser` | The users display name
 `followUserName` | The user's login name
 `followUserId` | The user's twitch id
+
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Get User Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
+  
+</section>
