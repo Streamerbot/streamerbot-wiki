@@ -2,7 +2,7 @@
 title: Set Channel Game
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T23:20:52.552Z
+date: 2022-07-11T23:26:26.579Z
 tags: twitch, set game, change game, subactions
 editor: markdown
 dateCreated: 2021-11-24T04:02:44.267Z
@@ -14,6 +14,10 @@ This sub-action can modify the current game category displayed on your Twitch ch
 
 ![set_channel_game_-select_game_.png](/set_channel_game_-select_game_.png)
 
+> **WARNING**
+> Moderator privileges are required on your bot account for this sub-action to work!
+{.is-warning}
+
 ## Configuration
 
 ### Source
@@ -22,10 +26,6 @@ This sub-action can modify the current game category displayed on your Twitch ch
 |------:|:------------|
 `String` | Manual text entry of game title - allows for usage of [variables](/en/Variables). <br/> For Example, using the `%rawInput%` variable from a `!setgame` command used by your moderators.
 `Specific Game` | Select a game from a list of titles provided by Twitch
-
-> **WARNING**
-> The **bot account** must be a moderator in your Twitch channel for this to work!
-{.is-warning}
 
 
 ## Variables
