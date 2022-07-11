@@ -1,19 +1,41 @@
 ---
 title: Subscriber Only 
-description: 
+description: Twitch Sub-Actions Reference
 published: true
-date: 2021-11-20T04:15:31.609Z
-tags: twitch, subscriber
+date: 2022-07-11T23:34:36.916Z
+tags: twitch, subactions, sub-mode
 editor: markdown
 dateCreated: 2021-11-20T03:38:02.623Z
 ---
 
-# Subscriber Only  
+## Overview
 
-This Sub-Action within the bot can be used to trigger Subscriber Only chat on your Twitch channel. 
+This sub-action can be used to toggle [subscriber only mode](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#SubOnlyMode) in your Twitch channel. 
 
 ![sub_only_.png](/sub_only_.png)
 
-This Sub-Action has 2 states you can choose from Yes = Subscriber Only Chat Enabled and No = Subscriber Only Chat Disabled 
+> **WARNING**
+> Moderator privileges are required on your bot account for this sub-action to work!
+{.is-warning}
 
-*Note: The bot account must be a moderator in your Twitch channel for this to work!*
+
+## Configuration
+
+### State
+
+| Value | Description |
+|------:|:------------|
+`Yes` | Set subscriber only mode to **enabled**
+`No` | Set subscriber only mode to **disabled**
+
+## Variables
+No variables generated.
+
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Timeout User *Up Next***](/en/Sub-Actions/Twitch/Timeout-User)
+  
+</section>
