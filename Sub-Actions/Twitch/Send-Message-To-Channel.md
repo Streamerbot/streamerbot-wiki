@@ -2,7 +2,7 @@
 title: Send Message To Channel 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T23:07:55.723Z
+date: 2022-07-11T23:09:03.039Z
 tags: twitch, message, subactions, chat
 editor: markdown
 dateCreated: 2021-11-20T04:07:37.131Z
@@ -34,6 +34,9 @@ For example, `%user%, you have %points% %pointsName%` could be sent to Twitch ch
 > **NOTE**
 > If you are having trouble sending chat messages with your **bot account**, make sure that the account is verified by completing Twitch chat [verification requirements](https://help.twitch.tv/s/article/chat-verification-settings) for your respective channel.
 {.is-info}
+
+## Variables
+No variables generated.
 
 
 <section class="btn-grid my-5">
