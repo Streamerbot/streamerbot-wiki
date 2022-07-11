@@ -1,22 +1,40 @@
 ---
 title: Set Channel Game
-description: 
+description: Twitch Sub-Action Reference
 published: true
-date: 2021-11-24T04:02:47.020Z
-tags: twitch, set game, change game
+date: 2022-07-11T23:20:24.071Z
+tags: twitch, set game, change game, subactions
 editor: markdown
 dateCreated: 2021-11-24T04:02:44.267Z
 ---
 
-# Set Channel Game 
+## Overview
 
-This Sub-Action within the bot can be used to the game that is displayed on your Twitch channel. 
+This sub-action can modify the current game category displayed on your Twitch channel.
 
-It has 2 ways you could do this one is a drop down menu section from the previous catergories you have streamed inor the list that twitch provides.
 ![set_channel_game_-select_game_.png](/set_channel_game_-select_game_.png)
 
-The second option is to use a string, So this can be manual set by you or is ideal for using the`%rawInput%` variable to capture data from a !setgame command used by your moderators or one self. 
+## Configuration
 
-![set_channel_game_-string_.png](/set_channel_game_-string_.png)
+### Source
 
-*Note: The bot account must be a moderator in your Twitch channel for this to work!*
+| Value | Description |
+|------:|:------------|
+`String` | Manual text entry of game title - allows for usage of [variables](/en/Variables). <br/> For Example, using the `%rawInput%` variable from a `!setgame` command used by your moderators.
+`Specific Game` | Select a game from a list of titles provided by Twitch
+
+> **WARNING**
+> The **bot account** must be a moderator in your Twitch channel for this to work!
+{.is-warning}
+
+
+## Variables
+No variables generated.
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Title *Up Next***](/en/Sub-Actions/Twitch/Set-Channel-Title)
+  
+</section>
