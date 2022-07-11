@@ -2,7 +2,7 @@
 title: Set Channel Title 
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:30:15.388Z
+date: 2022-07-11T23:30:30.833Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-01-26T06:09:10.831Z
@@ -35,6 +35,6 @@ No variables generated.
     
   [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
   
-  [<i class="mdi mdi-twitch text--twitch"></i>**Send Message To Channel *Up Next***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
+  [<i class="mdi mdi-twitch text--twitch"></i>**Slow Mode *Up Next***](/en/Sub-Actions/Twitch/Slow-Mode)
   
 </section>
