@@ -2,7 +2,7 @@
 title: Set Channel Title 
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:25:42.615Z
+date: 2022-07-11T23:25:51.212Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-01-26T06:09:10.831Z
@@ -22,8 +22,9 @@ In the title box on this window you will need to use the variable `%rawInput%` t
 
 Last part is you need to make a command for the moderators only to use to execute this action for you. How to do this can be found on the [Commands](/en/Commands) section of the wiki. 
 
-*Note: The bot account must be a moderator in your Twitch channel for this to work!*
-
+> **WARNING**
+> Moderator privileges are required on your bot account for this sub-action to work!
+{.is-warning}
 
 <section class="btn-grid my-5">
     
