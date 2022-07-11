@@ -2,7 +2,7 @@
 title: Set Channel Game
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T23:20:24.071Z
+date: 2022-07-11T23:20:52.552Z
 tags: twitch, set game, change game, subactions
 editor: markdown
 dateCreated: 2021-11-24T04:02:44.267Z
@@ -35,6 +35,6 @@ No variables generated.
     
   [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
   
-  [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Title *Up Next***](/en/Sub-Actions/Twitch/Set-Channel-Title)
+  [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Title *Up Next***](/en/Sub-Actions/Twitch/Set-Title)
   
 </section>
