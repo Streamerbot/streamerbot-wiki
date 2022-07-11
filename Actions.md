@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-07-09T22:20:30.311Z
+date: 2022-07-11T20:43:57.436Z
 tags: subactions, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -79,15 +79,14 @@ Option|Description|Notes
 `Expand All` | Shows all defined `Action Groups`
 
 ***
-# Sub Action List
+# Sub Action Pane
 
-<kbd>Right-clicking</kbd> anywhere in the `Sub-Action` pane will open up the context menu. This will show more options if a subaction is selected 
+<kbd>Right-clicking</kbd> anywhere in the Sub-Action pane will open up the context menu. This will show more options if a sub-action is selected 
 
 ![subaction-context-018.png](/subaction-context-018.png)
 
 
-Here you can:
-
+## Context Menu Options
 ---|---
 `Add Sub-Action` | Opens the list of available sub-actions to add at the current position
 `Edit Sub-Action` | Opens the properties dialogue for the selected sub-action | This is the same as <kbd>double-clicking</kbd> on the sub-action
