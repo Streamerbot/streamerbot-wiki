@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-11T20:37:19.961Z
+date: 2022-07-11T20:38:27.437Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -43,7 +43,7 @@ Integrations{.overline}
 - [StreamElements](/en/Integrations/StreamElements)
 - [VoiceMod](/en/Integrations/VoiceMod)
 - [DonorDrive](/en/Integrations/DonorDrive)
-- [Ko-Fi](/en/Integrations/Ko-fi)
+- [Ko-Fi](/en/Integrations/Ko-Fi)
 - [Patreon](/en/Integrations/Patreon)
 - [View all integrations...](/en/Integrations)
 
