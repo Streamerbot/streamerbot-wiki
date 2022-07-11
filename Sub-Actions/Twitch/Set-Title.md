@@ -2,7 +2,7 @@
 title: Set Channel Title 
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:26:06.965Z
+date: 2022-07-11T23:30:15.388Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-01-26T06:09:10.831Z
@@ -18,13 +18,18 @@ This sub-action can modify the title of your Twitch stream.
 > Moderator privileges are required on your bot account for this sub-action to work!
 {.is-warning}
 
+
 ## Configuration
+### Title
+Enter any text to set your stream title to!
 
-In the title box on this window you will need to use the variable `%rawInput%` to use the data that is contained in this variable to set as a title. Now click ok and you're done for this part. Note: The data in this variable is pulled from the user executing the command in your twitch chat.  (Optional) you can send a message to your twitch chat to notify the user that triggered the command. that the title has been successfully updated. To add this in your sub action window navigate through the right click menu to the `Twitch` group now select `Send Message To Channel` a new window will appear where you can enter a message to send to your twitch channel you can use the example in the image below if you choose too.
+This input supports all [variables](/en/Variables) currently on your argument stack.
 
-![message_out_put_.png](/message_out_put_.png)
+For example, you could use the `%rawInput%` variable from a `!settitle` command used by your moderators.
 
-Last part is you need to make a command for the moderators only to use to execute this action for you. How to do this can be found on the [Commands](/en/Commands) section of the wiki. 
+
+## Variables
+No variables generated.
 
 <section class="btn-grid my-5">
     
