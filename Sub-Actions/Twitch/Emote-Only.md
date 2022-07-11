@@ -1,19 +1,32 @@
 ---
 title: Emote Only 
-description: 
+description: Twitch Sub-Action Reference
 published: true
-date: 2021-11-20T04:13:29.153Z
-tags: twitch, emote, toggles
+date: 2022-07-11T22:26:59.503Z
+tags: twitch, emote, toggles, subactions
 editor: markdown
 dateCreated: 2021-11-20T03:24:28.555Z
 ---
 
-# Emote Only 
+## Overview
 
-This Sub-action within the bot can be used to trigger emote only mode in your twitch channel. 
+This sub-action can be used to toggle [emote only mode](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#EnableEmoteOnlyMode) in your Twitch channel. 
 
 ![emote_only.png](/emote_only.png)
 
-This Sub-action has 2 states you can choose from Yes = Emote only Enabled and No = Emote Only Chat Disabled 
+> **WARNING**
+> Moderator priveleges are required on your bot account for this sub-action to work!
+{.is-warning}
 
-*Note: The bot account must be a moderator in your Twitch channel for this to work!*
+
+## Configuration
+
+### State
+
+| Value | Description |
+|------:|:------------|
+`Yes` | Set emote only mode to **enabled**
+`No` | Set emote only mode to **disabled**
+
+## Variables
+No variables generated.
