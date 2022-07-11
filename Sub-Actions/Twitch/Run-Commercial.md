@@ -2,7 +2,7 @@
 title: Run Commercial 
 description: 
 published: true
-date: 2022-07-11T23:45:57.534Z
+date: 2022-07-11T23:46:06.787Z
 tags: twitch, ad break, ad, commercial
 editor: markdown
 dateCreated: 2022-02-20T12:46:59.075Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-20T12:46:59.075Z
 
 Start an ad break on your Twitch channel.
 
-![ad_duration.png](/ad_duration.png){.align-center}
+![ad_duration.png](/ad_duration.png)
 
 ## Configuration
 
