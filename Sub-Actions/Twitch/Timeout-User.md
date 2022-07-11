@@ -1,28 +1,47 @@
 ---
 title: Timeout User
-description: 
+description: Twitch Sub-Actions Reference
 published: true
-date: 2021-08-28T01:55:55.391Z
-tags: 
+date: 2022-07-11T23:43:41.432Z
+tags: twitch, subactions, timeout
 editor: markdown
 dateCreated: 2021-08-25T21:34:21.886Z
 ---
 
+## Overview
+
+Timeout a specified chat user for a period of time.
 
 ![Timeout](/122118974-96403e00-ce20-11eb-8524-df840ff35a73.png)
 
-Timeout a specified chat user for a period of time defined in seconds
+## Configuration
 
 ### Type
 
-User selection can be `Redeemer` `Random` `Specific User` or `From Input`
-
-`Specific User` can only be populated from a known user list
+| Value | Description |
+|------:|:------------|
+`Redeemer` | Timeout the user who redeemed a connected channel point reward
+`Random` | Automatically select a random user from your chat
+`Specific User` | Select a user from the known user list
+`From Input` | Use a value contained in the `%rawInput%` variable <br>For example, with a `!timeout` command used by your moderators
 
 ### Duration
-
 Time in seconds to enact the timeout
 
 ### Exclude Moderators
+If checked, channel moderators will be immune to this [sub-action](Sub-Actions)
 
-If checked, the channel moderators will be immune to this [sub-action](Sub-Actions)
+### Reason
+Enter any text to give as the reason for this timeout.
+
+## Variables
+No variables generated.
+
+
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+  
+  [<i class="mdi mdi-twitch text--twitch"></i>**Run Commercial *Up Next***](/en/Sub-Actions/Twitch/Run-Commercial)
+  
+</section>
