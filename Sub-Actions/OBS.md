@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-12T20:20:37.145Z
+date: 2022-07-12T20:21:42.105Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -23,7 +23,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 * [**Set Browser Source URL *Set the URL of an OBS browser source***](/Sub-Actions/OBS/Set-Browser-Source-URL)
 * [**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
 * [**Set Image Source File *Set filepath for Image source*** *v0.1.5+*{.version-badge} ](/Sub-Actions/OBS/Set-Image-Source-File)
-* [**Set Media Source File *Set filepath for Media source*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Set-Media-Source-File)
+* [**Set Media Source File *Set filepath for Media source*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Set-Media-Source-File){.disabled}
 * [**Set Media State *Media playback controls for specified source***](/Sub-Actons/OBS/Set-Media-State)
 * [**Set Random Group Source Visible *Set a random source in an OBS group to `Visible`***](/Sub-Actions/OBS/Set-Random-Group-Source-Visible)
 * [**Set Source Audio Track State *Enable / Disable an OBS audio track***](/Sub-Actions/OBS/Source-Audio-Track-State)
