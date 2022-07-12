@@ -2,7 +2,7 @@
 title: Set Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:01:45.566Z
+date: 2022-07-12T01:04:28.696Z
 tags: sub-action, subactions, youtube, description
 editor: markdown
 dateCreated: 2022-06-07T02:38:04.431Z
@@ -34,6 +34,6 @@ No variables generated
     
   [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
   
-  [<i class="mdi mdi-youtube text--youtube"></i>**Set Title *Up Next***](/en/Sub-Actions/YouTube/Set-Title-Description)
+  [<i class="mdi mdi-youtube text--youtube"></i>**Set Title and Description *Up Next***](/en/Sub-Actions/YouTube/Set-Title-Description)
   
 </section>
