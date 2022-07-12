@@ -1,30 +1,34 @@
 ---
-title: Set Title and Description on your YouTube Stream
-description: Set the title and description of your YouTube Stream
+title: Set Title and Description
+description: YouTube Sub-Actions Reference
 published: true
-date: 2022-06-27T21:31:47.855Z
-tags: sub-action, youtube
+date: 2022-07-12T01:06:59.594Z
+tags: sub-action, subactions, youtube
 editor: markdown
 dateCreated: 2022-06-07T03:56:57.575Z
 ---
 
-# Set Title and Description
+## Overview
+Set the title and your description on your YouTube stream in one sub-action.
 
-This Sub-Action within Streamer Bot can be used to set the title and your description on your YouTube stream in one.
+![blank-td-fields.png](/set-title-description-yt/blank-td-fields.png)
 
-![set-td-bot.png](/set-title-description-yt/set-td-bot.png){.align-center}
+## Configuration 
 
-## Setup 
+> **NOTE**
+> YouTube titles are limited to 100 characters
+> YouTube descriptions are limited to 5,000 characters
+{.is-warning}
 
-First open Streamer.Bot (v0.18+) and select an action or create one then on the right you will see a sub-action pane. In this pane right click and navigate the following in this menu `Add Sub-Action` then mouse over `YouTube` now click the `Set Title and Description` option. A dialog box will appear like the one below.
+### Title
+Enter the text you would like to use as your new stream title.
 
-![blank-td-fields.png](/set-title-description-yt/blank-td-fields.png){.align-center}
+This input supports variables.
 
-> **Note: YouTube Titles are Limited to 100 characters. The Descriptions are limited to 5000 characters.**
-{.is-info}
+### Description
+Enter the text you would like to use as your new stream description.
 
-In the dialog box you have a `Title` and a `Description` input field here you can input a static title/description or use variable to set the title/description or both.
+This input supports variables.
 
-![complete-td.png](/set-title-description-yt/complete-td.png){.align-center}
-
-When you have filled out these fields the `Ok` button will become active for you to continue. Click this and you're done.  
+## Variables
+No variables generated.
