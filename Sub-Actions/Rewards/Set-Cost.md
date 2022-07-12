@@ -30,7 +30,11 @@ Enter the amount you would like to set or modify
 |`Divide`| Divice the current cost by the amount entered
 
 ### Reset to Original
-This will automatically set `Cost` to the original cost and `Operator` to none.
+This will automatically fill the `Cost` input with the original cost and set`Operator` to `None`.
+
+## Variables
+No variables generated.
+
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Set Paused State *Up Next***](/en/Sub-Actions/Rewards/Set-Paused-State)
