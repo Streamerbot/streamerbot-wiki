@@ -1,19 +1,34 @@
 ---
 title: Set Prompt
-description: 
+description: Channel Point Rewards Sub-Actions Reference
 published: true
 date: 2022-06-11T05:10:31.254Z
-tags: 
+tags: subactions, channel-point-rewards, rewards
 editor: markdown
 dateCreated: 2022-06-11T05:02:11.199Z
 ---
 
-# Set Prompt
+## Overview
 Change the prompt of a channel point reward.
+
 ![set_reward_prompt.png](/set_reward_prompt.png)
-## Reward
-The channel point reward you wish to change.
-## Prompt
-What you what the prompt to say, this prompt can be multi-line and will also accept variables.
-## Reset to Original
-Reset to Original will set it back to it original value.
+
+## Configuration
+### Reward
+Select the reward you want to modify.
+
+### Prompt
+Enter the text to apply to your reward prompt.
+
+This input field can span multiple lines and will also accept [variables](/en/Variables)
+
+### Reset to Original
+Reset the reward prompt to it's original value.
+
+## Variables
+No variables generated.
+
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Set Title *Up Next***](/en/Sub-Actions/Rewards/Set-Title)
+{.btn-grid .mt-10}
