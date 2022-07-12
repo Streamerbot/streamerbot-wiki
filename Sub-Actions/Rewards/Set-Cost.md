@@ -15,7 +15,7 @@ Change the cost of a channel point reward.
 
 ## Configuration
 ### Reward
-Select the reward you want to edit.
+Select the reward you want to modify.
 
 ### Cost
 Enter the amount you would like to set or modify

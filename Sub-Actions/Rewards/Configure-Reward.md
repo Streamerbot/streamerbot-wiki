@@ -9,7 +9,6 @@ dateCreated: 2022-06-09T02:20:12.720Z
 ---
 
 ## Overview
-
 Enable or disable multiple rewards.
 
 ![configurerewardspopup.png](/configurerewardspopup.png)

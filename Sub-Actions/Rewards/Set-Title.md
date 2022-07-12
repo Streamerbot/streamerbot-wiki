@@ -1,19 +1,34 @@
 ---
 title: Set Title
-description: 
+description: Channel Point Rewards Sub-Actions Reference
 published: true
 date: 2022-06-11T05:04:08.020Z
-tags: 
+tags: subactions, channel-point-rewards, rewards
 editor: markdown
 dateCreated: 2022-06-11T05:04:02.053Z
 ---
 
-# Set Reward Title
-This will change the title of a reward.
+## Overview
+Modify the title of a channel point reward.
+
 ![set_reward_title.png](/set_reward_title.png)
-## Reward
-This is the reward you want the change the title of.
-## Title 
-This is the value you wish to set the title to. Variables can be used.
-## Reset to Original
-Reset to Original will set it back to it original value.
+
+## Configuration
+### Reward
+Select the reward you want to modify.
+
+### Title
+Enter the new title for your channel point reward.
+
+This input accepts [variables](/en/Variables)
+
+### Reset to Original
+Reset the reward title to it's original value.
+
+## Variables
+No variables generated.
+
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Update Redemption Status *Up Next***](/en/Sub-Actions/Rewards/Update-Redemption-Status)
+{.btn-grid .mt-10}
