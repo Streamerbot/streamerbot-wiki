@@ -2,7 +2,7 @@
 title: YouTube Sub-Actions
 description: Reference of all YouTube Sub-Actions
 published: true
-date: 2022-07-12T00:31:59.404Z
+date: 2022-07-12T00:32:36.854Z
 tags: subactions, youtube
 editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
@@ -17,7 +17,7 @@ dateCreated: 2022-07-10T18:41:53.894Z
 Chat message sub-actions{.subtitle}
 <section class="btn-grid my-5">
   
-  [<i class="mdi mdi-comment text--youtube"></i>**Send Message to Channel *Send a formatted message to your YouTube chat***](/en/Sub-Actions/Youtube/Send-Message-To-Channel-YouTube)
+  [<i class="mdi mdi-comment text--youtube"></i>**Send Message to Channel *Send a formatted message to your YouTube chat***](/en/Sub-Actions/Youtube/Send-Message-To-YouTube)
 
 </section>
 
