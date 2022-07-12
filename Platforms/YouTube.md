@@ -2,13 +2,13 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-12T21:19:57.373Z
+date: 2022-07-12T21:20:08.024Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
 ---
 
-#  Resources
+# Quick Links
 <section class="btn-grid my-5">
 
   [<i class="mdi mdi-file-document-multiple primary--text"></i> **YouTube Event Reference *Click here for the full list of all YouTube events and variables***](/en/Platforms/YouTube/Events)
