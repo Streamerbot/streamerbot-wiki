@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-12T01:40:07.715Z
+date: 2022-07-12T04:43:41.335Z
 tags: subactions
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -43,7 +43,7 @@ Sub-Actions specific to your broadcasting software{.subtitle}
 ## General
 <section class="btn-grid my-5">
     
-  [<i class="mdi mdi-view-agenda primary--text"></i>**Main *Keystrokes, timers, delays, comments, and more...***](/en/Sub-Actions/Main)
+  [<i class="mdi mdi-view-agenda primary--text"></i>**General *Keystrokes, timers, delays, comments, and more...***](/en/Sub-Actions/Main)
 
   [<i class="mdi mdi-lightning-bolt primary--text"></i>**Actions *Modify Streamer.bot action state***](/en/Sub-Actions/Actions)
   
