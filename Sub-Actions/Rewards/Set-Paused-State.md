@@ -29,5 +29,5 @@ No variables generated.
 
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Set Cost *Up Next***](/en/Sub-Actions/Rewards/Set-Prompt)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Set Prompt *Up Next***](/en/Sub-Actions/Rewards/Set-Prompt)
 {.btn-grid .mt-10}
