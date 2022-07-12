@@ -1,9 +1,9 @@
 ---
 title: Update Redemption Status
-description: 
+description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-06-11T05:08:42.041Z
-tags: 
+date: 2022-07-12T18:54:53.156Z
+tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:07:12.107Z
 ---
