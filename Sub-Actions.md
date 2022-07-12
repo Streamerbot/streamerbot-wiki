@@ -2,14 +2,16 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-10T19:38:09.832Z
-tags: 
+date: 2022-07-12T01:40:07.715Z
+tags: subactions
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
 ---
 
 
 ## Platform
+Sub-Actions specific to your streaming platform{.subtitle}
+
 <section class="btn-grid my-5">
     
   [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
@@ -25,6 +27,8 @@ dateCreated: 2021-08-25T21:34:29.815Z
 
 
 ## Broadcaster
+Sub-Actions specific to your broadcasting software{.subtitle}
+
 <section class="btn-grid my-5">
     
   [<img src="https://streamer.bot/img/integrations/obs.svg"/>**OBS Studio *Control everything!***](/en/Sub-Actions/OBS)
@@ -61,6 +65,8 @@ dateCreated: 2021-08-25T21:34:29.815Z
 
 
 ## Integration
+Sub-Actions specific to Streamer.bot [Integrations](/en/Integrations)
+{.subtitle}
 <section class="btn-grid my-5">
   
   [<i class="mdi mdi-speaker text--twitch"></i>**TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker/Speak)
