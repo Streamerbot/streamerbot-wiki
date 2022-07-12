@@ -9,7 +9,7 @@ dateCreated: 2022-06-11T05:05:44.509Z
 ---
 
 ## Overview
-Update will allow you to change the `Title`, `Prompt` and `Cost` of a reward in a single sub action.
+Modify the `Title`, `Prompt` and `Cost` of a channel point reward at once.
 
 ![update_reward.png](/update_reward.png)
 
