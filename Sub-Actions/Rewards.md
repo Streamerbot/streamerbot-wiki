@@ -10,24 +10,24 @@ dateCreated: 2022-07-10T18:45:50.458Z
 
 <i class="mdi mdi-twitch text--twitch"></i>{.align-abstopright}
 
-* [Configure Reward *Enable / Disable one or more channel point rewards*](/Sub-Actions/Rewards/Configure-Reward)
-* [Set Cost *Change the channel point cost of a reward*](/Sub-Actions/Rewards/Set-Cost)
-* [Set Enabled State *Enable / Disable a channel point reward*](/Sub-Actions/Reward/Set-Enabled-State)
-* [Set Global Cooldown *Set cooldown time for a channel point reward* *CREATE ME*](/Sub-Actions/Rewards/Set-Global-Cooldown)
-* [Set Paused State *Pause / Unpause redemptions for a channel point reward*](/Sub-Actions/Rewards/Set-Paused-State)
-* [Set Prompt *Set the prompt text shown for a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Prompt)
-* [Set Title *Set the name of a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Title)
-* [Update *Set `Title`,`Prompt`,`Cost` and `Cooldown` for a channel point reward in single sub-action* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Update)
-* [Update Redemption Status *Mark the channel point redeem as `Completed` or `Rejected` (Rejecting will automatically refund points to the user)*](/Sub-Actions/Rewards/Update-Redemption-Status)
-{.links-list}
+ * [<i class="mdi mdi-cog"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
+ * [<i class="mdi mdi-more"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
+ * [<i class="mdi mdi-toggle-switch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Reward/Set-Enabled-State)
+ * [<i class="mdi mdi-timelapse"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown)
+ * [<i class="mdi mdi-pause"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
+ * [<i class="mdi mdi-text-box"></i>**Set Prompt *Set the prompt text shown for a channel point reward***](/Sub-Actions/Rewards/Set-Prompt)
+ * [<i class="mdi mdi-format-title"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
+ * [<i class="mdi mdi-upload"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
+ * [<i class="mdi mdi-list-status"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Redemption-Status)
+ {.btn-grid}
 
 
----
+ ---
 
-<section class="btn-grid my-5">
+ <section class="btn-grid my-5">
 
-  [<i class="mdi mdi-chevron-left"></i> **Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+   [<i class="mdi mdi-chevron-left"></i> **Sub-Actions Reference *Go Back***](/en/Sub-Actions)
 
-  [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
+   [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
 
-</section>
+ </section>
