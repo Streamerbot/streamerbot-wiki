@@ -22,7 +22,7 @@ Select the reward you want to modify.
 |-------:|:------------|
 |`Paused`| Set the selected reward as **paused**
 |`Unpaused`| Set the selected reward as **unpaused**
-|`Toggle`| Reverse the existing paused/unpaused state of the selected reward
+|`Toggle`| Toggle the existing paused/unpaused state of the selected reward
 
 ## Variables
 No variables generated.
