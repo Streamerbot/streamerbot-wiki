@@ -1,31 +1,33 @@
 ---
-title: Trigger-Alert
-description: 
+title: Trigger Alert
+description: PolyPop Sub-Actions Reference
 published: true
 date: 2022-07-06T01:13:13.593Z
-tags: 
+tags: subactions, polypop
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
 ---
 
-# Trigger Alert
-With Streamer.bot *0.1.8 +*{.version-badge} came PolyPop integration although its's limited. It's currently limited due to PolyPop still in its infancy, but we can trigger some cool things via WebSocket connection and a little configuration. 
+## Overview
+Limited PolyPop support is now available in Streamer.bot *v0.1.8+*{.version-badge}
+
+This sub-action connects to PolyPop via WebSocket to trigger alerts.
 
 ![polypop-streamerbot-notconnected.png](/polypop/polypop-streamerbot-notconnected.png){.align-center}
 
-## Pre-Requirements
-1. First, make sure you have PolyPop installed 
+## Prerequisites
+1. First, make sure you have PolyPop installed
 2. Second, make sure your version of Streamer.Bot is *0.1.8*{.version-badge} or later.
 3. Install the PolyPop WebSocket add in which can be found [here](https://github.com/Jabbey92/PolyPopWebsocketPlugin/releases/tag/1.1)
 
-## Getting it connected with Streamer.bot
+## Configuration
 Once you have installed the PolyPop WebSocket go ahead and open PolyPop and Streamer.bot (0.1.8) or later. Next in Streamer.bot navigate through the following tabs `Stream Apps` then in the second row of tabs click `PolyPop`.
 
 In this tab click the `Auto Start` check box and leave the other setting as default next, click the `Start Server` button. just like the one below.
 
 ![polypop-streamerbot.png](/polypop/polypop-streamerbot.png){.align-center}
 
-Next open the PolyPop application assuming you have already got a scene with some events and alerts already setup we next need to navigate to the `Open Library` button in the bottom left of the PolyPop application next you will see a pop-up window; you will see a windows just like the one below. 
+Next open the PolyPop application assuming you have already got a scene with some events and alerts already setup we next need to navigate to the `Open Library` button in the bottom left of the PolyPop application next you will see a pop-up window; you will see a windows just like the one below.
 
 ![polypop-library.png](/polypop/polypop-library.png){.align-center}
 
@@ -39,11 +41,18 @@ Now we need to create a sub action or amend an existing one and link it to a com
 
 ![polypop-ta-dialog.png](/polypop/polypop-ta-dialog.png){.align-center}
 
-In this Dialog box you to input the detail you have specified in the `WebSocket Properties` pane in the PolyPop application. so, the alert name you used in WebSocket properties pane need to match here and repeat this process for the variable name and the value. once completed click `Ok` now that the sub-action is made. You can tie this to a command / redeem via the Streamer.bot action. 
+In this Dialog box you to input the detail you have specified in the `WebSocket Properties` pane in the PolyPop application. so, the alert name you used in WebSocket properties pane need to match here and repeat this process for the variable name and the value. once completed click `Ok` now that the sub-action is made. You can tie this to a command / redeem via the Streamer.bot action.
 
-![polypop-ta-complete.png](/polypop/polypop-ta-complete.png){.align-center} 
+![polypop-ta-complete.png](/polypop/polypop-ta-complete.png){.align-center}
 
 You have successfully linked Streamer.bot to PolyPop and configured the trigger via WebSocket.
 
 ![polypop-complete.png](/polypop/polypop-complete.png){.align-center}
 
+
+## Variables
+No variables generated.
+
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+{.btn-grid .mt-10}
