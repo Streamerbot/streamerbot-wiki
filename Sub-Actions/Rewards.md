@@ -18,16 +18,16 @@ dateCreated: 2022-07-10T18:45:50.458Z
 * [Set Prompt *Set the prompt text shown for a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Prompt)
 * [Set Title *Set the name of a channel point reward* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Set-Title)
 * [Update *Set `Title`,`Prompt`,`Cost` and `Cooldown` for a channel point reward in single sub-action* *v0.1.5+*{.version-badge}](/Sub-Actions/Rewards/Update)
-* [Update Redemption Status *Mark the channel point redeem as `Completed` or `Rejected` (Rejecting will automatically refund points to the user)*](/Sub-Actions/Rewards/Redemption-Status)
+* [Update Redemption Status *Mark the channel point redeem as `Completed` or `Rejected` (Rejecting will automatically refund points to the user)*](/Sub-Actions/Rewards/Update-Redemption-Status)
 {.links-list}
 
 
 ---
 
 <section class="btn-grid my-5">
-    
+
   [<i class="mdi mdi-chevron-left"></i> **Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
+
   [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
-  
+
 </section>

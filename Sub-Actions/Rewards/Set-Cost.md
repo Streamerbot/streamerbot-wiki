@@ -1,28 +1,37 @@
 ---
 title: Set Cost
-description: 
+description: Channel Point Rewards Sub-Actions Reference
 published: true
 date: 2022-06-11T04:57:03.617Z
-tags: 
+tags: subactions, channel-point-rewards, rewards
 editor: markdown
 dateCreated: 2021-11-02T04:07:26.868Z
 ---
 
-# Set Cost
-Change the cost of a channel point.
+## Overview
+Change the cost of a channel point reward.
 
 ![setcostpopup.png](/setcostpopup.png)
 
-## Reward
-The reward you want to edit.
+## Configuration
+### Reward
+Select the reward you want to edit.
 
-## Cost
+### Cost
+Enter the amount you would like to set or modify
 
-The amount you wish to edit with.
+### Operator
+| Values | Description |
+|-------:|:------------|
+|`None`| Set the cost to the amount entered
+|`Add`| Add the amount entered to the current cost
+|`Subtract`| Subtract the amount entered from the current cost
+|`Multiply`| Multiplay the amount entered with the current cost
+|`Divide`| Divice the current cost by the amount entered
 
-## Operator
-This is how you want to effect the reward, this can be `None`, `Add`, `Subtract`, `Multiply` or `Divide`. Selecting `None` will just set the reward to the amount stated in cost.
-
-## Reset to Original
-
+### Reset to Original
 This will automatically set `Cost` to the original cost and `Operator` to none.
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Set Paused State *Up Next***](/en/Sub-Actions/Rewards/Set-Paused-State)
+{.btn-grid .mt-10}
