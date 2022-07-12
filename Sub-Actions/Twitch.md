@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-12T08:21:17.128Z
+date: 2022-07-12T08:24:10.953Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -40,7 +40,7 @@ Twitch channel &amp; stream management{.subtitle}
   
   [<i class="mdi mdi-bookmark text--twitch"></i>**Create Stream Marker *Create a Twitch stream marker***](/en/Sub-Actions/Twitch/Create-Stream-Marker)
   
-  [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/en/Sub-Actions/Twitch/Emote-Only)
+  [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/en/Sub-Actions/Twitch/Run-Commercial)
 
 </section>
 
