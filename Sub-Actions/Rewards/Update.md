@@ -1,28 +1,48 @@
 ---
 title: Update
-description: 
+description: Reference of all Twitch Channel Point Reward Sub-Actions
 published: true
 date: 2022-06-11T05:10:02.788Z
-tags: 
+tags: twitch, channel-points, subactions
 editor: markdown
 dateCreated: 2022-06-11T05:05:44.509Z
 ---
 
-# Update
+## Overview
 Update will allow you to change the `Title`, `Prompt` and `Cost` of a reward in a single sub action.
+
 ![update_reward.png](/update_reward.png)
-## Reward
-This is the reward you wish to change.
-## Title 
-This is the value you wish to set the title to. **Variables can be used**.
-## Prompt
-What you what the prompt to say, this promt can be multi-line and will also accept variables.
-## Cost
-The amount you wish to edit with.
 
-## Operator
-This is how you want to effect the reward, this can be `None`, `Add`, `Subtract`, `Multiply` or `Divide`. Selecting `None` will just set the reward to the amount stated in cost.
+## Configuration
+### Reward
+Select the reward you want to modify.
 
-## Reset to Original
+### Title
+Enter the new title for your channel point reward.
 
-This will automatically set everything back to the original settings.
+This input accepts [variables](/en/Variables)
+
+### Prompt
+Enter the text to apply to your reward prompt.
+
+This input field can span multiple lines and will also accept [variables](/en/Variables)
+
+### Cost
+Enter the amount you would like to set or modify
+
+### Operator
+| Values | Description |
+|-------:|:------------|
+|`None`| Set the cost to the amount entered
+|`Add`| Add the amount entered to the current cost
+|`Subtract`| Subtract the amount entered from the current cost
+|`Multiply`| Multiplay the amount entered with the current cost
+|`Divide`| Divice the current cost by the amount entered
+
+### Reset to Original
+Revert all reward settings to their original values.
+
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Update Redemption Status *Up Next***](/en/Sub-Actions/Rewards/Update-Redemption-Status)
+{.btn-grid .mt-10}
