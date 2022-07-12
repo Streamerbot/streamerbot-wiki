@@ -327,9 +327,9 @@ h6::after {
 #root .v-main .contents .btn-grid > p.disabled,
 #root .v-main .contents .btn-grid > li.disabled
 #root .v-main .contents .btn-grid > p.disabled > a,
-#root .v-main .contents .btn-grid > li.disabled > a,
+#root .v-main .contents .btn-grid > li > a.disabled,
 #root .v-main .contents .btn-grid > p.disabled > a > i,
-#root .v-main .contents .btn-grid > li.disabled > a > i {
+#root .v-main .contents .btn-grid > li > a.disabled > i {
   pointer-events: none !important;
   color: #919191 !important;
   filter: grayscale(1);
