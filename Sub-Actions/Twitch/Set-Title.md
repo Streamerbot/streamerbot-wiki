@@ -1,5 +1,5 @@
 ---
-title: Set Channel Title 
+title: Set Channel Title
 description: Twitch Sub-Actions Reference
 published: true
 date: 2022-07-11T23:30:30.833Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-26T06:09:10.831Z
 
 ## Overview
 
-This sub-action can modify the title of your Twitch stream.
+Modify the title of your Twitch stream.
 
 ![settitle-1.png](/settitle-1.png)
 
@@ -31,10 +31,7 @@ For example, you could use the `%rawInput%` variable from a `!settitle` command 
 ## Variables
 No variables generated.
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Slow Mode *Up Next***](/en/Sub-Actions/Twitch/Slow-Mode)
-  
-</section>
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Slow Mode *Up Next***](/en/Sub-Actions/Twitch/Slow-Mode)
+{.btn-grid .my-5}
