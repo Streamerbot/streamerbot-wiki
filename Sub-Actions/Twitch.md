@@ -2,25 +2,52 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-10T18:40:51.222Z
+date: 2022-07-12T00:09:36.687Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
 ---
 
-* [Create Clip *Create a 30s Twitch! clip*](/Sub-Actions/Twitch/Create-Clip)
-* [Create Stream Marker *Create a Twitch! stream marker*](/Sub-Actions/Twitch/Create-Stream-Marker)
-* [Emote Only *Set Twitch! chat to emote only mode*](/en/Sub-Actions/Twitch/Emote-Only)
-* [Get Follow Age Info for Target  *Populate arguments for time since a user followed the channel*  *Valid modes:`User` `From Input` `Variable`*](/Sub-Actions/Twitch/Get-Follow-Age)
-* [Get User Info for Target  *Populate arguments for specified user information* *Valid modes:`User` `From Input` `Variable`*](/Sub-Actions/Twitch/Get-User-Info-for-Target)
-* [Send Message To Channel  *Send a custom message to the channel as either `Broadcaster` or `Bot Account`*](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
-* [Set Channel Game *Change the current channel category*](/en/Sub-Actions/Twitch/Set-Channel-Game)
-* [Set Channel Title *Change the current stream title* ](/Sub-Actions/Twitch/Set-Title)
-* [Slow Mode *Set Twitch! chat to slow mode*](/en/Sub-Actions/Twitch/Slow-Mode)
-* [Subscriber Only *Set Twitch! chat to subscriber only mode*](/en/Sub-Actions/Twitch/Subscriber-Only)
-* [Timeout User *Timeout specified user for set time*](/Sub-Actions/Twitch/Timeout-User)
-* [Run Commercial *Trigger an ad break* *v0.15+*](/Sub-Actions/Twitch/Run-Commercial)
-{.links-list}
+
+## Chat
+<section class="btn-grid my-5">
+  
+  [<i class="mdi mdi-comment text--twitch"></i>**Send Message to Channel *Send a formatted message to your Twitch chat***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
+  
+  [<i class="mdi mdi-account-tie-voice-off text--twitch"></i>**Timeout User *Timeout a user for a specified amount of time***](/en/Sub-Actions/Twitch/Timeout-User)
+  
+  [<i class="mdi mdi-emoticon text--twitch"></i>**Emote Only *Toggle emote-only mode***](/en/Sub-Actions/Twitch/Emote-Only)
+  
+  [<i class="mdi mdi-speedometer-slow text--twitch"></i>**Slow Mode *Toggle slow mode***](/en/Sub-Actions/Twitch/Slow-Mode)
+  
+  [<i class="mdi mdi-account-lock text--twitch"></i>**Subscriber Only *Toggle sub-only mode***](/en/Sub-Actions/Twitch/Subscriber-Only)
+
+</section>
+
+## Channel Management
+<section class="btn-grid my-5">
+  
+  [<i class="mdi mdi-format-title text--twitch"></i>**Set Channel Title *Modify your current stream title***](/en/Sub-Actions/Twitch/Set-Title)
+  
+  [<i class="mdi mdi-gamepad text--twitch"></i>**Set Channel Game *Modify your current stream category***](/en/Sub-Actions/Twitch/Set-Channel-Game)
+    
+  [<i class="mdi mdi-clipboard-play text--twitch"></i> **Create Clip *Create a 30 second Twitch clip***](/en/Sub-Actions/Twitch/Create-Clip)
+  
+  [<i class="mdi mdi-bookmark text--twitch"></i>**Create Stream Marker *Create a Twitch stream marker***](/en/Sub-Actions/Twitch/Create-Stream-Marker)
+  
+  [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/en/Sub-Actions/Twitch/Emote-Only)
+
+</section>
+
+## User Information
+<section class="btn-grid my-5">
+    
+
+  [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/en/Sub-Actions/Twitch/Get-Follow-Age)
+  
+  [<i class="mdi mdi-account text--twitch"></i>**Get User Info for Target *Populate variables with specified user information***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
+
+</section>
 
 ---
 
