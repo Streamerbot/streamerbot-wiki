@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-12T20:11:49.301Z
+date: 2022-07-12T20:20:37.145Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -12,7 +12,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 * [**Raw *Execute custom OBS Websocket instructions***](/Sub-Actions/OBS/Raw)
 * [**Recording *Enable / Disable OBS recording state***](/Sub-Actions/OBS/Recording)
 * [**Streaming *Start / Stop streaming state***](/Sub-Actions/OBS/Streaming)
-* [**Set Replay Buffer State *Sets the state of the OBS Replay Buffer*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Replay-Buffer-State)
+* [**Set Replay Buffer State *Sets the state of the OBS Replay Buffer*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Replay-Buffer-State){.disabled}
 * [**Take Screenshot *Take a screenshot of a scene / source and save to file***](/Sub-Actions/OBS/Take-Screenshot)
 {.btn-grid}
 
