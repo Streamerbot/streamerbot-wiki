@@ -1,8 +1,8 @@
 ---
-title: Main Sub-Actions
+title: General Sub-Actions
 description: Reference of general Sub-Actions available in Streamer.bot
 published: true
-date: 2022-07-10T19:19:54.781Z
+date: 2022-07-12T04:43:04.123Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T18:53:32.059Z
