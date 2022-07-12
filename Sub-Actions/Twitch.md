@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-12T08:18:44.737Z
+date: 2022-07-12T08:21:17.128Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -16,7 +16,7 @@ Chat message and moderation controls{.subtitle}
   
   [<i class="mdi mdi-comment text--twitch"></i>**Send Message to Channel *Send a formatted message to your Twitch chat***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
   
-  [<i class="mdi mdi-comment text--twitch"></i>**Send Announcement to Channel *Send an announcement message to your Twitch chat***](/en/Sub-Actions/Twitch/Send-Announcement-To-Channel)
+  [<i class="mdi mdi-comment text--twitch"></i>**Send Announcement to Channel *Send an announcement message to your Twitch chat***](/en/Sub-Actions/Twitch/Announcement)
   
   [<i class="mdi mdi-account-tie-voice-off text--twitch"></i>**Timeout User *Timeout a user for a specified amount of time***](/en/Sub-Actions/Twitch/Timeout-User)
   
