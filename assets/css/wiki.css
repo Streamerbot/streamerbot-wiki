@@ -191,7 +191,7 @@ h6::after {
   border-radius: 15px;
   font-size: 0.75rem;
   color: #fff;
-  background-color: #3ca3ee;
+  background-color: #008bf1;
   padding: 0.2rem 0.5rem;
   align-self: center;
   font-style: normal;
@@ -255,12 +255,25 @@ h6::after {
 
 /* button grid layout */
 #root .v-main .contents .btn-grid {
+  padding: 0 !important;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: 1rem;
   justify-content: space-around;
 }
-#root .v-main .contents .btn-grid > p {
+#root .v-main .contents .btn-grid .version-badge {
+  position: absolute;
+  top: 1rem;
+  right: .5rem;
+  font-size: .5em;
+  color: #fff !important;
+}
+#root .v-main .contents .btn-grid > li::before {
+  display: none !important;
+}
+#root .v-main .contents .btn-grid > p,
+#root .v-main .contents .btn-grid > li {
+  position: relative;
   border: 1px solid #292929;
   background: #1c1c1c;
   padding: 0 !important;
@@ -269,7 +282,8 @@ h6::after {
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
-#root .v-main .contents .btn-grid > p > a {
+#root .v-main .contents .btn-grid > p > a,
+#root .v-main .contents .btn-grid > li > a {
   color: #fff !important;
   text-decoration: none;
   font-size: 1.2rem;
@@ -278,35 +292,44 @@ h6::after {
   display: flex;
   align-items: center;
 }
-#root .v-main .contents .btn-grid > p > a > i {
+#root .v-main .contents .btn-grid > p > a > i,
+#root .v-main .contents .btn-grid > li > a > i {
   display: block;
   font-size: 2rem;
   width: 35px;
   margin-right: 1rem;
 }
-#root .v-main .contents .btn-grid > p > a > img {
+#root .v-main .contents .btn-grid > p > a > img,
+#root .v-main .contents .btn-grid > li > a > img {
   margin-right: 1rem;
   height: 35px;
   width: 35px;
 }
-#root .v-main .contents .btn-grid > p:hover {
+#root .v-main .contents .btn-grid > p:hover,
+#root .v-main .contents .btn-grid > li:hover {
   box-shadow: 4px 2px 16px 4px rgb(33 96 253 / 8%), 0 8px 24px rgb(33 96 253 / 8%);
   border-color: #00b9ff !important;
 }
-#root .v-main .contents .btn-grid > p > a > strong {
+#root .v-main .contents .btn-grid > p > a > strong,
+#root .v-main .contents .btn-grid > li > a > strong {
   font-weight: 600 !important;
   display: flex;
   flex-direction: column;
 }
-#root .v-main .contents .btn-grid > p > a > strong > em {
+#root .v-main .contents .btn-grid > p > a > strong > em,
+#root .v-main .contents .btn-grid > li > a > strong > em,
+#root .v-main .contents .btn-grid > li > a > em {
   font-style: normal;
   font-weight: normal;
   color: #ccc;
   font-size: 0.6em;
 }
 #root .v-main .contents .btn-grid > p.disabled,
+#root .v-main .contents .btn-grid > li.disabled
 #root .v-main .contents .btn-grid > p.disabled > a,
-#root .v-main .contents .btn-grid > p.disabled > a > i {
+#root .v-main .contents .btn-grid > li.disabled > a,
+#root .v-main .contents .btn-grid > p.disabled > a > i,
+#root .v-main .contents .btn-grid > li.disabled > a > i {
   pointer-events: none !important;
   color: #919191 !important;
   filter: grayscale(1);
@@ -314,6 +337,10 @@ h6::after {
 #root .v-main .contents .btn-grid a.is-external-link:after {
   position: absolute;
   right: 1rem;
+}
+#root .v-main .contents .btn-grid > p code,
+#root .v-main .contents .btn-grid > li code {
+  font-size: 1em !important;
 }
 
 /* colors */
