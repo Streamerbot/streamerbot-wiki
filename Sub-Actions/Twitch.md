@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-12T00:09:36.687Z
+date: 2022-07-12T00:12:50.323Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -10,6 +10,7 @@ dateCreated: 2022-07-10T18:38:17.767Z
 
 
 ## Chat
+Chat message and moderation controls{.subtitle}
 <section class="btn-grid my-5">
   
   [<i class="mdi mdi-comment text--twitch"></i>**Send Message to Channel *Send a formatted message to your Twitch chat***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
@@ -24,7 +25,8 @@ dateCreated: 2022-07-10T18:38:17.767Z
 
 </section>
 
-## Channel Management
+## Channel
+Twitch channel &amp; stream management{.subtitle}
 <section class="btn-grid my-5">
   
   [<i class="mdi mdi-format-title text--twitch"></i>**Set Channel Title *Modify your current stream title***](/en/Sub-Actions/Twitch/Set-Title)
@@ -40,9 +42,9 @@ dateCreated: 2022-07-10T18:38:17.767Z
 </section>
 
 ## User Information
+Fetch information about specific users{.subtitle}
 <section class="btn-grid my-5">
     
-
   [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/en/Sub-Actions/Twitch/Get-Follow-Age)
   
   [<i class="mdi mdi-account text--twitch"></i>**Get User Info for Target *Populate variables with specified user information***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
