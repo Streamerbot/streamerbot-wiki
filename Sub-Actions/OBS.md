@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-12T20:02:57.208Z
+date: 2022-07-12T20:11:49.301Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -19,7 +19,6 @@ dateCreated: 2022-07-10T18:49:11.651Z
 ## Source
 * [**Flip Source *Inverts the source vertically***](/Sub-Actions/OBS/Flip-Source)
 * [**Hide Group's Sources *Hide all sources within a specified OBS source group***](/Sub-Actions/OBS/Hide-Group's-Sources)
-* [**Hide Source's Filters *Hide all filters on a specified source***](/Sub-Actions/OBS/Hide-Source-Filters)
 * [**Rotate Source *Set source rotation translation***](/Sub-Actions/OBS/Rotate-Source)
 * [**Set Browser Source URL *Set the URL of an OBS browser source***](/Sub-Actions/OBS/Set-Browser-Source-URL)
 * [**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
@@ -39,6 +38,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 {.btn-grid}
 
 ## Filter
+* [**Hide Source's Filters *Hide all filters on a specified source***](/Sub-Actions/OBS/Hide-Source-Filters)
 * [**Set Scene Filter State *Enable / Disable a scene filter***](/Sub-Actions/OBS/Scene-Filter-State)
 * [**Set Source Filter State *Enable / Disable a source filter***](/Sub-Actions/OBS/Set-Source-Filter-State)
 * [**Set State of a Random Filter *Enable / Disable a random source filter***](/Sub-Actions/OBS/Source-Random-Filter-State)
