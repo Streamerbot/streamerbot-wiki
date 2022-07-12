@@ -2,11 +2,13 @@
 title: YouTube Sub-Actions
 description: Reference of all YouTube Sub-Actions
 published: true
-date: 2022-07-12T00:30:34.577Z
+date: 2022-07-12T00:31:59.404Z
 tags: subactions, youtube
 editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
 ---
+
+<i class="mdi mdi-youtube text--youtube"></i>{.align-abstopright}
 
 > YouTube support is available as of **Streamer.bot** *v0.1.8+*{.version-badge}
 {.is-info}
