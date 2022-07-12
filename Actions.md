@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-07-11T20:43:57.436Z
+date: 2022-07-12T20:54:01.290Z
 tags: subactions, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -10,6 +10,8 @@ dateCreated: 2021-08-25T21:31:09.603Z
 
 # Overview
 Actions can be considered as containers for what to do, Sub-actions are the details of what that action does in order.
+
+![actions-diagram.png](/assets/excalidraw/actions-diagram.png =800x)
 
 Here you will setup all your primary actions (such as shout outs, subscriptions, cheers, animations, etc.)
 
