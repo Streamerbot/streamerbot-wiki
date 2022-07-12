@@ -1,9 +1,9 @@
 ---
-title: Set Title on YouTube 
-description: Set your YouTube title through a sub action 
+title: Set Title
+description: YouTube Sub-Actions Reference
 published: true
-date: 2022-06-27T21:30:19.318Z
-tags: youtube, set title, sub action
+date: 2022-07-12T01:04:03.371Z
+tags: subactions, youtube, sub action
 editor: markdown
 dateCreated: 2022-06-06T03:27:24.075Z
 ---
@@ -12,20 +12,27 @@ dateCreated: 2022-06-06T03:27:24.075Z
 
 This Sub-Action within Streamer Bot can be used to set the title on your YouTube stream.
 
+![set-title-yt-dialog-box.png](/set-title-yt/set-title-yt-dialog-box.png)
 
-![set-title-yt-complete.png](/set-title-yt/set-title-yt-complete.png){.align-center}
+## Configuration
 
-## Setup 
+> **NOTE**
+> YouTube titles are limited to 100 characters
+{.is-warning}
 
-First open Streamer.Bot (v0.18+) and select an action or create one then on the right you will see a sub-action pane. In this pane right click and navigate the following in this menu `Add Sub-Action` then mouse over `YouTube` now click the `Set Title` option. A dialog box will appear like the one below.
+### Title
+Enter the text you would like to use as your new stream title.
 
-![set-title-yt-dialog-box.png](/set-title-yt/set-title-yt-dialog-box.png){.align-center}
+Input accepts variables.
 
-> **Note: YouTube Titles are Limited to 100 characters.**
-{.is-info}
+## Variables
+No variables generated.
 
-In the dialog box you have a `Title` input field here you can input a static title or use variable to set the title or both 
 
-when you have filled out this field the `Ok` button will become active for you to continue. Click this and you're done.  
-
-![yt-title-field-complete.png](/set-title-yt/yt-title-field-complete.png){.align-center}
+<section class="btn-grid my-5">
+    
+  [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
+  
+  [<i class="mdi mdi-youtube text--youtube"></i>**Set Description *Up Next***](/en/Sub-Actions/YouTube/Set-Description)
+  
+</section>
