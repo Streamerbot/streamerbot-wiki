@@ -2,7 +2,7 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-12T16:30:41.289Z
+date: 2022-07-12T16:30:51.054Z
 tags: subactions
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -53,7 +53,7 @@ Sub-Actions specific to Streamer.bot [Integrations](/en/Integrations)
 
 
 ## General
-All general-purpose sub-actions available for use{.subtitle}
+All general purpose sub-actions available for use{.subtitle}
 <section class="btn-grid my-5">
    
   [<i class="mdi mdi-lightning-bolt primary--text"></i>**Actions *Modify Streamer.bot action state***](/en/Sub-Actions/Actions)
