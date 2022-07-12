@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-12T20:22:06.945Z
+date: 2022-07-12T20:22:55.886Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -39,9 +39,9 @@ dateCreated: 2022-07-10T18:49:11.651Z
 
 ## Filter
 * [**Hide Source's Filters *Hide all filters on a specified source***](/Sub-Actions/OBS/Hide-Source-Filters)
-* [**Set Scene Filter State *Enable / Disable a scene filter***](/Sub-Actions/OBS/Scene-Filter-State)
+* [**Set Scene Filter State *Enable / Disable a scene filter***](/Sub-Actions/OBS/Scene-Filter-State){.disabled}
 * [**Set Source Filter State *Enable / Disable a source filter***](/Sub-Actions/OBS/Set-Source-Filter-State)
-* [**Set State of a Random Filter *Enable / Disable a random source filter***](/Sub-Actions/OBS/Source-Random-Filter-State)
+* [**Set State of a Random Filter *Enable / Disable a random source filter***](/Sub-Actions/OBS/Source-Random-Filter-State){.disabled}
 {.btn-grid}
 
 ---
