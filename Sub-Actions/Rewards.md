@@ -2,11 +2,13 @@
 title: Rewards Sub-Actions
 description: Reference of all Twitch Channel Point Reward Sub-Actions
 published: true
-date: 2022-07-10T18:45:50.458Z
+date: 2022-07-12T01:09:06.193Z
 tags: twitch, channel-points, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:45:50.458Z
 ---
+
+<i class="mdi mdi-twitch text--twitch"></i>{.align-abstopright}
 
 * [Configure Reward *Enable / Disable one or more channel point rewards*](/Sub-Actions/Rewards/Configure-Reward)
 * [Set Cost *Change the channel point cost of a reward*](/Sub-Actions/Rewards/Set-Cost)
