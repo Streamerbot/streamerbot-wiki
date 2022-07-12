@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-03T20:23:05.533Z
+date: 2022-07-12T18:45:59.973Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -33,7 +33,7 @@ The tab order on each level can be changed by dragging the tab to the desired po
 
 -----
 
----|---
+---:|---
 `Minimize to Tray` | Enables streamer.bot to sent to the system tray instead of the taskbar 
 `Confirmation on Close` | Enables a popup warning before you close streamer.bot
 `Reset Delete Confirmations` | If you have checked the box to supress action and sub-action deletion popup warnings this button re-enables them
@@ -52,13 +52,13 @@ The tab order on each level can be changed by dragging the tab to the desired po
 
 *v0.1.8+*{.version-badge}
 
-> [Action Queues](en/action-queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
+> **[Action Queues](/en/Action-Queues)** have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
 {.is-info}
 
 
 *v0.1.0 - v0.1.7*{.version-badge}
 
-All [Actions](/en/Actions) defined in Streamerbot must be assigned to an `Action Queue` 
+All **[Actions](/en/Actions)** defined in Streamerbot must be assigned to an `Action Queue` 
 
 By default all actions will trigger immediately but if actions have a duration this may lead to multiple actions happening simultaneously. 
 
@@ -91,12 +91,12 @@ Volume can be overridden on a per sub-action basis if needed
 
 *v0.1.8+*{.version-badge}
 
-> As of  *v0.1.8+*{.version-badge} [Twitch Account Configuration](/en/Platforms/Twitch-Accounts)  has been relocated to `Platforms > Twitch > Accounts`
+> As of  *v0.1.8+*{.version-badge} **[Twitch Account Configuration](/en/Platforms/Twitch/Accounts)**  has been relocated to `Platforms > Twitch > Accounts`
 {.is-info}
 
 *v0.1.0 - v0.1.7*{.version-badge}
 
-![Twitch Account Settings](/119614942-c20a6e00-bdf6-11eb-9647-e56d80d9a8f1.png)
+![Twitch Account Settings](/119614942-c20a6e00-bdf6-11eb-9647-e56d80d9a8f1.png){.align-center}
 
 ### Broadcaster Account
 
@@ -110,13 +110,13 @@ Press `Connect to Twitch` to automatically obtain a token
 
 ### Bot Account
 
-By default any [sub-actions](/Sub-Actions#main) will be sent through the Broadcaster account. If you want a secondary account to send these actions / messages it can be defined here in the same way
+By default any **[sub-actions](/Sub-Actions#main)** will be sent through the Broadcaster account. If you want a secondary account to send these actions / messages it can be defined here in the same way
 
 
 
 ### Refresh Categories
 
-Use this to pull a current list of available Twitch categories. These can be used as variables in [sub-actions](/Sub-Actions#main) for example to change scene if category is changed to a specific game
+Use this to pull a current list of available Twitch categories. These can be used as variables in **[sub-actions](/Sub-Actions#main)** for example to change scene if category is changed to a specific game
 
 ***
 
@@ -124,15 +124,15 @@ Use this to pull a current list of available Twitch categories. These can be use
 
 With the `File/Folder Watcher` feature you can specify an action to run whenever a file that matches the defined filter is modified
 
-Folder watch actions that have been defined will show in this pane to indicate the `Folder being watched`, `The file filter`, is `Enabled` state and the [Action](/en/Actions) that will trigger when the conditions are met
+Folder watch actions that have been defined will show in this pane to indicate the `Folder being watched`, `The file filter`, is `Enabled` state and the **[Action](/en/Actions)** that will trigger when the conditions are met
 
-![file-folder-watcher-018.png](/file-folder-watcher-018.png)
+![file-folder-watcher-018.png](/file-folder-watcher-018.png){.align-center}
 
 <kbd>Right-clicking</kbd> inside the pane opens the context menu
 
 ### Context Menu
 
----|---
+---:|---
 `Add` | Add a new folder watch definition
 `Edit` | Open the `Edit File/Folder Watcher` dialogue to modify the highlighted entry | This is the same as <kbd>Double-Clicking</kbd> the entry
 `Delete` | Delete the highlighted entry
@@ -156,7 +156,7 @@ Can only monitor specific files | Monitors entire folders and will trigger on ev
 
 #### Action Selector
 
-![action-selector-018.png](/action-selector-018.png)
+![action-selector-018.png](/action-selector-018.png){.align-center}
 
 The action list can be filtered using the control in the upper right to help find what you need easier.
 
@@ -193,13 +193,13 @@ If `As JSON` is not ticked, it will add the following variables if the JSON cann
 
 Actions to be performed either repeatedly or for a duration can be defined here. 
 
-![timed-actions-context-018.png](/timed-actions-context-018.png)
+![timed-actions-context-018.png](/timed-actions-context-018.png){.align-center}
 
 <kbd>Right-clicking</kbd> inside the pane opens the context menu
 
 ### Context Menu
 
----|---
+---:|---
 `Add` | Add a new `Timed Action`
 `Edit` | Open the `Edit Timed Action` dialogue to modify the highlighted entry | This is the same as <kbd>Double-Clicking</kbd> the entry
 `Delete` | Delete the highlighted entry
@@ -212,9 +212,9 @@ Unless manually overridden by another [action](/Actions), the `Timed action` wil
 
 ### Edit Timed Action
 
-![timed-action-edit-018.png](/timed-action-edit-018.png)
+![timed-action-edit-018.png](/timed-action-edit-018.png){.align-center}
 
----|---
+---:|---
 `Enabled` | States this timer is currently running
 `Repeat` | Defines if the `Timed Action` should automatically run again once the limiting criteria are met
 `Interval` | Minimum time in seconds that must elapse before the action will run again | If `Random` is checked this becomes an upper and lower bound entry
@@ -223,7 +223,7 @@ Unless manually overridden by another [action](/Actions), the `Timed action` wil
 
 #### Action Selector
 
-![action-selector-018.png](/action-selector-018.png)
+![action-selector-018.png](/action-selector-018.png){.align-center}
 
 The action list can be filtered using the control in the upper right to help find what you need easier.
 
@@ -236,7 +236,7 @@ To unassign all action press the `Clear` button
 
 ## [Credits](/en/Settings/Credits)
 
-![settings-credits-018.png](/settings-credits-018.png)
+![settings-credits-018.png](/settings-credits-018.png){.align-center}
 
 The SLCB Credits functions have been ported to Streamer.bot and can be configured here. 
 
@@ -265,12 +265,13 @@ Streamer.bot has a built in quote system.
 
 
 
-![settings-quotes-018.png](/settings-quotes-018.png)
+![settings-quotes-018.png](/settings-quotes-018.png){.align-center}
 
 > You must have a category set to add quotes to the quote system, otherwise it tries to set null data which can cause a crash or invalid data structure
 {.is-danger}
 
 ### Twitch Chat commands 
+
 The following Twitch! commands are hard coded into the application and can be used to `Add`, `Remove` and to `Retrieve` the quotes
 ```
 !quote add <string>
@@ -293,7 +294,7 @@ Quote output message
 ```
 
 ### Additional use of the quote system
-![Quote Action](/123520512-082e4800-d6a9-11eb-95f9-e5c016b42f21.png)
+![Quote Action](/123520512-082e4800-d6a9-11eb-95f9-e5c016b42f21.png){.align-center}
 
 You can automate the retrieval of a specific or random quote using the Get Quote Action. Once retrieved, you can reference the quote using the variables shown above in the Quote output message.
 
@@ -301,7 +302,7 @@ You can automate the retrieval of a specific or random quote using the Get Quote
 
 ## Sub Counter
 
-![settings-subcounter-018.png](/settings-subcounter-018.png)
+![settings-subcounter-018.png](/settings-subcounter-018.png){.align-center}
 
 The Sub-counter will increment a persisted variable every time a sub is monitored by the application and save the result to a specified file.
 
@@ -313,10 +314,10 @@ Reaching `rollover` goal will reset the counter and increment the `rolloverCount
 
 ## Groups
 
-![settings-groups-018.png](/settings-groups-018.png)
+![settings-groups-018.png](/settings-groups-018.png){.align-center}
 
 Chat users can be added to groups that are defined here.
-Groups can be used to define permissions for [Actions](/Actions) or in the [Credits](/Settings/Credits) function
+Groups can be used to define permissions for **[Actions](/Actions)** or in the **[Credits](/Settings/Credits)** function
 
 ### Adding / Removing Groups
 
@@ -331,13 +332,14 @@ Alternatively, you can Import / Export users from a group using the context menu
 
 ### Bot Groups
 
-The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the [Credits](/en/Settings/Credits) function. 
+The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the **[Credits](/en/Settings/Credits)** function. 
 Other features may be made bot group aware in future releases
 
 ### Context Menu
-![settings-groups-context-018.png](/settings-groups-context-018.png)
 
----|---
+![settings-groups-context-018.png](/settings-groups-context-018.png){.align-center}
+
+---:|---
 `Delete` | Deletes the highlighted group
 `Clear` | Removes all users from a highlighted group
 `Bots` | Designates a Boolean flag to indicate this group contains known bots. Users in a bot group are excluded from credits and certain functionality like First Words
@@ -352,7 +354,7 @@ Other features may be made bot group aware in future releases
 
 The default C# compiler in **0.1.8** is already very robust and will find its own references standard references most of the time, but if you want to include any custom dll libraries that will be automatically added to all C# sub-actions you can define them here
 
-![settings-cs-compiler-018.png](/settings-cs-compiler-018.png)
+![settings-cs-compiler-018.png](/settings-cs-compiler-018.png){.align-center}
 
 
 
@@ -365,7 +367,7 @@ The default C# compiler in **0.1.8** is already very robust and will find its ow
 
 *v0.1.0 - v0.1.7*{.version-badge}
 
-Configuration of event monitoring is found in this sub-section, see [Events](/en/Events) for details
+Configuration of event monitoring is found in this sub-section, see **[Events](/en/Events)** for details
 
 * [General *Follows and Chat related events*](/Events/General)
 * [Cheers *Bit Cheer events*](/Events/Cheers)
