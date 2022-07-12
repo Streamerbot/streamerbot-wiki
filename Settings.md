@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-12T18:45:59.973Z
+date: 2022-07-12T18:48:23.725Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -27,8 +27,8 @@ Many things have been moved to improve accessibility, some features have been re
 
 This tab formerly controled the visibility of the various tabs in Streamer.bot. The abilty to show and hide tabs has been moved to the <kbd>Right-Click</kbd> context menu of each level of tabs
 
-![top-level-tab-context-018.png](/top-level-tab-context-018.png)![settings-tabs-context-018.png](/settings-tabs-context-018.png)
-
+---|---
+![top-level-tab-context-018.png](/top-level-tab-context-018.png)|![settings-tabs-context-018.png](/settings-tabs-context-018.png)
 The tab order on each level can be changed by dragging the tab to the desired position
 
 -----
