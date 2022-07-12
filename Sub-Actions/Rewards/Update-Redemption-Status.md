@@ -8,15 +8,26 @@ editor: markdown
 dateCreated: 2022-06-11T05:07:12.107Z
 ---
 
-# Update Redemption Status
- 
-Using this sub-action you can `Fulfill` or `Cancel` rewards.
+## Overview
+Set a reward redemption as fulfilled or canceled.
 
 ![redemption_status.png](/redemption_status.png)
 
-## Status
-This is whether or not you wish to `Fulfill` the redeem meaning to accept it or to `Cancel` meaning to refund.
+## Configuration
+### Status
+| Values | Description |
+|-------:|:------------|
+|`Fulfilled`| Accept the redemption, marking it as complete
+|`Cancel`| Cancel the reward redemption, refunding any channel points spent
 
-> Channel point redeems must of been created by Streamerbot to be able to `Fulfill` or `Cancel` {.is-warning}
+> **WARNING**
+> A redeem must be originally created by Streamer.bot for this sub-action to work.
+{.is-warning}
 
-> Canceling a redemption will refund points back to the user who redeemed it. {.is-info}
+## Variables
+No variables generated.
+
+
+- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Update *Up Next***](/en/Sub-Actions/Rewards/Update)
+{.btn-grid .mt-10}
