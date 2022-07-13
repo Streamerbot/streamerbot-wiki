@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-13T20:14:39.975Z
+date: 2022-07-13T20:22:47.652Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -16,34 +16,26 @@ dateCreated: 2021-08-25T21:34:42.553Z
 {.btn-grid}
 
 ## Overview
-
-Streamer.bot can integrate directly with Twitch! to bring a new level of interactivity to your stream. Details on how to configure your accounts and the different options available to you through the platform will be detailed on their own pages linked below.
+Streamer.bot integrates directly with Twitch to offer a set of first-class functionality.
 
 ## Configuration
+You can configure both a **Broadcaster** *(required)*, and a **Bot** account *(optional)* for interacting with Twitch services.
 
-![twitch-accounts-019.png](/twitch-accounts-019.png)
+![twitch-accounts-019.png](/twitch-accounts-019.png =800x)
 
 ### Broadcaster Account
+A Broadcaster account is **required** to monitor your Twitch chat and receive all Twitch [events](/en/Platforms/Twitch/Events).
 
-If you want streamer.bot to be able to monitor chat and Twitch! events, a `Broadcaster` account must be defined
+1. Press `Connect to Twitch` to sign in to your Twitch account and retrieve an OAuth2 token.
+2. `Auto Connect` will set Streamer.bot to connect to twitch with the defined account on startup
+3. `Auto Reconnect` instructs Streamer.bot to attempt reconnection in the case of any network interruption to the platform
 
-Press `Connect to Twitch` to automatically obtain a token 
-
-`Auto Connect` will set streamer.bot to connect to twitch with the defined account on startup
-
-`Auto Reconnect` instructs streamer.bot to attempt reconnection in the case of any network interruption to the platform
-
-***
 
 ### Bot Account
-
 By default any [sub-actions](/Sub-Actions#main) will be sent through the Broadcaster account. If you want a secondary account to send these actions / messages it can be defined here in the same way
 
-***
 
 ### Refresh Categories
+Use this to pull a current list of available Twitch categories to be used as variables in [sub-actions](/Sub-Actions).
 
-Use this to pull a current list of available Twitch categories. These can be used as variables in [sub-actions](/Sub-Actions#main) for example to change scene if category is changed to a specific game
-
-* [Accounts *Configuration of Twitch **Broadcaster** and **Bot** accounts*](/en/Platforms/Twitch/Accounts)
-{.links-list}
+For example, you could automatically change scenes in [OBS Studio](/en/Broadcasters/OBS) if your Twitch category is changed to a specific game.
