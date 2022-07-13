@@ -1,16 +1,16 @@
 ---
 title: Settings
-description: 
+description:
 published: true
 date: 2022-07-12T18:48:23.725Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
 ---
 
 # Settings
 
-Settings have recieved a major overhaul in 0.1.8 as can be seen below 
+Settings have recieved a major overhaul in 0.1.8 as can be seen below
 
 *v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
 ---|---
@@ -34,7 +34,7 @@ The tab order on each level can be changed by dragging the tab to the desired po
 -----
 
 ---:|---
-`Minimize to Tray` | Enables streamer.bot to sent to the system tray instead of the taskbar 
+`Minimize to Tray` | Enables streamer.bot to sent to the system tray instead of the taskbar
 `Confirmation on Close` | Enables a popup warning before you close streamer.bot
 `Reset Delete Confirmations` | If you have checked the box to supress action and sub-action deletion popup warnings this button re-enables them
 
@@ -48,7 +48,7 @@ The tab order on each level can be changed by dragging the tab to the desired po
 ![Settings General](/130132575-9efb23f4-d56f-4c6f-ba21-985ccefda2e9.png)|![settings-general-018.png](/settings-general-018.png)
 
 
-### Action Queues 
+### Action Queues
 
 *v0.1.8+*{.version-badge}
 
@@ -58,13 +58,13 @@ The tab order on each level can be changed by dragging the tab to the desired po
 
 *v0.1.0 - v0.1.7*{.version-badge}
 
-All **[Actions](/en/Actions)** defined in Streamerbot must be assigned to an `Action Queue` 
+All **[Actions](/en/Actions)** defined in Streamerbot must be assigned to an `Action Queue`
 
-By default all actions will trigger immediately but if actions have a duration this may lead to multiple actions happening simultaneously. 
+By default all actions will trigger immediately but if actions have a duration this may lead to multiple actions happening simultaneously.
 
 New Action Queues can be defined here by typing a name and pressing `Add` > `Blocking`
 
-If an Action Queue is set as `Blocking` then Streamerbot will not run the next triggered action until the currently running one completes. 
+If an Action Queue is set as `Blocking` then Streamerbot will not run the next triggered action until the currently running one completes.
 
 This can be useful for sound clips or event alerts so they play sequentially rather than all at once
 
@@ -102,7 +102,7 @@ Volume can be overridden on a per sub-action basis if needed
 
 If you want streamer.bot to be able to monitor chat and Twitch! events, a `Broadcaster` account must be defined
 
-Press `Connect to Twitch` to automatically obtain a token 
+Press `Connect to Twitch` to automatically obtain a token
 
 `Auto Connect` will set streamer.bot to connect to twitch with the defined account on startup
 
@@ -191,7 +191,7 @@ If `As JSON` is not ticked, it will add the following variables if the JSON cann
 
 ## Timed Actions
 
-Actions to be performed either repeatedly or for a duration can be defined here. 
+Actions to be performed either repeatedly or for a duration can be defined here.
 
 ![timed-actions-context-018.png](/timed-actions-context-018.png){.align-center}
 
@@ -206,7 +206,7 @@ Actions to be performed either repeatedly or for a duration can be defined here.
 `Set Action` | Shortcut to the `Select Action` dialogue
 `Enabled` | Shortcut to set the Active state of the Folder Watch entry
 
-When a timer becomes enabled its action will execute on the next occurence. 
+When a timer becomes enabled its action will execute on the next occurence.
 
 Unless manually overridden by another [action](/Actions), the `Timed action` will only execute again if both the `Interval` and `Lines` criteria have been met
 
@@ -219,7 +219,7 @@ Unless manually overridden by another [action](/Actions), the `Timed action` wil
 `Repeat` | Defines if the `Timed Action` should automatically run again once the limiting criteria are met
 `Interval` | Minimum time in seconds that must elapse before the action will run again | If `Random` is checked this becomes an upper and lower bound entry
 `Lines` | Any non-zero value will pause the action from running again until that many messages have been recieved in chat
-`Action` | Choose the [action](Actions) to execute when the timer state becomes `Enabled` 
+`Action` | Choose the [action](Actions) to execute when the timer state becomes `Enabled`
 
 #### Action Selector
 
@@ -238,7 +238,7 @@ To unassign all action press the `Clear` button
 
 ![settings-credits-018.png](/settings-credits-018.png){.align-center}
 
-The SLCB Credits functions have been ported to Streamer.bot and can be configured here. 
+The SLCB Credits functions have been ported to Streamer.bot and can be configured here.
 
 As the function is quite extensive, this will remain on its own page. [click here](/en/Settings/Credits) for more information
 
@@ -270,7 +270,7 @@ Streamer.bot has a built in quote system.
 > You must have a category set to add quotes to the quote system, otherwise it tries to set null data which can cause a crash or invalid data structure
 {.is-danger}
 
-### Twitch Chat commands 
+### Twitch Chat commands
 
 The following Twitch! commands are hard coded into the application and can be used to `Add`, `Remove` and to `Retrieve` the quotes
 ```
@@ -332,7 +332,7 @@ Alternatively, you can Import / Export users from a group using the context menu
 
 ### Bot Groups
 
-The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the **[Credits](/en/Settings/Credits)** function. 
+The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the **[Credits](/en/Settings/Credits)** function.
 Other features may be made bot group aware in future releases
 
 ### Context Menu
@@ -344,7 +344,7 @@ Other features may be made bot group aware in future releases
 `Clear` | Removes all users from a highlighted group
 `Bots` | Designates a Boolean flag to indicate this group contains known bots. Users in a bot group are excluded from credits and certain functionality like First Words
 `Export to File` | Save the contents of a group to an `SBGRP` file for sharing with other users or to use as a backup
-`Import from File ` | Import the contents of an `SBGRP` file into the highlighted group 
+`Import from File ` | Import the contents of an `SBGRP` file into the highlighted group
 
 ***
 
@@ -362,7 +362,7 @@ The default C# compiler in **0.1.8** is already very robust and will find its ow
 
 *v0.1.8+*{.version-badge}
 
-> In **0.1.8** configuration of Twitch! event monitoring has moved to `Platforms > Twitch > Events` 
+> In **0.1.8** configuration of Twitch! event monitoring has moved to `Platforms > Twitch > Events`
 {.is-info}
 
 *v0.1.0 - v0.1.7*{.version-badge}
@@ -380,8 +380,8 @@ Configuration of event monitoring is found in this sub-section, see **[Events](/
 * [Hype Train *When Hype Train Starts, Ends, Progresses or Levels up*](/Events/Hype-Train)
 * [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
 * [Stream Update *When the Stream Category or Title changes* *CREATE ME*](/Events/Stream-Update)
-* [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Twitch/Polls)
-* [Predictions *Set up a prediction between 2-10 options that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
+* [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Platforms/Twitch/Polls)
+* [Predictions *Set up a prediction between 2-10 options that users can gamble Twitch! channel points on the outcome*](/Platforms/Twitch/Predictions)
 {.links-list}
 
 > Predictions with more than 2 outcomes requires *v0.1.9+*{.version-badge}

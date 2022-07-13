@@ -1,6 +1,6 @@
 ---
 title: Twitch
-description: 
+description:
 published: true
 date: 2022-07-13T19:58:53.128Z
 tags: twitch, platforms
@@ -48,9 +48,9 @@ Many of these will require at least Twitch affiliate status to utilize and some 
 {.links-list}
 
 # Polls
-- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls)
+- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Platforms/Twitch/Polls)
 {.links-list}
 
 # Predictions
-- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/Twitch/Predictions)
+- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/Platforms/Twitch/Predictions)
 {.links-list}
