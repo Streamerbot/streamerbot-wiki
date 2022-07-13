@@ -9,29 +9,29 @@ dateCreated: 2022-07-13T18:55:36.587Z
 ---
 
 # Events
-Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them. 
+Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them.
 
 Many of these will require at least Twitch affiliate status to utilize and some may be unavailable if prohibited by local laws.
 
-* [General *Follows & Chat related events*](/Events/General)
-* [Cheers *Bit Cheer events*](/Events/Cheers)
-* [Sub *First time subscribers*](/Events/Sub)
-* [Re-Sub *Users renewing their own subscription*](/Events/Sub)
-* [Gift Sub *Gifting a subscription to a named person*](/Events/Gift-Sub)
-* [Gift Bomb *Gifting 1 or more subscriptions to random users*](/Events/Gift-Bomb)
-* [Raid *Incoming and Outgoing Raids*](/Events/Raid)
-* [Hosts *When a user starts hosting the channel*](/en/Events/hosts)
-* [Hype Train *When Hype Train Starts, Ends, Progresses or Levels up*](/Events/Hype-Train)
-* [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
-* [Stream Update *When the Stream Category or Title changes*](/Events/Stream-Update)
-{.links-list}
+- [**General *Follows & Chat related events***](/Events/General)
+- [**Cheers *Bit Cheer events***](/Events/Cheers)
+- [**Sub *First time subscribers***](/Events/Sub)
+- [**Re-Sub *Users renewing their own subscription***](/Events/Sub)
+- [**Gift Sub *Gifting a subscription to a named person***](/Events/Gift-Sub)
+- [**Gift Bomb *Gifting 1 or more subscriptions to random users***](/Events/Gift-Bomb)
+- [**Raid *Incoming and Outgoing Raids***](/Events/Raid)
+- [**Hosts *When a user starts hosting the channel***](/en/Events/hosts)
+- [**Hype Train *When Hype Train Starts, Ends, Progresses or Levels up***](/Events/Hype-Train)
+- [**Community Goal *When Community Goals are Started or Progressed***](/Events/Community-Goal)
+- [**Stream Update *When the Stream Category or Title changes***](/Events/Stream-Update)
+{.btn-grid .my-5}
 
 # Channel Point Rewards
 - [Channel Point Rewards *Execute actions on point redemptions*](/Twitch/Channel-Point-Rewards)
 {.links-list}
 
 # Polls
-- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls) 
+- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls)
 {.links-list}
 
 # Predictions
