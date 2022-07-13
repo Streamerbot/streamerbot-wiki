@@ -2,7 +2,7 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-13T15:01:40.462Z
+date: 2022-07-13T17:30:51.147Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -60,7 +60,7 @@ In this tab you can edit the title of the YouTube Stream, its description and th
 If you edit any of these fields, be sure to click the `Save` button inside the `Stream Info` tab to confirm the changes. Here you also see the `Revert` button this button will only revert the changes you have made to the stream’s information.
  
 
-# Events
+## Events
 
 This is the part you have been waiting for what can Streamer bot do with your YouTube stream events well look no further. 
 
