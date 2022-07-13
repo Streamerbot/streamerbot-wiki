@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-07-13T16:08:31.333Z
+date: 2022-07-13T16:09:33.981Z
 tags: subactions, guides, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -24,13 +24,11 @@ Perhaps the most important piece of Streamer.bot, **Actions** are at the center 
 
 This makes actions extremely **powerful**. 
 
-A simple chat command now has the ability to run any number of sub-actions in a specified sequence.
+Sub-actions even have the ability to trigger other actions, giving you the ability to **organize** significant pieces of your setup into consolidated sections, and **share** logic across multiple event sources.
 
 As sub-actions are executed, another important feature of Streamer.bot comes into play, the **Argument Stack**, which consists of all [variables](/en/Variables) available at a given time. 
 
 Each sub-action has the ability to populate new variables for upcoming sub-actions, read existing variables from earlier sub-actions, or even modify them!
-
-Sub-actions even have the ability to trigger other actions, giving you the ability to **organize** significant pieces of your setup into consolidated sections, and **share** logic across multiple event sources.
 
 # Guide
 
