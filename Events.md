@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-07-13T16:59:30.328Z
+date: 2022-07-13T19:57:33.669Z
 tags: events, reference
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -20,8 +20,8 @@ On each page you will find associated events along with their respective [variab
 ## Platform
 Events from your configured streaming platform(s){.subtitle}
 
-- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for follows, cheers, subs, and more!***](/en/Events/Twitch)
-- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Events for chat messages, memberships, and more!***](/en/Events/YouTube)
+- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for follows, cheers, subs, and more!***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Events for chat messages, memberships, and more!***](/en/Platforms/YouTube/Events)
 {.btn-grid .my-5}
 
 ## Broadcaster
