@@ -2,7 +2,7 @@
 title: admin zone
 description: 
 published: false
-date: 2022-07-09T21:36:58.745Z
+date: 2022-07-13T19:17:02.907Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T19:53:46.241Z
@@ -11,6 +11,8 @@ dateCreated: 2022-07-03T19:53:46.241Z
 # Admin Zone
 ### A place for admins to test wiki things!
 *[Mady by robophill](https://www.twitch.tv/robophill)*{.translation-badge}
+
+## Blockquotes
 > **This page is admin only**
 {.is-admin}
 
@@ -35,10 +37,6 @@ dateCreated: 2022-07-03T19:53:46.241Z
 > **DANGER**
 > test
 {.is-danger}
-
-> **IDK WHAT THIS MEANS**
-> test
-{.is-succesbetter}
 
 *in-consideration*{.ideas-in-consideration}
 *in-progress*{.ideas-in-progress}
