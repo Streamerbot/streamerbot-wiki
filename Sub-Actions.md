@@ -2,20 +2,17 @@
 title: Sub-Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-12T16:30:51.054Z
+date: 2022-07-13T19:00:33.875Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
 ---
-
 
 ## Platform
 Sub-Actions specific to your streaming platform{.subtitle}
 
 - [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
 - [<i class="mdi mdi-youtube text--youtube"></i>**YouTube *Control your YouTube channel title, description, and send chat messages***](/en/Sub-Actions/YouTube)
-{.btn-grid .my-5}
-
 - [<i class="mdi mdi-twitch text--twitch"></i>**Channel Point Rewards *Control every aspect of your Twitch Channel Point Rewards***](/en/Sub-Actions/Rewards)
 {.btn-grid .my-5}
 
