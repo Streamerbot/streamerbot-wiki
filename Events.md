@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-07-13T16:53:40.261Z
+date: 2022-07-13T16:59:30.328Z
 tags: events, reference
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -11,6 +11,10 @@ dateCreated: 2021-08-25T21:31:34.296Z
 > **IN PROGRESS**
 > Full events documentation is in progress
 {.is-warning}
+
+All event sources below can be used to trigger [Actions](/en/Actions) within Streamer.bot
+
+On each page you will find associated events along with their respective [variables](/en/Variables).
 
 
 ## Platform
