@@ -1,8 +1,8 @@
 ---
 title: Twitch
-description: Events Reference
+description: Reference of all available Twitch events
 published: true
-date: 2022-07-13T19:06:04.799Z
+date: 2022-07-13T19:06:38.564Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
