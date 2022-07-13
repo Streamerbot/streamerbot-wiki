@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-10T01:11:37.011Z
+date: 2022-07-13T19:33:13.454Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -38,7 +38,7 @@ Many of these will require at least Twitch affiliate status to utilize and some 
 {.links-list}
 
 # Channel Point Rewards
-- [Channel Point Rewards *Execute actions on point redemptions*](/Twitch/Channel-Point-Rewards)
+- [Channel Point Rewards *Execute actions on point redemptions*](/Platforms/Twitch/Channel-Point-Rewards)
 {.links-list}
 
 # Polls
