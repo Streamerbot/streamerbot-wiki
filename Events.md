@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-07-13T16:34:45.240Z
+date: 2022-07-13T16:53:40.261Z
 tags: events, reference
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -13,30 +13,31 @@ dateCreated: 2021-08-25T21:31:34.296Z
 {.is-warning}
 
 
-Streamerbot constantly listens for various events while connected to a Twitch! account and can perform an action for each of them. 
+## Platform
+Events from your configured streaming platform(s){.subtitle}
 
-These are be broken down into the following 10 Categories, each will have its own page to explain their uses 
+- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for follows, cheers, subs, and more!***](/en/Events/Twitch)
+- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Events for chat messages, memberships, and more!***](/en/Events/YouTube)
+{.btn-grid .my-5}
 
-* [General *Follows and Chat related events*](/Events/General)
-* [Cheers *Bit Cheer events*](/Events/Cheers)
-* [Sub *First time subscribers*](/Events/Sub)
-* [Re-Sub *Users renewing their own subscription*](/Events/Resub)
-* [Gift Sub *Gifting a subscription to a named person*](/Events/Gift-Sub)
-* [Gift Bomb *Gifting 1 or more subscriptions to random users*](/Events/Gift-Bomb)
-* [Raid *Incoming and Outgoing Raids*](/Events/Raid)
-* [Hosts *When a user starts hosting the channel*](/en/Events/hosts)
-* [Hype Train *When Hype Train Starts, Ends, Progresses or Levels up*](/Events/Hype-Train)
-* [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
-* [Stream Update *When the Stream Category or Title changes*](/Events/Stream-Update)
-{.links-list}
+## Broadcaster
+Events from your configured broadcasting software{.subtitle}
 
-***
-Events for `Polls` and `Predictions` are also supported but they are handled a little differently so they appear under the `Twitch` Tab
+- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Events for all changes within OBS Studio***](/en/Events/OBS)
+- [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>  **Streamlabs Desktop *Events for all changes within Streamlabs Desktop***](/en/Events/Streamlabs-Desktop)
+{.btn-grid .my-5}
 
-Details on these can be found in their own sections below
+## Integration
+Events from configured Streamer.bot [Integrations](/en/Integrations) {.subtitle}
 
-* [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Twitch/Polls)
-* [Predictions *Set up a 2 option prediction that users can gamble Twitch! channel points on the outcome*](/Twitch/Predictions) 
-{.links-list}
-
-
+- [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Donation &amp; merch events***](/en/Integrations/Streamlabs)
+- [<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/en/Integrations/StreamElements)
+- [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donation events***](/en/Integrations/Ko-Fi)
+- [<img src="/digital-patreon-logo_coral.png"/>**Patreon *Donation events***](/en/Integrations/Patreon)
+- [<img src="/donordrive.webp"/>**DonorDrive *Fundraiser donation events***](/en/Integrations/DonorDrive)
+- [<img src="https://streamer.bot/img/integrations/hyperate.png"/>**HypeRate.io *Heartrate events***](/en/Integrations/HypeRate-io)
+- [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate events***](/en/Integrations/Pulsoid)
+- [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donation events***](/en/Integrations/TipeeeStream)
+- [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery events***](/en/Integrations/TreatStream)
+- [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Decks *Deck button click events***](/en/Integrations/Streamer-bot)
+{.btn-grid .my-5}
