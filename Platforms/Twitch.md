@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-13T20:24:13.927Z
+date: 2022-07-13T20:24:27.491Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -40,9 +40,8 @@ Use this to pull a current list of available Twitch categories to be used as var
 
 For example, you could automatically change scenes in [OBS Studio](/en/Broadcasters/OBS) if your Twitch category is changed to a specific game.
 
----
     
 - [<i class="mdi mdi-chevron-left"></i>**Platforms *Go Back***](/en/Platforms)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Events *Up Next***](/en/Platforms/Twitch/Events)
-{.btn-grid .my-5}
+{.btn-grid .mt-10}
   
