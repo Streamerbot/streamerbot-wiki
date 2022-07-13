@@ -2,7 +2,7 @@
 title: Twitch
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-13T19:06:38.564Z
+date: 2022-07-13T19:50:41.446Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -30,13 +30,13 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 {.btn-grid .my-5}
 
 ## Channel Point Rewards
-- [Channel Point Rewards *Execute actions on point redemptions*](/Twitch/Channel-Point-Rewards)
+- [Channel Point Rewards *Execute actions on point redemptions*](/en/Platforms/Twitch/Channel-Point-Rewards)
 {.links-list}
 
 ## Polls
-- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls)
+- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/en/Platforms/Twitch/Polls)
 {.links-list}
 
 ## Predictions
-- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/Twitch/Predictions)
+- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/en/Platforms/Twitch/Predictions)
 {.links-list}
