@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-13T19:33:13.454Z
+date: 2022-07-13T19:33:26.400Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -31,7 +31,7 @@ Many of these will require at least Twitch affiliate status to utilize and some 
 * [Gift Sub *Gifting a subscription to a named person*](/Events/Gift-Sub)
 * [Gift Bomb *Gifting 1 or more subscriptions to random users*](/Events/Gift-Bomb)
 * [Raid *Incoming and Outgoing Raids*](/Events/Raid)
-* [Hosts *When a user starts hosting the channel*](/en/Events/hosts)
+* [Hosts *When a user starts hosting the channel*](/Events/hosts)
 * [Hype Train *When Hype Train Starts, Ends, Progresses or Levels up*](/Events/Hype-Train)
 * [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
 * [Stream Update *When the Stream Category or Title changes*](/Events/Stream-Update)
