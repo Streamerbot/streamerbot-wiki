@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-13T20:10:19.653Z
+date: 2022-07-13T20:25:53.150Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -36,4 +36,9 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 - [**Channel Point Rewards *Execute actions on point redemptions***](/en/Platforms/Twitch/Channel-Point-Rewards)
 - [**Polls *Integration with Twitch Polls***](/en/Platforms/Twitch/Polls)
 - [**Predictions *Integration with Twitch Predictions***](/en/Platforms/Twitch/Predictions)
+{.btn-grid .my-5}
+
+---
+- [<i class="mdi mdi-chevron-left"></i>**Twitch *Go Back***](/en/Platforms/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Sub-Actions *Up Next***](/en/Sub-Actions/Twitch)
 {.btn-grid .my-5}
