@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-07-13T15:20:52.757Z
+date: 2022-07-13T15:42:38.695Z
 tags: subactions, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -15,10 +15,18 @@ dateCreated: 2021-08-25T21:31:09.603Z
 {.btn-grid}
 
 # Overview
-Actions can be considered as containers for what to do, Sub-actions are the details of what that action does in order.
+
+Perhaps the most important piece of Streamer.bot, **Actions** are at the center of everything you do.
+
+**Actions** are configurable sets of [sub-actions](/en/Sub-Actions) that can be triggered by various event sources within the bot, such as [Commands](/en/Commands), [Events](/en/Events), and even [voice control](/en/Voice-Control)!
 
 ![actions-diagram.png](/assets/excalidraw/actions-diagram.png =800x)
 
+
+
+# Guide
+
+## The Action Pane
 Here you will setup all your primary actions (such as shout outs, subscriptions, cheers, animations, etc.)
 
 This window is split into 3 parts:
@@ -30,8 +38,7 @@ This window is split into 3 parts:
 
 ![actions-018.png](/actions-018.png)
 
-# Guide
-
+## Create a New Action
 To begin, <kbd>Right-Click</kbd> in the Actions pane to open the [context menu](/en/Actions#context-menu). 
 
 
@@ -44,19 +51,14 @@ See [Importing and Exporting Actions](/en/Actions/Importing-and-Exporting) for m
 {.is-success}
 
 
-## Name
-
+### Name
 The friendly name the action will be referred to in other areas of the bot
 
-
-
-## Group
-
+### Group
 You can optionally type or select a group name, this is used to organise similar actions into collapsible families to keep the interface clean if you have a large number of actions
 
 
-## Queues
-
+### Queue
 All actions in Streamer.bot must be assigned to an action `Queue`. Out of the box, the `Default` queue is confiigured as a `non-blocking` queue, meaning all actions sent to it will run immediately and will be allowed to execute concurrently, meaning they can overlap. Additional action queues can be configured in the [Action Queues](/en/Action-Queues) tab.
 
 > You will want to setup queues that your actions run through to keep them either separated, or to block each other (for instance, when some actions might interact with common elements in OBS). To learn more, see [Action Queues](/en/Settings/General)
@@ -64,11 +66,11 @@ All actions in Streamer.bot must be assigned to an action `Queue`. Out of the bo
 
 
 
-# Context Menu
+## Context Menu
 
 ![actions-context-018.png](/actions-context-018.png)
 
-## Action Options
+### Action Options
 
 <kbd>Right clicking</kbd> on an action reveals a number of options that can be applied to that specific action
 Option|Description|Notes
@@ -87,14 +89,14 @@ Option|Description|Notes
 `Expand All` | Shows all defined `Action Groups`
 
 ***
-# Sub Action Pane
+## Sub Action Pane
 
 <kbd>Right-clicking</kbd> anywhere in the Sub-Action pane will open up the context menu. This will show more options if a sub-action is selected 
 
 ![subaction-context-018.png](/subaction-context-018.png)
 
 
-## Context Menu Options
+### Context Menu Options
 ---|---
 `Add Sub-Action` | Opens the list of available sub-actions to add at the current position
 `Edit Sub-Action` | Opens the properties dialogue for the selected sub-action | This is the same as <kbd>double-clicking</kbd> on the sub-action
