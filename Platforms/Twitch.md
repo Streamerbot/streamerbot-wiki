@@ -1,8 +1,8 @@
 ---
 title: Twitch
-description:
+description: 
 published: true
-date: 2022-07-13T19:58:53.128Z
+date: 2022-07-13T20:12:45.016Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-25T21:34:42.553Z
 
 ![twitch-logo.png](/logos/twitch-logo.png){.align-abstopright}
 
-# Quick Links
+## Quick Links
 
 - [<i class="mdi mdi-creation text--twitch"></i> **Twitch Event Reference *Click here for the full list of all Twitch events and variables***](/en/Platforms/Twitch/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i> **Twitch Sub-Action Reference *Click here for the full list of all Twitch sub-actions***](/en/Sub-Actions/Twitch)
