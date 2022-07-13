@@ -2,7 +2,7 @@
 title: Set Enabled State
 description: Twitch Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-07-13T22:24:12.721Z
+date: 2022-07-13T22:24:34.650Z
 tags: twitch, subactions, channel-point-rewards
 editor: markdown
 dateCreated: 2021-11-02T04:11:44.953Z
@@ -29,5 +29,5 @@ No variables generated.
 
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Set Pause State *Up Next***](/en/Sub-Actions/Rewards/Set-Pause-State)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Set Paused State *Up Next***](/en/Sub-Actions/Rewards/Set-Paused-State)
 {.btn-grid .mt-10}
