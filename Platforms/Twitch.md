@@ -2,7 +2,7 @@
 title: Twitch
 description: 
 published: true
-date: 2022-07-13T19:48:58.469Z
+date: 2022-07-13T19:49:16.342Z
 tags: twitch, platforms
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -12,8 +12,8 @@ dateCreated: 2021-08-25T21:34:42.553Z
 
 # Quick Links
 
-- [<i class="mdi mdi-creation text--twitch"></i> **Twitch Event Reference *Click here for the full list of all Twitch events and variables***](/en/Events/YouTube)
-- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i> **Twitch Sub-Action Reference *Click here for the full list of all Twitch sub-actions***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-creation text--twitch"></i> **Twitch Event Reference *Click here for the full list of all Twitch events and variables***](/en/Events/Twitch)
+- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i> **Twitch Sub-Action Reference *Click here for the full list of all Twitch sub-actions***](/en/Sub-Actions/Twitch)
 {.btn-grid}
 
 # Overview
