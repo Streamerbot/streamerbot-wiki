@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-13T19:59:52.554Z
+date: 2022-07-13T20:10:19.653Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -14,7 +14,8 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 > Some Twitch events may require [Affiliate](https://help.twitch.tv/s/article/twitch-affiliate-program-faq) status and some may be unavailable if prohibited by local laws.
 {.is-info}
 
-## Twitch Events
+## Standard Twitch Events
+Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 
 - [**General *Follows & Chat related events***](/Events/General)
 - [**Cheers *Bit Cheer events***](/Events/Cheers)
@@ -29,14 +30,10 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 - [**Stream Update *When the Stream Category or Title changes***](/Events/Stream-Update)
 {.btn-grid .my-5}
 
-## Channel Point Rewards
-- [Channel Point Rewards *Execute actions on point redemptions*](/en/Platforms/Twitch/Channel-Point-Rewards)
-{.links-list}
+## Additional Event Types
+*These event sources each have their own configuration tabs* {.subtitle}
 
-## Polls
-- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/en/Platforms/Twitch/Polls)
-{.links-list}
-
-## Predictions
-- [Predictions *Allow your audience to gamble `Channel Points` on the outcome of an event*](/en/Platforms/Twitch/Predictions)
-{.links-list}
+- [**Channel Point Rewards *Execute actions on point redemptions***](/en/Platforms/Twitch/Channel-Point-Rewards)
+- [**Polls *Integration with Twitch Polls***](/en/Platforms/Twitch/Polls)
+- [**Predictions *Integration with Twitch Predictions***](/en/Platforms/Twitch/Predictions)
+{.btn-grid .my-5}
