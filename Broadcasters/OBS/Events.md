@@ -1,9 +1,9 @@
 ---
-title: Events
+title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: true
-date: 2022-07-03T21:08:27.141Z
-tags: 
+date: 2022-07-13T21:37:35.670Z
+tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
 ---
