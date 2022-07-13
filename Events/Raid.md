@@ -2,7 +2,7 @@
 title: Raids
 description: Events for Incoming and Outgoing Raids
 published: true
-date: 2022-06-30T20:36:55.299Z
+date: 2022-07-13T20:04:26.771Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -36,7 +36,7 @@ Streamer.bot can also perform actions when you are preparing to raid at the end 
 ### Start
 
 This triggers when the Raid command is first sent either from a `/raid` command in chat or from the Twitch! dashboard. 
-Streamer.bot will detect the destination username and populate the following [Variables](en/Variables#sending-a-raid) that can be used to drive on screen elements and chat messages
+Streamer.bot will detect the destination username and populate the following [Variables](/en/Variables#sending-a-raid) that can be used to drive on screen elements and chat messages
 
 ### Cancel
 
