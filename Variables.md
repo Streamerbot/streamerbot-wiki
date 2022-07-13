@@ -57,7 +57,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 ## Twitch
 - [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
-- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Twitch/Channel-Point-Rewards)
+- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Platforms/Twitch/Channel-Point-Rewards)
 - [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
 - [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
 - [Commercials](/en/Twitch/Ad-Run)
@@ -128,13 +128,13 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 ## [TreatStream](/en/Integrations/TreatStream)
 
 ### Treat Event
- 
+
 Details coming soon
 
 ## [Hype Rate](/en/Integrations/HypeRate-io)
 
 ### Heart Rate Event
- 
+
 | Variable | Description |
 |   ---:|-------------|
 | `measuredAt` | Time the measurement was taken |
@@ -152,17 +152,17 @@ Details coming soon
 ## [Donor Drive](/en/Integrations/DonorDrive)
 
 ### Donation
- 
+
 Details coming soon
 
 ### Profile Update
- 
+
 Details coming soon
 
 ## [Kofi](/en/Integrations/Kofi)
 
 ### Donation
- 
+
 This event is triggered when a donation happens through Kofi
 
 | Variable | Description |
@@ -176,7 +176,7 @@ This event is triggered when a donation happens through Kofi
 | `currency` | The currency of the donation |
 
 ### Subscription
- 
+
 This event is triggered when a donation happens through Kofi
 
 | Variable | Description |
@@ -190,7 +190,7 @@ This event is triggered when a donation happens through Kofi
 | `currency` | The currency of the donation |
 
 ### Resubscription
- 
+
 This event is triggered when a resubscription happens through Kofi
 
 | Variable | Description |
@@ -205,7 +205,7 @@ This event is triggered when a resubscription happens through Kofi
 | `tier` | The tier of the subscription |
 
 ### Shop Purchase
- 
+
 This event is triggered when a shop purchase happens through Kofi
 
 | Variable | Description |
@@ -221,7 +221,7 @@ This event is triggered when a shop purchase happens through Kofi
 | `item#` | The id of the item purchased, where # is the index of the item |
 
 ### Commissions
- 
+
 This event is triggered when a commission is purchased on Kofi
 
 | Variable | Description |
@@ -237,29 +237,29 @@ This event is triggered when a commission is purchased on Kofi
 ## [Patreon](/en/Integrations/Patreon)
 
 ### Follow Created
- 
+
 Details coming soon
 
 ### Follow Deleted
- 
+
 Details coming soon
 
 ### Pledge Created
- 
+
 Details coming soon
 
 ### Pledge Updated
- 
+
 Details coming soon
 
 ### Pledge Deleted
- 
+
 Details coming soon
 
 ## [streamer.bot](/en/Integrations/Streamer-bot)
 
 ### Deck Button
- 
+
 #### Variables
 | Variable | Description |
 |---------:|:------------|
@@ -286,9 +286,9 @@ Details coming soon
 
 | Value | Description |
 |   ---:|-------------|
-| `isLive` |Boolean for current streaming status |  `True`/`False` 
+| `isLive` |Boolean for current streaming status |  `True`/`False`
 
-| `isTest` |Boolean for if this is demo data or not |  `True`/`False` 
+| `isTest` |Boolean for if this is demo data or not |  `True`/`False`
 
 | `users` | A Dictionary list of usernames present in IRC chat
 
@@ -296,20 +296,20 @@ Details coming soon
 ### User Dictionary
 >
 > Each user entry will contain the following data:
-> 
-> 
+>
+>
 > | Value | Description | Notes
 > |   ---:|-------------|
 > | `id` | The Numeric ID of this user
 > | `userName` | The user name of this user
 > | `display` | The display name of this user
 > | `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
-> | `isSubscribed` | Boolean for this users subscription status |  `True`/`False` 
+> | `isSubscribed` | Boolean for this users subscription status |  `True`/`False`
 
 {.is-info}
 
 
-### Live Variables 
+### Live Variables
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
 
@@ -365,12 +365,12 @@ Any action triggered by Voice Control will have access to the following argument
 
 | Variable | Description |
 |---------:|:------------|
-`spokenText` | The full spoken phrase detected, *including the trigger phrase* 
+`spokenText` | The full spoken phrase detected, *including the trigger phrase*
 `spokenTextConfidence` | Voice Recognition confidence raw value
 `spokenTextConfidencePercent` | Confidence value as a percentage
-`altPhraseText#` | 
-`altPhraseConfidence#` | 
-`altPhraseConfidencePercent#` | 
+`altPhraseText#` |
+`altPhraseConfidence#` |
+`altPhraseConfidencePercent#` |
 `spokenTextInput` | Detected spoken phrase with trigger command stripped *v0.1.5+*{.version-badge} <br>(Only works with `Start` based commands)
 `spokenCommand` | Detected Trigger command *v0.1.5+*{.version-badge}
 
@@ -438,7 +438,7 @@ Variables that various [Sub-Actions](/Sub-Actions) can add to the argument stack
 
 ## [Get Follow Age](en/Sub-Actions/Twitch/Get-Follow-Age-for-Target)
 
-> Note if you are testing any of the Follow age variables, it will not work from the broadcaster account as you are unable to follow yourself. 
+> Note if you are testing any of the Follow age variables, it will not work from the broadcaster account as you are unable to follow yourself.
 Test it from the bot acocunt or any other Twitch! user
 {.is-info}
 
@@ -522,13 +522,13 @@ This subaction populates 2 variables with the custom name you specify, one as a 
 
 | Variable | Description |
 |---------:|:------------|
-| `commandState` | Boolean for command enabled state | `True`/`False` 
+| `commandState` | Boolean for command enabled state | `True`/`False`
 
 ## [Get Command Group State](/en/Sub-Actions/Commands#get-command-group-state)
 
 | Variable | Description |
 |---------:|:------------|
-| `commandGroupState` | Boolean for command group enabled state | `True`/`False` 
+| `commandGroupState` | Boolean for command group enabled state | `True`/`False`
 | `commandsEnabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
 | `commandsDisabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |
 
@@ -536,13 +536,13 @@ This subaction populates 2 variables with the custom name you specify, one as a 
 
 | Variable | Description |
 |---------:|:------------|
-| `actionState` | Boolean for action enabled state | `True`/`False` 
+| `actionState` | Boolean for action enabled state | `True`/`False`
 
 ## [Get Action Group State](/en/Sub-Actions/Actions#get-action-group-state)
 
 | Variable | Description |
 |---------:|:------------|
-| `actionGroupState` | Boolean for action group enabled state | `True`/`False` 
+| `actionGroupState` | Boolean for action group enabled state | `True`/`False`
 | `actionsEnabled` | A list of action IDs, of actions that are enabled |
 | `actionsDisabled` | A list of action IDs, of commands that are disabled |
 
@@ -555,7 +555,7 @@ OBS RAW allows bi-directional communication to and from OBS via the Websocket Pr
 https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md
 {.is-info}
 
-If OBS returns any information, Streamer.bot will store the entire JSON responce as an argument that can be queried by its Key values in the format 
+If OBS returns any information, Streamer.bot will store the entire JSON responce as an argument that can be queried by its Key values in the format
 
 `obsRaw.{path}`
 So for example if you needed the `status` variable from OBS it would be under `obsRaw.status`
@@ -570,9 +570,9 @@ At a minimum, the variable `obsRaw._json` should be populated with a json string
 ## Get Scene Item Properties
 
 This action populates all available variables for a given OBS source
-all variables will be in the format `props.***` 
+all variables will be in the format `props.***`
 
-e.g `props.visible` will return `True` if the source is showing. This can then be used in an IF statement in the same action for example. 
+e.g `props.visible` will return `True` if the source is showing. This can then be used in an IF statement in the same action for example.
 
 
 ## Timeout User

@@ -1,6 +1,6 @@
 ---
 title: Twitch
-description: 
+description:
 published: true
 date: 2022-07-13T19:49:16.342Z
 tags: twitch, platforms
@@ -18,7 +18,7 @@ dateCreated: 2021-08-25T21:34:42.553Z
 
 # Overview
 
-Streamer.bot can integrate directly with Twitch! to bring a new level of interactivity to your stream. Details on how to configure your accounts and the different options available to you through the platform will be detailed on their own pages linked below. 
+Streamer.bot can integrate directly with Twitch! to bring a new level of interactivity to your stream. Details on how to configure your accounts and the different options available to you through the platform will be detailed on their own pages linked below.
 
 # Account Configuration
 
@@ -26,7 +26,7 @@ Streamer.bot can integrate directly with Twitch! to bring a new level of interac
 {.links-list}
 
 # Events
-Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them. 
+Streamer.bot constantly listens for various events while connected to a Twitch account and can perform an action for each of them.
 
 Many of these will require at least Twitch affiliate status to utilize and some may be unavailable if prohibited by local laws.
 
@@ -44,11 +44,11 @@ Many of these will require at least Twitch affiliate status to utilize and some 
 {.links-list}
 
 # Channel Point Rewards
-- [Channel Point Rewards *Execute actions on point redemptions*](/Platforms/Twitch/Channel-Point-Rewards)
+- [Channel Point Rewards *Execute actions on point redemptions*](/en/Platforms/Twitch/Channel-Point-Rewards)
 {.links-list}
 
 # Polls
-- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls) 
+- [Polls *Allow your audience to spend `Channel Points` and `Bits` to vote for 2-5 options*](/Twitch/Polls)
 {.links-list}
 
 # Predictions
