@@ -37,10 +37,10 @@ Twitch channel &amp; stream management{.subtitle}
 Fetch information about specific users{.subtitle}
 
 - [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/en/Sub-Actions/Twitch/Get-Follow-Age)
--  [<i class="mdi mdi-account text--twitch"></i>**Get User Info for Target *Populate variables with specified user information***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
--  [<i class="mdi mdi-account text--twitch"></i>**Add Broadcaster Information *Populate variables related to the Broadcaster account***](/en/Sub-Actions/Twitch/Add-Broadcaster-Information){.disabled}
--  [<i class="mdi mdi-account text--twitch"></i>**Get Team Info For Target *Populate variables related to the teams a named user is part of***](/en/Sub-Actions/Twitch/Get-Team-Info-For-Target){.disabled}
--  [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users)
+- [<i class="mdi mdi-account text--twitch"></i>**Get User Info for Target *Populate variables with specified user information***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
+- [<i class="mdi mdi-account text--twitch"></i>**Add Broadcaster Information *Populate variables related to the Broadcaster account***](/en/Sub-Actions/Twitch/Add-Broadcaster-Information){.disabled}
+- [<i class="mdi mdi-account text--twitch"></i>**Get Team Info For Target *Populate variables related to the teams a named user is part of***](/en/Sub-Actions/Twitch/Get-Team-Info-For-Target){.disabled}
+- [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users)
 {.btn-grid .my-5}
 
 ---
