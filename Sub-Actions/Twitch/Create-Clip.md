@@ -2,7 +2,7 @@
 title: Create Clip
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-14T16:42:04.851Z
+date: 2022-07-14T16:42:34.483Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-11-02T04:15:59.794Z
@@ -27,7 +27,7 @@ No configuration required.
 ## Variables
 The following variables will be available after execution of this sub-action:
 
-| Variable | Description |
+| Name | Description |
 | -------------:|:------|
 | `createClipSuccess` | Boolean result of the request <br> `True/False`{.small}
 | `createClipId` | String identifier of the created clip <br> `StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`{.small}
