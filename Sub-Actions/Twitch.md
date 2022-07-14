@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-12T08:24:10.953Z
+date: 2022-07-14T17:47:25.589Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -40,7 +40,7 @@ Fetch information about specific users{.subtitle}
 - [<i class="mdi mdi-account text--twitch"></i>**Get User Info for Target *Populate variables with specified user information***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
 - [<i class="mdi mdi-account text--twitch"></i>**Add Broadcaster Information *Populate variables related to the Broadcaster account***](/en/Sub-Actions/Twitch/Add-Broadcaster-Information){.disabled}
 - [<i class="mdi mdi-account text--twitch"></i>**Get Team Info For Target *Populate variables related to the teams a named user is part of***](/en/Sub-Actions/Twitch/Get-Team-Info-For-Target){.disabled}
-- [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users)
+- [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users){.disabled}
 {.btn-grid .my-5}
 
 ---
