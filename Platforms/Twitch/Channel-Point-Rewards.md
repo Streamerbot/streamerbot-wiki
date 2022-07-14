@@ -2,15 +2,13 @@
 title: Channel Point Rewards
 description: 
 published: true
-date: 2022-06-30T20:59:48.205Z
+date: 2022-07-14T17:37:59.327Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
 ---
 
 # Overview
-
-![Channel Point Rewards](/119644643-00af2100-be15-11eb-87c8-a271f08e41b8.png)
 
 **Streamer.bot** can automatically execute [Actions](/Actions) when a Channel Point Reward is redeemed
 
@@ -68,16 +66,19 @@ By default this clears when the application is closed but the following options 
 
 # Variables
 
+The following variables will be available after a channel point redemption:
+
 Variable | Description
 ---------:|------------
-`redemptionId` | Twitch's internal ID for the redemption (used to refund reward)
-`rewardId` | Twitch's internal ID of the reward
-`rewardName` | Name of the reward
-`counter` | How many times the reward has been redeemed
-`userCounter` | How many times the user has redeemed the reward
-`rawInput` | The text a user entered if input was required
-`rawInputEscaped` | The text a user entered but escaped
+`redemptionId` | String identifier for this redemption (used to refund reward) <br> `4d9f236b-7486-481a-89af-1d03676d5275`
+`rewardId` | String identifier for this reward <br> `44e86f71-8ace-4739-a123-3ff095489343`
+`rewardName` | Name of the reward <br> `My Reward`
+`counter` | Number of times this reward has been redeemed <br> `1`
+`userCounter` | Number of times the same user has redeemed this reward <br> `1`
+`rawInput` | String text entered by the user (if required) <br> `https://streamer.bot/en/Test Unescaped Text $$$`
+`rawInputEscaped` | String text entered by the user (escaped) <br> `https://streamer\.bot/en/Test Escaped Text \$\$\$`
 `input<x>` | Single words from the `rawInput` using spaces as delimiters, this will populate consecutive variables starting at `input0` 
-`rewardCost` | The channel point cost of the redeemed reward <span style="color:blue">*(0.15+)*</span>
-`rewardPrompt` | The verbiage shown on the channel point description <span style="color:blue">*(0.15+)*</span>
+`rewardCost` | The channel point cost of the redeemed reward *v0.1.5+*{.version-badge}  <br> `100`
+`rewardPrompt` | The verbiage shown on the channel point description *v0.1.5+*{.version-badge} <br> `My cool Reward Prompt`
+{.vars-table}
 ***
