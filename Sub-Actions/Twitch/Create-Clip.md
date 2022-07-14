@@ -2,7 +2,7 @@
 title: Create Clip
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-14T16:34:45.369Z
+date: 2022-07-14T16:42:04.851Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-11-02T04:15:59.794Z
@@ -29,10 +29,10 @@ The following variables will be available after execution of this sub-action:
 
 | Variable | Description |
 | -------------:|:------|
-| `createClipSuccess` | Boolean result of the request <br> `True`/`False`
-| `createClipId` | String identifier of the created clip <br> `StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`
-| `createClipCreatedAt` | Timestamp of clip creation <br> `7/11/2022 3:01:53 AM`
-| `createClipUrl` | Full URL to the created clip <br>  `https://clips.twitch.tv/embed?clip=StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`
+| `createClipSuccess` | Boolean result of the request <br> `True/False`{.small}
+| `createClipId` | String identifier of the created clip <br> `StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`{.small}
+| `createClipCreatedAt` | Timestamp of clip creation <br> `7/11/2022 3:01:53 AM`{.small}
+| `createClipUrl` | Full URL to the created clip <br>  `https://clips.twitch.tv/embed?clip=StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`{.small}
 
     
 - [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
