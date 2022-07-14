@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: 
 published: true
-date: 2022-07-14T17:43:31.076Z
+date: 2022-07-14T17:44:54.217Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -23,7 +23,7 @@ You can also `Add` and `Delete` rewards directly from the application.
 
 # Guide
 
-To create a new reward Right-Click in the empty space and click `Add`
+To create a new reward <kbd>Right-Click</kbd> inside the Channel Point Rewards panel and click `Add`
 
 ![New Channel Point Reward](/119646229-d4949f80-be16-11eb-806f-8dca85bdce45.png)
 
