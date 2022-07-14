@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-07-14T18:00:30.407Z
+date: 2022-07-14T18:01:56.984Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -49,5 +49,5 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions Reference *List of all sub-actions performed by Streamer.bot***](/en/Sub-Actions)
 - [<i class="mdi mdi-creation primary--text"></i> **Events Reference *List of all events in Streamer.bot***](/en/Events)
 - [<i class="mdi mdi-comment primary--text"></i> **Commands *Learn how to configure chat commands***](/en/Commands)
-- [<i class="mdi mdi-chevron-right primary--text"></i> **Integrations *List of available integrations***](/en/Integrations)
+- [<i class="mdi mdi-view-grid-plus primary--text"></i> **Integrations *List of available integrations***](/en/Integrations)
 {.btn-grid .my-5}
