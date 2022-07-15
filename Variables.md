@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T17:41:24.404Z
+date: 2022-07-15T17:49:33.927Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -53,6 +53,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 # Variable Sources
 - [<i class="mdi mdi-variable-box primary--text"></i> **Generic Variables *Available to most triggers automatically***](/en/Variables/Generic)
 - [<i class="mdi mdi-creation primary--text"></i> **Events *All events and their associated variables***](/en/Events)
+- [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Some sub-actions will also generate variables***](/en/Sub-Actions)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/en/Commands)
 - [<i class="mdi mdi-triangle-outline primary--text"></i> **Pyramids *Variables related to chat pyramids***](/en/Settings/Pyramids)
 - [<i class="mdi mdi-file-document-multiple primary--text"></i> **File/Folder Watcher *Variables from monitored files & folders***](/en/Settings/File-Folder-Watcher)
@@ -64,6 +65,7 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 
 > **WORK IN PROGRESS**
 > wee woo wee woo wee woo
+> everything below this is getting removed
 {.is-warning}
 
 # App Features
@@ -167,8 +169,7 @@ If a cooldown action is set, and the command is in cooldown, the following varia
 
 
 # Sub-Actions
-
-Variables that various [Sub-Actions](/Sub-Actions) can add to the argument stack
+Some [Sub-Actions](/Sub-Actions) will also add variables to the argument stack{.subtitle}
 
 ## [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
 
@@ -301,35 +302,6 @@ This subaction populates 2 variables with the custom name you specify, one as a 
 | `actionGroupState` | Boolean for action group enabled state | `True`/`False`
 | `actionsEnabled` | A list of action IDs, of actions that are enabled |
 | `actionsDisabled` | A list of action IDs, of commands that are disabled |
-
-
-## [OBS Raw](/en/Sub-Actions/OBS/Raw)
-
-OBS RAW allows bi-directional communication to and from OBS via the WebSocket Protocol
-
-> Protocols supported will depend on which version of Websocket you have installed, current references can be found here that lists all possible commands and the variables those commands expect
-https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md
-{.is-info}
-
-If OBS returns any information, Streamer.bot will store the entire JSON responce as an argument that can be queried by its Key values in the format
-
-`obsRaw.{path}`
-So for example if you needed the `status` variable from OBS it would be under `obsRaw.status`
-
-Exact variables available will depend on the request sent but as an example, if a `GetSceneItemProperties` request was sent, all the following data should be available
-
-![obs-raw-example.png](/obs-raw-example.png)
-
-At a minimum, the variable `obsRaw._json` should be populated with a json string of the entire response from OBS.
-
-
-## Get Scene Item Properties
-
-This action populates all available variables for a given OBS source
-all variables will be in the format `props.***`
-
-e.g `props.visible` will return `True` if the source is showing. This can then be used in an IF statement in the same action for example.
-
 
 ## Timeout User
 
