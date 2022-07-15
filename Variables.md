@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-13T20:02:46.539Z
+date: 2022-07-15T16:34:20.189Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -10,18 +10,17 @@ dateCreated: 2021-08-25T21:34:50.460Z
 
 # Overview
 
-All events in [Streamer.bot](/) will generate an argument stack specific to that event source, providing variable data to the action being called.
+All [events](/en/Events) in Streamer.bot will generate an **argument stack** specific to that event source, providing variable data to the action being called.
 
 Below is a quick reference of the arguments available to use in your [Sub-Actions](/Sub-Actions) and a description of their function.
 
-Most general use triggers will have all generic arguemnts listed, any exceptions will be listed on the page detailing that function.
+Most events will always include all generic arguments in addition to their own documented variables. Any exceptions will be listed on the page detailing that function.
 
-Events and sub-actions will add additional arguments to the stack but these are too numerous to list in one place so they will be detailed on the pages that cover those functions and will be hyperlinked.
+**This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility.**
 
-
-This list is not exhaustive and some variables may work with sub-actions / events even though they do not specifically state compatibility.
-
-**If an action is not covered here yet, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see all variables available to you.**
+> **NOTE**
+> If an event is not documented, you can always use [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments) in a sub-action to see all variables available to you.
+{.is-info}
 
 
 ## Tips
