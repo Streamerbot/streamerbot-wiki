@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:13:23.360Z
+date: 2022-07-15T18:14:40.599Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -66,14 +66,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 {.is-warning}
 
 # App Features
-
-## Pyramids
-
-| Value | Description |
-|   ---:|-------------|
-| `totalPyramids` | The total number of pyramids this user has made
-| `pyramidEmote` | The emote that completed the pyramid
-| `pyramidWidth` | The pyramid width
 
 
 ## [Sub Counter](/en/Settings#sub-counter)
