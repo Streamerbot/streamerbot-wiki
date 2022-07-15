@@ -2,15 +2,14 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2022-07-15T19:13:47.145Z
+date: 2022-07-15T19:26:49.817Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
 ---
 
 # Overview
-
-Generic variables are available to most event sources, so consider these the minimum you can use. Other sources will expand on these with variables specific to that event or sub-action
+Generic variables are always available to most event sources, so consider these the bare minimum you can use in your [sub-actions](/en/Sub-Actions)
 
 # Variables
 
