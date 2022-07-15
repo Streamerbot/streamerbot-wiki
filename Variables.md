@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T16:44:56.374Z
+date: 2022-07-15T17:05:14.856Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -56,225 +56,14 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 * [Broadcaster *Variables related to the Twitch account configured as `Broadcaster` *v0.1.5+*{.version-badge}*](/en/Variables/Broadcaster)
 {.links-list}
 
+# Variable Sources
+- [<i class="mdi mdi-creation primary--text"></i> **Events *Reference of all Streamer.bot events***](/en/Events)
+- [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Reference of all Streamer.bot sub-actions***](/en/Sub-Actions)
+{.btn-grid .my-5}
 
-# Platforms
-
-## Twitch
-- [Announcement *When an `Announcement` is broadcast in your channel from any source*](/en/Twitch/Announcement)
-- [Channel Reward Redemption *When a user redeems a configured Twitch! channel point reward*](/en/Platforms/Twitch/Channel-Point-Rewards)
-- [Chat Message *When any chat message is recieved that does not contain a command*](/en/Events/General#chat-message-whispers-first-words)
-- [Cheers *When any chat message is recieved that contains bit cheermotes*](/en/Events/Cheers)
-- [Commercials](/en/Twitch/Ad-Run)
-- [Community Goal *Whenever a user contributes to an active goal or one is ended*](/en/Events/Community-Goal)
-- [First Words *The first message a particular user sends to chat within the `Auto Reset` window*](/en/Events/General#chat-message-whispers-first-words)
-- [Follow *When someone follows your channel*](/en/Events/General#follow)
-- [Gift Bombs *When a user purchases one or more subscriptions for **random** recipients*](/en/Events/Gift-Bomb)
-- [Gift Subscriptions *When a user purchases a subscription for a specific **named** recipient*](/Events/Gift-Sub)
-- [Hosts *When a user begins hosting your channel*](/en/Events/hosts)
-- [Hype Trains *Whenever a Hype Train is `Started`, `Ends` or is `Progressed`*](/en/Events/Hype-Train)
-- [Message Deleted *When a single message is deleted in your chat*](/en/Events/General#message-deleted)
-- [Polls *When a Twitch Poll is `Created`, `Ended` or `Updated`*](/en/Platforms/Twitch/Polls)
-- [Predictions *When a Twitch Prediction is `Created`, `Updated`, `Locked`, `Resolved` or `Canceled`*](/Platforms/Twitch/Predictions)
-- [Present Viewers *Triggers automatically every 5 minutes*](/en/Events/General#present-viewers)
-- [Raids *When a user brings a raid into your channel or when you raid another user*](/en/Events/Raid)
-- [Stream Update *Whenever the `Title` or `Category` of your stream is changed*](/en/Events/Stream-Update)
-- [Subscriptions & Re-Subs *When someone subscribes or resubscribes to your channel themselves*](/en/Events/Sub)
-- [User Banned *When a user is banned from your channel*](/en/Events/General)
-- [User Timed Out *When a user is timed out in your channel*](/en/Events/General)
-- [Whispers *When someone whispers your broadcaster account directly and does not contain a command*](/en/Events/General)
-{.links-list}
-
-
-## YouTube
-
-- [Broadcast Started](/en/Platforms/YouTube/Events#broadcast-started)
-- [Broadcast Ended](/en/Platforms/YouTube/Events#broadcast-ended)
-- [Message](/en/Platforms/YouTube/Events#message)
-- [User Banned](/en/Platforms/YouTube/Events#user-banned)
-- [Super Chat](/en/Platforms/YouTube/Events#super-chat)
-- [Super Sticker](/en/Platforms/YouTube/Events#super-sticker)
-- [Sponsor](/en/Platforms/YouTube/Events#sponsor)
-- [Member Milestone](/en/Platforms/YouTube/Events#member-milestone)
-- [Sponsor Only Mode Started](/en/Platforms/YouTube/Events#sponsor-only-mode-started)
-- [Sponsor Only Mode Ended](/en/Platforms/YouTube/Events#sponsor-only-mode-ended)
-- [Membership Gifting](/en/Platforms/YouTube/Events#membership-gifting)
-- [Gift Membership Received](/en/Platforms/YouTube/Events#gift-membership-received)
-- [Statistics Updated](/en/Platforms/YouTube/Events#statistics-updated)
-- [Broadcast Update](/en/Platforms/YouTube/Events#broadcast-update)
-{.links-list}
-
-# Integrations
-
-## StreamElements
-
-- [Tips / Donations *Tips received through StreamElements*](/en/Integrations/StreamElements#tips-donations)
-- [Merchandise *Merchandise item purchased through StreamElements *v0.1.8+*{.version-badge}*](/en/Integrations/StreamElements#merch)
-{.links-list}
-
-## Streamlabs
-
-- [Tips / Donations *Tips received through Streamlabs*](/en/Integrations/Streamlabs#donations)
-- [Merchandise *Merchandise item purchased through Streamlabs*](/en/Integrations/Streamlabs#merchandise)
-{.links-list}
-
-## [TipeeeStream](/en/Integrations/TipeeeStream)
-
-### Donation
-
-| Variable | Description |
-|---------:|:------------|
-`tipUsername` | Who the donation was from, as the user filled out
-`tipAvatar` | Avatar of the user
-`tipAmount` | The amount of the tip (decimal value)
-`tipCurrency` | 3 letter curency code
-`tipMessage` | Any donation message the user may have included
-
-## [TreatStream](/en/Integrations/TreatStream)
-
-### Treat Event
-
-Details coming soon
-
-## [Hype Rate](/en/Integrations/HypeRate-io)
-
-### Heart Rate Event
-
-| Variable | Description |
-|   ---:|-------------|
-| `measuredAt` | Time the measurement was taken |
-| `heartRate` | Heart Rate value |
-
-## [Pulsoid](/en/Integrations/Pulsoid)
-
-### Heart Rate Event
-
-| Variable | Description |
-|   ---:|-------------|
-| `measuredAt` | Time the measurement was taken |
-| `heartRate` | Heart Rate value |
-
-## [Donor Drive](/en/Integrations/DonorDrive)
-
-### Donation
-
-Details coming soon
-
-### Profile Update
-
-Details coming soon
-
-## [Kofi](/en/Integrations/Kofi)
-
-### Donation
-
-This event is triggered when a donation happens through Kofi
-
-| Variable | Description |
-|   ---:|-------------|
-| `messageId` | Kofi's internal ID |
-| `timestamp` | Timestamp of when the event occured |
-| `from` | Username of who triggered the event |
-| `isPublic` | True/False of whether or not the message should be shared publicly |
-| `message` | Message the user left |
-| `amount` | The amount donated |
-| `currency` | The currency of the donation |
-
-### Subscription
-
-This event is triggered when a donation happens through Kofi
-
-| Variable | Description |
-|   ---:|-------------|
-| `messageId` | Kofi's internal ID |
-| `timestamp` | Timestamp of when the event occured |
-| `from` | Username of who triggered the event |
-| `isPublic` | True/False of whether or not the message should be shared publicly |
-| `message` | Message the user left |
-| `amount` | The amount donated |
-| `currency` | The currency of the donation |
-
-### Resubscription
-
-This event is triggered when a resubscription happens through Kofi
-
-| Variable | Description |
-|   ---:|-------------|
-| `messageId` | Kofi's internal ID |
-| `timestamp` | Timestamp of when the event occured |
-| `from` | Username of who triggered the event |
-| `isPublic` | True/False of whether or not the message should be shared publicly |
-| `message` | Message the user left |
-| `amount` | The subscription amount |
-| `currency` | The currency of the subscription |
-| `tier` | The tier of the subscription |
-
-### Shop Purchase
-
-This event is triggered when a shop purchase happens through Kofi
-
-| Variable | Description |
-|   ---:|-------------|
-| `messageId` | Kofi's internal ID |
-| `timestamp` | Timestamp of when the event occured |
-| `from` | Username of who triggered the event |
-| `isPublic` | True/False of whether or not the message should be shared publicly |
-| `message` | Message the user left |
-| `amount` | The amount of the purchase |
-| `currency` | The currency of the purchase |
-| `itemCount` | The currency of the donation |
-| `item#` | The id of the item purchased, where # is the index of the item |
-
-### Commissions
-
-This event is triggered when a commission is purchased on Kofi
-
-| Variable | Description |
-|   ---:|-------------|
-| `messageId` | Kofi's internal ID |
-| `timestamp` | Timestamp of when the event occured |
-| `from` | Username of who triggered the event |
-| `isPublic` | True/False of whether or not the message should be shared publicly |
-| `message` | Message the user left |
-| `amount` | The commission amount |
-| `currency` | The currency of the commission |
-
-## [Patreon](/en/Integrations/Patreon)
-
-### Follow Created
-
-Details coming soon
-
-### Follow Deleted
-
-Details coming soon
-
-### Pledge Created
-
-Details coming soon
-
-### Pledge Updated
-
-Details coming soon
-
-### Pledge Deleted
-
-Details coming soon
-
-## [streamer.bot](/en/Integrations/Streamer-bot)
-
-### Deck Button
-
-#### Variables
-| Variable | Description |
-|---------:|:------------|
-| `streamerbotUserId` | The streamer.bot user ID |
-| `streamerbotUserDiscordId` | The discord ID of the redeemer |
-| `streamerbotUserUsername` | The username of the redeemer |
-| | Your own inputted variables on the decks |
 
 # App Features
 
-# {.tabset}
 ## Pyramids
 
 | Value | Description |
@@ -298,19 +87,16 @@ Details coming soon
 
 
 ### User Dictionary
->
-> Each user entry will contain the following data:
->
->
-> | Value | Description | Notes
-> |   ---:|-------------|
-> | `id` | The Numeric ID of this user
-> | `userName` | The user name of this user
-> | `display` | The display name of this user
-> | `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
-> | `isSubscribed` | Boolean for this users subscription status |  `True`/`False`
 
-{.is-info}
+Each user entry will contain the following data:
+
+| Value | Description | Notes
+|   ---:|-------------|
+| `id` | The Numeric ID of this user
+| `userName` | The user name of this user
+| `display` | The display name of this user
+| `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
+| `isSubscribed` | Boolean for this users subscription status |  `True`/`False`
 
 
 ### Live Variables
@@ -553,7 +339,7 @@ This subaction populates 2 variables with the custom name you specify, one as a 
 
 ## [OBS Raw](/en/Sub-Actions/OBS/Raw)
 
-OBS RAW allows bi-directional communication to and from OBS via the Websocket Protocol
+OBS RAW allows bi-directional communication to and from OBS via the WebSocket Protocol
 
 > Protocols supported will depend on which version of Websocket you have installed, current references can be found here that lists all possible commands and the variables those commands expect
 https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md
