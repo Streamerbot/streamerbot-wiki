@@ -2,7 +2,7 @@
 title: Broadcaster
 description: 
 published: true
-date: 2022-07-03T18:05:08.163Z
+date: 2022-07-15T23:33:19.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:56:05.373Z
@@ -13,7 +13,7 @@ dateCreated: 2022-07-01T17:56:05.373Z
 If Twitch is connected, actions will have the following five variables available to them
 
 *v0.1.5-v0.1.7*{.version-badge} This functionality is automatic
-*v0.1.8+*{.version-badge} Requires the [Add Broadcaster Information](/en/Sub-Actions) sub-action because YouTube integrtion was added
+*v0.1.8+*{.version-badge} Requires the [Add Broadcaster Information](/en/Sub-Actions) sub-action because YouTube integration was added
 
 | Variable | Description | Notes
 |   ---:|-------------|
