@@ -2,7 +2,7 @@
 title: Timeout User
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:43:45.026Z
+date: 2022-07-15T18:56:38.003Z
 tags: twitch, subactions, timeout
 editor: markdown
 dateCreated: 2021-08-25T21:34:21.886Z
@@ -35,13 +35,16 @@ If checked, channel moderators will be immune to this [sub-action](Sub-Actions)
 Enter any text to give as the reason for this timeout.
 
 ## Variables
-No variables generated.
+
+> **TODO: review these docs :D**
+{.is-warning}
+
+| Name | Description |
+|---------:|:------------|
+| `timedoutUser0` | The username of the user currently timed out
+| `timedoutUserName0` | The display name of the user currently timed out
 
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Run Commercial *Up Next***](/en/Sub-Actions/Twitch/Run-Commercial)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Run Commercial *Up Next***](/en/Sub-Actions/Twitch/Run-Commercial)
+{.btn-grid .my-5}
