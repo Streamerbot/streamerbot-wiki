@@ -237,6 +237,9 @@ h6::after {
   font-size: 2rem;
   width: auto;
 }
+.v-main .contents .small {
+  font-size: 0.75em;
+}
 
 /* grid layout */
 .overview-grid {
@@ -355,4 +358,9 @@ h6::after {
 }
 .text--patreon {
   color: #ff6871;
+}
+
+/* tables */
+#root .v-main .contents .vars-table tr > td:nth-child(2) code {
+  font-size: 0.75em;
 }
