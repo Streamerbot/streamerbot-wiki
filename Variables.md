@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T17:05:14.856Z
+date: 2022-07-15T17:27:47.120Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -50,15 +50,16 @@ Similarly, `%time%` can formatted in short notation with AM/PM using the followi
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 
 
-# General
-
-* [Generic *Available to most triggers automatically*](/en/Variables/Generic)
-* [Broadcaster *Variables related to the Twitch account configured as `Broadcaster` *v0.1.5+*{.version-badge}*](/en/Variables/Broadcaster)
-{.links-list}
-
 # Variable Sources
-- [<i class="mdi mdi-creation primary--text"></i> **Events *Reference of all Streamer.bot events***](/en/Events)
-- [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Reference of all Streamer.bot sub-actions***](/en/Sub-Actions)
+- [<i class="mdi mdi-variable-box primary--text"></i> **Generic Variables *Available to most triggers automatically***](/en/Variables/Generic)
+- [<i class="mdi mdi-creation primary--text"></i> **Events *All events and their associated variables***](/en/Events)
+- [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/en/Commands)
+- [<i class="mdi mdi-triangle-outline primary--text"></i> **Pyramids *Variables related to chat pyramids***](/en/Settings/Pyramids)
+- [<i class="mdi mdi-file-document-multiple primary--text"></i> **File/Folder Watcher *Variables from monitored files & folders***](/en/Settings/File-Folder-Watcher)
+- [<i class="mdi mdi-account-heart primary--text"></i> **Sub Counter *Variables from sub counter settings***](/en/Settings/Sub-Counter)
+- [<i class="mdi mdi-comment-quote primary--text"></i> **Quotes *Variables from the built-in `!quote` command***](/en/Settings/Sub-Counter)
+- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Settings/Sub-Counter)
+- [<i class="mdi mdi-twitch text--twitch"></i> **Broadcaster *Variables related to the Twitch broadcaster account*  *v0.1.5 - 0.1.7*{.version-badge}**](/en/Variables/Broadcaster)
 {.btn-grid .my-5}
 
 
@@ -72,44 +73,6 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 | `pyramidEmote` | The emote that completed the pyramid
 | `pyramidWidth` | The pyramid width
 
-
-
-
-## [Present Viewers](/en/Events/General)
-
-| Value | Description |
-|   ---:|-------------|
-| `isLive` |Boolean for current streaming status |  `True`/`False`
-
-| `isTest` |Boolean for if this is demo data or not |  `True`/`False`
-
-| `users` | A Dictionary list of usernames present in IRC chat
-
-
-### User Dictionary
-
-Each user entry will contain the following data:
-
-| Value | Description | Notes
-|   ---:|-------------|
-| `id` | The Numeric ID of this user
-| `userName` | The user name of this user
-| `display` | The display name of this user
-| `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
-| `isSubscribed` | Boolean for this users subscription status |  `True`/`False`
-
-
-### Live Variables
-
-If `isLive` is `True` the following variables will also be populated on each tick of the event:
-
-| Value | Description |
-|   ---:|-------------|
-| `title` | The current stream title
-| `gameID` | The ID of the category you are streaming
-| `gameName` | The name of the category you are streaming
-| `viewerCount` | Viewer count at the time of the tick
-| `startedAt` | The time stamp when you started streaming
 
 ## [File/Folder Watcher](/en/Settings#filefolder-watcher)
 
