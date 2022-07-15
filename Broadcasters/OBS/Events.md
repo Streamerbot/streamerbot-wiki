@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:05:08.776Z
+date: 2022-07-15T15:09:49.464Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -24,6 +24,8 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Other/Exiting)
 * [**PreviewSceneChanged *The selected preview scene has changed in Studio Mode***](/en/Broadcasters/OBS/Events/Studio-Mode/PreviewSceneChanged)
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
+* [**ProfileChanged *Triggered when switching to another profile or when renaming the current profile***](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
+* [**ProfileListChanged *Triggered when a profile is created, added, renamed, or removed***](/en/Broadcasters/OBS/Events/Profiles/ProfileListChanged)
 {.btn-grid}
 
 ## Stream
@@ -61,38 +63,21 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 {.btn-grid}
 
 ## Transition
-* [SwitchTransition](/en/Broadcasters/OBS/Events/Transitions/SwitchTransition)
-* [TransitionListChanged](/en/Broadcasters/OBS/Events/Transitions/TransitionListChanged)
-* [TransitionDurationChanged](/en/Broadcasters/OBS/Events/Transitions/TransitionDurationChanged)
-* [TransitionBegin](/en/Broadcasters/OBS/Events/Transitions/TransitionBegin)
-* [TransitionEnd](/en/Broadcasters/OBS/Events/Transitions/TransitionEnd)
-* [TransitionVideoEnd](/en/Broadcasters/OBS/Events/Transitions/TransitionVideoEnd)
-{.btn-grid}
-
-## Profile
-* [ProfileChanged](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
-* [ProfileListChanged](/en/Broadcasters/OBS/Events/Profiles/ProfileListChanged)
-{.btn-grid}
-
-## Virtual Cam
-* [VirtualCamStarted](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
-* [VirtualCamStopped](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
-{.btn-grid}
-
-## Replay Buffer
-* [ReplayStarting](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
-* [ReplayStarted](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
-* [ReplayStopping](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
-* [ReplayStopped](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
+* [**SwitchTransition *The active transition has been changed***](/en/Broadcasters/OBS/Events/Transitions/SwitchTransition)
+* [**TransitionListChanged *The list of available transitions has been modified. Transitions have been added, removed, or renamed***](/en/Broadcasters/OBS/Events/Transitions/TransitionListChanged)
+* [**TransitionDurationChanged *The active transition duration has been changed***](/en/Broadcasters/OBS/Events/Transitions/TransitionDurationChanged)
+* [**TransitionBegin *A transition (other than "cut") has begun***](/en/Broadcasters/OBS/Events/Transitions/TransitionBegin)
+* [**TransitionEnd *A transition (other than "cut") has ended***](/en/Broadcasters/OBS/Events/Transitions/TransitionEnd)
+* [**TransitionVideoEnd *A stinger transition has finished playing its video***](/en/Broadcasters/OBS/Events/Transitions/TransitionVideoEnd)
 {.btn-grid}
 
 ## Source
-* [SourceCreated](/en/Broadcasters/OBS/Events/Sources/SourceCreated)
-* [SourceDestroyed](/en/Broadcasters/OBS/Events/Sources/SourceDestroyed)
-* [SourceVolumeChanged](/en/Broadcasters/OBS/Events/Sources/SourceVolumeChanged)
-* [SourceMuteStateChanged](/en/Broadcasters/OBS/Events/Sources/SourceMuteStateChanged)
-* [SourceAudioDeactivated](/en/Broadcasters/OBS/Events/Sources/SourceAudioDeactivated)
-* [SourceAudioActivated](/en/Broadcasters/OBS/Events/Sources/SourceAudioActivated)
+* [**SourceCreated *A source has been created***](/en/Broadcasters/OBS/Events/Sources/SourceCreated)
+* [**SourceDestroyed *A source has been removed***](/en/Broadcasters/OBS/Events/Sources/SourceDestroyed)
+* [**SourceVolumeChanged *The volume of a source has changed.***](/en/Broadcasters/OBS/Events/Sources/SourceVolumeChanged)
+* [**SourceMuteStateChanged *A source has been muted or unmuted***](/en/Broadcasters/OBS/Events/Sources/SourceMuteStateChanged)
+* [**SourceAudioDeactivated *A source has removed audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioDeactivated)
+* [**SourceAudioActivated *A source has added audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioActivated)
 * [SourceAudioSyncOffsetChanged](/en/Broadcasters/OBS/Events/Sources/SourceAudioSyncOffsetChanged)
 * [SourceAudioMixersChanged](/en/Broadcasters/OBS/Events/Sources/SourceAudioMixersChanged)
 * [SourceRenamed](/en/Broadcasters/OBS/Events/Sources/SourceRenamed)
@@ -112,4 +97,16 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [MediaPrevious](/en/Broadcasters/OBS/Events/Media/MediaPrevious)
 * [MediaStarted](/en/Broadcasters/OBS/Events/Media/MediaStarted)
 * [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
+{.btn-grid}
+
+## Virtual Cam
+* [VirtualCamStarted](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
+* [VirtualCamStopped](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
+{.btn-grid}
+
+## Replay Buffer
+* [ReplayStarting](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
+* [ReplayStarted](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
+* [ReplayStopping](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
+* [ReplayStopped](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
 {.btn-grid}
