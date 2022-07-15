@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:09:49.464Z
+date: 2022-07-15T15:09:59.139Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -78,7 +78,7 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**SourceMuteStateChanged *A source has been muted or unmuted***](/en/Broadcasters/OBS/Events/Sources/SourceMuteStateChanged)
 * [**SourceAudioDeactivated *A source has removed audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioDeactivated)
 * [**SourceAudioActivated *A source has added audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioActivated)
-* [SourceAudioSyncOffsetChanged](/en/Broadcasters/OBS/Events/Sources/SourceAudioSyncOffsetChanged)
+* [**SourceAudioSyncOffsetChanged *The audio sync offset of a source has changed***](/en/Broadcasters/OBS/Events/Sources/SourceAudioSyncOffsetChanged)
 * [SourceAudioMixersChanged](/en/Broadcasters/OBS/Events/Sources/SourceAudioMixersChanged)
 * [SourceRenamed](/en/Broadcasters/OBS/Events/Sources/SourceRenamed)
 * [SourceFilterAdded](/en/Broadcasters/OBS/Events/Sources/SourceFilterAdded)
