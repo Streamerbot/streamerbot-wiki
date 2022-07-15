@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:36:00.122Z
+date: 2022-07-15T18:55:19.134Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -59,66 +59,3 @@ Further information on valid formatting modifiers can be found [here](https://do
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Settings/Voice-Control#variables)
 - [<i class="mdi mdi-twitch text--twitch"></i> **Broadcaster *Variables related to the Twitch broadcaster account*  *v0.1.5 - 0.1.7*{.version-badge}**](/en/Variables/Broadcaster)
 {.btn-grid .my-5}
-
-> **WORK IN PROGRESS**
-> wee woo wee woo wee woo
-> everything below this is getting removed
-{.is-warning}
-
-
-## [Pick Color](/en/Sub-Actions/Pick-Color)
-
-> `var` needs to be changed with the variable you have putted in the `Variable Name` box
-{.is-info}
-
-| Variable | Description |
-|---------:|:------------|
-| `var.color.a` | The alpha value |
-| `var.color.r` | The red value |
-| `var.color.g` | The green value |
-| `var.color.b` | The blue value |
-| `var.html` | The html color code |
-| `var.htmlalpha` | The html color code with alpha value |
-| `var.obs` | The color as an OBS ABGR value |
-
-## [Get Commands](/en/Sub-Actions/Commands#get-commands)
-This subaction populates 2 variables with the custom name you specify, one as a string and one as a list
-| Variable | Description |
-|---------:|:------------|
-| `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action |
-| `<variableName.List` | List object for C# containing all commands matching criteria specified in the sub-action |
-
-## [Get Command State](/en/Sub-Actions/Commands#get-command-state)
-
-| Variable | Description |
-|---------:|:------------|
-| `commandState` | Boolean for command enabled state | `True`/`False`
-
-## [Get Command Group State](/en/Sub-Actions/Commands#get-command-group-state)
-
-| Variable | Description |
-|---------:|:------------|
-| `commandGroupState` | Boolean for command group enabled state | `True`/`False`
-| `commandsEnabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
-| `commandsDisabled` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |
-
-## [Get Action State](/en/Sub-Actions/Actions#get-action-state)
-
-| Variable | Description |
-|---------:|:------------|
-| `actionState` | Boolean for action enabled state | `True`/`False`
-
-## [Get Action Group State](/en/Sub-Actions/Actions#get-action-group-state)
-
-| Variable | Description |
-|---------:|:------------|
-| `actionGroupState` | Boolean for action group enabled state | `True`/`False`
-| `actionsEnabled` | A list of action IDs, of actions that are enabled |
-| `actionsDisabled` | A list of action IDs, of commands that are disabled |
-
-## Timeout User
-
-| Variable | Description |
-|---------:|:------------|
-`timedoutUser0` | The username of the user currently timed out by Streamerbot action
-`timedoutUserName0` | The Display of the user currently timed out by Streamerbot action
