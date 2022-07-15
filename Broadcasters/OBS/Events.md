@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:13:36.968Z
+date: 2022-07-15T15:18:49.142Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -19,6 +19,7 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 {.is-info}
 
 ## General
+General & miscellaneous OBS Studio events{.subtitle}
 * [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/General/Heartbeat)
 * [**BroadcastCustomMessage *A custom message sent by the OBS server***](/en/Broadcasters/OBS/Events/General/BroadcastCustomMessage)
 * [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Other/Exiting)
@@ -26,33 +27,37 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
 * [**ProfileChanged *Triggered when switching to another profile or when renaming the current profile***](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
 * [**ProfileListChanged *Triggered when a profile is created, added, renamed, or removed***](/en/Broadcasters/OBS/Events/Profiles/ProfileListChanged)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Stream
+Events related to current streaming status{.subtitle}
 * [**StreamStarting *A request to start streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
 * [**StreamStarted *Streaming started successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
 * [**StreamStopping *A request to stop streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
 * [**StreamStopped *Streaming stopped successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
 * [**StreamStatus *Emitted every 2 seconds when stream is active***](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Recording
+Events related to current recording status{.subtitle}
 * [**RecordingStarting *A request to start recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
 * [**RecordingStarted *Recording started successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
 * [**RecordingStopping *A request to stop recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
 * [**RecordingStopped *Recording stopped successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
 * [**RecordingPaused *Current recording paused***](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
 * [**RecordingResumed *Current recording resumed***](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Scene
+Scene change & collection events{.subtitle}
 * [**SwitchScenes *Event triggered **before** a scene change***](/en/Broadcasters/OBS/Events/Scenes/SwitchScenes)
 * [**ScenesChanged *Event triggered **after** a scene change***](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
 * [**SceneCollectionChanged *Triggered when switching to another scene collection***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
 * [**SceneCollectionListChanged *Triggered when modifying scene collections***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Scene Item
+Events related to scene item & ordering changes{.subtitle}
 * [**SceneItemAdded *A scene item has been added to a scene***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemAdded)
 * [**SceneItemRemoved *A scene item has been removed from a scene***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemRemoved)
 * [**SceneItemVisibilityChanged *A scene item's visibility has been toggled***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemVisibilityChanged)
@@ -61,18 +66,20 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**SceneItemSelected *A scene item is selected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemSelected)
 * [**SceneItemDeselected *A scene item is deselected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemDeselected)
 * [**SourceOrderChanged *Scene items within a scene have been reordered***](/en/Broadcasters/OBS/Events/Scene-Items/SourceOrderChanged)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Transition
+Events related to transition changes{.subtitle}
 * [**SwitchTransition *The active transition has been changed***](/en/Broadcasters/OBS/Events/Transitions/SwitchTransition)
 * [**TransitionListChanged *The list of available transitions has been modified. Transitions have been added, removed, or renamed***](/en/Broadcasters/OBS/Events/Transitions/TransitionListChanged)
 * [**TransitionDurationChanged *The active transition duration has been changed***](/en/Broadcasters/OBS/Events/Transitions/TransitionDurationChanged)
 * [**TransitionBegin *A transition (other than "cut") has begun***](/en/Broadcasters/OBS/Events/Transitions/TransitionBegin)
 * [**TransitionEnd *A transition (other than "cut") has ended***](/en/Broadcasters/OBS/Events/Transitions/TransitionEnd)
 * [**TransitionVideoEnd *A stinger transition has finished playing its video***](/en/Broadcasters/OBS/Events/Transitions/TransitionVideoEnd)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Source
+Events related to source & filter changes{.subtitle}
 * [**SourceCreated *A source has been created***](/en/Broadcasters/OBS/Events/Sources/SourceCreated)
 * [**SourceDestroyed *A source has been removed***](/en/Broadcasters/OBS/Events/Sources/SourceDestroyed)
 * [**SourceVolumeChanged *The volume of a source has changed.***](/en/Broadcasters/OBS/Events/Sources/SourceVolumeChanged)
@@ -86,9 +93,12 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**SourceFilterRemoved *A filter was removed from a source***](/en/Broadcasters/OBS/Events/Sources/SourceFilterRemoved)
 * [**SourceFilterVisibilityChanged *The visibility/enabled state of a filter changed***](/en/Broadcasters/OBS/Events/Sources/SourceFilterVisibilityChanged)
 * [**SourceFiltersReordered *Filters in a source have been reordered***](/en/Broadcasters/OBS/Events/Sources/SourceFiltersReordered)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Media
+Added in obs-websocket v4.9.0{.subtitle}
+
+**Note**: These events are only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.{.subtitle}
 * [MediaPlaying](/en/Broadcasters/OBS/Events/Media/MediaPlaying)
 * [MediaPaused](/en/Broadcasters/OBS/Events/Media/MediaPaused)
 * [MediaRestarted](/en/Broadcasters/OBS/Events/Media/MediaRestarted)
@@ -97,16 +107,18 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [MediaPrevious](/en/Broadcasters/OBS/Events/Media/MediaPrevious)
 * [MediaStarted](/en/Broadcasters/OBS/Events/Media/MediaStarted)
 * [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Replay Buffer
+Added in obs-websocket v4.2.0{.subtitle}
 * [**ReplayStarting *A request to start the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
 * [**ReplayStarted *Replay Buffer started successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
 * [**ReplayStopping *A request to stop the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
 * [**ReplayStopped *Replay Buffer stopped successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Virtual Cam
+Added in obs-websocket v4.9.1{.subtitle}
 * [**VirtualCamStarted *Virtual cam started successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
 * [**VirtualCamStopped *Virtual cam stopped successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
 {.btn-grid}
