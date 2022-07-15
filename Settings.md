@@ -2,13 +2,11 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-13T20:02:40.582Z
+date: 2022-07-15T18:02:24.650Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
 ---
-
-# Settings
 
 Settings have recieved a major overhaul in 0.1.8 as can be seen below
 
@@ -355,39 +353,6 @@ Other features may be made bot group aware in future releases
 The default C# compiler in **0.1.8** is already very robust and will find its own references standard references most of the time, but if you want to include any custom dll libraries that will be automatically added to all C# sub-actions you can define them here
 
 ![settings-cs-compiler-018.png](/settings-cs-compiler-018.png){.align-center}
-
-
-
-# [Events](/en/Events)
-
-*v0.1.8+*{.version-badge}
-
-> In **0.1.8** configuration of Twitch! event monitoring has moved to `Platforms > Twitch > Events`
-{.is-info}
-
-*v0.1.0 - v0.1.7*{.version-badge}
-
-Configuration of event monitoring is found in this sub-section, see **[Events](/en/Events)** for details
-
-* [General *Follows and Chat related events*](/Events/General)
-* [Cheers *Bit Cheer events*](/Events/Cheers)
-* [Sub *First time subscribers*](/Events/Sub)
-* [Re-Sub *Users renewing their own subscription*](/Events/Resub)
-* [Gift Sub *Gifting a subscription to a named person*](/Events/Gift-Sub)
-* [Gift Bomb *Gifting 2 or more subscriptions to random users*](/Events/Gift-Bomb)
-* [Raid *Incoming and Outgoing Raids*](/Events/Raid)
-* [Hosts *When a user starts hosting the channel*](/en/Events/hosts)
-* [Hype Train *When Hype Train Starts, Ends, Progresses or Levels up*](/Events/Hype-Train)
-* [Community Goal *When Community Goals are Started or Progressed*](/Events/Community-Goal)
-* [Stream Update *When the Stream Category or Title changes* *CREATE ME*](/Events/Stream-Update)
-* [Polls *Run a poll of between 2-5 options with Twitch! chat*](/Platforms/Twitch/Polls)
-* [Predictions *Set up a prediction between 2-10 options that users can gamble Twitch! channel points on the outcome*](/Platforms/Twitch/Predictions)
-{.links-list}
-
-> Predictions with more than 2 outcomes requires *v0.1.9+*{.version-badge}
-{.is-info}
-
-
 
 
 
