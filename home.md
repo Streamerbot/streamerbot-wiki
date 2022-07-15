@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-11T20:38:27.437Z
+date: 2022-07-15T01:22:05.144Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -55,7 +55,7 @@ Available Plugins{.overline}
 - [StreamDeck](https://github.com/nate1280/streamdeck-Streamer.bot)
 - [TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
 - [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
-- [LoupeDeck](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
+- [LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
 - [DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
 
 </div>
