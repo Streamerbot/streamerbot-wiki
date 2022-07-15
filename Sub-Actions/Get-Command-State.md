@@ -2,13 +2,13 @@
 title: Get Command State
 description: Retrieve the commands current state
 published: true
-date: 2022-07-09T19:59:54.091Z
+date: 2022-07-15T18:43:59.621Z
 tags: subactions, commands, streamerbot, actions
 editor: markdown
 dateCreated: 2022-05-23T21:53:34.525Z
 ---
 
-# Get Command State 
+## Overview
 
 This sub action allows Streamer.bot to gather information on a single commands state.
 
@@ -25,3 +25,10 @@ Next the bot will ask what command you want to get the state information from.
 ![get_command_state_dialog_box.png](/get-command-state/get_command_state_dialog_box.png){.align-center}
 
 Select the command and then click `Ok` and that it you have successfully added this sub action.
+
+## Variables
+
+| Variable | Description |
+|---------:|:------------|
+| `commandState` | Boolean for command enabled state <br> `True / False`
+{.vars-table}
