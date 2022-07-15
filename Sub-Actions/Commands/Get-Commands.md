@@ -2,7 +2,7 @@
 title: Get Commands 
 description: Capture the commands available .
 published: true
-date: 2022-03-02T23:50:03.563Z
+date: 2022-07-15T18:42:51.021Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z
@@ -47,5 +47,14 @@ This is one example you can import to get started.
 ```
 TlM0RR+LCAAAAAAABACVVE1vnDAQvVfqf7CQclu3BoOB3FY59FZVVW5VDsYeZ5EMbGy8ySrKfy+GRXztSskJe974ed4bD+/fvyEUnMDYsqmDexTu+kDNK+h2QTBsuWg72HaRf36P0Pvw6aBS+jxGIQ15nuJMhhzHMs+7VUFxqiCLwkTlBciBqz/04sB5/tppPUWh5oUGz9caB1N8LOahqSpeSzsjejaNO97AuH7lZ/vXeVmKaztjNF1qU+17VVtUNLVwxkDdbrGNEws3ljXttZ7K6aETN6XX+PuiSGyqHjythXYS/PmVFz184PYPmKq0l55tM4amCMZJQaTEjNMEx6liOCcxxUwIBYUUWSb46uZXKJ8PXjb5QZZIez76kkMS0nWxEt48MkU/dre8aeHNswc/K0CPB7CAuAHUHgCNViB+4qX2JqG2QefG3SN0N4J3q3KPBhR0nZJ7IRrX94tcc4LmcUyAAWZURjiOshDnImM4kkokImE0idnXndhdbfviTS8cij7jkG2cEfA43EGuP59pMlc6VRbTUGQUR5GSOA6THPOoG0ipICIUFEvJl3UmN3RuKrioJDOV4/JpPUC/PEk/RU/zudOaHy3IGTqAPdGQOfw7RvDjP2NyCCfABAAA
 ```
+
+## Variables
+
+This sub-action populates 2 variables with the custom name you specify, one as a string and one as a list
+
+| Variable | Description |
+|---------:|:------------|
+| `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action |
+| `<variableName>.List` | List object for C# containing all commands matching criteria specified in the sub-action |
 
 
