@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:03:40.337Z
+date: 2022-07-15T15:05:08.776Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -35,12 +35,12 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 {.btn-grid}
 
 ## Recording
-* [RecordingStarting](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
-* [RecordingStarted](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
-* [RecordingStopping](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
-* [RecordingStopped](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
-* [RecordingPaused](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
-* [RecordingResumed](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
+* [**RecordingStarting *A request to start recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
+* [**RecordingStarted *Recording started successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
+* [**RecordingStopping *A request to stop recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
+* [**RecordingStopped *Recording stopped successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
+* [**RecordingPaused *Current recording paused***](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
+* [**RecordingResumed *Current recording resumed***](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
 {.btn-grid}
 
 ## Scene
