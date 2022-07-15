@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:01:06.410Z
+date: 2022-07-15T15:03:20.690Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -24,6 +24,23 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Other/Exiting)
 * [**PreviewSceneChanged *The selected preview scene has changed in Studio Mode***](/en/Broadcasters/OBS/Events/Studio-Mode/PreviewSceneChanged)
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
+{.btn-grid}
+
+## Stream
+* [**StreamStarting *A request to start streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
+* [**StreamStarted *Streaming started successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
+* [**StreamStopping *A request to stop streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
+* [**StreamStopped *Streaming stopped successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
+* [StreamStatus](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
+{.btn-grid}
+
+## Recording
+* [RecordingStarting](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
+* [RecordingStarted](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
+* [RecordingStopping](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
+* [RecordingStopped](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
+* [RecordingPaused](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
+* [RecordingResumed](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
 {.btn-grid}
 
 ## Scene
@@ -55,23 +72,6 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 ## Profile
 * [ProfileChanged](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
 * [ProfileListChanged](/en/Broadcasters/OBS/Events/Profiles/ProfileListChanged)
-{.btn-grid}
-
-## Stream
-* [StreamStarting](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
-* [StreamStarted](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
-* [StreamStopping](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
-* [StreamStopped](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
-* [StreamStatus](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
-{.btn-grid}
-
-## Recording
-* [RecordingStarting](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
-* [RecordingStarted](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
-* [RecordingStopping](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
-* [RecordingStopped](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
-* [RecordingPaused](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
-* [RecordingResumed](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
 {.btn-grid}
 
 ## Virtual Cam
