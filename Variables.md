@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:22:24.597Z
+date: 2022-07-15T18:24:50.410Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -64,24 +64,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 > wee woo wee woo wee woo
 > everything below this is getting removed
 {.is-warning}
-
-# App Features
-
-
-## [Voice Control](/en/Voice-Control)
-
-Any action triggered by Voice Control will have access to the following arguments that can be used in other Sub-Actions or C# code
-
-| Variable | Description |
-|---------:|:------------|
-`spokenText` | The full spoken phrase detected, *including the trigger phrase*
-`spokenTextConfidence` | Voice Recognition confidence raw value
-`spokenTextConfidencePercent` | Confidence value as a percentage
-`altPhraseText#` |
-`altPhraseConfidence#` |
-`altPhraseConfidencePercent#` |
-`spokenTextInput` | Detected spoken phrase with trigger command stripped *v0.1.5+*{.version-badge} <br>(Only works with `Start` based commands)
-`spokenCommand` | Detected Trigger command *v0.1.5+*{.version-badge}
 
 
 # Commands
