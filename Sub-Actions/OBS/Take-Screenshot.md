@@ -2,19 +2,41 @@
 title: Take Screenshot
 description: Sub-Action to take a screenshot in OBS
 published: true
-date: 2022-07-15T18:32:12.923Z
-tags: sub-action
+date: 2022-07-15T18:35:42.903Z
+tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
 ---
 
-Up until now, you had to use OBS Raw to take a screenshot in OBS, here is a sub-action ot make things a bit simpler.
+## Overview
+
+Take a screenshot in [OBS Studio](/en/Broadcasters/OBS)
 
 ![sub-action-obs-takescreenshot-01.png](/sub-action-obs-takescreenshot-01.png)
 
-`Scene`, `Source` and `File Path` all support variable replacements, and after a screenshot is successfully taken, the full file path is added back onto the arguments as `%screenshotFile%`.
+## Configuration
+### Connection
+Select the target OBS Studio instance
 
-There is a new date time friendly variable that can be used, `%filedatetime%` which is of the format `yyyyMMdd.hhmmss`.
+### Scene
+Select the scene to screenshot
+
+This input accepts [variables](/en/Variables)
+
+### Source
+Select the source to screenshot
+
+This input accepts [variables](/en/Variables)
+
+
+### Filepath
+Select the file path to save the resulting `.png` file
+
+This input accepts [variables](/en/Variables)
+
+### Quality
+Select the desired image quality or leave as `Auto`
+
 
 ## Variables
 
