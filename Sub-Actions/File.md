@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-07-10T19:25:38.172Z
+date: 2022-07-15T18:30:57.608Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -23,6 +23,13 @@ For example, you have a file of welcome messages, that consist of `Welcome %user
 
 ### Attempt Auto-typing
 While reading the contents of the file, an attempt will be made on each line to auto-type it.  So if it's a number, it will make sure the variable contains a number type.
+
+### Variables
+
+| Name | Description |
+|---------:|:------------|
+| `lineCount` | The number of lines read from the file
+| `line#` | The line number from the file, replace `#` with the line number, starting from **0**
 
 ---
 
@@ -45,6 +52,11 @@ The `%user%` would be replaced when reading the file.
 
 ### Attempt Auto-typing
 While reading the contents of the file, an attempt will be made on each line to determine its ‘type’. So, if it's a number, it will make sure the variable is defined as a numeric, if it contains a string it will define the variable as a string. This is useful for future operations on the created variable.
+
+### Variables
+| Name | Description |
+|-----:|:------------|
+| `randomLine#` | Reads a random line from a given source file, the first will have no number, then 1, 2, 3 and so on for each concurrent use within the same action. i.e. `%randomLine%`, `randomLine1`, `randomLine2`
 
 ---
 
