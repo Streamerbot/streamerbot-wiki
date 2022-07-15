@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:25:47.301Z
+date: 2022-07-15T18:36:00.122Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -65,91 +65,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 > everything below this is getting removed
 {.is-warning}
 
-
-# Sub-Actions
-Some [Sub-Actions](/Sub-Actions) will also add variables to the argument stack{.subtitle}
-
-## [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
-
-| Variable | Description |
-|---------:|:------------|
-`targetUser` | Display name of the target user
-`targetUserName` | User name of the target user
-`targetUserId` | User Id of the target user
-`targetDescription` | The user's channel description
-`targetDescriptionEscaped` | The user's channel description but URL encoded
-`targetUserProfileImageUrl` | link to the 300x300 px PNG version of a user's twitch profile image
-`targetUserProfileImageUrlEscaped` | The url to the user's profile image URL encoded
-`targetUserType` | The type of user, `affiliate`, `partner` or empty for regular user
-`targetIsAffiliate` | A boolean value indicating if the user is an affiliate
-`targetIsPartner` | A boolean value indicating if the user is a partner
-`targetIsSubscribed` | A boolean value indicating if the user is currently subscribed
-`targetIsModerator` | A boolean value indicating if the user is a moderator
-`targetIsVip` | A boolean value indicating if the user is a VIP
-`game` | The user's current game category
-`gameId` | The numeric id of the game category
-`createdAt` | Datetime of when the account was created (v0.1.4+)
-`accountAge` | Age of the account in seconds (v0.1.4+)
-
-## [Get Follow Age](en/Sub-Actions/Twitch/Get-Follow-Age-for-Target)
-
-> Note if you are testing any of the Follow age variables, it will not work from the broadcaster account as you are unable to follow yourself.
-Test it from the bot acocunt or any other Twitch! user
-{.is-info}
-
-
-| Variable | Description |
-|---------:|:------------|
-`followDate`| The date the user followed
-`followAgeLong` | How long the user has been following in a long format, 1 year, 10 months, 5 days, etc
-`followAgeShort` | How long the user has been following in a short format, 1y, 10m, 5d, 22h, 3m, 25s
-`followAgeDays` | The total number of days the user has been following
-`followAgeMinutes` | The total number of minutes the user has been following
-`followAgeSeconds` | The total number of seconds the user has been following
-`followUser` | The users display name
-`followUserName` | The user's login name
-`followUserId` | The user's twitch id
-
-## [Get Random Number](/en/Sub-Actions/Get-Random-Number)
-
-If you pick a random number between 2 values, you will get the following variables
-
-| Variable | Description |
-|---------:|:------------|
-`randomNumber` | Random number
-
-If you pick next float, you will get the following
-
-| Variable | Description |
-|---------:|:------------|
-`randomFloat` | A floating point number between 0 and 1
-`randomPercent` | The floating point number represented as a percentage
-
-## [Get Current Scene](/en/Sub-Actions/OBS/Get-Current-Scene)
-
-Variable|Description
----|---
-`currentScene` | the name of the currently active scene at the time of execution
-
-## [Read Lines From File](/en/Sub-Actions/File#read-lines-from-file)
-
-| Variable | Description |
-|---------:|:------------|
-`lineCount` | The number of lines read from the file
-`line#` | The line number from the file, replace `#` with the line number, starting from **0**
-
-## [Read Random Line](/en/Sub-Actions/File#read-random-line-from-file)
-
-| Variable | Description |
-|---------:|:------------|
-`randomLine#` | Reads a random line from a given source file, the first will have no number, then 1, 2, 3 and so on for each concurrent use within the same action. i.e. `%randomLine%`, `randomLine1`, `randomLine2`
-
-## [OBS Take Screenshot](/en/Sub-Actions/OBS/Take-Screenshot)
-
-| Variable | Description |
-|---------:|:------------|
-`screenshotFile` | The full path to the screenshot that was taken
-`filedatetime` | Date Time varible that can be used for file name, `yyyyMMdd.hhmmss` formatting
 
 ## [Pick Color](/en/Sub-Actions/Pick-Color)
 
