@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:11:27.506Z
+date: 2022-07-15T15:13:36.968Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -99,14 +99,14 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
 {.btn-grid}
 
-## Virtual Cam
-* [VirtualCamStarted](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
-* [VirtualCamStopped](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
+## Replay Buffer
+* [**ReplayStarting *A request to start the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
+* [**ReplayStarted *Replay Buffer started successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
+* [**ReplayStopping *A request to stop the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
+* [**ReplayStopped *Replay Buffer stopped successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
 {.btn-grid}
 
-## Replay Buffer
-* [ReplayStarting](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
-* [ReplayStarted](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
-* [ReplayStopping](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
-* [ReplayStopped](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
+## Virtual Cam
+* [**VirtualCamStarted *Virtual cam started successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
+* [**VirtualCamStopped *Virtual cam stopped successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
 {.btn-grid}
