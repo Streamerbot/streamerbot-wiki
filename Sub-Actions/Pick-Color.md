@@ -2,24 +2,40 @@
 title: Pick Color
 description: Colour picker that populates variables for passing to OBS and HTML objects
 published: true
-date: 2022-07-09T20:00:17.388Z
+date: 2022-07-15T18:41:29.159Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
 ---
 
-# Pick Color
-This subaction converts from a given color to a bank of variables that can then be passed to C# code, HTML object or any OBS source that is color aware
+## Overview
 
-Variables list can be found [here](https://wiki.streamer.bot/en/Variables#pick-color)
-
-***
+Convert a selected color into a bank of variables that can then be passed to C# code, HTML objects, or any OBS source that is color-aware.
 
 ![pick-color.png](/pick-color.png)
 
+## Configuration
+### Colour / OBS Colour
 The Color picker will give the standard pallet picker so you can chose by a slider or by entering raw RGB / HSL values
 
-Once a color is chosen the `Color` box will be populated with the RGB Hex value and `OBS Color` will populate with the raw integer value OBS expects for ABGR it uses for its natively supported sources.
+Once a color is chosen the `Colour` box will be populated with the RGB Hex value and `OBS Colour` will populate with the raw integer value OBS expects for ABGR it uses for its natively supported sources.
 
-Even without saving this sub action you can treat it purely as a calculator and just use these values directly in your effects, or you can define a `Variable Name` that will be populated at run time.
+### Variable Name
+Enter an alias for the resulting variables, outlined below.
 
+## Variables
+
+The following variables will be available after execution of this sub-action:
+
+> In each of the following variables, replace `myColor` with the variable name you configured.
+{.is-warning}
+
+| Name | Description |
+|-----:|:------------|
+| `myColor.color.a` | The alpha value |
+| `myColor.color.r` | The red value |
+| `myColor.color.g` | The green value |
+| `myColor.color.b` | The blue value |
+| `myColor.html` | The html color code |
+| `myColor.htmlalpha` | The html color code with alpha value |
+| `myColor.obs` | The color as an OBS ABGR value |
