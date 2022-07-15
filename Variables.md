@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T16:34:20.189Z
+date: 2022-07-15T16:44:56.374Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -23,24 +23,29 @@ Most events will always include all generic arguments in addition to their own d
 {.is-info}
 
 
+# Usage
+
+Variables can be used in most [sub-action](/en/Sub-Actions) text inputs.
+
+To use a variable from the current argument stack, wrap the variable name with a `%` symbol, e.g. `%userName%`
+
 ## Tips
 
-- To use a variable / argument in most external contexts like OBS sources, bookend the variable name with a % symbol on either end - e.g. `%userName%`
-
-- You do not need the % symbols for logic statements like `If` and `Global`
-  - This was required in older versions of `streamer.bot` and it will still work with them in but current version ignores these by default.
-
-- Arguments only persist until the called action finishes execution and can not be referenced by any other simultaneous action unless writen out to a `Global` variable
-
-- Variables are only populated into the active Arguments when the event or sub-action they are tied to executes. If you are testing and it is only returning the name of the variable you are probably not testing the complete Action / Event
+- Arguments only persist until the called action finishes execution and can not be referenced by any other action
+	- If you want to share variables across multiple actions you can write them out to a [Global](/en/Sub-Actions/Logic/Global-Variables) variable{.small}
+- Variables are added onto the argument stack during execution of each sub-action
+  - If you are testing and a variable seems to be missing, ensure you are testing at the right point of execution{.small}
+- You do not need to wrap variable names with `%` within logic statements like `If` and `Global`
+  - This was required in older versions of Streamer.bot{.small}
+  - Wrapped variable names will still work as normal in this context{.small}
 
 
 ## Formatting
+Variables can be formatted inline using standard C# notation
 
-**Variables can be formatted inline using standard C# notation**
+For example, `%tipAmount%` contains a numeric variable which can be formatted as currency with 2 decimal places with the following syntax: `%tipAmount:c2%`
 
-- For example, `%tipAmount%` contains a numeric variable which can be formatted as currency with 2 decimal places with the following syntax: `%tipAmount:c2%`
-- Similarly, `%time%` can formatted in short notation with AM/PM using the following syntax: `%time:t%`
+Similarly, `%time%` can formatted in short notation with AM/PM using the following syntax: `%time:t%`
 
 Further information on valid modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings)
 
