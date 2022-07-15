@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T17:58:43.674Z
+date: 2022-07-15T18:06:09.387Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -54,7 +54,7 @@ Further information on valid formatting modifiers can be found [here](https://do
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Some sub-actions will also generate variables***](/en/Sub-Actions)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/en/Commands)
 - [<i class="mdi mdi-triangle-outline primary--text"></i> **Pyramids *Variables related to chat pyramids***](/en/Settings/Pyramids)
-- [<i class="mdi mdi-file-document-multiple primary--text"></i> **File/Folder Watcher *Variables from monitored files & folders***](/en/Settings/File-Folder-Watcher)
+- [<i class="mdi mdi-file-document-multiple primary--text"></i> **File/Folder Watcher *Variables from monitored files & folders***](/en/Settings/File-Watcher)
 - [<i class="mdi mdi-account-heart primary--text"></i> **Sub Counter *Variables from sub counter settings***](/en/Settings/Sub-Counter)
 - [<i class="mdi mdi-comment-quote primary--text"></i> **Quotes *Variables from the built-in `!quote` command***](/en/Settings/Quotes)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Settings/Voice-Control)
@@ -76,26 +76,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 | `pyramidEmote` | The emote that completed the pyramid
 | `pyramidWidth` | The pyramid width
 
-
-## [File/Folder Watcher](/en/Settings#filefolder-watcher)
-
-| Variable | Description | Notes
-|      ---:|-------------|---
-| `changeType` | The type of change | `Changed`, `Created`, `Deleted`
-| `fullPath` | The full path to the file |
-| `fileName` | The file name with extension |
-| `name` | The file name without the extendion |
-| `empty` | A boolean value indicating if the file is empty |
-
-If you have `As JSON` ticked, it will add all root elements as arguments.
-
-If `As JSON` is not ticked, it will add the following variables:
-
-| Variable | Description |
-|---------:|:------------|
-| `lineCount` | The number of lines in the file |
-| `line#` | The line of the file, replace # with the line number you want |
-| `lineEscaped#` | The line of the file URL encoded, replace # with the line number you want |
 
 ## [Sub Counter](/en/Settings#sub-counter)
 
