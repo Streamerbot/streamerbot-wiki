@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T14:58:44.824Z
+date: 2022-07-15T15:01:06.410Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -11,7 +11,7 @@ dateCreated: 2022-06-27T02:46:20.098Z
 ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
 
 
-This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events you can map to actions in Streamer.bot.
+This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
 
 > **NOTE**
 > Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events. 
