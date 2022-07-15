@@ -1,9 +1,9 @@
 ---
 title: SourceFilterRemoved
-description: A filter was removed from a source.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:03.400Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T15:55:46.848Z
 ---

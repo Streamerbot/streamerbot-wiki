@@ -1,9 +1,9 @@
 ---
 title: ScenesChanged
-description: Note: This event is not fired when the scenes are reordered.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:27.729Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:53:30.436Z
 ---
@@ -13,7 +13,7 @@ title: ScenesChanged
 description: Note: This event is not fired when the scenes are reordered.
 published: true
 date: 2022-07-03T21:42:25.313Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:53:30.436Z
 ---

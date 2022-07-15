@@ -1,9 +1,9 @@
 ---
 title: ProfileChanged
-description: Triggered when switching to another profile or when renaming the current profile.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:03.645Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T09:32:13.600Z
 ---

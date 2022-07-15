@@ -1,9 +1,9 @@
 ---
 title: TransitionVideoEnd
-description: A stinger transition has finished playing its video.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:56:12.392Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T02:45:18.870Z
 ---

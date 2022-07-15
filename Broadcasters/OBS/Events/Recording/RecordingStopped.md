@@ -1,9 +1,9 @@
 ---
 title: RecordingStopped
-description: Recording stopped successfully.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:26.304Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:44:48.387Z
 ---

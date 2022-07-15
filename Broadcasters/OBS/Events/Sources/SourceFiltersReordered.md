@@ -1,9 +1,9 @@
 ---
 title: SourceFiltersReordered
-description: Filters in a source have been reordered.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:10.891Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T16:07:15.707Z
 ---

@@ -1,9 +1,9 @@
 ---
 title: SceneItemAdded
-description: A scene item has been added to a scene.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:49.907Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T17:41:08.865Z
 ---

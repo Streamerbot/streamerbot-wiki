@@ -1,9 +1,9 @@
 ---
 title: StreamStarted
-description: Streaming started successfully.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:26.668Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:29:42.941Z
 ---

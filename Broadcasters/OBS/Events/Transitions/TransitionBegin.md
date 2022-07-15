@@ -1,9 +1,9 @@
 ---
 title: TransitionBegin
-description: A transition (other than "cut") has begun.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:56.449Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T02:40:20.421Z
 ---

@@ -1,9 +1,9 @@
 ---
 title: StreamStarting
-description: A request to start streaming has been issued.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:30.099Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T10:15:12.315Z
 ---

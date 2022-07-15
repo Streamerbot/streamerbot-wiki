@@ -1,9 +1,9 @@
 ---
 title: SourceFilterVisibilityChanged
-description: The visibility/enabled state of a filter changed
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:06.965Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T16:00:01.166Z
 ---

@@ -1,9 +1,9 @@
 ---
 title: SwitchTransition
-description: The active transition has been changed.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:52.797Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T02:25:48.408Z
 ---

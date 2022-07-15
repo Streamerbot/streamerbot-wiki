@@ -1,9 +1,9 @@
 ---
 title: ProfileListChanged
-description: Triggered when a profile is created, added, renamed, or removed.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:07.341Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T09:34:31.158Z
 ---

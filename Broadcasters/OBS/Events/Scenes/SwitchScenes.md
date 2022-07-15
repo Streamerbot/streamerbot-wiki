@@ -1,9 +1,9 @@
 ---
 title: SwitchScenes
-description: Indicates a scene change.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:31.996Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:09:06.949Z
 ---

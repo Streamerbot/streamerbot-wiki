@@ -1,9 +1,9 @@
 ---
 title: MediaRestarted
-description: This event is only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:52:48.425Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T16:26:02.254Z
 ---

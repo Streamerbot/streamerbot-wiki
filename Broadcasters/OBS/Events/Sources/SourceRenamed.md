@@ -1,9 +1,9 @@
 ---
 title: SourceRenamed
-description: A source has been renamed.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:19.712Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T15:42:26.234Z
 ---

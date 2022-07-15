@@ -1,9 +1,9 @@
 ---
 title: SceneCollectionChanged
-description: Triggered when switching to another scene collection or when renaming the current scene collection.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:20.300Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T01:58:18.909Z
 ---

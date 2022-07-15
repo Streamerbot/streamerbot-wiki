@@ -1,9 +1,9 @@
 ---
 title: SceneItemTransformChanged
-description: A scene item's transform has been changed.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:08.614Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T18:13:10.114Z
 ---

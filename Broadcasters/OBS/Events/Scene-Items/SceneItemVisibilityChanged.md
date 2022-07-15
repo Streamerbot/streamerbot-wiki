@@ -1,9 +1,9 @@
 ---
 title: SceneItemVisibilityChanged
-description: A scene item's visibility has been toggled.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:12.373Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T17:45:20.166Z
 ---

@@ -1,9 +1,9 @@
 ---
 title: RecordingPaused
-description: Current recording paused
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:10.998Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T18:11:35.645Z
 ---

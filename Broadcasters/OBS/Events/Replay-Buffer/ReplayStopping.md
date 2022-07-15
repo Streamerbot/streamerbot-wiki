@@ -1,9 +1,9 @@
 ---
 title: ReplayStopping
-description: A request to stop the replay buffer has been issued.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:45.325Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T20:10:25.740Z
 ---

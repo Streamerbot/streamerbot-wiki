@@ -1,9 +1,9 @@
 ---
 title: SourceFilterAdded
-description: A filter was added to a source.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:58.637Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T15:53:48.965Z
 ---

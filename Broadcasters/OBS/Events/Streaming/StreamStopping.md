@@ -1,9 +1,9 @@
 ---
 title: StreamStopping
-description: A request to stop streaming has been issued.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:55:41.193Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T13:23:13.161Z
 ---

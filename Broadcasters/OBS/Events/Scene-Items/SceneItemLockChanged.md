@@ -1,9 +1,9 @@
 ---
 title: SceneItemLockChanged
-description: A scene item's locked status has been toggled.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:56.845Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T17:48:06.836Z
 ---

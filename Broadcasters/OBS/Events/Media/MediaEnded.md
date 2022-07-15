@@ -1,9 +1,9 @@
 ---
 title: MediaEnded
-description: These events are emitted by the OBS sources themselves. For example when the media file ends. The behavior depends on the type of media source being used.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:52:29.000Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T16:35:39.936Z
 ---

@@ -1,9 +1,9 @@
 ---
 title: SceneCollectionListChanged
-description: Triggered when a scene collection is created, added, renamed, or removed.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:54:24.121Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T02:04:40.915Z
 ---

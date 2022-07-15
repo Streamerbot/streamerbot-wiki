@@ -1,9 +1,9 @@
 ---
 title: SceneItemDeselected
-description: A scene item is deselected.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:53:53.335Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-28T18:19:56.970Z
 ---
