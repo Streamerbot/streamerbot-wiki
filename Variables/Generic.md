@@ -2,19 +2,19 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2022-07-15T19:13:22.082Z
+date: 2022-07-15T19:13:47.145Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
 ---
 
-## Overview
+# Overview
 
 Generic variables are available to most event sources, so consider these the minimum you can use. Other sources will expand on these with variables specific to that event or sub-action
 
-## Variables
+# Variables
 
-### General
+## General
 Useful general purpose variables{.subtitle}
 
 | Name | Description |
@@ -23,7 +23,7 @@ Useful general purpose variables{.subtitle}
 | `time` | Current system time <br> *Accepts any standard formtting notation eg. `HH-mm`*{.small}
 {.vars-table}
 
-### Event User
+## Event User
 Variables related to the user that triggered an event{.subtitle}
 
 | Name | Description |
@@ -39,7 +39,7 @@ Variables related to the user that triggered an event{.subtitle}
 `isModerator` | Twitch moderator status of triggering user <br> `True / False`
 {.vars-table}
 
-### Event Source
+## Event Source
 Variables related to the triggering event source{.subtitle}
 
 | Name | Description |
@@ -48,7 +48,7 @@ Variables related to the triggering event source{.subtitle}
 | `eventSource` | String value to specify which platform generated the event *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
 {.vars-table}
 
-### Action
+## Action
 Variables related to the action being called{.subtitle}
 
 | Name | Description |
@@ -57,7 +57,7 @@ Variables related to the action being called{.subtitle}
 | `runningActionId` | The instance ID number of the action in the queue *v0.1.8+*{.version-badge}
 {.vars-table}
 
-### Random User
+## Random User
 Fetch variables for a random user currently in your chat{.subtitle}
 
 > **WARNING**
