@@ -14,7 +14,7 @@ dateCreated: 2022-06-27T02:46:20.098Z
 This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
 
 > **NOTE**
-> Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events. 
+> Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events.
 > It is important to consider your use case when deciding which event is best suited for you.
 {.is-info}
 
@@ -22,7 +22,7 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 General & miscellaneous OBS Studio events{.subtitle}
 * [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/General/Heartbeat)
 * [**BroadcastCustomMessage *A custom message sent by the OBS server***](/en/Broadcasters/OBS/Events/General/BroadcastCustomMessage)
-* [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Other/Exiting)
+* [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Exiting)
 * [**PreviewSceneChanged *The selected preview scene has changed in Studio Mode***](/en/Broadcasters/OBS/Events/Studio-Mode/PreviewSceneChanged)
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
 * [**ProfileChanged *Triggered when switching to another profile or when renaming the current profile***](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
