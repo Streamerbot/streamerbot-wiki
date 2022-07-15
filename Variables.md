@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:22:03.466Z
+date: 2022-07-15T18:22:24.597Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -67,16 +67,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 
 # App Features
 
-
-## [Quotes](/en/Settings/Quotes)
-When using the built in `!quote` command the following variables will be available to you
-| Variable | Description |
-|   ---:|-------------|
-`quote` | The quote content
-`quoteID` | The quote ID number
-`quoteUser` | The user that added the quote,
-`quoteGame` | The game the broadcaster was playing at the time
-`quoteTime` | The date it was logged
 
 ## [Voice Control](/en/Voice-Control)
 
