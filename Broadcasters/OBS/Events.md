@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:03:20.690Z
+date: 2022-07-15T15:03:40.337Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -31,7 +31,7 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**StreamStarted *Streaming started successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
 * [**StreamStopping *A request to stop streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
 * [**StreamStopped *Streaming stopped successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
-* [StreamStatus](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
+* [**StreamStatus *Emitted every 2 seconds when stream is active***](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
 {.btn-grid}
 
 ## Recording
