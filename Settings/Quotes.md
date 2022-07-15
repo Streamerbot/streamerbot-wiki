@@ -2,7 +2,7 @@
 title: Quotes
 description: 
 published: true
-date: 2022-07-09T19:59:17.135Z
+date: 2022-07-15T18:23:04.876Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:14.446Z
@@ -39,3 +39,15 @@ Quote output message
 ![Quote Action](/123520512-082e4800-d6a9-11eb-95f9-e5c016b42f21.png)
 
 You can automate the retrieval of a specific or random quote using the Get Quote Action. Once retrieved, you can reference the quote using the variables shown above in the Quote output message.
+
+## Variables
+
+When using the built-in `!quote` command the following variables will be made available:
+
+| Variable | Description |
+|   ---:|-------------|
+| `quote` | The quote content
+| `quoteID` | The quote ID number
+| `quoteUser` | The user that added the quote,
+| `quoteGame` | The game the broadcaster was playing at the time
+| `quoteTime` | The date it was logged
