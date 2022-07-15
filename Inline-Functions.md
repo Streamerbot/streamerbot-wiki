@@ -2,13 +2,13 @@
 title: Inline Functions
 description: 
 published: true
-date: 2022-07-09T19:54:38.657Z
+date: 2022-07-15T19:16:28.649Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-17T20:51:12.374Z
 ---
 
-# Inline Functions
+## Overview
 
 These are the functions that are available when parsing most fields withing **Streamer.bot**, so anywhere you can do a `%variable%` replacement, you'll be able to do a `$function()$` as well.
 
