@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T14:54:43.365Z
+date: 2022-07-15T14:58:44.824Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -10,11 +10,13 @@ dateCreated: 2022-06-27T02:46:20.098Z
 
 ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
 
-There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
 
-It's important to note, that while it may seem like one event maybe the one to use, there is the possibility that another one is better suited for the use case.
+This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events you can map to actions in Streamer.bot.
 
-For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
+> **NOTE**
+> Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events. 
+> It is important to consider your use case when deciding which event is best suited for you.
+{.is-info}
 
 ## General
 * [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/General/Heartbeat)
