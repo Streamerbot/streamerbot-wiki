@@ -2,8 +2,8 @@
 title: Configure Rewards
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-06-09T02:21:56.513Z
-tags: subactions, channel-point-rewards, rewards
+date: 2022-07-12T18:53:15.981Z
+tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-09T02:20:12.720Z
 ---

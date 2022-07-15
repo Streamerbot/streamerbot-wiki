@@ -2,7 +2,7 @@
 title: TransitionListChanged
 description: The list of available transitions has been modified. Transitions have been added, removed, or renamed.
 published: true
-date: 2022-07-03T21:48:33.090Z
+date: 2022-07-06T20:56:09.043Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:32:10.168Z

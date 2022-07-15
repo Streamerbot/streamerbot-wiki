@@ -2,7 +2,7 @@
 title: MediaPrevious
 description: This event is only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.
 published: true
-date: 2022-07-03T21:10:52.109Z
+date: 2022-07-06T20:52:43.744Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:32:27.748Z

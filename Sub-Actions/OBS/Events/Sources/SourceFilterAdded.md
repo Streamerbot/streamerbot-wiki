@@ -2,10 +2,10 @@
 title: SourceFilterAdded
 description: A filter was added to a source.
 published: true
-date: 2022-06-29T02:38:00.198Z
+date: 2022-07-06T21:22:07.040Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-28T15:53:48.965Z
+dateCreated: 2022-07-06T21:22:02.944Z
 ---
 
 # SourceFilterAdded

@@ -2,7 +2,7 @@
 title: StudioModeSwitched
 description: Studio Mode has been enabled or disabled
 published: true
-date: 2022-07-03T21:47:42.911Z
+date: 2022-07-06T20:55:49.089Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T19:16:06.430Z

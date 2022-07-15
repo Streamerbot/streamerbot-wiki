@@ -2,7 +2,7 @@
 title: TransitionVideoEnd
 description: A stinger transition has finished playing its video.
 published: true
-date: 2022-07-03T21:48:39.681Z
+date: 2022-07-06T20:56:12.392Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:45:18.870Z

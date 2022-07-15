@@ -2,7 +2,7 @@
 title: SceneItemTransformChanged
 description: A scene item's transform has been changed.
 published: true
-date: 2022-07-03T21:50:52.571Z
+date: 2022-07-06T20:54:08.614Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:13:10.114Z

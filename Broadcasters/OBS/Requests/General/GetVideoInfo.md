@@ -2,7 +2,7 @@
 title: GetVideoInfo
 description: Get basic OBS video information
 published: true
-date: 2022-07-04T18:53:04.909Z
+date: 2022-07-04T18:53:08.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-30T14:50:06.558Z

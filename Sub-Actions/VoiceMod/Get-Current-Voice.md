@@ -2,7 +2,7 @@
 title: Get Current Voice 
 description: Get the Current Voice in Use via VoiceMod
 published: true
-date: 2022-07-04T22:49:35.828Z
+date: 2022-07-04T22:49:39.839Z
 tags: twitch, integrations, sub-action, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-23T20:40:12.499Z

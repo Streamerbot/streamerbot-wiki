@@ -2,7 +2,7 @@
 title: HypeRate.io
 description: Trigger actions based on your heart rate
 published: true
-date: 2022-07-10T20:48:23.923Z
+date: 2022-07-10T20:48:27.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:20:14.642Z

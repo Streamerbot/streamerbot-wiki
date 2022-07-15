@@ -2,7 +2,7 @@
 title: Set Voice Control Command
 description: Trigger an action with your voice
 published: true
-date: 2022-07-04T01:34:28.924Z
+date: 2022-07-09T20:00:36.712Z
 tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
 dateCreated: 2022-07-04T01:16:31.435Z

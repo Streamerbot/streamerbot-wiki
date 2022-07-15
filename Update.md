@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-07-02T20:25:21.735Z
+date: 2022-07-09T19:55:23.750Z
 tags: install, update
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z

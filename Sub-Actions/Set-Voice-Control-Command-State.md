@@ -1,8 +1,8 @@
 ---
 title: Set Voice Control Command State
-description: Enable / Disable a Voice Control Command 
+description: Enable / Disable a Voice Control Command
 published: true
-date: 2022-07-08T20:49:56.195Z
+date: 2022-07-09T20:00:32.810Z
 tags: twitch, commands, voice, youtube, streamerbot, voice control
 editor: markdown
 dateCreated: 2022-07-08T20:25:22.954Z

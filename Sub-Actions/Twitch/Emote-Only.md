@@ -2,7 +2,7 @@
 title: Emote Only 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T22:29:19.880Z
+date: 2022-07-11T22:29:23.683Z
 tags: twitch, emote, toggles, subactions
 editor: markdown
 dateCreated: 2021-11-20T03:24:28.555Z

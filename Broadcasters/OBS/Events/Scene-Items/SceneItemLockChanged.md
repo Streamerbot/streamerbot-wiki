@@ -2,7 +2,7 @@
 title: SceneItemLockChanged
 description: A scene item's locked status has been toggled.
 published: true
-date: 2022-07-03T21:40:08.968Z
+date: 2022-07-06T20:53:56.845Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:48:06.836Z

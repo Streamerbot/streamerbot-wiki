@@ -2,7 +2,7 @@
 title: StreamStatus
 description: Emitted every 2 seconds when stream is active.
 published: true
-date: 2022-07-03T21:46:32.398Z
+date: 2022-07-06T20:55:34.622Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T13:51:20.162Z

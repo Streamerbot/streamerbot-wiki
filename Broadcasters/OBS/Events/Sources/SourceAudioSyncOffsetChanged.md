@@ -2,7 +2,7 @@
 title: SourceAudioSyncOffsetChanged
 description: The audio sync offset of a source has changed.
 published: true
-date: 2022-07-03T21:43:23.117Z
+date: 2022-07-06T20:54:47.309Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:18:29.858Z

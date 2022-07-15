@@ -2,7 +2,7 @@
 title: MediaStarted
 description: These events are emitted by the OBS sources themselves. For example when the media file starts playing. The behavior depends on the type of media source being used.
 published: true
-date: 2022-07-03T21:11:07.970Z
+date: 2022-07-06T20:52:52.113Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:33:33.821Z

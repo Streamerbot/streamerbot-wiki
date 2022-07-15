@@ -2,7 +2,7 @@
 title: Sounds
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-07-10T19:28:00.754Z
+date: 2022-07-10T19:28:04.364Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z

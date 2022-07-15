@@ -1,9 +1,9 @@
 ---
 title: Pulsoid
-description:
+description: 
 published: true
-date: 2022-06-30T23:29:57.614Z
-tags:
+date: 2022-07-09T19:58:12.745Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z
 ---

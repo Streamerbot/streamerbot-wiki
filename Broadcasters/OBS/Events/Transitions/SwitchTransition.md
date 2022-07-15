@@ -2,7 +2,7 @@
 title: SwitchTransition
 description: The active transition has been changed.
 published: true
-date: 2022-07-03T21:48:03.319Z
+date: 2022-07-06T20:55:52.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:25:48.408Z

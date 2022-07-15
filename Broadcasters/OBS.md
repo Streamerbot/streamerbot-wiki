@@ -2,7 +2,7 @@
 title: OBS
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-09T20:34:34.379Z
+date: 2022-07-09T20:34:38.008Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z

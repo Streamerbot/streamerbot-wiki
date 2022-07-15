@@ -2,7 +2,7 @@
 title: Voice Control
 description: 
 published: true
-date: 2022-06-29T00:34:53.504Z
+date: 2022-07-09T19:55:32.628Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:06.759Z

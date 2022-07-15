@@ -2,7 +2,7 @@
 title: WebSocket Clients
 description: Configure Streamer.bot to connect to an external WebSocket server
 published: true
-date: 2022-07-10T17:39:45.322Z
+date: 2022-07-10T17:39:48.848Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:08.368Z

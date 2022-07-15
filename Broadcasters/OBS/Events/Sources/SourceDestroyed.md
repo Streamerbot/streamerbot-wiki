@@ -2,7 +2,7 @@
 title: SourceDestroyed
 description: A source has been destroyed/removed. A source can be an input, a scene or a transition.
 published: true
-date: 2022-07-03T21:44:09.380Z
+date: 2022-07-06T20:54:54.923Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T14:01:31.642Z

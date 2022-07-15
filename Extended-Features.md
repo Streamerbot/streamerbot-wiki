@@ -2,7 +2,7 @@
 title: Extended Features
 description: Additional features provided by (and built on top of) Streamer.bot
 published: true
-date: 2022-07-08T21:28:37.628Z
+date: 2022-07-09T19:54:31.996Z
 tags: extended features
 editor: markdown
 dateCreated: 2022-07-08T21:28:37.628Z

@@ -2,7 +2,7 @@
 title: Select Random Voice
 description: Set a random voice to use 
 published: true
-date: 2022-07-04T22:50:03.334Z
+date: 2022-07-04T22:50:07.971Z
 tags: twitch, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-24T03:40:28.684Z

@@ -2,7 +2,7 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-07-10T01:40:18.426Z
+date: 2022-07-10T01:40:22.211Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z

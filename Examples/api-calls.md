@@ -2,7 +2,7 @@
 title: API Calls
 description: These new calls can be used to replicate some functionality from SLCB without needing C# coding.
 published: true
-date: 2022-06-30T22:52:07.271Z
+date: 2022-07-09T19:57:27.483Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-28T02:22:27.286Z

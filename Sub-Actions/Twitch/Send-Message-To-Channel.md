@@ -2,7 +2,7 @@
 title: Send Message To Channel 
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T23:09:03.039Z
+date: 2022-07-11T23:09:07.203Z
 tags: twitch, message, subactions, chat
 editor: markdown
 dateCreated: 2021-11-20T04:07:37.131Z

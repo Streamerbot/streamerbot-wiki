@@ -2,7 +2,7 @@
 title: Installing Streamer.bot on Linux
 description: Information on how to install Streamer.bot on Linux including prequisites
 published: true
-date: 2021-12-12T06:03:27.854Z
+date: 2022-07-09T19:54:42.151Z
 tags: linux, install, how to
 editor: markdown
 dateCreated: 2021-11-23T00:46:04.543Z

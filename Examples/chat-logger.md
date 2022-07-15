@@ -2,7 +2,7 @@
 title: Chat Logger (Simple and FULL)
 description: Writes 2 files out containing ALL available incoming chat data.
 published: true
-date: 2022-04-28T03:08:47.650Z
+date: 2022-07-09T19:57:30.737Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-28T03:08:43.586Z

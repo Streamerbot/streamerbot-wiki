@@ -2,7 +2,7 @@
 title: Logic
 description: 
 published: true
-date: 2022-07-10T19:26:34.533Z
+date: 2022-07-10T19:26:39.158Z
 tags: logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z

@@ -2,7 +2,7 @@
 title: ProfileListChanged
 description: Triggered when a profile is created, added, renamed, or removed.
 published: true
-date: 2022-07-03T21:36:52.154Z
+date: 2022-07-06T20:53:07.341Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:34:31.158Z

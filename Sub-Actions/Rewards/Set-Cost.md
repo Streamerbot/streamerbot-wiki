@@ -2,8 +2,8 @@
 title: Set Cost
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-06-11T04:57:03.617Z
-tags: subactions, channel-point-rewards, rewards
+date: 2022-07-12T18:53:19.625Z
+tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2021-11-02T04:07:26.868Z
 ---

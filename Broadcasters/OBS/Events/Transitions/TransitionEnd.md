@@ -2,6 +2,16 @@
 title: TransitionEnd
 description: A transition (other than "cut") has ended. Note: The `from-scene` field is not available in TransitionEnd.
 published: true
+date: 2022-07-06T20:56:04.932Z
+tags: 
+editor: markdown
+dateCreated: 2022-06-27T02:42:12.078Z
+---
+
+---
+title: TransitionEnd
+description: A transition (other than "cut") has ended. Note: The `from-scene` field is not available in TransitionEnd.
+published: true
 date: 2022-07-03T21:48:26.429Z
 tags: 
 editor: markdown

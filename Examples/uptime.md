@@ -2,7 +2,7 @@
 title: Uptime
 description: Display uptime in Streamer.bot.
 published: true
-date: 2022-04-25T01:54:04.747Z
+date: 2022-07-09T19:57:47.677Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-25T01:53:55.843Z

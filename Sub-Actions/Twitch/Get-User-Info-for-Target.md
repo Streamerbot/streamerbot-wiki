@@ -2,7 +2,7 @@
 title: Get User Info for Target
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-07-11T22:55:19.472Z
+date: 2022-07-11T22:55:25.306Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:30.189Z

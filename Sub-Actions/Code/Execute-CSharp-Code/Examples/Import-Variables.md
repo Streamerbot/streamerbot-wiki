@@ -2,7 +2,7 @@
 title: Import Variables
 description: 
 published: true
-date: 2022-07-09T03:24:07.859Z
+date: 2022-07-09T03:24:11.668Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T03:40:03.549Z

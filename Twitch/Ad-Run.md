@@ -2,10 +2,10 @@
 title: Ad Run
 description: 
 published: true
-date: 2022-06-27T12:28:22.647Z
+date: 2022-07-09T20:00:54.445Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-27T12:27:53.393Z
+dateCreated: 2022-07-09T20:00:51.051Z
 ---
 
 # Commercials

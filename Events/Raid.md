@@ -2,7 +2,7 @@
 title: Raids
 description: Events for Incoming and Outgoing Raids
 published: true
-date: 2022-07-13T20:04:26.771Z
+date: 2022-07-13T20:04:30.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z

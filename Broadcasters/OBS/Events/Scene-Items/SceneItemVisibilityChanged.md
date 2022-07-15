@@ -2,7 +2,7 @@
 title: SceneItemVisibilityChanged
 description: A scene item's visibility has been toggled.
 published: true
-date: 2022-07-03T21:40:53.401Z
+date: 2022-07-06T20:54:12.373Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:45:20.166Z

@@ -2,7 +2,7 @@
 title: Slow Mode 
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:32:43.763Z
+date: 2022-07-11T23:32:47.390Z
 tags: twitch, subactions, slow-mode
 editor: markdown
 dateCreated: 2021-11-20T03:30:11.449Z

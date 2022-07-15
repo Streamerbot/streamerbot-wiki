@@ -2,7 +2,7 @@
 title: ProfileChanged
 description: Triggered when switching to another profile or when renaming the current profile.
 published: true
-date: 2022-07-03T21:36:44.114Z
+date: 2022-07-06T20:53:03.645Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:32:13.600Z

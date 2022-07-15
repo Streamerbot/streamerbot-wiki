@@ -2,7 +2,7 @@
 title: Select Voice Via ID
 description: use streamer.bot to select a voice in voice mod via it's ID
 published: false
-date: 2022-07-04T22:48:25.902Z
+date: 2022-07-04T22:48:30.087Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-27T00:23:56.400Z

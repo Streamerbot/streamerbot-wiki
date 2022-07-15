@@ -2,7 +2,7 @@
 title: Studio Mode
 description: 
 published: true
-date: 2022-07-03T21:49:49.238Z
+date: 2022-07-04T20:32:01.625Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T10:05:25.576Z

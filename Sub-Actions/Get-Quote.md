@@ -2,7 +2,7 @@
 title: Get Quote
 description: 
 published: true
-date: 2021-08-26T00:39:48.231Z
+date: 2022-07-09T19:59:57.449Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:26.393Z

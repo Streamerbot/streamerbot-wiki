@@ -2,7 +2,7 @@
 title: SourceFilterVisibilityChanged
 description: The visibility/enabled state of a filter changed
 published: true
-date: 2022-07-03T21:45:11.484Z
+date: 2022-07-06T20:55:06.965Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:00:01.166Z

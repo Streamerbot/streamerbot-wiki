@@ -2,7 +2,7 @@
 title: Create Clip
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-14T16:43:35.648Z
+date: 2022-07-14T16:43:40.190Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-11-02T04:15:59.794Z

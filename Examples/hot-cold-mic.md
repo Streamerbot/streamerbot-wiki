@@ -2,7 +2,7 @@
 title: HOT / COLD Microphone Swapper.
 description: HOT / COLD Microphone Swapper.
 published: true
-date: 2022-04-28T02:57:43.727Z
+date: 2022-07-09T19:57:37.384Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-28T02:57:01.820Z

@@ -2,7 +2,7 @@
 title: Set Command Group State
 description: Enable and Disable groups of chat commands
 published: true
-date: 2021-11-19T21:45:01.809Z
+date: 2022-07-09T20:00:50.893Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T21:44:58.665Z

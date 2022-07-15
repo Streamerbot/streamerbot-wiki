@@ -2,10 +2,10 @@
 title: SourceAudioMixersChanged
 description: Audio mixer routing changed on a source.
 published: true
-date: 2022-06-29T02:37:52.126Z
+date: 2022-07-06T21:21:42.967Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-28T15:35:36.718Z
+dateCreated: 2022-07-06T21:21:39.731Z
 ---
 
 # SourceAudioMixersChanged

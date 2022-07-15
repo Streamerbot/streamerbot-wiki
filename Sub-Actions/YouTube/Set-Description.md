@@ -2,7 +2,7 @@
 title: Set Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:04:28.696Z
+date: 2022-07-12T01:07:05.700Z
 tags: sub-action, subactions, youtube, description
 editor: markdown
 dateCreated: 2022-06-07T02:38:04.431Z

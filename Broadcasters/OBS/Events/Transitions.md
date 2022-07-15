@@ -2,7 +2,7 @@
 title: Transitions
 description: 
 published: true
-date: 2022-07-03T21:55:38.966Z
+date: 2022-07-04T20:32:05.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T18:39:23.492Z

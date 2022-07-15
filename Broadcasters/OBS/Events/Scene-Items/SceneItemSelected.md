@@ -2,7 +2,7 @@
 title: SceneItemSelected
 description: A scene item is selected.
 published: true
-date: 2022-07-03T21:50:18.210Z
+date: 2022-07-06T20:54:05.021Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:18:30.715Z

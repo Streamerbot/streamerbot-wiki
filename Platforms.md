@@ -2,7 +2,7 @@
 title: Platforms
 description: Connect your supported streaming platform with Streamer.bot
 published: true
-date: 2022-07-13T17:24:05.868Z
+date: 2022-07-13T17:24:11.269Z
 tags: twitch, platforms, youtube
 editor: markdown
 dateCreated: 2022-07-08T20:56:06.209Z

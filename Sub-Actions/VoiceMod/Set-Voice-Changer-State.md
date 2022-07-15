@@ -2,7 +2,7 @@
 title: Set Voice Changer State
 description: 
 published: true
-date: 2022-07-04T22:50:32.447Z
+date: 2022-07-04T22:50:35.910Z
 tags: twitch, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T16:36:02.549Z

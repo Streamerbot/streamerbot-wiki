@@ -2,7 +2,7 @@
 title: Channel Point Rewards (Toggle)
 description: Uses the toggle feature to flip all listed rewards on/off.
 published: true
-date: 2022-04-28T03:16:54.161Z
+date: 2022-07-09T19:57:33.898Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-28T03:16:49.298Z

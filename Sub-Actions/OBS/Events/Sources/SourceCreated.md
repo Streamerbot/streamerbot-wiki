@@ -2,10 +2,10 @@
 title: SourceCreated
 description: A source has been created. A source can be an input, a scene or a transition.
 published: true
-date: 2022-06-29T02:35:42.357Z
+date: 2022-07-06T21:21:55.166Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-28T13:55:54.310Z
+dateCreated: 2022-07-06T21:21:51.792Z
 ---
 
 # SourceCreated

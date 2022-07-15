@@ -2,8 +2,8 @@
 title: Set Title
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-06-11T05:04:08.020Z
-tags: subactions, channel-point-rewards, rewards
+date: 2022-07-12T19:05:54.456Z
+tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:04:02.053Z
 ---

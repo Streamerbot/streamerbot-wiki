@@ -2,7 +2,7 @@
 title: Perform Command
 description: 
 published: true
-date: 2022-01-23T22:19:49.585Z
+date: 2022-07-09T20:00:13.904Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:38.438Z

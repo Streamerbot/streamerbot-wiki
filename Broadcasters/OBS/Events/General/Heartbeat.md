@@ -2,7 +2,7 @@
 title: Heartbeat
 description: Emitted every 2 seconds after enabling it by calling SetHeartbeat.
 published: true
-date: 2022-07-03T21:09:04.121Z
+date: 2022-07-06T20:52:25.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:47:31.411Z
