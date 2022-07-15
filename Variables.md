@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T17:40:53.657Z
+date: 2022-07-15T17:41:24.404Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -62,6 +62,9 @@ Further information on valid modifiers can be found [here](https://docs.microsof
 - [<i class="mdi mdi-twitch text--twitch"></i> **Broadcaster *Variables related to the Twitch broadcaster account*  *v0.1.5 - 0.1.7*{.version-badge}**](/en/Variables/Broadcaster)
 {.btn-grid .my-5}
 
+> **WORK IN PROGRESS**
+> wee woo wee woo wee woo
+{.is-warning}
 
 # App Features
 
