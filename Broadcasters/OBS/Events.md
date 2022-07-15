@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:36:48.533Z
+date: 2022-07-15T15:44:49.633Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -20,8 +20,8 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 
 ## General
 General & miscellaneous OBS Studio events{.subtitle}
-* [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/General/Heartbeat)
-* [**BroadcastCustomMessage *A custom message sent by the OBS server***](/en/Broadcasters/OBS/Events/General/BroadcastCustomMessage)
+* [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/Heartbeat)
+* [**BroadcastCustomMessage *A custom message sent by the OBS server***](/en/Broadcasters/OBS/Events/BroadcastCustomMessage)
 * [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Exiting)
 * [**PreviewSceneChanged *The selected preview scene has changed in Studio Mode***](/en/Broadcasters/OBS/Events/Studio-Mode/PreviewSceneChanged)
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
