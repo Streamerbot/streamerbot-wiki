@@ -2,7 +2,7 @@
 title: Pulsoid
 description: 
 published: true
-date: 2022-07-09T19:58:12.745Z
+date: 2022-07-15T17:00:53.441Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z
@@ -21,16 +21,13 @@ After connecting your account, by clicking **Connect to Pulsoid** and following 
 > When Pulsoid is broadcasting your heart rate, this event can fire once every second, so be sure whatever action you use runs fast enough so it won't cause a backlog in an action queue.  It is also recommended that whatever action you are running be placed in a blocking queue.
 {.is-warning}
 
-## Variable Reference
+## Variables
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|---:|:------------|
 | `measuredAt` | Time the measurement was taken |
-| `heartRate` | Heart Rate value |
+| `heartRate` | Heart rate value (BPM) |
 
 
-<div class="btn-grid">
-
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
