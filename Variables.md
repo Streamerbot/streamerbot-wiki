@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T18:24:50.410Z
+date: 2022-07-15T18:25:47.301Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -51,12 +51,12 @@ Further information on valid formatting modifiers can be found [here](https://do
 - [<i class="mdi mdi-variable-box primary--text"></i> **Generic Variables *Available to most triggers automatically***](/en/Variables/Generic)
 - [<i class="mdi mdi-creation primary--text"></i> **Events *All events and their associated variables***](/en/Events)
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Some sub-actions will also generate variables***](/en/Sub-Actions)
-- [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/en/Commands)
+- [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/en/Commands#variables)
 - [<i class="mdi mdi-triangle-outline primary--text"></i> **Pyramids *Variables related to chat pyramids***](/en/Settings/Pyramids)
 - [<i class="mdi mdi-file-document-multiple primary--text"></i> **File/Folder Watcher *Variables from monitored files & folders***](/en/Settings/File-Watcher)
 - [<i class="mdi mdi-account-heart primary--text"></i> **Sub Counter *Variables from sub counter settings***](/en/Settings/Sub-Counter)
 - [<i class="mdi mdi-comment-quote primary--text"></i> **Quotes *Variables from the built-in `!quote` command***](/en/Settings/Quotes)
-- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Settings/Voice-Control)
+- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Settings/Voice-Control#variables)
 - [<i class="mdi mdi-twitch text--twitch"></i> **Broadcaster *Variables related to the Twitch broadcaster account*  *v0.1.5 - 0.1.7*{.version-badge}**](/en/Variables/Broadcaster)
 {.btn-grid .my-5}
 
@@ -64,41 +64,6 @@ Further information on valid formatting modifiers can be found [here](https://do
 > wee woo wee woo wee woo
 > everything below this is getting removed
 {.is-warning}
-
-
-# Commands
-
-Commands are platform agnostic and will trigger when a matching phrase is typed into chat / whisper
-
-> Command events can trigger chat events at the same time but the argument stack for each are completely separate.
-{.is-warning}
-
-
-| Variable | Description | Notes
-|   ---:|-------------|---
-| `command` | The command that was used |
-| `commandID` | The ID of the command that was used | *v0.1.8+*{.version-badge}
-| `rawInput` | The message entered, if the command was a Starts With, this will be removed |
-| `rawInputEscaped` | The message escaped |
-| `rawInputUrlEncoded` | The message URL encoded |
-| `input#` | The # word of the message entered, spaces are delimiters and variable names are 0 indexed, so `input0` would give the first word, `input1` would give the second, and so on |
-| `inputEscaped#` | The indexed word escaped |
-| `inputUrlEncoded#` | The indexed word URL encoded |
-|`message` | The message typed in chat | (unverified)
-|`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-|`isSubscribed` | Is user subscribed
-| `counter` | A running total of how many times a command has been run since application launch (if `Persisted` is checked, the total will be saved to settings.dat and read in at launch) |
-| `userCounter` | A running total of how many times a command has been run by this chat user since application launch (if `UserPersisted` is checked, the total will be saved to settings.dat and read in at launch) |
-
-If a cooldown action is set, and the command is in cooldown, the following variables will be the only ones available.
-
-| Variable | Description |
-|   ---:|-------------|
-| `command` | The command that was used |
-| `cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left |
-| `globalCooldownLeft` | How many seconds are left for the global cooldown of the command |
-| `userCooldownLeft` | How many seconds are left for the user cooldown of the command |
-
 
 
 # Sub-Actions
