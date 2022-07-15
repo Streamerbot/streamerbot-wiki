@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-15T15:09:59.139Z
+date: 2022-07-15T15:11:27.506Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -60,6 +60,7 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**SceneItemTransformChanged *A scene item's transform has been changed***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemTransformChanged)
 * [**SceneItemSelected *A scene item is selected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemSelected)
 * [**SceneItemDeselected *A scene item is deselected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemDeselected)
+* [**SourceOrderChanged *Scene items within a scene have been reordered***](/en/Broadcasters/OBS/Events/Scene-Items/SourceOrderChanged)
 {.btn-grid}
 
 ## Transition
@@ -79,13 +80,12 @@ This is a full reference of all [OBS WebSocket](https://github.com/obsproject/ob
 * [**SourceAudioDeactivated *A source has removed audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioDeactivated)
 * [**SourceAudioActivated *A source has added audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioActivated)
 * [**SourceAudioSyncOffsetChanged *The audio sync offset of a source has changed***](/en/Broadcasters/OBS/Events/Sources/SourceAudioSyncOffsetChanged)
-* [SourceAudioMixersChanged](/en/Broadcasters/OBS/Events/Sources/SourceAudioMixersChanged)
-* [SourceRenamed](/en/Broadcasters/OBS/Events/Sources/SourceRenamed)
-* [SourceFilterAdded](/en/Broadcasters/OBS/Events/Sources/SourceFilterAdded)
-* [SourceFilterRemoved](/en/Broadcasters/OBS/Events/Sources/SourceFilterRemoved)
-* [SourceFilterVisibilityChanged](/en/Broadcasters/OBS/Events/Sources/SourceFilterVisibilityChanged)
-* [SourceFiltersReordered](/en/Broadcasters/OBS/Events/Sources/SourceFiltersReordered)
-* [SourceOrderChanged](/en/Broadcasters/OBS/Events/Scene-Items/SourceOrderChanged)
+* [**SourceAudioMixersChanged *Audio mixer routing changed on a source***](/en/Broadcasters/OBS/Events/Sources/SourceAudioMixersChanged)
+* [**SourceRenamed *A source has been renamed***](/en/Broadcasters/OBS/Events/Sources/SourceRenamed)
+* [**SourceFilterAdded *A filter was added to a source***](/en/Broadcasters/OBS/Events/Sources/SourceFilterAdded)
+* [**SourceFilterRemoved *A filter was removed from a source***](/en/Broadcasters/OBS/Events/Sources/SourceFilterRemoved)
+* [**SourceFilterVisibilityChanged *The visibility/enabled state of a filter changed***](/en/Broadcasters/OBS/Events/Sources/SourceFilterVisibilityChanged)
+* [**SourceFiltersReordered *Filters in a source have been reordered***](/en/Broadcasters/OBS/Events/Sources/SourceFiltersReordered)
 {.btn-grid}
 
 ## Media
