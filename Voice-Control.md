@@ -2,7 +2,7 @@
 title: Voice Control
 description: 
 published: true
-date: 2022-07-09T19:55:32.628Z
+date: 2022-07-15T18:24:30.071Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:06.759Z
@@ -106,3 +106,16 @@ Variable | Description
 ## Log
 
 This tab will show you what the recognition engine is getting.
+
+## Variables
+
+| Variable | Description |
+|---------:|:------------|
+`spokenText` | The full spoken phrase detected, *including the trigger phrase*
+`spokenTextConfidence` | Voice Recognition confidence raw value
+`spokenTextConfidencePercent` | Confidence value as a percentage
+`altPhraseText#` |
+`altPhraseConfidence#` |
+`altPhraseConfidencePercent#` |
+`spokenTextInput` | Detected spoken phrase with trigger command stripped *v0.1.5+*{.version-badge} <br>(Only works with `Start` based commands)
+`spokenCommand` | Detected Trigger command *v0.1.5+*{.version-badge}
