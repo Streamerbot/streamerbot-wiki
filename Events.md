@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-07-15T14:22:55.807Z
+date: 2022-07-15T14:27:08.946Z
 tags: events, reference
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -28,7 +28,7 @@ Events from your configured streaming platform(s){.subtitle}
 Events from your configured broadcasting software{.subtitle}
 
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Events for all changes within OBS Studio***](/en/Broadcasters/OBS/Events)
-- [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>  **Streamlabs Desktop *Events for all changes within Streamlabs Desktop***](/en/Broadcasters/StreamlabsDesktop/Events)
+- [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>  **Streamlabs Desktop *Events for all changes within Streamlabs Desktop***](/en/Broadcasters/StreamlabsDesktop/Events){.disabled}
 {.btn-grid .my-5}
 
 ## Integration
