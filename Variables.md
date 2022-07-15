@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-07-15T17:49:33.927Z
+date: 2022-07-15T17:57:22.818Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -10,9 +10,7 @@ dateCreated: 2021-08-25T21:34:50.460Z
 
 # Overview
 
-All [events](/en/Events) in Streamer.bot will generate an **argument stack** specific to that event source, providing variable data to the action being called.
-
-Below is a quick reference of the arguments available to use in your [Sub-Actions](/Sub-Actions) and a description of their function.
+All [events](/en/Events) in Streamer.bot will generate an **argument stack** specific to that event source, providing variable data to the action (and subsequent [sub-actions](/en/Sub-Actions)) being called.
 
 Most events will always include all generic arguments in addition to their own documented variables. Any exceptions will be listed on the page detailing that function.
 
