@@ -1,9 +1,9 @@
 ---
 title: Heartbeat
-description: Emitted every 2 seconds after enabling it by calling SetHeartbeat.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:52:25.071Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T20:47:31.411Z
 ---
@@ -14,7 +14,7 @@ dateCreated: 2022-06-27T20:47:31.411Z
 
 | Variable |  Type  | Description |
 |---------:|:------:|:------------|
-| `obsEvent.event` | <kbd>string</kbd> | The OBS event in this case `Heartbeat`  
+| `obsEvent.event` | <kbd>string</kbd> | The OBS event in this case `Heartbeat`
 | `obsEvent.current-profile` | <kbd>string</kbd> | Current active profile
 | `obsEvent.current-scene`| <kbd>string</kbd> | Current active scene
 | `obsEvent.pulse` | <kbd>boolean</kbd> | Toggles between every JSON message as an "I am alive" indicator
@@ -28,7 +28,7 @@ dateCreated: 2022-06-27T20:47:31.411Z
 | `obsEvent.total-stream-frames` | <kbd>integer</kbd> | Total frames streamed since the stream started
 | `obsEvent.total-stream-time` | <kbd>integer</kbd> | Total time (in seconds) since the stream started
 | `obsEvent.update-type` | <kbd>string</kbd> | The update type of the OBS event in this case `Heartbeat`
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format 
+| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
 
 * [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#heartbeat)
 * [<= Back](/en/Broadcasters/OBS/Events)

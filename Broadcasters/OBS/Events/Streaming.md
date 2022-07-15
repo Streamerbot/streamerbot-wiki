@@ -1,9 +1,9 @@
 ---
 title: Streaming
-description: 
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-04T20:31:56.848Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-07-01T18:39:16.364Z
 ---

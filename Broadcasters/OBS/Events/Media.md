@@ -1,9 +1,9 @@
 ---
 title: Media
-description: 
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-04T20:31:24.626Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-07-01T18:38:39.880Z
 ---

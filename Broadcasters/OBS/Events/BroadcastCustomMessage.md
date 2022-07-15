@@ -1,9 +1,9 @@
 ---
 title: BroadcastCustomMessage
-description: A custom broadcast message, sent by the server, requested by one of the websocket clients.
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-06T20:52:20.833Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-06-27T20:56:37.417Z
 ---

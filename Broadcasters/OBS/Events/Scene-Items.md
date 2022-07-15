@@ -1,9 +1,9 @@
 ---
 title: Scene Items
-description: 
+description: OBS Studio Events Reference
 published: true
 date: 2022-07-04T20:31:44.853Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-07-01T18:38:58.156Z
 ---
