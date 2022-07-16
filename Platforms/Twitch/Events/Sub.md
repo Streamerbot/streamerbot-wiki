@@ -2,7 +2,7 @@
 title: Subscription
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:48:31.799Z
+date: 2022-07-16T15:48:53.241Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-11-14T22:27:36.317Z
@@ -11,7 +11,7 @@ dateCreated: 2021-11-14T22:27:36.317Z
 # Overview
 
 ## Sub
-This event triggers when a user first subscribes themselves to the channel and has not recieved any gift subs![sub.png](/sub.png)
+This event triggers when a user first subscribes themselves to the channel and has not recieved any gift subs.
 
 Actions can be assigned to `Generic Action` which will trigger on every first subscription 
 You can also assign actions to specific Tiers `Twitch Prime` `Tier 1` `Tier 2` `Tier3`
