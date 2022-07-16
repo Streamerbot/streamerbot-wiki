@@ -1,14 +1,14 @@
 ---
 title: Gift Bombs
-description: 
+description: Twitch Events Reference
 published: true
-date: 2022-07-09T19:56:54.830Z
-tags: 
+date: 2022-07-16T15:43:48.057Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2021-12-12T22:44:55.140Z
 ---
 
-# Gift Bombs
+## Overview
 
 A Gift bomb event is the most typical event for subscription gifting and is triggered when a gift sub is purchased but no specific user is targeted, i.e. the recipient is random
 
@@ -20,19 +20,19 @@ You can configure events to trigger on specific tiers or set to `Generic` to tri
 Different alerts can also be configured for `anonymous` and `non-anonymous` gifts or you can set to `Either` to trigger on both
 
 
-## Ranges
+### Ranges
 
 The ranges here refer to the number of gift subs in this specific purchase.
 Ranges can be `Generic` to match any Tier or can be set to count gifts of specific tiers only.
 The Ranges can also be `Anonymous`, `Non-Anonymous` or `Either`
 
-# Variables
+## Variables
 
-
-Variable | Description
----------:|------------
-`gifts` | Number of subscriptions in this gift bomb
-`totalGifts` | Total number of subscriptions this user has gifted
-`fromGiftBomb` | Boolean value if sub came from a gift bomb |  `True`/`False` 
-`anonymous` | Boolean value indicating the gift was anonymous |  `True`/`False` 
-`tier` | Subscription tier as a string | `tier 1`. `tier 2`, `tier 3`
+| Name | Description |
+|-----:|:------------|
+| `gifts` | Number of subscriptions in this gift bomb
+| `totalGifts` | Total number of subscriptions this user has gifted
+| `fromGiftBomb` | Boolean value if sub came from a gift bomb <br>  `True`/`False` 
+| `anonymous` | Boolean value indicating the gift was anonymous <br> `True`/`False` 
+| `tier` | Subscription tier as a string <br> `tier 1`. `tier 2`, `tier 3`
+{.vars-table}
