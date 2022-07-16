@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-16T15:44:19.924Z
+date: 2022-07-16T15:49:35.963Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -17,11 +17,11 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 ## Standard Twitch Events
 Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 
-- [**General *Follows & Chat related events***](/Events/General)
-- [**Cheers *Bit Cheer events***](/Events/Cheers)
-- [**Sub *First time subscribers***](/Events/Sub)
-- [**Re-Sub *Users renewing their own subscription***](/Events/Sub)
-- [**Gift Sub *Gifting a subscription to a named person***](/Events/Gift-Sub)
+- [**General *Follows & Chat related events***](/Platforms/Twitch/Events/General)
+- [**Cheers *Bit Cheer events***](/Platforms/Twitch/Events/Cheers)
+- [**Sub *First time subscribers***](/Platforms/Twitch/Events/Sub)
+- [**Re-Sub *Users renewing their own subscription***](/Platforms/Twitch/Events/Sub)
+- [**Gift Sub *Gifting a subscription to a named person***](/Platforms/Twitch/Events/Gift-Sub)
 - [**Gift Bomb *Gifting 1 or more subscriptions to random users***](/Platforms/Twitch/Events/Gift-Bomb)
 - [**Raid *Incoming and Outgoing Raids***](/Platforms/Twitch/Events/Raid)
 - [**Hosts *When a user starts hosting the channel***](/Platforms/Twitch/Events/Hosts)
