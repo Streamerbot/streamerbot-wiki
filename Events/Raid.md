@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:42:08.682Z
+date: 2022-07-16T15:42:38.732Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
