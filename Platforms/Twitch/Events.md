@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-16T15:39:43.774Z
+date: 2022-07-16T15:41:33.590Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -24,7 +24,7 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 - [**Gift Sub *Gifting a subscription to a named person***](/Events/Gift-Sub)
 - [**Gift Bomb *Gifting 1 or more subscriptions to random users***](/Events/Gift-Bomb)
 - [**Raid *Incoming and Outgoing Raids***](/Events/Raid)
-- [**Hosts *When a user starts hosting the channel***](/Platforms/Twitch/en/Events/Hosts)
+- [**Hosts *When a user starts hosting the channel***](/Platforms/Twitch/Events/Hosts)
 - [**Hype Train *When Hype Train Starts, Ends, Progresses or Levels up***](/Platforms/Twitch/Events/Hype-Train)
 - [**Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
 - [**Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
