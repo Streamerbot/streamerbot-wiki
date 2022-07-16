@@ -2,7 +2,7 @@
 title: Backup Streamer.bot
 description: Learn how to restore a backup in streamer.bot!
 published: true
-date: 2022-07-16T22:41:32.884Z
+date: 2022-07-16T22:42:11.399Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
@@ -17,7 +17,9 @@ If you unzip that file, you should see `globals.dat`, `quotes.dat`, `users.dat`,
 
 # Data Folder
 All the files that are in the backup you can paste in `Streamer.bot-[version]/data`.
-If a `Replace or Skip Files` menu opens, click on `Replace the file in the destination`
+> If a `Replace or Skip Files` menu opens, click on `Replace the file in the destination`
+{.is-warning}
+
 After these steps all your actions, settings, etc. will be returned, enjoy!
 
 # Video Tutorial
