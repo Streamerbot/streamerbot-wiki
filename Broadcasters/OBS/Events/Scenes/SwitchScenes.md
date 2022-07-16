@@ -2,7 +2,7 @@
 title: SwitchScenes
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-16T14:15:43.026Z
+date: 2022-07-16T14:41:02.729Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:09:06.949Z
@@ -25,6 +25,6 @@ dateCreated: 2022-06-27T01:09:06.949Z
 
 ---{.my-10}
 
-* [<i class="mdi mdi-creation primary--text"></i> **OBS Websocket documentation *This links to the github documentation of this specif event***](/en/Events)
-* [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
+* [<img src="https://wiki.streamer.bot/logos/github-logo.png"/>**OBS Websocket documentation *This links to the github documentation of this specif event***](/en/Events)
+* [<img src="https://wiki.streamer.bot/logos/streamerbot.png"/>**⬅ Back *This brings you back to the events page***](/en/Broadcasters/OBS/Events)
 {.btn-grid}
