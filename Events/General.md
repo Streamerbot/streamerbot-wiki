@@ -1,14 +1,12 @@
 ---
 title: General
-description: Documentation for the Platforms -> Twitch -> Events -> General tab
+description: Twitch Events Reference
 published: true
-date: 2022-07-09T19:56:51.201Z
-tags: 
+date: 2022-07-16T15:50:21.283Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
 ---
-
-![twitch-events-general-0110.png](/twitch-events-general-0110.png)
 
 The `General` tab covers 10 Simple events and a single action can be assigned to each; 
 
