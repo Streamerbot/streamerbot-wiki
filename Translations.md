@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-16T22:59:58.367Z
+date: 2022-07-16T23:12:23.609Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -26,7 +26,10 @@ Then when you have downloaded the file translate it.
 Done with translating it?, fill in this google form below
 
 * [Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
-{.links-list}
+
+- [<i class="mdi mdi-file-document"></i>Fill in this google form](https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform)
+{.btn-grid .my-5}
+
 <div class=“iframe-container”><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZJHXRKtUwFVfNfjObUEnG6KTJO78YPnUBNJ3oeS8u6Eje8Q/viewform" style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
 
 When translated, your discord goes on the top right corner of the page: *Translated by example#0000*{.translation-badge}
