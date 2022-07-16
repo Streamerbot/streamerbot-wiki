@@ -2,7 +2,7 @@
 title: Restore Backup(s)
 description: Learn how to restore a backup with streamer.bot!
 published: true
-date: 2022-07-16T23:16:54.805Z
+date: 2022-07-16T23:19:07.356Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
@@ -25,4 +25,4 @@ After these steps all your actions, settings, etc. will be returned, enjoy!
 # Video Tutorial
 <small>Thanks to VRFlad for this tutorial!</small>
 
-<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/5z-ULoqxmiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/5z-ULoqxmiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture fullscreen;" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
