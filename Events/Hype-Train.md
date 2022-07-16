@@ -1,14 +1,15 @@
 ---
 title: Hype Train
-description: Twitch Hype Train Events
+description: Twitch Events Reference
 published: true
-date: 2022-07-09T19:57:01.803Z
-tags: twitch, hypetrain
+date: 2022-07-16T15:39:25.058Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
 ---
 
-# Hype Train
+## Overview
+
 In this tab you can assign actions to the various levels of the hype train. 
 
 To get to this tab you need to click through the following tabs, First click the `Settings` tab next click on the `Events` tab then finally click the `Hype Train` tab. You should now see a window just like the image below.
@@ -49,24 +50,25 @@ In this section you can set an action to trigger when a Hype Train has finished 
 On the right in this tab is the test section where you can test all that you have just set up. You can test the events, level goal and level total these will let you test the variations and the progression actions you have. Total will let you test the finished event you have set.
 
 
-# Variables
+## Variables
 
 
 Variable | Description | Notes
 ---------:|------------|---
-`level` | Current level | `(1-5)`
-`percent` | percent complete of the level
-`percentDecimal` | percent completion of the level as a decimal value
-*`contributors` | Number of contributors in the hype train | Not available on `Hype Train Start`
+`level` | Current level <br> `1-5`
+`percent` |Percent complete of the level <br> `50`
+`percentDecimal` | Percent completion of the level as a decimal value <br> `0.5`
+`contributors` | Number of contributors in the hype train <br> *Not available on Hype Train Start*{.small}
 `conductor` | Twitch User ID of the conductor
-
+{.vars-table}
 
 
 ## Level Up
 
 Variable | Description
 ---------:|------------
-`prevLevel` | Previous level of the hype train | `(1-4)`
+`prevLevel` | Previous level of the hype train <br> `1-4`
+{.vars-table}
 
 ## Progression
 
