@@ -1,18 +1,16 @@
 ---
 title: Hosts
-description: Alerts for a user hosting the stream
+description: Twitch Events Reference
 published: true
-date: 2022-07-09T19:57:19.110Z
-tags: 
+date: 2022-07-16T15:40:54.416Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:45:31.132Z
 ---
 
-# Hosts
+## Overview
 
 Streamer.bot monitor for both a user starting a host of your channel. The actions for this can be configured on the `Host` tab
-
-![image.png](/image.png)
 
 ### Generic
 
@@ -26,14 +24,14 @@ If you would like a special alert to override the generic action for incoming ho
 {.is-info}
 
 
-# Variables
+## Variables
 
 > Mileage may vary, Twitch API documentation does not match real life results
 {.is-warning}
 
-Variable | Description
----------:|------------
-`user` | The user who is hosting the channel
-`viewers` | Provides an estimate of live viewers watching a hosted stream
+| Name | Description |
+|-----:|:------------|
+| `user` | The user who is hosting the channel
+| `viewers` | Provides an estimate of live viewers watching a hosted stream
 
 
