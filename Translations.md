@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-16T23:12:23.609Z
+date: 2022-07-16T23:13:13.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -19,8 +19,11 @@ If you want to assist, you need to do a couple of things.
 
 Download one of these files below.
 
-* to be add soon...
-{.links-list}
+* to be added soon...
+* 1
+* 2
+* 3
+{.grid-list}
 
 Then when you have downloaded the file translate it.
 Done with translating it?, fill in this google form below
