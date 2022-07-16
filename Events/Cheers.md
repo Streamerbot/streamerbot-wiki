@@ -1,14 +1,14 @@
 ---
 title: Cheers
-description: Twitch Cheer Events
+description: Twitch Events Reference
 published: true
-date: 2022-07-09T19:56:44.257Z
-tags: twitch, cheer
+date: 2022-07-16T15:51:43.934Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
 ---
 
-# Twitch Cheers
+# Overview
 
 In this tab you can assign actions to your twitch cheer events so every time you get bits cheered on your twitch channel, the action will run but here is the fun part you can have variations for a specified ranges. 
 
@@ -46,11 +46,11 @@ Any action you assign to this type will be triggered when a non-anonymous cheer 
 
 # Variables
 
-Variable | Description| Notes
----------:|------------|---
+| Name | Description |
+|-----:|:------------|
 `msgId` | Twitch's message ID 
-`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-`isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
+`role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
+`isSubscribed` | Boolean value indicating the user's subscription status <br>  `True`/`False`
 `color` | User's color (if they have chosen one or a random one if not)
 `colorR` | Red value of the `color` variable
 `colorG` | Green value of the `color` variable
@@ -60,13 +60,14 @@ Variable | Description| Notes
 `emotes` | Comma Separated list of Twitch! emotes found
 `messageStripped` | The chat message with emotes stripped
 `messageCheermotesStripped` | The chat message with cheer emotes stripped
-`isHighlight` | Boolean for message highlight | `True`/`False`
+`isHighlight` | Boolean for message highlight <br> `True`/`False`
 `bits` | Number of bits the message has
-`isAction` | Boolean value indicating the message is a `/me` action | `True`/`False`
-`isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
+`isAction` | Boolean value indicating the message is a `/me` action <br> `True`/`False`
+`isReply`| Boolean value indicating the message is a reply to another message <br> `True`/`False` 
 `replyTo`| if `isReply` is True, populates the username the message is replying to
-`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
-`cheerEmotes` | List of cheermotes found in the message |
-`anonymous` | Boolean value indicating if the cheer was anonymous | `True`/`False`
-`cheerEmoteCount` | How many Twitch! cheer emotes were found |
+`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel <br> `True`/`False` *v0.1.8+*{.version-badge}
+`cheerEmotes` | List of cheermotes found in the message
+`anonymous` | Boolean value indicating if the cheer was anonymous <br> `True`/`False`
+`cheerEmoteCount` | How many Twitch! cheer emotes were found
+{.vars-table}
 
