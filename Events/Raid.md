@@ -1,14 +1,14 @@
 ---
 title: Raids
-description: Events for Incoming and Outgoing Raids
+description: Twitch Events Reference
 published: true
-date: 2022-07-13T20:04:30.325Z
-tags: 
+date: 2022-07-16T15:42:08.682Z
+tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
 ---
 
-# Raids
+# Overview
 
 Streamer.bot can handle alerts for both an incoming and outgoing raid from the channel, the actions for both can be configured on the `Raid` tab
 
