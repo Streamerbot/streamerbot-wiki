@@ -2,23 +2,25 @@
 title: BroadcastCustomMessage
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-17T22:54:19.977Z
+date: 2022-07-17T22:55:22.993Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:56:37.417Z
 ---
 
-# BroadcastCustomMessage
+## Overview
+A custom broadcast message, sent by the server, requested by one of the websocket clients.
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+| Name | Description |
+|-----:|:------------|
 | `obsEvent.event` | The OBS event in this case `BroadcastCustomMessage`
 | `data` | User-defined data
 | `realm` | Identifier provided by the sender
 | `obsEvent.update-type` | The update type of the OBS event in this case `BroadcastCustomMessage`
 | `obsEvent._json` | Everything above in a json format
+{.vars-table}
 
 ---
 
