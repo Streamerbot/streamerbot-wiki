@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-17T22:55:01.192Z
+date: 2022-07-17T23:07:23.787Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -30,16 +30,16 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 ## Standard Twitch Events
 Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 
-- [**Cheers *Bit Cheer events***](/Platforms/Twitch/Events/Cheers)
-- [**Sub *First time subscribers***](/Platforms/Twitch/Events/Sub)
-- [**Re-Sub *Users renewing their own subscription***](/Platforms/Twitch/Events/Sub)
-- [**Gift Sub *Gifting a subscription to a named person***](/Platforms/Twitch/Events/Gift-Sub)
-- [**Gift Bomb *Gifting 1 or more subscriptions to random users***](/Platforms/Twitch/Events/Gift-Bomb)
-- [**Raid *Incoming and Outgoing Raids***](/Platforms/Twitch/Events/Raid)
-- [**Hosts *When a user starts hosting the channel***](/Platforms/Twitch/Events/Hosts)
-- [**Hype Train *When Hype Train Starts, Ends, Progresses or Levels up***](/Platforms/Twitch/Events/Hype-Train)
-- [**Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
-- [**Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
+- [<i class="mdi mdi-diamond-stone text--twitch"></i> **Cheers *Bit Cheer events***](/Platforms/Twitch/Events/Cheers)
+- [<i class="mdi mdi-account-star-outline text--twitch"></i> **Sub *First time subscribers***](/Platforms/Twitch/Events/Sub)
+- [<i class="mdi mdi-account-star text--twitch"></i> **Re-Sub *Users renewing their own subscription***](/Platforms/Twitch/Events/Sub)
+- [<i class="mdi mdi-wallet-giftcard text--twitch"></i> **Gift Sub *Gifting a subscription to a named person***](/Platforms/Twitch/Events/Gift-Sub)
+- [<i class="mdi mdi-gift text--twitch"></i> **Gift Bomb *Gifting 1 or more subscriptions to random users***](/Platforms/Twitch/Events/Gift-Bomb)
+- [<i class="mdi mdi-target-account text--twitch"></i> **Raid *Incoming and Outgoing Raids***](/Platforms/Twitch/Events/Raid)
+- [<i class="mdi mdi-tooltip-account text--twitch"></i> **Hosts *When a user starts hosting the channel***](/Platforms/Twitch/Events/Hosts)
+- [<i class="mdi mdi-train text--twitch"></i> **Hype Train *When Hype Train Starts, Ends, Progresses or Levels up***](/Platforms/Twitch/Events/Hype-Train)
+- [<i class="mdi mdi-progress-check text--twitch"></i> **Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
+- [<i class="mdi mdi-update text--twitch"></i> **Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
 {.btn-grid .my-5}
 
 ## Additional Event Types
