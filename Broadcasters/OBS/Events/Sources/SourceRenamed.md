@@ -21,6 +21,6 @@ dateCreated: 2022-06-28T15:42:26.234Z
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceRenamed`
 | `obsEvent._json` | Everything above in a json format
 
-* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcerenamed)
-* [<= Back](/en/Broadcasters/OBS/Events)
-{.links-list}
+- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourcerenamed)
+{.btn-grid my-5}

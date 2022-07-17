@@ -13,4 +13,4 @@ dateCreated: 2022-07-01T18:39:05.038Z
 * [ScenesChanged](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
 * [SceneCollectionChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
 * [SceneCollectionListChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
-{.links-list}
+

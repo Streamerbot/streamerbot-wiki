@@ -22,4 +22,3 @@ dateCreated: 2022-07-01T18:39:10.304Z
 * [SourceFilterRemoved](/en/Broadcasters/OBS/Events/Sources/SourceFilterRemoved)
 * [SourceFilterVisibilityChanged](/en/Broadcasters/OBS/Events/Sources/SourceFilterVisibilityChanged)
 * [SourceFiltersReordered](/en/Broadcasters/OBS/Events/Sources/SourceFiltersReordered)
-{.links-list}

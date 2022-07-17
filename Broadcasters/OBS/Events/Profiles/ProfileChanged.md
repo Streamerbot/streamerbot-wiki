@@ -18,6 +18,6 @@ dateCreated: 2022-06-27T09:32:13.600Z
 | `obsEvent.profile` | The name of the profile it changed to
 | `obsEvent.update-type	` | The update type of the OBS event in this case `ProfileChanged`
 | `obsEvent._json` | Everything above in a json format
-* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#profilechanged)
-* [<= Back](/en/Broadcasters/OBS/Events)
-{.links-list}
+- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#profilechanged)
+{.btn-grid my-5}

@@ -17,4 +17,3 @@ dateCreated: 2022-07-01T18:38:39.880Z
 * [MediaPrevious](/en/Broadcasters/OBS/Events/Media/MediaPrevious)
 * [MediaStarted](/en/Broadcasters/OBS/Events/Media/MediaStarted)
 * [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
-{.links-list}

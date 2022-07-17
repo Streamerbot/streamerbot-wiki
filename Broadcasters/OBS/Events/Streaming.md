@@ -14,4 +14,3 @@ dateCreated: 2022-07-01T18:39:16.364Z
 * [StreamStopping](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
 * [StreamStopped](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
 * [StreamStatus](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
-{.links-list}

@@ -17,4 +17,3 @@ dateCreated: 2022-07-01T18:38:58.156Z
 * [SceneItemTransformChanged](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemTransformChanged)
 * [SceneItemSelected](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemSelected)
 * [SceneItemDeselected](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemDeselected)
-{.links-list}

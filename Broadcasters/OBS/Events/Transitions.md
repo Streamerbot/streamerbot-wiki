@@ -15,4 +15,4 @@ dateCreated: 2022-07-01T18:39:23.492Z
 * [TransitionBegin](/en/Broadcasters/OBS/Events/Transitions/TransitionBegin)
 * [TransitionEnd](/en/Broadcasters/OBS/Events/Transitions/TransitionEnd)
 * [TransitionVideoEnd](/en/Broadcasters/OBS/Events/Transitions/TransitionVideoEnd)
-{.links-list}
+

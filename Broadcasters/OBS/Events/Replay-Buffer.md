@@ -13,4 +13,3 @@ dateCreated: 2022-07-01T18:38:53.015Z
 * [ReplayStarted](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
 * [ReplayStopping](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
 * [ReplayStopped](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
-{.links-list}

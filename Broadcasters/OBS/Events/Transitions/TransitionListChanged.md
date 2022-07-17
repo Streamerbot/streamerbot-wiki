@@ -18,6 +18,6 @@ dateCreated: 2022-06-27T02:32:10.168Z
 | `obsEvent.transitions[#].name` | The name of all transitions
 | `obsEvent.update-type	` | The update type of the OBS event in this case `TransitionListChanged`
 | `obsEvent._json` | Everything above in a json format
-* [Official OBS websocket documentation about this](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#transitionlistchanged)
-* [<= Back](/en/Broadcasters/OBS/Events)
-{.links-list}
+- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#transitionlistchanged)
+{.btn-grid my-5}

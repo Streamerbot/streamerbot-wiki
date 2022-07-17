@@ -15,4 +15,3 @@ dateCreated: 2022-07-01T18:38:46.909Z
 * [RecordingStopped](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
 * [RecordingPaused](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
 * [RecordingResumed](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
-{.links-list}
