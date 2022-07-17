@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-17T17:37:57.200Z
+date: 2022-07-17T18:38:10.796Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -83,7 +83,7 @@ Additional Links{.overline}
 ---
 
 > **NOTE**
-> This Wiki is very much a work in progress. If you would like to contribute, please reach out on Discord.
+> This Wiki is very much a work in progress. If you see bugs/typos or you want to contribute, please reach out on Discord in [#unearthed-arcana](https://discord.gg/RCcH54hWck)
 {.is-info}
 
 

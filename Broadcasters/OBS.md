@@ -2,7 +2,7 @@
 title: OBS
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-09T20:34:38.008Z
+date: 2022-07-17T21:21:29.791Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -60,17 +60,13 @@ Lists all sources present on the currently selected scene
 
 # Events
 
-> OBS Events requires **Streamer.bot** *v0.1.4*{.version-badge} or higher.
-{.is-info}
-
 You can assign actions to events that OBS transmits across the websocket connection.
 
 The data that an event emits, is added onto the arguents the same way it is with results from `OBS Raw`, as well as a `%obsEvent._json%` variable that can be parsed in C# (`JObject.Parse()`) for easier use.
 
 OBS events are per-connection based.
 
-* [OBS Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists.*](/en/Broadcasters/OBS/Events)
-{.links-list}
-# Requests
-* [OBS Requests *Contains a list of requests that are supported with OBS raw.*](/en/Broadcasters/OBS/Requests) 
-{.links-list}
+- [<i class="mdi mdi-calendar mdi-light mdi-inactive"></i>**Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists***](/en/home)
+- [<i class="mdi mdi-pencil mdi-light mdi-inactive"></i>**Requests *Contains a list of requests that are supported with OBS raw***](/en/Changelogs)
+- [<i class="mdi mdi-link mdi-light mdi-inactive"></i>**Raw *OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.***](/en/Changelogs)
+{.btn-grid .mt-10}
