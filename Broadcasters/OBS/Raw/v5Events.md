@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-17T11:44:51.307Z
+date: 2022-07-17T11:50:19.952Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -19,73 +19,83 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## General Events
-* [ExitStarted]()
-* [VendorEvent]()
+* [**ExitStarted *DESCRIPTION***]()
+* [**VendorEvent *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Config Events
-* [CurrentSceneCollectionChanging]()
-* [CurrentSceneCollectionChanged]()
-* [SceneCollectionListChanged]()
-* [CurrentProfileChanging]()
-* [CurrentProfileChanged]()
-* [ProfileListChanged]()
-{.links-list}
+* [**CurrentSceneCollectionChanging *DESCRIPTION***]()
+* [**CurrentSceneCollectionChanged *DESCRIPTION***]()
+* [**SceneCollectionListChanged *DESCRIPTION***]()
+* [**CurrentProfileChanging *DESCRIPTION***]()
+* [**CurrentProfileChanged *DESCRIPTION***]()
+* [**ProfileListChanged *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Scenes Events
-* [SceneCreated]()
-* [SceneRemoved]()
-* [SceneNameChanged]()
-* [CurrentProgramSceneChanged]()
-* [CurrentPreviewSceneChanged]()
-* [SceneListChanged]()
-{.links-list}
+* [**SceneCreated *DESCRIPTION***]()
+* [**SceneRemoved *DESCRIPTION***]()
+* [**SceneNameChanged *DESCRIPTION***]()
+* [**CurrentProgramSceneChanged *DESCRIPTION***]()
+* [**CurrentPreviewSceneChanged *DESCRIPTION***]()
+* [**SceneListChanged *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Inputs Events
-* [InputCreated]()
-* [InputRemoved]()
-* [InputNameChanged]()
-* [InputActiveStateChanged]()
-* [InputShowStateChanged]()
-* [InputMuteStateChanged]()
-* [InputVolumeChanged]()
-* [InputAudioBalanceChanged]()
-* [InputAudioSyncOffsetChanged]()
-* [InputAudioTracksChanged]()
-* [InputAudioMonitorTypeChanged]()
-* [InputVolumeMeters]()
-{.links-list}
+* [**InputCreated *DESCRIPTION***]()
+* [**InputRemoved *DESCRIPTION***]()
+* [**InputNameChanged *DESCRIPTION***]()
+* [**InputActiveStateChanged *DESCRIPTION***]()
+* [**InputShowStateChanged *DESCRIPTION***]()
+* [**InputMuteStateChanged *DESCRIPTION***]()
+* [**InputVolumeChanged *DESCRIPTION***]()
+* [**InputAudioBalanceChanged *DESCRIPTION***]()
+* [**InputAudioSyncOffsetChanged *DESCRIPTION***]()
+* [**InputAudioTracksChanged *DESCRIPTION***]()
+* [**InputAudioMonitorTypeChanged *DESCRIPTION***]()
+* [**InputVolumeMeters *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Transitions Events
-* [CurrentSceneTransitionChanged]()
-* [CurrentSceneTransitionDurationChanged]()
-* [SceneTransitionStarted]()
-* [SceneTransitionEnded]()
-* [SceneTransitionVideoEnded]()
-{.links-list}
+* [**CurrentSceneTransitionChanged *DESCRIPTION***]()
+* [**CurrentSceneTransitionDurationChanged *DESCRIPTION***]()
+* [**SceneTransitionStarted *DESCRIPTION***]()
+* [**SceneTransitionEnded *DESCRIPTION***]()
+* [**SceneTransitionVideoEnded *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Filters Events
-* [SourceFilterListReindexed]()
-* [SourceFilterCreated]()
-* [SourceFilterRemoved]()
-* [SourceFilterNameChanged]()
-* [SourceFilterEnableStateChanged]()
-{.links-list}
+* [**SourceFilterListReindexed *DESCRIPTION***]()
+* [**SourceFilterCreated *DESCRIPTION***]()
+* [**SourceFilterRemoved *DESCRIPTION***]()
+* [**SourceFilterNameChanged *DESCRIPTION***]()
+* [**SourceFilterEnableStateChanged *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Scene Items Events
-* [SceneItemCreated]()
-* [SceneItemRemoved]()
-* [SceneItemListReindexed]()
-* [SceneItemEnableStateChanged]()
-* [SceneItemLockStateChanged]()
-* [SceneItemSelected]()
-* [SceneItemTransformChanged]()
-{.links-list}
+* [**SceneItemCreated *DESCRIPTION***]()
+* [**SceneItemRemoved *DESCRIPTION***]()
+* [**SceneItemListReindexed *DESCRIPTION***]()
+* [**SceneItemEnableStateChanged *DESCRIPTION***]()
+* [**SceneItemLockStateChanged *DESCRIPTION***]()
+* [**SceneItemSelected *DESCRIPTION***]()
+* [**SceneItemTransformChanged *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Outputs Events
-* [StreamStateChanged]()
-* [RecordStateChanged]()
-* [ReplayBufferStateChanged]()
-* [VirtualcamStateChanged]()
-* [ReplayBufferSaved]()
-{.links-list}
+* [**StreamStateChanged *DESCRIPTION***]()
+* [**RecordStateChanged *DESCRIPTION***]()
+* [**ReplayBufferStateChanged *DESCRIPTION***]()
+* [**VirtualcamStateChanged *DESCRIPTION***]()
+* [**ReplayBufferSaved *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Media Inputs Events
-* [MediaInputPlaybackStarted]()
-* [MediaInputPlaybackEnded]()
-* [MediaInputActionTriggered]()
-{.links-list}
+* [**MediaInputPlaybackStarted *DESCRIPTION***]()
+* [**MediaInputPlaybackEnded *DESCRIPTION***]()
+* [**MediaInputActionTriggered *DESCRIPTION***]()
+{.btn-grid .my-5}
+
 ## Ui Events
-* [StudioModeStateChanged]()
-{.links-list}
+* [**StudioModeStateChanged *DESCRIPTION***]()
+{.btn-grid .my-5}
