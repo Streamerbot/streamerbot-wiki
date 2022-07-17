@@ -2,7 +2,7 @@
 title: Subscription
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:48:53.241Z
+date: 2022-07-17T09:36:52.022Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-11-14T22:27:36.317Z
@@ -44,7 +44,7 @@ These ranges refer to the both the tier they subscribe at and the total time the
 `tier` | Subscription tier <br> `Prime`, `Tier 1`. `Tier 2`, `Tier 3`
 `monthStreak` | Current subscription streak in months <br> *Not for sub event. Only for re-sub event.*{.small}
 `cumulative` | Total number of months a user has been subscribed for <br> *Not for sub event. Only for re-sub event.*{.small}
-`message` | Message that was sent to chat
+`rawInput` | The message entered
+`rawInputEscaped` | The message escaped
 `role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `color` | User's color (if they have chosen one or a random one if not)
-{.vars-table}
