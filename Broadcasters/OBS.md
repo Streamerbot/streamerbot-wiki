@@ -2,7 +2,7 @@
 title: OBS
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-17T22:35:53.566Z
+date: 2022-07-17T22:39:09.787Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -67,6 +67,6 @@ The data that an event emits, is added onto the arguents the same way it is with
 OBS events are per-connection based.
 
 - [<i class="mdi mdi-creation primary--text"></i>**Events *contains a list of events that are supported, this matches what the 4.9.x OBS websocket documentation lists***](/en/Broadcasters/OBS/Events)
-- [<i class="mdi mdi-pencil primary--text"></i>**Requests *Contains a list of requests that are supported with OBS raw***](/en/Broadcasters/OBS/Requests){.disabled}
-- [<i class="mdi mdi-link primary--text"></i>**Raw *OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.***](/en/Broadcasters/OBS/Raw){.disabled}
+- [<i class="mdi mdi-pencil mdi-light mdi-inactive"></i>**Requests *Contains a list of requests that are supported with OBS raw***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-link mdi-light mdi-inactive"></i>**Raw *OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.***](/en/Broadcasters/OBS/Raw)
 {.btn-grid .mt-10}
