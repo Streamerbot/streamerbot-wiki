@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-17T12:42:49.680Z
+date: 2022-07-17T12:46:38.623Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -141,8 +141,8 @@ If `isLive` is `True` the following variables will also be populated on each tic
 | `adLength` | The length of the ad in seconds
 | `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
 
-- [<i class="mdi mdi-account text--twitch"></i> **Follows *Placeholder***]()
-- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message / Whispers & First Words *Placeholder***]()
+- [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***]()
+- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message / Whispers & First Words *When a chat message/whispers or first words accor***]()
 - [<i class="mdi mdi-human text--twitch"></i> **Present Viewers *Placeholder***]()
 - [<i class="mdi mdi-microphone text--twitch"></i> **Announcement *Placeholder***]()
 - [<i class="mdi mdi-window-close text--twitch"></i> **Message Deleted *Placeholder***]()
