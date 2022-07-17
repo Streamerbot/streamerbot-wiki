@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-17T12:46:38.623Z
+date: 2022-07-17T12:54:44.333Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -142,11 +142,11 @@ If `isLive` is `True` the following variables will also be populated on each tic
 | `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
 
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***]()
-- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message / Whispers & First Words *When a chat message/whispers or first words accor***]()
-- [<i class="mdi mdi-human text--twitch"></i> **Present Viewers *Placeholder***]()
-- [<i class="mdi mdi-microphone text--twitch"></i> **Announcement *Placeholder***]()
-- [<i class="mdi mdi-window-close text--twitch"></i> **Message Deleted *Placeholder***]()
-- [<i class="mdi mdi-timer-sand-empty text--twitch"></i> **User Timed Out *Placeholder***]()
-- [<i class="mdi mdi-timer-sand-full text--twitch"></i> **User Banned *Placeholder***]()
-- [<i class="mdi mdi-play-box-outline text--twitch"></i> **Ad Run *Placeholder***]()
+- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message / Whispers & First Words *When a chat message/whispers or first words event occurs***]()
+- [<i class="mdi mdi-human text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***]()
+- [<i class="mdi mdi-microphone text--twitch"></i> **Announcement *When someone announces something in your twitch chat***]()
+- [<i class="mdi mdi-window-close text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***]()
+- [<i class="mdi mdi-timer-sand-empty text--twitch"></i> **User Timed Out *When a user is timed out***]()
+- [<i class="mdi mdi-timer-sand-full text--twitch"></i> **User Banned *When a user is banned***]()
+- [<i class="mdi mdi-play-box-outline text--twitch"></i> **Ad Run *When an ad runs on your twitch***]()
 {.btn-grid .my-5}
