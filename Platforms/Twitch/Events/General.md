@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-17T14:12:46.777Z
+date: 2022-07-17T14:12:57.899Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-25T21:31:30.022Z
 The `General` tab covers 10 Simple events and a single action can be assigned to each; 
 
 # Events
-> These 8 buttons don't work yet
+> These 8 buttons don't work yet.
 {.is-danger}
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***]()
 - [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message / Whispers & First Words *When a chat message/whispers or first words event occurs***]()
