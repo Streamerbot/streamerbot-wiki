@@ -2,13 +2,15 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-13T19:40:35.189Z
+date: 2022-07-17T11:44:51.307Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
 # OBS Events
+> You need to have obs websocket *v5.x.x*{.version-badge} installed
+{.is-warning}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
 
@@ -19,7 +21,7 @@ For example, a single scene change, fires off more events then just changing the
 ## General Events
 * [ExitStarted]()
 * [VendorEvent]()
-* [Config Events]()
+## Config Events
 * [CurrentSceneCollectionChanging]()
 * [CurrentSceneCollectionChanged]()
 * [SceneCollectionListChanged]()
