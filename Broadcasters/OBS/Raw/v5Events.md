@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-17T11:50:19.952Z
+date: 2022-07-17T11:59:38.018Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -19,83 +19,83 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## General Events
-* [**ExitStarted *DESCRIPTION***]()
-* [**VendorEvent *DESCRIPTION***]()
+* [**ExitStarted *OBS has begun the shutdown process***]()
+* [**VendorEvent *An event has been emitted from a vendor***]()
 {.btn-grid .my-5}
 
 ## Config Events
-* [**CurrentSceneCollectionChanging *DESCRIPTION***]()
-* [**CurrentSceneCollectionChanged *DESCRIPTION***]()
-* [**SceneCollectionListChanged *DESCRIPTION***]()
-* [**CurrentProfileChanging *DESCRIPTION***]()
-* [**CurrentProfileChanged *DESCRIPTION***]()
-* [**ProfileListChanged *DESCRIPTION***]()
+* [**CurrentSceneCollectionChanging *The current scene collection has begun changing***]()
+* [**CurrentSceneCollectionChanged *The current scene collection has changed***]()
+* [**SceneCollectionListChanged *The scene collection list has changed***]()
+* [**CurrentProfileChanging *The current profile has begun changing***]()
+* [**CurrentProfileChanged *The current profile has changed***]()
+* [**ProfileListChanged *The profile list has changed***]()
 {.btn-grid .my-5}
 
 ## Scenes Events
-* [**SceneCreated *DESCRIPTION***]()
-* [**SceneRemoved *DESCRIPTION***]()
-* [**SceneNameChanged *DESCRIPTION***]()
-* [**CurrentProgramSceneChanged *DESCRIPTION***]()
-* [**CurrentPreviewSceneChanged *DESCRIPTION***]()
-* [**SceneListChanged *DESCRIPTION***]()
+* [**SceneCreated *A new scene has been created***]()
+* [**SceneRemoved *A scene has been removed***]()
+* [**SceneNameChanged *The name of a scene has changed***]()
+* [**CurrentProgramSceneChanged *The current program scene has changed***]()
+* [**CurrentPreviewSceneChanged *The current preview scene has changed***]()
+* [**SceneListChanged *The list of scenes has changed***]()
 {.btn-grid .my-5}
 
 ## Inputs Events
-* [**InputCreated *DESCRIPTION***]()
-* [**InputRemoved *DESCRIPTION***]()
-* [**InputNameChanged *DESCRIPTION***]()
-* [**InputActiveStateChanged *DESCRIPTION***]()
-* [**InputShowStateChanged *DESCRIPTION***]()
-* [**InputMuteStateChanged *DESCRIPTION***]()
-* [**InputVolumeChanged *DESCRIPTION***]()
-* [**InputAudioBalanceChanged *DESCRIPTION***]()
-* [**InputAudioSyncOffsetChanged *DESCRIPTION***]()
-* [**InputAudioTracksChanged *DESCRIPTION***]()
-* [**InputAudioMonitorTypeChanged *DESCRIPTION***]()
-* [**InputVolumeMeters *DESCRIPTION***]()
+* [**InputCreated *An input has been created***]()
+* [**InputRemoved *An input has been removed***]()
+* [**InputNameChanged *The name of an input has changed***]()
+* [**InputActiveStateChanged *An input's active state has changed***]()
+* [**InputShowStateChanged *An input's show state has changed***]()
+* [**InputMuteStateChanged *An input's mute state has changed***]()
+* [**InputVolumeChanged *An input's volume level has changed***]()
+* [**InputAudioBalanceChanged *The audio balance value of an input has changed***]()
+* [**InputAudioSyncOffsetChanged *The sync offset of an input has changed***]()
+* [**InputAudioTracksChanged *The audio tracks of an input have changed***]()
+* [**InputAudioMonitorTypeChanged *The monitor type of an input has changed***]()
+* [**InputVolumeMeters *A high-volume event providing volume levels of all active inputs every 50 milliseconds***]()
 {.btn-grid .my-5}
 
 ## Transitions Events
-* [**CurrentSceneTransitionChanged *DESCRIPTION***]()
-* [**CurrentSceneTransitionDurationChanged *DESCRIPTION***]()
-* [**SceneTransitionStarted *DESCRIPTION***]()
-* [**SceneTransitionEnded *DESCRIPTION***]()
-* [**SceneTransitionVideoEnded *DESCRIPTION***]()
+* [**CurrentSceneTransitionChanged *The current scene transition has changed***]()
+* [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***]()
+* [**SceneTransitionStarted *A scene transition has started***]()
+* [**SceneTransitionEnded *A scene transition has completed fully***]()
+* [**SceneTransitionVideoEnded *A scene transition's video has completed fully***]()
 {.btn-grid .my-5}
 
 ## Filters Events
-* [**SourceFilterListReindexed *DESCRIPTION***]()
-* [**SourceFilterCreated *DESCRIPTION***]()
-* [**SourceFilterRemoved *DESCRIPTION***]()
-* [**SourceFilterNameChanged *DESCRIPTION***]()
-* [**SourceFilterEnableStateChanged *DESCRIPTION***]()
+* [**SourceFilterListReindexed *A source's filter list has been reindexed***]()
+* [**SourceFilterCreated *A filter has been added to a source***]()
+* [**SourceFilterRemoved *A filter has been removed from a source***]()
+* [**SourceFilterNameChanged *The name of a source filter has changed***]()
+* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***]()
 {.btn-grid .my-5}
 
 ## Scene Items Events
-* [**SceneItemCreated *DESCRIPTION***]()
-* [**SceneItemRemoved *DESCRIPTION***]()
-* [**SceneItemListReindexed *DESCRIPTION***]()
-* [**SceneItemEnableStateChanged *DESCRIPTION***]()
-* [**SceneItemLockStateChanged *DESCRIPTION***]()
-* [**SceneItemSelected *DESCRIPTION***]()
-* [**SceneItemTransformChanged *DESCRIPTION***]()
+* [**SceneItemCreated *A scene item has been created***]()
+* [**SceneItemRemoved *A scene item has been removed***]()
+* [**SceneItemListReindexed *A scene's item list has been reindexed***]()
+* [**SceneItemEnableStateChanged *A scene item's enable state has changed***]()
+* [**SceneItemLockStateChanged *A scene item's lock state has changed***]()
+* [**SceneItemSelected *A scene item has been selected in the Ui***]()
+* [**SceneItemTransformChanged *The transform/crop of a scene item has changed***]()
 {.btn-grid .my-5}
 
 ## Outputs Events
-* [**StreamStateChanged *DESCRIPTION***]()
-* [**RecordStateChanged *DESCRIPTION***]()
-* [**ReplayBufferStateChanged *DESCRIPTION***]()
-* [**VirtualcamStateChanged *DESCRIPTION***]()
-* [**ReplayBufferSaved *DESCRIPTION***]()
+* [**StreamStateChanged *The state of the stream output has changed***]()
+* [**RecordStateChanged *The state of the record output has changed***]()
+* [**ReplayBufferStateChanged *The state of the replay buffer output has changed***]()
+* [**VirtualcamStateChanged *The state of the virtualcam output has changed***]()
+* [**ReplayBufferSaved *The replay buffer has been saved***]()
 {.btn-grid .my-5}
 
 ## Media Inputs Events
-* [**MediaInputPlaybackStarted *DESCRIPTION***]()
-* [**MediaInputPlaybackEnded *DESCRIPTION***]()
-* [**MediaInputActionTriggered *DESCRIPTION***]()
+* [**MediaInputPlaybackStarted *A media input has started playing***]()
+* [**MediaInputPlaybackEnded *A media input has finished playing***]()
+* [**MediaInputActionTriggered *An action has been performed on an input***]()
 {.btn-grid .my-5}
 
 ## Ui Events
-* [**StudioModeStateChanged *DESCRIPTION***]()
+* [**StudioModeStateChanged *Studio mode has been enabled or disabled***]()
 {.btn-grid .my-5}
