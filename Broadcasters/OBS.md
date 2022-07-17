@@ -2,7 +2,7 @@
 title: OBS
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-17T21:20:25.355Z
+date: 2022-07-17T21:21:29.791Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -59,9 +59,6 @@ Shows the status of current streaming and recording activity
 Lists all sources present on the currently selected scene
 
 # Events
-
-> OBS Events requires **Streamer.bot** *v0.1.4*{.version-badge} or higher.
-{.is-info}
 
 You can assign actions to events that OBS transmits across the websocket connection.
 
