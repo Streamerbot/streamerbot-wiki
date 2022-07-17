@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:50:21.283Z
+date: 2022-07-17T12:28:54.831Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -28,7 +28,7 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 # Variables 
 
-## Follow
+## Follows
 | Value | Description | Notes |
 |------:|:-----------:|:------|
 `isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False`
@@ -141,3 +141,12 @@ If `isLive` is `True` the following variables will also be populated on each tic
 | `adLength` | The length of the ad in seconds
 | `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
 
+- [<i class="mdi mdi-twitch text--twitch"></i> **Follows *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **Chat Message / Whispers & First Words *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **Present Viewers *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **Announcement *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **Message Deleted *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **User Timed Out *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **User Banned *Placeholder***]()
+- [<i class="mdi mdi-twitch text--twitch"></i> **Ad Run *Placeholder***]()
+{.btn-grid .my-5}
