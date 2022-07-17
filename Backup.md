@@ -1,8 +1,8 @@
 ---
-title: Restore Backup(s)
+title: Restore a Backup
 description: Learn how to restore a backup with streamer.bot!
 published: true
-date: 2022-07-16T23:21:00.901Z
+date: 2022-07-17T16:36:03.022Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
