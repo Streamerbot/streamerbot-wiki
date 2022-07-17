@@ -1,8 +1,8 @@
 ---
 title: Extensions Suggestions
 description: 
-published: false
-date: 2022-07-09T19:54:35.113Z
+published: true
+date: 2022-07-17T18:39:48.177Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-06T14:44:35.509Z
