@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-07-17T16:44:52.203Z
+date: 2022-07-17T16:45:07.746Z
 tags: install, update
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z
@@ -14,7 +14,7 @@ dateCreated: 2022-07-01T17:27:48.282Z
 It is highly recommended to backup your existing installation **before** updating Streamer.bot
 {.is-warning}
 
-- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup Guide *Backup your existing Streamer.bot installation***](/en/Backup)
+- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup & Restore Guide *Backup your existing Streamer.bot installation***](/en/Backup)
 {.btn-grid .my-5}
 
 1. Close Streamer.bot if it is currently running
