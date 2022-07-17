@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-17T16:30:07.803Z
+date: 2022-07-17T22:55:01.192Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -20,7 +20,7 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***](/Platforms/Twitch/Events/General)
 - [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Chat, whispers, and first words events***](/Platforms/Twitch/Events/General)
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/General)
-- [<i class="mdi mdi-microphone text--twitch"></i> **Announcement *When someone announces something in your twitch chat***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *When someone announces something in your twitch chat***](/Platforms/Twitch/Events/General)
 - [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/General)
 - [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/General)
 - [<i class="mdi mdi-account-minus-outline text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/General)
@@ -45,9 +45,9 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 ## Additional Event Types
 *These event sources each have their own configuration tabs* {.subtitle}
 
-- [**Channel Point Rewards *Execute actions on point redemptions***](/en/Platforms/Twitch/Channel-Point-Rewards)
-- [**Polls *Integration with Twitch Polls***](/en/Platforms/Twitch/Polls)
-- [**Predictions *Integration with Twitch Predictions***](/en/Platforms/Twitch/Predictions)
+- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Point Rewards *Execute actions on point redemptions***](/en/Platforms/Twitch/Channel-Point-Rewards)
+- [<i class="mdi mdi-poll text--twitch"></i>**Polls *Integration with Twitch Polls***](/en/Platforms/Twitch/Polls)
+- [<i class="mdi mdi-poll mdi-flip-h text--twitch"></i>**Predictions *Integration with Twitch Predictions***](/en/Platforms/Twitch/Predictions)
 {.btn-grid .my-5}
 
 ---
