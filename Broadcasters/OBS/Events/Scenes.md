@@ -8,9 +8,10 @@ editor: markdown
 dateCreated: 2022-07-01T18:39:05.038Z
 ---
 
-# [Scenes](/en/Broadcasters/OBS/Events)
-* [SwitchScenes](/en/Broadcasters/OBS/Events/Scenes/SwitchScenes)
-* [ScenesChanged](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
-* [SceneCollectionChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
-* [SceneCollectionListChanged](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
-
+# Scene
+Scene change & collection events{.subtitle}
+* [**SwitchScenes *Event triggered **before** a scene change***](/en/Broadcasters/OBS/Events/Scenes/SwitchScenes)
+* [**ScenesChanged *Event triggered **after** a scene change***](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
+* [**SceneCollectionChanged *Triggered when switching to another scene collection***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
+* [**SceneCollectionListChanged *Triggered when modifying scene collections***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
+{.btn-grid .my-5}
