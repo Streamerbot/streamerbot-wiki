@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-07-16T15:49:35.963Z
+date: 2022-07-17T16:18:03.297Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -14,10 +14,22 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 > Some Twitch events may require [Affiliate](https://help.twitch.tv/s/article/twitch-affiliate-program-faq) status and some may be unavailable if prohibited by local laws.
 {.is-info}
 
+## General
+Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle}
+
+- [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Chat, whispers, and first words events***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-human text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-microphone text--twitch"></i> **Announcement *When someone announces something in your twitch chat***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-window-close text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-timer-sand-empty text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-timer-sand-full text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-play-box-outline text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/General)
+{.btn-grid .my-5}
+
 ## Standard Twitch Events
 Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 
-- [**General *Follows & Chat related events***](/Platforms/Twitch/Events/General)
 - [**Cheers *Bit Cheer events***](/Platforms/Twitch/Events/Cheers)
 - [**Sub *First time subscribers***](/Platforms/Twitch/Events/Sub)
 - [**Re-Sub *Users renewing their own subscription***](/Platforms/Twitch/Events/Sub)
