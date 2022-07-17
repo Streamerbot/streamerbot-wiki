@@ -353,6 +353,9 @@ h6::after {
 .text--youtube {
   color: #FF0000;
 }
+.text--polypop {
+  color: #ED135D;
+}
 .text--discord {
   color: #404eed;
 }
