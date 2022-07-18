@@ -2,7 +2,7 @@
 title: Logic
 description: 
 published: true
-date: 2022-07-10T19:26:39.158Z
+date: 2022-07-18T17:47:57.415Z
 tags: logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
@@ -22,12 +22,12 @@ All logic in Streamer.bot must be performed against active Arguments. As any arg
 > This will make your workflow easier to read and debug and can also prevent strange issues with logic and inline functions
 {.is-warning}
 
-* [Global (Get) *Read data from a`Global Variable` into an argument*](/en/Sub-Actions/Logic/Global-Variables#global-get)
-* [Global (Set) *Save data to a custom `Global Variable`*](/en/Sub-Actions/Logic/Global-Variables#global-set)
-* [If/Else *Performs an `Action` if logical test is `True`*](/en/Sub-Actions/Logic/if-else)
-* [Set Argument *Store / Manipulate data in an argument*](/Sub-Actions/Logic/Set-Argument)
-* [Break *Diagnostic user only, cancels the running action*](/Sub-Actions/Logic/Break)
-{.links-list}
+* [**Global (Get) *Read data from a`Global Variable` into an argument***](/en/Sub-Actions/Logic/Global-Variables#global-get)
+* [**Global (Set) *Save data to a custom `Global Variable`***](/en/Sub-Actions/Logic/Global-Variables#global-set)
+* [**If / Else *Performs an `Action` if logical test is `True`***](/en/Sub-Actions/Logic/If-Else)
+* [**Set Argument *Store / Manipulate data in an argument***](/Sub-Actions/Logic/Set-Argument)
+* [**Break *Diagnostic user only, cancels the running action***](/Sub-Actions/Logic/Break)
+{.btn-grid .my-5}
 
 
 ## Variable Types
