@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T22:47:27.959Z
+date: 2022-07-18T22:48:36.587Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -61,7 +61,7 @@ For example, a single scene change, fires off more events then just changing the
 * [**CurrentSceneTransitionChanged *The current scene transition has changed***](){.disabled}
 * [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](){.disabled}
 {.btn-grid .my-5}
-#####
+#
 * [**SceneTransitionStarted *A scene transition has started***](){.disabled}
 * [**SceneTransitionEnded *A scene transition has completed fully***](){.disabled}
 * [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](){.disabled}
