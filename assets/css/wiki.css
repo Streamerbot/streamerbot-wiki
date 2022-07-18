@@ -375,7 +375,7 @@ h6::after {
 /* star ratings */
 :root {
   --star-size: 1.25rem;
-  --star-color: #9E9E9E;
+  --star-color: #646464;
   --star-background: #FFC107;
   --rating: 0;
 }
