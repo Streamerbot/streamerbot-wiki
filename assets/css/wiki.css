@@ -139,6 +139,9 @@ h6::after {
 .v-application.theme--dark .overline {
   color: #a158ed !important;
 }
+.v-application.theme--dark hr {
+  background: #424242 !important;
+}
 
 /* search results */
 .theme--dark .search-results-items .highlighted {
@@ -192,6 +195,7 @@ h6::after {
   font-size: 0.75rem;
   color: #fff;
   background-color: #008bf1;
+  border: 1px solid #1e2c37;
   padding: 0.2rem 0.5rem;
   align-self: center;
   font-style: normal;
@@ -366,4 +370,33 @@ h6::after {
 /* tables */
 #root .v-main .contents .vars-table tr > td:nth-child(2) code {
   font-size: 0.75em;
+}
+
+/* star ratings */
+:root {
+  --star-size: 1.25rem;
+  --star-color: #9E9E9E;
+  --star-background: #FFC107;
+  --rating: 0;
+}
+
+.stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+
+  display: inline-block;
+  font-size: var(--star-size);
+  font-family: Times;
+  line-height: 1;
+}
+.stars.stars--1 { --rating: 1; }
+.stars.stars--2 { --rating: 2; }
+.stars.stars--3 { --rating: 3; }
+.stars.stars--4{ --rating: 4; }
+.stars.stars--5 { --rating: 5; }
+.stars::before {
+  content: '★★★★★';
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
