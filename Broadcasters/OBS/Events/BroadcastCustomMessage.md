@@ -24,6 +24,6 @@ A custom broadcast message, sent by the server, requested by one of the websocke
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events *Go Back***](/en/Broadcasters/OBS/Events)
+-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events *Go Back***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github grey--text"></i> **OBS WebSocket Documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#broadcastcustommessage)
 {.btn-grid my-5}
