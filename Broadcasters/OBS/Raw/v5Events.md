@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T18:16:51.836Z
+date: 2022-07-18T18:18:53.927Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -106,8 +106,8 @@ For example, a single scene change, fires off more events then just changing the
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](){.disabled}
 {.btn-grid .my-5}
 
----{.my-10}
+---
 
-* [<i class="mdi mdi-creation primary--text"></i> **Events Reference *Reference of all events in Streamer.bot***](/en/Events)
-* [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
+- [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
+- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
 {.btn-grid}
