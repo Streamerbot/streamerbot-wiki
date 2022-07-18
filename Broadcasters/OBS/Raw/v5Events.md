@@ -2,13 +2,13 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T18:33:17.458Z
+date: 2022-07-18T18:33:49.101Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
-> **Do you have some examples for this events? be sure to post it on the streamer.bot discord in #unearthed-arcana and it can come on one of these pages!**
+> **Do you have some examples for this events? be sure to post it on the streamer.bot discord in [#unearthed-arcana](https://discord.gg/RCcH54hWck) and it can come on one of these pages!**
 {.is-success}
 
 
