@@ -2,7 +2,7 @@
 title: SceneCreated
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2022-07-18T18:28:13.803Z
+date: 2022-07-18T18:59:15.789Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -23,9 +23,6 @@ Name | Type | Description |
 | Latest Supported RPC Version: | *1*{.version-badge}
 | Added in | *v5.0.0*{.version-badge}
 
-## Examples
-- [<i class="mdi mdi-close-thick"></i> **No Examples Available *If you have examples for this event feel free to send them to #unearthed-arcana in the streamer.bot discord***]()
-{.btn-grid my-5}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Raw/v5Events)
