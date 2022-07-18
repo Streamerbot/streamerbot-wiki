@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T18:54:05.924Z
+date: 2022-07-18T22:47:15.758Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -12,6 +12,7 @@ dateCreated: 2022-07-04T19:18:02.800Z
 > Event Title `White` = `Page exist`
 > Event Title `Gray` = `Page doesn't exist`
 {.is-danger}
+
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
 
