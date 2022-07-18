@@ -2,14 +2,15 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T18:18:53.927Z
+date: 2022-07-18T18:33:17.458Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
-> You need to have obs websocket *v5.x.x*{.version-badge} installed
-{.is-warning}
+> **Do you have some examples for this events? be sure to post it on the streamer.bot discord in #unearthed-arcana and it can come on one of these pages!**
+{.is-success}
+
 
 > All these events won't exist yet, because streamer.bot is currently on OBS websocket *v4.x.x*{.version-badge} 
 > Event Title `White` = `Page exist`
