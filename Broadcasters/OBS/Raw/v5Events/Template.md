@@ -2,7 +2,7 @@
 title: SceneCreated
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2022-07-18T18:27:44.810Z
+date: 2022-07-18T18:28:13.803Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -24,7 +24,7 @@ Name | Type | Description |
 | Added in | *v5.0.0*{.version-badge}
 
 ## Examples
-- [<i class="mdi mdi-close-thick"></i> **No Examples Available *If you have examples for this event feel free to send them to #unearthed-arcana in the streamer.bot discord***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#scenecreated)
+- [<i class="mdi mdi-close-thick"></i> **No Examples Available *If you have examples for this event feel free to send them to #unearthed-arcana in the streamer.bot discord***]()
 {.btn-grid my-5}
 ---
 
