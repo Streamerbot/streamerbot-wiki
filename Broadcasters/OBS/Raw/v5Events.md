@@ -2,13 +2,12 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: true
-date: 2022-07-17T18:15:15.936Z
+date: 2022-07-18T16:54:45.295Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
-# OBS Events
 > You need to have obs websocket *v5.x.x*{.version-badge} installed
 {.is-warning}
 
