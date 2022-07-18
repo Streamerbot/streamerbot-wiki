@@ -2,7 +2,7 @@
 title: SceneCreated
 description: A new scene has been created.
 published: true
-date: 2022-07-18T16:35:41.234Z
+date: 2022-07-18T16:37:58.948Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -22,6 +22,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Raw/v5Events)
-- [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#scenecreated)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Raw/v5Events)
+- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#scenecreated)
 {.btn-grid my-5}
