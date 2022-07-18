@@ -1,12 +1,15 @@
 ---
 title: SceneCreated
-description: A new scene has been created.
+description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-07-18T16:49:33.578Z
+date: 2022-07-18T16:59:30.056Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
 ---
+
+## Overview
+A new scene has been created.
 
 ## Variables
 Name | Type | Description | 
