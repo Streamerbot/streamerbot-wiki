@@ -2,7 +2,7 @@
 title: SceneCreated
 description: A new scene has been created.
 published: true
-date: 2022-07-18T16:40:39.475Z
+date: 2022-07-18T16:49:33.578Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -16,7 +16,7 @@ Name | Type | Description |
 
 ## Data Fields
 |:---|:---:
-| Complexity Rating: | <span class="mdi mdi-star amber--text"></span><span class="mdi mdi-star amber--text"></span><span class="mdi mdi-star mdi-light mdi-inactive"></span><span class="mdi mdi-star mdi-light mdi-inactive"></span><span class="mdi mdi-star mdi-light mdi-inactive"></span>
+| Complexity Rating: | <span class="stars stars--2"></span>
 | Latest Supported RPC Version: | *1*{.version-badge}
 | Added in | *v5.0.0*{.version-badge}
 
