@@ -2,18 +2,16 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:20:54.609Z
+date: 2022-07-19T12:21:50.351Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
 ---
 
-<h1 class="mdi mdi-code-array primary--text"> Arrays</h1>
+<h1 class="mdi mdi-code-array primary--text"> JSON Arrays</h1>
 
 > More info to be added soon...
 {.is-info}
-
-## JSON
 ## Looks
 ### Example 1
 Here you see 3 nested objects inside of this array{.subtitle}
