@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-07-19T20:56:11.592Z
+date: 2022-07-19T20:57:52.501Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -21,6 +21,7 @@ Requests can be made to the server, in JSON format, the basic format for a reque
 
 ## Subscribe
 This request is required to enable you to listen to events
+
 ### Tab {.tabset}
 #### Request
 
@@ -59,14 +60,8 @@ This request is required to enable you to listen to events
 
 ## UnSubscribe
 This request allows you to unsubscribe from any message events you are currently subscribed to
+
 ### Tab {.tabset}
-
-#### Usage
-
-> Version 0.0.52 and up
-{.is-info}
-
-
 #### Request
 
 ```json
@@ -104,15 +99,9 @@ This request allows you to unsubscribe from any message events you are currently
 
 
 ## GetEvents
-### Tab {.tabset}
-
-#### Usage
-
-> Version 0.0.41 and up
-{.is-info}
-
 This request will get you a list of all events that may be emitted
 
+### Tab {.tabset}
 #### Request
 
 ```json
@@ -221,15 +210,8 @@ This request will get you a list of all events that may be emitted
 
 
 ## GetActions
+This request will get you a list of all the actions you have configured in your Streamer.bot instance
 ### Tab {.tabset}
-
-#### Usage
-
-> Version 0.0.41 and up
-{.is-info}
-
-This request will get you a list of all the actions you currently have.
-
 #### Request
 
 ```json
@@ -256,15 +238,9 @@ This request will get you a list of all the actions you currently have.
 ```
 
 ## DoAction
-### Tab {.tabset}
-
-#### Usage
-
-> Version 0.0.41 and up
-{.is-info}
-
 This request will trigger an action that you provide
 
+### Tab {.tabset}
 #### Request
 
 ```json
@@ -296,7 +272,6 @@ If the action is not found, an error will be returned, if the action was dispatc
 Example Javascript code for interacting with the WebSocket Server
 
 ### Tab {.tabset}
-
 #### Connect
 
 Code to connect - this function is ideally called directly / indirectly from onload 
