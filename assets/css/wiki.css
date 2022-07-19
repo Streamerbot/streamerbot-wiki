@@ -144,12 +144,6 @@ h6::after {
   padding-bottom: 14px;
   padding-top: 16px;
 }
-.v-application.theme--dark .contents .tabset .tabset-content {
-
-}
-.v-application.theme--dark .contents .tabset .tabset-content .tabset-panel.is-active {
-
-}
 
 /* dark theme overrides */
 .v-application.theme--dark,
