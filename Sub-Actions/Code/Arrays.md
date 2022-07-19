@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T11:36:13.586Z
+date: 2022-07-19T11:54:02.117Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -31,14 +31,6 @@ A JSON array contains 0 or more elements separated by comma's, The JSON array is
 #### Break Down
 
 Elements: An element is something out of this table
- |  |  | Notes
-|:---:|:---|:---
-string | surrounded by quotation marks (" ")
-number | |
-float | |
-array | JSON array | JSON arrays can be nested
-object | JSON object
-boolean | true or false
-empty | null
 
-In [Example 1](/en/Sub-Actions/Code/Arrays#example-1) you see objects being used
+- [<i class="mdi mdi-sprinkler-variant primary--text"></i> **Data Types *Information about all kind of Data Types used in coding e.g. string, integer, object***](en/Sub-Actions/Code/Data-Types)
+{.btn-grid .my-5}
