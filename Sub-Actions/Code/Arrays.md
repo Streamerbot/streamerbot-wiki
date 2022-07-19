@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:22:18.164Z
+date: 2022-07-19T12:24:28.308Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -16,7 +16,7 @@ dateCreated: 2022-07-17T14:26:01.568Z
 ### Example 1
 Here you see 3 nested objects inside of this array{.subtitle}
 ```json
-[{"name":"name1"}, {"name":"name2"}, {"name":"name3"}]
+[{"name":"nested object"}, {"name":"nested object"}, {"name":"nested object"}]
 ```
 ### Example 2
 Here you see an array with 3 integers{.subtitle}
@@ -26,7 +26,7 @@ Here you see an array with 3 integers{.subtitle}
 ### Example 3
 Here you see an array with a nested object and a nested array with 3 integers, 1 boolean and 1 string{.subtitle}
 ```json
-[{“Name”:“Nested Object”},[10, 20, true, 40, “Nested Array”]]
+[{“name”:“nested object”},[10, 20, 30, false, “Nested Array”]]
 ```
 These are both <span class="mdi mdi-code-array primary--text"> Arrays</span>.
 
