@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T13:45:29.204Z
+date: 2022-07-19T21:37:14.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -18,11 +18,11 @@ Here you see 3 nested objects inside of this array{.subtitle}
 
 
 ### Tab {.tabset}
-#### Normal
+#### one line
 ```json
 [{"name":"nested object"}, {"name":"nested object"}, {"name":"nested object"}]
 ```
-#### Other
+#### more lines
 ```json
 [
   {
@@ -40,11 +40,11 @@ Here you see 3 nested objects inside of this array{.subtitle}
 ### Example 2
 Here you see an array with 3 integers{.subtitle}
 ### Tab {.tabset}
-#### Normal
+#### one line
 ```json
 [10, 20, 30]
 ```
-#### Other
+#### more lines
 ```json
 [
   10, 20, 30
@@ -53,11 +53,11 @@ Here you see an array with 3 integers{.subtitle}
 ### Example 3
 Here you see an array with a nested object and a nested array with 3 integers, 1 boolean and 1 string{.subtitle}
 ### Tab {.tabset}
-#### Normal
+#### one line
 ```json
 [{"name":"nested object"},[10, 20, 30, false, "nested array"]]
 ```
-#### Other
+#### more lines
 ```json
 [
   {
