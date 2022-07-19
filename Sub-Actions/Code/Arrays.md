@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:51:31.317Z
+date: 2022-07-19T13:43:17.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -15,9 +15,29 @@ dateCreated: 2022-07-17T14:26:01.568Z
 ## Looks
 ### Example 1
 Here you see 3 nested objects inside of this array{.subtitle}
+
+
+### Tab {.tabset}
+
+#### Normal
 ```json
 [{"name":"nested object"}, {"name":"nested object"}, {"name":"nested object"}]
 ```
+#### Other
+```json
+[
+  {
+    "name":"nested object"
+  }, 
+  {
+    "name":"nested object"
+  }, 
+  {
+    "name":"nested object"
+  }
+]
+```
+
 ### Example 2
 Here you see an array with 3 integers{.subtitle}
 ```json
