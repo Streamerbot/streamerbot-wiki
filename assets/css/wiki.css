@@ -121,6 +121,36 @@ h6::after {
   color: #ddd;
 }
 
+/* tabsets */
+.v-application.theme--dark .contents .tabset {
+  background: #1c1c1c;
+}
+.v-application.theme--dark .contents .tabset .tabset-tabs {
+  background: #1f1f1f;
+  box-shadow: none;
+}
+.v-application.theme--dark .contents .tabset > .tabset-tabs > li {
+  border-right: none;
+  border-bottom: 2px solid transparent;
+  transition-property: color,border-color,background-color;
+  transition-duration: 0.35s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.v-application.theme--dark .contents .tabset .tabset-tabs .is-active {
+  background-color: #1f1f1f;
+  color: #00b9ff;
+  border-top: none !important;
+  border-bottom: 2px solid #00b9ff;
+  padding-bottom: 14px;
+  padding-top: 16px;
+}
+.v-application.theme--dark .contents .tabset .tabset-content {
+
+}
+.v-application.theme--dark .contents .tabset .tabset-content .tabset-panel.is-active {
+
+}
+
 /* dark theme overrides */
 .v-application.theme--dark,
 .v-application.theme--dark .v-application--wrap {
