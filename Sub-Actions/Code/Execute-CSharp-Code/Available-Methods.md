@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-07-01T03:55:14.245Z
+date: 2022-07-19T19:45:58.893Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -397,8 +397,10 @@ void TwitchAnnounce(string message, string color = null);
 {.is-info}
 
 ```csharp
-string TwitchClientId();
 string TwitchOAuthToken();
+```
+```csharp
+string TwitchClientId();
 ```
 
 # YouTube
