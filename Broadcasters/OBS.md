@@ -2,7 +2,7 @@
 title: OBS
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-17T22:53:03.504Z
+date: 2022-07-19T19:16:10.183Z
 tags: integrations, obs
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -68,5 +68,5 @@ OBS events are per-connection based.
 
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
-- [<i class="mdi mdi-github grey--text"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
+- [<i class="mdi mdi-github"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
 {.btn-grid .mt-10}
