@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:16:43.563Z
+date: 2022-07-19T12:20:16.421Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -16,14 +16,17 @@ dateCreated: 2022-07-17T14:26:01.568Z
 ## JSON
 ### Looks
 #### Example 1
+Here you see 3 nested objects inside of this array{.subtitle}
 ```json
 [{"name":"name1"}, {"name":"name2"}, {"name":"name3"}]
 ```
 #### Example 2
+Here you see an array with 3 integers{.subtitle}
 ```json
 [10, 20, 30]
 ```
 #### Example 3
+Here you see an array with a nested object and a nested array with 3 integers, 1 boolean and 1 string{.subtitle}
 ```json
 [{“Name”:“Nested Object”},[10, 20, true, 40, “Nested Array”]]
 ```
