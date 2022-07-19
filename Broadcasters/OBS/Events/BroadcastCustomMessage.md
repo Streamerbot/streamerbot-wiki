@@ -2,7 +2,7 @@
 title: BroadcastCustomMessage
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-17T22:55:22.993Z
+date: 2022-07-19T17:55:23.550Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:56:37.417Z
@@ -24,6 +24,6 @@ A custom broadcast message, sent by the server, requested by one of the websocke
 
 ---
 
--- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events *Go Back***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github grey--text"></i> **OBS WebSocket Documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#broadcastcustommessage)
 {.btn-grid my-5}

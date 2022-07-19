@@ -205,6 +205,16 @@ h6::after {
   position: absolute;
   right: .5rem;
 }
+.obs-version-badge {
+    border-radius: 15px;
+    font-size: .75rem;
+    color: #fff;
+    background-color: #545454;
+    border: 1px solid #1e2c37;
+    padding: 0.2rem 0.5rem;
+    align-self: center;
+    font-style: normal;
+}
 .translation-badge {
   border-radius: 15px;
   font-size: 0.75rem;
@@ -218,6 +228,7 @@ h6::after {
   right: 0;
 }
 #root .v-main .contents .version-badge > a
+#root .v-main .contents .obsevent-version-badge > a
 #root .v-main .contents .translation-badge > a {
   color: #fff !important;
   text-decoration: none !important;;
