@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T11:54:02.117Z
+date: 2022-07-19T12:16:43.563Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -22,6 +22,10 @@ dateCreated: 2022-07-17T14:26:01.568Z
 #### Example 2
 ```json
 [10, 20, 30]
+```
+#### Example 3
+```json
+[{“Name”:“Nested Object”},[10, 20, true, 40, “Nested Array”]]
 ```
 These are both <span class="mdi mdi-code-array primary--text"> Arrays</span>.
 
