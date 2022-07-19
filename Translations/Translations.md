@@ -2,7 +2,7 @@
 title: Translations
 description: 
 published: true
-date: 2022-07-16T23:13:13.410Z
+date: 2022-07-19T20:05:44.942Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T06:14:49.147Z
@@ -19,11 +19,7 @@ If you want to assist, you need to do a couple of things.
 
 Download one of these files below.
 
-* to be added soon...
-* 1
-* 2
-* 3
-{.grid-list}
+[Download](/en/Translations/Files/Stream-Apps.md)
 
 Then when you have downloaded the file translate it.
 Done with translating it?, fill in this google form below
