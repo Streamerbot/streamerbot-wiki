@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,h7,h8 {
   font-weight: 700;
   letter-spacing: .16667em!important
 }
-hr.v-divider {
+.contents hr.v-divider {
   border-color: hsla(0,0%,100%,.12)!important
 }
 #root .v-application .v-btn.primary {
