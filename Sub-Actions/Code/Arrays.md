@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:36:46.563Z
+date: 2022-07-19T12:51:31.317Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -35,5 +35,5 @@ A JSON array contains elements separated by comma's, The JSON array is surrounde
 
 Elements: An element is something from this list of <span class="mdi mdi-sprinkler-variant primary--text"> Data Types</span> below
 
-- [<i class="mdi mdi-sprinkler-variant primary--text"></i> **Data Types *Information about all kind of Data Types used in coding e.g. string, integer, object***](en/Sub-Actions/Code/Data-Types)
+- [<i class="mdi mdi-sprinkler-variant primary--text"></i> **Data Types *Information about all kind of Data Types used in coding e.g. string, integer, object***](/en/Sub-Actions/Code/Data-Types)
 {.btn-grid .my-5}
