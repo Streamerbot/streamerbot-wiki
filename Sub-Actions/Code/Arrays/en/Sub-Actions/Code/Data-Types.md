@@ -2,7 +2,7 @@
 title: Data Types
 description: 
 published: true
-date: 2022-07-19T12:11:23.747Z
+date: 2022-07-19T12:11:57.094Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T12:08:35.467Z
@@ -22,5 +22,5 @@ empty | null |  |
 
 ---
 
-- [<i class="mdi mdi-code-array primary--text"></i> **Arrays**](en/Sub-Actions/Code/Arrays)
+- [<i class="mdi mdi-code-array primary--text"></i> **Arrays**](/en/Sub-Actions/Code/Arrays)
 {.btn-grid}
