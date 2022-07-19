@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:32:08.563Z
+date: 2022-07-19T12:36:46.563Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -28,14 +28,12 @@ Here you see an array with a nested object and a nested array with 3 integers, 1
 ```json
 [{"name":"nested object"},[10, 20, 30, false, "Nested Array"]]
 ```
-These are both <span class="mdi mdi-code-array primary--text"> Arrays</span>.
-
 ## Explanation
-A JSON array contains 0 or more elements separated by comma's, The JSON array is surrounded by square brackets <span class="mdi mdi-code-array primary--text"></span>.
+A JSON array contains elements separated by comma's, The JSON array is surrounded by square brackets <span class="mdi mdi-code-array primary--text"></span>.
 
 ### Break Down
 
-Elements: An element is something out of this table
+Elements: An element is something from this list of <span class="mdi mdi-sprinkler-variant primary--text"> Data Types</span> below
 
 - [<i class="mdi mdi-sprinkler-variant primary--text"></i> **Data Types *Information about all kind of Data Types used in coding e.g. string, integer, object***](en/Sub-Actions/Code/Data-Types)
 {.btn-grid .my-5}
