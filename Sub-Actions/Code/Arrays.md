@@ -1,8 +1,8 @@
 ---
-title: JSON Arrays
+title: Arrays
 description: 
 published: true
-date: 2022-07-19T12:22:08.433Z
+date: 2022-07-19T12:22:18.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
