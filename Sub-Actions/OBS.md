@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-20T18:35:16.714Z
+date: 2022-07-20T18:40:58.327Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -32,16 +32,16 @@ dateCreated: 2022-07-10T18:49:11.651Z
 {.btn-grid}
 
 ## Scene
-* [**Get Current Scene *Populates the `currentScene` argument with the currently active scene name***](/Sub-Actions/OBS/Get-Current-Scene)
-* [**Get Scene Item Properties *Populates the `props.xyz` arguments***](/Sub-Actions/OBS/Get-Scene-Item-Properties)
-* [**Set Active Scene *Set actively broadcasting scene***](/Sub-Actions/OBS/Set-Active-Scene)
+* [<i class="mdi mdi-scan-helper text--obs"></i>**Get Current Scene *Populates the `currentScene` argument with the currently active scene name***](/Sub-Actions/OBS/Get-Current-Scene)
+* [<i class="mdi mdi-progress-download text--obs"></i>**Get Scene Item Properties *Populates the `props.xyz` arguments***](/Sub-Actions/OBS/Get-Scene-Item-Properties)
+* [<i class="mdi mdi-select-drag text--obs"></i>**Set Active Scene *Set actively broadcasting scene***](/Sub-Actions/OBS/Set-Active-Scene)
 {.btn-grid}
 
 ## Filter
-* [**Hide Source's Filters *Hide all filters on a specified source***](/Sub-Actions/OBS/Hide-Source-Filters)
-* [**Set Scene Filter State *Enable / Disable a scene filter***](/Sub-Actions/OBS/Scene-Filter-State){.disabled}
-* [**Set Source Filter State *Enable / Disable a source filter***](/Sub-Actions/OBS/Set-Source-Filter-State)
-* [**Set State of a Random Filter *Enable / Disable a random source filter***](/Sub-Actions/OBS/Source-Random-Filter-State){.disabled}
+* [<i class="mdi mdi-filter-minus text--obs"></i>**Hide Source's Filters *Hide all filters on a specified source***](/Sub-Actions/OBS/Hide-Source-Filters)
+* [<i class="mdi mdi-filter-menu text--obs"></i>**Set Scene Filter State *Enable / Disable a scene filter***](/Sub-Actions/OBS/Scene-Filter-State){.disabled}
+* [<i class="mdi mdi-filter text--obs"></i>**Set Source Filter State *Enable / Disable a source filter***](/Sub-Actions/OBS/Set-Source-Filter-State)
+* [<i class="mdi mdi-filter-variant text--obs"></i>**Set State of a Random Filter *Enable / Disable a random source filter***](/Sub-Actions/OBS/Source-Random-Filter-State){.disabled}
 {.btn-grid}
 
 ---
