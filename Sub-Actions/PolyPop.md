@@ -11,7 +11,7 @@ dateCreated: 2022-07-10T18:51:37.383Z
 > Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
 {.is-info}
 
-* [<img src="https://streamer.bot/img/integrations/polypop.png"/>**Trigger Alert *Trigger Events in PolyPop via WebSocket***](/en/Sub-Actions/PolyPop/Trigger-Alert)
+* [<img src="https://streamer.bot/img/integrations/polypop.png"/>**Trigger Alert *Trigger Events in PolyPop via WebSocket***](/en/Broadcasters/PolyPop/Trigger-Alert)
 {.btn-grid}
 
 

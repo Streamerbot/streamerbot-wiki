@@ -20,5 +20,5 @@ Configure your client settings to match here
 The integration is still in its infancy, stay tuned for more details and features as they are created
 
 - [<i class="mdi mdi-chevron-left"></i>**Broadcasters *Go Back***](/en/Broadcasters)
-- [<img src="https://streamer.bot/img/integrations/polypop.png"/> **Trigger Alert *Up Next***](/en/Sub-Actions/PolyPop/Trigger-Alert)
+- [<img src="https://streamer.bot/img/integrations/polypop.png"/> **Trigger Alert *Up Next***](/en/Broadcasters/PolyPop/Trigger-Alert)
 {.btn-grid .mt-10}
