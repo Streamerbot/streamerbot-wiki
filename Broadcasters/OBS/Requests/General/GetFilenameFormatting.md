@@ -24,9 +24,9 @@ dateCreated: 2022-06-29T18:08:58.087Z
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.filename-formatting` | <kbd>string</kbd> | Filename formatting string to set.
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.filename-formatting` | *string*{.datatype} | Filename formatting string to set.
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 
 ## Explaination
 > Details coming soon...

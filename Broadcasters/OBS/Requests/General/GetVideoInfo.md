@@ -24,17 +24,17 @@ dateCreated: 2022-06-30T14:50:06.558Z
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.baseHeight` | <kbd>integer</kbd> | Base (canvas) height
-| `obsRaw.baseWidth` | <kbd>integer</kbd> | Base (canvas) width
-| `obsRaw.colorRange` | <kbd>string</kbd> | Color range (full or partial)
-| `obsRaw.colorSpace` | <kbd>string</kbd> | Color space for YUV
-| `obsRaw.fps` | <kbd>double</kbd> | Frames rendered per second
-| `obsRaw.outputHeight` | <kbd>integer</kbd> | Output height
-| `obsRaw.outputWidth` | <kbd>integer</kbd> | Output width
-| `obsRaw.scaleType` | <kbd>string</kbd> | Scaling method used if output size differs from base size
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsRaw.videoFormat` | <kbd>string</kbd> | Video color format
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.baseHeight` | *integer*{.datatype} | Base (canvas) height
+| `obsRaw.baseWidth` | *integer*{.datatype} | Base (canvas) width
+| `obsRaw.colorRange` | *string*{.datatype} | Color range (full or partial)
+| `obsRaw.colorSpace` | *string*{.datatype} | Color space for YUV
+| `obsRaw.fps` | *double*{.datatype} | Frames rendered per second
+| `obsRaw.outputHeight` | *integer*{.datatype} | Output height
+| `obsRaw.outputWidth` | *integer*{.datatype} | Output width
+| `obsRaw.scaleType` | *string*{.datatype} | Scaling method used if output size differs from base size
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsRaw.videoFormat` | *string*{.datatype} | Video color format
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 
 ## Explaination
 > Details coming soon...

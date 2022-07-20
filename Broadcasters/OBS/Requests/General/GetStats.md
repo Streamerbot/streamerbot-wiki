@@ -24,17 +24,17 @@ dateCreated: 2022-06-29T18:29:33.547Z
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.stats.average-frame-time` | <kbd>double</kbd> | Average frame render time (in milliseconds)
-| `obsRaw.stats.cpu-usage` | <kbd>double</kbd> | Current CPU usage (percentage)
-| `obsRaw.stats.fps` | <kbd>double</kbd> | Current framerate
-| `obsRaw.stats.free-disk-space` | <kbd>double</kbd> | Free recording disk space (in megabytes)
-| `obsRaw.stats.memory-usage` | <kbd>double</kbd> | Current RAM usage (in megabytes)
-| `obsRaw.stats.output-skipped-frames` | <kbd>integer</kbd> | Number of frames skipped due to encoding lag
-| `obsRaw.stats.output-total-frames` | <kbd>integer</kbd> | Number of frames outputted
-| `obsRaw.stats.render-missed-frames` | <kbd>integer</kbd> | Number of frames missed due to rendering lag 
-| `obsRaw.stats.render-total-frames` | <kbd>integer</kbd> | Number of frames rendered
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.stats.average-frame-time` | *double*{.datatype} | Average frame render time (in milliseconds)
+| `obsRaw.stats.cpu-usage` | *double*{.datatype} | Current CPU usage (percentage)
+| `obsRaw.stats.fps` | *double*{.datatype} | Current framerate
+| `obsRaw.stats.free-disk-space` | *double*{.datatype} | Free recording disk space (in megabytes)
+| `obsRaw.stats.memory-usage` | *double*{.datatype} | Current RAM usage (in megabytes)
+| `obsRaw.stats.output-skipped-frames` | *integer*{.datatype} | Number of frames skipped due to encoding lag
+| `obsRaw.stats.output-total-frames` | *integer*{.datatype} | Number of frames outputted
+| `obsRaw.stats.render-missed-frames` | *integer*{.datatype} | Number of frames missed due to rendering lag 
+| `obsRaw.stats.render-total-frames` | *integer*{.datatype} | Number of frames rendered
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 
 ## Explaination
 > Details coming soon...

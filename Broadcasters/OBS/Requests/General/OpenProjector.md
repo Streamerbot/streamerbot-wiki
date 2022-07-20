@@ -22,16 +22,16 @@ dateCreated: 2022-06-30T15:01:04.324Z
 ## Request Fields
 | Name | Type | Description |
 |-----:|:----:|:------------|
-| `type` | <kbd>string (Optional)</kbd> | Type of projector: `Preview` (default), `Source`, `Scene`, `StudioProgram`, or `Multiview` (case insensitive)
-| `monitor` | <kbd>int (Optional)</kbd> | Monitor to open the projector on. If -1 or omitted, opens a window
-| `geometry` | <kbd>String (Optional)</kbd> | Size and position of the projector window (only if monitor is -1). Encoded in Base64 using Qt's geometry encoding. Corresponds to OBS's saved projectors
-| `name` | <kbd>String (Optional)</kbd> | Name of the source or scene to be displayed (ignored for other projector types)
+| `type` | *string (Optional)*{.datatype} | Type of projector: `Preview` (default), `Source`, `Scene`, `StudioProgram`, or `Multiview` (case insensitive)
+| `monitor` | *int (Optional)*{.datatype} | Monitor to open the projector on. If -1 or omitted, opens a window
+| `geometry` | *String (Optional)*{.datatype} | Size and position of the projector window (only if monitor is -1). Encoded in Base64 using Qt's geometry encoding. Corresponds to OBS's saved projectors
+| `name` | *String (Optional)*{.datatype} | Name of the source or scene to be displayed (ignored for other projector types)
 
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 
 ## Explaination
 > Details coming soon...

@@ -24,11 +24,11 @@ dateCreated: 2022-06-27T10:44:13.410Z
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsEvent.obs-studio-version` | <kbd>string</kbd> |  OBSRemote compatible API version. Fixed to 1.1 for retrocompatibility
-| `obsRaw.obs-websocket-version` | <kbd>string</kbd> | obs-websocket plugin version
-| `obsRaw.version` | <kbd>double</kbd> | OBSRemote compatible API version. Fixed to 1.1 for retrocompatibility.
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsEvent.obs-studio-version` | *string*{.datatype} |  OBSRemote compatible API version. Fixed to 1.1 for retrocompatibility
+| `obsRaw.obs-websocket-version` | *string*{.datatype} | obs-websocket plugin version
+| `obsRaw.version` | *double*{.datatype} | OBSRemote compatible API version. Fixed to 1.1 for retrocompatibility.
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 
 ## Explaination
 > Details coming soon...

@@ -24,9 +24,9 @@ dateCreated: 2022-06-28T20:01:18.573Z
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.authRequired` | <kbd>boolean</kbd> | Indicates whether authentication is required.
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.authRequired` | *boolean*{.datatype} | Indicates whether authentication is required.
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 ## Explaination
 > Details coming soon...
 {.is-info}

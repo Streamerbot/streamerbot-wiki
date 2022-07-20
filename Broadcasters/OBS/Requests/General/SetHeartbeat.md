@@ -21,14 +21,14 @@ dateCreated: 2022-06-29T17:50:09.657Z
 ## Request Fields
 | Name | Type | Description |
 |-----:|:----:|:------------|
-| `enable` | <kbd>boolean</kbd> | Starts/Stops emitting heartbeat messages
+| `enable` | *boolean*{.datatype} | Starts/Stops emitting heartbeat messages
 
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.enable` | <kbd>boolean</kbd> | Indicates whether authentication is required.
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.enable` | *boolean*{.datatype} | Indicates whether authentication is required.
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 ## Explaination
 > Details coming soon...
 {.is-info}

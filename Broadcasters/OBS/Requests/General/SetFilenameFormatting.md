@@ -21,13 +21,13 @@ dateCreated: 2022-06-29T17:58:28.934Z
 ## Request Fields
 | Name | Type | Description |
 |-----:|:----:|:------------|
-| `filename-formatting` | <kbd>string</kbd> | Filename formatting string to set.
+| `filename-formatting` | *string*{.datatype} | Filename formatting string to set.
 
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 ## Explaination
 > Details coming soon...
 {.is-info}

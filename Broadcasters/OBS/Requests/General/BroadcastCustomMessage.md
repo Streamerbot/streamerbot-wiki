@@ -26,14 +26,14 @@ dateCreated: 2022-06-30T05:37:11.438Z
 ## Request Fields
 | Name | Type | Description |
 |-----:|:----:|:------------|
-| `realm` | <kbd>string</kbd> | Identifier to be choosen by the client
-| `data` | <kbd>object</kbd> | User-defined data
+| `realm` | *string*{.datatype} | Identifier to be choosen by the client
+| `data` | *object*{.datatype} | User-defined data
 
 ## Variables
 | Variable | Type | Description |
 |---------:|:----:|:------------|
-| `obsRaw.status` | <kbd>string</kbd> | The status of the OBS raw sub-action
-| `obsEvent._json` | <kbd>string</kbd> | Everything above in a json format
+| `obsRaw.status` | *string*{.datatype} | The status of the OBS raw sub-action
+| `obsEvent._json` | *string*{.datatype} | Everything above in a json format
 ## Explaination
 > Details coming soon...
 {.is-info}
