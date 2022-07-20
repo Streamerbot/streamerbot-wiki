@@ -21,7 +21,7 @@ Sub-Actions specific to your broadcasting software{.subtitle}
 
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/>**OBS Studio *Control everything!***](/en/Sub-Actions/OBS)
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs Desktop *Control everything!***](/en/Sub-Actions/Streamlabs-Desktop)
-- [<img src="https://streamer.bot/img/integrations/polypop.png"/>**PolyPop *Trigger alerts in PolyPop***](/en/Sub-Actions/PolyPop)
+- [<img src="https://streamer.bot/img/integrations/polypop.png"/>**PolyPop *Trigger alerts in PolyPop***](/en/Broadcasters/PolyPop)
 {.btn-grid .my-5}
 
 ## Integration
