@@ -252,10 +252,21 @@ h6::after {
   right: 0;
 }
 #root .v-main .contents .version-badge > a
-#root .v-main .contents .obsevent-version-badge > a
+#root .v-main .contents .obs-version-badge > a
 #root .v-main .contents .translation-badge > a {
   color: #fff !important;
-  text-decoration: none !important;;
+  text-decoration: none !important;
+}
+
+.v-main .contents .datatype {
+  font-family: monospace;
+  font-style: normal !important;
+  color: #ddd;
+  background-color: #1e1e1e;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 0.75rem;
+  padding: 0.2rem 1rem;
 }
 
 /* helpers */
@@ -400,6 +411,12 @@ h6::after {
 }
 .text--patreon {
   color: #ff6871;
+}
+.text--obs {
+  color: #585e60;
+}
+.text--streamlabs {
+  color: #80f5d2;
 }
 
 /* tables */
