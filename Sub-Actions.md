@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-17T21:09:22.877Z
+date: 2022-07-20T12:51:20.805Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -21,7 +21,7 @@ Sub-Actions specific to your broadcasting software{.subtitle}
 
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/>**OBS Studio *Control everything!***](/en/Sub-Actions/OBS)
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs Desktop *Control everything!***](/en/Sub-Actions/Streamlabs-Desktop)
-- [<img src="https://streamer.bot/img/integrations/polypop.png"/>**PolyPop *Trigger alerts in PolyPop***](/en/Broadcasters/PolyPop)
+- [<img src="https://streamer.bot/img/integrations/polypop.png"/>**PolyPop *Trigger alerts in PolyPop***](/en/Sub-Actions/PolyPop)
 {.btn-grid .my-5}
 
 ## Integration
