@@ -2,7 +2,7 @@
 title: GetInputVolume
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-20T13:37:24.746Z
+date: 2022-07-20T17:56:54.547Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -14,13 +14,12 @@ Gets the current volume setting of an input.
 ## Request Fields
 Name | Type | Description | Value Restrictions | Default Behavior |
 ----:|:----:|:------------|:------------------:|:----------------:|
-`inputName` | <kbd>String</kbd> | Name of the input to get the volume of	 | <kbd>None</kbd> | <kbd>N/A</kbd>
-
+`inputName` | *string*{.datatype} | Name of the input to get the volume of	 | *None*{.datatype} | *N/A*{.datatype}
 ## Variables
 Name | Type | Description | 
 ----:|:----:|:------------|
-`obsRaw.inputVolumeMul` | <kbd>integer</kbd> | Volume setting in mul
-`obsRaw.inputVolumeDb` | *integer*{.type-badge} | Volume setting in dB
+`obsRaw.inputVolumeMul` | *integer*{.datatype} | Volume setting in mul
+`obsRaw.inputVolumeDb` | *integer*{.datatype} | Volume setting in dB
 
 ## Data Fields
 |:---|:---:
