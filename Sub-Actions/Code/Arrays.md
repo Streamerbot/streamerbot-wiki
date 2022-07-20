@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-20T12:23:57.345Z
+date: 2022-07-20T12:24:42.122Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -66,7 +66,11 @@ Here you see an array with a nested object and a nested array with 3 integers, 1
     "name":"nested object"
   },
   [
-    10, 20, 30, false, "nested array"
+    10,
+    20,
+    30,
+    false,
+    "nested array"
   ]
 ]
 ```
