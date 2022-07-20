@@ -2,7 +2,7 @@
 title: GetInputVolume
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-20T13:16:50.647Z
+date: 2022-07-20T13:19:50.561Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -20,7 +20,7 @@ Name | Type | Description | Value Restrictions | Default Behavior |
 Name | Type | Description | 
 ----:|:----:|:------------|
 `obsRaw.inputVolumeMul` | <kbd>integer</kbd> | Volume setting in mul
-`obsRaw.inputVolumeDb` | <kbd>integer</kbd> | Volume setting in dB
+`obsRaw.inputVolumeDb` | *integer*{.type-badge} | Volume setting in dB
 
 ## Data Fields
 |:---|:---:
