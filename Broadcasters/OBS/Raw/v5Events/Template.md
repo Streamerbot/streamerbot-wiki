@@ -2,7 +2,7 @@
 title: SceneCreated
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2022-07-18T21:22:46.616Z
+date: 2022-07-20T13:15:11.154Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -20,8 +20,8 @@ Name | Type | Description |
 ## Data Fields
 |:---|:---:
 | Complexity Rating: | <span class="stars stars--2"></span>
-| Latest Supported RPC Version: | *1*{.obsevent-version-badge}
-| Added in | *v5.0.0*{.obsevent-version-badge}
+| Latest Supported RPC Version: | *1*{.obs-version-badge}
+| Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
