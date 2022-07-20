@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-20T12:24:42.122Z
+date: 2022-07-20T12:28:42.498Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -25,15 +25,15 @@ Here you see 3 nested objects inside of this array{.subtitle}
 #### More lines
 ```json
 [
-  {
-    "name":"nested object"
-  }, 
-  {
-    "name":"nested object"
-  }, 
-  {
-    "name":"nested object"
-  }
+   {
+      "name":"nested object"
+   },
+   {
+      "name":"nested object"
+   },
+   {
+      "name":"nested object"
+   }
 ]
 ```
 
@@ -47,9 +47,9 @@ Here you see an array with 3 integers{.subtitle}
 #### More lines
 ```json
 [
-  10,
-  20,
-  30
+   10,
+   20,
+   30
 ]
 ```
 ### Example 3
@@ -62,16 +62,16 @@ Here you see an array with a nested object and a nested array with 3 integers, 1
 #### More lines
 ```json
 [
-  {
-    "name":"nested object"
-  },
-  [
-    10,
-    20,
-    30,
-    false,
-    "nested array"
-  ]
+   {
+      "name":"nested object"
+   },
+   [
+      10,
+      20,
+      30,
+      false,
+      "nested array"
+   ]
 ]
 ```
 ## Explanation
