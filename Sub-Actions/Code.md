@@ -1,9 +1,9 @@
 ---
 title: Code
-description: Custom code actions
+description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-20T22:39:49.370Z
-tags: 
+date: 2022-07-20T22:41:08.620Z
+tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
 ---
