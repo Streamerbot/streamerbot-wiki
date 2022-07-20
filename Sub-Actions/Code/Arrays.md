@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-19T21:37:47.395Z
+date: 2022-07-20T12:23:57.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -47,7 +47,9 @@ Here you see an array with 3 integers{.subtitle}
 #### More lines
 ```json
 [
-  10, 20, 30
+  10,
+  20,
+  30
 ]
 ```
 ### Example 3
