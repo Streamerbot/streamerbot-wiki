@@ -2,33 +2,33 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-12T20:22:59.192Z
+date: 2022-07-20T18:29:31.016Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
 ---
 
 ## General
-* [**Raw *Execute custom OBS Websocket instructions***](/Sub-Actions/OBS/Raw)
-* [**Recording *Enable / Disable OBS recording state***](/Sub-Actions/OBS/Recording)
-* [**Streaming *Start / Stop streaming state***](/Sub-Actions/OBS/Streaming)
-* [**Set Replay Buffer State *Sets the state of the OBS Replay Buffer*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Replay-Buffer-State){.disabled}
-* [**Take Screenshot *Take a screenshot of a scene / source and save to file***](/Sub-Actions/OBS/Take-Screenshot)
+* [<i class="mdi mdi-code-braces text--obs"></i>**Raw *Execute custom OBS Websocket instructions***](/Sub-Actions/OBS/Raw)
+* [<i class="mdi mdi-record-circle-outline text--obs"></i>**Recording *Enable / Disable OBS recording state***](/Sub-Actions/OBS/Recording)
+* [<i class="mdi mdi-signal text--obs"></i>**Streaming *Start / Stop streaming state***](/Sub-Actions/OBS/Streaming)
+* [<i class="mdi mdi-replay text--obs"></i>**Set Replay Buffer State *Sets the state of the OBS Replay Buffer*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Replay-Buffer-State){.disabled}
+* [<i class="mdi mdi-monitor-screenshot text--obs"></i>**Take Screenshot *Take a screenshot of a scene / source and save to file***](/Sub-Actions/OBS/Take-Screenshot)
 {.btn-grid}
 
 ## Source
-* [**Flip Source *Inverts the source vertically***](/Sub-Actions/OBS/Flip-Source)
-* [**Hide Group's Sources *Hide all sources within a specified OBS source group***](/Sub-Actions/OBS/Hide-Group's-Sources)
-* [**Rotate Source *Set source rotation translation***](/Sub-Actions/OBS/Rotate-Source)
-* [**Set Browser Source URL *Set the URL of an OBS browser source***](/Sub-Actions/OBS/Set-Browser-Source-URL)
-* [**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
-* [**Set Image Source File *Set filepath for Image source*** *v0.1.5+*{.version-badge} ](/Sub-Actions/OBS/Set-Image-Source-File)
-* [**Set Media Source File *Set filepath for Media source*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Set-Media-Source-File){.disabled}
-* [**Set Media State *Media playback controls for specified source***](/Sub-Actons/OBS/Set-Media-State){.disabled}
-* [**Set Random Group Source Visible *Set a random source in an OBS group to `Visible`***](/Sub-Actions/OBS/Set-Random-Group-Source-Visible)
-* [**Set Source Audio Track State *Enable / Disable an OBS audio track***](/Sub-Actions/OBS/Source-Audio-Track-State)
-* [**Set Source Mute State *Mute / Unmute a source***](/Sub-Actions/OBS/Set-Source-Mute-State)
-* [**Set Source Visibility *Hide / Unhide a source***](/Sub-Actions/OBS/Set-Source-Visibility)
+* [<i class="mdi mdi-flip-horizontal text--obs"></i>**Flip Source *Inverts the source vertically***](/Sub-Actions/OBS/Flip-Source)
+* [<i class="mdi mdi-group text--obs"></i>**Hide Group's Sources *Hide all sources within a specified OBS source group***](/Sub-Actions/OBS/Hide-Group's-Sources)
+* [<i class="mdi mdi-rotate-right text--obs"></i>**Rotate Source *Set source rotation translation***](/Sub-Actions/OBS/Rotate-Source)
+* [<i class="mdi mdi-bootstrap text--obs"></i>**Set Browser Source URL *Set the URL of an OBS browser source***](/Sub-Actions/OBS/Set-Browser-Source-URL)
+* [<i class="mdi mdi-format-text text--obs"></i>**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
+* [<i class="mdi mdi-image text--obs"></i>**Set Image Source File *Set filepath for Image source*** *v0.1.5+*{.version-badge} ](/Sub-Actions/OBS/Set-Image-Source-File)
+* [<i class="mdi mdi-camera-iris text--obs"></i>**Set Media Source File *Set filepath for Media source*** *v0.1.5+*{.version-badge}](/Sub-Actions/OBS/Set-Media-Source-File){.disabled}
+* [<i class="mdi mdi-camera-iris text--obs"></i>**Set Media State *Media playback controls for specified source***](/Sub-Actons/OBS/Set-Media-State){.disabled}
+* [<i class="mdi mdi-group text--obs"></i>**Set Random Group Source Visible *Set a random source in an OBS group to `Visible`***](/Sub-Actions/OBS/Set-Random-Group-Source-Visible)
+* [<i class="mdi mdi-speaker text--obs"></i>**Set Source Audio Track State *Enable / Disable an OBS audio track***](/Sub-Actions/OBS/Source-Audio-Track-State)
+* [<i class="mdi mdi-speaker text--obs"></i>**Set Source Mute State *Mute / Unmute a source***](/Sub-Actions/OBS/Set-Source-Mute-State)
+* [<i class="mdi mdi-border-none-variant text--obs"></i>**Set Source Visibility *Hide / Unhide a source***](/Sub-Actions/OBS/Set-Source-Visibility)
 {.btn-grid}
 
 ## Scene
