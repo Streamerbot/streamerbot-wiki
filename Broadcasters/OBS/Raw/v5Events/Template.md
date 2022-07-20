@@ -2,7 +2,7 @@
 title: SceneCreated
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2022-07-20T13:15:11.154Z
+date: 2022-07-20T14:57:40.571Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
@@ -14,8 +14,8 @@ A new scene has been created.
 ## Variables
 Name | Type | Description | 
 ----:|:----:|:------------|
-`obsEvent.sceneName` | <kbd>string</kbd> | Name of the new scene
-`obsEvent.isGroup` | <kbd>boolean</kbd> | Whether the new scene is a group
+`obsEvent.sceneName` | *string*{.datatype} | Name of the new scene
+`obsEvent.isGroup` | *boolean*{.datatype} | Whether the new scene is a group
 
 ## Data Fields
 |:---|:---:
