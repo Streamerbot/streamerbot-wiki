@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-21T20:52:25.098Z
+date: 2022-07-21T20:52:55.670Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -54,7 +54,7 @@ Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
  * [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
  * [<i class="mdi mdi-upload text--twitch"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
  * [<i class="mdi mdi-list-status text--twitch"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Update-Redemption-Status)
-{.btn-grid}
+{.btn-grid .my-5}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
