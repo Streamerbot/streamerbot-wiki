@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-14T17:47:28.999Z
+date: 2022-07-21T20:52:25.098Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -43,6 +43,18 @@ Fetch information about specific users{.subtitle}
 - [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users){.disabled}
 {.btn-grid .my-5}
 
+## Channel Point Rewards
+Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
+ * [<i class="mdi mdi-cog text--twitch"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
+ * [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
+ * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Reward/Set-Enabled-State)
+ * [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
+ * [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
+ * [<i class="mdi mdi-text-box text--twitch"></i>**Set Prompt *Set the prompt text shown for a channel point reward***](/Sub-Actions/Rewards/Set-Prompt)
+ * [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
+ * [<i class="mdi mdi-upload text--twitch"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
+ * [<i class="mdi mdi-list-status text--twitch"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Update-Redemption-Status)
+{.btn-grid}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
