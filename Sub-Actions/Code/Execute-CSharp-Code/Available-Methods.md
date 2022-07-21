@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-07-20T23:11:39.173Z
+date: 2022-07-21T20:25:22.040Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -467,7 +467,9 @@ string ObsGetSceneItemProperties(string scene, string source, int connection = 0
 ## Browser/Text Sources
 ```csharp
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
-void ObsSetGdiText(string scene, string source, string text, int connection = 0); // use '/n' to use a new line e.g. line 1/nline 2
+
+// use '/n' for a new line e.g. line 1/nline 2
+void ObsSetGdiText(string scene, string source, string text, int connection = 0);
 ```
 
 ## Filters
