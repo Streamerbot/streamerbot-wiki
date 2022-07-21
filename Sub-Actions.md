@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-20T12:51:20.805Z
+date: 2022-07-21T13:41:33.792Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -27,7 +27,7 @@ Sub-Actions specific to your broadcasting software{.subtitle}
 ## Integration
 Sub-Actions specific to Streamer.bot [Integrations](/en/Integrations) {.subtitle}
 
-- [<i class="mdi mdi-speaker text--twitch"></i>**TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker/Speak)
+- [<i class="mdi mdi-speaker text--twitch"></i>**TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker)
 - [<img src="/logos/voicemod.png"/>**VoiceMod *Select voices, modify state, get current state***](/en/Sub-Actions/VoiceMod)
 {.btn-grid .my-5}
 
@@ -37,7 +37,7 @@ All general purpose sub-actions available for use{.subtitle}
 - [<i class="mdi mdi-lightning-bolt primary--text"></i>**Actions *Modify Streamer.bot action state***](/en/Sub-Actions/Actions)
 - [<i class="mdi mdi-comment-edit primary--text"></i>**Comment *Add a comment line to your sub-action stack***](/en/Sub-Actions/Comment)
 - [<i class="mdi mdi-comment-alert primary--text"></i>**Commands *Manage chat command state***](/en/Sub-Actions/Commands)
-- [<i class="mdi mdi-code-braces primary--text"></i>**C# *Custom code actions***](/en/Sub-Actions/CSharp)
+- [<i class="mdi mdi-code-braces primary--text"></i>**Code *Custom code actions***](/en/Sub-Actions/Code)
 - [<i class="mdi mdi-timelapse primary--text"></i>**Delay *Delay the next sub-action***](/en/Sub-Actions/Delay)
 - [<i class="mdi mdi-file-code primary--text"></i>**File *Read &amp; write from local files***](/en/Sub-Actions/File)
 - [<i class="mdi mdi-comment-quote-outline primary--text"></i>**Get Quote *Fetch a saved quote from the database***](/en/Sub-Actions/Get-Quote)
