@@ -2,7 +2,7 @@
 title: TreatStream
 description: 
 published: true
-date: 2022-07-21T23:06:08.471Z
+date: 2022-07-21T23:06:54.812Z
 tags: donations, treatstream
 editor: markdown
 dateCreated: 2022-06-26T23:40:15.870Z
@@ -13,7 +13,7 @@ dateCreated: 2022-06-26T23:40:15.870Z
 
 | Name | Description |
 |-----:|:------------|
-| `username` | The user name of the 
+| `username` | The user name of the person that has treated the streamer
 | `timestamp` | Timestamp of when the event occurred |
 | `type` | Type of treat that has been gifted *e.g. Pizza*
 | `message` | Message that the `username` has given
