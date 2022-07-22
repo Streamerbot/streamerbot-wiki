@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-19T18:29:42.792Z
+date: 2022-07-22T15:09:13.582Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -81,7 +81,7 @@ For example, a single scene change, fires off more events then just changing the
 * [**GetInputMute *Desription***](){.disabled}
 * [**SetInputMute *Desription***](){.disabled}
 * [**ToggleInputMute *Desription***](){.disabled}
-* [**GetInputVolume *Desription***](){.disabled}
+* [**GetInputVolume *Gets the current volume setting of an input.***](/en/Broadcasters/OBS/Raw/Requests/Inputs-Requests/GetInputVolume)
 * [**SetInputVolume *Desription***](){.disabled}
 * [**GetInputAudioBalance *Desription***](){.disabled}
 * [**SetInputAudioBalance *Desription***](){.disabled}
