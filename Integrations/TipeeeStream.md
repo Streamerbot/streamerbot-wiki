@@ -2,7 +2,7 @@
 title: TipeeeStream
 description: 
 published: true
-date: 2022-07-10T20:42:44.002Z
+date: 2022-07-22T00:57:10.969Z
 tags: tipeeestream, donations
 editor: markdown
 dateCreated: 2022-06-26T23:38:57.275Z
@@ -10,10 +10,10 @@ dateCreated: 2022-06-26T23:38:57.275Z
 
 ![tipeeStreem-logo.png](https://streamer.bot/img/integrations/tipeestream.png){.align-abstopright}
 
-# TipeeeStream
-> More details coming soon
-{.is-info}
+# Overview
+Integrate with [TipeeeStream](https://www.tipeeestream.com) to receive donation events.
 
+# Events
 ## Donation
 
 Variable | Description
