@@ -1,8 +1,8 @@
 ---
-title: GetInputVolume
+title: Template
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-22T15:19:36.099Z
+date: 2022-07-22T15:37:21.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -14,28 +14,28 @@ Gets the current volume setting of an input.
 ## Request Fields
 Name | Type | Required| Description | Value Restrictions | Default Behavior |
 ----:|:----:|:-------:|:------------|:------------------:|:----------------:|
-`inputName` | *string*{.datatype} | *True*{.datatype} | Name of the input to get the volume of	 | *None*{.datatype} | *N/A*{.datatype}
+`Name` | *datatype*{.datatype} | *True*{.datatype} | Description | *None*{.datatype} | *N/A*{.datatype}
 ## Variables
-Name | Type | Description | 
+Name | Data Type | Description | 
 ----:|:----:|:------------|
-`obsRaw.inputVolumeMul` | *integer*{.datatype} | Volume setting in mul
-`obsRaw.inputVolumeDb` | *integer*{.datatype} | Volume setting in dB
+`obsRaw.Name` | *datatype*{.datatype} | Description
+`obsRaw.Name` | *datatype*{.datatype} | Description
 
 ## Data Fields
 |:---|:---:
-| Complexity Rating: | <span class="stars stars--3"></span>
+| Complexity Rating: | <span class="stars stars--5"></span>
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
 
 ## Copy/Paste
 ```json
 {
-"request-type": "GetInputVolume",
-"inputName": ""
+"request-type": "Template",
+"template1": ""
 }
 ```
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
-- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#scenecreated)
+- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#template)
 {.btn-grid my-5}
