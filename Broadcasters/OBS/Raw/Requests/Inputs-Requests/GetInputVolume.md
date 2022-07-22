@@ -2,7 +2,7 @@
 title: GetInputVolume
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-22T15:15:00.067Z
+date: 2022-07-22T15:15:40.551Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -27,7 +27,7 @@ Name | Type | Description |
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
 
-## Copy/Paste Request Example
+## Copy/Paste
 ```json
 {
 "request-type": "GetInputVolume",
