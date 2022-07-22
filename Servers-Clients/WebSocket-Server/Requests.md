@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-07-19T21:17:44.575Z
+date: 2022-07-22T19:34:09.741Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -19,7 +19,7 @@ Requests can be made to the server, in JSON format, the basic format for a reque
 
 
 ## Subscribe
-This request is required to enable you to listen to events
+⚠️ This request is **required** to enable you to listen to events
 
 ### Tab {.tabset}
 #### Request
