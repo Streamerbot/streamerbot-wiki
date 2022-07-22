@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-22T15:45:00.059Z
+date: 2022-07-22T15:47:31.539Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -17,7 +17,7 @@ Name | Type | Required| Description | Value Restrictions | Default Behavior |
 `Name` | *datatype*{.datatype} | *True*{.datatype} | Description | *None*{.datatype} | *N/A*{.datatype}
 ## Variables
 Name | Data Type | Description | 
-----:|:----:|:------------|
+----:|:---------:|:------------|
 `obsRaw.Name` | *datatype*{.datatype} | Description
 `obsRaw.Name` | *datatype*{.datatype} | Description
 
