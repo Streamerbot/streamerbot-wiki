@@ -2,7 +2,7 @@
 title: GetInputVolume
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-20T17:56:54.547Z
+date: 2022-07-22T15:15:00.067Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -12,9 +12,9 @@ dateCreated: 2022-07-19T18:07:05.123Z
 Gets the current volume setting of an input.
 
 ## Request Fields
-Name | Type | Description | Value Restrictions | Default Behavior |
-----:|:----:|:------------|:------------------:|:----------------:|
-`inputName` | *string*{.datatype} | Name of the input to get the volume of	 | *None*{.datatype} | *N/A*{.datatype}
+Name | Type | Required| Description | Value Restrictions | Default Behavior |
+----:|:----:|:-------:|:------------|:------------------:|:----------------:|
+`inputName` | *string*{.datatype} | *True*{.datatype} | Name of the input to get the volume of	 | *None*{.datatype} | *N/A*{.datatype}
 ## Variables
 Name | Type | Description | 
 ----:|:----:|:------------|
@@ -27,6 +27,13 @@ Name | Type | Description |
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
 
+## Copy/Paste Request Example
+```json
+{
+"request-type": "GetInputVolume",
+"inputName": ""
+}
+```
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Raw/v5Events)
