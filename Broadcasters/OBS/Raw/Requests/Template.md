@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-22T15:37:21.731Z
+date: 2022-07-22T15:44:18.421Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -22,7 +22,7 @@ Name | Data Type | Description |
 `obsRaw.Name` | *datatype*{.datatype} | Description
 
 ## Data Fields
-|:---|:---:
+|:---|:---:|
 | Complexity Rating: | <span class="stars stars--5"></span>
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
