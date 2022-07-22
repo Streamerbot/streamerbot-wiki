@@ -2,13 +2,15 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-07-22T19:34:09.741Z
+date: 2022-07-22T19:37:41.297Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
 ---
 
-Requests can be made to the server, in JSON format, the basic format for a request is as follows:
+Requests can be made to the server in JSON format.
+
+The basic format for a request is as follows:
 
 ```json
 {
