@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-07-22T19:38:40.293Z
+date: 2022-07-22T19:39:28.173Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -346,8 +346,8 @@ ws.onmessage = function (event) {
 };
 ```
 
+#
 ---
-
 - [<i class="mdi mdi-chevron-left"></i> **WebSocket Server *Go Back***](/Servers-Clients/WebSocket-Server)
 - [<i class="mdi mdi-download-network primary--text"></i> **WebSocket Events *Reference of all events emitted over the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Events)
 {.btn-grid .my-5}
