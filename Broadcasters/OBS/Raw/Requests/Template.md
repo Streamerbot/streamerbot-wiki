@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-22T15:47:31.539Z
+date: 2022-07-22T18:55:14.093Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -12,11 +12,11 @@ dateCreated: 2022-07-19T18:07:05.123Z
 Gets the current volume setting of an input.
 
 ## Request Fields
-Name | Type | Required| Description | Value Restrictions | Default Behavior |
-----:|:----:|:-------:|:------------|:------------------:|:----------------:|
-`Name` | *datatype*{.datatype} | *True*{.datatype} | Description | *None*{.datatype} | *N/A*{.datatype}
+Name | Type | Required| Description |
+----:|:----:|:-------:|:------------|
+`Name` | *datatype*{.datatype} | *True*{.datatype} | Description 
 ## Variables
-Name | Data Type | Description | 
+Name | Type | Description | 
 ----:|:---------:|:------------|
 `obsRaw.Name` | *datatype*{.datatype} | Description
 `obsRaw.Name` | *datatype*{.datatype} | Description
