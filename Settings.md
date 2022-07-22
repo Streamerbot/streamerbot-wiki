@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-22T14:12:05.228Z
+date: 2022-07-22T14:43:40.827Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -25,7 +25,7 @@ Many things have been moved to improve accessibility, some features have been re
 - [<i class="mdi mdi-file-code primary--text"></i>**File/Folder Watcher**](/en/Settings#filefolder-watcher) 
 - [<i class="mdi mdi-timelapse primary--text"></i>**Timed Actions**](/en/Settings#timed-actions) 
 - [<i class="mdi mdi-credit-card primary--text"></i>**Credits**](/en/Settings#credits) 
-- [<i class="mdi mdi-arrow-right-thick primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
+- [<i class="mdi mdi-triangle-outline primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
 - [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](/en/Settings#quotes) 
 - [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](/en/Settings#sub-counter) 
 - [<i class="mdi mdi-folder primary--text"></i>**Groups**](/en/Settings#groups) 
