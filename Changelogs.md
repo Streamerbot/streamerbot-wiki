@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-09T19:54:17.897Z
+date: 2022-07-22T14:29:55.129Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -506,4 +506,4 @@ Set the command of a Voice Control Command to the value specified, supports pars
 * [Streamer.bot 0.0.32](/en/Changelogs/Archives/Version-0032)
 * [Streamer.bot 0.0.31](/en/Changelogs/Archives/Version-0031)
 * [Streamer.bot 0.0.30](/en/Changelogs/Archives/Version-0030)
-{.grid-list}
+{.links-list}
