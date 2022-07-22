@@ -2,7 +2,7 @@
 title: WebSocket Server
 description: Configure the internal Streamer.bot WebSocket API
 published: true
-date: 2022-07-22T19:27:43.112Z
+date: 2022-07-22T19:30:42.484Z
 tags: websocket, api
 editor: markdown
 dateCreated: 2021-08-25T21:37:04.299Z
@@ -40,20 +40,9 @@ The endpoint path for all requests, defaults to `/`
 Changing this will require you to connect at the configured location, e.g. `ws://127.0.0.1/myendpoint`
 
 
-## Requests
-See the [Websocket Server - Requests](/Servers-Clients/WebSocket-Server/Requests) for more details
+## API Reference
 
-* [Subscribe *Subscribe to specific events*](/Servers-Clients/WebSocket-Server/Requests#subscribe)
-* [UnSubscribe *UnSubscribe from specific events*](/Servers-Clients/WebSocket-Server/Requests#unsubscribe)
-* [GetEvents *Retrieve a list of all events that may be emitted*](/Servers-Clients/WebSocket-Server/Requests#getevents)
-* [GetActions *Retrieve a list of all available actions*](/Servers-Clients/WebSocket-Server/Requests#getactions)
-* [DoAction *Trigger an action*](/Servers-Clients/WebSocket-Server/Requests#doaction)
-* GetCredits
-* TestCredits
-* ClearCredits
-* GetActiveViewers (0.56)
-{.links-list}
-
-## Events Emitted
-See the [Websocket Server - Events](/Servers-Clients/WebSocket-Server/Events) for more details
+- [<i class="mdi mdi-upload-network primary--text"></i> **WebSocket Requests *Reference of all requests you can make to the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Requests)
+- [<i class="mdi mdi-download-network primary--text"></i> **WebSocket Events *Reference of all events emitted over the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Events)
+{.btn-grid}
 
