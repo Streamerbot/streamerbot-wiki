@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-01-31T04:19:21.558Z
+date: 2022-07-22T19:40:48.783Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -1300,4 +1300,8 @@ There is no fixed JSON format for data, as it is custom sent via the C# method.
 }
 ```
 
-{.grid-list}
+#
+---
+- [<i class="mdi mdi-chevron-left"></i> **WebSocket Requests *Go Back***](/Servers-Clients/WebSocket-Server)
+- [<i class="mdi mdi-upload-network primary--text"></i> **WebSocket Requests *Reference of all requests you can make to the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Events)
+{.btn-grid .my-5}
