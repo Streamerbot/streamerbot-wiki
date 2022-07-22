@@ -1,25 +1,44 @@
 ---
 title: WebSocket Server
-description: 
+description: Configure the internal Streamer.bot WebSocket API
 published: true
-date: 2022-07-09T19:58:52.266Z
-tags: websocket
+date: 2022-07-22T19:26:33.732Z
+tags: websocket, api
 editor: markdown
 dateCreated: 2021-08-25T21:37:04.299Z
 ---
 
-Connect to `Streamer.bot` with a websocket client, whether its from `JS`, or some other language, and react to events that happen within `Streamer.bot` in real time, and/or even from custom events you can emit from within the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code)
+## Overview
 
-![Websocket Server settings](/123519236-e8475600-d6a1-11eb-8b9c-ef7390e48968.png)
+Streamer.bot has an internal WebSocket server and API that can be enabled in the `Servers/Clients -> WebSocket Server` tab.
 
-***
-By going to the `Websockets` tab, and then the `Server` tab, you can change what `IP`, `Port` and the `endpoint` the server will listen on, as well as toggle it to auto start on application launch.
+This allows you to connect to your Streamer.bot application using any WebSocket client and react to events in real time.
 
-As of [Version 0.0.52](/Changelogs/Version-0052) the client connecting needs to [subscribe](/Servers-Clients/WebSocket-Server/Events) to the events it wishes to receive.
+> **WARNING**
+> Your client must [Subscribe](/Servers-Clients/WebSocket-Server/Events) to any events it wishes to receive from Streamer.bot
+{.is-warning}
 
-**Note** This is a work in progress document, and will be updated over time
+![Websocket Server settings](/123519236-e8475600-d6a1-11eb-8b9c-ef7390e48968.png =350x)
 
-**Note** If you wish to connect to **Streamer.bot** from another machine and/or device, be sure to change the IP from `127.0.0.1` to your PC's internal LAN IP (example `192.168.0.25`)
+## Configuration
+### Auto-Start
+Enable to auto-start the WebSocket server when you open Streamer.bot
+
+### Address
+The IP address the server should bind to, defaults to `127.0.0.1`
+
+If you need to connect to Streamer.bot from another machine on your local network, set this to your internal LAN IP, e.g. `192.168.0.25`
+
+### Port
+The port the server should bind to, defaults to `8080`
+
+Change this if you already have another service using the default port, or have multiple Streamer.bot instances running.
+
+### Endpoint
+The endpoint path for all requests, defaults to `/`
+
+Changing this will require you to connect at the configured location, e.g. `ws://127.0.0.1/myendpoint`
+
 
 ## Requests
 See the [Websocket Server - Requests](/Servers-Clients/WebSocket-Server/Requests) for more details
