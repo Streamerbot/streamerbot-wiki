@@ -2,7 +2,7 @@
 title: WebSocket Server
 description: Configure the internal Streamer.bot WebSocket API
 published: true
-date: 2022-07-22T19:30:42.484Z
+date: 2022-07-22T19:30:48.017Z
 tags: websocket, api
 editor: markdown
 dateCreated: 2021-08-25T21:37:04.299Z
@@ -44,5 +44,5 @@ Changing this will require you to connect at the configured location, e.g. `ws:/
 
 - [<i class="mdi mdi-upload-network primary--text"></i> **WebSocket Requests *Reference of all requests you can make to the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Requests)
 - [<i class="mdi mdi-download-network primary--text"></i> **WebSocket Events *Reference of all events emitted over the Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server/Events)
-{.btn-grid}
+{.btn-grid .my-5}
 
