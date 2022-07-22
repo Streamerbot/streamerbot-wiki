@@ -1,8 +1,8 @@
 ---
 title: TipeeeStream
-description: 
+description: Integrate Streamer.bot with TipeeeStream!
 published: true
-date: 2022-07-22T00:57:10.969Z
+date: 2022-07-22T00:58:01.732Z
 tags: tipeeestream, donations
 editor: markdown
 dateCreated: 2022-06-26T23:38:57.275Z
