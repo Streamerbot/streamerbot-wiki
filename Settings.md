@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-22T14:01:34.518Z
+date: 2022-07-22T14:10:48.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -40,7 +40,7 @@ The tab order on each level can be changed by dragging the tab to the desired po
 - [<i class="mdi mdi-file-code primary--text"></i>**File/Folder Watcher**](/en/Settings#filefolder-watcher) 
 - [<i class="mdi mdi-timelapse primary--text"></i>**Timed Actions**](/en/Settings#timed-actions) 
 - [<i class="mdi mdi-credit-card primary--text"></i>**Credits**](/en/Settings#credits) 
-- [<i class="mdi mdi-parachute primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
+- [<i class="mdi mdi-arrow-right-thick primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
 - [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](/en/Settings#quotes) 
 - [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](/en/Settings#sub-counter) 
 - [<i class="mdi mdi-folder primary--text"></i>**Groups**](/en/Settings#groups) 
