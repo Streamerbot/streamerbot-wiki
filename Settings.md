@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-15T18:02:24.650Z
+date: 2022-07-22T14:01:34.518Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -16,8 +16,6 @@ Settings have recieved a major overhaul in 0.1.8 as can be seen below
 
 
 Many things have been moved to improve accessibility, some features have been relocated to be better grouped to their particular function, leaving configuration options that are not platform specific in the top level Settings tab. These are broken down into secondary tabs by function.
-
-
 
 ## User Interface
 
@@ -36,6 +34,18 @@ The tab order on each level can be changed by dragging the tab to the desired po
 `Confirmation on Close` | Enables a popup warning before you close streamer.bot
 `Reset Delete Confirmations` | If you have checked the box to supress action and sub-action deletion popup warnings this button re-enables them
 
+- [<i class="mdi mdi-application primary--text"></i>**User Interface**](/en/Settings#user-interface)
+- [<i class="mdi mdi-format-align-center
+ primary--text"></i>**General**](/en/Settings#general)
+- [<i class="mdi mdi-file-code primary--text"></i>**File/Folder Watcher**](/en/Settings#filefolder-watcher) 
+- [<i class="mdi mdi-timelapse primary--text"></i>**Timed Actions**](/en/Settings#timed-actions) 
+- [<i class="mdi mdi-credit-card primary--text"></i>**Credits**](/en/Settings#credits) 
+- [<i class="mdi mdi-parachute primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
+- [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](/en/Settings#quotes) 
+- [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](/en/Settings#sub-counter) 
+- [<i class="mdi mdi-folder primary--text"></i>**Groups**](/en/Settings#groups) 
+- [<i class="mdi mdi-language-csharp primary--text"></i>**C# Compiler**](/en/Settings#c-compiler)
+{.btn-grid .my-5}
 
 ***
 
