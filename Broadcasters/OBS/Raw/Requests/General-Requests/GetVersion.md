@@ -2,7 +2,7 @@
 title: GetVersion
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-23T00:21:44.682Z
+date: 2022-07-23T00:34:03.096Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T00:21:44.682Z
@@ -17,8 +17,8 @@ Name | Type | Description |
 `obsRaw.obsVersion` | *string*{.datatype} | Description
 `obsRaw.obsWebSocketVersion` | *string*{.datatype} | Description 
 `obsRaw.rpcVersion` | *integer*{.datatype} | Description
-`obsRaw.availableRequests` | *arraystring>*{.datatype} | Description 
-`obsRaw.supportedImageFormats` | *arraystring>*{.datatype} | Description
+`obsRaw.availableRequests` | `array<string>`{.datatype} | Description 
+`obsRaw.supportedImageFormats` | `array<string>`{.datatype} | Description
 `obsRaw.platform` | *string*{.datatype} | Description 
 `obsRaw.platformDescription` | *string*{.datatype} | Description
 
