@@ -2,11 +2,15 @@
 title: Gift Bombs
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:44:02.707Z
+date: 2022-07-23T22:33:04.209Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-12-12T22:44:55.140Z
 ---
+
+> If you want to know who those subs are gifted to, you need to use the Gift Sub event with the variable `recipientUser`
+{.is-info}
+
 
 ## Overview
 
