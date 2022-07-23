@@ -1,8 +1,8 @@
 ---
 title: HTML Overlay
-description: 
+description: Streamer.bot Extended Features
 published: true
-date: 2022-07-23T15:45:29.601Z
+date: 2022-07-23T15:51:24.456Z
 tags: html overlay, extended features
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-07T17:09:36.784Z
 
 ![html-ovrly-380.png](/logos/html-ovrly-380.png){.align-abstopright}
 
-## What is the HTML Overlay?
+## Overview
 This is a simple cross-platform app that runs in the background allowing for an HTML/browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating.
 
 For example, the app comes preconfigured to show a simple dark splat that will cover most of the screen, (think Mario Kart oil spots) distracting them. 
