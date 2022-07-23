@@ -55,6 +55,7 @@ h1,h2,h3,h4,h5,h6,h7,h8 {
 }
 .page-col-content {
   margin-left: 0 !important;
+  overflow: hidden;
 }
 .container--fluid .page-col-sd {
   min-width: 350px;
@@ -261,8 +262,8 @@ h6::after {
 .v-main .contents .datatype {
   font-family: monospace;
   font-style: normal !important;
-  color: #ddd;
-  background-color: #1e1e1e;
+  color: #ddd !important;
+  background-color: #141414;
   border: 1px solid #000;
   border-radius: 2px;
   font-size: 0.75rem;
