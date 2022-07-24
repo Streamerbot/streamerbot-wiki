@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-07-21T13:41:33.792Z
+date: 2022-07-24T18:16:09.548Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -47,7 +47,7 @@ All general purpose sub-actions available for use{.subtitle}
 - [<i class="mdi mdi-code-greater-than primary--text"></i>**Perform Command *Execute a Windows program or script***](/en/Sub-Actions/Perform-Command)
 - [<i class="mdi mdi-format-color-fill primary--text"></i>**Pick Color *Populate color variables for OBS, HTML, or C#***](/en/Sub-Actions/Pick-Color)
 - [<i class="mdi mdi-network primary--text"></i>**Network *Fetch URL, UDP Broadcast***](/en/Sub-Actions/Network)
-- [<i class="mdi mdi-timer primary--text"></i>**Set Timer State *Enable or disable timed actions***](/en/Sub-Actions/Network)
+- [<i class="mdi mdi-timer primary--text"></i>**Set Timer State *Enable or disable timed actions***](/en/Sub-Actions/Set-Timer-State)
 - [<i class="mdi mdi-volume-high primary--text"></i>**Sounds *Play sound files***](/en/Sub-Actions/Sounds)
 - [<i class="mdi mdi-account-voice primary--text"></i>**Voice Control *Manage Voice Control commands***](/en/Sub-Actions/Voice-Control)
 {.btn-grid .my-5}
