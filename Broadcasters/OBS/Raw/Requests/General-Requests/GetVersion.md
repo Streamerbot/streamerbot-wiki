@@ -2,7 +2,7 @@
 title: GetVersion
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-25T18:01:30.924Z
+date: 2022-07-25T18:14:35.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T00:21:44.682Z
@@ -34,6 +34,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 "request-type": "GetVersion"
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
