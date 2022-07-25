@@ -2,7 +2,7 @@
 title: Twitch
 description: Configure Twitch as a streaming platform in Streamer.bot
 published: true
-date: 2022-07-13T20:26:56.048Z
+date: 2022-07-25T20:51:31.595Z
 tags: twitch, guides, platforms, configuration
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -13,7 +13,7 @@ dateCreated: 2021-08-25T21:34:42.553Z
 ## Quick Links
 - [<i class="mdi mdi-creation text--twitch"></i> **Twitch Event Reference *Click here for the full list of all Twitch events and variables***](/en/Platforms/Twitch/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i> **Twitch Sub-Action Reference *Click here for the full list of all Twitch sub-actions***](/en/Sub-Actions/Twitch)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ## Overview
 Streamer.bot integrates directly with Twitch to offer a set of first-class functionality.
