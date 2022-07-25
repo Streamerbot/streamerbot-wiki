@@ -2,7 +2,7 @@
 title: GetStats
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-25T18:13:25.840Z
+date: 2022-07-25T18:14:49.755Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-25T18:13:25.840Z
@@ -38,6 +38,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 "request-type": "GetStats"
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
