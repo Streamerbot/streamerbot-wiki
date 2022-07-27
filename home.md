@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-07-17T18:38:10.796Z
+date: 2022-07-27T15:50:25.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -90,11 +90,8 @@ Additional Links{.overline}
 Additionally, there are channels on the Streamer.bot discord to seek help/support, share discoveries, and present what you're working on.  
 The application can advance/evolve optimally if we all share new/interesting ways to do things.
 
-<section class="btn-grid my-5">
-
-[<i class="mdi mdi-discord text--discord"></i> **Streamer.bot Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!***](https://discord.streamer.bot)
-
-</section>
+- [<i class="mdi mdi-discord text--discord"></i> **Streamer.bot Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!***](https://discord.streamer.bot)
+{.btn-grid .my-5}
 
 Sharing your creations on **Twitter**? Be sure to tag **@streamerdotbot**, and/or use the hashtags **#streamerdotbot**, **#streamerbot**!
 
@@ -114,8 +111,5 @@ I appreciate all the support from everyone and to all using this software.  Than
 
 ## Support the Project
 
-<section class="btn-grid my-5">
-
-[<i class="mdi mdi-patreon text--patreon"></i> **Patreon *It is never required, I have setup a Patreon if you would like to support development.***](https://patreon.com/nate1280)
-
-</section>
+- [<i class="mdi mdi-patreon text--patreon"></i> **Patreon *It is never required, I have setup a Patreon if you would like to support development.***](https://patreon.com/nate1280)
+{.btn-grid .my-5}
