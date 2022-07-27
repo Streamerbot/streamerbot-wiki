@@ -2,13 +2,14 @@
 title: Custom Date and Time format strings
 description: 
 published: true
-date: 2022-07-27T23:41:16.498Z
+date: 2022-07-27T23:42:34.591Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
 ---
 
-
+> This page it's done done yet, the data below is correct but the formatting is gonna be changed. The links don't work yet.
+{.is-danger}
 
 | Format | Description | Example
 |:--:|:--|:--- 
