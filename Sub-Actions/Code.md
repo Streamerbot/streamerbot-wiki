@@ -2,7 +2,7 @@
 title: Code
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-27T23:46:42.589Z
+date: 2022-07-27T23:47:16.764Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -21,7 +21,7 @@ dateCreated: 2022-07-20T21:31:14.363Z
 - [<i class="mdi mdi-database primary--text"></i> **Data Types *A list of al data types that can be used with json***](/en/Sub-Actions/Code/JSON/Data-Types){.disabled}
 {.btn-grid .my-5}
 
-## JSON
+## Other
 
 - [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime){.disabled}
 {.btn-grid .my-5}
