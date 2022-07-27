@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-27T23:59:01.781Z
+date: 2022-07-27T23:59:35.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -11,7 +11,7 @@ dateCreated: 2022-07-27T23:41:16.498Z
 > This page it's done done yet, the data below is correct but the formatting is gonna be changed. The links don't work yet.
 {.is-danger}
 
-# Custom date and time format strings
+## Custom date and time format strings
 
 A date and time format string defines the text representation of a <xref:System.DateTime> or <xref:System.DateTimeOffset> value that results from a formatting operation. It can also define the representation of a date and time value that is required in a parsing operation in order to successfully convert the string to a date and time. A custom format string consists of one or more custom date and time format specifiers. Any string that is not a [standard date and time format string](standard-date-and-time-format-strings.md) is interpreted as a custom date and time format string.
 
