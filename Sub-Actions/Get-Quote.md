@@ -2,7 +2,7 @@
 title: Get Quote
 description: 
 published: true
-date: 2022-07-09T19:59:57.449Z
+date: 2022-07-28T19:39:16.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:26.393Z
@@ -21,3 +21,9 @@ Available when you have the `Type` set to `Specific`, you can specify the exact 
 ***
 
 **NOTE** Adding multiple `Get Quote` sub-actions will overwrite any previous ones
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
+- [<i class="mdi mdi-keyboard-close primary--text"></i>**Keyboard Press *Simulate keystrokes***](/en/Sub-Actions/Keyboard-Press)
+{.btn-grid .my-5}
