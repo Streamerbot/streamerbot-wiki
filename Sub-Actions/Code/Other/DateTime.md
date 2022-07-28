@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-28T00:32:34.971Z
+date: 2022-07-28T00:40:21.265Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -484,8 +484,8 @@ The following example includes the "yyy" custom format specifier in a custom for
 
 The "yyyy" custom format specifier represents the year with a minimum of four digits. If the year has more than four significant digits, they are included in the result string. If the year has fewer than four digits, the number is padded with leading zeros to produce four digits.
 
-> [!NOTE]
 > For the Thai Buddhist calendar, which can have five-digit years, this format specifier displays a minimum of four digits.
+{.is-info}
 
 The following example includes the "yyyy" custom format specifier in a custom format string.
 
@@ -570,8 +570,8 @@ The following example includes the "zzz" custom format specifier in a custom for
 
 The ":" custom format specifier represents the time separator, which is used to differentiate hours, minutes, and seconds. The appropriate localized time separator is retrieved from the <xref:System.Globalization.DateTimeFormatInfo.TimeSeparator%2A?displayProperty=nameWithType> property of the current or specified culture.
 
-> [!NOTE]
 > To change the time separator for a particular date and time string, specify the separator character within a literal string delimiter. For example, the custom format string `hh'_'dd'_'ss` produces a result string in which "\_" (an underscore) is always used as the time separator. To change the time separator for all dates for a culture, either change the value of the <xref:System.Globalization.DateTimeFormatInfo.TimeSeparator%2A?displayProperty=nameWithType> property of the current culture, or instantiate a <xref:System.Globalization.DateTimeFormatInfo> object, assign the character to its <xref:System.Globalization.DateTimeFormatInfo.TimeSeparator%2A> property, and call an overload of the formatting method that includes an <xref:System.IFormatProvider> parameter.
+{.is-info}
 
 If the ":" format specifier is used without other custom format specifiers, it's interpreted as a standard date and time format specifier and throws a <xref:System.FormatException>. For more information about using a single format specifier, see [Using Single Custom Format Specifiers](#UsingSingleSpecifiers) later in this article.
 
@@ -582,8 +582,8 @@ If the ":" format specifier is used without other custom format specifiers, it's
 
 The "/" custom format specifier represents the date separator, which is used to differentiate years, months, and days. The appropriate localized date separator is retrieved from the <xref:System.Globalization.DateTimeFormatInfo.DateSeparator%2A?displayProperty=nameWithType> property of the current or specified culture.
 
-> [!NOTE]
 > To change the date separator for a particular date and time string, specify the separator character within a literal string delimiter. For example, the custom format string `mm'/'dd'/'yyyy` produces a result string in which "/" is always used as the date separator. To change the date separator for all dates for a culture, either change the value of the <xref:System.Globalization.DateTimeFormatInfo.DateSeparator%2A?displayProperty=nameWithType> property of the current culture, or instantiate a <xref:System.Globalization.DateTimeFormatInfo> object, assign the character to its <xref:System.Globalization.DateTimeFormatInfo.DateSeparator%2A> property, and call an overload of the formatting method that includes an <xref:System.IFormatProvider> parameter.
+{.is-info}
 
 If the "/" format specifier is used without other custom format specifiers, it's interpreted as a standard date and time format specifier and throws a <xref:System.FormatException>. For more information about using a single format specifier, see [Using Single Custom Format Specifiers](#UsingSingleSpecifiers) later in this article.
 
