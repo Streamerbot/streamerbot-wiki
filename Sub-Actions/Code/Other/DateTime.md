@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-28T00:40:21.265Z
+date: 2022-07-28T20:42:50.326Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -12,19 +12,23 @@ dateCreated: 2022-07-27T23:41:16.498Z
 {.is-danger}
 
 ## Custom date and time format strings
+### C#
+A date and time format string defines the text representation of a `System.DateTime` or `System.DateTimeOffset` value that results from a formatting operation. It can also define the representation of a date and time value that is required in a parsing operation in order to successfully convert the string to a date and time. A custom format string consists of one or more custom date and time format specifiers. Any string that is not a standard date and time format string is interpreted as a custom date and time format string.
 
-A date and time format string defines the text representation of a <xref:System.DateTime> or <xref:System.DateTimeOffset> value that results from a formatting operation. It can also define the representation of a date and time value that is required in a parsing operation in order to successfully convert the string to a date and time. A custom format string consists of one or more custom date and time format specifiers. Any string that is not a [standard date and time format string](standard-date-and-time-format-strings.md) is interpreted as a custom date and time format string.
-
-> You can download the **Formatting Utility**, a .NET Core Windows Forms application that lets you apply format strings to either numeric or date and time values and displays the result string. Source code is available for [C#](/samples/dotnet/samples/windowsforms-formatting-utility-cs) and [Visual Basic](/samples/dotnet/samples/windowsforms-formatting-utility-vb).
+> You can download the **Formatting Utility**, a .NET Core Windows Forms application that lets you apply format strings to either numeric or date and time values and displays the result string. Source code is available for C# and Visual Basic.
 {.is-info}
 
 Custom date and time format strings can be used with both <xref:System.DateTime> and <xref:System.DateTimeOffset> values.
 
-<a name="table"></a> In formatting operations, custom date and time format strings can be used either with the `ToString` method of a date and time instance or with a method that supports composite formatting. The following example illustrates both uses.
+In formatting operations, custom date and time format strings can be used either with the `ToString` method of a date and time instance or with a method that supports composite formatting. The following example illustrates both uses.
 
 In parsing operations, custom date and time format strings can be used with the <xref:System.DateTime.ParseExact%2A?displayProperty=nameWithType>, <xref:System.DateTime.TryParseExact%2A?displayProperty=nameWithType>, <xref:System.DateTimeOffset.ParseExact%2A?displayProperty=nameWithType>, and <xref:System.DateTimeOffset.TryParseExact%2A?displayProperty=nameWithType> methods. These methods require that an input string conforms exactly to a particular pattern for the parse operation to succeed. The following example illustrates a call to the <xref:System.DateTimeOffset.ParseExact%28System.String%2CSystem.String%2CSystem.IFormatProvider%29?displayProperty=nameWithType> method to parse a date that must include a day, a month, and a two-digit year.
 
 The following table describes the custom date and time format specifiers and displays a result string produced by each format specifier. By default, result strings reflect the formatting conventions of the en-US culture. If a particular format specifier produces a localized result string, the example also notes the culture to which the result string applies. For more information about using custom date and time format strings, see the [Notes](#notes) section.
+### Native
+With the variable %time% you can display the date/time in your action e.g. in a text source, in a send message to channel sub-action
+
+You have to use the `time` variable with a colon (`:`) after it `time:#` and replace the # with something out of the table below e.g. the variable `time:ddd dd MMMM yyyy - HH:mm:ss` gives "Mon 31 August 2009 - 09:41:00"
 
 ## Table of Date and Time format strings
 | Format | Description | Example
