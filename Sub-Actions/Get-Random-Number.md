@@ -2,7 +2,7 @@
 title: Get Random Number
 description: 
 published: true
-date: 2022-07-09T20:00:01.799Z
+date: 2022-07-28T19:39:41.455Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T02:13:10.625Z
@@ -28,3 +28,9 @@ Variable | Description
 ---------|------------
 `randomFloat` | A floating point number between 0 and 1
 `randomPercent` | The floating point number represented as a percentage
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
+- [<i class="mdi mdi-code-braces primary--text"></i>**Code *Custom code actions***](/en/Sub-Actions/Code)
+{.btn-grid .my-5}
