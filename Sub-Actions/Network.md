@@ -2,7 +2,7 @@
 title: Network Sub-Actions
 description: Reference of all sub-actions for interacting with external networks or URL's
 published: true
-date: 2022-07-28T19:42:09.551Z
+date: 2022-07-28T19:42:54.562Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T19:01:16.907Z
@@ -14,10 +14,6 @@ dateCreated: 2022-07-10T19:01:16.907Z
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<i class="mdi mdi-volume-high primary--text"></i> **Sounds *Sub-actions reference for playing sound files***](/en/Sub-Actions/Sounds)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-volume-high primary--text"></i> **Sounds *Sub-actions reference for playing sound files***](/en/Sub-Actions/Sounds)
+{.btn-grid .my-5}
