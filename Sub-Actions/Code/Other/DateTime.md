@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-27T23:59:35.035Z
+date: 2022-07-28T00:04:21.837Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -734,12 +734,3 @@ In addition, if you use the <xref:System.Globalization.CultureInfo.%23ctor%28Sys
 Formatting is influenced by properties of the current <xref:System.Globalization.DateTimeFormatInfo> object, which is provided implicitly by the current culture or explicitly by the <xref:System.IFormatProvider> parameter of the method that invokes formatting. For the <xref:System.IFormatProvider> parameter, you should specify a <xref:System.Globalization.CultureInfo> object, which represents a culture, or a <xref:System.Globalization.DateTimeFormatInfo> object.
 
 The result string produced by many of the custom date and time format specifiers also depends on properties of the current <xref:System.Globalization.DateTimeFormatInfo> object. Your application can change the result produced by some custom date and time format specifiers by changing the corresponding <xref:System.Globalization.DateTimeFormatInfo> property. For example, the "ddd" format specifier adds an abbreviated weekday name found in the <xref:System.Globalization.DateTimeFormatInfo.AbbreviatedDayNames%2A> string array to the result string. Similarly, the "MMMM" format specifier adds a full month name found in the <xref:System.Globalization.DateTimeFormatInfo.MonthNames%2A> string array to the result string.
-
-## See also
-
-- <xref:System.DateTime?displayProperty=nameWithType>
-- <xref:System.IFormatProvider?displayProperty=nameWithType>
-- [Formatting types](formatting-types.md)
-- [Standard Date and Time format strings](standard-date-and-time-format-strings.md)
-- [Sample: .NET Core WinForms formatting utility (C#)](/samples/dotnet/samples/windowsforms-formatting-utility-cs)
-- [Sample: .NET Core WinForms formatting utility (Visual Basic)](/samples/dotnet/samples/windowsforms-formatting-utility-vb)
