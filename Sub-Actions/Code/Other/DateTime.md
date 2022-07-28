@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-28T00:22:46.160Z
+date: 2022-07-28T00:23:02.473Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -26,7 +26,7 @@ In parsing operations, custom date and time format strings can be used with the 
 
 The following table describes the custom date and time format specifiers and displays a result string produced by each format specifier. By default, result strings reflect the formatting conventions of the en-US culture. If a particular format specifier produces a localized result string, the example also notes the culture to which the result string applies. For more information about using custom date and time format strings, see the [Notes](#notes) section.
 
-## Table of Date And Time format strings
+## Table of Date and Time format strings
 | Format | Description | Example
 |:--:|:--|:--- 
 | *d*{.datatype} | The day of the month, from 1 through 31.<br /><br /> More information: [The "d" Custom Format Specifier](#dSpecifier). | 2009-06-01T13:45:30 -> 1<br /><br /> 2009-06-15T13:45:30 -> 15 |
