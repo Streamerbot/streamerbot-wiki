@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-21T20:21:07.618Z
+date: 2022-07-28T21:02:48.383Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -71,6 +71,31 @@ Here you see an array with a nested object and a nested array with 3 integers, 1
       false,
       "nested array"
    ]
+]
+```
+### Example 4
+### Tab {.tabset}
+#### OBS ReorderSceneItems Request
+```json
+{
+"request-type": "ReorderSceneItems",
+"scene": "sceneName",
+"items": [{"name":"firstSource"},{"name":"secondSource"}]
+}
+```
+#### One line
+```json
+[{"name":"firstSource"},{"name":"secondSource"}]
+```
+#### More lines
+```json
+[
+  {
+    "name":"firstSource"
+  },
+  {
+    "name":"secondSource"
+  }
 ]
 ```
 ## Explanation
