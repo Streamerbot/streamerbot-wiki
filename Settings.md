@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-07-22T14:43:40.827Z
+date: 2022-07-28T20:53:49.070Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -19,17 +19,16 @@ Many things have been moved to improve accessibility, some features have been re
 
 ***
 
-- [<i class="mdi mdi-application primary--text"></i>**User Interface**](/en/Settings#user-interface)
-- [<i class="mdi mdi-format-align-center
- primary--text"></i>**General**](/en/Settings#general)
-- [<i class="mdi mdi-file-code primary--text"></i>**File/Folder Watcher**](/en/Settings#filefolder-watcher) 
-- [<i class="mdi mdi-timelapse primary--text"></i>**Timed Actions**](/en/Settings#timed-actions) 
-- [<i class="mdi mdi-credit-card primary--text"></i>**Credits**](/en/Settings#credits) 
-- [<i class="mdi mdi-triangle-outline primary--text"></i>**Pyramids**](/en/Settings#pyramids) 
-- [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](/en/Settings#quotes) 
-- [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](/en/Settings#sub-counter) 
-- [<i class="mdi mdi-folder primary--text"></i>**Groups**](/en/Settings#groups) 
-- [<i class="mdi mdi-language-csharp primary--text"></i>**C# Compiler**](/en/Settings#c-compiler)
+- [<i class="mdi mdi-application primary--text"></i>**User Interface**](#user-interface)
+- [<i class="mdi mdi-format-align-center primary--text"></i>**General**](#general)
+- [<i class="mdi mdi-file-code primary--text"></i>**File/Folder Watcher**](#filefolder-watcher) 
+- [<i class="mdi mdi-timelapse primary--text"></i>**Timed Actions**](#timed-actions) 
+- [<i class="mdi mdi-credit-card primary--text"></i>**Credits**](#credits) 
+- [<i class="mdi mdi-triangle-outline primary--text"></i>**Pyramids**](#pyramids) 
+- [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](#quotes) 
+- [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](#sub-counter) 
+- [<i class="mdi mdi-folder primary--text"></i>**Groups**](#groups) 
+- [<i class="mdi mdi-language-csharp primary--text"></i>**C# Compiler**](#c-compiler)
 {.btn-grid .my-5}
 
 ***
