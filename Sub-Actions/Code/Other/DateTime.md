@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-28T00:18:16.459Z
+date: 2022-07-28T00:22:46.160Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -90,7 +90,8 @@ If the "d" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "d" custom format specifier in several format strings.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ddSpecifier"></a> The "dd" custom format specifier
 
@@ -98,7 +99,8 @@ The "dd" custom format string represents the day of the month as a number from 0
 
 The following example includes the "dd" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="dddSpecifier"></a> The "ddd" custom format specifier
 
@@ -106,7 +108,8 @@ The "ddd" custom format specifier represents the abbreviated name of the day of 
 
 The following example includes the "ddd" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ddddSpecifier"></a> The "dddd" custom format specifier
 
@@ -114,7 +117,8 @@ The "dddd" custom format specifier (plus any number of additional "d" specifiers
 
 The following example includes the "dddd" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Lowercase seconds "f" fraction specifier
 
@@ -128,7 +132,8 @@ When you use "f" format specifiers as part of a format string supplied to the <x
 
 The following example includes the "f" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ffSpecifier"></a> The "ff" custom format specifier
 
@@ -136,7 +141,8 @@ The "ff" custom format specifier represents the two most significant digits of t
 
 following example includes the "ff" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="fffSpecifier"></a> The "fff" custom format specifier
 
@@ -144,7 +150,8 @@ The "fff" custom format specifier represents the three most significant digits o
 
 The following example includes the "fff" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ffffSpecifier"></a> The "ffff" custom format specifier
 
@@ -152,7 +159,8 @@ The "ffff" custom format specifier represents the four most significant digits o
 
 Although it's possible to display the ten thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT version 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="fffffSpecifier"></a> The "fffff" custom format specifier
 
@@ -160,7 +168,8 @@ The "fffff" custom format specifier represents the five most significant digits 
 
 Although it's possible to display the hundred thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ffffffSpecifier"></a> The "ffffff" custom format specifier
 
@@ -168,7 +177,8 @@ The "ffffff" custom format specifier represents the six most significant digits 
 
 Although it's possible to display the millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="fffffffSpecifier"></a> The "fffffff" custom format specifier
 
@@ -176,7 +186,8 @@ The "fffffff" custom format specifier represents the seven most significant digi
 
 Although it's possible to display the ten millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Uppercase seconds "F" fraction specifier
 
@@ -190,7 +201,8 @@ The number of "F" format specifiers used with the <xref:System.DateTime.ParseExa
 
 The following example includes the "F" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FF_Specifier"></a> The "FF" custom format specifier
 
@@ -198,7 +210,8 @@ The "FF" custom format specifier represents the two most significant digits of t
 
 The following example includes the "FF" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FFF_Specifier"></a> The "FFF" custom format specifier
 
@@ -206,7 +219,8 @@ The "FFF" custom format specifier represents the three most significant digits o
 
 The following example includes the "FFF" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FFFF_Specifier"></a> The "FFFF" custom format specifier
 
@@ -214,7 +228,8 @@ The "FFFF" custom format specifier represents the four most significant digits o
 
 Although it's possible to display the ten thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FFFFF_Specifier"></a> The "FFFFF" custom format specifier
 
@@ -222,7 +237,8 @@ The "FFFFF" custom format specifier represents the five most significant digits 
 
 Although it's possible to display the hundred thousandths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FFFFFF_Specifier"></a> The "FFFFFF" custom format specifier
 
@@ -230,7 +246,8 @@ The "FFFFFF" custom format specifier represents the six most significant digits 
 
 Although it's possible to display the millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="FFFFFFF_Specifier"></a> The "FFFFFFF" custom format specifier
 
@@ -238,7 +255,8 @@ The "FFFFFFF" custom format specifier represents the seven most significant digi
 
 Although it's possible to display the ten millionths of a second component of a time value, that value may not be meaningful. The precision of date and time values depends on the resolution of the system clock. On the Windows NT 3.5 (and later) and Windows Vista operating systems, the clock's resolution is approximately 10-15 milliseconds.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Era "g" format specifier
 
@@ -250,7 +268,8 @@ If the "g" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "g" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Lowercase hour "h" format specifier
 
@@ -262,7 +281,8 @@ If the "h" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "h" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="hhSpecifier"></a> The "hh" custom format specifier
 
@@ -270,7 +290,8 @@ The "hh" custom format specifier (plus any number of additional "h" specifiers) 
 
 The following example includes the "hh" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Uppercase hour "H" format specifier
 
@@ -282,7 +303,8 @@ If the "H" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "H" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="HH_Specifier"></a> The "HH" custom format specifier
 
@@ -290,7 +312,8 @@ The "HH" custom format specifier (plus any number of additional "H" specifiers) 
 
 The following example includes the "HH" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Time zone "K" format specifier
 
@@ -310,7 +333,8 @@ If the "K" format specifier is used without other custom format specifiers, it's
 
 The following example displays the string that results from using the "K" custom format specifier with various <xref:System.DateTime> and <xref:System.DateTimeOffset> values on a system in the U.S. Pacific Time zone.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Minute "m" format specifier
 
@@ -322,7 +346,8 @@ If the "m" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "m" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="mmSpecifier"></a> The "mm" custom format specifier
 
@@ -330,7 +355,8 @@ The "mm" custom format specifier (plus any number of additional "m" specifiers) 
 
 The following example includes the "mm" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Month "M" format specifier
 
@@ -342,7 +368,8 @@ If the "M" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "M" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="MM_Specifier"></a> The "MM" custom format specifier
 
@@ -350,7 +377,8 @@ The "MM" custom format specifier represents the month as a number from 01 throug
 
 The following example includes the "MM" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="MMM_Specifier"></a> The "MMM" custom format specifier
 
@@ -358,7 +386,8 @@ The "MMM" custom format specifier represents the abbreviated name of the month. 
 
 The following example includes the "MMM" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="MMMM_Specifier"></a> The "MMMM" custom format specifier
 
@@ -366,7 +395,8 @@ The "MMMM" custom format specifier represents the full name of the month. The lo
 
 The following example includes the "MMMM" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Seconds "s" format specifier
 
@@ -378,7 +408,8 @@ If the "s" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "s" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ssSpecifier"></a> The "ss" custom format specifier
 
@@ -386,7 +417,8 @@ The "ss" custom format specifier (plus any number of additional "s" specifiers) 
 
 The following example includes the "ss" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Meridiem "t" format specifier
 
@@ -398,7 +430,8 @@ If the "t" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "t" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="ttSpecifier"></a> The "tt" custom format specifier
 
@@ -408,7 +441,8 @@ Make sure to use the "tt" specifier for languages for which it's necessary to ma
 
 The following example includes the "tt" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Year "y" format specifier
 
@@ -420,7 +454,8 @@ If the "y" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "y" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="yySpecifier"></a> The "yy" custom format specifier
 
@@ -430,7 +465,8 @@ In a parsing operation, a two-digit year that is parsed using the "yy" custom fo
 
 The following example includes the "yy" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="yyySpecifier"></a> The "yyy" custom format specifier
 
@@ -441,7 +477,8 @@ The "yyy" custom format specifier represents the year with a minimum of three di
 
 The following example includes the "yyy" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="yyyySpecifier"></a> The "yyyy" custom format specifier
 
@@ -452,7 +489,8 @@ The "yyyy" custom format specifier represents the year with a minimum of four di
 
 The following example includes the "yyyy" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="yyyyySpecifier"></a> The "yyyyy" custom format specifier
 
@@ -462,7 +500,8 @@ If there are additional "y" specifiers, the number is padded with as many leadin
 
 The following example includes the "yyyyy" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Offset "z" format specifier
 
@@ -484,7 +523,8 @@ If the "z" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "z" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="zzSpecifier"></a> The "zz" custom format specifier
 
@@ -502,7 +542,8 @@ With <xref:System.DateTimeOffset> values, this format specifier represents the <
 
 The following example includes the "zz" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="zzzSpecifier"></a> The "zzz" custom format specifier
 
@@ -520,7 +561,8 @@ With <xref:System.DateTimeOffset> values, this format specifier represents the <
 
 The following example includes the "zzz" custom format specifier in a custom format string.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## Date and time separator specifiers
 
@@ -533,7 +575,8 @@ The ":" custom format specifier represents the time separator, which is used to 
 
 If the ":" format specifier is used without other custom format specifiers, it's interpreted as a standard date and time format specifier and throws a <xref:System.FormatException>. For more information about using a single format specifier, see [Using Single Custom Format Specifiers](#UsingSingleSpecifiers) later in this article.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ### <a name="dateSeparator"></a> The "/" custom format specifier
 
@@ -544,7 +587,8 @@ The "/" custom format specifier represents the date separator, which is used to 
 
 If the "/" format specifier is used without other custom format specifiers, it's interpreted as a standard date and time format specifier and throws a <xref:System.FormatException>. For more information about using a single format specifier, see [Using Single Custom Format Specifiers](#UsingSingleSpecifiers) later in this article.
 
-[Back to table](#table)
+- [<i class="mdi mdi-table primary--text"></i>**Back to table**](#table-of-date-and-time-format-strings)
+{.btn-grid .my-5}
 
 ## <a name="Literals"></a> Character literals
 
