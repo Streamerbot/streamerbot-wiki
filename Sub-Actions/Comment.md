@@ -2,7 +2,7 @@
 title: Comment
 description: 
 published: true
-date: 2022-07-09T19:59:37.249Z
+date: 2022-07-28T19:37:11.128Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:35:07.851Z
@@ -16,3 +16,9 @@ This action does nothing but lets you leave a comment within your sub-actions, t
 How it looks in your sub-actions
 
 ![sub-action-comment-002.png](/sub-action-comment-002.png)
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
+- [<i class="mdi mdi-timelapse primary--text"></i>**Delay *Delay the next sub-action***](/en/Sub-Actions/Delay)
+{.btn-grid .my-5}
