@@ -1,8 +1,8 @@
 ---
-title: Logic
+title: Logic Sub-Actions
 description: Sub-Actions Reference
 published: true
-date: 2022-07-22T19:47:39.427Z
+date: 2022-07-28T20:21:39.651Z
 tags: subactions, logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
