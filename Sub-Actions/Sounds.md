@@ -2,7 +2,7 @@
 title: Sounds
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-07-10T19:28:04.364Z
+date: 2022-07-28T19:35:17.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
@@ -70,10 +70,6 @@ Adjust the volume of the sound file.  This is a very basic volume adjustment, an
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Sub-actions reference for managing Voice Control commands***](/en/Sub-Actions/Voice-Control)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
+- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Sub-actions reference for managing Voice Control commands***](/en/Sub-Actions/Voice-Control)
+{.btn-grid .my-5}
