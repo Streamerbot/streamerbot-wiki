@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-28T00:11:05.395Z
+date: 2022-07-28T00:18:16.459Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -90,9 +90,6 @@ If the "d" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "d" custom format specifier in several format strings.
 
-[!code-csharp[Formatting.DateAndTime.Custom#1](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#1)]
-[!code-vb[Formatting.DateAndTime.Custom#1](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#1)]
-
 [Back to table](#table)
 
 ### <a name="ddSpecifier"></a> The "dd" custom format specifier
@@ -100,9 +97,6 @@ The following example includes the "d" custom format specifier in several format
 The "dd" custom format string represents the day of the month as a number from 01 through 31. A single-digit day is formatted with a leading zero.
 
 The following example includes the "dd" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#2](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#2)]
-[!code-vb[Formatting.DateAndTime.Custom#2](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#2)]
 
 [Back to table](#table)
 
@@ -112,9 +106,6 @@ The "ddd" custom format specifier represents the abbreviated name of the day of 
 
 The following example includes the "ddd" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#3](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#3)]
-[!code-vb[Formatting.DateAndTime.Custom#3](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#3)]
-
 [Back to table](#table)
 
 ### <a name="ddddSpecifier"></a> The "dddd" custom format specifier
@@ -122,9 +113,6 @@ The following example includes the "ddd" custom format specifier in a custom for
 The "dddd" custom format specifier (plus any number of additional "d" specifiers) represents the full name of the day of the week. The localized name of the day of the week is retrieved from the <xref:System.Globalization.DateTimeFormatInfo.DayNames%2A?displayProperty=nameWithType> property of the current or specified culture.
 
 The following example includes the "dddd" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#4](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#4)]
-[!code-vb[Formatting.DateAndTime.Custom#4](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#4)]
 
 [Back to table](#table)
 
@@ -140,9 +128,6 @@ When you use "f" format specifiers as part of a format string supplied to the <x
 
 The following example includes the "f" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
-
 [Back to table](#table)
 
 ### <a name="ffSpecifier"></a> The "ff" custom format specifier
@@ -151,9 +136,6 @@ The "ff" custom format specifier represents the two most significant digits of t
 
 following example includes the "ff" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
-
 [Back to table](#table)
 
 ### <a name="fffSpecifier"></a> The "fff" custom format specifier
@@ -161,9 +143,6 @@ following example includes the "ff" custom format specifier in a custom format s
 The "fff" custom format specifier represents the three most significant digits of the seconds fraction; that is, it represents the milliseconds in a date and time value.
 
 The following example includes the "fff" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
 
 [Back to table](#table)
 
@@ -211,9 +190,6 @@ The number of "F" format specifiers used with the <xref:System.DateTime.ParseExa
 
 The following example includes the "F" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
-
 [Back to table](#table)
 
 ### <a name="FF_Specifier"></a> The "FF" custom format specifier
@@ -222,9 +198,6 @@ The "FF" custom format specifier represents the two most significant digits of t
 
 The following example includes the "FF" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
-
 [Back to table](#table)
 
 ### <a name="FFF_Specifier"></a> The "FFF" custom format specifier
@@ -232,9 +205,6 @@ The following example includes the "FF" custom format specifier in a custom form
 The "FFF" custom format specifier represents the three most significant digits of the seconds fraction; that is, it represents the milliseconds in a date and time value. Trailing zeros aren't displayed. Nothing is displayed if the three significant digits are zero, and in that case the decimal point that follows the number of seconds is also not displayed.
 
 The following example includes the "FFF" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#5](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#5)]
-[!code-vb[Formatting.DateAndTime.Custom#5](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#5)]
 
 [Back to table](#table)
 
@@ -280,9 +250,6 @@ If the "g" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "g" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#6](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#6)]
-[!code-vb[Formatting.DateAndTime.Custom#6](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#6)]
-
 [Back to table](#table)
 
 ## Lowercase hour "h" format specifier
@@ -295,9 +262,6 @@ If the "h" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "h" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#7](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#7)]
-[!code-vb[Formatting.DateAndTime.Custom#7](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#7)]
-
 [Back to table](#table)
 
 ### <a name="hhSpecifier"></a> The "hh" custom format specifier
@@ -305,9 +269,6 @@ The following example includes the "h" custom format specifier in a custom forma
 The "hh" custom format specifier (plus any number of additional "h" specifiers) represents the hour as a number from 01 through 12; that is, the hour is represented by a 12-hour clock that counts the whole hours since midnight or noon. A particular hour after midnight is indistinguishable from the same hour after noon. The hour is not rounded, and a single-digit hour is formatted with a leading zero. For example, given a time of 5:43 in the morning or afternoon, this format specifier displays "05".
 
 The following example includes the "hh" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#8](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#8)]
-[!code-vb[Formatting.DateAndTime.Custom#8](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#8)]
 
 [Back to table](#table)
 
@@ -321,9 +282,6 @@ If the "H" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "H" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#9](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#9)]
-[!code-vb[Formatting.DateAndTime.Custom#9](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#9)]
-
 [Back to table](#table)
 
 ### <a name="HH_Specifier"></a> The "HH" custom format specifier
@@ -331,9 +289,6 @@ The following example includes the "H" custom format specifier in a custom forma
 The "HH" custom format specifier (plus any number of additional "H" specifiers) represents the hour as a number from 00 through 23; that is, the hour is represented by a zero-based 24-hour clock that counts the hours since midnight. A single-digit hour is formatted with a leading zero.
 
 The following example includes the "HH" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#10](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#10)]
-[!code-vb[Formatting.DateAndTime.Custom#10](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#10)]
 
 [Back to table](#table)
 
@@ -355,9 +310,6 @@ If the "K" format specifier is used without other custom format specifiers, it's
 
 The following example displays the string that results from using the "K" custom format specifier with various <xref:System.DateTime> and <xref:System.DateTimeOffset> values on a system in the U.S. Pacific Time zone.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#12](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#12)]
-[!code-vb[Formatting.DateAndTime.Custom#12](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#12)]
-
 [Back to table](#table)
 
 ## Minute "m" format specifier
@@ -370,9 +322,6 @@ If the "m" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "m" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#7](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#7)]
-[!code-vb[Formatting.DateAndTime.Custom#7](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#7)]
-
 [Back to table](#table)
 
 ### <a name="mmSpecifier"></a> The "mm" custom format specifier
@@ -380,9 +329,6 @@ The following example includes the "m" custom format specifier in a custom forma
 The "mm" custom format specifier (plus any number of additional "m" specifiers) represents the minute as a number from 00 through 59. The minute represents whole minutes that have passed since the last hour. A single-digit minute is formatted with a leading zero.
 
 The following example includes the "mm" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#8](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#8)]
-[!code-vb[Formatting.DateAndTime.Custom#8](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#8)]
 
 [Back to table](#table)
 
@@ -396,9 +342,6 @@ If the "M" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "M" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#11](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#11)]
-[!code-vb[Formatting.DateAndTime.Custom#11](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#11)]
-
 [Back to table](#table)
 
 ### <a name="MM_Specifier"></a> The "MM" custom format specifier
@@ -406,9 +349,6 @@ The following example includes the "M" custom format specifier in a custom forma
 The "MM" custom format specifier represents the month as a number from 01 through 12 (or from 1 through 13 for calendars that have 13 months). A single-digit month is formatted with a leading zero.
 
 The following example includes the "MM" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#2](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#2)]
-[!code-vb[Formatting.DateAndTime.Custom#2](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#2)]
 
 [Back to table](#table)
 
@@ -418,9 +358,6 @@ The "MMM" custom format specifier represents the abbreviated name of the month. 
 
 The following example includes the "MMM" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#3](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#3)]
-[!code-vb[Formatting.DateAndTime.Custom#3](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#3)]
-
 [Back to table](#table)
 
 ### <a name="MMMM_Specifier"></a> The "MMMM" custom format specifier
@@ -428,9 +365,6 @@ The following example includes the "MMM" custom format specifier in a custom for
 The "MMMM" custom format specifier represents the full name of the month. The localized name of the month is retrieved from the <xref:System.Globalization.DateTimeFormatInfo.MonthNames%2A?displayProperty=nameWithType> property of the current or specified culture.
 
 The following example includes the "MMMM" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#4](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#4)]
-[!code-vb[Formatting.DateAndTime.Custom#4](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#4)]
 
 [Back to table](#table)
 
@@ -444,9 +378,6 @@ If the "s" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "s" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#7](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#7)]
-[!code-vb[Formatting.DateAndTime.Custom#7](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#7)]
-
 [Back to table](#table)
 
 ### <a name="ssSpecifier"></a> The "ss" custom format specifier
@@ -454,9 +385,6 @@ The following example includes the "s" custom format specifier in a custom forma
 The "ss" custom format specifier (plus any number of additional "s" specifiers) represents the seconds as a number from 00 through 59. The result represents whole seconds that have passed since the last minute. A single-digit second is formatted with a leading zero.
 
 The following example includes the "ss" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#8](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#8)]
-[!code-vb[Formatting.DateAndTime.Custom#8](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#8)]
 
 [Back to table](#table)
 
@@ -470,9 +398,6 @@ If the "t" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "t" custom format specifier in a custom format string.
 
-[!code-csharp[Formatting.DateAndTime.Custom#7](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#7)]
-[!code-vb[Formatting.DateAndTime.Custom#7](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#7)]
-
 [Back to table](#table)
 
 ### <a name="ttSpecifier"></a> The "tt" custom format specifier
@@ -482,9 +407,6 @@ The "tt" custom format specifier (plus any number of additional "t" specifiers) 
 Make sure to use the "tt" specifier for languages for which it's necessary to maintain the distinction between AM and PM. An example is Japanese, for which the AM and PM designators differ in the second character instead of the first character.
 
 The following example includes the "tt" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#8](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#8)]
-[!code-vb[Formatting.DateAndTime.Custom#8](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#8)]
 
 [Back to table](#table)
 
@@ -498,9 +420,6 @@ If the "y" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "y" custom format specifier in a custom format string.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#13](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#13)]
-[!code-vb[Formatting.DateAndTime.Custom#13](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#13)]
-
 [Back to table](#table)
 
 ### <a name="yySpecifier"></a> The "yy" custom format specifier
@@ -509,13 +428,7 @@ The "yy" custom format specifier represents the year as a two-digit number. If t
 
 In a parsing operation, a two-digit year that is parsed using the "yy" custom format specifier is interpreted based on the <xref:System.Globalization.Calendar.TwoDigitYearMax%2A?displayProperty=nameWithType> property of the format provider's current calendar. The following example parses the string representation of a date that has a two-digit year by using the default Gregorian calendar of the en-US culture, which, in this case, is the current culture. It then changes the current culture's <xref:System.Globalization.CultureInfo> object to use a <xref:System.Globalization.GregorianCalendar> object whose <xref:System.Globalization.GregorianCalendar.TwoDigitYearMax%2A> property has been modified.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#19](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/parseexact2digityear1.cs#19)]
-[!code-vb[Formatting.DateAndTime.Custom#19](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/parseexact2digityear1.vb#19)]
-
 The following example includes the "yy" custom format specifier in a custom format string.
-
-[!code-csharp[Formatting.DateAndTime.Custom#13](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#13)]
-[!code-vb[Formatting.DateAndTime.Custom#13](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#13)]
 
 [Back to table](#table)
 
@@ -523,13 +436,10 @@ The following example includes the "yy" custom format specifier in a custom form
 
 The "yyy" custom format specifier represents the year with a minimum of three digits. If the year has more than three significant digits, they are included in the result string. If the year has fewer than three digits, the number is padded with leading zeros to produce three digits.
 
-> [!NOTE]
 > For the Thai Buddhist calendar, which can have five-digit years, this format specifier displays all significant digits.
+{.is-warning}
 
 The following example includes the "yyy" custom format specifier in a custom format string.
-
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#13](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#13)]
-[!code-vb[Formatting.DateAndTime.Custom#13](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#13)]
 
 [Back to table](#table)
 
@@ -542,9 +452,6 @@ The "yyyy" custom format specifier represents the year with a minimum of four di
 
 The following example includes the "yyyy" custom format specifier in a custom format string.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#13](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#13)]
-[!code-vb[Formatting.DateAndTime.Custom#13](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#13)]
-
 [Back to table](#table)
 
 ### <a name="yyyyySpecifier"></a> The "yyyyy" custom format specifier
@@ -554,9 +461,6 @@ The "yyyyy" custom format specifier (plus any number of additional "y" specifier
 If there are additional "y" specifiers, the number is padded with as many leading zeros as necessary to produce the number of "y" specifiers.
 
 The following example includes the "yyyyy" custom format specifier in a custom format string.
-
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#13](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#13)]
-[!code-vb[Formatting.DateAndTime.Custom#13](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#13)]
 
 [Back to table](#table)
 
@@ -580,9 +484,6 @@ If the "z" format specifier is used without other custom format specifiers, it's
 
 The following example includes the "z" custom format specifier in a custom format string.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#14](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#14)]
-[!code-vb[Formatting.DateAndTime.Custom#14](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#14)]
-
 [Back to table](#table)
 
 ### <a name="zzSpecifier"></a> The "zz" custom format specifier
@@ -601,9 +502,6 @@ With <xref:System.DateTimeOffset> values, this format specifier represents the <
 
 The following example includes the "zz" custom format specifier in a custom format string.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#14](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#14)]
-[!code-vb[Formatting.DateAndTime.Custom#14](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#14)]
-
 [Back to table](#table)
 
 ### <a name="zzzSpecifier"></a> The "zzz" custom format specifier
@@ -621,9 +519,6 @@ The following table shows how the offset value changes depending on <xref:System
 With <xref:System.DateTimeOffset> values, this format specifier represents the <xref:System.DateTimeOffset> value's offset from UTC in hours and minutes.
 
 The following example includes the "zzz" custom format specifier in a custom format string.
-
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#14](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/Custom1.cs#14)]
-[!code-vb[Formatting.DateAndTime.Custom#14](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/Custom1.vb#14)]
 
 [Back to table](#table)
 
@@ -679,22 +574,13 @@ All other characters are always interpreted as character literals and, in a form
 
 The following example includes the literal characters "PST" (for Pacific Standard Time) and "PDT" (for Pacific Daylight Time) to represent the local time zone in a format string. Note that the string is included in the result string, and that a string that includes the local time zone string also parses successfully.
 
-[!code-csharp[Formatting.DateAndTime.Custom#20](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/LiteralsEx1.cs#20)]
-[!code-vb[Formatting.DateAndTime.Custom#20](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/LiteralsEx1.vb#20)]
-
 There are two ways to indicate that characters are to be interpreted as literal characters and not as reserve characters, so that they can be included in a result string or successfully parsed in an input string:
 
 - By escaping each reserved character. For more information, see [Using the Escape Character](#escape).
 
 The following example includes the literal characters "pst" (for Pacific Standard time) to represent the local time zone in a format string. Because both "s" and "t" are custom format strings, both characters must be escaped to be interpreted as character literals.
 
-[!code-csharp[Formatting.DateAndTime.Custom#21](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/LiteralsEx2.cs#21)]
-[!code-vb[Formatting.DateAndTime.Custom#21](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/LiteralsEx2.vb#21)]
-
 - By enclosing the entire literal string in quotation marks or apostrophes. The following example is like the previous one, except that "pst" is enclosed in quotation marks to indicate that the entire delimited string should be interpreted as character literals.
-
-[!code-csharp[Formatting.DateAndTime.Custom#22](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/LiteralsEx3.cs#22)]
-[!code-vb[Formatting.DateAndTime.Custom#22](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/LiteralsEx3.vb#22)]
 
 ## Notes
 
@@ -706,22 +592,16 @@ To use any of the custom date and time format specifiers as the only specifier i
 
 For example, "`%h"` is interpreted as a custom date and time format string that displays the hour represented by the current date and time value. You can also use the " h" or "h " format string, although this includes a space in the result string along with the hour. The following example illustrates these three format strings.
 
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#16](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/literal1.cs#16)]
-[!code-vb[Formatting.DateAndTime.Custom#16](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/literal1.vb#16)]
-
 #### <a name="escape"></a> Using the Escape character
 
 The "d", "f", "F", "g", "h", "H", "K", "m", "M", "s", "t", "y", "z", ":", or "/" characters in a format string are interpreted as custom format specifiers rather than as literal characters. To prevent a character from being interpreted as a format specifier, you can precede it with a backslash (\\), which is the escape character. The escape character signifies that the following character is a character literal that should be included in the result string unchanged.
 
 To include a backslash in a result string, you must escape it with another backslash (`\\`).
 
-> [!NOTE]
 > Some compilers, such as the C++ and C# compilers, may also interpret a single backslash character as an escape character. To ensure that a string is interpreted correctly when formatting, you can use the verbatim string literal character (the @ character) before the string in C#, or add another backslash character before each backslash in C# and C++. The following C# example illustrates both approaches.
+{.is-warning}
 
 The following example uses the escape character to prevent the formatting operation from interpreting the "h" and "m" characters as format specifiers.
-
-[!code-csharp-interactive[Formatting.DateAndTime.Custom#15](~/samples/snippets/csharp/VS_Snippets_CLR/Formatting.DateAndTime.Custom/cs/escape1.cs#15)]
-[!code-vb[Formatting.DateAndTime.Custom#15](~/samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.DateAndTime.Custom/vb/escape1.vb#15)]
 
 ### Control Panel settings
 
