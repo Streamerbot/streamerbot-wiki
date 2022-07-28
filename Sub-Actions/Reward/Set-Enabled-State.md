@@ -2,7 +2,7 @@
 title: Set Enabled State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-07-13T22:24:58.024Z
+date: 2022-07-28T20:18:57.990Z
 tags: twitch, subactions, channel-point-rewards
 editor: markdown
 dateCreated: 2021-11-02T04:11:44.953Z
