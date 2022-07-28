@@ -2,7 +2,7 @@
 title: Pick Color
 description: Colour picker that populates variables for passing to OBS and HTML objects
 published: true
-date: 2022-07-15T18:41:29.159Z
+date: 2022-07-28T19:41:19.025Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
@@ -39,3 +39,9 @@ The following variables will be available after execution of this sub-action:
 | `myColor.html` | The html color code |
 | `myColor.htmlalpha` | The html color code with alpha value |
 | `myColor.obs` | The color as an OBS ABGR value |
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
+- [<i class="mdi mdi-numeric primary--text"></i>**Get Random Number *Populate a variable with a random number***](/en/Sub-Actions/Get-Random-Number)
+{.btn-grid .my-5}
