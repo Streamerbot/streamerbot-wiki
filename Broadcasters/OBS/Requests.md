@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-25T20:29:56.020Z
+date: 2022-07-29T19:12:09.364Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -31,41 +31,41 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Config Requests
-* [**GetPersistentData *Desription***](){.disabled}
-* [**SetPersistentData *Desription***](){.disabled}
-* [**GetSceneCollectionList *Desription***](){.disabled}
-* [**SetCurrentSceneCollection *Desription***](){.disabled}
-* [**CreateSceneCollection *Desription***](){.disabled}
-* [**GetProfileList *Desription***](){.disabled}
-* [**SetCurrentProfile *Desription***](){.disabled}
-* [**CreateProfile *Desription***](){.disabled}
-* [**RemoveProfile *Desription***](){.disabled}
-* [**GetProfileParameter *Desription***](){.disabled}
-* [**SetProfileParameter *Desription***](){.disabled}
-* [**GetVideoSettings *Desription***](){.disabled}
-* [**SetVideoSettings *Desription***](){.disabled}
-* [**GetStreamServiceSettings *Desription***](){.disabled}
-* [**SetStreamServiceSettings *Desription***](){.disabled}
+* [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](){.disabled}
+* [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](){.disabled}
+* [**GetSceneCollectionList *Gets an array of all scene collections***](){.disabled}
+* [**SetCurrentSceneCollection *Switches to a scene collection.***](){.disabled}
+* [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](){.disabled}
+* [**GetProfileList *Gets an array of all profiles***](){.disabled}
+* [**SetCurrentProfile *Switches to a profile***](){.disabled}
+* [**CreateProfile *Creates a new profile, switching to it in the process***](){.disabled}
+* [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](){.disabled}
+* [**GetProfileParameter *Gets a parameter from the current profile's configuration***](){.disabled}
+* [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](){.disabled}
+* [**GetVideoSettings *Gets the current video settings***](){.disabled}
+* [**SetVideoSettings *Sets the current video settings***](){.disabled}
+* [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](){.disabled}
+* [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](){.disabled}
 {.btn-grid .my-5}
 
 ## Sources Requests
-* [**GetSourceActive *Desription***](){.disabled}
-* [**GetSourceScreenshot *Desription***](){.disabled}
-* [**SaveSourceScreenshot *Desription***](){.disabled}
+* [**GetSourceActive *Gets the active and show state of a source***](){.disabled}
+* [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](){.disabled}
+* [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](){.disabled}
 {.btn-grid .my-5}
 
 ## Scenes Requests
-* [**GetSceneList *Desription***](){.disabled}
-* [**GetGroupList *Desription***](){.disabled}
-* [**GetCurrentProgramScene *Desription***](){.disabled}
-* [**SetCurrentProgramScene *Desription***](){.disabled}
-* [**GetCurrentPreviewScene *Desription***](){.disabled}
-* [**SetCurrentPreviewScene *Desription***](){.disabled}
-* [**CreateScene *Desription***](){.disabled}
-* [**RemoveScene *Desription***](){.disabled}
-* [**SetSceneName *Desription***](){.disabled}
-* [**GetSceneSceneTransitionOverride *Desription***](){.disabled}
-* [**SetSceneSceneTransitionOverride *Desription***](){.disabled}
+* [**GetSceneList *Gets an array of all scenes in OBS***](){.disabled}
+* [**GetGroupList *Gets an array of all groups in OBS***](){.disabled}
+* [**GetCurrentProgramScene *Gets the current program scene***](){.disabled}
+* [**SetCurrentProgramScene *Sets the current program scene***](){.disabled}
+* [**GetCurrentPreviewScene *Gets the current preview scene***](){.disabled}
+* [**SetCurrentPreviewScene *Sets the current preview scene***](){.disabled}
+* [**CreateScene *Creates a new scene in OBS***](){.disabled}
+* [**RemoveScene *Removes a scene from OBS***](){.disabled}
+* [**SetSceneName *Sets the name of a scene (rename)***](){.disabled}
+* [**GetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](){.disabled}
+* [**SetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](){.disabled}
 {.btn-grid .my-5}
 
 ## Inputs Requests
