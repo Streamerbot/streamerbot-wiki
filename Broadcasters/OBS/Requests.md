@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-29T19:36:37.372Z
+date: 2022-07-29T19:41:41.989Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -167,30 +167,31 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Record Requests
-* [**GetRecordStatus *Desription***](){.disabled}
-* [**ToggleRecord *Desription***](){.disabled}
-* [**StartRecord *Desription***](){.disabled}
-* [**StopRecord *Desription***](){.disabled}
-* [**ToggleRecordPause *Desription***](){.disabled}
-* [**PauseRecord *Desription***](){.disabled}
+* [**GetRecordStatus *Gets the status of the record output***](){.disabled}
+* [**ToggleRecord *Toggles the status of the record output***](){.disabled}
+* [**StartRecord *Starts the record output***](){.disabled}
+* [**StopRecord *Stops the record output***](){.disabled}
+* [**ToggleRecordPause *Toggles pause on the record output***](){.disabled}
+* [**PauseRecord *Pauses the record output***](){.disabled}
+* [**ResumeRecord *Resumes the record output***](){.disabled}
 {.btn-grid .my-5}
 
 ## Media Inputs Requests
-* [**GetMediaInputStatus *Desription***](){.disabled}
-* [**SetMediaInputCursor *Desription***](){.disabled}
-* [**OffsetMediaInputCursor *Desription***](){.disabled}
-* [**TriggerMediaInputAction *Desription***](){.disabled}
+* [**GetMediaInputStatus *Gets the status of a media input***](){.disabled}
+* [**SetMediaInputCursor *Sets the cursor position of a media input***](){.disabled}
+* [**OffsetMediaInputCursor *Offsets the current cursor position of a media input by the specified value***](){.disabled}
+* [**TriggerMediaInputAction *Triggers an action on a media input***](){.disabled}
 {.btn-grid .my-5}
 
 ## Ui Requests
-* [**GetStudioModeEnabled *Desription***](){.disabled}
-* [**SetStudioModeEnabled *Desription***](){.disabled}
-* [**OpenInputPropertiesDialog *Desription***](){.disabled}
-* [**OpenInputFiltersDialog *Desription***](){.disabled}
-* [**OpenInputInteractDialog *Desription***](){.disabled}
-* [**GetMonitorList *Desription***](){.disabled}
-* [**OpenVideoMixProjector *Desription***](){.disabled}
-* [**OpenSourceProjector *Desription***](){.disabled}
+* [**GetStudioModeEnabled *Gets whether studio is enabled***](){.disabled}
+* [**SetStudioModeEnabled *Enables or disables studio mode***](){.disabled}
+* [**OpenInputPropertiesDialog *Opens the properties dialog of an input***](){.disabled}
+* [**OpenInputFiltersDialog *Opens the filters dialog of an input***](){.disabled}
+* [**OpenInputInteractDialog *Opens the interact dialog of an input***](){.disabled}
+* [**GetMonitorList *Gets a list of connected monitors and information about them***](){.disabled}
+* [**OpenVideoMixProjector *Opens a projector for a specific output video mix***](){.disabled}
+* [**OpenSourceProjector *Opens a projector for a source***](){.disabled}
 {.btn-grid .my-5}
 
 ---
