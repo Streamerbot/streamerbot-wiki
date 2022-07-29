@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-29T19:31:48.990Z
+date: 2022-07-29T19:36:37.372Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -139,30 +139,31 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Outputs Requests
-* [**GetVirtualCamStatus *Desription***](){.disabled}
-* [**ToggleVirtualCam *Desription***](){.disabled}
-* [**StartVirtualCam *Desription***](){.disabled}
-* [**StopVirtualCam *Desription***](){.disabled}
-* [**GetReplayBufferStatus *Desription***](){.disabled}
-* [**ToggleReplayBuffer *Desription***](){.disabled}
-* [**StartReplayBuffer *Desription***](){.disabled}
-* [**StopReplayBuffer *Desription***](){.disabled}
-* [**SaveReplayBuffer *Desription***](){.disabled}
-* [**GetLastReplayBufferReplay *Desription***](){.disabled}
-* [**GetOutputList *Desription***](){.disabled}
-* [**GetOutputStatus *Desription***](){.disabled}
-* [**ToggleOutput *Desription***](){.disabled}
-* [**StopOutput *Desription***](){.disabled}
-* [**GetOutputSettings *Desription***](){.disabled}
-* [**SetOutputSettings *Desription***](){.disabled}
+* [**GetVirtualCamStatus *Gets the status of the virtualcam output***](){.disabled}
+* [**ToggleVirtualCam *Toggles the state of the virtualcam output***](){.disabled}
+* [**StartVirtualCam *Starts the virtualcam output***](){.disabled}
+* [**StopVirtualCam *Stops the virtualcam output***](){.disabled}
+* [**GetReplayBufferStatus *Gets the status of the replay buffer output***](){.disabled}
+* [**ToggleReplayBuffer *Toggles the state of the replay buffer output***](){.disabled}
+* [**StartReplayBuffer *Starts the replay buffer output***](){.disabled}
+* [**StopReplayBuffer *Stops the replay buffer output***](){.disabled}
+* [**SaveReplayBuffer *Saves the contents of the replay buffer output***](){.disabled}
+* [**GetLastReplayBufferReplay *Gets the filename of the last replay buffer save file***](){.disabled}
+* [**GetOutputList *Gets the list of available outputs***](){.disabled}
+* [**GetOutputStatus *Gets the status of an output***](){.disabled}
+* [**ToggleOutput *Toggles the status of an output***](){.disabled}
+* [**StartOutput *Starts an output***](){.disabled}
+* [**StopOutput *Stops an output***](){.disabled}
+* [**GetOutputSettings *Gets the settings of an output***](){.disabled}
+* [**SetOutputSettings *Sets the settings of an output***](){.disabled}
 {.btn-grid .my-5}
 
 ## Stream Requests
-* [**GetStreamStatus *Desription***](){.disabled}
-* [**ToggleStream *Desription***](){.disabled}
-* [**StartStream *Desription***](){.disabled}
-* [**StopStream *Desription***](){.disabled}
-* [**SendStreamCaption *Desription***](){.disabled}
+* [**GetStreamStatus *Gets the status of the stream output***](){.disabled}
+* [**ToggleStream *Toggles the status of the stream output***](){.disabled}
+* [**StartStream *Starts the stream output***](){.disabled}
+* [**StopStream *Stops the stream output***](){.disabled}
+* [**SendStreamCaption *Sends CEA-608 caption text over the stream output***](){.disabled}
 {.btn-grid .my-5}
 
 ## Record Requests
