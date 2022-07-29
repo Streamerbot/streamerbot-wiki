@@ -2,7 +2,7 @@
 title: DonorDrive
 description: Monitor charity donation events sent from the Donor Drive platform
 published: true
-date: 2022-07-10T21:51:18.354Z
+date: 2022-07-29T01:03:45.835Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T04:57:34.650Z
@@ -13,13 +13,40 @@ dateCreated: 2022-06-01T04:57:34.650Z
 > **Documentation In Progress**
 {.is-warning}
 
-# Overview
+## Overview
 
 ![donordrive-integration.png](/donordrive-integration.png)
 
+## Variables
+### Donation
+| Name | Description |
+|-----:|:------------|
+| `donorName` | Description
+| `donorAvatarUrl` | Description 
+| `donorIsAnonymous` | Description 
+| `recipientName` | Description 
+| `donorMessage` | Description 
+| `donorAmount` | Description 
+| `isTeam` | Description 
+| `isParticipant` | Description 
+| `profileName` | Description 
+| `profileTeamName` | Description 
+| `eventName` | Description 
+| `goal` | Description 
+| `donations` | Description 
+| `raised` | Description 
 
-<div class="btn-grid my-5">
+### Profile Update
+| Name | Description |
+|-----:|:------------|
+| `name` | Description
+| `teamName` | Description 
+| `eventName` | Description 
+| `goal` | Description 
+| `donations` | Description 
+| `raised` | Description 
+| `isTeam` | Description 
+| `isParticipant` | Description
 
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
