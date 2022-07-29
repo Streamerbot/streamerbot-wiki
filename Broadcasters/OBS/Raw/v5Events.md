@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-07-18T22:49:11.637Z
+date: 2022-07-29T19:07:09.481Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -20,11 +20,13 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## General Events
+General & miscellaneous OBS Studio events{.subtitle}
 * [**ExitStarted *OBS has begun the shutdown process***](){.disabled}
 * [**VendorEvent *An event has been emitted from a vendor***](){.disabled}
 {.btn-grid .my-5}
 
 ## Config Events
+Events related to config changes{.subtitle}
 * [**CurrentSceneCollectionChanging *The current scene collection has begun changing***](){.disabled}
 * [**CurrentSceneCollectionChanged *The current scene collection has changed***](){.disabled}
 * [**SceneCollectionListChanged *The scene collection list has changed***](){.disabled}
@@ -34,6 +36,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Scenes Events
+Events related to scene changes{.subtitle}
 * [**SceneCreated *A new scene has been created***](){.disabled}
 * [**SceneRemoved *A scene has been removed***](){.disabled}
 * [**SceneNameChanged *The name of a scene has changed***](){.disabled}
@@ -43,6 +46,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Inputs Events
+Events related to input changes{.subtitle}
 * [**InputCreated *An input has been created***](){.disabled}
 * [**InputRemoved *An input has been removed***](){.disabled}
 * [**InputNameChanged *The name of an input has changed***](){.disabled}
@@ -58,16 +62,18 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Transitions Events
+Events related to transition changes{.subtitle}
 * [**CurrentSceneTransitionChanged *The current scene transition has changed***](){.disabled}
 * [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](){.disabled}
 {.btn-grid .my-5}
-####
+######
 * [**SceneTransitionStarted *A scene transition has started***](){.disabled}
 * [**SceneTransitionEnded *A scene transition has completed fully***](){.disabled}
 * [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](){.disabled}
 {.btn-grid .my-5}
 
 ## Filters Events
+Events related to filter changes{.subtitle}
 * [**SourceFilterListReindexed *A source's filter list has been reindexed***](){.disabled}
 * [**SourceFilterCreated *A filter has been added to a source***](){.disabled}
 * [**SourceFilterRemoved *A filter has been removed from a source***](){.disabled}
@@ -76,6 +82,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Scene Items Events
+Events related to scene item changes{.subtitle}
 * [**SceneItemCreated *A scene item has been created***](){.disabled}
 * [**SceneItemRemoved *A scene item has been removed***](){.disabled}
 * [**SceneItemListReindexed *A scene's item list has been reindexed***](){.disabled}
@@ -86,6 +93,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Outputs Events
+Events related to current output status{.subtitle}
 * [**StreamStateChanged *The state of the stream output has changed***](){.disabled}
 * [**RecordStateChanged *The state of the record output has changed***](){.disabled}
 * [**ReplayBufferStateChanged *The state of the replay buffer output has changed***](){.disabled}
@@ -94,12 +102,17 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Media Inputs Events
+Events related to media input changes{.subtitle}
+
+**Note**: These events are only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.{.subtitle}
+
 * [**MediaInputPlaybackStarted *A media input has started playing***](){.disabled}
 * [**MediaInputPlaybackEnded *A media input has finished playing***](){.disabled}
 * [**MediaInputActionTriggered *An action has been performed on an input***](){.disabled}
 {.btn-grid .my-5}
 
 ## Ui Events
+Events related to UI changes{.subtitle}
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](){.disabled}
 {.btn-grid .my-5}
 
