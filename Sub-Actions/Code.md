@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-28T20:22:07.449Z
+date: 2022-07-29T01:24:28.507Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -22,8 +22,10 @@ dateCreated: 2022-07-20T21:31:14.363Z
 {.btn-grid .my-5}
 
 ## Other
-
-- [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime){.disabled}
+> **NOTE:**
+> The links won't work *yet* on the page below
+{.is-danger}
+- [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime)
 {.btn-grid .my-5}
 
 ---
