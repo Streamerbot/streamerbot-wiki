@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-29T19:41:41.989Z
+date: 2022-07-29T23:30:59.696Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -31,21 +31,21 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Config Requests
-* [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](){.disabled}
-* [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](){.disabled}
-* [**GetSceneCollectionList *Gets an array of all scene collections***](){.disabled}
-* [**SetCurrentSceneCollection *Switches to a scene collection.***](){.disabled}
-* [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](){.disabled}
-* [**GetProfileList *Gets an array of all profiles***](){.disabled}
-* [**SetCurrentProfile *Switches to a profile***](){.disabled}
-* [**CreateProfile *Creates a new profile, switching to it in the process***](){.disabled}
-* [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](){.disabled}
-* [**GetProfileParameter *Gets a parameter from the current profile's configuration***](){.disabled}
-* [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](){.disabled}
-* [**GetVideoSettings *Gets the current video settings***](){.disabled}
-* [**SetVideoSettings *Sets the current video settings***](){.disabled}
-* [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](){.disabled}
-* [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](){.disabled}
+* [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData){.disabled}
+* [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData){.disabled}
+* [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList/en/Broadcasters/OBS/Requests/Config-Requests/NAME){.disabled}
+* [**SetCurrentSceneCollection *Switches to a scene collection.***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentSceneCollection){.disabled}
+* [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateSceneCollection){.disabled}
+* [**GetProfileList *Gets an array of all profiles***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileList){.disabled}
+* [**SetCurrentProfile *Switches to a profile***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentProfile){.disabled}
+* [**CreateProfile *Creates a new profile, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateProfile){.disabled}
+* [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](/en/Broadcasters/OBS/Requests/Config-Requests/RemoveProfile){.disabled}
+* [**GetProfileParameter *Gets a parameter from the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileParameter){.disabled}
+* [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/SetProfileParameter){.disabled}
+* [**GetVideoSettings *Gets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/GetVideoSettings){.disabled}
+* [**SetVideoSettings *Sets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/SetVideoSettings){.disabled}
+* [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/GetStreamServiceSettings){.disabled}
+* [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/SetStreamServiceSettings){.disabled}
 {.btn-grid .my-5}
 
 ## Sources Requests
