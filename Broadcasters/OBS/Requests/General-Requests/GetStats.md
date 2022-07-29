@@ -2,7 +2,7 @@
 title: GetStats
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-25T18:14:49.755Z
+date: 2022-07-29T22:41:55.452Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-25T18:13:25.840Z
@@ -14,17 +14,17 @@ Gets statistics about OBS, obs-websocket, and the current session.
 ## Variables
 Name | Type | Description | 
 ----:|:---------:|:------------|
-`obsRaw.cpuUsage` | `integer`{.datatype} | Current CPU usage in percent
-`obsRaw.memoryUsage` | `integer`{.datatype} | Amount of memory in MB currently being used by OBS
-`obsRaw.availableDiskSpace` | `integer`{.datatype} | Available disk space on the device being used for recording storage
-`obsRaw.activeFps` | `integer`{.datatype} | Current FPS being rendered 
-`obsRaw.averageFrameRenderTime` | `integer`{.datatype} | Average time in milliseconds that OBS is taking to render a frame
-`obsRaw.renderSkippedFrames` | `integer`{.datatype} | Number of frames skipped by OBS in the render thread 
-`obsRaw.renderTotalFrames` | `integer`{.datatype} | Total number of frames outputted by the render thread
-`obsRaw.outputSkippedFrames` | `integer`{.datatype} | Number of frames skipped by OBS in the output thread 
-`obsRaw.outputTotalFrames` | `integer`{.datatype} | Total number of frames outputted by the output thread
-`obsRaw.webSocketSessionIncomingMessages` | `integer`{.datatype} | Total number of messages received by obs-websocket from the client 
-`obsRaw.webSocketSessionOutgoingMessages` | `integer`{.datatype} | Total number of messages sent by obs-websocket to the client
+`obsRaw.cpuUsage` | `Number`{.datatype} | Current CPU usage in percent
+`obsRaw.memoryUsage` | `Number`{.datatype} | Amount of memory in MB currently being used by OBS
+`obsRaw.availableDiskSpace` | `Number`{.datatype} | Available disk space on the device being used for recording storage
+`obsRaw.activeFps` | `Number`{.datatype} | Current FPS being rendered 
+`obsRaw.averageFrameRenderTime` | `Number`{.datatype} | Average time in milliseconds that OBS is taking to render a frame
+`obsRaw.renderSkippedFrames` | `Number`{.datatype} | Number of frames skipped by OBS in the render thread 
+`obsRaw.renderTotalFrames` | `Number`{.datatype} | Total number of frames outputted by the render thread
+`obsRaw.outputSkippedFrames` | `Number`{.datatype} | Number of frames skipped by OBS in the output thread 
+`obsRaw.outputTotalFrames` | `Number`{.datatype} | Total number of frames outputted by the output thread
+`obsRaw.webSocketSessionIncomingMessages` | `Number`{.datatype} | Total number of messages received by obs-websocket from the client 
+`obsRaw.webSocketSessionOutgoingMessages` | `Number`{.datatype} | Total number of messages sent by obs-websocket to the client
 
 ## Data Fields
 :---|:---:|
