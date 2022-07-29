@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-29T19:12:09.364Z
+date: 2022-07-29T19:23:21.398Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -69,42 +69,42 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Inputs Requests
-* [**GetInputList *Desription***](){.disabled}
-* [**GetInputKindList *Desription***](){.disabled}
-* [**GetSpecialInputs *Desription***](){.disabled}
-* [**CreateInput *Desription***](){.disabled}
-* [**RemoveInput *Desription***](){.disabled}
-* [**SetInputName *Desription***](){.disabled}
-* [**GetInputDefaultSettings *Desription***](){.disabled}
-* [**GetInputSettings *Desription***](){.disabled}
-* [**SetInputSettings *Desription***](){.disabled}
-* [**GetInputMute *Desription***](){.disabled}
-* [**SetInputMute *Desription***](){.disabled}
-* [**ToggleInputMute *Desription***](){.disabled}
+* [**GetInputList *Gets an array of all inputs in OBS***](){.disabled}
+* [**GetInputKindList *Gets an array of all available input kinds in OBS***](){.disabled}
+* [**GetSpecialInputs *Gets the names of all special inputs***](){.disabled}
+* [**CreateInput *Creates a new input, adding it as a scene item to the specified scene***](){.disabled}
+* [**RemoveInput *Removes an existing input***](){.disabled}
+* [**SetInputName *Sets the name of an input (rename)***](){.disabled}
+* [**GetInputDefaultSettings *Gets the default settings for an input kind***](){.disabled}
+* [**GetInputSettings *Gets the settings of an input***](){.disabled}
+* [**SetInputSettings *Sets the settings of an input***](){.disabled}
+* [**GetInputMute *Gets the audio mute state of an input***](){.disabled}
+* [**SetInputMute *Sets the audio mute state of an input***](){.disabled}
+* [**ToggleInputMute *Toggles the audio mute state of an input***](){.disabled}
 * [**GetInputVolume *Gets the current volume setting of an input.***](){.disabled}
-* [**SetInputVolume *Desription***](){.disabled}
-* [**GetInputAudioBalance *Desription***](){.disabled}
-* [**SetInputAudioBalance *Desription***](){.disabled}
-* [**GetInputAudioSyncOffset *Desription***](){.disabled}
-* [**SetInputAudioSyncOffset *Desription***](){.disabled}
-* [**GetInputAudioMonitorType *Desription***](){.disabled}
-* [**SetInputAudioMonitorType *Desription***](){.disabled}
-* [**GetInputAudioTracks *Desription***](){.disabled}
-* [**SetInputAudioTracks *Desription***](){.disabled}
-* [**GetInputPropertiesListPropertyItems *Desription***](){.disabled}
-* [**PressInputPropertiesButton *Desription***](){.disabled}
+* [**SetInputVolume *Sets the volume setting of an input***](){.disabled}
+* [**GetInputAudioBalance *Gets the audio balance of an input***](){.disabled}
+* [**SetInputAudioBalance *Sets the audio balance of an input***](){.disabled}
+* [**GetInputAudioSyncOffset *Gets the audio sync offset of an input***](){.disabled}
+* [**SetInputAudioSyncOffset *Sets the audio sync offset of an input***](){.disabled}
+* [**GetInputAudioMonitorType *Gets the audio monitor type of an input***](){.disabled}
+* [**SetInputAudioMonitorType *Sets the audio monitor type of an input***](){.disabled}
+* [**GetInputAudioTracks *Gets the enable state of all audio tracks of an input***](){.disabled}
+* [**SetInputAudioTracks *Sets the enable state of audio tracks of an input***](){.disabled}
+* [**GetInputPropertiesListPropertyItems *Gets the items of a list property from an input's properties***](){.disabled}
+* [**PressInputPropertiesButton *Presses a button in the properties of an input***](){.disabled}
 {.btn-grid .my-5}
 
 ## Transitions Requests
-* [**GetTransitionKindList *Desription***](){.disabled}
-* [**GetSceneTransitionList *Desription***](){.disabled}
-* [**GetCurrentSceneTransition *Desription***](){.disabled}
-* [**SetCurrentSceneTransition *Desription***](){.disabled}
-* [**SetCurrentSceneTransitionDuration *Desription***](){.disabled}
-* [**SetCurrentSceneTransitionSettings *Desription***](){.disabled}
-* [**GetCurrentSceneTransitionCursor *Desription***](){.disabled}
-* [**TriggerStudioModeTransition *Desription***](){.disabled}
-* [**SetTBarPosition *Desription***](){.disabled}
+* [**GetTransitionKindList *Gets an array of all available transition kinds***](){.disabled}
+* [**GetSceneTransitionList *Gets an array of all scene transitions in OBS***](){.disabled}
+* [**GetCurrentSceneTransition *Gets information about the current scene transition***](){.disabled}
+* [**SetCurrentSceneTransition *Sets the current scene transition***](){.disabled}
+* [**SetCurrentSceneTransitionDuration *Sets the duration of the current scene transition, if it is not fixed***](){.disabled}
+* [**SetCurrentSceneTransitionSettings *Sets the settings of the current scene transition***](){.disabled}
+* [**GetCurrentSceneTransitionCursor *Gets the cursor position of the current scene transition***](){.disabled}
+* [**TriggerStudioModeTransition *Triggers the current scene transition. Same functionality as the Transition button in studio mode***](){.disabled}
+* [**SetTBarPosition *Sets the position of the TBar***](){.disabled}
 {.btn-grid .my-5}
 
 ## Filters Requests
