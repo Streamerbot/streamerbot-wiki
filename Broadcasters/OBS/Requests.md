@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-29T19:23:21.398Z
+date: 2022-07-29T19:31:48.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -108,34 +108,34 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Filters Requests
-* [**GetSourceFilterList *Desription***](){.disabled}
-* [**GetSourceFilterDefaultSettings *Desription***](){.disabled}
-* [**CreateSourceFilter *Desription***](){.disabled}
-* [**RemoveSourceFilter *Desription***](){.disabled}
-* [**SetSourceFilterName *Desription***](){.disabled}
-* [**GetSourceFilter *Desription***](){.disabled}
-* [**SetSourceFilterIndex *Desription***](){.disabled}
-* [**SetSourceFilterSettings *Desription***](){.disabled}
-* [**SetSourceFilterEnabled *Desription***](){.disabled}
+* [**GetSourceFilterList *Gets an array of all of a source's filters***](){.disabled}
+* [**GetSourceFilterDefaultSettings *Gets the default settings for a filter kind***](){.disabled}
+* [**CreateSourceFilter *Creates a new filter, adding it to the specified source***](){.disabled}
+* [**RemoveSourceFilter *Removes a filter from a source***](){.disabled}
+* [**SetSourceFilterName *Sets the name of a source filter (rename)***](){.disabled}
+* [**GetSourceFilter *Gets the info for a specific source filter***](){.disabled}
+* [**SetSourceFilterIndex *Sets the index position of a filter on a source***](){.disabled}
+* [**SetSourceFilterSettings *Sets the settings of a source filter***](){.disabled}
+* [**SetSourceFilterEnabled *Sets the enable state of a source filter***](){.disabled}
 {.btn-grid .my-5}
 
 ## Scene Items Requests
-* [**GetSceneItemList *Desription***](){.disabled}
-* [**GetGroupSceneItemList *Desription***](){.disabled}
-* [**GetSceneItemId *Desription***](){.disabled}
-* [**CreateSceneItem *Desription***](){.disabled}
-* [**RemoveSceneItem *Desription***](){.disabled}
-* [**DuplicateSceneItem *Desription***](){.disabled}
-* [**GetSceneItemTransform *Desription***](){.disabled}
-* [**SetSceneItemTransform *Desription***](){.disabled}
-* [**GetSceneItemEnabled *Desription***](){.disabled}
-* [**SetSceneItemEnabled *Desription***](){.disabled}
-* [**GetSceneItemLocked *Desription***](){.disabled}
-* [**SetSceneItemLocked *Desription***](){.disabled}
-* [**GetSceneItemIndex *Desription***](){.disabled}
-* [**SetSceneItemIndex *Desription***](){.disabled}
-* [**GetSceneItemBlendMode *Desription***](){.disabled}
-* [**SetSceneItemBlendMode *Desription***](){.disabled}
+* [**GetSceneItemList *Gets a list of all scene items in a scene***](){.disabled}
+* [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](){.disabled}
+* [**GetSceneItemId *Searches a scene for a source, and returns its id***](){.disabled}
+* [**CreateSceneItem *Creates a new scene item using a source***](){.disabled}
+* [**RemoveSceneItem *Removes a scene item from a scene***](){.disabled}
+* [**DuplicateSceneItem *Duplicates a scene item, copying all transform and crop info***](){.disabled}
+* [**GetSceneItemTransform *Gets the transform and crop info of a scene item***](){.disabled}
+* [**SetSceneItemTransform *Sets the transform and crop info of a scene item***](){.disabled}
+* [**GetSceneItemEnabled *Gets the enable state of a scene item***](){.disabled}
+* [**SetSceneItemEnabled *Sets the enable state of a scene item***](){.disabled}
+* [**GetSceneItemLocked *Gets the lock state of a scene item***](){.disabled}
+* [**SetSceneItemLocked *Sets the lock state of a scene item***](){.disabled}
+* [**GetSceneItemIndex *Gets the index position of a scene item in a scene***](){.disabled}
+* [**SetSceneItemIndex *Sets the index position of a scene item in a scene***](){.disabled}
+* [**GetSceneItemBlendMode *Gets the blend mode of a scene item***](){.disabled}
+* [**SetSceneItemBlendMode *Sets the blend mode of a scene item***](){.disabled}
 {.btn-grid .my-5}
 
 ## Outputs Requests
