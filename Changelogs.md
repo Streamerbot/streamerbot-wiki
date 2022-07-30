@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-22T14:29:55.129Z
+date: 2022-07-30T16:32:44.533Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -91,7 +91,7 @@ There is a new event that will be triggered when an ad is run on your channel.
 ## New C# Methods
 
 ```csharp
-void TwitchAnnounce(string message, string color = null);
+void TwitchAnnounce(string message, bool bot = false, string color = null);
 ```
 > Even though the color parameter is present, currently, due to a Twitch limitation, only null is supported, this will use the default announce command.  When Twitch fixes this, supported values will be `blue`, `orange`, `green`, `purple`
 {.is-warning}
