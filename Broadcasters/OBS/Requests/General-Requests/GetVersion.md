@@ -2,7 +2,7 @@
 title: GetVersion
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T01:16:47.935Z
+date: 2022-07-30T01:24:50.907Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T00:21:44.682Z
@@ -31,7 +31,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Copy/Paste
 ```json
 {
-"request-type": "GetVersion"
+  "request-type": "GetVersion"
 }
 ```
 
@@ -39,4 +39,4 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getversion)
-{.btn-grid my-5}
+{.btn-grid .my-5}
