@@ -2,7 +2,7 @@
 title: GetSourceActive
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T23:07:34.159Z
+date: 2022-07-30T23:09:46.251Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:07:34.159Z
@@ -26,7 +26,7 @@ Name | Type | Description |
 
 ## Data Fields
 :---|:---:|
-Complexity Rating: | <span class="stars stars--5"></span>
+Complexity Rating: | <span class="stars stars--2"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
