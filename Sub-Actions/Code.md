@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-29T01:24:28.507Z
+date: 2022-07-30T13:01:00.635Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -15,16 +15,10 @@ dateCreated: 2022-07-20T21:31:14.363Z
 - [<i class="mdi mdi-language-csharp primary--text"></i> **C# Available Methods *A list of all available C# methods***](/en/Sub-Actions/Code/Execute-CSharp-Code/Available-Methods)
 {.btn-grid .my-5}
 
-## JSON
+## Datatypes
 
-- [<i class="mdi mdi-code-array primary--text"></i>**Array *A detailed explanation about how an array works***](/en/Sub-Actions/Code/JSON/Array){.disabled}
 - [<i class="mdi mdi-database primary--text"></i> **Data Types *A list of al data types that can be used with json***](/en/Sub-Actions/Code/JSON/Data-Types){.disabled}
-{.btn-grid .my-5}
-
-## Other
-> **NOTE:**
-> The links won't work *yet* on the page below
-{.is-danger}
+- [<i class="mdi mdi-code-array primary--text"></i>**Array *A detailed explanation about how an array works***](/en/Sub-Actions/Code/JSON/Array){.disabled}
 - [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime)
 {.btn-grid .my-5}
 
