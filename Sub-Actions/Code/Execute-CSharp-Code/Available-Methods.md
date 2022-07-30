@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-07-21T20:25:22.040Z
+date: 2022-07-30T16:32:01.311Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -389,7 +389,7 @@ bool SetChannelGameById(string gameId);
 {.is-warning}
 
 ```csharp
-void TwitchAnnounce(string message, string color = null);
+void TwitchAnnounce(string message, bool bot = false, string color = null);
 ```
 
 ## OAuth & Client Id
