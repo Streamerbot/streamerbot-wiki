@@ -2,14 +2,14 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-07-30T01:25:37.475Z
+date: 2022-07-30T01:37:11.596Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
 ---
 
 ## Overview
-Gets the current volume setting of an input.
+DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
 ## Request Fields
 Name | Type | Required| Description |
