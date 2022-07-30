@@ -2,7 +2,7 @@
 title: SetCurrentSceneCollection
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T01:42:05.100Z
+date: 2022-07-30T01:45:17.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:42:05.100Z
@@ -11,8 +11,7 @@ dateCreated: 2022-07-30T01:42:05.100Z
 ## Overview
 Switches to a scene collection.
 
-> This will block until the collection has finished changing.
-{.is-info}
+Note: This will block until the collection has finished changing.
 
 ## Request Fields
 Name | Type | Required| Description |
