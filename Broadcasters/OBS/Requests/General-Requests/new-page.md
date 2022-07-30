@@ -2,14 +2,14 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T01:33:21.122Z
+date: 2022-07-30T01:36:43.643Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
 ---
 
 ## Overview
-Gets the current volume setting of an input.
+Triggers a hotkey using a sequence of keys.
 
 ## Request Fields
 Name | Type | Required| Description |
