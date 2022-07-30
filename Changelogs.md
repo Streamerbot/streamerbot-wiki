@@ -2,11 +2,36 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-30T16:33:20.731Z
+date: 2022-07-30T16:43:20.997Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+# Streamer.bot v0.1.11 (WIP)
+
+* **Fix:** Commands in an import will be disabled by default, this is more of a security precaution
+* **Fix:** Action updates were not properly being sent to the Streamer.bot website for decks
+* **Fix:** Fix Pyramids not resetting correctly if a single emote is used after a previouos single emote
+* **Update:** New Twitch scopes requested
+* **Update:** Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
+* **Update:** Extend First Chat event to YouTube
+
+## Twitch New Scopes
+
+When you connect with your broadcaster account, the following new scopes will be requested
+
+* moderator:manage:announcements
+* channel:manage:moderators
+* channel:manage:vips
+* user:manage:whispers
+{.links-list}
+
+When you connect with your bot account, the following new scopes will be requested
+
+* moderator:manage:announcements
+* user:manage:whispers
+{.links-list}
 
 # Streamer.bot v0.1.10 (Current)
 
