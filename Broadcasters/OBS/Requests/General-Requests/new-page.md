@@ -1,0 +1,53 @@
+---
+title: TriggerHotkeyByKeySequence
+description: OBS Studio Requests Reference (v5)
+published: true
+date: 2022-07-30T01:33:21.122Z
+tags: 
+editor: markdown
+dateCreated: 2022-07-30T01:33:21.122Z
+---
+
+## Overview
+Gets the current volume setting of an input.
+
+## Request Fields
+Name | Type | Required| Description |
+----:|:----:|:-------:|:------------|
+`keyId` | `String`{.datatype} | `False`{.datatype} | The OBS key ID to use. See [this](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h)
+`keyModifiers` | `Object`{.datatype} | `False`{.datatype} | Object containing key modifiers to apply
+`keyModifiers.shift` | `Boolean`{.datatype} | `False`{.datatype} | Press Shift
+`keyModifiers.control` | `Boolean`{.datatype} | `False`{.datatype} | Press CTRL
+`keyModifiers.alt` | `Boolean`{.datatype} | `False`{.datatype} | Press ALT
+`keyModifiers.command` | `Boolean`{.datatype} | `False`{.datatype} | Press CMD (Mac)
+
+## Variables
+Name | Type | Description | 
+----:|:---------:|:------------|
+`obsRaw.Name` | `datatype`{.datatype} | Description
+`obsRaw.Name` | `datatype`{.datatype} | Description
+
+## Data Fields
+:---|:---:|
+Complexity Rating: | <span class="stars stars--5"></span>
+Latest Supported RPC Version: | *1*{.obs-version-badge}
+Added in | *v5.0.0*{.obs-version-badge}
+
+## Copy/Paste
+```json
+{
+  "request-type": "TriggerHotkeyByKeySequence",
+  "keyId": "",
+  "keyModifiers": "",
+  "keyModifiers.shift": "",
+  "keyModifiers.control": "",
+  "keyModifiers.alt": "",
+  "keyModifiers.command": ""
+}
+```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this event***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#triggerhotkeybykeysequence)
+{.btn-grid .my-5}
