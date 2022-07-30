@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-30T16:43:20.997Z
+date: 2022-07-30T18:06:13.314Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,6 +13,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * **Fix:** Commands in an import will be disabled by default, this is more of a security precaution
 * **Fix:** Action updates were not properly being sent to the Streamer.bot website for decks
 * **Fix:** Fix Pyramids not resetting correctly if a single emote is used after a previouos single emote
+* **Fix:** Fix Twitch Reward Set Global Cooldown sub-action, properly lists rewards now
 * **Update:** New Twitch scopes requested
 * **Update:** Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
 * **Update:** Extend First Chat event to YouTube
