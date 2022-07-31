@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-31T22:43:37.265Z
+date: 2022-07-31T23:02:42.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
@@ -10,7 +10,8 @@ dateCreated: 2022-07-17T14:26:01.568Z
 
 <h1 class="mdi mdi-code-array primary--text"> Arrays</h1>
 
-> This page isn't done currently, so not everything may makes sense{.is-danger}
+---
+
 ## Looks
 ### Example 1
 Here you see 3 nested objects inside of this array{.subtitle}
