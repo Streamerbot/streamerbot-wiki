@@ -20,38 +20,38 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## General Requests
-* [**GetVersion *Gets data about the current plugin and RPC version***](/en/Broadcasters/OBS/Requests/General-Requests/GetVersion){.disabled}
-* [**GetStats *Gets statistics about OBS, obs-websocket, and the current session***](/en/Broadcasters/OBS/Requests/General-Requests/GetStats){.disabled}
+* [**GetVersion *Gets data about the current plugin and RPC version***](/en/Broadcasters/OBS/Requests/General-Requests/GetVersion)
+* [**GetStats *Gets statistics about OBS, obs-websocket, and the current session***](/en/Broadcasters/OBS/Requests/General-Requests/GetStats)
 * [**BroadcastCustomEvent *Broadcasts a `CustomEvent` to all WebSocket clients. Receivers are clients which are identified and subscribed***](/en/Broadcasters/OBS/Requests/General-Requests/BroadcastCustomEvent){.disabled}
 * [**CallVendorRequest *Call a request registered to a vendor***](/en/Broadcasters/OBS/Requests/General-Requests/CallVendorRequest){.disabled}
-* [**GetHotkeyList *Gets an array of all hotkey names in OBS***](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList){.disabled}
-* [**TriggerHotkeyByName *Triggers a hotkey using its name. See `GetHotkeyList`***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByName){.disabled}
-* [**TriggerHotkeyByKeySequence *Triggers a hotkey using a sequence of keys***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByKeySequence){.disabled}
+* [**GetHotkeyList *Gets an array of all hotkey names in OBS***](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
+* [**TriggerHotkeyByName *Triggers a hotkey using its name. See `GetHotkeyList`***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByName)
+* [**TriggerHotkeyByKeySequence *Triggers a hotkey using a sequence of keys***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByKeySequence)
 * [**Sleep *Sleeps for a time duration or number of frames. Only available in request batches with types `SERIAL_REALTIME` or `SERIAL_FRAME`***](/en/Broadcasters/OBS/Requests/General-Requests/Sleep){.disabled}
 {.btn-grid .my-5}
 
 ## Config Requests
 * [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData){.disabled}
 * [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData){.disabled}
-* [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList/en/Broadcasters/OBS/Requests/Config-Requests/NAME){.disabled}
-* [**SetCurrentSceneCollection *Switches to a scene collection.***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentSceneCollection){.disabled}
-* [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateSceneCollection){.disabled}
-* [**GetProfileList *Gets an array of all profiles***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileList){.disabled}
-* [**SetCurrentProfile *Switches to a profile***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentProfile){.disabled}
-* [**CreateProfile *Creates a new profile, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateProfile){.disabled}
-* [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](/en/Broadcasters/OBS/Requests/Config-Requests/RemoveProfile){.disabled}
+* [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList)
+* [**SetCurrentSceneCollection *Switches to a scene collection.***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentSceneCollection)
+* [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateSceneCollection)
+* [**GetProfileList *Gets an array of all profiles***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileList)
+* [**SetCurrentProfile *Switches to a profile***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentProfile)
+* [**CreateProfile *Creates a new profile, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateProfile)
+* [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](/en/Broadcasters/OBS/Requests/Config-Requests/RemoveProfile)
 * [**GetProfileParameter *Gets a parameter from the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileParameter){.disabled}
 * [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/SetProfileParameter){.disabled}
-* [**GetVideoSettings *Gets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/GetVideoSettings){.disabled}
-* [**SetVideoSettings *Sets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/SetVideoSettings){.disabled}
-* [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/GetStreamServiceSettings){.disabled}
-* [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/SetStreamServiceSettings){.disabled}
+* [**GetVideoSettings *Gets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/GetVideoSettings)
+* [**SetVideoSettings *Sets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/SetVideoSettings)
+* [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/GetStreamServiceSettings)
+* [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/SetStreamServiceSettings)
 {.btn-grid .my-5}
 
 ## Source Requests
-* [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive){.disabled}
-* [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot){.disabled}
-* [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot){.disabled}
+* [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive)
+* [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot)
+* [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot)
 {.btn-grid .my-5}
 
 ## Scene Requests
