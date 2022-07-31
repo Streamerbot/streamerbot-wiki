@@ -143,7 +143,7 @@ There is a new event that will be triggered when an ad is run on your channel.
 * Add new event for Twitch Announcements
 * Any service that requires you to connect your account, will now timeout after 60 seconds if you close the browser, so you can try again
 * Added a save button to the Execute C# Code sub-action when you edit it, this will allow you to save without closing the dialog
-{.changelogs-new}
+{.changelog-new}
 
 ## New C# Methods
 
@@ -192,105 +192,114 @@ With this sub-action you can send an /announce to your channel.  While there is 
 This sub-action will add information about the selected reward to the arguments
 
 # Streamer.bot v0.1.8
-* **Fixed:** Misc fixes
-* **Fixed:** DonorDrive profile updated event was sending wrong websocket event type
-* **Fixed:** Updated the Action picker to show better message when there are no actions
-* **Fixed:** GetActionGroupState sub-action was configured wrong, also a settings upgrade to correct any existing sub-actions
-* **Fixed:** ObsSetReplayBufferState was starting/stopping stream, not the buffer
-* **Fixed:** ObsSetReplayBufferState had incorrect states
-* **Fixed:** Removal of channel reward from the UI should be working correctly now
-* **Fixed:** Get/Set Command State sub-actions would cause a crash if there are no commands
-* **Fixed:** Set Reward Cooldown sub-action would crash if no Twitch auth data was present
-* **Fixed:** OBS Set Audio Track state would toggle when explicitly setting active, this is a bug in obs-websocket 4.x, workaround applied
-* **Fixed:** The file selection button in the OBS Take Screenshot sub-action now works
-* **Fixed:** Date calculations for Follow Age Info sub-action are now correct
-* **Fixed:** Twitch Sub-Counter should no longer cause crashes if file/path is not found
-* **Fixed:** Can no longer rename a group to an empty string
-* **Fixed:** ObsSourceMute C# methods had an extra unused parameter, this has been removed
-* **Fixed:** OBS SetMediaSourceFile sub-action was not parsing scene and source names
-* **Fixed:** OBS SetImageSourceFile sub-action was not parsing scene and source names
-* **Fixed:** Fix how play not found option works, was stopping the sound even if you were playing via default device
-* **Fixed:** Fix group collapsing for Actions
-* **Fixed:** Fix sub-action dragging to groups
-* **Fixed:** Fix max length for importing actions, there was a 32kb hard limit on the text box, it is now int.MaxValue
-* **Update:** Vorbis library updated
-* **Update:** Read Random Line sub-action now has a count option, this will add however many lines count is, removing the need to add multiple sub-actions
-* **Update:** Update Twitch Timeout sub-action to be able to include a reason
-* **Update:** Some tabs related to specific Twitch features have been moved under the Twitch tab
-* **Update:** All streaming platforms have been moved to there own combined top level tab
-* **Update:** All broadcasting software tabs have been moved to there own combined top level tab
-* **Update:** All integrations have been moved to there own combined top level tab
-* **Update:** Commands have a new variable available, `%commandId%` which contains the ID of the command that was triggered, this applies for a cooldown action as well.
-* **Update:** Added a new variable `%userType%`, this will be present for any actions that adds user information to the arguments
-* **Update:** Broadcaster information and random users will no longer be added to every action, this is replaced by sub-actions for the various streaming services
-* **Update:** Add Target Info got a new target source, Broadcaster, which will add the broadcasters extended information to the arguments
-* **Update:** Requesting new [scopes for your Twitch account](#twitch-new-scopes)
-* **Update:** Some updates to the Sub-action context menu, slightly different behaviour and updated text
-* **Update:** Move some Twitch classes to a common library for better use within C# code, this may cause some breaking changes
-* **Update:** [StreamElements](#streamelements) now uses OAuth to access the service, you no longer need to enter your JWT token.
-* **Update:** File Watcher has been updated to support folder watching with filename filters
-* **Update:** Cleaned up how Tabs can me moved around and hidden, right click on a tab to bring up a context menu if they can be hidden
-* **Update:** Rename SLOBS to Streamlabs Desktop throughout the app
-* **Update:** Under the hood, actions have been moved to there own data file
-* **Update:** Minor tweaks to the way settings files are saved
-* **Update:** Export Actions list is now sorted alphabetically
-* **Update:** Remove big Twitch Connect button
-* **Update:** Action importing handles Execute C# Code sub-actions a bit better now, and is more intelligent on how references are handled
-* **Update:** Various libraries updated
-* **Update:** Change default options when creating a Wasapi device for the default device, now matches specific device creation
-* **Update:** Alter how device selection works when overriding device in Play Sound and Play Sound from Folder sub-actions
-* **Update:** Moved save button to a toolbar at the top of the main window
-* **Update:** Moved import/export to buttons on the toolbar, and removed them from the actions context menu
-* **New:** Add Twitch First Time Chat indicator, there is a new argument for messages `%firstMessage%`, this is a boolean, true or false
-* **New:** Wildcard can be used when subscribing to websocket events
-* **New:** New sub-action [Add Team Info](#add-team-info), can get team information for a user
-* **New:** ObsRaw has a new option to not add return data to the argument stack; the raw JSON will still be added.  This defaults to true to prevent breaking of existing actions
-* **New:** New sub-action [Obs Hide Scene Sources](#obs-hide-scene-sources) and C# method to hide all the sources of a scene, this is the same behaviour as Obs Hide Group Sources, except for scenes.
-* **New:** New sub-action [Obs Set Random Scene Source Visible](#obs-set-random-scene-source-visible) and C# method to set a random source in a scene to visible, this is the same behaviour as Obs Set Random Group Source visible, except for scenes.
-* **New:** Provided as a 64-bit build
-* **New:** [YouTube](#youtube-integration) has been added and is currently a WIP and is being tested.
-* **New:** Added a new C# method to run an action by it's id `RunActionById(string actionId, bool runImmediately = true)`
-* **New:** New sub-action [Add Broadcaster Information](#add-twitch-broadcaster-information), to add the broadcaster's information to arguments
-* **New:** New sub-action [Add Random Users](#add-random-twitch-users), to add a specific number of random Twitch users to the arguments
-* **New:** Parse the subscription length from Twitch messages and pass that information forward, will be added as `%monthsSubscribed%` if it is greather then 0
-* **New:** Sub-actions can now be enabled/disabled, disabled sub-actions are marked as red in the list
-* **New:** Added new [C# methods](#new-c-methods)
-* **New:** Now parsing the badge-info tag from Twitch chat, and passing the subscriber duration along
-* **New:** The `Ignore Bot` flag for commands now takes into account if the bot account is the same as the broadcaster account and does nothing instead of ignoring, applies to Twitch only
-* **New:** VoiceMod integration! Control VoiceMod from **Streamer.bot**
-* **New:** Direct [Pulsoid integration](#pulsoid-integration)
-* **New:** Direct [HypeRate integration](#hyperate-integration)
-* **New:** [OBS Connections](#obs-connections) can be flagged as default, and/or forced.
-* **New:** New sub-action [Set Voice Control Command State](#set-voice-control-command-state) to set the state of a Voice Control Command
-* **New:** New sub-action [Set Voice Control Command](#set-voice-control-command) to set the command of an anywhere type Voice Control Command
-* **New:** Integration with [PolyPop](#polypop-integration)
-* **New:** Messages sent via the broadcaster to twitch are now looped back to itself with emote parsing in tow
-* **New:** Twemoji parsing for Twitch messages, this will parse Unicode emotes to images
-* **New:** Broadcaster information is auto added for certain events where a source is known
-* **New:** A new authorization success page will show, instead of a single line of text
-* **New:** Twitch/YouTube message sub-actions support multi-line, dialogs have been updated as well
-* **New:** Add new GetBroadcaster request to websocket
-* **New:** Add new GetBroadcaster endpoint to http server
-* **New:** Add new Broken event to Pyramids
-* **New:** New event for StreamElements, Merch, trigger actions from merchandise purchases
-* **New:** [Action Queues](#action-queues), you can now see actions running in realtime, and see a history of them
-* **New:** [Streamer.bot](#streamerbot-website-integration) Website integration
-* **New:** Integration with [Kofi](#kofi-integration)
-* **New:** Integration with [Patreon](#patreon-integration)
-* **New:** Added C# Compiler settings, specifically, you can add common references that will be included with all Execute C# Code sub-actions
-* **New:** Custom C# libraries used as references, can now be places in a dlls subfolder
-* **New:** Added the StreamElements merch event
-* **New:** Twitch Badges are now parsed and added as arguments for relevant events
-* **New:** Integration with [TipeeeStream](#tipeestream-integration)
-* **New:** Integration with [TreatStream](#treatstream-integration)
-* **New:** Added new Log sub-action, to allow logging from within an action
-* **New:** Execute C# Code window sizing is saved now, it will open at the last used size
-* **New:** Add selected file information to arguments for Play Sound from Folder sub-action; %randomSoundFile% contains the full path of the file and %randomSoundFileName% contains just the file name
-* **New:** Commands can be imported/exported along side actions
-* **New:** In Execute C# Code window, you can right click to copy the compile log to clipboard
-* **New:** Add filtering to Actions list, this will only filter on the action name at the moment
-* **New:** Add filtering to Commands list, this will only filter on the command at the moment
-* **New:** Add filtering to Action selection dialog, this will only filter on the action name at the moment
+* Misc fixes
+* DonorDrive profile updated event was sending wrong websocket event type
+* Updated the Action picker to show better message when there are no actions
+* GetActionGroupState sub-action was configured wrong, also a settings upgrade to correct any existing sub-actions
+* ObsSetReplayBufferState was starting/stopping stream, not the buffer
+* ObsSetReplayBufferState had incorrect states
+* Removal of channel reward from the UI should be working correctly now
+* Get/Set Command State sub-actions would cause a crash if there are no commands
+* Set Reward Cooldown sub-action would crash if no Twitch auth data was present
+* OBS Set Audio Track state would toggle when explicitly setting active, this is a bug in obs-websocket 4.x, workaround applied
+* The file selection button in the OBS Take Screenshot sub-action now works
+* Date calculations for Follow Age Info sub-action are now correct
+* Twitch Sub-Counter should no longer cause crashes if file/path is not found
+* Can no longer rename a group to an empty string
+* ObsSourceMute C# methods had an extra unused parameter, this has been removed
+* OBS SetMediaSourceFile sub-action was not parsing scene and source names
+* OBS SetImageSourceFile sub-action was not parsing scene and source names
+* Fix how play not found option works, was stopping the sound even if you were playing via default device
+* Fix group collapsing for Actions
+* Fix sub-action dragging to groups
+* Fix max length for importing actions, there was a 32kb hard limit on the text box, it is now int.MaxValue
+{.changelog-fixes}
+
+<span></span>
+
+* Vorbis library updated
+* Read Random Line sub-action now has a count option, this will add however many lines count is, removing the need to add multiple sub-actions
+* Update Twitch Timeout sub-action to be able to include a reason
+* Some tabs related to specific Twitch features have been moved under the Twitch tab
+* All streaming platforms have been moved to there own combined top level tab
+* All broadcasting software tabs have been moved to there own combined top level tab
+* All integrations have been moved to there own combined top level tab
+* Commands have a new variable available, `%commandId%` which contains the ID of the command that was triggered, this applies for a cooldown action as well.
+* Added a new variable `%userType%`, this will be present for any actions that adds user information to the arguments
+* Broadcaster information and random users will no longer be added to every action, this is replaced by sub-actions for the various streaming services
+* Add Target Info got a new target source, Broadcaster, which will add the broadcasters extended information to the arguments
+* Requesting new [scopes for your Twitch account](#twitch-new-scopes)
+* Some updates to the Sub-action context menu, slightly different behaviour and updated text
+* Move some Twitch classes to a common library for better use within C# code, this may cause some breaking changes
+* [StreamElements](#streamelements) now uses OAuth to access the service, you no longer need to enter your JWT token.
+* File Watcher has been updated to support folder watching with filename filters
+* Cleaned up how Tabs can me moved around and hidden, right click on a tab to bring up a context menu if they can be hidden
+* Rename SLOBS to Streamlabs Desktop throughout the app
+* Under the hood, actions have been moved to there own data file
+* Minor tweaks to the way settings files are saved
+* Export Actions list is now sorted alphabetically
+* Remove big Twitch Connect button
+* Action importing handles Execute C# Code sub-actions a bit better now, and is more intelligent on how references are handled
+* Various libraries updated
+* Change default options when creating a Wasapi device for the default device, now matches specific device creation
+* Alter how device selection works when overriding device in Play Sound and Play Sound from Folder sub-actions
+* Moved save button to a toolbar at the top of the main window
+* Moved import/export to buttons on the toolbar, and removed them from the actions context menu
+{.changelog-updates}
+
+<span></span>
+
+* Add Twitch First Time Chat indicator, there is a new argument for messages `%firstMessage%`, this is a boolean, true or false
+* Wildcard can be used when subscribing to websocket events
+* New sub-action [Add Team Info](#add-team-info), can get team information for a user
+* ObsRaw has a new option to not add return data to the argument stack; the raw JSON will still be added.  This defaults to true to prevent breaking of existing actions
+* New sub-action [Obs Hide Scene Sources](#obs-hide-scene-sources) and C# method to hide all the sources of a scene, this is the same behaviour as Obs Hide Group Sources, except for scenes.
+* New sub-action [Obs Set Random Scene Source Visible](#obs-set-random-scene-source-visible) and C# method to set a random source in a scene to visible, this is the same behaviour as Obs Set Random Group Source visible, except for scenes.
+* Provided as a 64-bit build
+* [YouTube](#youtube-integration) has been added and is currently a WIP and is being tested.
+* Added a new C# method to run an action by it's id `RunActionById(string actionId, bool runImmediately = true)`
+* New sub-action [Add Broadcaster Information](#add-twitch-broadcaster-information), to add the broadcaster's information to arguments
+* New sub-action [Add Random Users](#add-random-twitch-users), to add a specific number of random Twitch users to the arguments
+* Parse the subscription length from Twitch messages and pass that information forward, will be added as `%monthsSubscribed%` if it is greather then 0
+* Sub-actions can now be enabled/disabled, disabled sub-actions are marked as red in the list
+* Added new [C# methods](#new-c-methods)
+* Now parsing the badge-info tag from Twitch chat, and passing the subscriber duration along
+* The `Ignore Bot` flag for commands now takes into account if the bot account is the same as the broadcaster account and does nothing instead of ignoring, applies to Twitch only
+* VoiceMod integration! Control VoiceMod from **Streamer.bot**
+* Direct [Pulsoid integration](#pulsoid-integration)
+* Direct [HypeRate integration](#hyperate-integration)
+* [OBS Connections](#obs-connections) can be flagged as default, and/or forced.
+* New sub-action [Set Voice Control Command State](#set-voice-control-command-state) to set the state of a Voice Control Command
+* New sub-action [Set Voice Control Command](#set-voice-control-command) to set the command of an anywhere type Voice Control Command
+* Integration with [PolyPop](#polypop-integration)
+* Messages sent via the broadcaster to twitch are now looped back to itself with emote parsing in tow
+* Twemoji parsing for Twitch messages, this will parse Unicode emotes to images
+* Broadcaster information is auto added for certain events where a source is known
+* A new authorization success page will show, instead of a single line of text
+* Twitch/YouTube message sub-actions support multi-line, dialogs have been updated as well
+* Add new GetBroadcaster request to websocket
+* Add new GetBroadcaster endpoint to http server
+* Add new Broken event to Pyramids
+* New event for StreamElements, Merch, trigger actions from merchandise purchases
+* [Action Queues](#action-queues), you can now see actions running in realtime, and see a history of them
+* [Streamer.bot](#streamerbot-website-integration) Website integration
+* Integration with [Kofi](#kofi-integration)
+* Integration with [Patreon](#patreon-integration)
+* Added C# Compiler settings, specifically, you can add common references that will be included with all Execute C# Code sub-actions
+* Custom C# libraries used as references, can now be places in a dlls subfolder
+* Added the StreamElements merch event
+* Twitch Badges are now parsed and added as arguments for relevant events
+* Integration with [TipeeeStream](#tipeestream-integration)
+* Integration with [TreatStream](#treatstream-integration)
+* Added new Log sub-action, to allow logging from within an action
+* Execute C# Code window sizing is saved now, it will open at the last used size
+* Add selected file information to arguments for Play Sound from Folder sub-action; %randomSoundFile% contains the full path of the file and %randomSoundFileName% contains just the file name
+* Commands can be imported/exported along side actions
+* In Execute C# Code window, you can right click to copy the compile log to clipboard
+* Add filtering to Actions list, this will only filter on the action name at the moment
+* Add filtering to Commands list, this will only filter on the command at the moment
+* Add filtering to Action selection dialog, this will only filter on the action name at the moment
+{.changelog-new}
 
 ## YouTube Integration
 
