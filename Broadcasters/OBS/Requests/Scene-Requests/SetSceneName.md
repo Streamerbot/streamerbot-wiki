@@ -2,14 +2,14 @@
 title: SetSceneName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T13:02:57.103Z
+date: 2022-07-31T13:03:14.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T13:02:57.103Z
 ---
 
 ## Overview
-DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+Sets the name of a scene (rename).
 
 ## Request Fields
 Name | Type | Required| Description |
