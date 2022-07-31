@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T21:56:24.089Z
+date: 2022-07-31T21:59:10.480Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -18,9 +18,9 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sourceName` | `String`{.datatype} | <span class="mdi mdi-check"></span> | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | <span class="mdi mdi-check"></span> | Image compression format to use. Use `GetVersion` to get compatible image formats
-`imageFilePath` | `String`{.datatype} | <span class="mdi mdi-check"></span> | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
+`sourceName` | `String`{.datatype} | <div class="mdi mdi-check"></div> | Name of the source to take a screenshot of
+`imageFormat` | `String`{.datatype} | <div class="mdi mdi-check"></div> | Image compression format to use. Use `GetVersion` to get compatible image formats
+`imageFilePath` | `String`{.datatype} | <div class="mdi mdi-check"></div> | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
 `imageWidth` | `Number`{.datatype} |  | Width to scale the screenshot to | >= 8, <= 4096
 `imageHeight` | `Number`{.datatype} |  | Height to scale the screenshot to | >= 8, <= 4096
 `imageCompressionQuality` | `Number`{.datatype} |  | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
