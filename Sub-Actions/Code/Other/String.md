@@ -2,7 +2,7 @@
 title: String
 description: 
 published: true
-date: 2022-07-31T23:02:06.224Z
+date: 2022-07-31T23:06:31.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
@@ -19,7 +19,7 @@ A string is text and surrounded with `Quotation marks`
 ## Examples {.tabset}
 ### Example 1
 ```csharp
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ```
 ### Example 2
 ```csharp
