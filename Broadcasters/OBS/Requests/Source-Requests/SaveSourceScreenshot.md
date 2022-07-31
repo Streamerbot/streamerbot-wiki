@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T12:49:17.586Z
+date: 2022-07-31T21:41:53.820Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -20,7 +20,7 @@ Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `sourceName` | `String`{.datatype} | `True`{.datatype-true} | Name of the source to take a screenshot of
 `imageFormat` | `String`{.datatype} | `True`{.datatype-true} | Image compression format to use. Use `GetVersion` to get compatible image formats
-`imageFilePath` | `String`{.datatype} | `True`{.datatype-true} | Path to save the screenshot file to. Eg. `C:\Users\user\Desktop\screenshot.png`
+`imageFilePath` | `String`{.datatype} | `True`{.datatype-true} | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
 `imageWidth` | `Number`{.datatype} | `False`{.datatype-false} | Width to scale the screenshot to | >= 8, <= 4096
 `imageHeight` | `Number`{.datatype} | `False`{.datatype-false} | Height to scale the screenshot to | >= 8, <= 4096
 `imageCompressionQuality` | `Number`{.datatype} | `False`{.datatype-false} | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
