@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-31T22:21:41.478Z
+date: 2022-07-31T22:22:07.683Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -660,5 +660,5 @@ The result string produced by many of the custom date and time format specifiers
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Code *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Code *Go Back***](/en/Sub-Actions/Code)
 {.btn-grid my-5}
