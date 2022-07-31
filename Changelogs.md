@@ -2,13 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T17:23:03.471Z
+date: 2022-07-31T17:56:08.990Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
 # Streamer.bot v0.1.11 (WIP)
+Upcoming changes in the next release!{.subtitle}
 
 * Commands in an import will be disabled by default, this is more of a security precaution
 * Action updates were not properly being sent to the Streamer.bot website for decks
@@ -48,6 +49,7 @@ When you connect with your bot account, the following new scopes will be request
 {.grid-list}
 
 # Streamer.bot v0.1.10 (Current)
+Released 2022-06-24{.subtitle}
 
 * Fix an issue with authentication for some integrations
 * Fix crash when an else action in an if/else sub-action is not set on export
@@ -97,6 +99,7 @@ There is a new event that will be triggered when an ad is run on your channel.
 | `%adScheduled%` | If this ad was a scheduled ad |
 
 # Streamer.bot v0.1.9
+Released 2022-06-16{.subtitle}
 
 * Obligatory misc fixes
 * Updating some tooltips
@@ -192,6 +195,8 @@ With this sub-action you can send an /announce to your channel.  While there is 
 This sub-action will add information about the selected reward to the arguments
 
 # Streamer.bot v0.1.8
+Released 2022-06-01{.subtitle}
+
 * Misc fixes
 * DonorDrive profile updated event was sending wrong websocket event type
 * Updated the Action picker to show better message when there are no actions
@@ -509,6 +514,8 @@ Set the command of a Voice Control Command to the value specified, supports pars
 
 
 # Streamer.bot v0.1.7
+Released 2022-01-16{.subtitle}
+
 * Get/Set Action State sub-action had incorrect title in dialog
 * OBS Set Replay Buffer state was using incorrect data, should work correctly now
 * Fix typo in Logic if
@@ -529,6 +536,8 @@ Set the command of a Voice Control Command to the value specified, supports pars
 
 
 # Streamer.bot v0.1.6
+Released 2021-12-27{.subtitle}
+
 * Changing category would cause a crash
 * Clearing chat caused the Banned event to fire
 * Multi-word commands are now checked correctly
