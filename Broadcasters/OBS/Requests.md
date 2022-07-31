@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-31T13:10:54.890Z
+date: 2022-07-31T22:05:00.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -49,7 +49,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Source Requests
-DESCRIPTION{.subtitle}
+Requests related to sources{.subtitle}
 * [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive)
 * [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot)
 * [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot)
