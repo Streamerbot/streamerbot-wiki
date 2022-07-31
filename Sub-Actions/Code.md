@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-31T22:42:41.660Z
+date: 2022-07-31T23:00:33.314Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -25,7 +25,7 @@ Info about all kind of datatypes that can be used with streamer.bot in C#, OBS r
 - [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime)
 {.btn-grid .my-5}
 ### Basic
-- [<i class="mdi mdi-format-quote-open primary--text"></i>**String *An explanation about a string***](/en/Sub-Actions/Code/Other/String){.disabled}
+- [<i class="mdi mdi-format-quote-open primary--text"></i>**String *An explanation about a string***](/en/Sub-Actions/Code/Other/String)
 - [<i class="mdi mdi-numeric primary--text"></i>**Number *An explanation about a number***](/en/Sub-Actions/Code/Other/Number){.disabled}
 - [<i class="mdi mdi-comma primary--text"></i>**Float *An explanation about a float***](/en/Sub-Actions/Code/Other/Float){.disabled}
 - [<i class="mdi mdi-ab-testing primary--text"></i>**Boolean *An explanation about a boolean***](/en/Sub-Actions/Code/Other/Boolean){.disabled}
