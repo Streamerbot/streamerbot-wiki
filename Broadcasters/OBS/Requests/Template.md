@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-07-30T05:21:44.495Z
+date: 2022-07-31T22:15:44.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -16,10 +16,14 @@ Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-check"></i> | Description
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-check"></i> | Description
+`Name` | `datatype`{.datatype} |  | Description
+`Name` | `datatype`{.datatype} |  | Description
 
 ## Variables
 Name | Type | Description | 
 ----:|:---------:|:------------|
+`obsRaw.Name` | `datatype`{.datatype} | Description
+`obsRaw.Name` | `datatype`{.datatype} | Description
 `obsRaw.Name` | `datatype`{.datatype} | Description
 `obsRaw.Name` | `datatype`{.datatype} | Description
 
@@ -32,7 +36,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Copy/Paste
 ```json
 {
-  "request-type": "Template",
+  "request-type": "REQUESTTYPEEEEEEEEE",
+  "template": "",
+  "template": "",
+  "template": "",
   "template": ""
 }
 ```
