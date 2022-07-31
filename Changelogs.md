@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T17:14:25.225Z
+date: 2022-07-31T17:23:03.471Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -514,6 +514,8 @@ Set the command of a Voice Control Command to the value specified, supports pars
 * **Fixed:** Custom websocket server would crash when the connection was terminated
 
 # Archives
+View changelogs for older versions here{.subtitle}
+
 * [Streamer.bot 0.1.5](/en/Changelogs/Archives/Version-015)
 * [Streamer.bot 0.1.4](/en/Changelogs/Archives/Version-014)
 * [Streamer.bot 0.1.3](/en/Changelogs/Archives/Version-013)
@@ -554,4 +556,4 @@ Set the command of a Voice Control Command to the value specified, supports pars
 * [Streamer.bot 0.0.32](/en/Changelogs/Archives/Version-0032)
 * [Streamer.bot 0.0.31](/en/Changelogs/Archives/Version-0031)
 * [Streamer.bot 0.0.30](/en/Changelogs/Archives/Version-0030)
-{.links-list}
+{.btn-grid .my-5}
