@@ -319,17 +319,17 @@ Moving forward, **Streamer.bot** will be offered in a 64-bit build, as opposed t
 
 When you connect with your broadcaster account, the following new scopes will be requested
 
-* moderator:manage:banned_users
-* moderator:read:blocked_terms
-* moderator:manage:blocked_terms
-* moderator:manage:automod
-* moderator:read:automod_settings
-* moderator:manage:automod_settings
-* moderator:read:chat_settings
-* moderator:manage:chat_settings
-* whispers:edit
-* user:read:follows
-{.links-list}
+* `moderator:manage:banned_users`
+* `moderator:read:blocked_terms`
+* `moderator:manage:blocked_terms`
+* `moderator:manage:automod`
+* `moderator:read:automod_settings`
+* `moderator:manage:automod_settings`
+* `moderator:read:chat_settings`
+* `moderator:manage:chat_settings`
+* `whispers:edit`
+* `user:read:follows`
+{.grid-list}
 
 Since I needed to add the moderation scopes, I decided to finally add the whipser edit scope, this will allow the broadcaster account to send whispers.  The restrictions by twitch are still in place!
 
@@ -414,7 +414,7 @@ The following new Sub-Actions are available:
 * Set Hear My Voice State
 * Set Mute State
 * Set Voice Changer State
-{.links-list}
+{.grid-list}
 
 New C# Methods available for use.
 
