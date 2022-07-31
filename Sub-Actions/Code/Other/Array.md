@@ -2,13 +2,13 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-28T21:02:48.383Z
+date: 2022-07-31T22:43:37.265Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
 ---
 
-<h1 class="mdi mdi-code-array primary--text"> JSON Arrays</h1>
+<h1 class="mdi mdi-code-array primary--text"> Arrays</h1>
 
 > This page isn't done currently, so not everything may makes sense{.is-danger}
 ## Looks
