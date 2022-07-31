@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-07-31T22:17:36.943Z
+date: 2022-07-31T22:31:16.946Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -17,11 +17,19 @@ Info about all the C# capabilities that streamer.bot has{.subtitle}
 
 ## Datatypes
 Info about all kind of datatypes that can be used with streamer.bot in C#, OBS raw or native{.subtitle}
-- [<i class="mdi mdi-database primary--text"></i> **Data Types *A list of al data types that can be used with json***](/en/Sub-Actions/Code/JSON/Data-Types){.disabled}
-- [<i class="mdi mdi-code-array primary--text"></i>**Array *A detailed explanation about how an array works***](/en/Sub-Actions/Code/JSON/Array){.disabled}
+### Advanced
+- [<i class="mdi mdi-code-braces primary--text"></i>**Object *A detailed explanation about how an object works***](/en/Sub-Actions/Code/Other/Object){.disabled}
+- [<i class="mdi mdi-code-array primary--text"></i>**Array *A detailed explanation about how an array works***](/en/Sub-Actions/Code/Other/Array){.disabled}
 {.btn-grid .my-5}
 ######
 - [<i class="mdi mdi-clock primary--text"></i>**Custom Date and Time format strings *A list of the formats that are used with %time% and with C# datetime***](/en/Sub-Actions/Code/Other/DateTime)
+{.btn-grid .my-5}
+### Basic
+- [<i class="mdi mdi-format-quote-open primary--text"></i>**String *An explanation about a string***](/en/Sub-Actions/Code/Other/Array){.disabled}
+- [<i class="mdi mdi-numeric primary--text"></i>**Number *An explanation about a number***](/en/Sub-Actions/Code/Other/Number){.disabled}
+- [<i class="mdi mdi-comma primary--text"></i>**Float *An explanation about a float***](/en/Sub-Actions/Code/Other/Float){.disabled}
+- [<i class="mdi mdi-ab-testing primary--text"></i>**Boolean *An explanation about a boolean***](/en/Sub-Actions/Code/Other/Boolean){.disabled}
+- [<i class="mdi mdi-null primary--text"></i>**Null *An explanation about a null/empty***](/en/Sub-Actions/Code/Other/Null){.disabled}
 {.btn-grid .my-5}
 
 ---
