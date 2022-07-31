@@ -98,43 +98,52 @@ There is a new event that will be triggered when an ad is run on your channel.
 
 # Streamer.bot v0.1.9
 
-* **Fixed:** Obligatory misc fixes
-* **Fixed:** Updating some tooltips
-* **Fixed:** PlaySound sub-action Test button being disabled when editing an existing sub-action
-* **Fixed:** Updated import/export to properly handle Get/Set Action State sub-action
-* **Fixed:** Context menu for Twitch user crashing when clicking ban
-* **Fixed:** Gracefully handle authentication error with OBS websocket
-* **Fixed:** Editing a Queue name did not update in the list of Queues
-* **Fixed:** Prediction badges would cause a silent crash, essentially causing **Streamer.bot** to no longer react to chat
-* **Fixed:** Handle potential crash in Add Target Info sub-action
-* **Fixed:** Handle potential crash when banning an already banned user from context menu
-* **Fixed:** Potential crash when connecting to Twitch account
-* **Fixed:** Fix adding/deleting range actions to properly clear the action selection button
-* **Fixed:** Twitch forget broadcaster/bot account buttons finally work properly
-* **Fixed:** Streamlabs Desktop should work again, my bad on missing this for 0.1.8
-* **Update:** Update Twitch Predictions to support up to 10 outcomes, new C# method as well
-* **Update:** Support new YouTube gifting events
-* **Update:** Add a context menu to the Export dialog action list, to select all actions, and all commands
-* **Update:** Rename Broadcasters tab to Stream Apps, to avoid any confusion
-* **Update:** Remove deprecated scope and update to current, this will cause a re-authentication for the Broadcaster account
-* **Update:** Can open multiple instances of **Streamer.bot** from different folders
-* **Update:** YouTube Super Chat and Super Sticker events have been updated to have range based actions
-* **Update:** Added new context menu item to collapse/expand all groups in commands list
-* **Update:** Pulsoid heart rate event now has ranges
-* **Update:** HypeRate heart rate event now has ranges
-* **Update:** Increase variable length limit to 64 characters (to handle some obsRaw variables that can parse quite long)
-* **Update:** Add a prefix setting to ObsRaw, to be able to customize the variable used for storing the results
-* **Update:** Twitch Bot account was missing `channel:moderate` scope, you will need to re-auth this account.
-* **Update:** Add new option to file/folder watcher to include subdirectories
-* **Update:** Logic If sub-action now has an else condition, and is hence forth known as the [Logif If/Else](#logic-if-else) sub-action
-* **Update:** [Twitch Reward C# methods](#twitch-reward-c-methods) were updated
-* **New:** Add new [Send Announcement to Channel](#send-announcement-to-channel) sub-action to send a /announce to your channel
-* **New:** Add <kbd>Ctrl+C</kbd> and <kbd>Ctrl+V</kbd> shortcuts for sub-actions to copy pasta.
-* **New:** Add new [Get Reward Info](#get-reward-info) sub-action to add information about a Twitch reward to arguments
-* **New:** Set default sort order for action queues, and save column widths and sorting on save/close
-* **New:** Add new event for Twitch Announcements
-* **New:** Any service that requires you to connect your account, will now timeout after 60 seconds if you close the browser, so you can try again
-* **New:** Added a save button to the Execute C# Code sub-action when you edit it, this will allow you to save without closing the dialog
+* Obligatory misc fixes
+* Updating some tooltips
+* PlaySound sub-action Test button being disabled when editing an existing sub-action
+* Updated import/export to properly handle Get/Set Action State sub-action
+* Context menu for Twitch user crashing when clicking ban
+* Gracefully handle authentication error with OBS websocket
+* Editing a Queue name did not update in the list of Queues
+* Prediction badges would cause a silent crash, essentially causing **Streamer.bot** to no longer react to chat
+* Handle potential crash in Add Target Info sub-action
+* Handle potential crash when banning an already banned user from context menu
+* Potential crash when connecting to Twitch account
+* Fix adding/deleting range actions to properly clear the action selection button
+* Twitch forget broadcaster/bot account buttons finally work properly
+* Streamlabs Desktop should work again, my bad on missing this for 0.1.8
+{.changelog-fixes}
+
+<span></span>
+
+* Update Twitch Predictions to support up to 10 outcomes, new C# method as well
+* Support new YouTube gifting events
+* Add a context menu to the Export dialog action list, to select all actions, and all commands
+* Rename Broadcasters tab to Stream Apps, to avoid any confusion
+* Remove deprecated scope and update to current, this will cause a re-authentication for the Broadcaster account
+* Can open multiple instances of **Streamer.bot** from different folders
+* YouTube Super Chat and Super Sticker events have been updated to have range based actions
+* Added new context menu item to collapse/expand all groups in commands list
+* Pulsoid heart rate event now has ranges
+* HypeRate heart rate event now has ranges
+* Increase variable length limit to 64 characters (to handle some obsRaw variables that can parse quite long)
+* Add a prefix setting to ObsRaw, to be able to customize the variable used for storing the results
+* Twitch Bot account was missing `channel:moderate` scope, you will need to re-auth this account.
+* Add new option to file/folder watcher to include subdirectories
+* Logic If sub-action now has an else condition, and is hence forth known as the [Logif If/Else](#logic-if-else) sub-action
+* [Twitch Reward C# methods](#twitch-reward-c-methods) were updated
+{.changelog-updates}
+
+<span></span>
+
+* Add new [Send Announcement to Channel](#send-announcement-to-channel) sub-action to send a /announce to your channel
+* Add <kbd>Ctrl+C</kbd> and <kbd>Ctrl+V</kbd> shortcuts for sub-actions to copy pasta.
+* Add new [Get Reward Info](#get-reward-info) sub-action to add information about a Twitch reward to arguments
+* Set default sort order for action queues, and save column widths and sorting on save/close
+* Add new event for Twitch Announcements
+* Any service that requires you to connect your account, will now timeout after 60 seconds if you close the browser, so you can try again
+* Added a save button to the Execute C# Code sub-action when you edit it, this will allow you to save without closing the dialog
+{.changelogs-new}
 
 ## New C# Methods
 
