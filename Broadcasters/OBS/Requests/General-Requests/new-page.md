@@ -2,7 +2,7 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T01:36:43.643Z
+date: 2022-07-31T01:30:08.255Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
@@ -29,7 +29,7 @@ Name | Type | Description |
 
 ## Data Fields
 :---|:---:|
-Complexity Rating: | <span class="stars stars--5"></span>
+Complexity Rating: | <span class="stars stars--4"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
