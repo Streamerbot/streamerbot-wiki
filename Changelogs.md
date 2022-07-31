@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T17:58:17.464Z
+date: 2022-07-31T20:35:08.543Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,11 +13,11 @@ Upcoming changes in the next release!{.subtitle}
 
 * Commands in an import will be disabled by default, this is more of a security precaution
 * Action updates were not properly being sent to the Streamer.bot website for decks
-* Fix Pyramids not resetting correctly if a single emote is used after a previous single emote
-* Fix Twitch Reward Set Global Cooldown sub-action, properly lists rewards now
-* Fix crash when using <kbd>Ctrl+C</kbd> on a group in an action
-* Fix `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
-* Fix Get Team Info For Target silently crashing
+* Pyramids not resetting correctly if a single emote is used after a previous single emote
+* Twitch Reward Set Global Cooldown sub-action, properly lists rewards now
+* Crash when using <kbd>Ctrl+C</kbd> on a group in an action
+* `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
+* Get Team Info For Target silently crashing
 {.changelog-fixes}
 
 <span></span>
@@ -47,9 +47,9 @@ When you connect with your bot account, the following new scopes will be request
 # Streamer.bot v0.1.10 (Current)
 Released 2022-06-24{.subtitle}
 
-* Fix an issue with authentication for some integrations
-* Fix crash when an else action in an if/else sub-action is not set on export
-* Fix display of if/else sub-action
+* An issue with authentication for some integrations
+* Crash when an else action in an if/else sub-action is not set on export
+* Display of if/else sub-action
 * Weighted sub-action option was not being shown correctly, and will also show but be disabled if random is disabled for action or group
 * Visual indicator of how many actions/commands are checked updates properly now
 * Able to type a reason in the Twitch Timeout sub-action now
@@ -108,7 +108,7 @@ Released 2022-06-16{.subtitle}
 * Handle potential crash in Add Target Info sub-action
 * Handle potential crash when banning an already banned user from context menu
 * Potential crash when connecting to Twitch account
-* Fix adding/deleting range actions to properly clear the action selection button
+* Adding/deleting range actions to properly clear the action selection button
 * Twitch forget broadcaster/bot account buttons finally work properly
 * Streamlabs Desktop should work again, my bad on missing this for 0.1.8
 {.changelog-fixes}
@@ -210,10 +210,10 @@ Released 2022-06-01{.subtitle}
 * ObsSourceMute C# methods had an extra unused parameter, this has been removed
 * OBS SetMediaSourceFile sub-action was not parsing scene and source names
 * OBS SetImageSourceFile sub-action was not parsing scene and source names
-* Fix how play not found option works, was stopping the sound even if you were playing via default device
-* Fix group collapsing for Actions
-* Fix sub-action dragging to groups
-* Fix max length for importing actions, there was a 32kb hard limit on the text box, it is now int.MaxValue
+* How play not found option works, was stopping the sound even if you were playing via default device
+* Group collapsing for Actions
+* Sub-action dragging to groups
+* Max length for importing actions, there was a 32kb hard limit on the text box, it is now int.MaxValue
 {.changelog-fixes}
 
 <span></span>
