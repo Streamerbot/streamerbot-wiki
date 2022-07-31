@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T21:41:53.820Z
+date: 2022-07-31T21:49:53.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -18,12 +18,12 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sourceName` | `String`{.datatype} | `True`{.datatype-true} | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | `True`{.datatype-true} | Image compression format to use. Use `GetVersion` to get compatible image formats
-`imageFilePath` | `String`{.datatype} | `True`{.datatype-true} | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
-`imageWidth` | `Number`{.datatype} | `False`{.datatype-false} | Width to scale the screenshot to | >= 8, <= 4096
-`imageHeight` | `Number`{.datatype} | `False`{.datatype-false} | Height to scale the screenshot to | >= 8, <= 4096
-`imageCompressionQuality` | `Number`{.datatype} | `False`{.datatype-false} | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
+`sourceName` | `String`{.datatype} | `Yes`{.datatype-true} | Name of the source to take a screenshot of
+`imageFormat` | `String`{.datatype} | `Yes`{.datatype-true} | Image compression format to use. Use `GetVersion` to get compatible image formats
+`imageFilePath` | `String`{.datatype} | *<span class="mdi mdi-checkbox-marked"></span>*{.true} | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
+`imageWidth` | `Number`{.datatype} | *<span class="mdi mdi-checkbox-blank"></span>*{.false} | Width to scale the screenshot to | >= 8, <= 4096
+`imageHeight` | `Number`{.datatype} | `No`{.datatype-false} | Height to scale the screenshot to | >= 8, <= 4096
+`imageCompressionQuality` | `Number`{.datatype} | `No`{.datatype-false} | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
 
 ## Variables
 Name | Type | Description | 
