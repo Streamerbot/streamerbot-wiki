@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T13:59:37.945Z
+date: 2022-07-31T16:48:31.558Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,9 +17,15 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * **Fix:** Fix crash when using <kbd>Ctrl+C</kbd> on a group in an action
 * **Fix:** Fix `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
 * **Fix:** Fix Get Team Info For Target silently crashing
+{.changelog-fixes}
+
 * **Update:** New Twitch scopes requested
 * **Update:** Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
 * **Update:** Extend First Chat event to YouTube
+{.changelog-updates}
+
+* **New:** Test
+{.changelog-new}
 
 ## Twitch New Scopes
 
