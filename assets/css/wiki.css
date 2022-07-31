@@ -460,32 +460,43 @@ h6::after {
 .v-main .contents ul.changelog-new {
   padding-left: 0 !important;
 }
+.v-main .contents ul.changelog-fixes > li,
+.v-main .contents ul.changelog-updates > li,
+.v-main .contents ul.changelog-new > li {
+  padding-left: calc(75px + .5rem) !important;
+}
 .v-main .contents ul.changelog-fixes > li::before,
 .v-main .contents ul.changelog-updates > li::before,
 .v-main .contents ul.changelog-new > li::before {
   display: inline-block !important;
-  position: relative !important;
+  position: absolute !important;
   color: #FFF !important;
-  left: initial !important;
+  left: 0 !important;
   width: 75px !important;
   text-align: center;
   margin-right: .5rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 1px solid #1e2c37;
-  padding: 0rem 1rem .1rem 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  border-right: 2px solid #0e0e0e;
+  padding: 0rem 1rem;
+  margin-top: 3px;
   align-self: center;
 }
 .v-main .contents ul.changelog-fixes > li::before {
   content: 'Fix' !important;
-  background-color: #FF4081;
+  background-color: #382424 !important;
+  border-color: #D81B60 !important;
+  color: #FFCDD2 !important;
 }
 .v-main .contents ul.changelog-updates > li::before {
   content: 'Update' !important;
-  background-color: #448AFF;
+  background-color: #1e2c37 !important;
+  border-color: #2196f3 !important;
+  color: #81D4FA !important;
 }
 .v-main .contents ul.changelog-new > li::before {
   content: 'New' !important;
-  background-color: #00C853;
+  background-color: #232f23 !important;
+  border-color: #4caf50 !important;
+  color: #A5D6A7 !important;
 }
