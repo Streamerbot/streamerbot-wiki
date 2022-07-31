@@ -2,13 +2,15 @@
 title: String
 description: 
 published: true
-date: 2022-07-31T22:58:41.206Z
+date: 2022-07-31T23:01:34.859Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
 ---
 
 <h1 class="mdi mdi-format-quote-open primary--text"> String</h1>
+
+---
 
 ## Overview
 
@@ -26,7 +28,7 @@ A string is text and surrounded with `Quotation marks`
 
 <h2 class="mdi mdi-currency-usd primary--text"> USD Dollar Symbol</h2>
 
-If you put a USD dollar symbol before the quotes you can use variables. You need to put brackets around the `{variable}`
+If you put a USD dollar symbol before the quotation marks you can use variables. You need to put brackets around the `{variable}`
 
 ## Examples {.tabset}
 ### Example 1
