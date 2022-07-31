@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-31T02:14:27.104Z
+date: 2022-07-31T13:10:54.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -59,14 +59,14 @@ DESCRIPTION{.subtitle}
 * [**GetSceneList *Gets an array of all scenes in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneList)
 * [**GetGroupList *Gets an array of all groups in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetGroupList)
 * [**GetCurrentProgramScene *Gets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentProgramScene)
-* [**SetCurrentProgramScene *Sets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentProgramScene){.disabled}
-* [**GetCurrentPreviewScene *Gets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentPreviewScene){.disabled}
-* [**SetCurrentPreviewScene *Sets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentPreviewScene){.disabled}
-* [**CreateScene *Creates a new scene in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/CreateScene){.disabled}
-* [**RemoveScene *Removes a scene from OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/RemoveScene){.disabled}
-* [**SetSceneName *Sets the name of a scene (rename)***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneName){.disabled}
-* [**GetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneSceneTransitionOverride){.disabled}
-* [**SetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneSceneTransitionOverride){.disabled}
+* [**SetCurrentProgramScene *Sets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentProgramScene)
+* [**GetCurrentPreviewScene *Gets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentPreviewScene)
+* [**SetCurrentPreviewScene *Sets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentPreviewScene)
+* [**CreateScene *Creates a new scene in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/CreateScene)
+* [**RemoveScene *Removes a scene from OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/RemoveScene)
+* [**SetSceneName *Sets the name of a scene (rename)***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneName)
+* [**GetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneSceneTransitionOverride)
+* [**SetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneSceneTransitionOverride)
 {.btn-grid .my-5}
 
 ## Input Requests
