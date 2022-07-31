@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-07-29T04:43:17.396Z
+date: 2022-07-31T22:20:03.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -22,7 +22,7 @@ A date and time format string defines the text representation of a `System.DateT
 
 In formatting operations, custom date and time format strings can be used either with the `ToString` method of a date and time instance or with a method that supports composite formatting. The following example illustrates both uses.
 
-To use this in a [C# Available Method](/en/Sub-Actions/Code/Execute-CSharp-Code/Available-Methods) you need to use something like `.ToString()`
+To use this in a your code you probably need to use something like `.ToString()`
 
 ## Table of Date and Time format strings
 The following table describes the custom date and time format specifiers and displays a result string produced by each format specifier. By default, result strings reflect the formatting conventions of the en-US culture. If a particular format specifier produces a localized result string, the example also notes the culture to which the result string applies.
