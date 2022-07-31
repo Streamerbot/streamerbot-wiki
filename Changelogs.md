@@ -509,27 +509,32 @@ Set the command of a Voice Control Command to the value specified, supports pars
 
 
 # Streamer.bot v0.1.7
-* **Fixed:** Get/Set Action State sub-action had incorrect title in dialog
-* **Fixed:** OBS Set Replay Buffer state was using incorrect data, should work correctly now
-* **Fixed:** Fix typo in Logic if
-* **Fixed:** Voice control commands will delete correctly now if it's not active
-* **Fixed:** Set Media Source should set a local file correctly now
-* **Fixed:** /me no longer causes issues with Twitch emote parsing
-* **Fixed:** 7TV DNS resolution failures should no longer cause a startup crash
-* **Fixed:** GetClips should be working correctly now when specifying date ranges
+* Get/Set Action State sub-action had incorrect title in dialog
+* OBS Set Replay Buffer state was using incorrect data, should work correctly now
+* Fix typo in Logic if
+* Voice control commands will delete correctly now if it's not active
+* Set Media Source should set a local file correctly now
+* /me no longer causes issues with Twitch emote parsing
+* 7TV DNS resolution failures should no longer cause a startup crash
+* GetClips should be working correctly now when specifying date ranges
+{.changelog-fixes}
 
 > With the addition to being able to specify date ranges/counts for clips, they are no longer returned in newest to oldest, they are returned oldest to newest, as this is how the Twitch API returns the data.  There is no mechanism in the API to change the sort order.  Wiki entries will be updated to indicate this
 {.is-info}
 
-* **Update:** Command cooldown action now applies to any command type, instead of exact/start only
-* **Update:** FetchURL is now type aware, the variable the result is put into will attempt to match its contents to the proper type, this is an interm update until more can be done.  If you want explicit control, use C# to fetch data
-* **Update:** Updated Newtonsoft.Json library to 13.0.1
+* Command cooldown action now applies to any command type, instead of exact/start only
+* FetchURL is now type aware, the variable the result is put into will attempt to match its contents to the proper type, this is an interm update until more can be done.  If you want explicit control, use C# to fetch data
+* Updated Newtonsoft.Json library to 13.0.1
+{.changelog-updates}
+
 
 # Streamer.bot v0.1.6
-* **Fixed:** Changing category would cause a crash
-* **Fixed:** Clearing chat caused the Banned event to fire
-* **Fixed:** Multi-word commands are now checked correctly
-* **Fixed:** Custom websocket server would crash when the connection was terminated
+* Changing category would cause a crash
+* Clearing chat caused the Banned event to fire
+* Multi-word commands are now checked correctly
+* Custom websocket server would crash when the connection was terminated
+{.changelog-fixes}
+
 
 # Archives
 View changelogs for older versions here{.subtitle}
