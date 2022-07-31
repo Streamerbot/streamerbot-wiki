@@ -14,7 +14,7 @@ Creates a new scene in OBS.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Name for the new scene	
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name for the new scene	
 
 ## Data Fields
 :---|:---:|

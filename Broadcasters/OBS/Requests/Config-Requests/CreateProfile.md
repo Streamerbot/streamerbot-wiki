@@ -14,7 +14,7 @@ Creates a new profile, switching to it in the process
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`profileName` | `String`{.datatype} | `True`{.datatype} | Name for the new profile
+`profileName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name for the new profile
 
 ## Data Fields
 :---|:---:|

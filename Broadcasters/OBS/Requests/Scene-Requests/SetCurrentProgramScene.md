@@ -14,7 +14,7 @@ Sets the current program scene.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Scene to set as the current program scene
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Scene to set as the current program scene
 
 ## Data Fields
 :---|:---:|

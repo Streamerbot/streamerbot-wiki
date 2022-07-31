@@ -14,8 +14,8 @@ Sets the name of a scene (rename).
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Name of the scene to be renamed
-`newSceneName` | `String`{.datatype} | `True`{.datatype} | New name for the scene	
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene to be renamed
+`newSceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | New name for the scene	
 
 ## Data Fields
 :---|:---:|

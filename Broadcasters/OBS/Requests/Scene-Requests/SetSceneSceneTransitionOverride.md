@@ -14,9 +14,9 @@ Gets the scene transition overridden for a scene.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Name of the scene
-`transitionName` | `String`{.datatype} | `False`{.datatype} | Name of the scene transition to use as override. Specify `null` to remove
-`transitionDuration` | `Number`{.datatype} | `False`{.datatype} | Duration to use for any overridden transition. Specify `null` to remove | >= 50, <= 20000
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene
+`transitionName` | `String`{.datatype} |  | Name of the scene transition to use as override. Specify `null` to remove
+`transitionDuration` | `Number`{.datatype} |  | Duration to use for any overridden transition. Specify `null` to remove | >= 50, <= 20000
 
 ## Data Fields
 :---|:---:|

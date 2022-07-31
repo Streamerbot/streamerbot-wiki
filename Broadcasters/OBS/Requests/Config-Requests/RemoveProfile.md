@@ -14,7 +14,7 @@ Removes a profile. If the current profile is chosen, it will change to a differe
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`profileName` | `String`{.datatype} | `True`{.datatype} | Name of the profile to remove
+`profileName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the profile to remove
 
 ## Data Fields
 :---|:---:|

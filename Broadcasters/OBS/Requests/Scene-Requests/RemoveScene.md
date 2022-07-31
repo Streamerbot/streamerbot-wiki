@@ -14,7 +14,7 @@ Removes a scene from OBS.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Name of the scene to remove	
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene to remove	
 
 ## Data Fields
 :---|:---:|

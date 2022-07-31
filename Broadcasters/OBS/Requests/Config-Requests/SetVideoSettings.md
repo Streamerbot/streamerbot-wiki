@@ -16,12 +16,12 @@ Note: Fields must be specified in pairs. For example, you cannot set only `baseW
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`fpsNumerator` | `Number`{.datatype} | `False`{.datatype} | Numerator of the fractional FPS value	 | `>= 1`{.datatype}
-`fpsDenominator` | `Number`{.datatype} | `False`{.datatype} | Denominator of the fractional FPS value	 | `>= 1	`{.datatype}
-`baseWidth` | `Number`{.datatype} | `False`{.datatype} | Width of the base (canvas) resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
-`baseHeight` | `Number`{.datatype} | `False`{.datatype} | Height of the base (canvas) resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
-`outputWidth` | `Number`{.datatype} | `False`{.datatype} | Width of the output resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
-`outputHeight` | `Number`{.datatype} | `False`{.datatype} | Height of the output resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
+`fpsNumerator` | `Number`{.datatype} |  | Numerator of the fractional FPS value	 | `>= 1`{.datatype}
+`fpsDenominator` | `Number`{.datatype} |  | Denominator of the fractional FPS value	 | `>= 1	`{.datatype}
+`baseWidth` | `Number`{.datatype} |  | Width of the base (canvas) resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
+`baseHeight` | `Number`{.datatype} |  | Height of the base (canvas) resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
+`outputWidth` | `Number`{.datatype} |  | Width of the output resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
+`outputHeight` | `Number`{.datatype} |  | Height of the output resolution in pixels	 | `>= 1, <= 4096	`{.datatype}
 
 ## Data Fields
 :---|:---:|

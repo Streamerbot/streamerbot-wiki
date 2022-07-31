@@ -14,7 +14,7 @@ Gets the scene transition overridden for a scene.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | `True`{.datatype} | Name of the scene
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene
 
 ## Variables
 Name | Type | Description | 

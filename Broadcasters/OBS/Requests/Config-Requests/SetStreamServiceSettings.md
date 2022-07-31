@@ -16,8 +16,8 @@ Note: Simple RTMP settings can be set with type `rtmp_custom` and the settings f
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`streamServiceType` | `String`{.datatype} | `True`{.datatype} | Type of stream service to apply e.g. `rtmp_common` or `rtmp_custom`
-`streamServiceSettings` | `Object`{.datatype} | `True`{.datatype} | Settings to apply to the service
+`streamServiceType` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Type of stream service to apply e.g. `rtmp_common` or `rtmp_custom`
+`streamServiceSettings` | `Object`{.datatype} | <i class="mdi mdi-check"></i> | Settings to apply to the service
 
 ## Data Fields
 :---|:---:|

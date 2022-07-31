@@ -14,7 +14,7 @@ Switches to a profile.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`profileName` | `String`{.datatype} | `True`{.datatype} | Name of the profile to switch to
+`profileName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the profile to switch to
 
 ## Data Fields
 :---|:---:|

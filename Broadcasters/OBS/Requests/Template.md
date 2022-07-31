@@ -14,8 +14,8 @@ DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`Name` | `datatype`{.datatype} | `True`{.datatype} | Description
-`Name` | `datatype`{.datatype} | `True`{.datatype} | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check"></i> | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check"></i> | Description
 
 ## Variables
 Name | Type | Description | 

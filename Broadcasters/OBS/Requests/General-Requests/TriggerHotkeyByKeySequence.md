@@ -14,12 +14,12 @@ Triggers a hotkey using a sequence of keys.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`keyId` | `String`{.datatype} | `False`{.datatype} | The OBS key ID to use. See [this](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h)
-`keyModifiers` | `Object`{.datatype} | `False`{.datatype} | Object containing key modifiers to apply
-`keyModifiers.shift` | `Boolean`{.datatype} | `False`{.datatype} | Press Shift
-`keyModifiers.control` | `Boolean`{.datatype} | `False`{.datatype} | Press CTRL
-`keyModifiers.alt` | `Boolean`{.datatype} | `False`{.datatype} | Press ALT
-`keyModifiers.command` | `Boolean`{.datatype} | `False`{.datatype} | Press CMD (Mac)
+`keyId` | `String`{.datatype} |  | The OBS key ID to use. See [this](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h)
+`keyModifiers` | `Object`{.datatype} |  | Object containing key modifiers to apply
+`keyModifiers.shift` | `Boolean`{.datatype} |  | Press Shift
+`keyModifiers.control` | `Boolean`{.datatype} |  | Press CTRL
+`keyModifiers.alt` | `Boolean`{.datatype} |  | Press ALT
+`keyModifiers.command` | `Boolean`{.datatype} |  | Press CMD (Mac)
 
 ## Variables
 Name | Type | Description | 

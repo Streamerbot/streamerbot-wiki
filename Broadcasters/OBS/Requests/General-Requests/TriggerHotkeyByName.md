@@ -16,7 +16,7 @@ Triggers a hotkey using its name. See `GetHotkeyList`
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`hotkeyName` | `String`{.datatype} | `True`{.datatype} | Name of the hotkey to trigger	
+`hotkeyName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the hotkey to trigger	
 
 ## Data Fields
 :---|:---:|

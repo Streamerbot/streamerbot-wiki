@@ -18,11 +18,11 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sourceName` | `String`{.datatype} | `True`{.datatype} | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | `True`{.datatype} | Image compression format to use. Use `GetVersion` to get compatible image formats
-`imageWidth` | `Number`{.datatype} | `False`{.datatype} | Width to scale the screenshot to | >= 8, <= 4096
-`imageHeight` | `Number`{.datatype} | `False`{.datatype} | Height to scale the screenshot to	 | >= 8, <= 4096
-`imageCompressionQuality` | `Number`{.datatype} | `False`{.datatype} | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
+`sourceName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the source to take a screenshot of
+`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Image compression format to use. Use `GetVersion` to get compatible image formats
+`imageWidth` | `Number`{.datatype} |  | Width to scale the screenshot to | >= 8, <= 4096
+`imageHeight` | `Number`{.datatype} |  | Height to scale the screenshot to	 | >= 8, <= 4096
+`imageCompressionQuality` | `Number`{.datatype} |  | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | >= -1, <= 100
 
 ## Variables
 Name | Type | Description | 

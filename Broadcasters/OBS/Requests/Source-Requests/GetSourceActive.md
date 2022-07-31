@@ -16,7 +16,7 @@ Gets the active and show state of a source.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sourceName` | `String`{.datatype} | `True`{.datatype} | Name of the source to get the active state of
+`sourceName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the source to get the active state of
 
 ## Variables
 Name | Type | Description | 

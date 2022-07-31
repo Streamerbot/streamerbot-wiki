@@ -16,7 +16,7 @@ Note: This will block until the collection has finished changing.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneCollectionName` | `String`{.datatype} | `True`{.datatype} | Name of the scene collection to switch to
+`sceneCollectionName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene collection to switch to
 
 ## Data Fields
 :---|:---:|
