@@ -49,24 +49,33 @@ When you connect with your bot account, the following new scopes will be request
 
 # Streamer.bot v0.1.10 (Current)
 
-* **Fix:** Fix an issue with authentication for some integrations
-* **Fix:** Fix crash when an else action in an if/else sub-action is not set on export
-* **Fix:** Fix display of if/else sub-action
-* **Fix:** Weighted sub-action option was not being shown correctly, and will also show but be disabled if random is disabled for action or group
-* **Fix:** Visual indicator of how many actions/commands are checked updates properly now
-* **Fix:** Able to type a reason in the Twitch Timeout sub-action now
-* **Fix:** No longer soft errors when getting bits leaderboard, this was not breaking anything
-* **Fix:** Updated UI for Gift Subs to avoid confusion, ranges are gift sub milestones for the gifter
-* **Fix:** Gift Sub and Gift bomb test events when anonymous should work now
-* **Fix:** Importing/Exporting commands clears the persistent counters
-* **Update:** Add a hard limit of how many items are shown in Actions pending/history
-* **Update:** Better handling of primary config on startup and alert if issue detected
-* **Update:** Remove unused check box, Use Bot Account for Messaged in Twitch Accounts tab
-* **New:** Add new option for high volume actions to not be included in Action Queue display
-* **New:** Added 2 new properties to `CPH` class to get the Twitch Client ID, and the Broadcaster's access token
-* **New:** New Twitch event [Ad Run](#twitch-ad-run-event)
-* **New:** Add context menu item for commands to reset counters
-* **New:** Save the UI positioning of the Action/SubAction list in the Actions tab
+* Fix an issue with authentication for some integrations
+* Fix crash when an else action in an if/else sub-action is not set on export
+* Fix display of if/else sub-action
+* Weighted sub-action option was not being shown correctly, and will also show but be disabled if random is disabled for action or group
+* Visual indicator of how many actions/commands are checked updates properly now
+* Able to type a reason in the Twitch Timeout sub-action now
+* No longer soft errors when getting bits leaderboard, this was not breaking anything
+* Updated UI for Gift Subs to avoid confusion, ranges are gift sub milestones for the gifter
+* Gift Sub and Gift bomb test events when anonymous should work now
+* Importing/Exporting commands clears the persistent counters
+{.changelog-fixes}
+
+<span></span>
+
+* Add a hard limit of how many items are shown in Actions pending/history
+* Better handling of primary config on startup and alert if issue detected
+* Remove unused check box, Use Bot Account for Messaged in Twitch Accounts tab
+{.changelog-updates}
+
+<span></span>
+
+* Add new option for high volume actions to not be included in Action Queue display
+* Added 2 new properties to `CPH` class to get the Twitch Client ID, and the Broadcaster's access token
+* New Twitch event [Ad Run](#twitch-ad-run-event)
+* Add context menu item for commands to reset counters
+* Save the UI positioning of the Action/SubAction list in the Actions tab
+{.changelog-new}
 
 ## New C# Properties
 
