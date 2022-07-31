@@ -453,3 +453,39 @@ h6::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* changelogs */
+.v-main .contents ul.changelog-fixes,
+.v-main .contents ul.changelog-updates,
+.v-main .contents ul.changelog-new {
+  padding-left: 0 !important;
+}
+.v-main .contents ul.changelog-fixes > li::before,
+.v-main .contents ul.changelog-updates > li::before,
+.v-main .contents ul.changelog-new > li::before {
+  display: inline-block !important;
+  position: relative !important;
+  color: #FFF !important;
+  left: initial !important;
+  width: 75px !important;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px solid #1e2c37;
+  padding: 0rem 1rem .1rem 1rem;
+  align-self: center;
+}
+.v-main .contents ul.changelog-fixes > li::before {
+  content: 'Fix' !important;
+  background-color: #FF4081;
+}
+.v-main .contents ul.changelog-updates > li::before {
+  content: 'Update' !important;
+  background-color: #448AFF;
+}
+.v-main .contents ul.changelog-new > li::before {
+  content: 'New' !important;
+  background-color: #00C853;
+}
