@@ -2,7 +2,7 @@
 title: String
 description: 
 published: true
-date: 2022-07-31T23:01:34.859Z
+date: 2022-07-31T23:02:06.224Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
@@ -26,7 +26,7 @@ A string is text and surrounded with `Quotation marks`
 "I stream every Monday to Thursday"
 ```
 
-<h2 class="mdi mdi-currency-usd primary--text"> USD Dollar Symbol</h2>
+## $ USD Dollar Symbol
 
 If you put a USD dollar symbol before the quotation marks you can use variables. You need to put brackets around the `{variable}`
 
