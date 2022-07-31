@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T17:56:08.990Z
+date: 2022-07-31T17:56:25.995Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -546,7 +546,7 @@ Released 2021-12-27{.subtitle}
 
 
 # Archives
-View changelogs for older versions here{.subtitle}
+View changelogs for older releases{.subtitle}
 
 * [Streamer.bot 0.1.5](/en/Changelogs/Archives/Version-015)
 * [Streamer.bot 0.1.4](/en/Changelogs/Archives/Version-014)
