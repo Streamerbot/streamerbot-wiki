@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T16:58:05.579Z
+date: 2022-07-31T17:14:25.225Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -35,17 +35,17 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 When you connect with your broadcaster account, the following new scopes will be requested
 
-* moderator:manage:announcements
-* channel:manage:moderators
-* channel:manage:vips
-* user:manage:whispers
-{.links-list}
+* `moderator:manage:announcements`
+* `channel:manage:moderators`
+* `channel:manage:vips`
+* `user:manage:whispers`
+{.grid-list}
 
 When you connect with your bot account, the following new scopes will be requested
 
-* moderator:manage:announcements
-* user:manage:whispers
-{.links-list}
+* `moderator:manage:announcements`
+* `user:manage:whispers`
+{.grid-list}
 
 # Streamer.bot v0.1.10 (Current)
 
