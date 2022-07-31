@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-31T00:10:01.692Z
+date: 2022-07-31T02:14:27.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -56,9 +56,9 @@ DESCRIPTION{.subtitle}
 {.btn-grid .my-5}
 
 ## Scene Requests
-* [**GetSceneList *Gets an array of all scenes in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneList){.disabled}
-* [**GetGroupList *Gets an array of all groups in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetGroupList){.disabled}
-* [**GetCurrentProgramScene *Gets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentProgramScene){.disabled}
+* [**GetSceneList *Gets an array of all scenes in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneList)
+* [**GetGroupList *Gets an array of all groups in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetGroupList)
+* [**GetCurrentProgramScene *Gets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentProgramScene)
 * [**SetCurrentProgramScene *Sets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentProgramScene){.disabled}
 * [**GetCurrentPreviewScene *Gets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentPreviewScene){.disabled}
 * [**SetCurrentPreviewScene *Sets the current preview scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetCurrentPreviewScene){.disabled}
