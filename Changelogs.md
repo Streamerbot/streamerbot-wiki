@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-31T20:35:08.543Z
+date: 2022-07-31T21:03:49.309Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,7 +22,7 @@ Upcoming changes in the next release!{.subtitle}
 
 <span></span>
 
-* New Twitch scopes requested
+* New [Twitch scopes](#twitch-new-scopes) requested
 * Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
 * Extend First Chat event to YouTube
 {.changelog-updates}
