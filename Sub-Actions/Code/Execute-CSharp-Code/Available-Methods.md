@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-07-30T16:32:01.311Z
+date: 2022-07-31T13:57:45.460Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -382,10 +382,10 @@ bool SetChannelGameById(string gameId);
 ```
 
 ## Announcement
-> Requires minimum version 0.1.9
+> Requires minimum version 0.1.9, and minimum version 0.1.11 for colors
 {.is-info}
 
-> Even though the color parameter is present, currently, due to a Twitch limitation, only null is supported, this will use the default announce command.  When Twitch fixes this, supported values will be `blue`, `orange`, `green`, `purple`
+> Even though the color parameter is present, currently, it's only available in *v0.1.11*{.version-badge} for versions below *v0.1.11*{.version-badge} only null is supported, this will use the default announce command. supported values are `blue`, `orange`, `green`, `purple`
 {.is-warning}
 
 ```csharp
