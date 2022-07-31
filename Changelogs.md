@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-07-30T18:29:26.329Z
+date: 2022-07-31T13:59:37.945Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 * **Fix:** Commands in an import will be disabled by default, this is more of a security precaution
 * **Fix:** Action updates were not properly being sent to the Streamer.bot website for decks
-* **Fix:** Fix Pyramids not resetting correctly if a single emote is used after a previouos single emote
+* **Fix:** Fix Pyramids not resetting correctly if a single emote is used after a previous single emote
 * **Fix:** Fix Twitch Reward Set Global Cooldown sub-action, properly lists rewards now
 * **Fix:** Fix crash when using <kbd>Ctrl+C</kbd> on a group in an action
 * **Fix:** Fix `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
