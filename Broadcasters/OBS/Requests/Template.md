@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-01T02:58:30.543Z
+date: 2022-08-01T02:59:24.761Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -14,8 +14,8 @@ DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i></i> | Description
-`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i></i> | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i> | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i> | Description
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-close-thick"></i> | Description
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-close-thick"></i> | Description
 
