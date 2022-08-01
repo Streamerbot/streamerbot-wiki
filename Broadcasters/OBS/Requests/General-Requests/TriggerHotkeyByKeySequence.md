@@ -2,7 +2,7 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T01:30:08.255Z
+date: 2022-08-01T02:20:31.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
@@ -14,12 +14,12 @@ Triggers a hotkey using a sequence of keys.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`keyId` | `String`{.datatype} |  | The OBS key ID to use. See [this](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h)
-`keyModifiers` | `Object`{.datatype} |  | Object containing key modifiers to apply
-`keyModifiers.shift` | `Boolean`{.datatype} |  | Press Shift
-`keyModifiers.control` | `Boolean`{.datatype} |  | Press CTRL
-`keyModifiers.alt` | `Boolean`{.datatype} |  | Press ALT
-`keyModifiers.command` | `Boolean`{.datatype} |  | Press CMD (Mac)
+`keyId` | `String`{.datatype} | <i class="mdi mdi-close-thick"></i> | The OBS key ID to use. See [this](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h)
+`keyModifiers` | `Object`{.datatype} | <i class="mdi mdi-close-thick"></i> | Object containing key modifiers to apply
+`keyModifiers.shift` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press Shift
+`keyModifiers.control` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press CTRL
+`keyModifiers.alt` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press ALT
+`keyModifiers.command` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press CMD (Mac)
 
 ## Variables
 Name | Type | Description | 
