@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-01T04:31:24.883Z
+date: 2022-08-01T04:31:34.955Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -929,7 +929,6 @@ void CommandAddToAllUserCooldowns(string id, int seconds);
 # Archives
 View changelogs for older releases{.subtitle}
 
-* [Streamer.bot 0.1.5](/en/Changelogs/Archives/Version-015)
 * [Streamer.bot 0.1.4](/en/Changelogs/Archives/Version-014)
 * [Streamer.bot 0.1.3](/en/Changelogs/Archives/Version-013)
 * [Streamer.bot 0.1.2](/en/Changelogs/Archives/Version-012)
