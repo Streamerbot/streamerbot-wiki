@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-01T04:31:45.863Z
+date: 2022-08-01T04:33:14.660Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -575,6 +575,8 @@ Released 2021-12-25{.subtitle}
 *  Custom websocket server firing incorrect actions
 {.changelog-fixes}
 
+<span></span>
+
 *  [Delay](#delay-sub-action) sub-action can now accept variables
 *  Twitch Slow Mode sub-action (and C# method) has been updated to allow specifiying the delay time
 *  Update [Twitch Clip C# Methods](#twitch-clip-c-methods) related methods, see section for more details
@@ -593,6 +595,8 @@ Released 2021-12-25{.subtitle}
 *  Setting auto reset first words cache time to -1 will disable this check on startup
 *  Alter how commands start with check is performed, so a command of `!so` wouldn't trigger on `!socials`
 {.changelog-updates}
+
+<span></span>
 
 *  New sub-action to set the [OBS Replay Buffer State](#obs-replay-buffer-state), as well as C# methods
 *  Added 2 new [C# Methods](#obs-color-helpers) to translate colors to OBS color
