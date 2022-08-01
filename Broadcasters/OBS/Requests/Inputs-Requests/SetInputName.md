@@ -2,14 +2,14 @@
 title: SetInputName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-01T03:20:18.286Z
+date: 2022-08-01T03:21:37.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:20:18.286Z
 ---
 
 ## Overview
-DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+Sets the name of an input (rename).
 
 ## Request Fields
 Name | Type | Required| Description |
