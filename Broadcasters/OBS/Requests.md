@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-07-31T22:05:00.920Z
+date: 2022-08-01T04:07:49.357Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -70,16 +70,16 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Input Requests
-* [**GetInputList *Gets an array of all inputs in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputList){.disabled}
-* [**GetInputKindList *Gets an array of all available input kinds in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputKindList){.disabled}
-* [**GetSpecialInputs *Gets the names of all special inputs***](/en/Broadcasters/OBS/Requests/Input-Requests/GetSpecialInputs){.disabled}
-* [**CreateInput *Creates a new input, adding it as a scene item to the specified scene***](/en/Broadcasters/OBS/Requests/Input-Requests/CreateInput){.disabled}
-* [**RemoveInput *Removes an existing input***](/en/Broadcasters/OBS/Requests/Input-Requests/RemoveInput){.disabled}
-* [**SetInputName *Sets the name of an input (rename)***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputName){.disabled}
-* [**GetInputDefaultSettings *Gets the default settings for an input kind***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputDefaultSettings){.disabled}
-* [**GetInputSettings *Gets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputSettings){.disabled}
-* [**SetInputSettings *Sets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputSettings){.disabled}
-* [**GetInputMute *Gets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputMute){.disabled}
+* [**GetInputList *Gets an array of all inputs in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputList)
+* [**GetInputKindList *Gets an array of all available input kinds in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputKindList)
+* [**GetSpecialInputs *Gets the names of all special inputs***](/en/Broadcasters/OBS/Requests/Input-Requests/GetSpecialInputs)
+* [**CreateInput *Creates a new input, adding it as a scene item to the specified scene***](/en/Broadcasters/OBS/Requests/Input-Requests/CreateInput)
+* [**RemoveInput *Removes an existing input***](/en/Broadcasters/OBS/Requests/Input-Requests/RemoveInput)
+* [**SetInputName *Sets the name of an input (rename)***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputName)
+* [**GetInputDefaultSettings *Gets the default settings for an input kind***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputDefaultSettings)
+* [**GetInputSettings *Gets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputSettings)
+* [**SetInputSettings *Sets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputSettings)
+* [**GetInputMute *Gets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputMute)
 * [**SetInputMute *Sets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputMute){.disabled}
 * [**ToggleInputMute *Toggles the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/ToggleInputMute){.disabled}
 * [**GetInputVolume *Gets the current volume setting of an input.***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputVolume){.disabled}
