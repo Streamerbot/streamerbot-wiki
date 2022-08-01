@@ -43,9 +43,9 @@ Added in | *v5.0.0*{.obs-version-badge}
   "sourceName": "",
   "imageFormat": "",
   "imageFilePath": "",
-  "imageWidth": "",
-  "imageHeight": "",
-  "imageCompressionQuality": ""
+  "imageWidth": ,
+  "imageHeight": ,
+  "imageCompressionQuality": 
 }
 ```
 

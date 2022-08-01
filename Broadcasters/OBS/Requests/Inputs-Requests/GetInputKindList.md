@@ -31,7 +31,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "request-type": "GetInputKindList",
-  "unversioned": ""
+  "unversioned": 
 }
 ```
 

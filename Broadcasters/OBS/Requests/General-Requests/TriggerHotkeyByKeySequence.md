@@ -38,11 +38,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "request-type": "TriggerHotkeyByKeySequence",
   "keyId": "",
-  "keyModifiers": "",
-  "keyModifiers.shift": "",
-  "keyModifiers.control": "",
-  "keyModifiers.alt": "",
-  "keyModifiers.command": ""
+  "keyModifiers": {"": ""},
+  "keyModifiers.shift": ,
+  "keyModifiers.control": ,
+  "keyModifiers.alt": ,
+  "keyModifiers.command": 
 }
 ```
 

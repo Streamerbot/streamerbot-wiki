@@ -33,12 +33,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "request-type": "SetVideoSettings",
-  "fpsNumerator": "",
-  "fpsDenominator": "",
-  "baseWidth": "",
-  "baseHeight": "",
-  "outputWidth": "",
-  "outputHeight": ""
+  "fpsNumerator": ,
+  "fpsDenominator": ,
+  "baseWidth": ,
+  "baseHeight": ,
+  "outputWidth": ,
+  "outputHeight": 
 }
 ```
 

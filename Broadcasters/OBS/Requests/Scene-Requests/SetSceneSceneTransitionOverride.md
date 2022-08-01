@@ -30,7 +30,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "request-type": "SetSceneSceneTransitionOverride",
   "sceneName": "",
   "transitionName": "",
-  "transitionDuration": ""
+  "transitionDuration": 
 }
 ```
 

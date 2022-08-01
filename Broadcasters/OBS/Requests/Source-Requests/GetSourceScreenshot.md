@@ -41,9 +41,9 @@ Added in | *v5.0.0*{.obs-version-badge}
   "request-type": "GetSourceScreenshot",
   "sourceName": "",
   "imageFormat": "",
-  "imageWidth": "",
-  "imageHeight": "",
-  "imageCompressionQuality": ""
+  "imageWidth": ,
+  "imageHeight": ,
+  "imageCompressionQuality": 
 }
 ```
 
