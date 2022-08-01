@@ -14,8 +14,8 @@ DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i> | Description
-`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i> | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i>></i> | Description
+`Name` | `datatype`{.datatype} | <i class="mdi mdi-check-bold"></i>></i> | Description
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-close-thick"></i> | Description
 `Name` | `datatype`{.datatype} | <i class="mdi mdi-close-thick"></i> | Description
 

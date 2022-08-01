@@ -18,8 +18,8 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sourceName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Image compression format to use. Use `GetVersion` to get compatible image formats
+`sourceName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Name of the source to take a screenshot of
+`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Image compression format to use. Use `GetVersion` to get compatible image formats
 `imageWidth` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Width to scale the screenshot to | `>= 8, <= 4096`{.datatype}
 `imageHeight` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Height to scale the screenshot to	 | `>= 8, <= 4096`{.datatype}
 `imageCompressionQuality` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | `>= -1, <= 100`{.datatype}

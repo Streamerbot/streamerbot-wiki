@@ -16,7 +16,7 @@ Only available when studio mode is enabled.
 ## Request Fields
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
-`sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Scene to set as the current preview scene	
+`sceneName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Scene to set as the current preview scene	
 
 ## Data Fields
 :---|:---:|
