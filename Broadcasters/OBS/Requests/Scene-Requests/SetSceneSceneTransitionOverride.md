@@ -2,7 +2,7 @@
 title: SetSceneSceneTransitionOverride
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T13:10:17.178Z
+date: 2022-08-01T02:22:09.020Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T13:10:17.178Z
@@ -15,8 +15,8 @@ Gets the scene transition overridden for a scene.
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `sceneName` | `String`{.datatype} | <i class="mdi mdi-check"></i> | Name of the scene
-`transitionName` | `String`{.datatype} |  | Name of the scene transition to use as override. Specify `null` to remove
-`transitionDuration` | `Number`{.datatype} |  | Duration to use for any overridden transition. Specify `null` to remove | >= 50, <= 20000
+`transitionName` | `String`{.datatype} | <i class="mdi mdi-close-thick"></i> | Name of the scene transition to use as override. Specify `null` to remove
+`transitionDuration` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Duration to use for any overridden transition. Specify `null` to remove | >= 50, <= 20000
 
 ## Data Fields
 :---|:---:|
