@@ -2,7 +2,7 @@
 title: String
 description: Information and Examples about the string data type
 published: true
-date: 2022-08-02T09:28:03.579Z
+date: 2022-08-02T09:37:39.487Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
@@ -39,3 +39,10 @@ $"A massive shoutout to {targetUser} follow them at twitch.tv/{targetUserName} t
 ```csharp
 $"This command has been used {counter} times"
 ```
+
+## 
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/File)
+{.btn-grid .mt-10}
