@@ -2,7 +2,7 @@
 title: GetInputAudioMonitorType
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-02T07:46:11.809Z
+date: 2022-08-02T07:51:11.932Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T07:46:11.809Z
@@ -14,9 +14,7 @@ Gets the audio monitor type of an input.
 The available audio monitor types are:
 
 * `OBS_MONITORING_TYPE_NONE`
-
 * `OBS_MONITORING_TYPE_MONITOR_ONLY`
-
 * `OBS_MONITORING_TYPE_MONITOR_AND_OUTPUT`
 
 ## Request Fields
