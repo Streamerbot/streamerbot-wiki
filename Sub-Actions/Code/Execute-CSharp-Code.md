@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-07-03T02:26:02.317Z
+date: 2022-08-02T09:40:10.428Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -119,3 +119,8 @@ I will provide some samples for folks to use here
 {.links-list}
 
 <p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/videoseries?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+{.btn-grid .mt-10}
