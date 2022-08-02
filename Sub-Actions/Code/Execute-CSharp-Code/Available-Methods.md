@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-07-31T13:57:45.460Z
+date: 2022-08-02T09:40:26.541Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -661,3 +661,8 @@ bool VoiceModGetVoiceChangerStatus();
 ```csharp
 bool VoiceModGetHearMyselfStatus();
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+{.btn-grid .mt-10}
