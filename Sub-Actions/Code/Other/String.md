@@ -1,8 +1,8 @@
 ---
-title: String
+title: Information about the string datatype
 description: 
 published: true
-date: 2022-08-02T08:07:46.556Z
+date: 2022-08-02T08:08:14.456Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
