@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-01T04:07:49.357Z
+date: 2022-08-02T06:32:01.903Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -80,12 +80,12 @@ Requests related to sources{.subtitle}
 * [**GetInputSettings *Gets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputSettings)
 * [**SetInputSettings *Sets the settings of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputSettings)
 * [**GetInputMute *Gets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputMute)
-* [**SetInputMute *Sets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputMute){.disabled}
-* [**ToggleInputMute *Toggles the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/ToggleInputMute){.disabled}
-* [**GetInputVolume *Gets the current volume setting of an input.***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputVolume){.disabled}
-* [**SetInputVolume *Sets the volume setting of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputVolume){.disabled}
-* [**GetInputAudioBalance *Gets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioBalance){.disabled}
-* [**SetInputAudioBalance *Sets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioBalance){.disabled}
+* [**SetInputMute *Sets the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputMute)
+* [**ToggleInputMute *Toggles the audio mute state of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/ToggleInputMute)
+* [**GetInputVolume *Gets the current volume setting of an input.***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputVolume)
+* [**SetInputVolume *Sets the volume setting of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputVolume)
+* [**GetInputAudioBalance *Gets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioBalance)
+* [**SetInputAudioBalance *Sets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioBalance)
 * [**GetInputAudioSyncOffset *Gets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioSyncOffset){.disabled}
 * [**SetInputAudioSyncOffset *Sets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioSyncOffset){.disabled}
 * [**GetInputAudioMonitorType *Gets the audio monitor type of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioMonitorType){.disabled}
