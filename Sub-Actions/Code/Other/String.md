@@ -1,8 +1,8 @@
 ---
-title: <h1 class="mdi mdi-format-quote-open primary--text"> String</i>
-description: 
+title: String
+description: Information and Examples about the string data type
 published: true
-date: 2022-08-02T08:08:59.150Z
+date: 2022-08-02T08:09:57.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
