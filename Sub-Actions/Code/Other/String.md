@@ -2,13 +2,13 @@
 title: String
 description: 
 published: true
-date: 2022-07-31T23:06:31.488Z
+date: 2022-08-02T08:07:46.556Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
 ---
 
-<h1 class="mdi mdi-format-quote-open primary--text"> String</h1>
+<h2 class="mdi mdi-format-quote-open primary--text"> String</h2>
 
 ---
 
