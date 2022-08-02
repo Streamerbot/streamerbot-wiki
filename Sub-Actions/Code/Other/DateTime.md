@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-08-02T08:12:56.456Z
+date: 2022-08-02T08:14:23.824Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -17,7 +17,6 @@ dateCreated: 2022-07-27T23:41:16.498Z
 > The links don't work yet.
 {.is-warning}
 
-## Custom date and time format strings
 ### Native
 With the variable %time% you can display the date/time in your action e.g. in a text source, in a send message to channel sub-action
 
