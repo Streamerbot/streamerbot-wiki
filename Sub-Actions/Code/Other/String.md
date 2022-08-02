@@ -2,13 +2,13 @@
 title: String
 description: Information and Examples about the string data type
 published: true
-date: 2022-08-02T08:09:57.734Z
+date: 2022-08-02T08:11:56.506Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
 ---
 
-<h2 class="mdi mdi-format-quote-open primary--text"> String</h2>
+ <font size="+3" class="mdi mdi-format-quote-open primary--text"> String</font>
 
 ---
 
