@@ -2,7 +2,7 @@
 title: Boolean
 description: 
 published: true
-date: 2022-08-02T09:26:46.367Z
+date: 2022-08-02T09:39:41.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T23:27:14.258Z
@@ -52,3 +52,10 @@ if (isTest)
 CPH.SendMessage("true")
 }
 ```
+
+## End Tabset {.tabset}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+{.btn-grid .mt-10}
