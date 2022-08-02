@@ -1,14 +1,14 @@
 ---
-title: Arrays
+title: Array
 description: 
 published: true
-date: 2022-08-02T09:27:09.052Z
+date: 2022-08-02T18:08:38.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
 ---
 
-<font size="+3" class="mdi mdi-ab-testing primary--text"><b> Arrays</b></font>
+<font size="+3" class="mdi mdi-ab-testing primary--text"><b> Array</b></font>
 
 
 ---
