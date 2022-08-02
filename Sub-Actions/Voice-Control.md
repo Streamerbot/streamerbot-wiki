@@ -2,7 +2,7 @@
 title: Voice Control Sub-Actions
 description: Reference of all sub-actions for managing Voice Control commands
 published: true
-date: 2022-07-21T03:08:43.468Z
+date: 2022-08-02T16:47:52.832Z
 tags: subactions, voice, voice control
 editor: markdown
 dateCreated: 2022-07-10T19:03:15.855Z
@@ -17,10 +17,6 @@ dateCreated: 2022-07-10T19:03:15.855Z
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<i class="mdi mdi-speaker text--twitch"></i> **TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker/Speak)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-speaker text--twitch"></i> **TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker/Speak)
+{.btn-grid .my-5}
