@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-08-02T09:32:59.754Z
+date: 2022-08-02T09:41:48.682Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -15,7 +15,7 @@ Info about all the C# capabilities that streamer.bot has{.subtitle}
 - [<i class="mdi mdi-language-csharp primary--text"></i> **C# Available Methods *A list of all available C# methods***](/en/Sub-Actions/Code/Execute-CSharp-Code/Available-Methods)
 {.btn-grid .my-5}
 
-## Datatypes
+## Other
 Info about all kind of datatypes that can be used with streamer.bot in C#, OBS raw or native{.subtitle}
 ### Advanced
 - [<i class="mdi mdi-code-braces primary--text"></i>**Object *A detailed explanation about how an object works***](/en/Sub-Actions/Code/Other/Object){.disabled}
