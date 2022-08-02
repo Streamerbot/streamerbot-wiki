@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-08-02T16:38:09.653Z
+date: 2022-08-02T16:52:13.149Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -18,7 +18,7 @@ Basics{.overline}
 - [⬆️ How to Upgrade](/en/Update)
 - [💾 How to Backup](/en/Backup)
 - [🐧 Linux Setup](/en/Linux-Support)
-- [🔊 Twitchspeaker](/en/Twitchspeaker)
+- [🔊 Twitchspeaker](/en/TwitchSpeaker)
 - [Setup Platform: Twitch](/en/Platforms/Twitch)
 - [Setup Platform: YouTube](/en/Platforms/YouTube)
 - [Setup Broadcaster: OBS](/en/Broadcasters/OBS)
