@@ -2,13 +2,14 @@
 title: Arrays
 description: 
 published: true
-date: 2022-07-31T23:02:42.361Z
+date: 2022-08-02T09:27:09.052Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
 ---
 
-<h1 class="mdi mdi-code-array primary--text"> Arrays</h1>
+<font size="+3" class="mdi mdi-ab-testing primary--text"><b> Arrays</b></font>
+
 
 ---
 
