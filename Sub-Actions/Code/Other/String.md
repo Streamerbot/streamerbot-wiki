@@ -2,7 +2,7 @@
 title: String
 description: Information and Examples about the string data type
 published: true
-date: 2022-08-02T09:37:39.487Z
+date: 2022-08-02T09:38:35.496Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z
@@ -40,7 +40,7 @@ $"A massive shoutout to {targetUser} follow them at twitch.tv/{targetUserName} t
 $"This command has been used {counter} times"
 ```
 
-## 
+## End Tabset {.tabset}
 
 ---
 
