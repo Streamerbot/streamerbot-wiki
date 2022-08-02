@@ -2,7 +2,7 @@
 title: Restore a Backup with Streamer.bot
 description: Learn how to restore a backup with Streamer.bot!
 published: true
-date: 2022-08-02T16:04:22.806Z
+date: 2022-08-02T16:05:16.113Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:03:35.013Z
@@ -45,7 +45,7 @@ All the files that are in the backup you can paste in `TwitchSpeaker-[version]/d
 
 After these steps all your voice aliases, settings, etc. will be returned, enjoy!
 
-# Video Tutorial
+## Video Tutorial
 This video is made for streamer.bot but pretty much the same for twitchspeaker{.subtitle}
 
 <small>Thanks to VRFlad for this tutorial!</small>
