@@ -2,7 +2,7 @@
 title: Execute C# Method
 description: 
 published: true
-date: 2021-08-28T02:16:14.766Z
+date: 2022-08-02T09:40:28.030Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:54.418Z
@@ -21,3 +21,8 @@ public bool MethodName()
 }
 ```
 The capabilities of this sub-action maybe extended later.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+{.btn-grid .mt-10}
