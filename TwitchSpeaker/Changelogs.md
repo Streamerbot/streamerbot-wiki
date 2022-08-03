@@ -2,14 +2,10 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T12:16:52.238Z
+date: 2022-08-03T15:06:04.955Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
----
-
-<font size="+3" class="mdi mdi-update text--twitch"><b> Changelogs</b></font>
-
 ---
 
 # TwitchSpeaker v0.0.48 (Current)
