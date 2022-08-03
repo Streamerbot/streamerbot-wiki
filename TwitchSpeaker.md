@@ -2,16 +2,12 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-08-03T14:52:54.578Z
+date: 2022-08-03T14:53:23.662Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
 ---
 
-<font size="+3" class="mdi mdi-speaker text--twitch"><b></b></font><font size="+3"><b> Twitchspeaker Documentation</b></font>
-
-
----
 ## Basics
 - [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade*Learn how to update your TwitchSpeaker installation to the latest version***](/en/TwitchSpeaker/Update)
 - [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup*Learn how to restore a backup with TwitchSpeaker!***](/en/TwitchSpeaker/Backup)
