@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-02T06:32:01.903Z
+date: 2022-08-03T03:59:15.282Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -195,6 +195,9 @@ Requests related to sources{.subtitle}
 * [**OpenSourceProjector *Opens a projector for a source***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenSourceProjector){.disabled}
 {.btn-grid .my-5}
 
+## Pages that need changes
+* SetInputVolume
+{.grid-list}
 ---
 - [<i class="mdi mdi-share"></i> **Share your examples! *If you have example(s) for these requests you can submit it in #unearthed-arcana on the streamer.bot discord, there is a high change it will come on these pages***](https://discord.gg/RCcH54hWck)
 {.btn-grid}
