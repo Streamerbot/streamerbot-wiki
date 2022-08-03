@@ -2,7 +2,7 @@
 title: Twitchspeaker Documentation
 description: 
 published: true
-date: 2022-08-03T04:39:28.048Z
+date: 2022-08-03T04:46:30.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -12,6 +12,6 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.is-info}
 
 Basics{.overline}
-- [⬆️ How to Upgrade](/en/TwitchSpeaker/Update)
-- [💾 How to Backup](/en/TwitchSpeaker/Backup)
+- [<i class="mdi mdi-arrow-collapse-up text--twitch"></i> How to Upgrade](/en/TwitchSpeaker/Update)
+- [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup*Learn how to restore a backup with TwitchSpeaker!***](/en/TwitchSpeaker/Backup)
 {.btn-grid .my-5}
