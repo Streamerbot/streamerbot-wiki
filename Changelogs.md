@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-01T04:37:14.454Z
+date: 2022-08-03T18:31:41.508Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -18,6 +18,7 @@ Upcoming changes in the next release!{.subtitle}
 * Crash when using <kbd>Ctrl+C</kbd> on a group in an action
 * `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
 * Get Team Info For Target silently crashing
+* Better handling for the Twitch Get Present Viewers tick, optimizations to limit potential API calls
 {.changelog-fixes}
 
 <span></span>
