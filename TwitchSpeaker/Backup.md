@@ -2,7 +2,7 @@
 title: Restore a Backup
 description: Learn how to restore a backup with TwitchSpeaker!
 published: true
-date: 2022-08-02T16:55:41.168Z
+date: 2022-08-03T04:48:45.963Z
 tags: backup, restore, restore a backup, twitchspeaker, backup twitchspeaker, how to backup twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:04:38.848Z
@@ -33,3 +33,8 @@ This video is made for Streamer.bot but pretty much the same for TwitchSpeaker{.
 <small>Thanks to VRFlad for this tutorial!</small>
 
 <div class=“iframe-container”><iframe src="https://www.youtube.com/embed/5z-ULoqxmiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+
+***
+
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+{.btn-grid .my-5}
