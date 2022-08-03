@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T11:32:36.369Z
+date: 2022-08-03T11:59:57.653Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -97,42 +97,64 @@ Released 2021-08-03{.subtitle}
 # TwitchSpeaker v0.0.42
 Released 2021-07-22{.subtitle}
 * Fix some issues with 3rd party emotes
-* Better handling of Twitch API instabilities
 * StreamElements fixes
+{.changelog-fixes}
+
+<span></span>
+
+* Better handling of Twitch API instabilities
 * Twitch Authorization now forces the Authorize button so you can switch accounts.  Whenever you need to re-auth
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.41
 Released 2021-07-17{.subtitle}
 * Fixes for StreamElements
-* Added a new option to assign a voice; right click user, assign voice, dialog will popup where you can choose voice, assigning will auto-create alias and use it
+* Misc fixes/tweaks
+{.changelog-fixes}
+
+<span></span>
 * Only 1 instance of TTS can run now
 * Small tweaks to UI
-* Misc fixes/tweaks
 * Other stuff I probably forgot
+{.changelog-updates}
+
+<span></span>
+
+* Added a new option to assign a voice; right click user, assign voice, dialog will popup where you can choose voice, assigning will auto-create alias and use it
+{.changelog-new}
 
 # TwitchSpeaker v0.0.40
 Released 2021-06-20{.subtitle}
 * Some fixes for streamlabs.com socket handling
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.39
 Released 2021-06-18{.subtitle}
 * Make it a bit more friendly to those who aren't affiliate yet :)
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.38
 Released 2021-06-18{.subtitle}
 * Fix BTTV/FFZ emote handling
 * Fix Cheer event, seems I rushed this in the last version
 * Fix for emotes not being completely removed (yay typos?)
+{.changelog-fixes}
+
+<span></span>
+
 * Add StreamElements support for Tips
+{.changelog-new}
 
 # TwitchSpeaker v0.0.37
 Released 2021-06-16{.subtitle}
 * Fix ignore prefix, guess I overlooked something there
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.36
 Released 2021-06-16{.subtitle}
 * Fix duplicate emote issue, yay?
 * Guess it helps if the streamlabs token box is editable
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.35
 Released 2021-06-16{.subtitle}
