@@ -2,7 +2,7 @@
 title: Twitchspeaker
 description: 
 published: true
-date: 2022-08-03T12:05:50.580Z
+date: 2022-08-03T13:21:31.078Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -18,24 +18,24 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-update text--twitch"></i>**Changelogs*List of new features, bug fixes and improvements***](/en/TwitchSpeaker/Changelogs)
 {.btn-grid .my-5}
 
-# Pages{.overline}
-- [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/en/TwitchSpeaker/Pages/Event-Log){.disabled}
-- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/en/TwitchSpeaker/Pages/Speaking-Queue){.disabled}
-- [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/en/TwitchSpeaker/Pages/Speaking-History){.disabled}
-- [<i class="mdi mdi-account text--twitch"></i>**Users**](/en/TwitchSpeaker/Pages/Users){.disabled}
-- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Pages/Events){.disabled}
-- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/en/TwitchSpeaker/Pages/Custom-Commands){.disabled}
-- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/en/TwitchSpeaker/Pages/Channel-Rewards){.disabled}
-- [<i class="mdi mdi-cog text--twitch"></i>**Settings**](/en/TwitchSpeaker/Pages/Settings){.disabled}
+# Tabs{.overline}
+- [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/en/TwitchSpeaker/Tabs/Event-Log){.disabled}
+- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/en/TwitchSpeaker/Tabs/Speaking-Queue){.disabled}
+- [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/en/TwitchSpeaker/Tabs/Speaking-History){.disabled}
+- [<i class="mdi mdi-account text--twitch"></i>**Users**](/en/TwitchSpeaker/Tabs/Users){.disabled}
+- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
+- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/en/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
+- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/en/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
+- [<i class="mdi mdi-cog text--twitch"></i>**Settings**](/en/TwitchSpeaker/Tabs/Settings){.disabled}
 {.btn-grid .my-5}
 
 # Settings{.overline}
-- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Pages/Settings/General){.disabled}
-- [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/en/TwitchSpeaker/Pages/Settings/Speech-Engines){.disabled}
-- [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Pages/Settings/Ignored-Voices-Locales){.disabled}
-- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/en/TwitchSpeaker/Pages/Settings/Speaking-Options){.disabled}
-- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/en/TwitchSpeaker/Pages/Settings/Replacement){.disabled}
-- [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/en/TwitchSpeaker/Pages/Settings/Voice-Aliases){.disabled}
+- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
+- [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines){.disabled}
+- [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
+- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/en/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
+- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/en/TwitchSpeaker/Tabs/Settings/Replacement){.disabled}
+- [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/en/TwitchSpeaker/Tabs/Settings/Voice-Aliases){.disabled}
 {.btn-grid .my-5}
 
 # Other{.overline}
