@@ -1,24 +1,20 @@
 ---
-title: Twitchspeaker
-description: 
+title: TwitchSpeaker
+description: Documentation for TwitchSpeaker
 published: true
-date: 2022-08-03T13:21:31.078Z
-tags: 
+date: 2022-08-03T14:34:29.868Z
+tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
 ---
 
-<font size="+3" class="mdi mdi-speaker text--twitch"><b> Twitchspeaker Documentation</b></font>
-
----
-
-# Basics{.overline}
+## Basics
 - [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade*Learn how to update your TwitchSpeaker installation to the latest version***](/en/TwitchSpeaker/Update)
 - [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup*Learn how to restore a backup with TwitchSpeaker!***](/en/TwitchSpeaker/Backup)
 - [<i class="mdi mdi-update text--twitch"></i>**Changelogs*List of new features, bug fixes and improvements***](/en/TwitchSpeaker/Changelogs)
 {.btn-grid .my-5}
 
-# Tabs{.overline}
+## Tabs
 - [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/en/TwitchSpeaker/Tabs/Event-Log){.disabled}
 - [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/en/TwitchSpeaker/Tabs/Speaking-Queue){.disabled}
 - [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/en/TwitchSpeaker/Tabs/Speaking-History){.disabled}
@@ -29,7 +25,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-cog text--twitch"></i>**Settings**](/en/TwitchSpeaker/Tabs/Settings){.disabled}
 {.btn-grid .my-5}
 
-# Settings{.overline}
+## Settings
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
 - [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines){.disabled}
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
@@ -38,7 +34,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/en/TwitchSpeaker/Tabs/Settings/Voice-Aliases){.disabled}
 {.btn-grid .my-5}
 
-# Other{.overline}
+## Other
 - [<i class="mdi mdi-transit-connection-variant text--twitch"></i>**Connect to Twitch**](/en/TwitchSpeaker/Connect-to-Twitch){.disabled}
 - [<i class="mdi mdi-volume-mute text--twitch"></i>**Silence TTS**](/en/TwitchSpeaker/Pages/Settings/Silence-TTS){.disabled}
 - [<i class="mdi mdi-speaker text--twitch"></i>**Generic Speaker**](/en/TwitchSpeaker/Pages/Settings/Generic-Speaker){.disabled}
