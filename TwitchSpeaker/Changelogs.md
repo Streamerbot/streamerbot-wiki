@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T12:03:50.424Z
+date: 2022-08-03T12:16:52.238Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -12,7 +12,7 @@ dateCreated: 2022-08-03T09:46:48.752Z
 
 ---
 
-# TwitchSpeaker v0.0.48
+# TwitchSpeaker v0.0.48 (Current)
 Released 2022-01-13{.subtitle}
 * Fix mod/vip issue with non western characters
 {.changelog-fixes}
