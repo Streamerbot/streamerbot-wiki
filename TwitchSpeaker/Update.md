@@ -2,7 +2,7 @@
 title: Update TwitchSpeaker
 description: Learn how to update your TwitchSpeaker installation to the latest version
 published: true
-date: 2022-08-02T16:56:03.875Z
+date: 2022-08-03T04:48:04.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:56:03.875Z
@@ -14,7 +14,7 @@ dateCreated: 2022-08-02T16:56:03.875Z
 It is highly recommended to backup your existing installation **before** updating TwitchSpeaker
 {.is-warning}
 
-- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup & Restore Guide *Backup your existing Streamer.bot installation***](/en/TwitchSpeaker/Backup)
+- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup & Restore Guide *Backup your existing TwitchSpeaker installation***](/en/TwitchSpeaker/Backup)
 {.btn-grid .my-5}
 
 1. Close TwitchSpeaker if it is currently running
@@ -34,7 +34,7 @@ Update to the new version by following these steps:
 3. Open Streamer.bot and you will now be on the latest version!
 
 # Video Tutorial
-This video is made for Streamer.bot but pretty much the same for TwitchSpeaker
+This video is made for Streamer.bot but pretty much the same for TwitchSpeaker{.subtitle}
 
 <small>Thanks to VRFlad for this tutorial!</small>
 
