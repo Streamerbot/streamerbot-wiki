@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T11:29:29.462Z
+date: 2022-08-03T11:32:36.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -17,6 +17,7 @@ Released 2022-01-13{.subtitle}
 {.changelog-fixes}
 
 <span></span>
+
 * Added new option to change user said
 {.changelog-new}
 
@@ -26,6 +27,7 @@ Released 2021-12-25{.subtitle}
 {.changelog-updates}
 
 <span></span>
+
 * Some additional error handling
 * Added BadWordFilter setting for UDP Speak
 * Added a new Generic Speaker form, that can be used to just play with the TTS, it was a request to be able to just use TTS
@@ -43,6 +45,7 @@ Released 2021-08-24{.subtitle}
 {.changelog-fixes}
 
 <span></span>
+
 * Load channel rewards when connecting to Twitch
 * Harden Twitch token validation
 * Update TTS service libraries (AWS, Google, Azure, Watson)
@@ -53,6 +56,7 @@ Released 2021-08-24{.subtitle}
 {.changelog-updates}
 
 <span></span>
+
 * Add option to be able to silence !tts command output
 * Add Acapella TTS Service
 * Add CereCloud Voice TTS Service
@@ -64,19 +68,31 @@ Released 2021-08-24{.subtitle}
 Released 2021-08-24{.subtitle}
 * Some fixes/changes
 * Fix the Twitch host event, there were a few issues causing crashes
-* Add %input% variable to Channel Reward messages
 * Fix voice fall back selection, was not working correctly
 * Misc fixes/improvements
+{.changelog-fixes}
+
+<span></span>
+
+* Add %input% variable to Channel Reward messages
+
+{.changelog-new}
 
 # TwitchSpeaker v0.0.44
 Released 2021-08-24{.subtitle}
 * Enable and fix Twitch Host event
 * Misc fixes/tweaks
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.43
 Released 2021-08-03{.subtitle}
-* Add some error handling to UDP
 * Misc fixes/tweaks
+{.changelog-fixes}
+
+<span></span>
+
+* Add some error handling to UDP
+{.changelog-new}
 
 # TwitchSpeaker v0.0.42
 Released 2021-07-22{.subtitle}
