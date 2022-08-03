@@ -2,7 +2,7 @@
 title: Examples
 description: Here you will find the curated example from the streamer.bot discord .
 published: true
-date: 2022-07-29T00:10:04.095Z
+date: 2022-08-03T12:10:26.312Z
 tags: twitch, examples, action, subactions
 editor: markdown
 dateCreated: 2021-12-29T02:00:45.173Z
@@ -20,7 +20,7 @@ Here you will find the curated examples from within the Streamer.Bot Discord Com
 * [**Channel Point Rewards (Toggle) *Uses the toggle feature to flip all listed rewards on/off.***](/en/Examples/cpr-toggle)
 * [**STREAM START/END**](/en/Examples/stream-start-stop)
 * [**Random Sounds From Folder *Will play a random sound from a folder of sounds***](/en/Examples/random-sound-from-folder)
-{.btn-grid}
+{.btn-grid .my-5}
 
 
 ***
