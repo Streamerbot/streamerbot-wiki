@@ -2,7 +2,7 @@
 title: Twitchspeaker Documentation
 description: 
 published: true
-date: 2022-08-03T05:15:42.914Z
+date: 2022-08-03T05:15:57.407Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -11,9 +11,6 @@ dateCreated: 2022-08-02T16:36:25.669Z
 <font size="+3" class="mdi mdi-speaker text--twitch"><b> Twitchspeaker Documentation</b></font>
 
 ---
-
-> More info/pages coming soon
-{.is-info}
 
 Basics{.overline}
 - [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade*Learn how to update your TwitchSpeaker installation to the latest version***](/en/TwitchSpeaker/Update)
@@ -46,3 +43,6 @@ Other{.overline}
 - [<i class="mdi mdi-speaker text--twitch"></i>**Generic Speaker**](/en/TwitchSpeaker/){.disabled}
 - [<i class="mdi mdi-cog text--twitch"></i>**Save Settings**](/en/TwitchSpeaker/){.disabled}
 {.btn-grid .my-5}
+
+> More info/pages coming soon
+{.is-info}
