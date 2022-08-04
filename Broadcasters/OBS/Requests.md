@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T17:38:19.230Z
+date: 2022-08-04T19:20:24.045Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -127,16 +127,16 @@ Requests related to sources{.subtitle}
 * [**CreateSceneItem *Creates a new scene item using a source***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/CreateSceneItem)
 * [**RemoveSceneItem *Removes a scene item from a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/RemoveSceneItem)
 * [**DuplicateSceneItem *Duplicates a scene item, copying all transform and crop info***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/DuplicateSceneItem)
-* [**GetSceneItemTransform *Gets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemTransform){.disabled}
-* [**SetSceneItemTransform *Sets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemTransform){.disabled}
-* [**GetSceneItemEnabled *Gets the enable state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemEnabled){.disabled}
-* [**SetSceneItemEnabled *Sets the enable state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemEnabled){.disabled}
-* [**GetSceneItemLocked *Gets the lock state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemLocked){.disabled}
-* [**SetSceneItemLocked *Sets the lock state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemLocked){.disabled}
-* [**GetSceneItemIndex *Gets the index position of a scene item in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemIndex){.disabled}
-* [**SetSceneItemIndex *Sets the index position of a scene item in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemIndex){.disabled}
-* [**GetSceneItemBlendMode *Gets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemBlendMode){.disabled}
-* [**SetSceneItemBlendMode *Sets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemBlendMode){.disabled}
+* [**GetSceneItemTransform *Gets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemTransform)
+* [**SetSceneItemTransform *Sets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemTransform)
+* [**GetSceneItemEnabled *Gets the enable state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemEnabled)
+* [**SetSceneItemEnabled *Sets the enable state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemEnabled)
+* [**GetSceneItemLocked *Gets the lock state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemLocked)
+* [**SetSceneItemLocked *Sets the lock state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemLocked)
+* [**GetSceneItemIndex *Gets the index position of a scene item in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemIndex)
+* [**SetSceneItemIndex *Sets the index position of a scene item in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemIndex)
+* [**GetSceneItemBlendMode *Gets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemBlendMode)
+* [**SetSceneItemBlendMode *Sets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemBlendMode)
 {.btn-grid .my-5}
 
 ## Output Requests
