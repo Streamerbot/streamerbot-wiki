@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T13:05:59.015Z
+date: 2022-08-04T17:32:55.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -121,12 +121,12 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Scene Item Requests
-* [**GetSceneItemList *Gets a list of all scene items in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemList){.disabled}
-* [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetGroupSceneItemList){.disabled}
-* [**GetSceneItemId *Searches a scene for a source, and returns its id***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/){.disabled}
-* [**CreateSceneItem *Creates a new scene item using a source***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemId){.disabled}
-* [**RemoveSceneItem *Removes a scene item from a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/RemoveSceneItem){.disabled}
-* [**DuplicateSceneItem *Duplicates a scene item, copying all transform and crop info***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/DuplicateSceneItem){.disabled}
+* [**GetSceneItemList *Gets a list of all scene items in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemList)
+* [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetGroupSceneItemList)
+* [**GetSceneItemId *Searches a scene for a source, and returns its id***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/)
+* [**CreateSceneItem *Creates a new scene item using a source***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemId)
+* [**RemoveSceneItem *Removes a scene item from a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/RemoveSceneItem)
+* [**DuplicateSceneItem *Duplicates a scene item, copying all transform and crop info***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/DuplicateSceneItem)
 * [**GetSceneItemTransform *Gets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemTransform){.disabled}
 * [**SetSceneItemTransform *Sets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemTransform){.disabled}
 * [**GetSceneItemEnabled *Gets the enable state of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemEnabled){.disabled}
