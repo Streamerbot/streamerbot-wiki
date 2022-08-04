@@ -2,18 +2,21 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-07-10T01:56:28.072Z
+date: 2022-08-04T10:59:42.945Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
 ---
 
 # Prerequisites
-To enable remote control of your **OBS Studio** instance from **Streamer.bot** you will need to first install the [OBS Websocket Plugin](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+To enable remote control of your **OBS Studio** instance from **Streamer.bot** you will need to first install the OBS Websocket Plugin
 > **OBS Websocket v4.x is the only supported version at this time**
 > v5.x requires a re-write and is being worked on, but is still missing capabilities
-> Download OBS Websocket plugin [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+> Download OBS Websocket plugin below [](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
+
+- [<img src="/logos/obs-websocket.png"/>**OBS Websocket *v4.9.1*{.version-badge}*v5 is not supported yet it will be in streamer.bot `v0.1.11`***](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1)
+{.btn-grid .my-5}
 
 After installing the plugin and restarting OBS, you should be able to configure your WebSocket Server settings as you wish:
 
@@ -28,7 +31,7 @@ Once configured, connected OBS sessions will report their status on the OBS tab 
 
 ![obs_event_01_.png](/quick-start/obs_event_01_.png)
 
-To add a new connection, `Right-Click` -> `Add` to open the new connection dialogue
+To add a new connection, <kbd>Right-Click</kbd> -> <kbd>Add</kbd> to open the new connection dialogue
 ![New Connection](/119574587-9adb7e80-bdad-11eb-82c1-ec9ed668a40d.png)
 
 Give it a name and set the IP address and Port number of the OBS Websocket
