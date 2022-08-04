@@ -56,7 +56,7 @@ Styles tab allows for changing the background color of the overall deck and allo
 ![seceurity-options](https://cdn.discordapp.com/attachments/734080487009681490/981553115625054208/unknown.png =800x)
 The Security option are for allowing public or private access to the deck. Setting a deck to private and entering a users discord name and number where it says "User Access" will restrict access to only those added and the broadcaster. Setting to private without any names added secures it to the broadcaster only. Public will allow anyone with the link to access the deck (until changed to Private or deleted).
 
-> To add a user to a private deck, **the user being added must have previously logged onto the website using discord and then gone to the "Decks" page, at least once.** After they have done that you can paste the full Discord ID username#number (Lyfesaver#1974, VRFlad#0001 or GoWMan#6611 for exmaple) then their name will appear in the dropdown to select it.
+> To add a user to a private deck, **the user being added must have previously logged onto the website using discord and then gone to the "Decks" page, at least once.** After they have done that you can paste the full Discord ID username#number (Lyfesaver#1974, VRFlad#0001 or GoWMan#6611 for example) then their name will appear in the dropdown to select it.
 {.is-info}
 
 
