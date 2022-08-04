@@ -2,13 +2,13 @@
 title: Quick Start - Streamlabs Desktop
 description: Set up Streamer.bot to remotely control your Streamlabs Desktop instance
 published: true
-date: 2022-08-04T15:50:01.687Z
+date: 2022-08-04T15:55:30.588Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:56:19.296Z
 ---
 
-# Prerequisites
+## Prerequisites
 
 Obtain your **API Token** and **Port** from your Streamlabs Desktop settings.
 
@@ -16,7 +16,7 @@ Obtain your **API Token** and **Port** from your Streamlabs Desktop settings.
 
 Later, you will need to match these settings in Streamer.bot
 
-# Configuration
+## Configuration
 
 Streamlabs Desktop configuration can be found by navigating to the following tabs in Streamer.bot:
 `Broadcasters` -> `Streamlabs Desktop`
@@ -27,11 +27,28 @@ To add a new connection, <kbd>Right-Click</kbd> -> <kbd>Add</kbd> to open the ne
 
 ![streamlabs_desktop_connection_popup.png](/quick-start/streamlabs_desktop_connection_popup.png)
 
-Give it a name and set the IP address and Port number of the Streamlabs Desktop
-The Default values of `127.0.0.1` and `59650` will look for the out-of-box configuration for Streamlabs Desktop installed on the same computer as Streamer.bot is running
+### Name
+Enter any name or description for this Streamlabs Desktop connection
 
-> Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
-{.is-success}
+### Host
+Enter the local IP address of your Streamlabs Desktop instance
+The default value of `127.0.0.1` will find instances on the same PC
+
+### Port
+Enter the **port** found in Streamlabs Desktop settings earlier
+The default value is `59650`
+
+### Token
+Enter the **API Token** value found in Streamlabs Desktop settings earlier
+
+### Auto Connect on Startup
+Enable this option to automatically connect to Streamlabs Desktop when you start Streamer.bot
+
+### Reconnect on Disconnect
+Enable this option to automatically reconnect to Streamlabs Desktop if the connection is lost
+
+### Retry Interval
+Amount of time, in seconds, to wait between each reconnection attempt
 
 ---
 
