@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T15:06:04.955Z
+date: 2022-08-04T11:09:05.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -155,22 +155,39 @@ Released 2021-06-16{.subtitle}
 
 # TwitchSpeaker v0.0.35
 Released 2021-06-16{.subtitle}
-* Updated twitch libraries
 * Performance improvements
+* Fix when saving audio files, if enabled
+* Misc fixes and tweaks/cleanup
+{.changelog-fixes}
+
+<span></span>
+
+* Updated twitch libraries
 * Update handling of emotes
 * When speaking everything, replies will be treated as normal messages
 * When speaking everything, allow different prefixes to not speak anything
-* Fix when saving audio files, if enabled
+{.changelog-updates}
+
+<span></span>
+
 * Add auto reconnect to twitch
 * !tts assign last `<user>` has returned
-* Misc fixes and tweaks/cleanup
-  
+{.changelog-new}
+
 # TwitchSpeaker v0.0.34
 Released 2021-05-12{.subtitle}
-* Removed OneCore voices, this means there is no longer the hard requirement of windows, and may potentially work on Linux with Wine now
-* Added a new cloud service, Microsoft Cognitive Services, this can add upto another 220 voices.
 * Tweaked/fixed the cloud service voices use of pitch/rate/emphasis
 * Fixes/tweaks to underlying twitch code
+{.changelog-fixes}
+
+<span></span>
+
+* Removed OneCore voices, this means there is no longer the hard requirement of windows, and may potentially work on Linux with Wine now
+{.changelog-updates}
+
+<span></span>
+* Added a new cloud service, Microsoft Cognitive Services, this can add upto another 220 voices.
+{.changelog-new}
 
 ## IMPORTANT
 I've altered the way the files are, so I would ## highly recommend extracing to a new folder and copying your settings over. (settings.json, voicealiases.dat, users.dat, usage.dat)
