@@ -38,7 +38,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "request-type": "TriggerHotkeyByKeySequence",
   "keyId": "",
-  "keyModifiers": {"": ""},
+  "keyModifiers": {
+    "": ""
+  },
   "keyModifiers.shift": ,
   "keyModifiers.control": ,
   "keyModifiers.alt": ,

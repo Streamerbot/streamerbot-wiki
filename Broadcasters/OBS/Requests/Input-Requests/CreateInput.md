@@ -38,7 +38,9 @@ Added in | *v5.0.0*{.obs-version-badge}
   "sceneName": "",
   "inputName": "",
   "inputKind": "",
-  "inputSettings": {"": ""},
+  "inputSettings": {
+    "": ""
+  },
   "sceneItemEnabled": 
 }
 ```

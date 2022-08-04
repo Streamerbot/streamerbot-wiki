@@ -29,7 +29,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "request-type": "SetInputSettings",
   "inputName": "",
-  "inputSettings": {"": ""},
+  "inputSettings": {
+    "": ""
+  },
   "overlay": 
 }
 ```
