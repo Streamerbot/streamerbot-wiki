@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T05:27:58.443Z
+date: 2022-08-04T10:38:33.468Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -97,15 +97,15 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Transition Requests
-* [**GetTransitionKindList *Gets an array of all available transition kinds***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetTransitionKindList){.disabled}
-* [**GetSceneTransitionList *Gets an array of all scene transitions in OBS***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetSceneTransitionList){.disabled}
-* [**GetCurrentSceneTransition *Gets information about the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransition){.disabled}
-* [**SetCurrentSceneTransition *Sets the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransition){.disabled}
-* [**SetCurrentSceneTransitionDuration *Sets the duration of the current scene transition, if it is not fixed***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransitionDuration){.disabled}
-* [**SetCurrentSceneTransitionSettings *Sets the settings of the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransitionSettings){.disabled}
-* [**GetCurrentSceneTransitionCursor *Gets the cursor position of the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransitionCursor){.disabled}
-* [**TriggerStudioModeTransition *Triggers the current scene transition. Same functionality as the Transition button in studio mode***](/en/Broadcasters/OBS/Requests/Transition-Requests/TriggerStudioModeTransition){.disabled}
-* [**SetTBarPosition *Sets the position of the TBar***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetTBarPosition){.disabled}
+* [**GetTransitionKindList *Gets an array of all available transition kinds***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetTransitionKindList)
+* [**GetSceneTransitionList *Gets an array of all scene transitions in OBS***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetSceneTransitionList)
+* [**GetCurrentSceneTransition *Gets information about the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransition)
+* [**SetCurrentSceneTransition *Sets the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransition)
+* [**SetCurrentSceneTransitionDuration *Sets the duration of the current scene transition, if it is not fixed***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransitionDuration)
+* [**SetCurrentSceneTransitionSettings *Sets the settings of the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetCurrentSceneTransitionSettings)
+* [**GetCurrentSceneTransitionCursor *Gets the cursor position of the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransitionCursor)
+* [**TriggerStudioModeTransition *Triggers the current scene transition. Same functionality as the Transition button in studio mode***](/en/Broadcasters/OBS/Requests/Transition-Requests/TriggerStudioModeTransition)
+* [**SetTBarPosition *Sets the position of the TBar***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetTBarPosition)
 {.btn-grid .my-5}
 
 ## Filter Requests
