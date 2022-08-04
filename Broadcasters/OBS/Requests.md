@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T17:32:55.694Z
+date: 2022-08-04T17:38:19.230Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -123,8 +123,8 @@ Requests related to sources{.subtitle}
 ## Scene Item Requests
 * [**GetSceneItemList *Gets a list of all scene items in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemList)
 * [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetGroupSceneItemList)
-* [**GetSceneItemId *Searches a scene for a source, and returns its id***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/)
-* [**CreateSceneItem *Creates a new scene item using a source***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemId)
+* [**GetSceneItemId *Searches a scene for a source, and returns its id***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemId)
+* [**CreateSceneItem *Creates a new scene item using a source***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/CreateSceneItem)
 * [**RemoveSceneItem *Removes a scene item from a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/RemoveSceneItem)
 * [**DuplicateSceneItem *Duplicates a scene item, copying all transform and crop info***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/DuplicateSceneItem)
 * [**GetSceneItemTransform *Gets the transform and crop info of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemTransform){.disabled}
