@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T10:38:33.468Z
+date: 2022-08-04T13:05:59.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -109,15 +109,15 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Filter Requests
-* [**GetSourceFilterList *Gets an array of all of a source's filters***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterList){.disabled}
-* [**GetSourceFilterDefaultSettings *Gets the default settings for a filter kind***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterDefaultSettings){.disabled}
-* [**CreateSourceFilter *Creates a new filter, adding it to the specified source***](/en/Broadcasters/OBS/Requests/Filter-Requests/CreateSourceFilter){.disabled}
-* [**RemoveSourceFilter *Removes a filter from a source***](/en/Broadcasters/OBS/Requests/Filter-Requests/RemoveSourceFilter){.disabled}
-* [**SetSourceFilterName *Sets the name of a source filter (rename)***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterName){.disabled}
-* [**GetSourceFilter *Gets the info for a specific source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilter){.disabled}
-* [**SetSourceFilterIndex *Sets the index position of a filter on a source***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterIndex){.disabled}
-* [**SetSourceFilterSettings *Sets the settings of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterSettings){.disabled}
-* [**SetSourceFilterEnabled *Sets the enable state of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterEnabled){.disabled}
+* [**GetSourceFilterList *Gets an array of all of a source's filters***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterList)
+* [**GetSourceFilterDefaultSettings *Gets the default settings for a filter kind***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterDefaultSettings)
+* [**CreateSourceFilter *Creates a new filter, adding it to the specified source***](/en/Broadcasters/OBS/Requests/Filter-Requests/CreateSourceFilter)
+* [**RemoveSourceFilter *Removes a filter from a source***](/en/Broadcasters/OBS/Requests/Filter-Requests/RemoveSourceFilter)
+* [**SetSourceFilterName *Sets the name of a source filter (rename)***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterName)
+* [**GetSourceFilter *Gets the info for a specific source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilter)
+* [**SetSourceFilterIndex *Sets the index position of a filter on a source***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterIndex)
+* [**SetSourceFilterSettings *Sets the settings of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterSettings)
+* [**SetSourceFilterEnabled *Sets the enable state of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterEnabled)
 {.btn-grid .my-5}
 
 ## Scene Item Requests
