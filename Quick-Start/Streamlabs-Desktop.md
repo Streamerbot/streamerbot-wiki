@@ -2,7 +2,7 @@
 title: Quick Start - Streamlabs Desktop
 description: Set up Streamer.bot to remotely control your Streamlabs Desktop instance
 published: true
-date: 2022-08-04T13:56:19.296Z
+date: 2022-08-04T13:59:40.050Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:56:19.296Z
@@ -10,6 +10,7 @@ dateCreated: 2022-08-04T13:56:19.296Z
 
 Copy the `API token`
 And copy the `Port`
+
 ![WebsocketSettings](https://contenthub-cdn.streamlabs.com/static/imgs/mceclip2-360005539093.png)
 
 Later, you will need to match these settings in Streamer.bot
