@@ -2,7 +2,7 @@
 title: Global Variables
 description: 
 published: true
-date: 2022-06-28T00:49:19.141Z
+date: 2022-08-04T09:31:48.110Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T00:49:15.047Z
@@ -84,5 +84,5 @@ This has 3 modes:
 Mode | Description
 -----|-----
 `Value`| Store the entered value, exactly as written 
-`Increment`| Take the current global vlaue and add the specififed value to it (only works for intergers)
+`Increment`| Take the current global value and add the specified value to it (only works for integers)
 `Argument` | Store the contents of a named active argument (do not include the % symbols)
