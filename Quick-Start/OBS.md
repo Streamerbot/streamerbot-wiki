@@ -2,17 +2,16 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-08-04T16:04:50.631Z
+date: 2022-08-04T16:06:07.974Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
 ---
 
 ## Prerequisites
-To enable remote control of your **OBS Studio** instance from **Streamer.bot** you will need to first install the OBS Websocket Plugin
+To enable remote control of your **OBS Studio** instance from **Streamer.bot** you must first install the OBS WebSocket Plugin
 > **OBS Websocket v4.x is the only supported version at this time**
-> v5.x requires a re-write and is being worked on, but is still missing capabilities
-> Download OBS Websocket plugin below [](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+> v5.x support requires a complete rewrite and is in progress.
 {.is-warning}
 
 - [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v4.9.1***](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1)
