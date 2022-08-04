@@ -2,7 +2,7 @@
 title: Quick Start - Streamlabs Desktop
 description: Set up Streamer.bot to remotely control your Streamlabs Desktop instance
 published: true
-date: 2022-08-04T15:55:30.588Z
+date: 2022-08-04T15:57:58.969Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:56:19.296Z
@@ -26,6 +26,8 @@ Streamlabs Desktop configuration can be found by navigating to the following tab
 To add a new connection, <kbd>Right-Click</kbd> -> <kbd>Add</kbd> to open the new connection dialogue.
 
 ![streamlabs_desktop_connection_popup.png](/quick-start/streamlabs_desktop_connection_popup.png)
+
+Configuration options are outlined below:
 
 ### Name
 Enter any name or description for this Streamlabs Desktop connection
