@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-03T03:59:15.282Z
+date: 2022-08-04T05:27:58.443Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -86,14 +86,14 @@ Requests related to sources{.subtitle}
 * [**SetInputVolume *Sets the volume setting of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputVolume)
 * [**GetInputAudioBalance *Gets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioBalance)
 * [**SetInputAudioBalance *Sets the audio balance of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioBalance)
-* [**GetInputAudioSyncOffset *Gets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioSyncOffset){.disabled}
-* [**SetInputAudioSyncOffset *Sets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioSyncOffset){.disabled}
-* [**GetInputAudioMonitorType *Gets the audio monitor type of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioMonitorType){.disabled}
-* [**SetInputAudioMonitorType *Sets the audio monitor type of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioMonitorType){.disabled}
-* [**GetInputAudioTracks *Gets the enable state of all audio tracks of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioTracks){.disabled}
-* [**SetInputAudioTracks *Sets the enable state of audio tracks of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioTracks){.disabled}
-* [**GetInputPropertiesListPropertyItems *Gets the items of a list property from an input's properties***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputPropertiesListPropertyItems){.disabled}
-* [**PressInputPropertiesButton *Presses a button in the properties of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/PressInputPropertiesButton){.disabled}
+* [**GetInputAudioSyncOffset *Gets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioSyncOffset)
+* [**SetInputAudioSyncOffset *Sets the audio sync offset of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioSyncOffset)
+* [**GetInputAudioMonitorType *Gets the audio monitor type of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioMonitorType)
+* [**SetInputAudioMonitorType *Sets the audio monitor type of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioMonitorType)
+* [**GetInputAudioTracks *Gets the enable state of all audio tracks of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputAudioTracks)
+* [**SetInputAudioTracks *Sets the enable state of audio tracks of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioTracks)
+* [**GetInputPropertiesListPropertyItems *Gets the items of a list property from an input's properties***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputPropertiesListPropertyItems)
+* [**PressInputPropertiesButton *Presses a button in the properties of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/PressInputPropertiesButton)
 {.btn-grid .my-5}
 
 ## Transition Requests
