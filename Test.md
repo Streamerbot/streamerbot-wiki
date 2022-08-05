@@ -2,7 +2,7 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-05T07:43:57.211Z
+date: 2022-08-05T07:45:05.741Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -24,4 +24,4 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ## DISCORD
 
-<iframe class="discord" src="https://discordapp.com/widget?id=834650675224248362&theme=dark"/>
+<iframe class="discord" src="https://discordapp.com/widget?id=834650675224248362&theme=dark" style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;/>
