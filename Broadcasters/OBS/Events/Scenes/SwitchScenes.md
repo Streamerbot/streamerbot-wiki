@@ -2,7 +2,7 @@
 title: SwitchScenes
 description: OBS Studio Events Reference
 published: true
-date: 2022-08-05T12:28:45.288Z
+date: 2022-08-05T12:29:52.843Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:09:06.949Z
@@ -21,7 +21,7 @@ dateCreated: 2022-06-27T01:09:06.949Z
 | `obsEvent._json` | Everything above in a json format
 
 ## Example
-When this event is linked to an action you can add:
+When this event is linked to an action you can add this for example:
 ```csharp
 if ("obsEvent.scene-name" Equals "brb") do "disable channel points action" then "break"
 if ("obsEvent.scene-name" Equals "game") do "enable channel points action" then "break"
