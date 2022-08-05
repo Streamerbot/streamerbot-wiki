@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T14:43:52.133Z
+date: 2022-08-05T19:32:34.645Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -168,13 +168,13 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Record Requests
-* [**GetRecordStatus *Gets the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/GetRecordStatus){.disabled}
-* [**ToggleRecord *Toggles the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecord){.disabled}
-* [**StartRecord *Starts the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/StartRecord){.disabled}
-* [**StopRecord *Stops the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/StopRecord){.disabled}
-* [**ToggleRecordPause *Toggles pause on the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecordPause){.disabled}
-* [**PauseRecord *Pauses the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/PauseRecord){.disabled}
-* [**ResumeRecord *Resumes the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ResumeRecord){.disabled}
+* [**GetRecordStatus *Gets the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/GetRecordStatus)
+* [**ToggleRecord *Toggles the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecord)
+* [**StartRecord *Starts the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/StartRecord)
+* [**StopRecord *Stops the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/StopRecord)
+* [**ToggleRecordPause *Toggles pause on the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecordPause)
+* [**PauseRecord *Pauses the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/PauseRecord)
+* [**ResumeRecord *Resumes the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ResumeRecord)
 {.btn-grid .my-5}
 
 ## Media Input Requests
