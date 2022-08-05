@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-04T11:09:05.294Z
+date: 2022-08-05T13:56:29.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -212,82 +212,133 @@ Rate can now be adjusted from `-10` to `10`, this equates to a 5% change in rate
 
 # TwitchSpeaker v0.0.33
 Released 2021-05-04{.subtitle}
-* Added some more logging
 * Fixed audio device selection, guess I missed something with that
+{.changelog-fixes}
+
+<span></span>
+
 * Updated HypeTrain end event for future possibilities
+{.changelog-updates}
+
+<span></span>
+
+* Added some more logging
+{.changelog-new}
 
 # TwitchSpeaker v0.0.32
 Released 2021-05-01{.subtitle}
 * Fix issue w/ twitch library and cancelling raids
 * Fix issue when setting certain options via twitch chat
+{.changelog-fixes}
+
+<span></span>
+
 * Add ability to use !tts commands via whisper, these will provide no feedback, and can be enabled/disabled via a setting
 * Added auto backup capability, on application start, it will auto zip up your config files into a time stamped zip file within a backups folder
+{.changelog-new}
 
 # TwitchSpeaker v0.0.31
 Released 2021-05-01{.subtitle}
 * Fix a potential crash with subs, seems twitch changed data (yay)
+{.changelog-fixes}
+
+<span></span>
+
 * No longer listen to sub events via pubsub, was pointless, they're obtained by other means
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.30
 Released 2021-04-25{.subtitle}
 * Fixed issue with buffers, so, it shouldn't repeat itself anymore
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.29
 Released 2021-04-24{.subtitle}
 * Fixed issue with buffers, so, it shouldn't repeat itself anymore
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.28
 Released 2021-04-19{.subtitle}
-* Add days left to the Community goal contribution event, use %daysLeft% to get this value
-* Add new !tts set nickname `<username>` `<nickname>` to allow a mod to set a users nickname, setting it to nothing will remove the nickname
 * Fix text replacement UI, ctrl*up/down wasn't behaving properly to change ordering
+{.changelog-fixes}
+
+<span></span>
 * Minor fixes/tweaks
 * Updated twitch authorization mechanisms, it may re-ask for authorization, will also no longer complain constantly if there's an issue with your login and allow you to re-auth properly
+{.changelog-updates}
+
+<span></span>
+
+* Add days left to the Community goal contribution event, use %daysLeft% to get this value
+* Add new !tts set nickname `<username>` `<nickname>` to allow a mod to set a users nickname, setting it to nothing will remove the nickname
+{.changelog-new}
 
 # TwitchSpeaker v0.0.27
 Released 2021-04-11{.subtitle}
 * Squahsed a bug
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.26
 Released 2021-04-11{.subtitle}
 * Misc fixes/cleanup
+* Fix a bug where using stop would hang the application
+{.changelog-fixes}
+
+<span></span>
+
 * Twitch chat client is running on a new parser, small speed improvements
 * Better audio device enumeration (you'll see disconnected devices now to)
+{.changelog-updates}
+
+<span></span>
+
 * Added Voice Aliases
-* Addde ability for deleting a users message, timing a user out and banning a user to stop/skip speech (enabled by default)
-* Fix a bug where using stop would hang the application
+* Added ability for deleting a users message, timing a user out and banning a user to stop/skip speech (enabled by default)
+{.changelog-new}
 
 # TwitchSpeaker v0.0.25
 Released 2021-03-26{.subtitle}
 * Fix Twitch FUCK UP
 * Misc tweaks/fixes
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.24
 Released 2021-03-14{.subtitle}
 * Fix audio device not being selected on startup (woops)
 * Toggling enabled caused a crash, fixed, but not sure why, need to investigate
 * Fix small issue w/ UDP
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.23
 Released 2021-03-14{.subtitle}
 * Handle regex errors gracefully, and provide feedback when entering regex in replacement
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.22
 Released 2021-03-13{.subtitle}
-* Clicking on edit voice will bring speech preview in focus, and enable the next feature
-* Ability to assign a voice right from the speech preview window.
-* Add grace period (in seconds) for saying username
 * Fix community goal % contribution, I think?
-* Handle some google voice statup exceptions, this is still ongoing
-* Add option to say username only if the previous message was from a different user, can't be used with the grace period
-* Channel Rewards can now have random weighted messages, like events
-* Added new randomization code, will see how it works
-* Add option to swap name with nickname if one is set for a user
 * Misc cleanup and bug fixes
+{.changelog-fixes}
+
+<span></span>
+
+* Channel Rewards can now have random weighted messages, like events
+* Re-organize settings tab
+* Handle some google voice statup exceptions, this is still ongoing
+{.changelog-updates}
+
+<span></span>
+
+* Add regex replacement, don't make me regret this.
 * Add a UDP listener, will outline the commands later
 * Add ignored voice profiles
-* Add regex replacement, don't make me regret this.
-* Re-organize settings tab
+* Add option to swap name with nickname if one is set for a user
+* Added new randomization code, will see how it works
+* Add option to say username only if the previous message was from a different user, can't be used with the grace period
+* Ability to assign a voice right from the speech preview window.
+* Add grace period (in seconds) for saying username
+* Clicking on edit voice will bring speech preview in focus, and enable the next feature
+{.changelog-new}
 
 ## Ignored Voice Profiles
 You can now setup profiles for ignored voices/locales.
