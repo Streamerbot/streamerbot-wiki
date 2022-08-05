@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T09:09:47.411Z
+date: 2022-08-05T09:48:13.472Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -146,13 +146,13 @@ Requests related to sources{.subtitle}
 * [**StopVirtualCam *Stops the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopVirtualCam)
 * [**GetReplayBufferStatus *Gets the status of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetReplayBufferStatus)
 * [**ToggleReplayBuffer *Toggles the state of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleReplayBuffer)
-* [**StartReplayBuffer *Starts the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartReplayBuffer){.disabled}
-* [**StopReplayBuffer *Stops the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopReplayBuffer){.disabled}
-* [**SaveReplayBuffer *Saves the contents of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/){.disabled}
-* [**GetLastReplayBufferReplay *Gets the filename of the last replay buffer save file***](/en/Broadcasters/OBS/Requests/Output-Requests/GetLastReplayBufferReplay){.disabled}
-* [**GetOutputList *Gets the list of available outputs***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputList){.disabled}
-* [**GetOutputStatus *Gets the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputStatus){.disabled}
-* [**ToggleOutput *Toggles the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleOutput){.disabled}
+* [**StartReplayBuffer *Starts the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartReplayBuffer)
+* [**StopReplayBuffer *Stops the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopReplayBuffer)
+* [**SaveReplayBuffer *Saves the contents of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/)
+* [**GetLastReplayBufferReplay *Gets the filename of the last replay buffer save file***](/en/Broadcasters/OBS/Requests/Output-Requests/GetLastReplayBufferReplay)
+* [**GetOutputList *Gets the list of available outputs***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputList)
+* [**GetOutputStatus *Gets the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputStatus)
+* [**ToggleOutput *Toggles the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleOutput)
 * [**StartOutput *Starts an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartOutput){.disabled}
 * [**StopOutput *Stops an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopOutput){.disabled}
 * [**GetOutputSettings *Gets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputSettings){.disabled}
