@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-04T19:20:24.045Z
+date: 2022-08-05T09:09:47.411Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -140,12 +140,12 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Output Requests
-* [**GetVirtualCamStatus *Gets the status of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetVirtualCamStatus){.disabled}
-* [**ToggleVirtualCam *Toggles the state of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleVirtualCam){.disabled}
-* [**StartVirtualCam *Starts the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartVirtualCam){.disabled}
-* [**StopVirtualCam *Stops the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopVirtualCam){.disabled}
-* [**GetReplayBufferStatus *Gets the status of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetReplayBufferStatus){.disabled}
-* [**ToggleReplayBuffer *Toggles the state of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleReplayBuffer){.disabled}
+* [**GetVirtualCamStatus *Gets the status of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetVirtualCamStatus)
+* [**ToggleVirtualCam *Toggles the state of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleVirtualCam)
+* [**StartVirtualCam *Starts the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartVirtualCam)
+* [**StopVirtualCam *Stops the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopVirtualCam)
+* [**GetReplayBufferStatus *Gets the status of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetReplayBufferStatus)
+* [**ToggleReplayBuffer *Toggles the state of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleReplayBuffer)
 * [**StartReplayBuffer *Starts the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartReplayBuffer){.disabled}
 * [**StopReplayBuffer *Stops the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopReplayBuffer){.disabled}
 * [**SaveReplayBuffer *Saves the contents of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/){.disabled}
