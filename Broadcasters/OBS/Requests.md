@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T14:10:26.158Z
+date: 2022-08-05T14:15:06.222Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -197,7 +197,9 @@ Requests related to sources{.subtitle}
 
 ## Pages that need changes
 * SetInputVolume
+* GetOutputList
 {.grid-list}
+
 ---
 - [<i class="mdi mdi-share"></i> **Share your examples! *If you have example(s) for these requests you can submit it in #unearthed-arcana on the streamer.bot discord, there is a high change it will come on these pages***](https://discord.gg/RCcH54hWck)
 {.btn-grid}
