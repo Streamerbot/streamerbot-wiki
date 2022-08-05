@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T09:48:13.472Z
+date: 2022-08-05T14:10:26.158Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -148,7 +148,7 @@ Requests related to sources{.subtitle}
 * [**ToggleReplayBuffer *Toggles the state of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleReplayBuffer)
 * [**StartReplayBuffer *Starts the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartReplayBuffer)
 * [**StopReplayBuffer *Stops the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopReplayBuffer)
-* [**SaveReplayBuffer *Saves the contents of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/)
+* [**SaveReplayBuffer *Saves the contents of the replay buffer output***](/en/Broadcasters/OBS/Requests/Output-Requests/SaveReplayBuffer)
 * [**GetLastReplayBufferReplay *Gets the filename of the last replay buffer save file***](/en/Broadcasters/OBS/Requests/Output-Requests/GetLastReplayBufferReplay)
 * [**GetOutputList *Gets the list of available outputs***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputList)
 * [**GetOutputStatus *Gets the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputStatus)
