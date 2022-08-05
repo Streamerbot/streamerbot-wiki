@@ -2,7 +2,7 @@
 title: GetSceneItemBlendMode
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-05T08:48:10.781Z
+date: 2022-08-05T08:51:36.065Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:48:10.781Z
@@ -12,13 +12,14 @@ dateCreated: 2022-08-05T08:48:10.781Z
 Gets the blend mode of a scene item.
 
 Blend modes:
-* `OBS_BLEND_NORMAL`
-* `OBS_BLEND_ADDITIVE`
-* `OBS_BLEND_SUBTRACT`
-* `OBS_BLEND_SCREEN`
-* `OBS_BLEND_MULTIPLY`
-* `OBS_BLEND_LIGHTEN`
-* `OBS_BLEND_DARKEN`
+* [**OBS_BLEND_NORMAL**](){.disabled}
+* [**OBS_BLEND_ADDITIVE**](){.disabled}
+* [**OBS_BLEND_SUBTRACT**](){.disabled}
+* [**OBS_BLEND_SCREEN**](){.disabled}
+* [**OBS_BLEND_MULTIPLY**](){.disabled}
+* [**OBS_BLEND_LIGHTEN**](){.disabled}
+* [**OBS_BLEND_DARKEN**](){.disabled}
+{.btn-grid .my-5}
 
 Scenes and Groups
 
