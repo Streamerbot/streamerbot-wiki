@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T14:15:06.222Z
+date: 2022-08-05T14:43:52.133Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -153,18 +153,18 @@ Requests related to sources{.subtitle}
 * [**GetOutputList *Gets the list of available outputs***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputList)
 * [**GetOutputStatus *Gets the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputStatus)
 * [**ToggleOutput *Toggles the status of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleOutput)
-* [**StartOutput *Starts an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartOutput){.disabled}
-* [**StopOutput *Stops an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopOutput){.disabled}
-* [**GetOutputSettings *Gets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputSettings){.disabled}
-* [**SetOutputSettings *Sets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/SetOutputSettings){.disabled}
+* [**StartOutput *Starts an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartOutput)
+* [**StopOutput *Stops an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopOutput)
+* [**GetOutputSettings *Gets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputSettings)
+* [**SetOutputSettings *Sets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/SetOutputSettings)
 {.btn-grid .my-5}
 
 ## Stream Requests
-* [**GetStreamStatus *Gets the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/GetStreamStatus){.disabled}
-* [**ToggleStream *Toggles the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/ToggleStream){.disabled}
-* [**StartStream *Starts the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StartStream){.disabled}
-* [**StopStream *Stops the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StopStream){.disabled}
-* [**SendStreamCaption *Sends CEA-608 caption text over the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/SendStreamCaption){.disabled}
+* [**GetStreamStatus *Gets the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/GetStreamStatus)
+* [**ToggleStream *Toggles the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/ToggleStream)
+* [**StartStream *Starts the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StartStream)
+* [**StopStream *Stops the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StopStream)
+* [**SendStreamCaption *Sends CEA-608 caption text over the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/SendStreamCaption)
 {.btn-grid .my-5}
 
 ## Record Requests
