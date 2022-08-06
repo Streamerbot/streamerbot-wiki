@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-06T12:29:04.691Z
+date: 2022-08-06T13:36:09.942Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -185,17 +185,17 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Ui Requests
-* [**GetStudioModeEnabled *Gets whether studio is enabled***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetStudioModeEnabled){.disabled}
-* [**SetStudioModeEnabled *Enables or disables studio mode***](/en/Broadcasters/OBS/Requests/Ui-Requests/SetStudioModeEnabled){.disabled}
-* [**OpenInputPropertiesDialog *Opens the properties dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputPropertiesDialog){.disabled}
-* [**OpenInputFiltersDialog *Opens the filters dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputFiltersDialog){.disabled}
-* [**OpenInputInteractDialog *Opens the interact dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputInteractDialog){.disabled}
-* [**GetMonitorList *Gets a list of connected monitors and information about them***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetMonitorList){.disabled}
-* [**OpenVideoMixProjector *Opens a projector for a specific output video mix***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenVideoMixProjector){.disabled}
-* [**OpenSourceProjector *Opens a projector for a source***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenSourceProjector){.disabled}
+* [**GetStudioModeEnabled *Gets whether studio is enabled***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetStudioModeEnabled)
+* [**SetStudioModeEnabled *Enables or disables studio mode***](/en/Broadcasters/OBS/Requests/Ui-Requests/SetStudioModeEnabled)
+* [**OpenInputPropertiesDialog *Opens the properties dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputPropertiesDialog)
+* [**OpenInputFiltersDialog *Opens the filters dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputFiltersDialog)
+* [**OpenInputInteractDialog *Opens the interact dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputInteractDialog)
+* [**GetMonitorList *Gets a list of connected monitors and information about them***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetMonitorList)
+* [**OpenVideoMixProjector *Opens a projector for a specific output video mix***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenVideoMixProjector)
+* [**OpenSourceProjector *Opens a projector for a source***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenSourceProjector)
 {.btn-grid .my-5}
 
-## Pages that need changes
+#### Pages that need changes
 * SetInputVolume
 * GetOutputList
 {.grid-list}
