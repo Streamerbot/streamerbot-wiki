@@ -23,7 +23,7 @@ Complexity Rating: | <span class="stars stars--4"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
-## Copy/Paste
+## Usage
 ```json
 {
   "request-type": "GetStreamServiceSettings"
