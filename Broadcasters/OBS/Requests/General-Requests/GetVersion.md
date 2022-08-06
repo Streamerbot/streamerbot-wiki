@@ -2,7 +2,7 @@
 title: GetVersion
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-30T01:24:50.907Z
+date: 2022-08-06T19:43:34.958Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T00:21:44.682Z
@@ -29,11 +29,14 @@ Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
 ## Usage
+## Tabset {.tabset}
+### OBS raw
 ```json
 {
   "request-type": "GetVersion"
 }
 ```
+## End Tabset {.tabset}
 
 ---
 
