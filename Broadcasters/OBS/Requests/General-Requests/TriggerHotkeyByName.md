@@ -2,7 +2,7 @@
 title: TriggerHotkeyByName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-06T13:06:22.012Z
+date: 2022-08-06T13:08:56.632Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:22:43.800Z
@@ -24,7 +24,7 @@ Complexity Rating: | <span class="stars stars--3"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
-## Copy/Paste {.tabset}
+## Copy/Paste
 ### OBS raw
 ```json
 {
@@ -37,7 +37,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```csharp
 CPH.ObsSendRaw("TriggerHotkeyByName", "{'hotkeyName': ''}", 0);
 ```
-##
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
