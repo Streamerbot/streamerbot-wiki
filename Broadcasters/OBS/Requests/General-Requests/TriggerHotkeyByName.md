@@ -26,8 +26,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ## Usage {.tabset}
 ### OBS raw
-```
-## End Tabset {.tabset}json
+```json
 {
   "request-type": "TriggerHotkeyByName",
   "hotkeyName": ""
