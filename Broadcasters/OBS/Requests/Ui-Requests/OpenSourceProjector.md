@@ -2,7 +2,7 @@
 title: OpenSourceProjector
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-06T18:36:36.176Z
+date: 2022-08-06T18:37:31.783Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T18:36:36.176Z
@@ -17,7 +17,7 @@ Note: This request serves to provide feature parity with 4.x. It is very likely 
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `sourceName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Name of the source to open a projector for
-`monitorIndex` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Monitor index, use `GetMonitorList` to obtain index
+`monitorIndex` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Monitor index, use `GetMonitorList` to obtain index | -1: Opens projector in windowed mode
 `projectorGeometry` | `String`{.datatype} | <i class="mdi mdi-close-thick"></i> | Size/Position data for a windowed projector, in Qt Base64 encoded format. Mutually exclusive with `monitorIndex`
 
 ## Data Fields
