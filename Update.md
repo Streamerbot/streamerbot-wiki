@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-08-06T16:11:03.300Z
+date: 2022-08-06T16:19:50.799Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z
@@ -23,11 +23,8 @@ It is highly recommended to backup your existing installation **before** updatin
 ## Download
 Download the latest version by following these steps:
 
-1. Click the purple download button for Streamer.bot below
-
-<span></span>
-
-<div class=“iframe-container”><iframe src="https://streamer.bot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+1. Navigate to the [Streamer.bot](https://streamer.bot) home page
+2. Click the purple download button for Streamer.bot
 
 ## Update
 Update to the new version by following these steps:
@@ -40,10 +37,6 @@ Update to the new version by following these steps:
 <small>Thanks to VRFlad for this tutorial!</small>
 
 <div class=“iframe-container”><iframe src="https://www.youtube.com/embed/DmzVuyAXefI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
-
-### Notes
-Before asking in discord **make sure** this text **does** exist
-![update-available-bad.jpg](/update/update-available-bad.jpg)
 
 ***
 
