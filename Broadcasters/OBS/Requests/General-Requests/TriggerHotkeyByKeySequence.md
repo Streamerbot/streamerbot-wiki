@@ -2,7 +2,7 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-01T02:20:31.963Z
+date: 2022-08-06T18:45:14.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
@@ -21,12 +21,6 @@ Name | Type | Required| Description |
 `keyModifiers.alt` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press ALT
 `keyModifiers.command` | `Boolean`{.datatype} | <i class="mdi mdi-close-thick"></i> | Press CMD (Mac)
 
-## Variables
-Name | Type | Description | 
-----:|:---------:|:------------|
-`obsRaw.Name` | `datatype`{.datatype} | Description
-`obsRaw.Name` | `datatype`{.datatype} | Description
-
 ## Data Fields
 :---|:---:|
 Complexity Rating: | <span class="stars stars--4"></span>
@@ -41,13 +35,13 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "request-type": "TriggerHotkeyByKeySequence",
   "keyId": "",
-  "keyModifiers": {
-    "": ""
-  },
   "keyModifiers.shift": ,
   "keyModifiers.control": ,
   "keyModifiers.alt": ,
   "keyModifiers.command": 
+  "keyModifiers": {
+    "": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

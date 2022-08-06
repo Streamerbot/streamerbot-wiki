@@ -2,15 +2,13 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-06T13:36:09.942Z
+date: 2022-08-06T19:41:58.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
 ---
 
 > All these events won't exist yet, because streamer.bot is currently on OBS websocket *v4.x.x*{.version-badge} 
-> Event Title `White` = `Page exist`
-> Event Title `Gray` = `Page doesn't exist`
 {.is-danger}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
@@ -33,7 +31,7 @@ For example, a single scene change, fires off more events then just changing the
 ## Config Requests
 * [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData){.disabled}
 * [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData){.disabled}
-* [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList)
+* [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList)
 * [**SetCurrentSceneCollection *Switches to a scene collection.***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentSceneCollection)
 * [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateSceneCollection)
 * [**GetProfileList *Gets an array of all profiles***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileList)
@@ -201,9 +199,7 @@ Requests related to sources{.subtitle}
 {.grid-list}
 
 ---
-- [<i class="mdi mdi-share"></i> **Share your examples! *If you have example(s) for these requests you can submit it in #unearthed-arcana on the streamer.bot discord, there is a high change it will come on these pages***](https://discord.gg/RCcH54hWck)
-{.btn-grid}
-####
+
 - [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
 {.btn-grid}

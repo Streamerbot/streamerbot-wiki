@@ -2,7 +2,7 @@
 title: TriggerHotkeyByName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-06T13:27:49.901Z
+date: 2022-08-06T19:42:56.580Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:22:43.800Z
@@ -24,9 +24,7 @@ Complexity Rating: | <span class="stars stars--3"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
-## Usage
-## Tabset {.tabset}
-### OBS raw {.tabset}
+## Usage {.tabset}
 ### OBS raw
 ```
 ## End Tabset {.tabset}json
