@@ -24,7 +24,10 @@ Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
 ## Usage
-```json
+## Tabset {.tabset}
+### OBS raw
+```
+## End Tabset {.tabset}json
 {
   "request-type": "SetInputAudioTracks",
   "inputName": "",
@@ -33,6 +36,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   }
 }
 ```
+## End Tabset {.tabset}
 
 ---
 

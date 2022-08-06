@@ -24,19 +24,25 @@ Complexity Rating: | <span class="stars stars--3"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
-## Usage {.tabset}
+## Usage
+## Tabset {.tabset}
+### OBS raw {.tabset}
 ### OBS raw
-```json
+```
+## End Tabset {.tabset}json
 {
   "request-type": "TriggerHotkeyByName",
   "hotkeyName": ""
 }
 ```
+## End Tabset {.tabset}
 
 ### C# Method
-```csharp
+```
+## End Tabset {.tabset}csharp
 CPH.ObsSendRaw("TriggerHotkeyByName", "{'hotkeyName': ''}", 0);
 ```
+## End Tabset {.tabset}
 ## End Tabset {.tabset}
 ---
 
