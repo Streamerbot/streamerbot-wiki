@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-05T19:32:34.645Z
+date: 2022-08-06T12:29:04.691Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -178,10 +178,10 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Media Input Requests
-* [**GetMediaInputStatus *Gets the status of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/GetMediaInputStatus){.disabled}
-* [**SetMediaInputCursor *Sets the cursor position of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/SetMediaInputCursor){.disabled}
-* [**OffsetMediaInputCursor *Offsets the current cursor position of a media input by the specified value***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/OffsetMediaInputCursor){.disabled}
-* [**TriggerMediaInputAction *Triggers an action on a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/TriggerMediaInputAction){.disabled}
+* [**GetMediaInputStatus *Gets the status of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/GetMediaInputStatus)
+* [**SetMediaInputCursor *Sets the cursor position of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/SetMediaInputCursor)
+* [**OffsetMediaInputCursor *Offsets the current cursor position of a media input by the specified value***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/OffsetMediaInputCursor)
+* [**TriggerMediaInputAction *Triggers an action on a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/TriggerMediaInputAction)
 {.btn-grid .my-5}
 
 ## Ui Requests
