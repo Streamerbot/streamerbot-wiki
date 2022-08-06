@@ -2,15 +2,13 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-06T13:36:09.942Z
+date: 2022-08-06T18:47:48.581Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
 ---
 
 > All these events won't exist yet, because streamer.bot is currently on OBS websocket *v4.x.x*{.version-badge} 
-> Event Title `White` = `Page exist`
-> Event Title `Gray` = `Page doesn't exist`
 {.is-danger}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
