@@ -11,7 +11,7 @@ dateCreated: 2022-08-05T08:57:17.609Z
 ## Overview
 Sets the blend mode of a scene item.
 
-Blend modes:
+### Blend modes
 * OBS_BLEND_NORMAL
 * OBS_BLEND_ADDITIVE
 * OBS_BLEND_SUBTRACT
