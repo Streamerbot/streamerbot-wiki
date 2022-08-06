@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-06T18:47:48.581Z
+date: 2022-08-06T19:39:56.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -199,9 +199,7 @@ Requests related to sources{.subtitle}
 {.grid-list}
 
 ---
-- [<i class="mdi mdi-share"></i> **Share your examples! *If you have example(s) for these requests you can submit it in #unearthed-arcana on the streamer.bot discord, there is a high change it will come on these pages***](https://discord.gg/RCcH54hWck)
-{.btn-grid}
-####
+
 - [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
 {.btn-grid}
