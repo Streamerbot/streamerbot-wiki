@@ -1,18 +1,18 @@
 ---
-title: OBS
+title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-07-19T19:16:10.183Z
-tags: integrations, obs
+date: 2022-08-06T19:11:28.935Z
+tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
 ---
 
 ![obs.svg](/logos/obs.svg){.align-abstopright}
 
-> OBS Websocket **4.x.x** is the only supported version at this time. 
-> Version **5.x.x** requires a re-write and will be supported in the future.
-> The latest supported version is **4.9.1** and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+> OBS Websocket *4.x.x*{.version-badge} is the only supported version at this time. 
+> Version *5.x.x*{.version-badge} requires a re-write and will be supported in the future.
+> The latest supported version is *4.9.1*{.version-badge} and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
 
 # Overview
