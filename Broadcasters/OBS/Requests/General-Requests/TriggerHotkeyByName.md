@@ -2,7 +2,7 @@
 title: TriggerHotkeyByName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-06T19:42:56.580Z
+date: 2022-08-06T20:21:16.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:22:43.800Z
@@ -32,14 +32,11 @@ Added in | *v5.0.0*{.obs-version-badge}
   "hotkeyName": ""
 }
 ```
-## End Tabset {.tabset}
 
 ### C# Method
-```
-## End Tabset {.tabset}csharp
+```csharp
 CPH.ObsSendRaw("TriggerHotkeyByName", "{'hotkeyName': ''}", 0);
 ```
-## End Tabset {.tabset}
 ## End Tabset {.tabset}
 ---
 
