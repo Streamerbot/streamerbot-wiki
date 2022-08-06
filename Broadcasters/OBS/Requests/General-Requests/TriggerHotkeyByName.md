@@ -2,7 +2,7 @@
 title: TriggerHotkeyByName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-06T13:25:58.583Z
+date: 2022-08-06T13:27:49.901Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:22:43.800Z
@@ -10,7 +10,7 @@ dateCreated: 2022-07-30T01:22:43.800Z
 
 ## Overview
 Triggers a hotkey using its name. See `GetHotkeyList`
-- [**GetHotkeyList Request Reference**](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
+- [<i class="mdi mdi-keyboard"></i>**GetHotkeyList Request Reference**](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
 {.btn-grid .my-5}
 
 ## Request Fields
@@ -41,5 +41,5 @@ CPH.ObsSendRaw("TriggerHotkeyByName", "{'hotkeyName': ''}", 0);
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
-- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#triggerhotkeybyname)
+- [<i class="mdi mdi-github"></i>**OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#triggerhotkeybyname)
 {.btn-grid .my-5}
