@@ -2,15 +2,13 @@
 title: OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-07T09:55:39.201Z
+date: 2022-08-07T10:04:45.959Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
-> All these events won't exist yet, because streamer.bot is currently on OBS websocket *v4.x.x*{.version-badge} 
-> Event Title `White` = `Page exist`
-> Event Title `Gray` = `Page doesn't exist`
+> All these events won't exist yet, because streamer.bot is currently on OBS WebSocket *v4.x.x*{.obs-version-badge} 
 {.is-danger}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
@@ -19,10 +17,18 @@ It's important to note, that while it may seem like one event maybe the one to u
 
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
+## Default Variables
+
+Name | Type | Description | 
+----:|:----:|:------------|
+`obsEvent.event` | *string*{.datatype} | The OBS event's name
+`obsEvent.update-type` | *string*{.datatype} | The update type of the OBS event
+`obsEvent._json` | *string*{.datatype} | All the variables in a JSON Object
+
 ## General Events
 General & miscellaneous OBS Studio events{.subtitle}
-* [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted){.disabled}
-* [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent){.disabled}
+* [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
+* [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
 {.btn-grid .my-5}
 
 ## Config Events
