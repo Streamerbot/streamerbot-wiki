@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-07T17:13:03.362Z
+date: 2022-08-07T17:23:46.806Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -16,4 +16,11 @@ dateCreated: 2022-08-04T15:20:57.008Z
   <summary>
 <font size="+2" class="text--twitch"><b>Q: </b></font><font size="+2"><b> When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?</summary>
 <font size="+2" class="text--twitch"><b>A: </b></font></font><font size="+2"><b> You need to trim off the trailing spaces from the end of the code.
-    </details>
+</details>
+    
+# tabset {.tabset}
+## Q
+When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
+## A
+You need to trim off the trailing spaces from the end of the code.
+# end tabset {.tabset}
