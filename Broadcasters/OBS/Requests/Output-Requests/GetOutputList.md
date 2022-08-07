@@ -2,7 +2,7 @@
 title: GetOutputList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-05T14:15:24.931Z
+date: 2022-08-07T09:32:00.347Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T14:15:24.931Z
@@ -10,6 +10,18 @@ dateCreated: 2022-08-05T14:15:24.931Z
 
 ## Overview
 Gets the list of available outputs.
+
+> The Variables aren't in the official OBS WebSocket Documentation so it can be wrong, the variables came from the OBS WebSocket source code. The Type and Description aren't available
+{.is-danger}
+
+## Variables
+Name | Type | Description | 
+----:|:---------:|:------------|
+`obsRaw.outputName` | 
+`obsRaw.outputKind` | 
+`obsRaw.outputWidth` | 
+`obsRaw.outputHeight` | 
+`obsRaw.outputActive` | 
 
 ## Data Fields
 :---|:---:|
