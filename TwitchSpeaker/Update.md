@@ -2,7 +2,7 @@
 title: Update TwitchSpeaker
 description: Learn how to update your TwitchSpeaker installation to the latest version
 published: true
-date: 2022-08-07T16:30:37.660Z
+date: 2022-08-07T16:31:47.077Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:56:03.875Z
@@ -43,5 +43,5 @@ This video is made for Streamer.bot but pretty much the same for TwitchSpeaker{.
 ***
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class="mdi mdi-update primary--text"></i>**Changelogs *Up Next***](/en/Changelogs)
+- [<i class="mdi mdi-update text--twitch"></i>**Changelogs *Up Next***](/en/TwitchSpeaker/Changelogs)
 {.btn-grid .my-5}
