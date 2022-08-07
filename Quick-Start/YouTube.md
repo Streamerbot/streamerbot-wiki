@@ -2,14 +2,14 @@
 title: Quick Start - YouTube
 description: Connect your YouTube account with Streamer.bot
 published: true
-date: 2022-08-07T15:03:23.091Z
+date: 2022-08-07T15:04:57.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T19:13:33.290Z
 ---
 
 # Connecting your YouTube account!
-![connect_to_twitch_.png](/youtube/yt_account_new.png =800x)
+![connect_to_youtube_.png](/youtube/yt_account_new.png =800x)
 1. Navigate through the following: `Platforms` ---> `YouTube` ----> `Accounts`
 2. Press the `Sign in with Google` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
 
@@ -17,9 +17,9 @@ dateCreated: 2022-08-06T19:13:33.290Z
 {.is-warning}
 ## Broadcaster Account
 
-If you want Streamer.bot to be able to monitor chat and Twitch events, a `Broadcaster` account must be defined. 
+If you want Streamer.bot to be able to monitor chat and YouTube events, a `Broadcaster` account must be defined. 
 
-Press `Sign in with Google` to automatically obtain a token. If you are already logged in on your web browser you will be taken immediately to the permissions screen. This is a list of all the Twitch features the application will be able to perform in your name. If it is not listed here, the bot can't do it, even if you could perform an action by typing a command in chat yourself for example.
+Press `Sign in with Google` to automatically obtain a token. If you are already logged in on your web browser you will be taken immediately to the permissions screen. This is a list of all the YouTube features the application will be able to perform in your name. If it is not listed here, the bot can't do it, even if you could perform an action by typing a command in chat yourself for example.
 
 If the logged in user is not the one you wish to use, please log out and enter the credentials you wish to use 
 
