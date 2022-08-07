@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-07-19T11:17:48.183Z
+date: 2022-08-07T09:41:55.564Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -96,7 +96,7 @@ Events related to source & filter changes{.subtitle}
 {.btn-grid .my-5}
 
 ## Media
-Added in obs-websocket *v4.9.0*{.version-badge} {.subtitle}
+Added in obs-websocket *v4.9.0*{.obs-version-badge} {.subtitle}
 
 **Note**: These events are only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.{.subtitle}
 * [MediaPlaying](/en/Broadcasters/OBS/Events/Media/MediaPlaying)
@@ -110,7 +110,7 @@ Added in obs-websocket *v4.9.0*{.version-badge} {.subtitle}
 {.btn-grid .my-5}
 
 ## Replay Buffer
-Added in obs-websocket *v4.2.0*{.version-badge} {.subtitle}
+Added in obs-websocket *v4.2.0*{.obs-version-badge} {.subtitle}
 * [**ReplayStarting *A request to start the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
 * [**ReplayStarted *Replay Buffer started successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
 * [**ReplayStopping *A request to stop the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
@@ -118,7 +118,7 @@ Added in obs-websocket *v4.2.0*{.version-badge} {.subtitle}
 {.btn-grid .my-5}
 
 ## Virtual Cam
-Added in obs-websocket *v4.9.1*{.version-badge} {.subtitle}
+Added in obs-websocket *v4.9.1*{.obs-version-badge} {.subtitle}
 * [**VirtualCamStarted *Virtual cam started successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
 * [**VirtualCamStopped *Virtual cam stopped successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
 {.btn-grid .my-5}
