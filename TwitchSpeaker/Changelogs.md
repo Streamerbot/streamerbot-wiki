@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-05T13:56:29.345Z
+date: 2022-08-07T10:48:34.650Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -356,52 +356,93 @@ Order of replacements is also something to keep in mind
 
 # TwitchSpeaker v0.0.21
 Released 2021-02-20{.subtitle}
-* Harden some Twitch API calls to hopefully not cause as many crashes, this is an on-going thing
-* Add a check to prevent follow spam, during a session (open/close of program) a follow will only be fired once for a user and any further ones will be ignored
 * Misc fixes/tweaks
+{.changelog-fixes}
+
+<span></span>
+
+* Harden some Twitch API calls to hopefully not cause as many crashes, this is an on-going thing
+{.changelog-updates}
+
+<span></span>
+
+* Add a check to prevent follow spam, during a session (open/close of program) a follow will only be fired once for a user and any further ones will be ignored
+{.changelog-new}
 
 # TwitchSpeaker v0.0.20
 Released 2021-01-06{.subtitle}
-* Audio output is now using WASAPI instead of WaveOut for, reasons.
-* Added new option to select the audio output device, this effects all speech; may expand this to be more granular, not sure yet.  Option is on TTS Settings page
 * Some misc fixes/tweaks
-- NOTE: Only WASAPI supported output devices will be listed.
-- And yes, I know, the UI is still fugly, it's on my ever growing list.
+{.changelog-fixes}
+
+<span></span>
+
+* Audio output is now using WASAPI instead of WaveOut for, reasons.
+{.changelog-updates}
+
+<span></span>
+
+* Added new option to select the audio output device, this effects all speech; may expand this to be more granular, not sure yet.  Option is on TTS Settings page
+{.changelog-new}
+
+<span></span>
+
+* NOTE: Only WASAPI supported output devices will be listed.
+* And yes, I know, the UI is still fugly, it's on my ever growing list.
 
 # TwitchSpeaker v0.0.19
 Released 2020-10-02{.subtitle}
-- Full on 4s, thought I'd give them back now.
+* Full on 4s, thought I'd give them back now.
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.18
 Released 2020-10-02{.subtitle}
 * Fix !tts assign last `<user>`, it should now actually work
 * Fix random sticky voice option, it should also now work
+{.changelog-fixes}
+
+<span></span>
+
 * Add community goal contribution and finished events to events that can be spoken.
+{.changelog-new}
 
 Default event strings for contribution is: `Well, %name% decided to contribute %amount% towards %title%, it's %percent% finished, getting closer!`
 
 Default event string for goal finished is: `Amazing, %title% was just finished, %amount% points were used to fund it!`
 
 These will not be added to existing settings, so be sure to configure them if you would like to use them.
-# TwitchSpeaker v0.0.17 (date unknown)
+# TwitchSpeaker v0.0.17 (data unknown)
 
 # TwitchSpeaker v0.0.16
 Released 2020-09-22{.subtitle}
 * Small fix to the delayed text save
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.15
 Released 2020-09-22{.subtitle}
 * Misc fixes
-* UI cleanup a bit, finally switched scaling in VS, so controls shouldn't overlap/etc anymore
 * Fix text input dialog focus
+{.changelog-fixes}
+
+<span></span>
+
+* UI cleanup a bit, finally switched scaling in VS, so controls shouldn't overlap/etc anymore
+{.changelog-updates}
+
+<span></span>
+
 * Ability to edit the nickname of a user directly, this is tested as best I can, it should be ok, its a delayed saving
+{.changelog-new}
+
+<span></span>
+
 * Umm stuff I probably forgot?
 
 # TwitchSpeaker v0.0.14
 Released 2020-09-05{.subtitle}
 * Misc bug fixes
+{.changelog-fixes}
 
-# TwitchSpeaker v0.0.13 (date unknown)
+# TwitchSpeaker v0.0.13 (data unknown)
 
 # TwitchSpeaker v0.0.12
 Released 2020-08-08{.subtitle}
