@@ -1,15 +1,15 @@
 ---
 title: Template
 description: OBS Studio Events Reference (v5)
-published: true
-date: 2022-07-28T20:14:58.175Z
+published: false
+date: 2022-08-07T10:09:12.371Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
 ---
 
 ## Overview
-DESCRIPTION
+DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
 ## Variables
 Name | Type | Description | 
@@ -19,7 +19,7 @@ Name | Type | Description |
 
 ## Data Fields
 :---|:---:|
-| Complexity Rating: | <span class="stars stars--5"></span>
+| Complexity Rating: | <span class="stars stars--"></span>
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
 
