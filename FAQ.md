@@ -2,13 +2,13 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-07T17:29:17.347Z
+date: 2022-08-07T17:29:37.424Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
 ---
 
-###### Case sensitive variables
+### Case sensitive variables
 <font size="+2" class="text--twitch"><b>Q: </b></font><font size="+2"><b>Are variables case sensitive and when should I use the % symbols?</b></font>
 <font size="+2" class="text--twitch"><b>A: </b></font></font><font size="+2"><b>Yes variables need to use camelCase so first word fully lowercase and second word first letter uppercase, when you uses variables in sub-actions it needs to be surrounded by % symbols</b></font>
 
@@ -24,7 +24,7 @@ dateCreated: 2022-08-04T15:20:57.008Z
 <span></span>
 <span></span>
 <span></span>
-#### When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
+### When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
 
 # tabset {.tabset}
 ## Question
