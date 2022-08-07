@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-07T18:09:09.284Z
+date: 2022-08-07T18:09:29.156Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -39,7 +39,7 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png" /> **Streamlabs Desktop *Enable remote control of Streamlabs Desktop from Streamer.bot***](/en/Quick-Start/Streamlabs-Desktop)
 {.btn-grid .my-5}
 
-## Example/Guides
+## Examples
 
 - [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Learn how to have actions run when you switch to a specif scene***](/en/Quick-Start/Example/SwitchScenes){.disabled}
 - [<i class="mdi mdi-signal"></i> **Stream Status Activated Actions *Learn how to have actions run when your stream status changes***](/en/Quick-Start/Example/StreamStatus){.disabled}
