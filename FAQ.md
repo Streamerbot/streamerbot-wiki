@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-07T17:28:59.264Z
+date: 2022-08-07T17:29:17.347Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -24,7 +24,7 @@ dateCreated: 2022-08-04T15:20:57.008Z
 <span></span>
 <span></span>
 <span></span>
-###### When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
+#### When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
 
 # tabset {.tabset}
 ## Question
