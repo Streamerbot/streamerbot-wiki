@@ -2,14 +2,10 @@
 title: Update TwitchSpeaker
 description: Learn how to update your TwitchSpeaker installation to the latest version
 published: true
-date: 2022-08-03T12:07:00.885Z
+date: 2022-08-07T16:30:37.660Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:56:03.875Z
----
-
-<font size="+3" class="mdi mdi-update text--twitch"><b> Update TwitchSpeaker</b></font>
-
 ---
 
 ## Backup
