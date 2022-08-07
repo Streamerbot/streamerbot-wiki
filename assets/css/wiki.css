@@ -419,6 +419,9 @@ h6::after {
 .text--streamlabs {
   color: #80f5d2;
 }
+.text--voicemod {
+  color: #00fff6
+}
 
 /* tables */
 #root .v-main .contents .vars-table tr > td:nth-child(2) code {
