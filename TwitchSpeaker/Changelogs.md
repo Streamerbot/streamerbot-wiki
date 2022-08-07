@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-07T10:48:34.650Z
+date: 2022-08-07T10:56:52.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -447,60 +447,108 @@ Released 2020-09-05{.subtitle}
 # TwitchSpeaker v0.0.12
 Released 2020-08-08{.subtitle}
 * Deadlock resolved, I think
-* Watson is now auto enabled if configured to
-* AWS Keys are masked
-* Toys were put away for now
-* Implement some checks on settings files so they're not wiped
-* Error handling for engine inits, hopefully it won't crash now when aws/google/watson has issues on initial setup
-* Auto connecting option added
 * Other misc fixes/bugs
+{.changelog-fixes}
+
+<span></span>
+
+* Watson is now auto enabled if configured to
+* Toys were put away for now
+{.changelog-updates}
+
+<span></span>
+
+* Auto connecting option added
+* AWS Keys are masked
+* Error handling for engine inits, hopefully it won't crash now when aws/google/watson has issues on initial setup
+* Implement some checks on settings files so they're not wiped
+{.changelog-new}
 
 # TwitchSpeaker v0.0.11
 Released 2020-08-01{.subtitle}
-* New TTS Engine! IBM Watson, adds another 50 voices, with default install of windows and all engines active, you now have 376 voices
-* Separate ignore emote setting into the 3 services (Twitch, BTTV, FFZ), be default, BTTV and FFZ are not ignored, so be sure to toggle those to return to default behaviour
+
 * Misc fixes here and there
+{.changelog-fixes}
+
+<span></span>
+* Separate ignore emote setting into the 3 services (Twitch, BTTV, FFZ), be default, BTTV and FFZ are not ignored, so be sure to toggle those to return to default behaviour
 * Update viewer display names when possible
-* Start tracking character counts, for now this is just put to a file, there will be a display area somewhere eventually
+{.changelog-updates}
+
+<span></span>
+
 * New Gag button to outright silence TTS
+* New TTS Engine! IBM Watson, adds another 50 voices, with default install of windows and all engines active, you now have 376 voices
+* Start tracking character counts, for now this is just put to a file, there will be a display area somewhere eventually
+{.changelog-new}
+
+<span></span>
+
 * Other stuff I can't remember at the moment
 
 # TwitchSpeaker v0.0.10
 Released 2020-07-10{.subtitle}
 * Fix crash Thelete reported
-* Update some default strings
-* Add subscription related info back in, this requires a new scope, so you'll need to re-auth, app will inform you
 * Misc fixes/tweaks
+{.changelog-fixes}
+
+<span></span>
+
+* Update some default strings
+{.changelog-updates}
+
+<span></span>
+
+* Add subscription related info back in, this requires a new scope, so you'll need to re-auth, app will inform you
+{.changelog-new}
 
 # TwitchSpeaker v0.0.9
 Released 2020-07-07{.subtitle}
 * Bump SAPI5 sampling rate
+{.changelog-new}
 
 # TwitchSpeaker v0.0.8
 Released 2020-07-07{.subtitle}
 * Forgot to add the ability to force a user's speech, so, you can now force a user to always have there chat spoken, maybe tweaked a bit still (i.e. you could force a user, and disable all permissions, and their text would still be spoken)
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.7
 Released 2020-07-07{.subtitle}
-* Not allowed response being to aggressive, gave it a stern talking to
-* Added !tts reg [add|del] [username] to add/remove regular status of user
 * Events Settings: Forgot to clear Enabled check box in the message area when picking another event type
+{.changelog-fixes}
+
+<span></span>
+
 * Ignore exclimation was also being to aggressive, gave it a stern talking to as well
+* Not allowed response being to aggressive, gave it a stern talking to
+{.changelog-updates}
+
+<span></span>
+
+* Added !tts reg [add|del] [username] to add/remove regular status of user
+{.changelog-new}
 
 # TwitchSpeaker v0.0.6
 Released 2020-07-06{.subtitle}
 * Fix an issue w/ gift sub event strings not saying the tier
-* Add ability to disable an event string, so you don't have to delete it to not use it
 * Fix removing an ignored voice (on TTS Settings tag)
 * Misc tweaks/fixes
+{.changelog-fixes}
+
+<span></span>
+
+* Add ability to disable an event string, so you don't have to delete it to not use it
+{.changelog-new}
 
 # TwitchSpeaker v0.0.5
 Released 2020-07-06{.subtitle}
 * Will actually ignore a user now if flagged as ignored
 * Misc fixes/tweaks
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.4
 Released 2020-07-06{.subtitle}
 * Fix not being able to connect after disconnect
 * Fix everyone permission
 * Few misc fixes/tweaks
+{.changelog-fixes}
