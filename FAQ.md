@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-07T17:28:14.350Z
+date: 2022-08-07T17:28:28.718Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -18,7 +18,7 @@ dateCreated: 2022-08-04T15:20:57.008Z
 <font size="+2" class="text--twitch"><b>A: </b></font></font><font size="+2"><b> You need to trim off the trailing spaces from the end of the code.
 </details>
 
-***
+***{.my-5}
     
 ###### When I copy an import code from examples nothing shows up when I paste it in the import box.  Why?
 
