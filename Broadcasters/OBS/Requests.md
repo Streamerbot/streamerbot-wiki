@@ -2,7 +2,7 @@
 title: OBS Studio Requests
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-07T08:16:02.417Z
+date: 2022-08-07T08:44:00.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -29,8 +29,8 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Config Requests
-* [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData){.disabled}
-* [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData){.disabled}
+* [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData)
+* [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData)
 * [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList)
 * [**SetCurrentSceneCollection *Switches to a scene collection.***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentSceneCollection)
 * [**CreateSceneCollection *Creates a new scene collection, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateSceneCollection)
@@ -38,8 +38,8 @@ For example, a single scene change, fires off more events then just changing the
 * [**SetCurrentProfile *Switches to a profile***](/en/Broadcasters/OBS/Requests/Config-Requests/SetCurrentProfile)
 * [**CreateProfile *Creates a new profile, switching to it in the process***](/en/Broadcasters/OBS/Requests/Config-Requests/CreateProfile)
 * [**RemoveProfile *Removes a profile. If the current profile is chosen, it will change to a different profile first***](/en/Broadcasters/OBS/Requests/Config-Requests/RemoveProfile)
-* [**GetProfileParameter *Gets a parameter from the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileParameter){.disabled}
-* [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/SetProfileParameter){.disabled}
+* [**GetProfileParameter *Gets a parameter from the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/GetProfileParameter)
+* [**SetProfileParameter *Sets the value of a parameter in the current profile's configuration***](/en/Broadcasters/OBS/Requests/Config-Requests/SetProfileParameter)
 * [**GetVideoSettings *Gets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/GetVideoSettings)
 * [**SetVideoSettings *Sets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/SetVideoSettings)
 * [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/GetStreamServiceSettings)
