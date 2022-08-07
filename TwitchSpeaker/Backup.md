@@ -2,14 +2,10 @@
 title: Restore a Backup
 description: Learn how to restore a backup with TwitchSpeaker!
 published: true
-date: 2022-08-03T13:39:54.884Z
+date: 2022-08-07T16:30:13.624Z
 tags: backup, restore, restore a backup, twitchspeaker, backup twitchspeaker, how to backup twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:04:38.848Z
----
-
-<font size="+3" class="mdi mdi-floppy text--twitch"><b> Restore a Backup</b></font>
-
 ---
 
 ## Backup Folder
