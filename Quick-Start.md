@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-07T18:11:49.740Z
+date: 2022-08-07T18:15:21.419Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -41,10 +41,10 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 
 ## Examples
 
-- [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Learn how to have actions run when you switch to a specif scene***](/en/Quick-Start/Example/SwitchScenes){.disabled}
-- [<i class="mdi mdi-signal"></i> **Stream Start/End Activated Actions *Learn how to have actions run when your stream status changes***](/en/Quick-Start/Example/StreamStatus){.disabled}
-- [<i class="mdi mdi-rocket-launch"></i> **Activate Actions When streamer.bot launches *Learn how to have actions run when your streamer.bot starts up***](/en/Quick-Start/Example/steamerbot-launch){.disabled}
- - [<i class="mdi mdi-chat"></i> **Chatbot Example *Learn how to enable some basic chat commands with Streamer.bot***](/en/Quick-Start/Commands)
+- [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Perform actions when changing scenes***](/en/Quick-Start/Example/SwitchScenes){.disabled}
+- [<i class="mdi mdi-signal"></i> **Stream Start/End Actions *Perform actions when your streaming status changes***](/en/Quick-Start/Example/StreamStatus){.disabled}
+- [<i class="mdi mdi-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Example/steamerbot-launch){.disabled}
+ - [<i class="mdi mdi-chat"></i> **Chatbot Example *Enable some basic chat commands***](/en/Quick-Start/Commands)
 {.btn-grid .my-5}
 
 ## Explore
