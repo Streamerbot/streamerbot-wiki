@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-07T18:31:32.734Z
+date: 2022-08-07T18:37:51.485Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -12,6 +12,10 @@ dateCreated: 2022-08-07T18:26:07.707Z
 {.is-danger}
 
 ## Guide
+
+For this to work you need to use the obs event `SwitchScenes`
+![obs-event-tab-switchscenes.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes.jpg)
+![obs-event-tab-switchscenes-zoomed.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes-zoomed.jpg)
 
 ## Usage
 
