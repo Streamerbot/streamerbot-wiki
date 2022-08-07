@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-04T13:57:36.989Z
+date: 2022-08-07T15:07:04.732Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -24,7 +24,7 @@ Streamer.bot now supports both **Twitch** and **YouTube** as streaming platforms
 Select the platform you would like to set up:
 
 - [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Connect your Twitch account with Streamer.bot***](/en/Quick-Start/Twitch)
-- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Quick-Start Guide Coming Soon***](/en/Quick-Start/YouTube){.disabled}
+- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Connect your YouTube account with Streamer.bot***](/en/Quick-Start/YouTube)
 {.btn-grid .my-5}
 
 
