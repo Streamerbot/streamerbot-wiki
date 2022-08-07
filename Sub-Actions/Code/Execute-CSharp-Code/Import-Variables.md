@@ -1,8 +1,8 @@
 ---
-title: Import Variables
+title: Variable Types
 description: 
 published: true
-date: 2022-08-07T22:11:03.320Z
+date: 2022-08-07T22:39:54.498Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T22:11:03.320Z
