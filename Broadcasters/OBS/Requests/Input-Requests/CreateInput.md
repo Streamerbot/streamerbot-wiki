@@ -2,7 +2,7 @@
 title: CreateInput
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-01T03:14:16.992Z
+date: 2022-08-07T09:18:05.014Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:14:16.992Z
@@ -40,10 +40,10 @@ Added in | *v5.0.0*{.obs-version-badge}
   "sceneName": "",
   "inputName": "",
   "inputKind": "",
+  "sceneItemEnabled": ,
   "inputSettings": {
     "": ""
-  },
-  "sceneItemEnabled": 
+  }
 }
 ```
 ## End Tabset {.tabset}
