@@ -2,7 +2,7 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-05T13:38:33.879Z
+date: 2022-08-08T20:41:25.922Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -40,4 +40,15 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ```css
 {.changelog-new}
+```
+
+```mermaid
+sequenceDiagram
+    TD ->> IK: Hello IK, how are you?
+    IK-->>LYFE: How about you LYFE?
+    IK--x Alice: I am good thanks!
+    IK-x LYFE: I am good thanks!
+
+    IK-->LYFE: Checking with John...
+    IK->TD: Yes... TD, how are you?
 ```
