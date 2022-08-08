@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-07T22:56:00.559Z
+date: 2022-08-08T20:01:37.723Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -13,9 +13,15 @@ dateCreated: 2022-08-07T18:26:07.707Z
 
 ## Guide
 
-For this to work you need to use the obs event `SwitchScenes`
+For this to work you need to use the OBS event `SwitchScenes`
 ![obs-event-tab-switchscenes.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes.jpg)
 ![obs-event-tab-switchscenes-zoomed.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes-zoomed.jpg)
+And hook it up to an action in this case `Example 1`
+You can do this with 2 ways
+
+### Solution 1
+The way that most people use (what is shown in the [Daan - Tutorial](#daan---tutorials)'s tutorial  
+### Solution 2
 
 ## Usage
 
