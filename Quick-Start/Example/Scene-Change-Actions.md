@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T20:01:37.723Z
+date: 2022-08-08T20:12:25.099Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -20,10 +20,16 @@ And hook it up to an action in this case `Example 1`
 You can do this with 2 ways
 
 ### Solution 1
-The way that most people use (what is shown in the [Daan - Tutorial](#daan---tutorials)'s tutorial  
-### Solution 2
+The way that most people use (what is shown in the [Daan - Tutorial](#daan-tutorials)'s tutorial)
+Is with `if statements`
+![actions-tab-daantutorials-if-statements.jpg](/quick-start/scene-activated-actions-example/actions-tab-daantutorials-if-statements.jpg)
+```csharp
+if ("obsEvent.scene-name" Equals "Main") do "Main" then break"
+if ("obsEvent.scene-name" Equals "Intermission") do "Intermission" then break"
+if ("obsEvent.scene-name" Equals "Gaming") do "Gaming" then break"
+```
 
-## Usage
+### Solution 2
 
 ## Video Tutorial
 ### TerrierDarts
