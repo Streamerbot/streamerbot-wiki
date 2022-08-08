@@ -2,12 +2,19 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T22:19:39.898Z
+date: 2022-08-08T22:26:29.140Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
 ---
 
+
+## Navigation
+* [Guide](#guide)
+* [Solutions](#solutions)
+  * [Solution 1 - UI if Statements](#solution-1-ui-if-statements)
+  * [Solution 2 - C# Option](#solution-2-c-option)
+* [Video Tutorials](video-tutorials)
 ## Guide
 
 For this to work you need to use the OBS event `SwitchScenes`
@@ -18,8 +25,8 @@ For this to work you need to use the OBS event `SwitchScenes`
 And hook it up to an action in this case `Example 1`
 You can do this with 2 ways
 
-### Solutions
-## Solution 1 - UI if Statements
+## Solutions
+### Solution 1 - UI if Statements
 
 The way that most people use (what is shown in the [Daan - Tutorial](#video-tutorials)'s tutorial)
 Is with `if statements`
@@ -44,7 +51,7 @@ Gaming == Light Blue
 ![Thumbnail](https://i.ytimg.com/vi_webp/9ZuO3KrbvRw/maxresdefault.webp =40%x)
 
 ---
-## Solution 2 - C# Option
+### Solution 2 - C# Option
 
 > TD's tutorial
 {.is-success}
