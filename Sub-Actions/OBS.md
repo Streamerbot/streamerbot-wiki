@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-07-20T18:43:01.120Z
+date: 2022-08-08T17:45:01.137Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -19,7 +19,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 ## Source
 * [<i class="mdi mdi-flip-horizontal text--obs"></i>**Flip Source *Inverts the source vertically***](/Sub-Actions/OBS/Flip-Source)
 * [<i class="mdi mdi-group text--obs"></i>**Hide Group's Sources *Hide all sources within a specified OBS source group***](/Sub-Actions/OBS/Hide-Group's-Sources)
-* [<i class="mdi mdi-rotate-right text--obs"></i>**Rotate Source *Set source rotation translation***](/Sub-Actions/OBS/Rotate-Source)
+* [<i class="mdi mdi-rotate-right mdi-spin text--obs"></i>**Rotate Source *Set source rotation translation***](/Sub-Actions/OBS/Rotate-Source)
 * [<i class="mdi mdi-google-chrome text--obs"></i>**Set Browser Source URL *Set the URL of an OBS browser source***](/Sub-Actions/OBS/Set-Browser-Source-URL)
 * [<i class="mdi mdi-format-text text--obs"></i>**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
 * [<i class="mdi mdi-image text--obs"></i>**Set Image Source File *Set filepath for Image source*** *v0.1.5+*{.version-badge} ](/Sub-Actions/OBS/Set-Image-Source-File)
