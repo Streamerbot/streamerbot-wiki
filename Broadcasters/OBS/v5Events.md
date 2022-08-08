@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T10:11:50.642Z
+date: 2022-08-08T10:31:02.915Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -43,12 +43,12 @@ Events related to config changes{.subtitle}
 
 ## Scenes Events
 Events related to scene changes{.subtitle}
-* [**SceneCreated *A new scene has been created***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneCreated){.disabled}
-* [**SceneRemoved *A scene has been removed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneRemoved){.disabled}
-* [**SceneNameChanged *The name of a scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneNameChanged){.disabled}
-* [**CurrentProgramSceneChanged *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/CurrentProgramSceneChanged){.disabled}
-* [**CurrentPreviewSceneChanged *The current preview scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/CurrentPreviewSceneChanged){.disabled}
-* [**SceneListChanged *The list of scenes has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneListChanged){.disabled}
+* [**SceneCreated *A new scene has been created***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneCreated)
+* [**SceneRemoved *A scene has been removed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneRemoved)
+* [**SceneNameChanged *The name of a scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneNameChanged)
+* [**CurrentProgramSceneChanged *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/CurrentProgramSceneChanged)
+* [**CurrentPreviewSceneChanged *The current preview scene has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/CurrentPreviewSceneChanged)
+* [**SceneListChanged *The list of scenes has changed***](/en/Broadcasters/OBS/Events/Scenes-Events/SceneListChanged)
 {.btn-grid .my-5}
 
 ## Inputs Events
