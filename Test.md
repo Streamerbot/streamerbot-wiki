@@ -2,7 +2,7 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-08T20:41:40.800Z
+date: 2022-08-08T20:42:42.603Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -49,6 +49,6 @@ sequenceDiagram
     IK--x TD: I am good thanks!
     IK-x LYFE: I am good thanks!
 
-    IK-->LYFE: Checking with John...
-    IK->TD: Yes... TD, how are you?
+    IK-->LYFE: Checking with TD...
+    LYFE->TD: Yes... TD, how are you?
 ```
