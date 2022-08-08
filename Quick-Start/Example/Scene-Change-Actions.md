@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T21:03:24.466Z
+date: 2022-08-08T21:04:38.850Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -53,9 +53,6 @@ Gaming == Light Blue
 {.is-success}
 
 </details>
-
-* Video Tutorials
-{.links-list}
 
 <section class="overview-grid my-5">
 <div>
