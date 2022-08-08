@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T20:14:30.181Z
+date: 2022-08-08T20:14:55.058Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -29,7 +29,7 @@ if ("obsEvent.scene-name" Equals "Intermission") do "Intermission" then break"
 if ("obsEvent.scene-name" Equals "Gaming") do "Gaming" then break"
 ```
 In these if statements is shown:
-```csharp
+```json
 if the scene where you have changed to is named "Main" do the action "Main"
 if the scene where you have changed to is named "Intermission" do the action "Intermission"
 if the scene where you have changed to is named "Gaming" do the action "Gaming"
