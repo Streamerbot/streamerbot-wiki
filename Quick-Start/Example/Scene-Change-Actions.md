@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T21:11:31.123Z
+date: 2022-08-08T21:14:38.609Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -14,8 +14,10 @@ dateCreated: 2022-08-07T18:26:07.707Z
 ## Guide
 
 For this to work you need to use the OBS event `SwitchScenes`
+
 ![obs-event-tab-switchscenes.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes.jpg =700x)
 ![obs-event-tab-switchscenes-zoomed.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes-zoomed.jpg =700x)
+
 And hook it up to an action in this case `Example 1`
 You can do this with 2 ways
 
