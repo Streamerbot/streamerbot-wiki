@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T21:04:38.850Z
+date: 2022-08-08T21:07:26.238Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -46,6 +46,9 @@ Gaming == Light Blue
 ![Thumbnail](https://i.ytimg.com/vi_webp/9ZuO3KrbvRw/maxresdefault.webp =60%x)
 
 </details>
+
+## Video Tutorials
+
 <details>
 <summary>Solution 2 (TerrierDarts)</summary>
 
