@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T10:11:22.781Z
+date: 2022-08-08T10:11:50.642Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -33,12 +33,12 @@ General & miscellaneous OBS Studio events{.subtitle}
 
 ## Config Events
 Events related to config changes{.subtitle}
-* [**CurrentSceneCollectionChanging *The current scene collection has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanging){.disabled}
-* [**CurrentSceneCollectionChanged *The current scene collection has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanged){.disabled}
-* [**SceneCollectionListChanged *The scene collection list has changed***](/en/Broadcasters/OBS/Events/Config-Events/SceneCollectionListChanged){.disabled}
-* [**CurrentProfileChanging *The current profile has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanging){.disabled}
-* [**CurrentProfileChanged *The current profile has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanged){.disabled}
-* [**ProfileListChanged *The profile list has changed***](/en/Broadcasters/OBS/Events/Config-Events/ProfileListChanged){.disabled}
+* [**CurrentSceneCollectionChanging *The current scene collection has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanging)
+* [**CurrentSceneCollectionChanged *The current scene collection has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanged)
+* [**SceneCollectionListChanged *The scene collection list has changed***](/en/Broadcasters/OBS/Events/Config-Events/SceneCollectionListChanged)
+* [**CurrentProfileChanging *The current profile has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanging)
+* [**CurrentProfileChanged *The current profile has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanged)
+* [**ProfileListChanged *The profile list has changed***](/en/Broadcasters/OBS/Events/Config-Events/ProfileListChanged)
 {.btn-grid .my-5}
 
 ## Scenes Events
