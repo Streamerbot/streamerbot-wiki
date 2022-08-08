@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T11:07:23.982Z
+date: 2022-08-08T11:32:05.428Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -69,22 +69,24 @@ Events related to input changes{.subtitle}
 
 ## Transition Events
 Events related to transition changes{.subtitle}
-* [**CurrentSceneTransitionChanged *The current scene transition has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionChanged){.disabled}
-* [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionDurationChanged){.disabled}
+* [**CurrentSceneTransitionChanged *The current scene transition has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionChanged)
+* [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionDurationChanged)
 {.btn-grid .my-5}
-######
-* [**SceneTransitionStarted *A scene transition has started***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionStarted){.disabled}
-* [**SceneTransitionEnded *A scene transition has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded){.disabled}
-* [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionVideoEnded){.disabled}
+
+<div></div>
+
+* [**SceneTransitionStarted *A scene transition has started***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionStarted)
+* [**SceneTransitionEnded *A scene transition has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded)
+* [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionVideoEnded)
 {.btn-grid .my-5}
 
 ## Filter Events
 Events related to filter changes{.subtitle}
-* [**SourceFilterListReindexed *A source's filter list has been reindexed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterListReindexed){.disabled}
-* [**SourceFilterCreated *A filter has been added to a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterCreated){.disabled}
-* [**SourceFilterRemoved *A filter has been removed from a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved){.disabled}
-* [**SourceFilterNameChanged *The name of a source filter has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged){.disabled}
-* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged){.disabled}
+* [**SourceFilterListReindexed *A source's filter list has been reindexed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterListReindexed)
+* [**SourceFilterCreated *A filter has been added to a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterCreated)
+* [**SourceFilterRemoved *A filter has been removed from a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved)
+* [**SourceFilterNameChanged *The name of a source filter has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged)
+* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged)
 {.btn-grid .my-5}
 
 ## Scene Item Events
