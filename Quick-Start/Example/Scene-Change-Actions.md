@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T20:26:53.082Z
+date: 2022-08-08T20:28:12.485Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -35,7 +35,7 @@ if the scene where you have changed to is named "Intermission" do the action "In
 if the scene where you have changed to is named "Gaming" do the action "Gaming"
 ```
 As shown in the thumbnail below you can for example hook it up like this
-```csharp
+```text
 Main == Light Red
 Intermission == Light Green
 Gaming == Light Blue
