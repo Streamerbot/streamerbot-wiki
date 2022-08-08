@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T21:10:28.530Z
+date: 2022-08-08T21:11:31.123Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -21,7 +21,7 @@ You can do this with 2 ways
 
 ### Solutions
 ## Solution 1 (Daan - Tutorials)
-  
+
 The way that most people use (what is shown in the [Daan - Tutorial](#daan-tutorials)'s tutorial)
 Is with `if statements`
 ![actions-tab-daantutorials-if-statements.jpg](/quick-start/scene-activated-actions-example/actions-tab-daantutorials-if-statements.jpg)
@@ -44,6 +44,7 @@ Gaming == Light Blue
 ```
 ![Thumbnail](https://i.ytimg.com/vi_webp/9ZuO3KrbvRw/maxresdefault.webp =60%x)
 
+---
 ## Solution 2 (TerrierDarts)
 
 > TD's tutorial
