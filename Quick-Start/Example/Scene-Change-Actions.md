@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T20:35:53.951Z
+date: 2022-08-08T20:44:34.494Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -21,7 +21,7 @@ You can do this with 2 ways
 
 ### Solutions
 <details>
-<summary>Solution 1</summary>
+<summary>Solution 1 (Daan - Tutorials)</summary>
   
 The way that most people use (what is shown in the [Daan - Tutorial](#daan-tutorials)'s tutorial)
 Is with `if statements`
@@ -47,7 +47,7 @@ Gaming == Light Blue
 
 </details>
 <details>
-<summary>Solution 2</summary>
+<summary>Solution 2 (TerrierDarts)</summary>
 
 > TD's tutorial
 {.is-success}
