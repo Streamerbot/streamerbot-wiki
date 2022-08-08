@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T22:26:29.140Z
+date: 2022-08-08T22:26:58.611Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -14,7 +14,7 @@ dateCreated: 2022-08-07T18:26:07.707Z
 * [Solutions](#solutions)
   * [Solution 1 - UI if Statements](#solution-1-ui-if-statements)
   * [Solution 2 - C# Option](#solution-2-c-option)
-* [Video Tutorials](video-tutorials)
+* [Video Tutorials](#video-tutorials)
 ## Guide
 
 For this to work you need to use the OBS event `SwitchScenes`
