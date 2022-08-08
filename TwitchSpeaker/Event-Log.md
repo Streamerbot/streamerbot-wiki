@@ -2,7 +2,7 @@
 title: Event Log
 description: Event logs are speaker placed here 
 published: false
-date: 2022-08-08T00:10:28.128Z
+date: 2022-08-08T00:37:00.420Z
 tags: twitch, twitchspeaker, event
 editor: markdown
 dateCreated: 2022-08-08T00:10:28.128Z
@@ -15,3 +15,10 @@ Twitch Speaker currently is a program of its own and has its own functions, but 
 ![event-log.png](/twitchspeaker-img/event-log.png){.align-center}
 
 From the screen capture above you could read the Event Log tab just like a log file, except it is in the program itself. These are stored in a .txt file in the Twitch Speaker directory under the “Logs” folder so do not worry if you miss something or close the program it all written to the text file. Just like Streamer.bot does.
+
+
+***
+
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**Speaking Queue *Up Next***](/en/TwitchSpeaker/Speaking-Queue)
+{.btn-grid .my-5}
