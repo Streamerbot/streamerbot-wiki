@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T11:32:05.428Z
+date: 2022-08-08T16:11:24.521Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -91,13 +91,13 @@ Events related to filter changes{.subtitle}
 
 ## Scene Item Events
 Events related to scene item changes{.subtitle}
-* [**SceneItemCreated *A scene item has been created***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemCreated){.disabled}
-* [**SceneItemRemoved *A scene item has been removed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemRemoved){.disabled}
-* [**SceneItemListReindexed *A scene's item list has been reindexed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemListReindexed){.disabled}
-* [**SceneItemEnableStateChanged *A scene item's enable state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemEnableStateChanged){.disabled}
-* [**SceneItemLockStateChanged *A scene item's lock state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemLockStateChanged){.disabled}
-* [**SceneItemSelected *A scene item has been selected in the Ui***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemSelected){.disabled}
-* [**SceneItemTransformChanged *The transform/crop of a scene item has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemTransformChanged){.disabled}
+* [**SceneItemCreated *A scene item has been created***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemCreated)
+* [**SceneItemRemoved *A scene item has been removed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemRemoved)
+* [**SceneItemListReindexed *A scene's item list has been reindexed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemListReindexed)
+* [**SceneItemEnableStateChanged *A scene item's enable state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemEnableStateChanged)
+* [**SceneItemLockStateChanged *A scene item's lock state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemLockStateChanged)
+* [**SceneItemSelected *A scene item has been selected in the Ui***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemSelected)
+* [**SceneItemTransformChanged *The transform/crop of a scene item has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemTransformChanged)
 {.btn-grid .my-5}
 
 ## Output Events
