@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T16:11:24.521Z
+date: 2022-08-08T16:35:37.512Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -102,11 +102,11 @@ Events related to scene item changes{.subtitle}
 
 ## Output Events
 Events related to current output status{.subtitle}
-* [**StreamStateChanged *The state of the stream output has changed***](/en/Broadcasters/OBS/Events/Output-Events/StreamStateChanged){.disabled}
-* [**RecordStateChanged *The state of the record output has changed***](/en/Broadcasters/OBS/Events/Output-Events/RecordStateChanged){.disabled}
-* [**ReplayBufferStateChanged *The state of the replay buffer output has changed***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferStateChanged){.disabled}
-* [**VirtualcamStateChanged *The state of the virtualcam output has changed***](/en/Broadcasters/OBS/Events/Output-Events/VirtualcamStateChanged){.disabled}
-* [**ReplayBufferSaved *The replay buffer has been saved***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferSaved){.disabled}
+* [**StreamStateChanged *The state of the stream output has changed***](/en/Broadcasters/OBS/Events/Output-Events/StreamStateChanged)
+* [**RecordStateChanged *The state of the record output has changed***](/en/Broadcasters/OBS/Events/Output-Events/RecordStateChanged)
+* [**ReplayBufferStateChanged *The state of the replay buffer output has changed***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferStateChanged)
+* [**VirtualcamStateChanged *The state of the virtualcam output has changed***](/en/Broadcasters/OBS/Events/Output-Events/VirtualcamStateChanged)
+* [**ReplayBufferSaved *The replay buffer has been saved***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferSaved)
 {.btn-grid .my-5}
 
 ## Media Input Events
@@ -114,14 +114,14 @@ Events related to media input changes{.subtitle}
 
 **Note**: These events are only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.{.subtitle}
 
-* [**MediaInputPlaybackStarted *A media input has started playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackStarted){.disabled}
-* [**MediaInputPlaybackEnded *A media input has finished playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackEnded){.disabled}
-* [**MediaInputActionTriggered *An action has been performed on an input***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputActionTriggered){.disabled}
+* [**MediaInputPlaybackStarted *A media input has started playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackStarted)
+* [**MediaInputPlaybackEnded *A media input has finished playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackEnded)
+* [**MediaInputActionTriggered *An action has been performed on an input***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputActionTriggered)
 {.btn-grid .my-5}
 
 ## Ui Events
 Events related to Ui changes{.subtitle}
-* [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged){.disabled}
+* [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
 {.btn-grid .my-5}
 
 ---
