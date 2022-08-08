@@ -1,0 +1,13 @@
+---
+title: General Events
+description: General & miscellaneous OBS Studio events
+published: true
+date: 2022-08-08T18:28:17.485Z
+tags: 
+editor: markdown
+dateCreated: 2022-08-08T18:28:17.485Z
+---
+
+* [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
+* [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
+{.btn-grid .my-5}
