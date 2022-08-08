@@ -2,7 +2,7 @@
 title: (private) OBS Studio Events
 description: Information on OBS events that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-08T11:03:51.743Z
+date: 2022-08-08T11:07:23.982Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -53,18 +53,18 @@ Events related to scene changes{.subtitle}
 
 ## Input Events
 Events related to input changes{.subtitle}
-* [**InputCreated *An input has been created***](/en/Broadcasters/OBS/Events/Input-Events/InputCreated){.disabled}
-* [**InputRemoved *An input has been removed***](/en/Broadcasters/OBS/Events/Input-Events/InputRemoved){.disabled}
-* [**InputNameChanged *The name of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputNameChanged){.disabled}
-* [**InputActiveStateChanged *An input's active state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputActiveStateChanged){.disabled}
-* [**InputShowStateChanged *An input's show state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputShowStateChanged){.disabled}
-* [**InputMuteStateChanged *An input's mute state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputMuteStateChanged){.disabled}
-* [**InputVolumeChanged *An input's volume level has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeChanged){.disabled}
-* [**InputAudioBalanceChanged *The audio balance value of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioBalanceChanged){.disabled}
-* [**InputAudioSyncOffsetChanged *The sync offset of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioSyncOffsetChanged){.disabled}
-* [**InputAudioTracksChanged *The audio tracks of an input have changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioTracksChanged){.disabled}
-* [**InputAudioMonitorTypeChanged *The monitor type of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioMonitorTypeChanged){.disabled}
-* [**InputVolumeMeters *A high-volume event providing volume levels of all active inputs every 50 milliseconds***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeMeters){.disabled}
+* [**InputCreated *An input has been created***](/en/Broadcasters/OBS/Events/Input-Events/InputCreated)
+* [**InputRemoved *An input has been removed***](/en/Broadcasters/OBS/Events/Input-Events/InputRemoved)
+* [**InputNameChanged *The name of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputNameChanged)
+* [**InputActiveStateChanged *An input's active state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputActiveStateChanged)
+* [**InputShowStateChanged *An input's show state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputShowStateChanged)
+* [**InputMuteStateChanged *An input's mute state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputMuteStateChanged)
+* [**InputVolumeChanged *An input's volume level has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeChanged)
+* [**InputAudioBalanceChanged *The audio balance value of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioBalanceChanged)
+* [**InputAudioSyncOffsetChanged *The sync offset of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioSyncOffsetChanged)
+* [**InputAudioTracksChanged *The audio tracks of an input have changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioTracksChanged)
+* [**InputAudioMonitorTypeChanged *The monitor type of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioMonitorTypeChanged)
+* [**InputVolumeMeters *A high-volume event providing volume levels of all active inputs every 50 milliseconds***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeMeters)
 {.btn-grid .my-5}
 
 ## Transition Events
