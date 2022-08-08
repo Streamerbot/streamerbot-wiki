@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-08T22:26:58.611Z
+date: 2022-08-08T22:30:46.725Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -53,8 +53,26 @@ Gaming == Light Blue
 ---
 ### Solution 2 - C# Option
 
-> TD's tutorial
-{.is-success}
+You Will need to create a new action, this is what will be tied to the OBS Event. I would go for something like `SceneSelection` You  will need to add 2 Sub-Actions to this action, 
+```
+OBS Get Current Scene
+Execute Code (C#)
+```
+**This is the C# code you will need.**
+```cs
+using System;
+
+public class CPHInline
+{
+	public bool Execute()
+	{
+		var scene = args["currentScene"].ToString();
+		CPH.RunAction(scene);
+		return true;
+	}
+}
+```
+Once this is set up Just start Creating New Actions that are named the same as your scene and then when ever that scene is active it will run the Action. Meaning When you go to your `Just Chatting` Scene it will run the action called `Just Chatting`. If no action exists nothing will happen.
 
 ## Video Tutorials
 
