@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-07-09T03:10:50.080Z
+date: 2022-08-09T17:44:32.830Z
 tags: obs, raw
 editor: markdown
 dateCreated: 2021-11-02T04:00:37.158Z
@@ -135,16 +135,34 @@ height: It is a number so it doesn't need ""
 
 width: It is a number so it doesn't need ""
 
-## Tutorials for beginners
+## Video Tutorials
 
-* [OBS RAW WITH STREAMER.BOT *by Daan - Tutorials*](https://youtu.be/zZbsybhaXuE)
-{.links-list}
-<p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/zZbsybhaXuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+<section class="overview-grid my-5">
+<div>
 
-* [How To Send CUSTOM WEBSOCKET COMMANDS To OBS *by Andilippi*](https://youtu.be/4Lf0VTs14W4)
-{.links-list}
-<p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/4Lf0VTs14W4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+Daan - Tutorials{.overline}
+  
+<span></span>
 
-* [Do ANYTHING In OBS Raw with Streamer.bot C# Code! *by nutty VODs*](https://youtu.be/TMwkwrwIbyc)
-{.links-list}
-<p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/TMwkwrwIbyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/zZbsybhaXuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+
+</div>
+  <div>
+
+Andilippi{.overline}
+
+<span></span>
+
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/4Lf0VTs14W4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+
+</div>
+  <div>
+
+nutty VODs{.overline}
+
+<span></span>
+
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/TMwkwrwIbyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+
+</div>
+</section>
