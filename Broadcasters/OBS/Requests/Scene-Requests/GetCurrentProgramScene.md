@@ -2,16 +2,14 @@
 title: GetCurrentProgramScene
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-07-31T00:21:50.186Z
+date: 2022-08-09T17:41:00.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:21:50.186Z
 ---
 
 ## Overview
-Gets an array of all groups in OBS.
-
-Groups in OBS are actually scenes, but renamed and modified. In obs-websocket, we treat them as scenes where we can.
+Gets the current program scene.
 
 ## Variables
 Name | Type | Description | 
