@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-09T20:04:03.318Z
+date: 2022-08-09T20:06:50.872Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -16,4 +16,4 @@ There a couple of things that can cause this
    * If this has happend follow this guide below
    * [<i class="mdi mdi-backup-restore primary--text"></i> Backup & Restore Guide](/en/Backup)
 2. You have moved/deleted/renamed files from your streamer.bot folder
-   * If you have moved for example your `streamer.bot.exe` file to your desktop streamer.bot won't start. To fix this move the file back and if you lost that file download it [here](https://streamer.bot)
+   * If you have moved for example your `streamer.bot.exe` file to your desktop, streamer.bot won't start. To fix this move the file back and if you lost that file download it [here](https://streamer.bot)
