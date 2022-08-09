@@ -2,13 +2,13 @@
 title: Frequently Asked Questions
 description: 
 published: false
-date: 2022-08-09T20:03:27.378Z
+date: 2022-08-09T20:03:48.492Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
 ---
 
-### Why is streamer.bot not opening?
+## Why is streamer.bot not opening?
 
 There a couple of things that can cause this
 1. Your `settings.json` file has been corrupted
