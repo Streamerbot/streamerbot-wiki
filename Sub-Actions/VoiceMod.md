@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-08T22:41:56.170Z
+date: 2022-08-09T12:04:39.559Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -17,7 +17,7 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [<i class="mdi mdi-microphone text--voicemod"></i>**Select Voice *Select a Specific voice***](/en/Sub-Actions/VoiceMod/Select-Voice)
 * [<i class="mdi mdi-microphone text--voicemod"></i>**Select Voice by Id *Select a specific voice by it's unique identifier***](/en/Sub-Actions/VoiceMod/Select-Voice-by-ID){.disabled}
 * [<i class="mdi mdi-wall text--voicemod"></i>**Set Background Effect State *Toggle the Background Effects***](/en/Sub-Actions/VoiceMod/Set-Background-Effect-State)
-* [<i class="mdi mdi-microphone text--voicemod"></i>**Set Censor State *Toggle the Censor State***](/en/Sub-Actions/VoiceMod/Set-Censor-State)
+* [<i class="mdi mdi-microphone-off text--voicemod"></i>**Set Censor State *Toggle the Censor State***](/en/Sub-Actions/VoiceMod/Set-Censor-State)
 * [<i class="mdi mdi-headphones text--voicemod"></i>**Set Hear My Voice State *Toggles the hear my voice state***](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
 * [<i class="mdi mdi-volume-mute text--voicemod"></i>**Set Mute State *Toggles the mute state***](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [<i class="mdi mdi-microphone text--voicemod"></i>**Set Voice Changer State *Toggles the Voice Changer state***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
