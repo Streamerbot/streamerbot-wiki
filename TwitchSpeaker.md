@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-08-09T00:28:08.236Z
+date: 2022-08-09T11:58:36.905Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -40,6 +40,3 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-speaker text--twitch"></i>**Generic Speaker**](/en/TwitchSpeaker/Pages/Settings/Generic-Speaker){.disabled}
 - [<i class="mdi mdi-cog text--twitch"></i>**Save Settings**](/en/TwitchSpeaker/Pages/Settings/Save-Settings){.disabled}
 {.btn-grid .my-5}
-
-> More info/pages coming soon
-{.is-info}
