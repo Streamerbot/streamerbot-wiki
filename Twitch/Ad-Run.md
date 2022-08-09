@@ -2,7 +2,7 @@
 title: Ad Run
 description: 
 published: true
-date: 2022-07-09T20:00:54.445Z
+date: 2022-08-09T12:00:16.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T20:00:51.051Z
@@ -15,11 +15,3 @@ dateCreated: 2022-07-09T20:00:51.051Z
 |   ---:|-------------|
 | `adLength` | The length of the ad in seconds
 | `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
-
-## C# Available Methods
-
-### Run Commercial
-
-```csharp
-void TwitchRunCommercial(int duration);
-```
