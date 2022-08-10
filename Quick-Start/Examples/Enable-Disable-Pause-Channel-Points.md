@@ -2,7 +2,7 @@
 title: Quick Start - Enable/Disable/Pause Channel Points Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-10T17:10:41.940Z
+date: 2022-08-10T17:22:27.224Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-10T16:59:21.760Z
@@ -18,7 +18,7 @@ dateCreated: 2022-08-10T16:59:21.760Z
 
 ## Import
 ### File Download
-- [<i class="mdi mdi-download"></i> **Download *This links to nutty's download link from his discord***](https://cdn.discordapp.com/attachments/673100878517108736/951972458850824302/Nuttys_Fun_Toys_-_Channel_Point_Management.nut)
+- [<i class="mdi mdi-download text--discord"></i> **Download *This links to nutty's download link from his discord***](https://cdn.discordapp.com/attachments/673100878517108736/951972458850824302/Nuttys_Fun_Toys_-_Channel_Point_Management.nut)
 {.btn-grid .my-5}
 
 ### Text
