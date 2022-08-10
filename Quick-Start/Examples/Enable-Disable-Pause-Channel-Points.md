@@ -2,11 +2,15 @@
 title: Quick Start - Enable/Disable/Pause Channel Points Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-10T17:03:22.518Z
+date: 2022-08-10T17:08:26.037Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-10T16:59:21.760Z
 ---
+
+> **NOTE:**
+> Nutty is making an updated version of this so this page isn't done yet
+{.is-danger}
 
 ## Guide
 
