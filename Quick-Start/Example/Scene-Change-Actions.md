@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-10T11:58:31.557Z
+date: 2022-08-10T11:58:52.887Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -25,7 +25,7 @@ For this to work you need to use the OBS event `SwitchScenes`
 And hook it up to an action in this case `Example 1`
 You can do this with 2 ways
 
-## Solutions {.tabset}
+## Solutions
 ### Solution 1 - UI if Statements
 
 The way that most people use (what is shown in the [Daan - Tutorial](#video-tutorials)'s tutorial)
