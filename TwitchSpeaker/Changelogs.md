@@ -2,11 +2,16 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-07T10:56:52.977Z
+date: 2022-08-10T12:48:48.158Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
 ---
+
+# TwitchSpeaker v0.0.49 (WIP)
+Upcoming changes in the next release!{.subtitle}
+* Some fixes
+{.changelog-fixes}
 
 # TwitchSpeaker v0.0.48 (Current)
 Released 2022-01-13{.subtitle}
