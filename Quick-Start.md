@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-07T23:11:53.418Z
+date: 2022-08-10T12:12:55.390Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -42,10 +42,11 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 ## Examples
 
  - [<i class="mdi mdi-chat"></i> **Chatbot Example *Enable some basic chat commands***](/en/Quick-Start/Commands)
-- [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Perform actions when changing scenes***](/en/Quick-Start/Example/Scene-Change-Actions){.disabled}
-- [<i class="mdi mdi-signal"></i> **Stream Start/End Actions *Perform actions when your streaming status changes***](/en/Quick-Start/Example/Streaming-Actions){.disabled}
-- [<i class="mdi mdi-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Example/Startup-Actions){.disabled}
-- [<i class="mdi mdi-walk"></i> **Walk In Actions *Perform actions when a certian user chats in your stream***](/en/Quick-Start/Example/Walkin-Actions){.disabled}
+- [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Perform actions when changing scenes***](/en/Quick-Start/Examples/Scene-Change-Actions){.disabled}
+- [<i class="mdi mdi-signal"></i> **Stream Start/End Actions *Perform actions when your streaming status changes***](/en/Quick-Start/Examples/Streaming-Actions){.disabled}
+- [<i class="mdi mdi-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Examples/Startup-Actions){.disabled}
+- [<i class="mdi mdi-walk"></i> **Walk In Actions *Perform actions when a certian user chats in your stream***](/en/Quick-Start/Examples/Walkin-Actions){.disabled}
+- [<i class="mdi mdi-adjust"></i> **Enable/Disable all Channel Points *Enable or Disable all of your channel points in streamer.bot***](/en/Quick-Start/Examples/Enable-Disable-Channel-Points){.disabled}
 {.btn-grid .my-5}
 
 ## Explore
