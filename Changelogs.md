@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-10T02:31:32.138Z
+date: 2022-08-10T02:34:55.993Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,10 +31,10 @@ Upcoming changes in the next release!{.subtitle}
 
 <span></span>
 
-* [OBS Websocket v5.0](#obs-websocket-v5.0) Support
+* [OBS Websocket v5.x](#obs-websocket-v5x) Support
 {.changelog-new}
 
-## OBS Websocket v5.0
+## OBS Websocket v5.x
 
 Support for OBS Websocket v5.0 comes to **Streamer.bot** v0.1.11.  For the most part this is a transparent change for users, just edit your OBS Websocket within **Streamer.bot** and change to v5.x.
 
