@@ -1,8 +1,8 @@
 ---
-title: OBS Studio Events
+title: OBS Studio Events (v4)
 description: Reference of all configurable events from OBS Studio
 published: true
-date: 2022-08-07T09:41:55.564Z
+date: 2022-08-10T17:40:01.460Z
 tags: obs, obs-studio, events, reference
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
