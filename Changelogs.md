@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-03T18:31:41.508Z
+date: 2022-08-10T02:31:32.138Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -26,8 +26,24 @@ Upcoming changes in the next release!{.subtitle}
 * New [Twitch scopes](#twitch-new-scopes) requested
 * Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
 * Extend First Chat event to YouTube
+* Some updates to how YouTube streams are found, this is still very much a WIP and more fixes will come
 {.changelog-updates}
 
+<span></span>
+
+* [OBS Websocket v5.0](#obs-websocket-v5.0) Support
+{.changelog-new}
+
+## OBS Websocket v5.0
+
+Support for OBS Websocket v5.0 comes to **Streamer.bot** v0.1.11.  For the most part this is a transparent change for users, just edit your OBS Websocket within **Streamer.bot** and change to v5.x.
+
+Unfortunately, the OBS Raw sub-action will not work between v4.9.x and v5.x; the methods to obtain and set information are incompatible.  Even having a translation layer on this leaves too much to chance and likely have the wrong output.
+
+> OBS Raw Sub-action will not be compatible between the 2 versions
+{.is-warning}
+
+More information on upgrading your OBS Raw sub-actions will be forthcoming.
 
 ## Twitch New Scopes
 
