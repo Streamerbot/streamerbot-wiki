@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-10T11:58:52.887Z
+date: 2022-08-10T12:08:47.298Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -42,13 +42,14 @@ if the scene where you have changed to is named "Main" do the action "Main"
 if the scene where you have changed to is named "Intermission" do the action "Intermission"
 if the scene where you have changed to is named "Gaming" do the action "Gaming"
 ```
-As shown in the thumbnail below you can for example hook it up like this
-```text
-Main == Light Red
-Intermission == Light Green
-Gaming == Light Blue
+
+In the actions you can have a lot of things, in the tutorial the are some `Twitchspeaker` `->` `Speak` sub-actions but what also a lot of people do is
+
+```csharp
+if ("obsEvent.scene-name" Equals "Main") do "Enable Channel Points" then break"
+if ("obsEvent.scene-name" Equals "BRB") do "Disable Channel Points" then break"
 ```
-![Thumbnail](https://i.ytimg.com/vi_webp/9ZuO3KrbvRw/maxresdefault.webp =40%x)
+This `disable`/`enable` channel points you can check [this](/en/Quick-Start/Examples/Disable-Enable-Channel-Points)
 
 ---
 ### Solution 2 - C# Option
