@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-10T02:34:55.993Z
+date: 2022-08-10T23:13:53.178Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,7 @@ Upcoming changes in the next release!{.subtitle}
 * `inputUrlEncoded#` variables to actually be the word, and not the entire message for each one
 * Get Team Info For Target silently crashing
 * Better handling for the Twitch Get Present Viewers tick, optimizations to limit potential API calls
+* OBS Raw sub-action was not saving the prefix
 {.changelog-fixes}
 
 <span></span>
