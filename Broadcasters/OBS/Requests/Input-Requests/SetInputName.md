@@ -1,8 +1,8 @@
 ---
 title: SetInputName
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-01T03:21:37.560Z
+published: false
+date: 2022-08-11T14:48:21.080Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:20:18.286Z
