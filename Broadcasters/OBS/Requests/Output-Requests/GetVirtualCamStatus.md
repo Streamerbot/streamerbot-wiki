@@ -1,8 +1,8 @@
 ---
 title: GetVirtualCamStatus
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-05T09:26:45.496Z
+published: false
+date: 2022-08-11T14:34:41.444Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T09:26:45.496Z
