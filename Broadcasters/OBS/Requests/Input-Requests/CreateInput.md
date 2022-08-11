@@ -1,8 +1,8 @@
 ---
 title: CreateInput
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-07T09:18:05.014Z
+published: false
+date: 2022-08-11T14:41:59.262Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:14:16.992Z
