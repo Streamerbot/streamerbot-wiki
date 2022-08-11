@@ -1,8 +1,8 @@
 ---
 title: SetCurrentProgramScene
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-07-31T12:52:30.348Z
+published: false
+date: 2022-08-11T14:25:31.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T12:52:30.348Z
