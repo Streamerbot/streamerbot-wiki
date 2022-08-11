@@ -1,8 +1,8 @@
 ---
 title: SetCurrentSceneCollection
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-07-30T01:53:51.540Z
+published: false
+date: 2022-08-11T14:07:52.157Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:42:05.100Z
