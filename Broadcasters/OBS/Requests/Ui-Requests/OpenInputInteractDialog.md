@@ -1,8 +1,8 @@
 ---
 title: OpenInputInteractDialog
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-06T18:27:01.587Z
+published: false
+date: 2022-08-11T14:13:41.665Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T18:27:01.587Z
