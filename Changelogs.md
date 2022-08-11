@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-10T23:13:53.178Z
+date: 2022-08-11T03:39:04.574Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -45,6 +45,14 @@ Unfortunately, the OBS Raw sub-action will not work between v4.9.x and v5.x; the
 {.is-warning}
 
 More information on upgrading your OBS Raw sub-actions will be forthcoming.
+
+The new OBS Raw format for OBS Websocket v5.x is the following:
+```js
+{
+  "requestType": "request method",
+  "requestData": { ... }
+}
+```
 
 ## Twitch New Scopes
 
