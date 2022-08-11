@@ -1,8 +1,8 @@
 ---
 title: CreateSceneCollection
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-07-30T01:52:17.237Z
+published: false
+date: 2022-08-11T14:05:10.214Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:48:24.108Z
