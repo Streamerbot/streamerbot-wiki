@@ -1,8 +1,8 @@
 ---
 title: GetSceneItemTransform
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T19:30:34.399Z
+published: false
+date: 2022-08-11T14:29:58.342Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T19:30:34.399Z
