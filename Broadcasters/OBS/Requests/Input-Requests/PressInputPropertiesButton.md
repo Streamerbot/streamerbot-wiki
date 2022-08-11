@@ -1,8 +1,8 @@
 ---
 title: PressInputPropertiesButton
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T10:34:43.848Z
+published: false
+date: 2022-08-11T14:46:50.276Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T10:34:43.848Z
