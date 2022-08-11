@@ -34,13 +34,15 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetVideoSettings",
-  "fpsNumerator": ,
-  "fpsDenominator": ,
-  "baseWidth": ,
-  "baseHeight": ,
-  "outputWidth": ,
-  "outputHeight": 
+  "requestType": "SetVideoSettings",
+  "requestData": {
+    "fpsNumerator": ,
+	  "fpsDenominator": ,
+	  "baseWidth": ,
+	  "baseHeight": ,
+	  "outputWidth": ,
+	  "outputHeight": 
+  }
 }
 ```
 ## End Tabset {.tabset}

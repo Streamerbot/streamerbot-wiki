@@ -29,10 +29,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetPersistentData",
-  "realm": "",
-  "slotName": "",
-  "slotValue": 
+  "requestType": "SetPersistentData",
+  "requestData": {
+    "realm": "",
+	  "slotName": "",
+	  "slotValue": 
+  }
 }
 ```
 ## End Tabset {.tabset}

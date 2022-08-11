@@ -27,8 +27,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "CreateProfile",
-  "profileName": ""
+  "requestType": "CreateProfile",
+  "requestData": {
+    "profileName": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

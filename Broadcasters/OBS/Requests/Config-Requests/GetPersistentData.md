@@ -33,9 +33,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetPersistentData",
-  "realm": "",
-  "slotName": ""
+  "requestType": "GetPersistentData",
+  "requestData": {
+    "realm": "",
+	  "slotName": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

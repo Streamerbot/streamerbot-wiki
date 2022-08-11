@@ -29,10 +29,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetProfileParameter",
-  "parameterCategory": "",
-  "parameterName": "",
-  "parameterValue": ""
+  "requestType": "SetProfileParameter",
+  "requestData": {
+    "parameterCategory": "",
+	  "parameterName": "",
+	  "parameterValue": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

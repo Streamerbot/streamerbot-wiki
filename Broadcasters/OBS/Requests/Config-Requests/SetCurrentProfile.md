@@ -30,6 +30,12 @@ Added in | *v5.0.0*{.obs-version-badge}
   "request-type": "SetCurrentProfile",
   "profileName": ""
 }
+{
+  "requestType": "SetCurrentProfile",
+  "requestData": {
+    "profileName": ""
+  }
+}
 ```
 ## End Tabset {.tabset}
 

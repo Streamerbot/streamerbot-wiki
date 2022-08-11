@@ -34,9 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetProfileParameter",
-  "parameterCategory": "",
-  "parameterName": ""
+  "requestType": "GetProfileParameter",
+  "requestData": {
+    "parameterCategory": "",
+	  "parameterName": ""
+  }
 }
 ```
 ## End Tabset {.tabset}
