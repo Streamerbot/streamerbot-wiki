@@ -1,8 +1,8 @@
 ---
 title: GetSourceFilter
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T14:32:57.537Z
+published: false
+date: 2022-08-11T14:49:42.674Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T14:32:57.537Z
