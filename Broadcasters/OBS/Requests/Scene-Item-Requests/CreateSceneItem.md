@@ -1,8 +1,8 @@
 ---
 title: CreateSceneItem
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T19:09:39.728Z
+published: false
+date: 2022-08-11T14:26:18.439Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T19:09:39.728Z
