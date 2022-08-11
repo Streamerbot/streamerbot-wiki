@@ -1,8 +1,8 @@
 ---
 title: GetProfileList
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-07-30T01:51:54.223Z
+published: false
+date: 2022-08-11T14:05:45.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:51:54.223Z
