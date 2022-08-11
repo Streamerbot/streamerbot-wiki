@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-01T02:59:24.761Z
+date: 2022-08-11T15:04:41.041Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:07:05.123Z
@@ -38,11 +38,13 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "REQUESTTYPEEEEEEEEE",
-  "template": "",
-  "template": "",
-  "template": "",
-  "template": ""
+  "requestType": "request",
+  "requestData": {
+    "template": "",
+    "template": "",
+    "template": "",
+    "template": ""
+  }
 }
 ```
 ## End Tabset {.tabset}
