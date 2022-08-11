@@ -1,8 +1,8 @@
 ---
 title: RemoveSourceFilter
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T14:19:56.423Z
+published: false
+date: 2022-08-11T14:50:22.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T14:19:56.423Z
