@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-11T03:39:04.574Z
+date: 2022-08-11T22:20:31.155Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,6 +20,7 @@ Upcoming changes in the next release!{.subtitle}
 * Get Team Info For Target silently crashing
 * Better handling for the Twitch Get Present Viewers tick, optimizations to limit potential API calls
 * OBS Raw sub-action was not saving the prefix
+* Silent null ref crash for timed actions when Twitch is not connected, should be compeltely decoupled now
 {.changelog-fixes}
 
 <span></span>
