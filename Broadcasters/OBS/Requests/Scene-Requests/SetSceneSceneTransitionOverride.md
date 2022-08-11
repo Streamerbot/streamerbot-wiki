@@ -1,8 +1,8 @@
 ---
 title: SetSceneSceneTransitionOverride
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-01T02:22:09.020Z
+published: false
+date: 2022-08-11T14:26:02.612Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T13:10:17.178Z
