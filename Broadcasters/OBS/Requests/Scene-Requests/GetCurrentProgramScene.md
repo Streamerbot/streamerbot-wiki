@@ -1,8 +1,8 @@
 ---
 title: GetCurrentProgramScene
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-09T17:41:00.542Z
+published: false
+date: 2022-08-11T14:23:19.730Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:21:50.186Z
