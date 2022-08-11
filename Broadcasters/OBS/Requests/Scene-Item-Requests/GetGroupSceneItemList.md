@@ -1,8 +1,8 @@
 ---
 title: GetGroupSceneItemList
 description: OBS Studio Requests Reference (v5)
-published: true
-date: 2022-08-04T17:37:32.264Z
+published: false
+date: 2022-08-11T14:26:53.448Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T17:37:32.264Z
