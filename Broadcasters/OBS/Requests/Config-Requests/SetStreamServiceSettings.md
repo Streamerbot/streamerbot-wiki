@@ -2,7 +2,7 @@
 title: SetStreamServiceSettings
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T12:04:28.124Z
+date: 2022-08-12T12:04:54.034Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:39:02.218Z
@@ -29,7 +29,15 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-
+{
+  "requestType": "SetStreamServiceSettings",
+  "requestData": {
+    "streamServiceType": "",
+    "streamServiceSettings": {
+      "": ""
+    }
+  }
+}
 ```
 ## End Tabset {.tabset}
 
