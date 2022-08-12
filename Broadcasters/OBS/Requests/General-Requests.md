@@ -2,7 +2,7 @@
 title: General Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:12:13.004Z
+date: 2022-08-12T22:17:58.283Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:12:13.004Z
@@ -23,5 +23,5 @@ General & Miscellaneous OBS Studio requests{.subtitle}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
-- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#sources-requests)
+- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#general-requests)
 {.btn-grid .my-5}
