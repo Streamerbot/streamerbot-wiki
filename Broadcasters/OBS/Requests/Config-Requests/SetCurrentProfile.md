@@ -2,7 +2,7 @@
 title: SetCurrentProfile
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T10:42:52.557Z
+date: 2022-08-12T11:58:39.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:58:02.450Z
@@ -26,12 +26,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "SetCurrentProfile",
-  "requestData": {
-    "profileName": ""
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
