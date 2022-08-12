@@ -2,20 +2,18 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-10T16:56:29.620Z
+date: 2022-08-12T20:15:02.502Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
 ---
 
-# Overview
+## Overview
 This page is dedicated to getting your bot up and runninag as fast as possible. 
 
 If you are new to local bots and want to learn about the bot while installing some pre-configured (but still awesome) content then you might want to take a quick side trip to [VRFlad's Fasttrack](https://vrflad.com/fasttrack). Don't worry, the wiki will be here when you get back.
 
 For the more advanced users that want to start off with a clean slate and start building, then by all means... read on!
-
-# Getting Started Guide
 
 ## Select your Platform
 
