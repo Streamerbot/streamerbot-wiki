@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-10T12:08:47.298Z
+date: 2022-08-12T13:39:02.051Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -36,12 +36,7 @@ if ("obsEvent.scene-name" Equals "Main") do "Main" then break"
 if ("obsEvent.scene-name" Equals "Intermission") do "Intermission" then break"
 if ("obsEvent.scene-name" Equals "Gaming") do "Gaming" then break"
 ```
-In these if statements is shown:
-```json
-if the scene where you have changed to is named "Main" do the action "Main"
-if the scene where you have changed to is named "Intermission" do the action "Intermission"
-if the scene where you have changed to is named "Gaming" do the action "Gaming"
-```
+What is shown above does if the scene name that is switched to equals the name 'Main' for example do the action 'Main' (you can change the action to your own name)
 
 In the actions you can have a lot of things, in the tutorial the are some `Twitchspeaker` `->` `Speak` sub-actions but what also a lot of people do is
 
