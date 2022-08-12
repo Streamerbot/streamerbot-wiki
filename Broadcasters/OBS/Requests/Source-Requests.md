@@ -2,14 +2,14 @@
 title: Source Requests
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:20:22.406Z
+date: 2022-08-12T22:09:25.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:09:59.314Z
 ---
 
 ## Source Requests
-Requests related to sources{.subtitle}
+Source related OBS Studio requests{.subtitle}
 * [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive)
 * [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot)
 * [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot)
