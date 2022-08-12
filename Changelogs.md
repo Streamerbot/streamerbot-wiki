@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-12T00:21:48.981Z
+date: 2022-08-12T10:40:11.403Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -51,7 +51,7 @@ Unfortunately, the OBS Raw sub-action will not work between v4.9.x and v5.x; the
 More information on upgrading your OBS Raw sub-actions will be forthcoming.
 
 The new OBS Raw format for OBS Websocket v5.x is the following:
-```js
+```json
 {
   "requestType": "request method",
   "requestData": { ... }
