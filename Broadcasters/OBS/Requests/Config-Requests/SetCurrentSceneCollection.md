@@ -2,7 +2,7 @@
 title: SetCurrentSceneCollection
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T11:57:08.628Z
+date: 2022-08-12T11:57:17.620Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:42:05.100Z
@@ -28,7 +28,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-
+{
+  "requestType": "SetCurrentSceneCollection",
+  "requestData": {
+    "sceneCollectionName": ""
+  }
+}
 ```
 ## End Tabset {.tabset}
 
