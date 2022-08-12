@@ -2,7 +2,7 @@
 title: CreateProfile
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:04:51.418Z
+date: 2022-08-12T11:59:34.113Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T02:10:23.538Z
@@ -26,12 +26,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "CreateProfile",
-  "requestData": {
-    "profileName": ""
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
