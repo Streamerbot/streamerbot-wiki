@@ -2,7 +2,7 @@
 title: CreateSceneCollection
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:05:10.214Z
+date: 2022-08-12T11:57:27.272Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:48:24.108Z
@@ -28,12 +28,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "CreateSceneCollection",
-  "requestData": {
-    "sceneCollectionName": ""
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
