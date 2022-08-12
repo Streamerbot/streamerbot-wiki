@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-11T22:20:31.155Z
+date: 2022-08-12T00:21:48.981Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -34,6 +34,9 @@ Upcoming changes in the next release!{.subtitle}
 <span></span>
 
 * [OBS Websocket v5.x](#obs-websocket-v5x) Support
+* Added new variable `%wsIdx%` to WebsocketClient action arguments, which is the index of the client, 0 based, -1 if not found
+* Added new variable `%wssIdx%` to CustomWebsocketServer action arguments, which is the index of the server, 0 based, -1 if not found
+* Added new variable `%wssId%` to CustomWebsocketServer action arguments, which is the ID of the websocket server
 {.changelog-new}
 
 ## OBS Websocket v5.x
