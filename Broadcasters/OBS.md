@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-12T20:25:43.204Z
+date: 2022-08-12T20:26:13.579Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -66,7 +66,9 @@ The data that an event emits, is added onto the arguents the same way it is with
 
 OBS events are per-connection based.
 
+---
+
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
 - [<i class="mdi mdi-github"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}
