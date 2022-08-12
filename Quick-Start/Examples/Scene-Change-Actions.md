@@ -2,19 +2,18 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-12T13:39:02.051Z
+date: 2022-08-12T14:24:42.549Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
 ---
 
+> **Note:**
+> This page uses *v0.1.11+*{.version-badge}
+> If you are using *v0.1.0 - v0.1.10*{.version-badge} change  `%obsEvent.sceneName%` to `%obsEvent.scene-name%` and change the event `CurrentProgramSceneChanged` to `SwitchScenes`
+> Updating is **highly** recommended
+{.is-danger}
 
-## Navigation
-* [Guide](#guide)
-* [Solutions](#solutions)
-  * [Solution 1 - UI if Statements](#solution-1-ui-if-statements)
-  * [Solution 2 - C# Option](#solution-2-c-option)
-* [Video Tutorials](#video-tutorials)
 ## Guide
 
 For this to work you need to use the OBS event `SwitchScenes`
