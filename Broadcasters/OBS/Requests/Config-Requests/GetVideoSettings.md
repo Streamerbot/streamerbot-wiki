@@ -2,7 +2,7 @@
 title: GetVideoSettings
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:07:02.069Z
+date: 2022-08-12T12:01:25.813Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:26:03.156Z
@@ -33,9 +33,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "GetVideoSettings"
-}
+
 ```
 ## End Tabset {.tabset}
 
