@@ -2,7 +2,7 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-07-13T21:36:46.519Z
+date: 2022-08-12T20:27:18.120Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -19,17 +19,18 @@ dateCreated: 2022-05-13T04:09:31.936Z
 ## Account
 First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
 
-![youtube_tab_.png](/youtube/youtube_tab_.png)
+![youtube_tab_.png](/youtube/youtube_tab_.png){.align-center}
 
 
 
 Now a third row of tabs will appear, Navigate to the `Account` Tab in this YouTube section. It should look like the one below. 
 
-![yt_account_new.png](/youtube/yt_account_new.png)
+![yt_account_new.png](/youtube/yt_account_new.png){.align-center}
 
 Next click the `Sign in with Google` button your default browser will open. In the browser you will need to login to Google. when you have done this, you will be presented with a similar screen to the one below here you will need to select your "YouTube" Account to proceed to the permissions page.
 
-![login_to_google.png](/youtube/login_to_google.png) ![permissions_.png](/youtube/permissions_.png)
+![login_to_google.png](/youtube/login_to_google.png){.align-center}
+![permissions_.png](/youtube/permissions_.png){.align-center}
 
 On the permissions page it will show you have Streamer.bot has access to if you’re OK with these permissions click `Allow` to continue. When the login is successful you will get this window in the browser at this point you can close the tab or browser window. 
 
