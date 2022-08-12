@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-06T19:11:28.935Z
+date: 2022-08-12T20:25:43.204Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-25T21:32:10.502Z
 > The latest supported version is *4.9.1*{.version-badge} and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
 
-# Overview
+## Overview
 
 Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
@@ -27,7 +27,7 @@ Adding at least one connection will allow you to control your OBS either through
 
 Once configured, connected OBS sessions will report their status on this screen
 
-# Setup
+## Setup
 `Right-Click` -> `Add` to define a new connection
 Give it a name and set the IP address and Port number of the OBS Websocket
 
@@ -58,7 +58,7 @@ Shows the status of current streaming and recording activity
 
 Lists all sources present on the currently selected scene
 
-# Events
+## Events
 
 You can assign actions to events that OBS transmits across the websocket connection.
 
