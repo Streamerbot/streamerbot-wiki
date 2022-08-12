@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-08-11T14:46:28.600Z
+date: 2022-08-12T02:19:54.459Z
 tags: obs, raw
 editor: markdown
 dateCreated: 2021-11-02T04:00:37.158Z
@@ -32,7 +32,7 @@ A special `obsRaw._json` will also be added, which is the entire JSON as a strin
 
 
 # OBS raw
-* [<i class="mdi mdi-github"></i>**Requests for OBS Websocket v4.9.x**](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests) 
+* [<i class="mdi mdi-github"></i>**Requests for OBS Websocket v4.9.x**](https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#requests) 
 {.btn-grid}
 
 ---
