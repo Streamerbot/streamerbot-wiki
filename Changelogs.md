@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-12T10:40:11.403Z
+date: 2022-08-12T18:42:07.577Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -29,6 +29,7 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch Announcements have been updated with the new endpoint and scope, can send announcements in all colors now
 * Extend First Chat event to YouTube
 * Some updates to how YouTube streams are found, this is still very much a WIP and more fixes will come
+* Auto strip newline and whitespace at the end of an import string when pasting
 {.changelog-updates}
 
 <span></span>
