@@ -2,7 +2,7 @@
 title: GetSceneCollectionList
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:06:29.620Z
+date: 2022-08-12T11:56:52.634Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:39:03.276Z
@@ -27,9 +27,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "GetSceneCollectionList"
-}
+
 ```
 ## End Tabset {.tabset}
 
