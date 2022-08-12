@@ -2,7 +2,7 @@
 title: SetVideoSettings
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:09:11.352Z
+date: 2022-08-12T12:01:47.878Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:32:04.819Z
@@ -33,17 +33,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "SetVideoSettings",
-  "requestData": {
-    "fpsNumerator": ,
-	  "fpsDenominator": ,
-	  "baseWidth": ,
-	  "baseHeight": ,
-	  "outputWidth": ,
-	  "outputHeight": 
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
