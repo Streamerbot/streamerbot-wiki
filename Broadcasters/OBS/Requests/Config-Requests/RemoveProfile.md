@@ -2,7 +2,7 @@
 title: RemoveProfile
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T11:59:57.895Z
+date: 2022-08-12T12:00:06.453Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T02:12:44.541Z
@@ -26,7 +26,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-
+{
+  "requestType": "RemoveProfile",
+  "requestData": {
+    "profileName": ""
+  }
+}
 ```
 ## End Tabset {.tabset}
 
