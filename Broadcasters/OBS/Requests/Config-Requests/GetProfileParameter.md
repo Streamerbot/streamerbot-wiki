@@ -2,7 +2,7 @@
 title: GetProfileParameter
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:06:00.928Z
+date: 2022-08-12T10:45:03.105Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:12:19.306Z
@@ -37,7 +37,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetProfileParameter",
   "requestData": {
     "parameterCategory": "",
-	  "parameterName": ""
+	 "parameterName": ""
   }
 }
 ```
