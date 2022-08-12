@@ -2,7 +2,7 @@
 title: GetPersistentData
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:05:27.848Z
+date: 2022-08-12T11:55:59.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:03:06.574Z
@@ -32,13 +32,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "GetPersistentData",
-  "requestData": {
-    "realm": "",
-	  "slotName": ""
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
