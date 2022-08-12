@@ -2,7 +2,7 @@
 title: SetProfileParameter
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:08:24.186Z
+date: 2022-08-12T12:00:55.197Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:15:20.062Z
@@ -28,14 +28,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ## Tabset {.tabset}
 ### OBS raw
 ```json
-{
-  "requestType": "SetProfileParameter",
-  "requestData": {
-    "parameterCategory": "",
-	  "parameterName": "",
-	  "parameterValue": ""
-  }
-}
+
 ```
 ## End Tabset {.tabset}
 
