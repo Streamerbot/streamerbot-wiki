@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions Example
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-12T14:24:42.549Z
+date: 2022-08-12T20:13:17.598Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -12,7 +12,7 @@ dateCreated: 2022-08-07T18:26:07.707Z
 > This page uses *v0.1.11+*{.version-badge}
 > If you are using *v0.1.0 - v0.1.10*{.version-badge} change  `%obsEvent.sceneName%` to `%obsEvent.scene-name%` and change the event `CurrentProgramSceneChanged` to `SwitchScenes`
 > Updating is **highly** recommended
-{.is-danger}
+{.is-info}
 
 ## Guide
 
