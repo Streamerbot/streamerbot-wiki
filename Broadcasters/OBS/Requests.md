@@ -2,7 +2,7 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: false
-date: 2022-08-11T14:00:53.310Z
+date: 2022-08-12T22:06:04.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -18,6 +18,7 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## General Requests
+General & Miscellaneous OBS Studio requests{.subtitle}
 * [**GetVersion *Gets data about the current plugin and RPC version***](/en/Broadcasters/OBS/Requests/General-Requests/GetVersion)
 * [**GetStats *Gets statistics about OBS, obs-websocket, and the current session***](/en/Broadcasters/OBS/Requests/General-Requests/GetStats)
 * [**BroadcastCustomEvent *Broadcasts a `CustomEvent` to all WebSocket clients. Receivers are clients which are identified and subscribed***](/en/Broadcasters/OBS/Requests/General-Requests/BroadcastCustomEvent)
@@ -29,6 +30,7 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Config Requests
+Config related OBS Studio requests{.subtitle}
 * [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData)
 * [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData)
 * [**GetSceneCollectionList *Gets an array of all scene collections***](/en/Broadcasters/OBS/Requests/Config-Requests/GetSceneCollectionList)
@@ -47,13 +49,14 @@ For example, a single scene change, fires off more events then just changing the
 {.btn-grid .my-5}
 
 ## Source Requests
-Requests related to sources{.subtitle}
+Source related OBS Studio requests{.subtitle}
 * [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive)
 * [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot)
 * [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot)
 {.btn-grid .my-5}
 
 ## Scene Requests
+Scene related OBS Studio requests{.subtitle}
 * [**GetSceneList *Gets an array of all scenes in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneList)
 * [**GetGroupList *Gets an array of all groups in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetGroupList)
 * [**GetCurrentProgramScene *Gets the current program scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetCurrentProgramScene)
@@ -68,6 +71,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Input Requests
+Input related OBS Studio requests{.subtitle}
 * [**GetInputList *Gets an array of all inputs in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputList)
 * [**GetInputKindList *Gets an array of all available input kinds in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputKindList)
 * [**GetSpecialInputs *Gets the names of all special inputs***](/en/Broadcasters/OBS/Requests/Input-Requests/GetSpecialInputs)
@@ -95,6 +99,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Transition Requests
+Transition related OBS Studio requests{.subtitle}
 * [**GetTransitionKindList *Gets an array of all available transition kinds***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetTransitionKindList)
 * [**GetSceneTransitionList *Gets an array of all scene transitions in OBS***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetSceneTransitionList)
 * [**GetCurrentSceneTransition *Gets information about the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransition)
@@ -107,6 +112,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Filter Requests
+Filter related OBS Studio requests{.subtitle}
 * [**GetSourceFilterList *Gets an array of all of a source's filters***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterList)
 * [**GetSourceFilterDefaultSettings *Gets the default settings for a filter kind***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterDefaultSettings)
 * [**CreateSourceFilter *Creates a new filter, adding it to the specified source***](/en/Broadcasters/OBS/Requests/Filter-Requests/CreateSourceFilter)
@@ -119,6 +125,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Scene Item Requests
+Scene Item related OBS Studio requests{.subtitle}
 * [**GetSceneItemList *Gets a list of all scene items in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemList)
 * [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetGroupSceneItemList)
 * [**GetSceneItemId *Searches a scene for a source, and returns its id***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemId)
@@ -138,6 +145,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Output Requests
+Output related OBS Studio requests{.subtitle}
 * [**GetVirtualCamStatus *Gets the status of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetVirtualCamStatus)
 * [**ToggleVirtualCam *Toggles the state of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleVirtualCam)
 * [**StartVirtualCam *Starts the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/StartVirtualCam)
@@ -158,6 +166,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Stream Requests
+Stream related OBS Studio requests{.subtitle}
 * [**GetStreamStatus *Gets the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/GetStreamStatus)
 * [**ToggleStream *Toggles the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/ToggleStream)
 * [**StartStream *Starts the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StartStream)
@@ -166,6 +175,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Record Requests
+Record related OBS Studio requests{.subtitle}
 * [**GetRecordStatus *Gets the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/GetRecordStatus)
 * [**ToggleRecord *Toggles the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecord)
 * [**StartRecord *Starts the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/StartRecord)
@@ -176,6 +186,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Media Input Requests
+Media Input related OBS Studio requests{.subtitle}
 * [**GetMediaInputStatus *Gets the status of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/GetMediaInputStatus)
 * [**SetMediaInputCursor *Sets the cursor position of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/SetMediaInputCursor)
 * [**OffsetMediaInputCursor *Offsets the current cursor position of a media input by the specified value***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/OffsetMediaInputCursor)
@@ -183,6 +194,7 @@ Requests related to sources{.subtitle}
 {.btn-grid .my-5}
 
 ## Ui Requests
+Ui related OBS Studio requests{.subtitle}
 * [**GetStudioModeEnabled *Gets whether studio is enabled***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetStudioModeEnabled)
 * [**SetStudioModeEnabled *Enables or disables studio mode***](/en/Broadcasters/OBS/Requests/Ui-Requests/SetStudioModeEnabled)
 * [**OpenInputPropertiesDialog *Opens the properties dialog of an input***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenInputPropertiesDialog)
