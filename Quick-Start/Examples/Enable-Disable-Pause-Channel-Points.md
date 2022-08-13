@@ -1,14 +1,12 @@
 ---
 title: Quick Start - Enable/Disable/Pause Channel Points Example
 description: Perform actions when changing scenes
-published: true
-date: 2022-08-10T19:20:13.213Z
+published: false
+date: 2022-08-13T20:13:08.328Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-10T16:59:21.760Z
 ---
-
-<div role="alert" class="v-alert mb-5 v-sheet v-sheet--outlined theme--dark v-alert--dense v-alert--outlined red--text"><div class="v-alert__wrapper"><i aria-hidden="true" class="v-icon notranslate v-alert__icon mdi mdi-minus-circle theme--dark red--text"></i><div class="v-alert__content"><div class="caption">This page is not finished.</div></div></div></div>
 
 ## Guide
 
