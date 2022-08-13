@@ -1,8 +1,8 @@
 ---
 title: Streamer.bot External Plugins
-description: Link and Documentation for all the External Streamer.bot plugins
+description: Links and Documentation for all the External Streamer.bot plugins
 published: false
-date: 2022-08-13T13:50:49.584Z
+date: 2022-08-13T13:51:43.818Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T13:50:09.153Z
