@@ -2,13 +2,13 @@
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
 published: false
-date: 2022-08-13T13:54:16.049Z
+date: 2022-08-13T14:06:51.893Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T13:50:09.153Z
 ---
 
-- [<img src="https://www.elgato.com/themes/custom/smalcode/v19-img/general/navigation/black/elgato_logo_icon-black.png?v=2"/>**StreamDeck**](StreamDeck)
+- [<img src="https://cdn.discordapp.com/attachments/926971199412662323/1008013712617119834/SPOILER_elgato.png"/>**StreamDeck**](StreamDeck)
 - [<img src="https://www.touch-portal.com/press/logo/TPLogoWhite.png"/>**TouchPortal**](TouchPortal)
 - [<img src="https://pbs.twimg.com/profile_images/758883079/va_400x400.png"/>**Voice Attack**](Voice-Attack)
 - [<img src="https://d1fdloi71mui9q.cloudfront.net/1xQ0foUTCOyStWlmTy2w_qSKCfHJxy723E42i"/>**LoupeDeck**](LoupeDeck)
