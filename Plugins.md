@@ -2,15 +2,15 @@
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
 published: false
-date: 2022-08-13T14:06:51.893Z
+date: 2022-08-13T14:23:39.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T13:50:09.153Z
 ---
 
-- [<img src="https://cdn.discordapp.com/attachments/926971199412662323/1008013712617119834/SPOILER_elgato.png"/>**StreamDeck**](StreamDeck)
-- [<img src="https://www.touch-portal.com/press/logo/TPLogoWhite.png"/>**TouchPortal**](TouchPortal)
-- [<img src="https://pbs.twimg.com/profile_images/758883079/va_400x400.png"/>**Voice Attack**](Voice-Attack)
-- [<img src="https://d1fdloi71mui9q.cloudfront.net/1xQ0foUTCOyStWlmTy2w_qSKCfHJxy723E42i"/>**LoupeDeck**](LoupeDeck)
-- [<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/93/9e/f2/939ef228-6950-8730-1f3a-c4f578949f30/source/512x512bb.jpg"/>**Deckboard**](Deckboard)
+- [<img src="/plugins/streamdeck/logo.png"/>**StreamDeck**](StreamDeck)
+- [<img src="/plugins/touchportal/logo.png"/>**TouchPortal**](TouchPortal)
+- [<img src="/plugins/voice-attack/logo.png"/>**Voice Attack**](Voice-Attack)
+- [<img src="/plugins/loupedeck/logo.png"/>**LoupeDeck**](LoupeDeck)
+- [<img src="/plugins/deckboard/logo.png"/>**Deckboard**](Deckboard)
 {.btn-grid .my-5}
