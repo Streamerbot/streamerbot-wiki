@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-08-14T20:07:22.586Z
+date: 2022-08-14T20:22:22.729Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -38,10 +38,10 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-google theme--dark"></i>**Google**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
-- [<i class="mdi mdi-empty theme--dark"></i>**Watson**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**Watson**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-microsoft-azure theme--dark"></i>**Azure**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
-- [<i class="mdi mdi-empty theme--dark"></i>**Acapela**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
-- [<i class="mdi mdi-empty theme--dark"></i>**CereProc**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**Acapela**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**CereProc**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 {.btn-grid .my-5}
 
 ## Other
