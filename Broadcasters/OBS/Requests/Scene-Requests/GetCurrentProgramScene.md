@@ -2,7 +2,7 @@
 title: GetCurrentProgramScene
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-14T18:35:48.265Z
+date: 2022-08-14T18:39:49.483Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:21:50.186Z
@@ -18,7 +18,7 @@ Name | Type | Description |
 
 ## Data Fields
 :---|:---:|
-Complexity Rating: | <b class="stars stars--1"></b>
+Complexity Rating: | <span class="stars stars--1"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
