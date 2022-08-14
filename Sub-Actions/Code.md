@@ -2,7 +2,7 @@
 title: Code Sub-Actions
 description: Reference of all available Code sub-actions
 published: true
-date: 2022-08-08T18:57:50.390Z
+date: 2022-08-14T01:20:05.869Z
 tags: subactions, csharp, reference
 editor: markdown
 dateCreated: 2022-07-20T21:31:14.363Z
@@ -37,4 +37,4 @@ Info about all kind of datatypes that can be used with streamer.bot in C#, OBS r
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
 - [<i class="mdi mdi-file-code primary--text"></i> **File *Sub-actions reference for reading &amp; writing local files***](/en/Sub-Actions/File)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}
