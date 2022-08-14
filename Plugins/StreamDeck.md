@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-08-14T01:22:55.503Z
+date: 2022-08-14T01:24:04.835Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -37,7 +37,7 @@ NOTE: This plugin requires [Streamer.bot](https://streamer.bot) to work, and mak
 {.is-warning}
 
 ## Questions
-If you have more questions about this plugin be sure to ask #streamdeck-support in our discord!
+If you have more questions about this plugin be sure to ask in #streamdeck-support in our discord!
 
 - [<i class="mdi mdi-discord text--discord"></i> **Streamer.bot Discord *Join the Discord for examples, help, to share what you've made, or just to hang out!***](https://discord.streamer.bot)
 {.btn-grid .my-5}
