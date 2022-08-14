@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-08-14T01:16:37.242Z
+date: 2022-08-14T01:16:54.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -33,5 +33,5 @@ NOTE: This plugin requires [Streamer.bot](https://streamer.bot) to work, and mak
 > To **download** this plugin you will **need** to have the streamdeck software installed
 {.is-warning}
 
-> To **use** this plugin you will need to do [this](#)
+> To **use** this plugin you will **need** to do [this](#)
 {.is-warning}
