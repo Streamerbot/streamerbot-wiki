@@ -2,11 +2,13 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: false
-date: 2022-08-13T23:23:13.159Z
+date: 2022-08-14T01:09:33.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
 ---
+
+![logo.png](/plugins/streamdeck/logo.png){.align-abstopright}
 
 - [<i class="mdi mdi-download"></i> **Download *This button will download the latest version of the plugin***](https://github.com/nate1280/streamdeck-Streamer.bot/releases/latest/download/nate1280.streamerbot.streamDeckPlugin)
 - [<i class="mdi mdi-chevron-right"></i> **Releases *This links to the `Releases` page on GitHub***](https://github.com/nate1280/streamdeck-Streamer.bot/releases)
