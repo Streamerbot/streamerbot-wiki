@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-08-09T11:58:36.905Z
+date: 2022-08-14T20:04:22.273Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -27,11 +27,21 @@ dateCreated: 2022-08-02T16:36:25.669Z
 
 ## Settings
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
-- [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines){.disabled}
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
 - [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/en/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
 - [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/en/TwitchSpeaker/Tabs/Settings/Replacement){.disabled}
 - [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/en/TwitchSpeaker/Tabs/Settings/Voice-Aliases){.disabled}
+- [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines){.disabled}
+{.btn-grid .my-5}
+
+## Speech Engines
+- [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-google theme--dark"></i>**Google**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-empty theme--dark"></i>**Watson**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-empty theme--dark"></i>**Azure**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-empty theme--dark"></i>**Acapela**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-empty theme--dark"></i>**CereProc**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 {.btn-grid .my-5}
 
 ## Other
