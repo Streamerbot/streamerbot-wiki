@@ -2,7 +2,7 @@
 title: Set Channel Game
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-08-16T12:58:54.314Z
+date: 2022-08-16T13:03:21.511Z
 tags: twitch, set game, change game, subactions
 editor: markdown
 dateCreated: 2021-11-24T04:02:44.267Z
@@ -31,10 +31,10 @@ This sub-action can modify the current game category displayed on your Twitch ch
 ## Variables
 | Name | Description |
 |-----:|:------------|
-`String` | 
-`String` | 
-`String` | 
-`String` | 
+`gameSuccess` | This is `True`/`False` depending if the Sub-Action succeeded
+`gameName` | The name of the game
+`gameId` | The id of the game
+`gameBoxArt` | The url of the game boxart, can be used with browser sources in your broadcaster.
 
 - [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Title *Up Next***](/en/Sub-Actions/Twitch/Set-Title)
