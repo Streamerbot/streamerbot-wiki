@@ -2,7 +2,7 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-17T13:39:58.438Z
+date: 2022-08-17T13:40:12.584Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -14,7 +14,7 @@ dateCreated: 2022-07-28T01:00:17.477Z
   <div class="container" style="color: #ff6000; background-color: #4d4d4d; border-radius: 5px; text-align: center;">
     DOCS:
     <a href="https://www.w3docs.com/">
-      <span class="link">kink</span>
+      <span class="link">link</span>
     </a>
   </div>
 </body>
