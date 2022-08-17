@@ -2,7 +2,7 @@
 title: Perform Command
 description: 
 published: true
-date: 2022-08-17T16:18:21.728Z
+date: 2022-08-17T16:19:09.700Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:38.438Z
@@ -25,13 +25,13 @@ The command or executable to run
 The working directory for the command - defaults to the directory of the executable
 
 ### Arguments
-Arguments or flags to pass to the executable
+Optional arguments or flags to pass to the executable
 
 ### Wait
 Optional delay in seconds
 
 ### Environment Variables
-Enter any environment variables to pass to execution
+Define any optional environment variables you would like to pass to the executable
 
 ---
 
