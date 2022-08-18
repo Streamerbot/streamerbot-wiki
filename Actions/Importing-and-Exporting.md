@@ -2,21 +2,28 @@
 title: Importing & Exporting
 description: 
 published: true
-date: 2022-07-09T19:55:59.569Z
+date: 2022-08-18T21:55:49.345Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:05.659Z
 ---
 
-# Exporting Actions
+Importing and Exporting Packages are the way to share projects that have been made with other members of the community, since 0.1.8 this has been updated to make it far easier with the addition of the ability to export commands too. 
 
-Right clicking on the Actions pane you can select `Export` to bring up this dialogue
 
-![image.png](/image.png)
+# Exporting Actions and Commands
 
-From here you can select one or more `Actions` you would like to package for export.
+In the Top Left of Streamer.bot you will see an `Export` button.
 
-After selecting the actions for your package, give it a name and then choose one of the buttons below
+![exportbutton.png](/exportbutton.png){.align-center}
+
+Pressing that will bring up this dialogue box.
+
+![exportdialogue.png](/exportdialogue.png){.align-center}
+
+From here you can select one or more `Actions` and `Commands` you would like to package for export.
+
+After selecting the actions and commandsfor your package, give it a name and then choose one of the buttons below
 
 `Export to to Clipboard` will copy a string of UUEncoded text to the clipboard and show a confirmation dialogue. 
 
@@ -34,11 +41,15 @@ TlM0RR+LCAAAAAAABADdV02P2zYQvRfofxAM5LZT8FtkbosUKHLpIYdcihyGnGFiwJa3spRkEeS/l7T2
 
 ***
 
-# Importing Actions
+# Importing Actions and Commands
 
-Actions can be `Imported` from other installations of Streamerbot (providing they have been created on an equal or earlier version), allowing you to share your creations to different PCs or even to entirely different streamers.
+Actions and Commands can be `Imported` from other installations of Streamerbot (providing they have been created on an equal or earlier version), allowing you to share your creations to different PCs or even to entirely different streamers.
 
-To import an action, open the `Import` dialogue and either paste in the UUEncoded string for the package you want or drag and drop a file with that contains your import code into the top box.
+To Import an action, open the `Import` dialogue by pressing Import in the Top Left of Streamer.bot.
+
+![importbutton.png](/importbutton.png){.align-center}
+
+You can Import 2 ways either paste in the UUEncoded string for the package you want or drag and drop a file with that contains your import code into the top box.
 
 > If for some reason you are running streamer.bot with elevated permissions or in `Administrator` mode, you will be unable to use the drag-drop functionality, unless the Explorer window you are dragging from is also running in Administrator mode. 
 To work around this you can temporarily load the application in regular mode while importing actions
@@ -50,6 +61,8 @@ Streamerbot will attempt to recreate as best it can the action exactly as export
 The lower half of the window will then populate with a preview of all the actions found in that package.
 You can select any of the actions you want to bring in, if any have an identical name to an action already in your library it will rename the incoming action(s)
 
-![Importing-Actions](/130130635-fe14e609-065b-4d66-a81b-fb0b4ccc648b.png)
+> If you see no actions or commands populate when you copy and paste the code ensure that they are no trailing spaces or a new line at the end of the string. {.is-warning}
 
-The above example creates 3 Actions for managing a death counter with `Global Variables`
+![importactions.png](/importactions.png){.align-center}
+
+The above example creates 2 Actions and 2 commands, you can use the checkmark to choose which Actions or Commands you wish to Import.
