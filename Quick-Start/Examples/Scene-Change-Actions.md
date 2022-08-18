@@ -1,8 +1,8 @@
 ---
-title: Quick Start - Scene Activated Actions Example
+title: Quick Start - Scene Activated Actions
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-12T20:13:17.598Z
+date: 2022-08-18T12:55:53.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
