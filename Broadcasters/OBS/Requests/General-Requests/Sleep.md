@@ -28,9 +28,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "Sleep",
+  "requestType":  "Sleep",
+	"requestData": {	
   "sleepMillis": ,
   "sleepFrames": 
+	}
 }
 ```
 ## End Tabset {.tabset}

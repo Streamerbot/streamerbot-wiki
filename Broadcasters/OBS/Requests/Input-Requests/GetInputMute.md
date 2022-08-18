@@ -32,8 +32,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetInputMute",
+  "requestType":  "GetInputMute",
+	"requestData": {	
   "inputName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

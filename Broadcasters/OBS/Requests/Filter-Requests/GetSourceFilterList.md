@@ -32,8 +32,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetSourceFilterList",
+  "requestType":  "GetSourceFilterList",
+	"requestData": {	
   "sourceName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

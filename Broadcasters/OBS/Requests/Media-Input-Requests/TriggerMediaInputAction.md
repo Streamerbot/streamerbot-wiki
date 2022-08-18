@@ -28,9 +28,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "TriggerMediaInputAction",
+  "requestType":  "TriggerMediaInputAction",
+	"requestData": {	
   "inputName": "",
   "mediaAction": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

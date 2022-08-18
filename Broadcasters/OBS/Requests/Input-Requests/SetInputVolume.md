@@ -29,10 +29,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetInputVolume",
+  "requestType":  "SetInputVolume",
+	"requestData": {	
   "inputName": "",
   "inputVolumeMul": ,
   "inputVolumeDb": 
+	}
 }
 ```
 ## End Tabset {.tabset}

@@ -36,7 +36,8 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "CreateInput",
+  "requestType":  "CreateInput",
+	"requestData": {	
   "sceneName": "",
   "inputName": "",
   "inputKind": "",
@@ -44,6 +45,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "inputSettings": {
     "": ""
   }
+	}
 }
 ```
 ## End Tabset {.tabset}

@@ -35,9 +35,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetSceneItemLocked",
+  "requestType":  "GetSceneItemLocked",
+	"requestData": {	
   "sceneName": "",
   "sceneItemId": 
+	}
 }
 ```
 ## End Tabset {.tabset}

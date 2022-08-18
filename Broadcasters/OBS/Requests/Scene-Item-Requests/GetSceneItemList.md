@@ -35,8 +35,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetSceneItemList",
+  "requestType":  "GetSceneItemList",
+	"requestData": {	
   "sceneName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

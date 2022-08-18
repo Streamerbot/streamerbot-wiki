@@ -27,8 +27,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "OpenInputInteractDialog",
+  "requestType":  "OpenInputInteractDialog",
+	"requestData": {	
   "inputName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

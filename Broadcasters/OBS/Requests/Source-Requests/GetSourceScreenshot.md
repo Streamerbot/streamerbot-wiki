@@ -40,12 +40,14 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetSourceScreenshot",
+  "requestType":  "GetSourceScreenshot",
+	"requestData": {	
   "sourceName": "",
   "imageFormat": "",
   "imageWidth": ,
   "imageHeight": ,
   "imageCompressionQuality": 
+	}
 }
 ```
 ## End Tabset {.tabset}

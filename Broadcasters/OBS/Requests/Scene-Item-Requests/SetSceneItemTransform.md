@@ -29,12 +29,14 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetSceneItemTransform",
+  "requestType":  "SetSceneItemTransform",
+	"requestData": {	
   "sceneName": "",
   "sceneItemId": ,
   "sceneItemTransform": {
     "": ""
   }
+	}
 }
 ```
 ## End Tabset {.tabset}

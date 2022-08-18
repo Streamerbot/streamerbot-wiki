@@ -37,10 +37,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "OpenVideoMixProjector",
+  "requestType":  "OpenVideoMixProjector",
+	"requestData": {	
   "videoMixType": "",
   "monitorIndex": ,
   "projectorGeometry": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

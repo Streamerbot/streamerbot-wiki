@@ -32,8 +32,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "ToggleOutput",
+  "requestType":  "ToggleOutput",
+	"requestData": {	
   "outputName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

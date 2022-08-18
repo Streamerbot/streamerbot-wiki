@@ -36,10 +36,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "GetSceneItemId",
+  "requestType":  "GetSceneItemId",
+	"requestData": {	
   "sceneName": "",
   "sourceName": "",
   "searchOffset": 
+	}
 }
 ```
 ## End Tabset {.tabset}

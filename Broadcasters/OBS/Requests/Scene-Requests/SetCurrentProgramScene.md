@@ -27,8 +27,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetCurrentProgramScene",
+  "requestType":  "SetCurrentProgramScene",
+	"requestData": {	
   "sceneName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

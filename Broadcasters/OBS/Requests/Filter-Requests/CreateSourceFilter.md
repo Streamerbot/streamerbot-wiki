@@ -30,13 +30,15 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "CreateSourceFilter",
+  "requestType":  "CreateSourceFilter",
+	"requestData": {	
   "sourceName": "",
   "filterName": "",
   "filterKind": "",
   "filterSettings": {
     "": ""
-  }
+    }
+	}
 }
 ```
 ## End Tabset {.tabset}

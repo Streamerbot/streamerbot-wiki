@@ -28,11 +28,13 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetInputAudioTracks",
+  "requestType":  "SetInputAudioTracks",
+	"requestData": {	
   "inputName": "",
   "inputAudioTracks": {
     "": ""
   }
+	}
 }
 ```
 ## End Tabset {.tabset}

@@ -28,9 +28,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "RemoveSourceFilter",
+  "requestType":  "RemoveSourceFilter",
+	"requestData": {	
   "sourceName": "",
   "filterName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

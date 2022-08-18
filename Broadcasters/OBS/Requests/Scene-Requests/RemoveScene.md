@@ -27,8 +27,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "RemoveScene",
+  "requestType":  "RemoveScene",
+	"requestData": {	
   "sceneName": ""
+	}
 }
 ```
 ## End Tabset {.tabset}

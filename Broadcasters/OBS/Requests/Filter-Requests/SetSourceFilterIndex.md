@@ -29,10 +29,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SetSourceFilterIndex",
+  "requestType":  "SetSourceFilterIndex",
+	"requestData": {	
   "sourceName": "",
   "filterName": "",
   "filterIndex": 
+	}
 }
 ```
 ## End Tabset {.tabset}

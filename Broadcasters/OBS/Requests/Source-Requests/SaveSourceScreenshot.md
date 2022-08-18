@@ -41,13 +41,15 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "SaveSourceScreenshot",
+  "requestType":  "SaveSourceScreenshot",
+	"requestData": {	
   "sourceName": "",
   "imageFormat": "",
   "imageFilePath": "",
   "imageWidth": ,
   "imageHeight": ,
   "imageCompressionQuality": 
+	}
 }
 ```
 ## End Tabset {.tabset}

@@ -31,10 +31,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "OpenSourceProjector",
+  "requestType":  "OpenSourceProjector",
+	"requestData": {	
   "sourceName": "",
   "monitorIndex": ,
   "projectorGeometry": ""
+	}
 }
 ```
 ## End Tabset {.tabset}
