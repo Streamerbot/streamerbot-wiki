@@ -2,7 +2,7 @@
 title: VoiceMod
 description: Controlling VoiceMod software via Streamer.bot actions
 published: true
-date: 2022-07-10T20:53:46.830Z
+date: 2022-08-18T19:00:47.118Z
 tags: twitch, integrations, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z
@@ -40,20 +40,18 @@ This is it we are now ready to put the VoiceMod Integration to work.
 
 ## Available Sub-Actions
 
-* [Get Current Voice *Get the current selecte voice, and assign it to `%currentVoiceId%`*](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
-* [Select Random Voice *Pick a random voice to use* ](/en/Sub-Actions/VoiceMod/Select-Random-Voice)
-* [Select Voice *Pick a specific voice to use*](/en/Sub-Actions/VoiceMod/Select-Voice)
-* Select Voice by Id *| Pick a specific voice to use by a known id*
-* [Set Background Effect State *Enable or disable the background effect of a voice*](/en/Sub-Actions/VoiceMod/Set-Background-Effect-State)
-* [Set Censor State *Enable or disable the beep tone*](/en/Sub-Actions/VoiceMod/Set-Censor-State)
-* [Set Hear My Voice State *Change whether or not you hear yourself*](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
-* [Set Mute State *Turn your mic on or off*](/en/Sub-Actions/VoiceMod/Set-Mute-State)
-* [Set Voice Changer State *Turn the voice changer on or off*](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
-{.links-list}
+* [**Get Current Voice *Get the current selecte voice, and assign it to `%currentVoiceId%`***](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
+* [**Select Random Voice *Pick a random voice to use***](/en/Sub-Actions/VoiceMod/Select-Random-Voice)
+* [**Select Voice *Pick a specific voice to use***](/en/Sub-Actions/VoiceMod/Select-Voice)
+* [**Select Voice by Id *Pick a specific voice to use by a known id***](){.disabled}
+* [**Set Background Effect State *Enable or disable the background effect of a voice***](/en/Sub-Actions/VoiceMod/Set-Background-Effect-State)
+* [**Set Censor State *Enable or disable the beep tone***](/en/Sub-Actions/VoiceMod/Set-Censor-State)
+* [**Set Hear My Voice State *Change whether or not you hear yourself***](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
+* [**Set Mute State *Turn your mic on or off***](/en/Sub-Actions/VoiceMod/Set-Mute-State)
+* [**Set Voice Changer State *Turn the voice changer on or off***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
+{.btn-grid .my-5}
 
+---
 
-<div class="btn-grid">
-
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
