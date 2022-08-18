@@ -2,7 +2,7 @@
 title: Importing & Exporting
 description: 
 published: true
-date: 2022-08-18T22:03:03.896Z
+date: 2022-08-18T22:03:56.705Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:05.659Z
@@ -23,7 +23,7 @@ Pressing that will bring up this dialogue box.
 
 From here you can select one or more `Actions` and `Commands` you would like to package for export.
 
-After selecting the actions and commandsfor your package, give it a name and then choose one of the buttons below
+After selecting the actions and commands for your package, give it a name and then choose one of the buttons below
 
 `Export to to Clipboard` will copy a string of UUEncoded text to the clipboard and show a confirmation dialogue. 
 
@@ -43,7 +43,7 @@ TlM0RR+LCAAAAAAABADdV02P2zYQvRfofxAM5LZT8FtkbosUKHLpIYdcihyGnGFiwJa3spRkEeS/l7T2
 
 # Importing Actions and Commands
 
-Actions and Commands can be `Imported` from other installations of Streamerbot (providing they have been created on an equal or earlier version), allowing you to share your creations to different PCs or even to entirely different streamers.
+Actions and Commands can be `Imported` from other installations of Streamer.bot (providing they have been created on an equal or earlier version), allowing you to share your creations to different PCs or even to entirely different streamers.
 
 To Import an action, open the `Import` dialogue by pressing Import in the Top Left of Streamer.bot.
 
@@ -56,7 +56,7 @@ To work around this you can temporarily load the application in regular mode whi
 {.is-danger}
 
 
-Streamerbot will attempt to recreate as best it can the action exactly as exported, though if it includes paths to files you will need to adjust these to match your folder structure before they will work.
+Streamer.bot will attempt to recreate as best it can the action exactly as exported, though if it includes paths to files you will need to adjust these to match your folder structure before they will work.
 
 The lower half of the window will then populate with a preview of all the actions found in that package.
 You can select any of the actions you want to bring in, if any have an identical name to an action already in your library it will rename the incoming action(s)
