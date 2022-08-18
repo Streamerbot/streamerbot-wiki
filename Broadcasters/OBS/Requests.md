@@ -2,20 +2,25 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: false
-date: 2022-08-12T22:06:04.226Z
+date: 2022-08-18T09:55:04.392Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
 ---
-
-> All these requests won't exist yet, because streamer.bot is currently on OBS websocket *v4.x.x*{.obs-version-badge}
-{.is-danger}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
 
 It's important to note, that while it may seem like one event maybe the one to use, there is the possibility that another one is better suited for the use case.
 
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
+
+## Format
+```json
+{
+  "requestType": "request method",
+  "requestData": { ... }
+}
+```
 
 ## General Requests
 General & Miscellaneous OBS Studio requests{.subtitle}
