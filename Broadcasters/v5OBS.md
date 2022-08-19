@@ -1,8 +1,8 @@
 ---
-title: OBS Studio
+title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T17:16:59.440Z
+date: 2022-08-19T17:22:21.998Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
