@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:30:58.551Z
+date: 2022-08-19T18:34:57.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -35,8 +35,11 @@ Enter any name or label to describe this OBS instance, e.g. `Local`
 ### Version
 Select the version of OBS WebSocket to use for this connection.
 
-As of OBS Studio v28.0, OBS WebSocket 5.0 is included in the software by default. To continue using v4.9 requires the `obs-websocket-4.9.1-compat plugin`.
-You can still use *v4.9+*{.obs-version-badge} but it's recommended to change to *v5+*{.obs-version-badge} because *v4.9+*{.obs-version-badge} won't be supported forever.
+> As of OBS Studio v28.0, OBS WebSocket v5.0 is included by default. 
+> To continue using OBS WebSocket v4.9, you must install the *obs-websocket-4.9.1-compat*{.obs-version-badge} plugin
+{.is-warning}
+
+It is recommended to update to *v5.0.0*{.obs-version-badge} if you are currently using an older version.
 
 ### Host
 Default is localhost, `127.0.0.1`
