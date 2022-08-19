@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:49:18.115Z
+date: 2022-08-19T18:57:17.608Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -81,7 +81,7 @@ Lists all sources present on the currently selected scene
 
 Select an OBS connection in the top panel, then `Right-Click` -> `Add` in the bottom events panel to register an OBS event.
 
-![obs-add-event.png](/broadcasters/obs-add-event.png =300x)
+![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
 
 ### Event
 Select the event type from OBS
