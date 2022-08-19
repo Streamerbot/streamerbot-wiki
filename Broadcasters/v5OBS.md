@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T17:03:43.318Z
+date: 2022-08-19T17:05:58.866Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -71,7 +71,7 @@ Not required, because someone can only connect to your OBS if they're on the sam
 When toggled this auto connects your OBS connection when you launch streamer.bot
 
 #### Reconnect on Disconnect
-When toggled this tries to reconnect for [Retry Interval](#retry-interval) when streamer.bot looses connection with your OBS.
+When toggled this tries to reconnect for (check `Retry Interval`) when streamer.bot looses connection with your OBS.
 
 #### Retry Interval
 When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
