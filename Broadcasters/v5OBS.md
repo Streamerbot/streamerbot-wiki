@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T16:26:40.705Z
+date: 2022-08-19T16:54:34.052Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -20,7 +20,7 @@ dateCreated: 2022-08-19T16:26:40.705Z
 
 Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
-![broadcasters-obs-018.png](/broadcasters-obs-018.png)
+![overview](/broadcasters/obs/overview.png)
 
 > If you are using *v0.1.7*{.version-badge} or below the OBS configuration is found as a top level tab but the functionality is the same
 {.is-info}
@@ -32,7 +32,7 @@ Once configured, connected OBS sessions will report their status on this screen
 `Right-Click` -> `Add` to define a new connection
 Give it a name and set the IP address and Port number of the OBS Websocket
 
-The Default values of `127.0.0.1` and `4444` will look for the out-of-box configuration for OBS installed on the same computer as CPH is running
+The Default values of `127.0.0.1` and `4455` will look for the out-of-box configuration for OBS installed on the same computer as CPH is running
 
 `Password` Will not be required unless you have specified one in OBS
 
@@ -41,6 +41,39 @@ The Default values of `127.0.0.1` and `4444` will look for the out-of-box config
 
 Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
 
+### Name
+The name doesn't matter, you can set it to your own, reccomended to have it something like `Local`
+
+### Version
+You can still use *v4.9+*{.obs-version-badge} but reccomended to change to tranfer to *v5+*{.obs-version-badge} because *v4.9+*{.obs-version-badge} won't be supported forever
+
+### Host
+Default is `127.0.0.1`, but if you want to connect to an obs install on an other desktop device on your same network you can.
+1. Go to your cmd (Command Prompt)
+2. Type in:
+```cmd
+ipconfig
+```
+3. Copy the `IPv4 Adress` and put this in `Host`. (in streamer.bot) 
+
+### Port
+It's reccomended to keep this the same unless you're using multiple obs portable installs on your desktop device.
+
+The default value's are:
+*v4.9+*{.obs-version-badge}: `4444`
+*v5+*{.obs-version-badge}: `4455`
+
+### Password
+Not required, because someone can only connect to your obs if they're on the same network as you.
+
+### Auto Connect On Startup
+When toggled this auto connects your obs connection when you launch streamer.bot
+
+### Reconnect on Disconnect
+When toggled this tries to reconnect for [Retry Interval](#retry-interval) when streamer.bot looses connection with your OBS.
+
+### Retry Interval
+When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s by default, but you can change it to what you want.
 ***
 
 ### OBS Information
