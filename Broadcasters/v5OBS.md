@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T17:24:20.913Z
+date: 2022-08-19T17:24:50.126Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -40,6 +40,8 @@ The Default values of `127.0.0.1` and `4455` will look for the out-of-box config
 
 
 Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
+
+***
 
 ### Add/Edit Connection Input Fields
 ### Add Connection {.tabset}
