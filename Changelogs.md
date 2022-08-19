@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-19T03:23:35.312Z
+date: 2022-08-19T04:04:50.228Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -41,6 +41,7 @@ Upcoming changes in the next release!{.subtitle}
 * Added new variable `%wssId%` to CustomWebsocketServer action arguments, which is the ID of the websocket server
 * Add new VoiceMod sub-action to play a soundboard sound
 * Add new VoiceMod sub-action to stop  playing all VoiceMod sounds
+* Regex commands will now add match group values as arguments, `%match[#]%`, as well as named match groups, if you're using `?<groupName>` in your regex
 {.changelog-new}
 
 ## OBS Websocket v5.x
