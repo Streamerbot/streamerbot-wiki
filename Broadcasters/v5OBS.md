@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:34:57.823Z
+date: 2022-08-19T18:42:23.381Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -78,15 +78,11 @@ Shows the status of current streaming and recording activity
 Lists all sources present on the currently selected scene
 
 # Events
-You can assign actions to events that OBS transmits across the WebSocket connection.
-
-The data that an event emits, is added onto the arguments the same way it is with results from `OBS Raw`, as well as a `%obsEvent._json%` variable that can be parsed in C# (`JObject.Parse()`) for easier use.
-
-OBS events are per-connection based.
-
+For the Documentation about OBS events check the full events reference. With full on documentation about each event.
+- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
+{.btn-grid .my-5}
 ---
 
-- [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
 - [<i class="mdi mdi-github"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
 {.btn-grid .my-5}
