@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T16:59:59.677Z
+date: 2022-08-19T17:02:18.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -29,7 +29,7 @@ Adding at least one connection will allow you to control your OBS either through
 Once configured, connected OBS sessions will report their status on this screen
 
 ## Setup
-### Add Connection
+### Add Connection {.tabset}
 `Right-Click` -> `Add` to define a new connection
 Give it a name and set the IP address and Port number of the OBS WebSocket
 
