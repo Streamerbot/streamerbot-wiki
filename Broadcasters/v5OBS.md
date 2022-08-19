@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T17:05:58.866Z
+date: 2022-08-19T17:15:52.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -36,7 +36,7 @@ The Default values of `127.0.0.1` and `4455` will look for the out-of-box config
 
 `Password` Will not be required unless you have specified one in OBS
 
-![New Connection](/119574587-9adb7e80-bdad-11eb-82c1-ec9ed668a40d.png)
+![connection](/broadcasters/obs/obs-connection.png)
 
 
 Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
