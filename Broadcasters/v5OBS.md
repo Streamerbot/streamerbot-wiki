@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T17:03:07.189Z
+date: 2022-08-19T17:03:43.318Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -55,7 +55,7 @@ Default is `127.0.0.1`, but if you want to connect to an OBS install on an other
 ```cmd
 ipconfig
 ```
-3. Copy the `IPv4 Address` and put this in `Host`. (in streamer.bot) 
+3. Copy the `IPv4 Address` and put this in `Host` box.
 
 #### Port
 It's recommended to keep this the same unless you're using multiple OBS portable installs on your desktop device.
