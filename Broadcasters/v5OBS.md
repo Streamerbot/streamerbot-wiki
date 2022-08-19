@@ -2,7 +2,7 @@
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-08-19T17:02:18.553Z
+date: 2022-08-19T17:03:07.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -29,7 +29,6 @@ Adding at least one connection will allow you to control your OBS either through
 Once configured, connected OBS sessions will report their status on this screen
 
 ## Setup
-### Add Connection {.tabset}
 `Right-Click` -> `Add` to define a new connection
 Give it a name and set the IP address and Port number of the OBS WebSocket
 
@@ -42,6 +41,7 @@ The Default values of `127.0.0.1` and `4455` will look for the out-of-box config
 
 Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
 
+### Add Connection {.tabset}
 #### Name
 The name doesn't matter, you can set it to your own, recommended to have it something like `Local`
 
@@ -75,6 +75,8 @@ When toggled this tries to reconnect for [Retry Interval](#retry-interval) when 
 
 #### Retry Interval
 When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
+
+### End Tabset {.tabset}
 
 ***
 
