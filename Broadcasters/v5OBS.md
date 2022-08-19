@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:14:11.045Z
+date: 2022-08-19T18:14:18.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -83,7 +83,7 @@ Shows the status of current streaming and recording activity
 ### Sources
 Lists all sources present on the currently selected scene
 
-## Events
+# Events
 You can assign actions to events that OBS transmits across the WebSocket connection.
 
 The data that an event emits, is added onto the arguments the same way it is with results from `OBS Raw`, as well as a `%obsEvent._json%` variable that can be parsed in C# (`JObject.Parse()`) for easier use.
