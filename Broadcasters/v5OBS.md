@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:13:43.547Z
+date: 2022-08-19T18:14:11.045Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -16,7 +16,7 @@ dateCreated: 2022-08-19T16:26:40.705Z
 - [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
 {.btn-grid .my-5}
 
-## Overview
+# Overview
 
 Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
@@ -28,7 +28,7 @@ Adding at least one connection will allow you to control your OBS either through
 
 Once configured, connected OBS sessions will report their status on this screen
 
-## Configuration
+# Configuration
 `Right-Click` -> `Add` to define a new OBS connection
 
 ![connection](/broadcasters/obs/obs-connection.png =250x)
@@ -68,7 +68,7 @@ When toggled this tries to reconnect (by default every 30s) when streamer.bot lo
 When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
 
 
-## Status Panel
+# Status Panel
 Overview of connection information available on the right-hand panel{.subtitle}
 
 ### OBS Information
