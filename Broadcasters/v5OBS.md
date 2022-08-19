@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:44:26.999Z
+date: 2022-08-19T18:45:57.856Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -79,8 +79,8 @@ Lists all sources present on the currently selected scene
 
 # Events
 For the Documentation about OBS events check the full events reference, with full on documentation about each event.
-- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events Reference *An explanation about how events work and documentation about each event***](/en/Broadcasters/OBS/Events)
-{.btn-grid .my-5}
+ - [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
+ {.btn-grid .my-5}
 ---
 
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
