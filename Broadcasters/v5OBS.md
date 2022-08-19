@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:47:09.806Z
+date: 2022-08-19T18:49:18.115Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -78,9 +78,22 @@ Shows the status of current streaming and recording activity
 Lists all sources present on the currently selected scene
 
 # Events
-For the Documentation about OBS events check the full events reference, with full on documentation about each event.
- - [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Full OBS events reference***](/en/Broadcasters/OBS/Events)
- {.btn-grid .my-5}
+
+Select an OBS connection in the top panel, then `Right-Click` -> `Add` in the bottom events panel to register an OBS event.
+
+![obs-add-event.png](/broadcasters/obs-add-event.png =300x)
+
+### Event
+Select the event type from OBS
+
+A reference of all OBS Studio events is available [here](/en/Broadcasters/OBS/Events)
+
+### Group
+Optional group name to keep your events organized
+
+### Action
+Select the action to be executed any time the selected event is fired off from OBS
+
 ---
 
 - [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
