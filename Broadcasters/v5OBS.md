@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T17:26:38.835Z
+date: 2022-08-19T17:28:26.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -49,7 +49,7 @@ Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on
 The name doesn't matter, you can set it to your own, recommended to have it something like `Local`
 
 #### Version
-You can still use *v4.9+*{.obs-version-badge} but recommended to change to transfer to *v5+*{.obs-version-badge} because *v4.9+*{.obs-version-badge} won't be supported forever
+You can still use *v4.9+*{.obs-version-badge} but it's recommended to change to *v5+*{.obs-version-badge} because *v4.9+*{.obs-version-badge} won't be supported forever
 
 #### Host
 Default is `127.0.0.1`, but if you want to connect to an OBS install on an other desktop device on your same network you can.
