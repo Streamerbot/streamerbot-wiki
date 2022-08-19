@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T17:29:45.477Z
+date: 2022-08-19T17:30:02.597Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -84,23 +84,18 @@ When streamer.bot looses connection with your OBS this by default will try the r
 ***
 
 ### OBS Information
-
 Shows the version number of OBS and the installed WebSocket plugin
 
 ### Current Scene
-
 Shows the name of the currently broadcasting scene on that connection
 
 ### Stream Status
-
 Shows the status of current streaming and recording activity
 
 ### Sources
-
 Lists all sources present on the currently selected scene
 
 ## Events
-
 You can assign actions to events that OBS transmits across the WebSocket connection.
 
 The data that an event emits, is added onto the arguments the same way it is with results from `OBS Raw`, as well as a `%obsEvent._json%` variable that can be parsed in C# (`JObject.Parse()`) for easier use.
