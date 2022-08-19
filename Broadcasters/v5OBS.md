@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:19:31.154Z
+date: 2022-08-19T18:30:58.551Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -30,31 +30,26 @@ Once configured, connected OBS sessions will report their status on this screen.
 ![connection](/broadcasters/obs/obs-connection.png =250x)
 
 ### Name
-The name doesn't matter, you can set it to your own, recommended to have it something like `Local`.
+Enter any name or label to describe this OBS instance, e.g. `Local`
 
 ### Version
+Select the version of OBS WebSocket to use for this connection.
+
+As of OBS Studio v28.0, OBS WebSocket 5.0 is included in the software by default. To continue using v4.9 requires the `obs-websocket-4.9.1-compat plugin`.
 You can still use *v4.9+*{.obs-version-badge} but it's recommended to change to *v5+*{.obs-version-badge} because *v4.9+*{.obs-version-badge} won't be supported forever.
 
 ### Host
-Default is `127.0.0.1`, but if you want to connect to an OBS install on an other desktop device on your same network you can.
-1. Go to your `cmd` (Command Prompt).
-2. Type in:
-```cmd
-ipconfig
-```
-3. Copy the `IPv4 Address` and put this in `Host` box.
+Default is localhost, `127.0.0.1`
+To connect to another OBS instance on your local network, you can enter the local IP address, e.g. `192.168.1.10`
 
 ### Port
-It's recommended to keep this the same unless you're using multiple OBS portable installs on your desktop device.
-
-The default value's are:
-*v4.9+*{.obs-version-badge}: `4444`
-*v5+*{.obs-version-badge}: `4455`
+Default is `4444` *v4.9*{.obs-version-badge} or `4455` *v5+*{.obs-version-badge}
+It's recommended to keep this the same unless you are using multiple OBS portable installs on the same desktop device.
 
 ### Password
 Not required, devices can only connect to your OBS if they're on the same network as you.
 
-### Auto Connect On Startup
+### Auto Connect on Startup
 When toggled this auto connects your OBS connection when you launch streamer.bot.
 
 ### Reconnect on Disconnect
