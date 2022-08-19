@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-17T02:20:46.907Z
+date: 2022-08-19T03:23:35.312Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ Upcoming changes in the next release!{.subtitle}
 * Better handling for the Twitch Get Present Viewers tick, optimizations to limit potential API calls
 * OBS Raw sub-action was not saving the prefix
 * Silent null ref crash for timed actions when Twitch is not connected, should be compeltely decoupled now
+* Twitch GiftSubs from a GiftBomb were being counted twice in the sub-counter
 {.changelog-fixes}
 
 <span></span>
