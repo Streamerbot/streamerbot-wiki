@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T18:14:18.202Z
+date: 2022-08-19T18:19:31.154Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -18,15 +18,11 @@ dateCreated: 2022-08-19T16:26:40.705Z
 
 # Overview
 
-Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
+Adding at least one connection will allow Streamer.bot to control your OBS instance with all [OBS sub-actions](/Sub-Actions/OBS) or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action.
 
-![overview](/broadcasters/obs/overview.png)
+![overview](/broadcasters/obs/overview.png =700x)
 
-> If you are using *v0.1.7*{.version-badge} or below the OBS configuration is found as a top level tab but the functionality is the same
-{.is-info}
-
-
-Once configured, connected OBS sessions will report their status on this screen
+Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
 `Right-Click` -> `Add` to define a new OBS connection
