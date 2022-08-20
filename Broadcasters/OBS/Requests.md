@@ -2,7 +2,7 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: false
-date: 2022-08-20T01:57:21.619Z
+date: 2022-08-20T02:01:55.790Z
 tags: obs, raw, obs-studio, obs requests, requests, obs raw
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -15,10 +15,22 @@ It's important to note, that while it may seem like one event maybe the one to u
 For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
 
 ## Format
+In the request data you need to fill in the request
 ```json
 {
   "requestType": "request method",
   "requestData": { ... }
+}
+```
+
+**Example:**
+```json
+{
+  "requestType": "request method",
+  "requestData": {
+    "requestField1": 123456,
+    "requestField2": "Main"
+  }
 }
 ```
 
