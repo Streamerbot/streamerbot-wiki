@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-19T19:00:58.888Z
+date: 2022-08-20T11:40:12.678Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -97,5 +97,5 @@ Select the action to be executed any time the selected event is fired off from O
 ---
 
 - [<img src="/logos/obs.svg"></img>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
-- [<i class="mdi mdi-github"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
+- [<i class="mdi mdi-progress-question text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcaster/OBS/Requests)
 {.btn-grid .my-5}
