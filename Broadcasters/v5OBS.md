@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T11:41:55.788Z
+date: 2022-08-20T11:45:15.334Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -10,7 +10,7 @@ dateCreated: 2022-08-19T16:26:40.705Z
 
 ![obs.svg](/logos/obs.svg){.align-abstopright}
 
-> OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported.
+> OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported, but the documentation on the wiki is going to be in *v5+*{.obs-version-badge}.
 {.is-info}
 
 - [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
