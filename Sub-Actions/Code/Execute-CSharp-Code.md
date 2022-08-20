@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-08-20T10:44:55.291Z
+date: 2022-08-20T10:48:06.813Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -98,7 +98,7 @@ Save your changes
 Discard your changes
 
 ## Video Tutorials
-<small>This video's are made </small>
+This video's are video's for learning C# with streamer.bot{.subtitle}
 
 <section class="overview-grid my-5">
 <div>
@@ -117,14 +117,8 @@ TerrierDarts{.overline}
 <span></span>
 
 <div class=“iframe-container”><iframe src="https://www.youtube.com/embed/videoseries?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
-
-</div><div>
-  
-{.overline}
- 
-<span></span>
-<div></div>
-</div>
+    </div>
+  <div>
 </section>
 
 ---
