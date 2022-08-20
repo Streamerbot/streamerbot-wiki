@@ -2,13 +2,11 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T11:58:03.613Z
+date: 2022-08-20T12:03:49.712Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
 ---
-
-![obs.svg](/logos/obs.svg){.align-abstopright}
 
 > OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported, but the documentation on the wiki is in *v5+*{.obs-version-badge}
 {.is-info}
@@ -26,6 +24,7 @@ Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
 `Right-Click` `->` `Add` to define a new OBS connection
+
 ![connection](/broadcasters/obs/obs-connection.png =250x)
 
 ### Name
