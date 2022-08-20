@@ -2,23 +2,23 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-20T16:07:52.527Z
+date: 2022-08-20T16:11:48.795Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
 ---
 
-<script type="text/javascript>
+<script>
 function viewingAD() {
 var footSet = new Array();
-footSet[1] = “URL 1”;
-footSet[2] = “URL 2”;
-footSet[3] = “URL 3”;
+footSet[1] = “https://wiki.streamer.bot”;
+footSet[2] = “https://extensions.streamer.bot”;
+footSet[3] = “https://streamer.bot”;
 
 var footSetTITLE = new Array();
-footSetTITLE[1] = “Link text for URL 1”;
-footSetTITLE[2] = “Link text for URL 2”;
-footSetTITLE[3] = “Link text for URL 3″;
+footSetTITLE[1] = “Streamer.bot Wiki”;
+footSetTITLE[2] = “Extensions Wiki”;
+footSetTITLE[3] = “Streamer.bot″;
 
 var min = 1;
 var max = 3;
