@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-08-20T10:25:55.244Z
+date: 2022-08-20T10:30:18.295Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -97,22 +97,30 @@ Save your changes
 ### Cancel
 Discard your changes
 
-## Tutorials for beginners
+## Video Tutorials
 
+<section class="overview-grid my-5">
+<div>
 
-* [Programming In C# Crash Course For Streamer.bot *by nutty VODs*](https://youtu.be/rS5ZuIZV_y0)
-{.links-list}
+nutty VODs{.overline}
+  
+<span></span>
 
-<p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/rS5ZuIZV_y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/rS5ZuIZV_y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
 
-***
+</div>
+  <div>
 
-* [C# Shorts *by Terrier Darts* *Playlist*](https://www.youtube.com/playlist?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g)
-{.links-list}
+TerrierDarts{.overline}
 
-<p align="left"><iframe width="280" height="158" src="https://www.youtube.com/embed/videoseries?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></p>
+<span></span>
+
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/videoseries?list=PLVmWn5RfnNsogzpk5loBoYXvWEZY-Qz6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+
+</div>
+</section>
 
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}
