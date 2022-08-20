@@ -47,12 +47,14 @@ Here a basic example.
 
 ```json
 {
-"request-type": "TheRequestType",
+"requestType":  "TheRequestType",
+	"requestData": {	
 "sceneName": "your scene name",
 "sourceSettings": {
 "color": 4278255360,
 "name": "your name",
  },
+	}
 }
 ```
 
@@ -100,7 +102,8 @@ Now that you know what you can put it in
 
 ```json
 {
-"request-type": "SetSourceSettings",
+"requestType":  "SetSourceSettings",
+	"requestData": {	
 "sourceName": "your source name",
 "sourceSettings": {
  "": "",
@@ -126,6 +129,7 @@ Now that we know that for this color source we can change the color/height and w
   "height": 500
   "width": 200
  },
+	}
 }
 ```
 color: Needs to be ABGR with the `Pick Color` sub-action you can convert the color to ABGR rather easily, It is a number so it doesn't need ""

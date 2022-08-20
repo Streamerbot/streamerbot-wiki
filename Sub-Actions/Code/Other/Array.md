@@ -80,9 +80,11 @@ Here you see an array with a nested object and a nested array with 3 integers, 1
 #### OBS ReorderSceneItems Request
 ```json
 {
-"request-type": "ReorderSceneItems",
+"requestType":  "ReorderSceneItems",
+	"requestData": {	
 "scene": "sceneName",
 "items": [{"name":"firstSource"},{"name":"secondSource"}]
+	}
 }
 ```
 #### One line

@@ -17,9 +17,11 @@ dateCreated: 2022-06-30T05:37:11.438Z
 ## Example
 ```json
 {
-"request-type": "BroadcastCustomMessage",
+"requestType":  "BroadcastCustomMessage",
+	"requestData": {	
 "realm": "",
 "data": ""
+	}
 }
 ```
 

@@ -13,9 +13,11 @@ dateCreated: 2022-06-30T15:01:04.324Z
 ## Example
 ```json
 {
-  "request-type": "OpenProjector",
+  "requestType":  "OpenProjector",
+	"requestData": {	
   "type": "Preview",
   "monitor": "1"
+	}
 }
 ```
 

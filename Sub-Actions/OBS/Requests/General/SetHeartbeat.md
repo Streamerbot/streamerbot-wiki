@@ -13,8 +13,10 @@ dateCreated: 2022-06-29T17:50:09.657Z
 ## Example
 ```json
 {
-"request-type": "SetHeartbeat",
+"requestType":  "SetHeartbeat",
+	"requestData": {	
 "enable": "True"
+	}
 }
 ```
 
