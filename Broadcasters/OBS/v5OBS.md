@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T12:03:49.712Z
+date: 2022-08-20T18:30:47.525Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -91,8 +91,15 @@ Optional group name to keep your events organized
 ### Action
 Select the action to be executed any time the selected event is fired off from OBS
 
----
+***
+### Sub-Actions
+- [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}
 
+### OBS Raw
 - [<i class="mdi mdi-code-json text--obs"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
+{.btn-grid .my-5}
+
+### OBS Raw Requests
 - [<i class="mdi mdi-progress-question text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcaster/OBS/Requests)
 {.btn-grid .my-5}
