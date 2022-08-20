@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T11:46:47.763Z
+date: 2022-08-20T11:51:26.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -35,19 +35,19 @@ Enter any name or label to describe this OBS instance, e.g. `Local`
 ### Version
 Select the version of OBS WebSocket to use for this connection.
 
-> As of OBS Studio v28.0, OBS WebSocket v5.0 is included by default. 
-> To continue using OBS WebSocket v4.9, you must install the *obs-websocket-4.9.1-compat*{.obs-version-badge} plugin
+> As of OBS Studio v28.0, OBS WebSocket v5+ is included by default. 
+> To continue using OBS WebSocket v4.9+, you must install the *obs-websocket-4.9.1-compat*{.obs-version-badge} plugin
 {.is-warning}
 
-It is recommended to update to *v5.0.0*{.obs-version-badge} if you are currently using an older version.
+It is recommended to update to *v5+*{.obs-version-badge} if you are currently using an older version.
 
 ### Host
 Default is localhost, `127.0.0.1`
 To connect to another OBS instance on your local network, you can enter the local IP address, e.g. `192.168.1.10`
 
 ### Port
-Default is `4444` *v4.9*{.obs-version-badge} or `4455` *v5+*{.obs-version-badge}
-It's recommended to keep this the same unless you are using multiple OBS portable installs on the same desktop device.
+Default is *v4.9+*{.obs-version-badge} = `4444` or *v5+*{.obs-version-badge} = `4455`
+It's recommended to keep this the same unless you are using multiple OBS portable installs on your same desktop.
 
 ### Password
 Not required, devices can only connect to your OBS if they're on the same network as you.
@@ -60,7 +60,6 @@ When toggled this tries to reconnect (by default every 30s) when streamer.bot lo
 
 ### Retry Interval
 When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
-
 
 # Status Panel
 Overview of connection information available on the right-hand panel{.subtitle}
@@ -79,7 +78,7 @@ Lists all sources present on the currently selected scene
 
 # Events
 
-Select an OBS connection in the top panel, then `Right-Click` -> `Add` in the bottom events panel to register an OBS event.
+Select an OBS connection in the top panel, then `Right-Click` `->` `Add` in the bottom events panel to register an OBS event.
 
 ![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
 
