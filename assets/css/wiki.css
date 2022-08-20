@@ -230,6 +230,11 @@ h6::after {
   position: absolute;
   right: .5rem;
 }
+.v-application.theme--dark .contents .links-list .obs-version-badge {
+  color: #fff !important;
+  position: absolute;
+  right: .5rem;
+}
 .obs-version-badge {
     border-radius: 15px;
     font-size: .75rem;
