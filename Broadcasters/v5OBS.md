@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T11:51:26.798Z
+date: 2022-08-20T11:52:18.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -46,7 +46,7 @@ Default is localhost, `127.0.0.1`
 To connect to another OBS instance on your local network, you can enter the local IP address, e.g. `192.168.1.10`
 
 ### Port
-Default is *v4.9+*{.obs-version-badge} = `4444` or *v5+*{.obs-version-badge} = `4455`
+Default is: *v4.9+*{.obs-version-badge} = `4444` or *v5+*{.obs-version-badge} = `4455`
 It's recommended to keep this the same unless you are using multiple OBS portable installs on your same desktop.
 
 ### Password
