@@ -2,13 +2,13 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-20T16:07:31.413Z
+date: 2022-08-20T16:07:52.527Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
 ---
 
-<script>
+<script type="text/javascript>
 function viewingAD() {
 var footSet = new Array();
 footSet[1] = “URL 1”;
