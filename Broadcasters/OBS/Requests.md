@@ -2,8 +2,8 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: false
-date: 2022-08-18T09:55:19.822Z
-tags: 
+date: 2022-08-20T01:57:21.619Z
+tags: obs, raw, obs-studio, obs requests, requests, obs raw
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
 ---
