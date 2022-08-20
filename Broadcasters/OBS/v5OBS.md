@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T11:57:40.186Z
+date: 2022-08-20T11:58:03.613Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -26,7 +26,6 @@ Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
 `Right-Click` `->` `Add` to define a new OBS connection
-
 ![connection](/broadcasters/obs/obs-connection.png =250x)
 
 ### Name
