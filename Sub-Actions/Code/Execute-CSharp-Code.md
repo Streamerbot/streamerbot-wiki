@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-08-02T09:40:10.428Z
+date: 2022-08-20T10:25:55.244Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -96,14 +96,6 @@ Save your changes
 
 ### Cancel
 Discard your changes
-
-## Examples
-I will provide some samples for folks to use here
-
-* [Roll dice](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Roll-Dice)
-* [Log All Arguments](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments)
-* [Import Variable into C#](/Sub-Actions/Code/Execute-CSharp-Code/Examples/Import-Variables)
-{.links-list}
 
 ## Tutorials for beginners
 
