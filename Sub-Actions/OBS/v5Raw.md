@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T10:02:33.272Z
+date: 2022-08-21T10:03:35.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -41,3 +41,12 @@ Here you see one parameter you can change to if the `Results` can be used as var
 
 ![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png)
 - [x] Add results to arguments
+
+# Other
+## Name
+## Variable Prefix
+## Format
+## Test
+## Connection
+## Ok
+## Cancel
