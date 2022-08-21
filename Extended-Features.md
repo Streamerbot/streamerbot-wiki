@@ -2,7 +2,7 @@
 title: Extended Features
 description: Additional features provided by (and built on top of) Streamer.bot
 published: true
-date: 2022-07-09T19:54:31.996Z
+date: 2022-08-21T12:47:26.685Z
 tags: extended features
 editor: markdown
 dateCreated: 2022-07-08T21:28:37.628Z
@@ -13,6 +13,8 @@ dateCreated: 2022-07-08T21:28:37.628Z
 Extended features are provided by the Streamer.bot team and integrate closely with Streamer.bot
 
 # Features
-* [Streamer.bot Decks *Web-based StreamDeck or LoupeDeck alternative by Whipstickgostop*](/en/Extended-Features/HTML-Decks)
-* [HTML Overlay *Browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating (by Ruirize)*](/en/Extended-Features/HTML-Overlay)
-{.links-list}
+* [**Streamer.bot Decks *Web-based StreamDeck or LoupeDeck alternative 
+(by Whipstickgostop)***](/en/Extended-Features/HTML-Decks)
+* [**HTML Overlay *Browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating 
+(by Ruirize)***](/en/Extended-Features/HTML-Overlay)
+{.btn-grid .my-5}
