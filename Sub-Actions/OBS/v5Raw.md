@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T10:03:35.419Z
+date: 2022-08-21T10:04:26.348Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -12,7 +12,7 @@ Since there are quite a large number of possible requests that can be sent to OB
 
 OBS Raw, will let you take full control over sending data to OBS.
 
-## Result/Variables
+# Result/Variables
 To use variables in the JSON request, add the % variable surrounded by quotes, it must still be valid JSON to parse properly.  The variable will be auto-typed when it is parsed to be sent to OBS, so if the variable is a number, the resulting JSON will not have double quotes around the value.
 
 When the OBS Raw is executed, result will be places in the argument stack for the action.
