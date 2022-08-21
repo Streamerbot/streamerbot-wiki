@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T23:55:48.270Z
+date: 2022-08-21T23:57:03.612Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -69,3 +69,10 @@ This will undo what you just changed to the code and close the code menu.
 
 
 # Explanation
+### Format
+```json
+{
+  "requestType": "request method",
+  "requestData": { ... }
+}
+```
