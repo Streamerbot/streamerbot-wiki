@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T10:02:15.261Z
+date: 2022-08-21T10:02:33.272Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -21,6 +21,7 @@ Since the result is returned in JSON, it will walk the entire tree, and add each
 
 A special `obsRaw._json` will also be added, which is the entire JSON as a string, this is mainly for use in C# where you can deserialize this into an object for easier access/traversal.
 
+# Tabs
 ## Raw
 The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broadcasters/OBS/Requests) check [Usage](#usage) below for more info about raw code.
 
