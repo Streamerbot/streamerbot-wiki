@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T10:11:31.003Z
+date: 2022-08-21T23:55:48.270Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -47,11 +47,25 @@ Here you see one parameter you can change to if the `Results` can be used as var
 
 # Other
 ### Name
+Give this a name to sort it between the other sub-action (for example you can use your request type).
+
 ### Variable Prefix
+This will be in front of your variables when an action has ran.
+
 ### Format
+Using this button your raw code will automatticly be JSON formatted.
+
 ### Test
+This will test the raw code, but this won't run the action/sub-action in any way.
+
 ### Connection
+You can change between obs connections, only advanced user will use this feauture.
+
 ### Ok
+This will save and close your code menu.
+
 ### Cancel
+This will undo what you just changed to the code and close the code menu.
+
 
 # Explanation
