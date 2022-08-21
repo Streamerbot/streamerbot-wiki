@@ -2,16 +2,19 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T10:04:26.348Z
+date: 2022-08-21T10:08:34.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
 ---
 
-Since there are quite a large number of possible requests that can be sent to OBS via obs-websocket, its not possible to have every single one, along with all the different options available, as a simple sub-aciton.
-
-OBS Raw, will let you take full control over sending data to OBS.
-
+> Because of the switch between OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge}, we have decided to put the documentation in *v5+*{.obs-version-badge} because that will be commonly used by new users.
+{.is-warning}
+---
+> Since there are quite a large number of possible requests that can be sent to OBS via obs-websocket, its not possible to have every single one, along with all the different options available, as a simple sub-action.
+>
+> OBS Raw, will let you take full control over sending data to OBS.
+{.is-info}
 # Result/Variables
 To use variables in the JSON request, add the % variable surrounded by quotes, it must still be valid JSON to parse properly.  The variable will be auto-typed when it is parsed to be sent to OBS, so if the variable is a number, the resulting JSON will not have double quotes around the value.
 
