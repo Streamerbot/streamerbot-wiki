@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-20T18:31:14.849Z
+date: 2022-08-21T11:32:16.337Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -16,7 +16,7 @@ dateCreated: 2022-08-19T16:26:40.705Z
 
 # Overview
 
-Adding at least one connection will allow Streamer.bot to control your OBS instance with all [OBS sub-actions](/Sub-Actions/OBS) or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action.
+Adding at least one OBS connection will allow Streamer.bot to control your OBS.
 
 ![overview](/broadcasters/obs/overview.png =700x)
 
