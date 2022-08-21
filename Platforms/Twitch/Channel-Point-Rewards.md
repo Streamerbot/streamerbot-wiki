@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: 
 published: true
-date: 2022-07-14T17:44:58.250Z
+date: 2022-08-21T22:54:04.833Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -71,17 +71,22 @@ By default this clears when the application is closed but the following options 
 
 The following variables will be available after a channel point redemption:
 
-Variable | Description
----------:|------------
+| Name | Description |
+|-----:|:------------|
 `redemptionId` | String identifier for this redemption (used to refund reward) <br> `4d9f236b-7486-481a-89af-1d03676d5275`
 `rewardId` | String identifier for this reward <br> `44e86f71-8ace-4739-a123-3ff095489343`
 `rewardName` | Name of the reward <br> `My Reward`
+`rewardPrompt` | The verbiage shown on the channel point description *v0.1.5+*{.version-badge} <br> `My cool Reward Prompt`
+`rewardCost` | The channel point cost of the redeemed reward *v0.1.5+*{.version-badge}  <br> `100`
 `counter` | Number of times this reward has been redeemed <br> `1`
 `userCounter` | Number of times the same user has redeemed this reward <br> `1`
 `rawInput` | String text entered by the user (if required) <br> `https://streamer.bot/en/Test Unescaped Text $$$`
 `rawInputEscaped` | String text entered by the user (escaped) <br> `https://streamer\.bot/en/Test Escaped Text \$\$\$`
-`input<x>` | Single words from the `rawInput` using spaces as delimiters, this will populate consecutive variables starting at `input0` 
-`rewardCost` | The channel point cost of the redeemed reward *v0.1.5+*{.version-badge}  <br> `100`
-`rewardPrompt` | The verbiage shown on the channel point description *v0.1.5+*{.version-badge} <br> `My cool Reward Prompt`
-{.vars-table}
-***
+`user` | The user that had redeemed the channel point
+`userName` | User login name <br> *e.g. on Twitch this is the username in all lowercase, useful for comparison*
+`userId` | Unique user identifier
+`userType` | Specifies which streaming service the triggering user is coming from *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
+`isSubscribed` | Boolean value indicating the sender's subscription status <br> `True`/`False`
+`isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
+`isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
+`Broadcast Variables` | List of broadcast variable available [here](/en/Variables/Broadcaster)
