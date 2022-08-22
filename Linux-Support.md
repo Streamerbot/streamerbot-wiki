@@ -2,7 +2,7 @@
 title: Linux Support
 description: Information pertaining to running Streamer.bot on Linux
 published: true
-date: 2022-08-22T20:48:59.240Z
+date: 2022-08-22T20:52:38.777Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T01:57:25.992Z
@@ -13,18 +13,6 @@ dateCreated: 2021-10-24T01:57:25.992Z
 There is an install script available at: https://github.com/Streamerbot/sb-linux-installer
 
 [Installation Guide on how to install on Linux can be found here](/en/Installing-on-Linux)
-
-## Updating Streamer.bot on Linux
-To update Streamer.Bot on your linux install you need 2 simple commands 
-
-Open a Terminal Window issue the following commands 
-
-```bash
-cd sb-linux-installer 
-UPDATE=1 ./install.sh
-```
-
-wait for it to complete and congratulations you have sucessfully updated Streamer.bot
 
 ## Experimental Linux Support
 
@@ -58,6 +46,17 @@ A dedicated page on the wiki will likely be created for those who are using/test
 > Running **Streamer.bot** and/or **TwitchSpeaker** under Linux is considered to be experimental, so expect bugs/issues.
 {.is-warning}
 
+## Updating Streamer.bot on Linux
+To update Streamer.Bot on your linux install you need 2 simple commands 
+
+Open a Terminal Window issue the following commands 
+
+```bash
+cd sb-linux-installer 
+UPDATE=1 ./install.sh
+```
+
+wait for it to complete and congratulations you have sucessfully updated Streamer.bot
 ## Known issues
 
 ### Right click viewers
