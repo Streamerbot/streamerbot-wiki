@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2022-08-22T00:31:16.547Z
+date: 2022-08-22T00:33:01.843Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -47,11 +47,10 @@ If for any reason the raid is cancelled, this action will trigger. It can be use
 This event triggers after the raid has transferred your users to the new channel. This is useful for cleanup actions such as turning off lights, stopping streaming state etc.
 
 # Variables
-
 ## Incoming
 
-Variable | Description
----------:|------------
+| Name | Description |
+|-----:|:------------|
 `user` | The user who is raiding the channel
 `viewers` | Number of viewers in the raid as reported by Twitch
 `raiderNames` | A comma separated list of display names of users in the raid, any names in groups that have been marked as bots will be excluded.
@@ -59,16 +58,12 @@ Variable | Description
 > **%raiderNames%** is a best guess effort in determining who came along in the raid, there is currently no mechanism from Twitch that provides this information during a raid, so a few extra API calls are made to "guess" at this list
 {.is-info}
 
-
 ## Sending a Raid
 
-Variable | Description
----------:|------------
+| Name | Description |
+|-----:|:------------|
 `raidUser` | Target user's display name
 `raidUserName` | Target user's Twitch! login name
 `raidUserId` | Target user's Twitch! ID
 `raidUserProfileImageURL` | Target user's Twitch! profile image
 `raidUserProfileImageEscaped` | Target user's Twitch! profile imagewith escaped characters
-
-> This event relies on a Twitch PubSub message, and it seems the profile image can sometimes be `70x70`, or `300x300`. This has been updated with *v0.1.4*{.version-badge} to replace the `70x70` with `300x300`, so you can get the full size profile image.  The test button, defaults to a `300x300` size profile image, as it makes another call to get this information.
-{.is-info}
