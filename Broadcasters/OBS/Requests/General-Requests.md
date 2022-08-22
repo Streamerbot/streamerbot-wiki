@@ -2,7 +2,7 @@
 title: General Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:17:58.283Z
+date: 2022-08-22T00:40:30.880Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:12:13.004Z
@@ -17,7 +17,7 @@ General & Miscellaneous OBS Studio requests{.subtitle}
 * [**GetHotkeyList *Gets an array of all hotkey names in OBS***](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
 * [**TriggerHotkeyByName *Triggers a hotkey using its name. See `GetHotkeyList`***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByName)
 * [**TriggerHotkeyByKeySequence *Triggers a hotkey using a sequence of keys***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByKeySequence)
-* [**Sleep *Sleeps for a time duration or number of frames. Only available in request batches with types `SERIAL_REALTIME` or `SERIAL_FRAME`***](/en/Broadcasters/OBS/Requests/General-Requests/Sleep)
+* [**Sleep *Sleeps for a time duration or number of frames.***](/en/Broadcasters/OBS/Requests/General-Requests/Sleep)
 {.btn-grid .my-5}
 
 ---
