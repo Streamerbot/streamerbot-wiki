@@ -2,7 +2,7 @@
 title: Linux Support
 description: Information pertaining to running Streamer.bot on Linux
 published: true
-date: 2022-07-10T22:00:25.281Z
+date: 2022-08-22T20:48:59.240Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T01:57:25.992Z
@@ -39,7 +39,7 @@ I've been doing some tests using the staging version of Wine, which is v6.19 in 
 
 For your Wine setup, you'll want the following:
 ```bash
-winetricks dotnet472
+winetricks dotnet48
 winetricks d3dcompiler_47
 winetricks dxvk
 ```
