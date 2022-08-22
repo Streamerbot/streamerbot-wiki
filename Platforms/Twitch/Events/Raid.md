@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2022-08-22T00:30:43.468Z
+date: 2022-08-22T00:31:16.547Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -70,5 +70,5 @@ Variable | Description
 `raidUserProfileImageURL` | Target user's Twitch! profile image
 `raidUserProfileImageEscaped` | Target user's Twitch! profile imagewith escaped characters
 
-> This event relies on a Twitch PubSub message, and it seems the profile image can sometimes be 70x70, or 300x300.  This has been updated with *v0.1.4*{.version-badge} to replace the 70x70 with 300x300, so you can get the full size profile image.  The test button, defaults to a 300x300 size profile image, as it makes another call to get this information.
+> This event relies on a Twitch PubSub message, and it seems the profile image can sometimes be `70x70`, or `300x300`. This has been updated with *v0.1.4*{.version-badge} to replace the `70x70` with `300x300`, so you can get the full size profile image.  The test button, defaults to a `300x300` size profile image, as it makes another call to get this information.
 {.is-info}
