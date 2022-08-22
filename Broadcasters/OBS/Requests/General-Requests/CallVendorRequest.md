@@ -2,7 +2,7 @@
 title: CallVendorRequest
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T11:55:32.310Z
+date: 2022-08-22T19:19:29.901Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:32:45.548Z
@@ -38,14 +38,14 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "CallVendorRequest",
+  "requestType": "CallVendorRequest",
   "requestData": {
-  "vendorName": "",
-  "requestType": "",
-  "requestData": {
-    "": ""
+    "vendorName": "",
+    "requestType": "",
+    "requestData": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}
