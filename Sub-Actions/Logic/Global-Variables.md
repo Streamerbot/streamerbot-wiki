@@ -2,7 +2,7 @@
 title: Global Variables
 description: 
 published: true
-date: 2022-08-04T09:31:48.110Z
+date: 2022-08-04T09:31:51.110Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T00:49:15.047Z

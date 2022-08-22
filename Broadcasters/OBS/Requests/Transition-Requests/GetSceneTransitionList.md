@@ -2,7 +2,7 @@
 title: GetSceneTransitionList
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:16:41.592Z
+date: 2022-08-11T14:16:43.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T11:28:27.288Z

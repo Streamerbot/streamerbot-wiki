@@ -2,7 +2,7 @@
 title: Record Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:23:41.431Z
+date: 2022-08-12T22:23:43.494Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:16:06.273Z

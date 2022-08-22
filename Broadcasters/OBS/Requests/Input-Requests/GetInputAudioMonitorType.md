@@ -2,7 +2,7 @@
 title: GetInputAudioMonitorType
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:42:59.083Z
+date: 2022-08-11T14:43:01.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T07:46:11.809Z

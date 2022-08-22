@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-07-15T18:25:20.463Z
+date: 2022-07-15T18:25:24.465Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z

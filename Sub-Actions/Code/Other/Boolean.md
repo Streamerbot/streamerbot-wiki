@@ -2,7 +2,7 @@
 title: Boolean
 description: 
 published: true
-date: 2022-08-02T09:39:41.735Z
+date: 2022-08-02T09:39:43.821Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T23:27:14.258Z

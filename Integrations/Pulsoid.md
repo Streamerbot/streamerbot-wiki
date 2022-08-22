@@ -2,7 +2,7 @@
 title: Pulsoid
 description: Integrate Streamer.bot with Pulsoid
 published: true
-date: 2022-07-22T18:37:08.694Z
+date: 2022-07-22T18:37:11.046Z
 tags: integrations, pulsoid
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z

@@ -2,7 +2,7 @@
 title: Get Command Group State
 description: Commands Sub-Actions Reference
 published: true
-date: 2022-07-15T18:48:11.947Z
+date: 2022-07-15T18:48:24.273Z
 tags: subactions, commands
 editor: markdown
 dateCreated: 2022-07-15T18:48:11.947Z

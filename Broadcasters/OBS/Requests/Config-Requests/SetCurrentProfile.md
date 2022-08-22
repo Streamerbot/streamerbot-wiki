@@ -2,7 +2,7 @@
 title: SetCurrentProfile
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T11:59:22.956Z
+date: 2022-08-12T11:59:25.100Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:58:02.450Z

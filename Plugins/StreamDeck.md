@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-08-20T18:14:14.133Z
+date: 2022-08-20T18:14:16.352Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z

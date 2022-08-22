@@ -2,7 +2,7 @@
 title: Twitch
 description: Configure Twitch as a streaming platform in Streamer.bot
 published: true
-date: 2022-07-28T19:32:14.918Z
+date: 2022-07-28T19:32:17.735Z
 tags: twitch, guides, platforms, configuration
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z

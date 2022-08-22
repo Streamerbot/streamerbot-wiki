@@ -2,7 +2,7 @@
 title: Ui Events
 description: Events related to Ui changes
 published: true
-date: 2022-08-08T18:45:58.646Z
+date: 2022-08-08T18:46:01.038Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:45:58.646Z

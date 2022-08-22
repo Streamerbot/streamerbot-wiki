@@ -2,7 +2,7 @@
 title: Get Commands 
 description: Capture the commands available .
 published: true
-date: 2022-07-15T18:42:51.021Z
+date: 2022-07-15T18:42:54.754Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z

@@ -2,7 +2,7 @@
 title: SetVideoSettings
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T12:03:10.224Z
+date: 2022-08-12T12:03:12.437Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:32:04.819Z

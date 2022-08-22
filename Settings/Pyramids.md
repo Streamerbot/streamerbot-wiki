@@ -2,7 +2,7 @@
 title: Pyramids
 description: Execute an action when emote pyramids are completed
 published: true
-date: 2022-07-15T18:10:19.101Z
+date: 2022-07-15T18:10:22.558Z
 tags: settings, pyramids
 editor: markdown
 dateCreated: 2021-08-25T21:32:42.610Z

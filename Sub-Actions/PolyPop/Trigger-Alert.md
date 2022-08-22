@@ -2,7 +2,7 @@
 title: Trigger Alert
 description: PolyPop Sub-Actions Reference
 published: true
-date: 2022-07-20T12:54:24.983Z
+date: 2022-07-20T12:54:30.013Z
 tags: subactions, polypop
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z

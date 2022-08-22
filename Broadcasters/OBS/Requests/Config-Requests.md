@@ -2,7 +2,7 @@
 title: Config Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:18:34.083Z
+date: 2022-08-12T22:18:36.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:12:33.328Z

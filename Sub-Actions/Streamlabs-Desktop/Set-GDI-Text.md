@@ -2,7 +2,7 @@
 title: Set GDI Text
 description: 
 published: true
-date: 2021-08-28T02:04:22.539Z
+date: 2022-07-20T20:48:47.335Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:56:53.397Z

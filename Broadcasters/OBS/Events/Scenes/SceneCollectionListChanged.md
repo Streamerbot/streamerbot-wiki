@@ -2,8 +2,8 @@
 title: SceneCollectionListChanged
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:54:24.121Z
-tags:
+date: 2022-07-18T16:09:44.323Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:04:40.915Z
 ---

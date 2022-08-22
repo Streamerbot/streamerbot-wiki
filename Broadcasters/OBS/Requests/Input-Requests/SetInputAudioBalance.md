@@ -2,7 +2,7 @@
 title: SetInputAudioBalance
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:47:16.194Z
+date: 2022-08-11T14:47:18.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T06:30:54.049Z

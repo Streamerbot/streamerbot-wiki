@@ -2,7 +2,7 @@
 title: Get Random Number
 description: 
 published: true
-date: 2022-07-28T19:39:41.455Z
+date: 2022-07-28T19:39:43.547Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T02:13:10.625Z

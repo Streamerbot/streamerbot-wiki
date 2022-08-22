@@ -2,7 +2,7 @@
 title: Speaking Queue
 description: The Queue where the next TTS message is held 
 published: true
-date: 2022-08-09T00:18:23.860Z
+date: 2022-08-09T00:18:25.969Z
 tags: twitch, queues, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-08-08T00:16:31.439Z

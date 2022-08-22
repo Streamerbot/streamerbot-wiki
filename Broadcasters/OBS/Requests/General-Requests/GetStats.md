@@ -2,7 +2,7 @@
 title: GetStats
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T13:59:08.226Z
+date: 2022-08-11T13:59:10.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-25T18:13:25.840Z

@@ -2,7 +2,7 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-08-22T12:34:32.281Z
+date: 2022-08-22T12:34:34.934Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z

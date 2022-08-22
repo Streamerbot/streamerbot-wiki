@@ -2,8 +2,8 @@
 title: SourceMuteStateChanged
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:55:15.736Z
-tags:
+date: 2022-07-18T16:10:37.592Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-28T14:17:21.696Z
 ---

@@ -2,7 +2,7 @@
 title: Cloud Service Google
 description: 
 published: true
-date: 2022-08-14T20:31:16.498Z
+date: 2022-08-14T22:29:46.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z

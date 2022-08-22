@@ -2,7 +2,7 @@
 title: Pick Color
 description: Colour picker that populates variables for passing to OBS and HTML objects
 published: true
-date: 2022-07-28T19:41:19.025Z
+date: 2022-07-28T19:41:21.085Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z

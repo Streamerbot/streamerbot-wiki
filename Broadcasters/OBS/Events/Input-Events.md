@@ -2,7 +2,7 @@
 title: Input Events
 description: Events related to input changes
 published: true
-date: 2022-08-08T18:36:03.538Z
+date: 2022-08-08T18:36:05.631Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:36:03.538Z

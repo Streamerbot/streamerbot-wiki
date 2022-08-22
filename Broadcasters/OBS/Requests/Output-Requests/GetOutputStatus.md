@@ -2,7 +2,7 @@
 title: GetOutputStatus
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:34:13.628Z
+date: 2022-08-11T14:34:16.130Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T14:40:09.083Z

@@ -2,7 +2,7 @@
 title: CurrentProgramSceneChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:38:18.513Z
+date: 2022-08-08T11:04:52.381Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:38:18.513Z

@@ -2,8 +2,8 @@
 title: TransitionListChanged
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:56:09.043Z
-tags:
+date: 2022-07-18T16:11:36.957Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:32:10.168Z
 ---

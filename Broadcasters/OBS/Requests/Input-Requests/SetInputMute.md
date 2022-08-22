@@ -2,7 +2,7 @@
 title: SetInputMute
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:48:08.399Z
+date: 2022-08-11T14:48:10.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T07:27:25.820Z

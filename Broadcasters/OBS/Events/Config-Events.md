@@ -2,7 +2,7 @@
 title: Config Events
 description: Events related to config changes
 published: true
-date: 2022-08-08T18:32:49.246Z
+date: 2022-08-08T18:32:51.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:32:49.246Z

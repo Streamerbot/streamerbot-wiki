@@ -2,8 +2,8 @@
 title: SwitchTransition
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:55:52.797Z
-tags:
+date: 2022-07-18T19:42:49.773Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:25:48.408Z
 ---

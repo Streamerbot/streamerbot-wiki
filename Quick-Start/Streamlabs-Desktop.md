@@ -2,7 +2,7 @@
 title: Quick Start - Streamlabs Desktop
 description: Set up Streamer.bot to remotely control your Streamlabs Desktop instance
 published: true
-date: 2022-08-04T15:57:58.969Z
+date: 2022-08-04T15:58:01.409Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:56:19.296Z

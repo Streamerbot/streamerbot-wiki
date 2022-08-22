@@ -2,7 +2,7 @@
 title: Quotes
 description: Configure Streamer.bot's built in !quote command
 published: true
-date: 2022-07-15T18:23:40.289Z
+date: 2022-07-15T18:23:44.009Z
 tags: commands, settings, quotes
 editor: markdown
 dateCreated: 2021-08-25T21:32:14.446Z

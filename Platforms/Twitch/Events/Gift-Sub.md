@@ -2,7 +2,7 @@
 title: Gift Subscription
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:46:49.087Z
+date: 2022-07-16T15:46:53.133Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-12-12T22:40:35.506Z

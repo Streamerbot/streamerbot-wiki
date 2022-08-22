@@ -2,7 +2,7 @@
 title: TriggerMediaInputAction
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:40:14.495Z
+date: 2022-08-11T14:40:16.749Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:58:00.986Z

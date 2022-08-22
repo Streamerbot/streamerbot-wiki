@@ -2,7 +2,7 @@
 title: MediaInputActionTriggered
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T18:25:41.824Z
+date: 2022-08-08T18:25:43.932Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:25:41.824Z

@@ -2,7 +2,7 @@
 title: CurrentSceneCollectionChanging
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:14:03.526Z
+date: 2022-08-08T10:14:05.692Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:14:03.526Z

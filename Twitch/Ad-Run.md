@@ -2,7 +2,7 @@
 title: Ad Run
 description: 
 published: true
-date: 2022-08-09T12:00:16.152Z
+date: 2022-08-09T12:00:18.291Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T20:00:51.051Z

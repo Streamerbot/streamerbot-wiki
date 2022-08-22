@@ -2,8 +2,8 @@
 title: StreamStopped
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:55:37.877Z
-tags:
+date: 2022-07-18T16:11:02.729Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:38:33.073Z
 ---

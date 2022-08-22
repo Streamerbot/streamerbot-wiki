@@ -2,7 +2,7 @@
 title: Rewards Sub-Actions
 description: Reference of all Twitch Channel Point Reward Sub-Actions
 published: true
-date: 2022-07-28T20:19:28.824Z
+date: 2022-07-28T20:19:31.016Z
 tags: twitch, channel-points, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:45:50.458Z

@@ -2,7 +2,7 @@
 title: Speaking History
 description: History of what has been spoken 
 published: true
-date: 2022-08-09T00:17:31.706Z
+date: 2022-08-09T00:17:33.763Z
 tags: twitch, tts, twitchspeaker, history
 editor: markdown
 dateCreated: 2022-08-08T23:05:00.790Z

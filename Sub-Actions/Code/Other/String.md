@@ -2,7 +2,7 @@
 title: String
 description: Information and Examples about the string data type
 published: true
-date: 2022-08-02T09:39:06.028Z
+date: 2022-08-02T09:39:08.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T22:58:41.206Z

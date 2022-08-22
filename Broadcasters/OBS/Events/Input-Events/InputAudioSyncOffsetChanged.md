@@ -2,7 +2,7 @@
 title: InputAudioSyncOffsetChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:25:01.163Z
+date: 2022-08-08T11:25:03.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:25:01.163Z

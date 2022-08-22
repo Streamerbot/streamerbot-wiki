@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-08-14T15:25:31.347Z
+date: 2022-08-14T15:25:34.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z

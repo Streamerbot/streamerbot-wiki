@@ -2,8 +2,8 @@
 title: VirtualCamStopped
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:56:21.427Z
-tags:
+date: 2022-07-18T16:11:49.590Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T18:23:44.597Z
 ---

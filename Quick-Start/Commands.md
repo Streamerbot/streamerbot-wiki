@@ -2,7 +2,7 @@
 title: Quick Start - Chatbot Example
 description: Learn how to configure some basic chat commands with Streamer.bot
 published: true
-date: 2022-07-28T00:36:01.153Z
+date: 2022-07-28T00:36:03.207Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-07-10T01:47:22.629Z

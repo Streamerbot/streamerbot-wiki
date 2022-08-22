@@ -2,7 +2,7 @@
 title: Voice Control Sub-Actions
 description: Reference of all sub-actions for managing Voice Control commands
 published: true
-date: 2022-08-02T16:47:52.832Z
+date: 2022-08-02T16:47:55.115Z
 tags: subactions, voice, voice control
 editor: markdown
 dateCreated: 2022-07-10T19:03:15.855Z

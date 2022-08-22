@@ -2,7 +2,7 @@
 title: GetOutputSettings
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:34:01.043Z
+date: 2022-08-11T14:34:03.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T19:19:43.864Z

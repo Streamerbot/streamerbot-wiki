@@ -2,8 +2,8 @@
 title: SceneItemRemoved
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:54:00.977Z
-tags:
+date: 2022-07-18T16:09:17.905Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:42:58.371Z
 ---

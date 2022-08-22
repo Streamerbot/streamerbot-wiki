@@ -2,7 +2,7 @@
 title: ReplayBufferStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T18:09:17.916Z
+date: 2022-08-08T18:09:20.180Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:09:17.916Z

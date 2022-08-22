@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-08-06T13:14:13.167Z
+date: 2022-08-06T13:14:15.652Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z

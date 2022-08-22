@@ -2,7 +2,7 @@
 title: GetSceneSceneTransitionOverride
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:24:49.670Z
+date: 2022-08-11T14:24:51.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T13:06:38.675Z

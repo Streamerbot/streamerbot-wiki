@@ -2,7 +2,7 @@
 title: GetPersistentData
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-12T11:56:05.472Z
+date: 2022-08-12T11:56:07.613Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:03:06.574Z

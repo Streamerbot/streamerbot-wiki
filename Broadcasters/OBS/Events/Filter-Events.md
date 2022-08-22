@@ -2,7 +2,7 @@
 title: Filter Events
 description: Events related to filter changes
 published: true
-date: 2022-08-08T18:40:22.853Z
+date: 2022-08-08T18:40:25.068Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:40:22.853Z

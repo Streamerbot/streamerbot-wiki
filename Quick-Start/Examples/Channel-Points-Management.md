@@ -2,7 +2,7 @@
 title: Quick Start - Channel Points Management
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-18T12:55:11.448Z
+date: 2022-08-18T12:55:14.160Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-10T16:59:21.760Z

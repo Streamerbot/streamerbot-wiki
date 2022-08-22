@@ -2,7 +2,7 @@
 title: InputNameChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:15:15.715Z
+date: 2022-08-08T11:15:17.796Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:15:15.715Z

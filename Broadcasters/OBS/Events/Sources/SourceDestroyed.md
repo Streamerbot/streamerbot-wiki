@@ -2,8 +2,8 @@
 title: SourceDestroyed
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:54:54.923Z
-tags:
+date: 2022-07-18T16:10:17.753Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-28T14:01:31.642Z
 ---

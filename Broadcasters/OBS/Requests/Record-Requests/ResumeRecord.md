@@ -2,7 +2,7 @@
 title: ResumeRecord
 description: 
 published: false
-date: 2022-08-11T14:32:08.216Z
+date: 2022-08-11T14:32:10.498Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:26:44.262Z

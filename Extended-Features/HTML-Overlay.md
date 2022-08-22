@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-08-04T13:29:49.086Z
+date: 2022-08-04T13:29:51.314Z
 tags: html overlay, extended features
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z

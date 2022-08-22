@@ -2,7 +2,7 @@
 title: Get Action State
 description: Get the Status of your Actions
 published: true
-date: 2022-07-15T18:53:09.054Z
+date: 2022-07-15T18:53:12.663Z
 tags: subactions, streamerbot
 editor: markdown
 dateCreated: 2022-06-13T03:36:48.752Z

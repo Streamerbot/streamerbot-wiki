@@ -2,7 +2,7 @@
 title: Get Scene Item Properties
 description: 
 published: true
-date: 2022-08-09T17:48:10.093Z
+date: 2022-08-09T17:48:12.465Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T01:36:29.236Z

@@ -2,7 +2,7 @@
 title: InputActiveStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:16:33.184Z
+date: 2022-08-08T11:16:35.334Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:16:33.184Z

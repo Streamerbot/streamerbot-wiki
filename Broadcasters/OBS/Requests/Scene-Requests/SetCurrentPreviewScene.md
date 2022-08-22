@@ -2,7 +2,7 @@
 title: SetCurrentPreviewScene
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:25:16.193Z
+date: 2022-08-11T14:25:18.459Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T12:56:54.884Z

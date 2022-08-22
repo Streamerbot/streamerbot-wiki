@@ -2,7 +2,7 @@
 title: InputAudioBalanceChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:23:17.656Z
+date: 2022-08-08T11:23:19.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:23:17.656Z

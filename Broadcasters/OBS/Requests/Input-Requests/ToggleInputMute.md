@@ -2,7 +2,7 @@
 title: ToggleInputMute
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:49:01.110Z
+date: 2022-08-11T14:49:03.276Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T07:34:00.552Z

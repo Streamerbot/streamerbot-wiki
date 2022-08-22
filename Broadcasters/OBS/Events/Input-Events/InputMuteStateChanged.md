@@ -2,7 +2,7 @@
 title: InputMuteStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:19:44.527Z
+date: 2022-08-08T11:19:46.648Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:19:44.527Z

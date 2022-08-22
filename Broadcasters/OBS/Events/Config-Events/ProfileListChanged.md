@@ -2,7 +2,7 @@
 title: ProfileListChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:30:02.774Z
+date: 2022-08-08T10:30:04.961Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:30:02.774Z

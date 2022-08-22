@@ -2,8 +2,8 @@
 title: Exiting
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-15T15:38:08.863Z
-tags:
+date: 2022-07-18T16:07:36.940Z
+tags: 
 editor: markdown
 dateCreated: 2022-07-15T15:36:41.197Z
 ---

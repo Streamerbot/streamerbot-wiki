@@ -2,8 +2,8 @@
 title: StudioModeSwitched
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:55:49.089Z
-tags:
+date: 2022-07-18T16:11:15.668Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-28T19:16:06.430Z
 ---

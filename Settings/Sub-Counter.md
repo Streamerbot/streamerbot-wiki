@@ -2,7 +2,7 @@
 title: Sub Counter
 description: Maintain persistent sub-counter variables
 published: true
-date: 2022-07-15T18:21:34.798Z
+date: 2022-07-15T18:21:39.577Z
 tags: settings
 editor: markdown
 dateCreated: 2021-11-14T21:08:19.940Z

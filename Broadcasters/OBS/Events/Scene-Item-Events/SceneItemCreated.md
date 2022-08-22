@@ -2,7 +2,7 @@
 title: SceneItemCreated
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T16:16:15.917Z
+date: 2022-08-08T16:16:18.160Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:16:15.917Z

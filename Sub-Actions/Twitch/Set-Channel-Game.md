@@ -2,7 +2,7 @@
 title: Set Channel Game
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-08-16T13:03:21.511Z
+date: 2022-08-16T13:03:23.691Z
 tags: twitch, set game, change game, subactions
 editor: markdown
 dateCreated: 2021-11-24T04:02:44.267Z

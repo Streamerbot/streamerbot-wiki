@@ -2,7 +2,7 @@
 title: Quick Start - YouTube
 description: Connect your YouTube account with Streamer.bot
 published: true
-date: 2022-08-07T15:04:57.960Z
+date: 2022-08-07T15:05:00.055Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T19:13:33.290Z

@@ -2,7 +2,7 @@
 title: GetGroupList
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:24:02.471Z
+date: 2022-08-11T14:24:04.732Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:18:06.079Z

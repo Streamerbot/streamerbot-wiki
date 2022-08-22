@@ -2,7 +2,7 @@
 title: SetSceneName
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:25:43.750Z
+date: 2022-08-11T14:25:46.149Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T13:02:57.103Z

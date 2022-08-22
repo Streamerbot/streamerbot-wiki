@@ -2,7 +2,7 @@
 title: Get Current Scene
 description: 
 published: true
-date: 2021-08-26T12:52:19.521Z
+date: 2022-07-20T20:48:08.951Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:52:16.632Z

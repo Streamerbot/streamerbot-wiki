@@ -2,8 +2,8 @@
 title: RecordingStopping
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-06T20:53:30.141Z
-tags:
+date: 2022-07-18T16:08:43.195Z
+tags: 
 editor: markdown
 dateCreated: 2022-06-27T18:03:51.600Z
 ---

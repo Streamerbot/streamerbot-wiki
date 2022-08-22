@@ -2,7 +2,7 @@
 title: SceneTransitionEnded
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T15:39:38.687Z
+date: 2022-08-08T15:39:40.865Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T15:39:38.687Z

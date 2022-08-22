@@ -2,7 +2,7 @@
 title: SetSourceFilterIndex
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-11T14:50:48.498Z
+date: 2022-08-11T14:50:50.965Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T14:49:07.644Z

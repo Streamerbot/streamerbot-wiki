@@ -2,7 +2,7 @@
 title: SceneRemoved
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:34:26.847Z
+date: 2022-08-08T11:05:42.559Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:34:26.847Z

@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-07-15T18:30:57.608Z
+date: 2022-07-15T18:31:01.703Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z

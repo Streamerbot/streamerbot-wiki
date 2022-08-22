@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-17T16:14:59.717Z
+date: 2022-07-20T21:57:16.893Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -66,17 +66,13 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 
 ### User Dictionary
->
-> 
-> 
-> 
-> | Value | Description | Notes |
-> |------:|:-----------:|:------|
-> | `id` | The Numeric ID of this user
-> | `userName` | The user name of this user
-> | `display` | The display name of this user
-> | `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
-> | `isSubscribed` | Boolean for this users subscription status |  `True`/`False` 
+| Value | Description | Notes |
+|------:|:-----------:|:------|
+| `id` | The Numeric ID of this user
+| `userName` | The user name of this user
+| `display` | The display name of this user
+| `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
+| `isSubscribed` | Boolean for this users subscription status |  `True`/`False` 
 
 {.is-info}
 

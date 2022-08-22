@@ -2,7 +2,7 @@
 title: SceneItemTransformChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T16:34:05.174Z
+date: 2022-08-08T16:34:07.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:34:05.174Z
