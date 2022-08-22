@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: 
 published: true
-date: 2022-08-21T22:54:04.833Z
+date: 2022-08-22T00:38:40.227Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -90,3 +90,4 @@ The following variables will be available after a channel point redemption:
 `isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
 `Broadcast Variables` | List of broadcast variable available [here](/en/Variables/Broadcaster)
+{.vars-table}
