@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-22T00:46:34.907Z
+date: 2022-08-22T19:45:34.570Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -23,7 +23,7 @@ Adding at least one OBS connection will allow Streamer.bot to control your OBS.
 Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
-`Right-Click` `->` `Add` to define a new OBS connection
+<kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> to define a new OBS connection
 
 ![connection](/broadcasters/obs/obs-connection.png =250x)
 
@@ -76,7 +76,7 @@ Lists all sources present on the currently selected scene
 
 # Events
 
-Select an OBS connection in the top panel, then `Right-Click` `->` `Add` in the bottom events panel to register an OBS event.
+Select an OBS connection in the top panel, then <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> in the bottom events panel to register an OBS event.
 
 ![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
 
