@@ -27,9 +27,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "RemoveScene",
+  "requestType": "RemoveScene",
   "requestData": {
-  "sceneName": ""
+    "sceneName": ""
  }
 }
 ```

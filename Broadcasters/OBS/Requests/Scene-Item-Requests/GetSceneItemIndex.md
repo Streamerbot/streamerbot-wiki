@@ -37,10 +37,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "GetSceneItemIndex",
+  "requestType": "GetSceneItemIndex",
   "requestData": {
-  "sceneName": "",
-  "sceneItemId": 
+    "sceneName": "",
+    "sceneItemId": 
  }
 }
 ```

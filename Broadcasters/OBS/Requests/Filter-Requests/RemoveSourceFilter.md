@@ -28,10 +28,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "RemoveSourceFilter",
+  "requestType": "RemoveSourceFilter",
   "requestData": {
-  "sourceName": "",
-  "filterName": ""
+    "sourceName": "",
+    "filterName": ""
  }
 }
 ```

@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetSourceFilterIndex",
+  "requestType": "SetSourceFilterIndex",
   "requestData": {
-  "sourceName": "",
-  "filterName": "",
+    "sourceName": "",
+    "filterName": "",
   "filterIndex": 
  }
 }

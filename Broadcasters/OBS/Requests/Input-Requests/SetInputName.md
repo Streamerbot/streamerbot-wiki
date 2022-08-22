@@ -28,10 +28,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetInputName",
+  "requestType": "SetInputName",
   "requestData": {
-  "inputName": "",
-  "newInputName": ""
+    "inputName": "",
+    "newInputName": ""
  }
 }
 ```

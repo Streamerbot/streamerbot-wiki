@@ -31,10 +31,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetSceneItemLocked",
+  "requestType": "SetSceneItemLocked",
   "requestData": {
-  "sceneName": "",
-  "sceneItemId": ,
+    "sceneName": "",
+    "sceneItemId": ,
   "sceneItemLocked": 
  }
 }

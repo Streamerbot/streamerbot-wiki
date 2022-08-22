@@ -31,11 +31,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetSceneItemEnabled",
+  "requestType": "SetSceneItemEnabled",
   "requestData": {
-  "sceneName": "",
-  "sceneItemId": ,
-  "sceneItemEnabled": 
+    "sceneName": "",
+    "sceneItemId": ,
+    "sceneItemEnabled": 
  }
 }
 ```

@@ -32,9 +32,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "GetSourceFilterDefaultSettings",
+  "requestType": "GetSourceFilterDefaultSettings",
   "requestData": {
-  "filterKind": ""
+    "filterKind": ""
  }
 }
 ```

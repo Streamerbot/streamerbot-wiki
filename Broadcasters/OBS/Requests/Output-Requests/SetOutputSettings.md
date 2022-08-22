@@ -28,9 +28,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetOutputSettings",
+  "requestType": "SetOutputSettings",
   "requestData": {
-  "outputName": "",
+    "outputName": "",
   "outputSettings": {
     "": ""
   }

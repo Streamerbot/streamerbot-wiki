@@ -37,11 +37,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "CreateSceneItem",
+  "requestType": "CreateSceneItem",
   "requestData": {
-  "sceneName": "",
-  "sourceName": "",
-  "sceneItemEnabled": 
+    "sceneName": "",
+    "sourceName": "",
+    "sceneItemEnabled": 
  }
 }
 ```

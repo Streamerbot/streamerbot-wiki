@@ -37,11 +37,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "DuplicateSceneItem",
+  "requestType": "DuplicateSceneItem",
   "requestData": {
-  "sceneName": "",
-  "sceneItemId": ,
-  "destinationSceneName": ""
+    "sceneName": "",
+    "sceneItemId": ,
+    "destinationSceneName": ""
  }
 }
 ```

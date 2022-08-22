@@ -32,9 +32,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "GetOutputSettings",
+  "requestType": "GetOutputSettings",
   "requestData": {
-  "outputName": ""
+    "outputName": ""
  }
 }
 ```

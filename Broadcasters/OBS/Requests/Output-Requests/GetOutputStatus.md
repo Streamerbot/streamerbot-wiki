@@ -39,9 +39,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "GetOutputStatus",
+  "requestType": "GetOutputStatus",
   "requestData": {
-  "outputName": ""
+    "outputName": ""
  }
 }
 ```

@@ -28,10 +28,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "SetInputMute",
+  "requestType": "SetInputMute",
   "requestData": {
-  "inputName": "",
-  "inputMuted": 
+    "inputName": "",
+    "inputMuted": 
  }
 }
 ```

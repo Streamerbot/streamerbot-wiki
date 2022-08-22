@@ -30,11 +30,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "CreateSourceFilter",
+  "requestType": "CreateSourceFilter",
   "requestData": {
-  "sourceName": "",
-  "filterName": "",
-  "filterKind": "",
+    "sourceName": "",
+    "filterName": "",
+    "filterKind": "",
   "filterSettings": {
     "": ""
     }

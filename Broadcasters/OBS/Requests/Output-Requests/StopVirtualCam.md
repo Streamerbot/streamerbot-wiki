@@ -22,7 +22,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "request-type": "StopVirtualCam"
+  "requestType": "StopVirtualCam"
 }
 ```
 ## End Tabset {.tabset}

@@ -36,12 +36,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "CreateInput",
+  "requestType": "CreateInput",
   "requestData": {
-  "sceneName": "",
-  "inputName": "",
+    "sceneName": "",
+    "inputName": "",
   "inputKind": "",
-  "sceneItemEnabled": ,
+    "sceneItemEnabled": ,
   "inputSettings": {
     "": ""
   }

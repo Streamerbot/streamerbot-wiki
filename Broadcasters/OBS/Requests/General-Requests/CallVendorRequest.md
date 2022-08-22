@@ -38,7 +38,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType":  "CallVendorRequest",
+  "requestType": "CallVendorRequest",
   "requestData": {
   "vendorName": "",
   "requestType": "",
