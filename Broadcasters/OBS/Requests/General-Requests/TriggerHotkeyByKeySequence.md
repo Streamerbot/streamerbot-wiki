@@ -2,7 +2,7 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-08-22T19:35:27.668Z
+date: 2022-08-22T19:39:02.586Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
@@ -35,10 +35,10 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "TriggerHotkeyByKeySequence",
   "requestData": {
     "keyId": "",
-    "keyModifiers.shift": "",
-    "keyModifiers.control": "",
-    "keyModifiers.alt": "",
-    "keyModifiers.command": ""
+    "keyModifiers.shift": ,
+    "keyModifiers.control": ,
+    "keyModifiers.alt": ,
+    "keyModifiers.command": 
     "keyModifiers": {
       "": ""
     }
