@@ -2,7 +2,7 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-08-04T16:06:07.974Z
+date: 2022-08-22T12:34:32.281Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
@@ -30,7 +30,7 @@ Once configured, connected OBS sessions will report their status on the OBS tab 
 
 ![obs_event_01_.png](/quick-start/obs_event_01_.png =700x)
 
-To add a new connection, <kbd>Right-Click</kbd> -> <kbd>Add</kbd> to open the new connection dialogue
+To add a new connection, <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> to open the new connection dialogue
 
 ![New Connection](/119574587-9adb7e80-bdad-11eb-82c1-ec9ed668a40d.png)
 
