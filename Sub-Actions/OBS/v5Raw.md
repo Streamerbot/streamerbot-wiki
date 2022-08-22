@@ -2,13 +2,13 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-21T23:57:03.612Z
+date: 2022-08-22T00:01:34.702Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
 ---
 
-> Because of the switch between OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge}, we have decided to put the documentation in *v5+*{.obs-version-badge} because that will be commonly used by new users.
+> Because of the switch between OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge}, we have decided to put the documentation in *v5+*{.obs-version-badge}
 {.is-warning}
 ---
 > Since there are quite a large number of possible requests that can be sent to OBS via obs-websocket, its not possible to have every single one, along with all the different options available, as a simple sub-action.
