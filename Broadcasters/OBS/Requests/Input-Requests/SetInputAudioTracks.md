@@ -29,12 +29,12 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputAudioTracks",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "inputAudioTracks": {
     "": ""
   }
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

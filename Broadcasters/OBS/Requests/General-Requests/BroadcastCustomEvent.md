@@ -28,11 +28,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "BroadcastCustomEvent",
-	"requestData": {	
+  "requestData": {
   "eventData": {
     "": ""
   }
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

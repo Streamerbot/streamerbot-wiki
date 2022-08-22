@@ -37,7 +37,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "CreateInput",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "inputName": "",
   "inputKind": "",
@@ -45,7 +45,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "inputSettings": {
     "": ""
   }
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

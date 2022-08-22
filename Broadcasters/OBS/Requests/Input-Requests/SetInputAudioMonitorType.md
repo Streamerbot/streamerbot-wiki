@@ -35,10 +35,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputAudioMonitorType",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "monitorType": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

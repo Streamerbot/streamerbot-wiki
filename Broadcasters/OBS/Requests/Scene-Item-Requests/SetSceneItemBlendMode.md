@@ -42,11 +42,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetSceneItemBlendMode",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sceneItemId": ,
   "sceneItemBlendMode": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

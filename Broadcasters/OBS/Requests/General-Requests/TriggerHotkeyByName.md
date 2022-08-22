@@ -29,9 +29,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "TriggerHotkeyByName",
-	"requestData": {	
+  "requestData": {
   "hotkeyName": ""
-	}
+ }
 }
 ```
 

@@ -33,9 +33,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "ToggleOutput",
-	"requestData": {	
+  "requestData": {
   "outputName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

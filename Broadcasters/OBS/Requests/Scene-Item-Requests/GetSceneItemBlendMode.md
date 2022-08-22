@@ -46,10 +46,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "GetSceneItemBlendMode",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sceneItemId": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

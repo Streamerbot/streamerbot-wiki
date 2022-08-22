@@ -32,11 +32,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetSceneItemLocked",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sceneItemId": ,
   "sceneItemLocked": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

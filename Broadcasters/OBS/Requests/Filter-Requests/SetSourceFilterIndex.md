@@ -30,11 +30,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetSourceFilterIndex",
-	"requestData": {	
+  "requestData": {
   "sourceName": "",
   "filterName": "",
   "filterIndex": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

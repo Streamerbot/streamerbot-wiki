@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputName",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "newInputName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

@@ -30,11 +30,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputVolume",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "inputVolumeMul": ,
   "inputVolumeDb": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "RemoveSourceFilter",
-	"requestData": {	
+  "requestData": {
   "sourceName": "",
   "filterName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

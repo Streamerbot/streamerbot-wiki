@@ -36,10 +36,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "GetInputPropertiesListPropertyItems",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "propertyName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

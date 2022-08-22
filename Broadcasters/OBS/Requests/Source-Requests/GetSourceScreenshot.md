@@ -41,13 +41,13 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "GetSourceScreenshot",
-	"requestData": {	
+  "requestData": {
   "sourceName": "",
   "imageFormat": "",
   "imageWidth": ,
   "imageHeight": ,
   "imageCompressionQuality": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

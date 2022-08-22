@@ -28,9 +28,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetCurrentSceneTransitionDuration",
-	"requestData": {	
+  "requestData": {
   "transitionDuration": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

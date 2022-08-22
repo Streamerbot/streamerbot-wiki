@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "Sleep",
-	"requestData": {	
+  "requestData": {
   "sleepMillis": ,
   "sleepFrames": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

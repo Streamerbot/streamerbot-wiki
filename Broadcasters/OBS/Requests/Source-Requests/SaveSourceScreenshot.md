@@ -42,14 +42,14 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SaveSourceScreenshot",
-	"requestData": {	
+  "requestData": {
   "sourceName": "",
   "imageFormat": "",
   "imageFilePath": "",
   "imageWidth": ,
   "imageHeight": ,
   "imageCompressionQuality": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

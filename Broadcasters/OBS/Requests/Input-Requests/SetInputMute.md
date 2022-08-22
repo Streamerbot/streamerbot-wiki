@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputMute",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "inputMuted": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

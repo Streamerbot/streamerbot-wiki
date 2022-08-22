@@ -37,11 +37,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "GetSceneItemId",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sourceName": "",
   "searchOffset": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

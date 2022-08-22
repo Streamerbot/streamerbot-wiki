@@ -38,11 +38,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "CreateSceneItem",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sourceName": "",
   "sceneItemEnabled": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

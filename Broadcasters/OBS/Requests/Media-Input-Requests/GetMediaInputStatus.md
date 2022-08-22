@@ -46,9 +46,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "GetMediaInputStatus",
-	"requestData": {	
+  "requestData": {
     "inputName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

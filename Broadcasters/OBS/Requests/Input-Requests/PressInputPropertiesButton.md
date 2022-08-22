@@ -31,10 +31,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "PressInputPropertiesButton",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "propertyName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

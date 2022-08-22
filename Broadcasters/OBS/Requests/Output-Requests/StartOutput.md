@@ -28,9 +28,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "StartOutput",
-	"requestData": {	
+  "requestData": {
   "outputName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

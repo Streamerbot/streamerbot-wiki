@@ -38,11 +38,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "DuplicateSceneItem",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "sceneItemId": ,
   "destinationSceneName": ""
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

@@ -30,11 +30,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetSceneSceneTransitionOverride",
-	"requestData": {	
+  "requestData": {
   "sceneName": "",
   "transitionName": "",
   "transitionDuration": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

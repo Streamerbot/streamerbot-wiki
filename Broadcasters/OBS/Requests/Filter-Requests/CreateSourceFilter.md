@@ -31,14 +31,14 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "CreateSourceFilter",
-	"requestData": {	
+  "requestData": {
   "sourceName": "",
   "filterName": "",
   "filterKind": "",
   "filterSettings": {
     "": ""
     }
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

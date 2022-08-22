@@ -30,13 +30,13 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetInputSettings",
-	"requestData": {	
+  "requestData": {
   "inputName": "",
   "inputSettings": {
     "": ""
   },
   "overlay": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}

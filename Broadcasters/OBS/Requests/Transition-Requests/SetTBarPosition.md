@@ -31,10 +31,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 ```json
 {
   "requestType":  "SetTBarPosition",
-	"requestData": {	
+  "requestData": {
   "position": "",
   "release": 
-	}
+ }
 }
 ```
 ## End Tabset {.tabset}
