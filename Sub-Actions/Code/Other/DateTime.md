@@ -2,7 +2,7 @@
 title: Custom Date and Time format strings
 description: A list of the formats that are used with %time% and with C# datetime
 published: true
-date: 2022-08-14T15:25:34.548Z
+date: 2022-08-23T19:11:47.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-27T23:41:16.498Z
@@ -13,9 +13,10 @@ dateCreated: 2022-07-27T23:41:16.498Z
 {.is-warning}
 
 ### Native
-With the variable %time% you can display the date/time in your action e.g. in a text source, in a send message to channel sub-action
-
-You have to use the `time` variable with a colon (`:`) after it `time:#` and replace the # with something out of the table below e.g. the variable `time:ddd dd MMMM yyyy - HH:mm:ss` gives "Mon 31 August 2009 - 09:41:00"
+> With the variable %time% you can display the date/time in your action e.g. in a text source, in a send message to channel sub-action
+>
+> You have to use the `time` variable with a colon (`:`) after it `time:#` and replace the # with > something out of the table below e.g. the variable `time:ddd dd MMMM yyyy - HH:mm:ss` gives "Mon 31 August 2009 - 09:41:00"
+{.is-info}
 
 ### C#
 A date and time format string defines the text representation of a `System.DateTime` or `System.DateTimeOffset` value that results from a formatting operation. It can also define the representation of a date and time value that is required in a parsing operation in order to successfully convert the string to a date and time. A custom format string consists of one or more custom date and time format specifiers. Any string that is not a standard date and time format string is interpreted as a custom date and time format string.
