@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-08-23T21:36:25.820Z
+date: 2022-08-23T21:36:43.303Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -51,6 +51,7 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 {.btn-grid .my-5}
 
 ---
+
 - [<i class="mdi mdi-chevron-left"></i>**Twitch *Go Back***](/en/Platforms/Twitch)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Sub-Actions *Up Next***](/en/Sub-Actions/Twitch)
 {.btn-grid .my-5}
