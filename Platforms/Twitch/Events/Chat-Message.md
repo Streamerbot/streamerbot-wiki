@@ -2,7 +2,7 @@
 title: Chat Messages, Whispers, and First Words Events
 description: Twitch Events Reference
 published: true
-date: 2022-08-23T21:31:46.772Z
+date: 2022-08-23T21:37:35.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:28:11.564Z
@@ -30,3 +30,8 @@ dateCreated: 2022-08-23T21:28:11.564Z
 `replyTo`| The username the message is replying to <br> Only populated is `isReply` is `True` 
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel <br> `True`/`False` *v0.1.8*{.version-badge}
 {.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
