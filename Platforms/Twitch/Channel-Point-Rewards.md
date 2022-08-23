@@ -89,5 +89,7 @@ The following variables will be available after a channel point redemption:
 `isSubscribed` | Boolean value indicating the sender's subscription status <br> `True`/`False`
 `isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
-`Broadcast Variables` | List of broadcast variable available [here](/en/Variables/Broadcaster)
 {.vars-table}
+
+> This will also include all the [Broadcaster Variables](/en/Variables/Broadcaster)
+{.is-success}
