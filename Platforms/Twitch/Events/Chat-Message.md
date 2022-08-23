@@ -2,16 +2,17 @@
 title: Chat Messages, Whispers, and First Words Events
 description: Twitch Events Reference
 published: true
-date: 2022-08-23T21:29:08.571Z
+date: 2022-08-23T21:29:37.884Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:28:11.564Z
 ---
 
+## Variables
 | Name | Description | Notes |
 |-----:|:------------|:------|
 `msgId` | Twitch's message ID 
-`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
+`role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
 `color` | Hex value of user's chat color | a random value will be selected if the user has not set one
 `colorR` | Hex value for Red component of the `color` variable
@@ -28,8 +29,10 @@ dateCreated: 2022-08-23T21:28:11.564Z
 `isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
 `replyTo`| The username the message is replying to | Only populated is `isReply` is `True` 
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
+{.vars-table}
 
-## Variables
+
+
 | Name | Description |
 |-----:|:------------|
 `user` | The user that followed the broadcaster
