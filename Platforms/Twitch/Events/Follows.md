@@ -1,8 +1,8 @@
 ---
-title: Twitch Follows Event
+title: Follows Event
 description: Twitch Events Reference
 published: true
-date: 2022-08-23T19:52:20.005Z
+date: 2022-08-23T21:37:32.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T19:52:20.005Z
@@ -23,3 +23,8 @@ dateCreated: 2022-08-23T19:52:20.005Z
 
 > This will also include all the [Broadcaster Variables](/en/Variables/Broadcaster)
 {.is-success}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
