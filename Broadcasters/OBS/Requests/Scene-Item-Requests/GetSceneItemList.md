@@ -38,7 +38,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetSceneItemList",
   "requestData": {
     "sceneName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

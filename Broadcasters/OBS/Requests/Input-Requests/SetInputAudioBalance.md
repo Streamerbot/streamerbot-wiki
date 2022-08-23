@@ -31,8 +31,8 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetInputAudioBalance",
   "requestData": {
     "inputName": "",
-  "inputAudioBalance": ""
- }
+    "inputAudioBalance": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

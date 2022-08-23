@@ -30,9 +30,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "SetCurrentSceneTransitionSettings",
   "requestData": {
-  "transitionSettings": "",
-  "overlay": ""
- }
+    "transitionSettings": "",
+    "overlay": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

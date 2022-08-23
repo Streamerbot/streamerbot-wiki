@@ -35,7 +35,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetOutputSettings",
   "requestData": {
     "outputName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

@@ -30,7 +30,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "RemoveScene",
   "requestData": {
     "sceneName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

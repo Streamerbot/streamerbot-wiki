@@ -34,7 +34,7 @@ Added in | *v5.0.0*{.obs-version-badge}
     "sourceName": "",
     "filterName": "",
     "newFilterName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

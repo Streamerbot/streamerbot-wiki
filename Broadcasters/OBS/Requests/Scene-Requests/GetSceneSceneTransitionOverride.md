@@ -36,7 +36,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetSceneSceneTransitionOverride",
   "requestData": {
     "sceneName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

@@ -32,7 +32,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "inputName": "",
     "mediaAction": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

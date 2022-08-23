@@ -30,7 +30,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "OpenInputInteractDialog",
   "requestData": {
     "inputName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

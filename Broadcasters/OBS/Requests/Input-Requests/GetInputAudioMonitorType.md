@@ -41,7 +41,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetInputAudioMonitorType",
   "requestData": {
     "inputName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

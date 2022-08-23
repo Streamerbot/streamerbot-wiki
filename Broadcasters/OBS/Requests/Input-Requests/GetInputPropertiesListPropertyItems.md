@@ -38,8 +38,8 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetInputPropertiesListPropertyItems",
   "requestData": {
     "inputName": "",
-  "propertyName": ""
- }
+    "propertyName": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

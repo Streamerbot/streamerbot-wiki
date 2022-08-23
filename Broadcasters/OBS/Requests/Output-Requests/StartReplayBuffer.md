@@ -22,9 +22,7 @@ Added in | *v5.0.0*{.obs-version-badge}
 ### OBS raw
 ```json
 {
-  "requestType": "StartReplayBuffer",
-  "requestData": {
- }
+  "requestType": "StartReplayBuffer"
 }
 ```
 ## End Tabset {.tabset}

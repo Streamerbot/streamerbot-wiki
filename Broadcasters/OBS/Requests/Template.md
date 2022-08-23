@@ -44,7 +44,7 @@ Added in | *v5.0.0*{.obs-version-badge}
     "template": "",
     "template": "",
     "template": ""
-  }
+   }
 }
 ```
 ## End Tabset {.tabset}

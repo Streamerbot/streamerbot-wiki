@@ -29,8 +29,8 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "SetStudioModeEnabled",
   "requestData": {
-  "studioModeEnabled": 
- }
+    "studioModeEnabled": 
+  }
 }
 ```
 ## End Tabset {.tabset}

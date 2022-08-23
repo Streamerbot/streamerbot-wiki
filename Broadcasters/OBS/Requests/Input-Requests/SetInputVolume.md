@@ -32,9 +32,9 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetInputVolume",
   "requestData": {
     "inputName": "",
-  "inputVolumeMul": ,
-  "inputVolumeDb": 
- }
+    "inputVolumeMul": ,
+    "inputVolumeDb": 
+  }
 }
 ```
 ## End Tabset {.tabset}

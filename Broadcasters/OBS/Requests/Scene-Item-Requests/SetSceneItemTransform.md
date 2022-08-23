@@ -33,10 +33,10 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "sceneName": "",
     "sceneItemId": ,
-  "sceneItemTransform": {
-    "": ""
+    "sceneItemTransform": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}

@@ -32,9 +32,9 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetSceneSceneTransitionOverride",
   "requestData": {
     "sceneName": "",
-  "transitionName": "",
-  "transitionDuration": 
- }
+    "transitionName": "",
+    "transitionDuration": 
+  }
 }
 ```
 ## End Tabset {.tabset}

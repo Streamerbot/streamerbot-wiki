@@ -32,7 +32,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetCurrentPreviewScene",
   "requestData": {
     "sceneName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

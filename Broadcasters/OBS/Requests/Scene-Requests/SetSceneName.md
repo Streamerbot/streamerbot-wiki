@@ -31,8 +31,8 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetSceneName",
   "requestData": {
     "sceneName": "",
-  "newSceneName": ""
- }
+    "newSceneName": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

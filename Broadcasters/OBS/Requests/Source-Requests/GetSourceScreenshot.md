@@ -43,11 +43,11 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetSourceScreenshot",
   "requestData": {
     "sourceName": "",
-  "imageFormat": "",
-  "imageWidth": ,
-  "imageHeight": ,
-  "imageCompressionQuality": 
- }
+    "imageFormat": "",
+    "imageWidth": ,
+    "imageHeight": ,
+    "imageCompressionQuality": 
+  }
 }
 ```
 ## End Tabset {.tabset}

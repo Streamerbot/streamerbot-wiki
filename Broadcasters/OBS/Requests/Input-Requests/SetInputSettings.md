@@ -32,11 +32,11 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetInputSettings",
   "requestData": {
     "inputName": "",
-  "inputSettings": {
-    "": ""
-  },
-  "overlay": 
- }
+    "overlay": ,
+    "inputSettings": {
+      "": ""
+    }
+  }
 }
 ```
 ## End Tabset {.tabset}

@@ -35,10 +35,10 @@ Added in | *v5.0.0*{.obs-version-badge}
     "sourceName": "",
     "filterName": "",
     "filterKind": "",
-  "filterSettings": {
-    "": ""
+    "filterSettings": {
+      "": ""
     }
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

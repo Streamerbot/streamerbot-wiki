@@ -32,7 +32,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "sourceName": "",
     "filterName": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

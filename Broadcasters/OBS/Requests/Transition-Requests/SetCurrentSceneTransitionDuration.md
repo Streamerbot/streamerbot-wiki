@@ -29,8 +29,8 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "SetCurrentSceneTransitionDuration",
   "requestData": {
-  "transitionDuration": ""
- }
+    "transitionDuration": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

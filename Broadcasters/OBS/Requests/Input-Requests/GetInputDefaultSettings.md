@@ -35,7 +35,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "GetInputDefaultSettings",
   "requestData": {
   "inputKind": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

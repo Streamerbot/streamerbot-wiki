@@ -33,8 +33,8 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "sourceName": "",
     "filterName": "",
-  "filterIndex": 
- }
+    "filterIndex": 
+  }
 }
 ```
 ## End Tabset {.tabset}

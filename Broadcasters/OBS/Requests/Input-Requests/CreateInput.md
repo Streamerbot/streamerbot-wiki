@@ -40,12 +40,12 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "sceneName": "",
     "inputName": "",
-  "inputKind": "",
+    "inputKind": "",
     "sceneItemEnabled": ,
-  "inputSettings": {
-    "": ""
+    "inputSettings": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}

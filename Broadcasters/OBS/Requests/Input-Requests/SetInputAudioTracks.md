@@ -31,10 +31,10 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetInputAudioTracks",
   "requestData": {
     "inputName": "",
-  "inputAudioTracks": {
-    "": ""
+    "inputAudioTracks": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}

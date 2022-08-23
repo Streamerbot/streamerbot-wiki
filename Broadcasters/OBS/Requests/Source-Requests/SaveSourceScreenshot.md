@@ -44,12 +44,12 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SaveSourceScreenshot",
   "requestData": {
     "sourceName": "",
-  "imageFormat": "",
-  "imageFilePath": "",
-  "imageWidth": ,
-  "imageHeight": ,
-  "imageCompressionQuality": 
- }
+    "imageFormat": "",
+    "imageFilePath": "",
+    "imageWidth": ,
+    "imageHeight": ,
+    "imageCompressionQuality": 
+  }
 }
 ```
 ## End Tabset {.tabset}

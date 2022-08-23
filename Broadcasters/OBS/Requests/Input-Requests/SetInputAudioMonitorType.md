@@ -16,6 +16,7 @@ The available audio monitor types are:
 * `OBS_MONITORING_TYPE_NONE`
 * `OBS_MONITORING_TYPE_MONITOR_ONLY`
 * `OBS_MONITORING_TYPE_MONITOR_AND_OUTPUT`
+{.links-list}
 
 ## Request Fields
 Name | Type | Required| Description |
@@ -38,7 +39,7 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "inputName": "",
   "monitorType": ""
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

@@ -34,11 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestData": {
     "sourceName": "",
     "filterName": "",
-  "overlay": ,
-  "filterSettings": {
-    "": ""
+    "overlay": ,
+    "filterSettings": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}

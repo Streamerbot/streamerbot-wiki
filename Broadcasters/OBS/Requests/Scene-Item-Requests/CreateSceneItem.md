@@ -42,7 +42,7 @@ Added in | *v5.0.0*{.obs-version-badge}
     "sceneName": "",
     "sourceName": "",
     "sceneItemEnabled": 
- }
+  }
 }
 ```
 ## End Tabset {.tabset}

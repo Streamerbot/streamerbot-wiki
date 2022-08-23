@@ -29,8 +29,8 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "SendStreamCaption",
   "requestData": {
-  "captionText": ""
- }
+    "captionText": ""
+  }
 }
 ```
 ## End Tabset {.tabset}

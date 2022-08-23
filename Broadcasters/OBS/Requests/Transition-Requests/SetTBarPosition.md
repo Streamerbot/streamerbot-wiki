@@ -32,9 +32,9 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "SetTBarPosition",
   "requestData": {
-  "position": "",
-  "release": 
- }
+    "position": "",
+    "release": 
+  }
 }
 ```
 ## End Tabset {.tabset}

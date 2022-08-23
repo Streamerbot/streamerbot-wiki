@@ -34,8 +34,8 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "GetInputKindList",
   "requestData": {
-  "unversioned": 
- }
+    "unversioned": 
+  }
 }
 ```
 ## End Tabset {.tabset}

@@ -29,10 +29,10 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "BroadcastCustomEvent",
   "requestData": {
-  "eventData": {
-    "": ""
+    "eventData": {
+      "": ""
+    }
   }
- }
 }
 ```
 ## End Tabset {.tabset}

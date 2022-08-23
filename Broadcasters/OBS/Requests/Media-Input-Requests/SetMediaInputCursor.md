@@ -33,8 +33,8 @@ Added in | *v5.0.0*{.obs-version-badge}
   "requestType": "SetMediaInputCursor",
   "requestData": {
     "inputName": "",
-  "mediaCursor": 
- }
+    "mediaCursor": 
+  }
 }
 ```
 ## End Tabset {.tabset}
