@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-08-24T16:18:34.396Z
+date: 2022-08-24T16:20:16.703Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -95,22 +95,17 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 
 | Name | Description |
 |-----:|:------------|
-`poll.Id` | 
-`poll.StartedAt` | 
-`poll.Title` | 
-`poll.Duration` | 
-`poll.DurationRemaining` | 
+`poll.Id` | Twitch's ID for the poll
+`poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
+`poll.Title` | The title of the poll
+`poll.Duration` | How long the poll will run for, in seconds
+`poll.DurationRemaining` | How much longer the poll has left, in seconds `poll.choices.count` The number of choices
 `poll.choices.count` | 
 `poll.choice0.title` | 
 `poll.choice0.votes` | 
 `poll.choice0.bitVotes` | 
 `poll.choice0.rewardVotes` | 
 `poll.choice0.totalVotes` | 
-`poll.choice1.title` | 
-`poll.choice1.votes` | 
-`poll.choice1.bitVotes` | 
-`poll.choice1.rewardVotes` | 
-`poll.choice1.totalVotes` | 
 `poll.votes` | 
 `poll.bitVotes` | 
 `poll.rewardVotes` | 
