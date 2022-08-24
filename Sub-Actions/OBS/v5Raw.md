@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-24T15:44:53.910Z
+date: 2022-08-24T15:45:11.763Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -76,8 +76,6 @@ This will undo what you just changed to the code and close the code menu.
   "requestData": { ... }
 }
 ```
-
-***
 
 All the request fields can be found at the OBS raw Requests page
 - [<i class="mdi mdi-frequently-asked-questions text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcasters/OBS/Requests)
