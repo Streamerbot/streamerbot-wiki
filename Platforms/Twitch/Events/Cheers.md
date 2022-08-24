@@ -9,7 +9,6 @@ dateCreated: 2021-08-26T02:31:57.116Z
 ---
 
 # Overview
-
 In this tab you can assign actions to your twitch cheer events so every time you get bits cheered on your twitch channel, the action will run but here is the fun part you can have variations for a specified ranges. 
 
 So to do this open your Streamer.bot and navigate to the `Cheers` tab. You will find this in `Settings` the click `Events` now click the `Cheers` it should now look like the screenshot displayed below. 
@@ -22,13 +21,10 @@ As mentioned above you can set a specific action to run when a specified range i
 
 ![twitch_cheers_range.png](/twitch_cheers_range.png =700x)
 
-
 ## Cheer Types / States
-
 There are 3 cheer types. Generic (Either), Generic (Anon) for Anonymous Cheers and Generic (Non-Anon) is for those public cheerers.
 
 #### Generic (Either) Type / State 
-
 Any action assigned to this type will be triggered for both anonymous and non-anonymous cheerers and those that have not been set up for a specific range. 
 
 > This event is triggered if the bits hit the max value in the Cheer range. So it's suggested to have max range + 1 set. i.e 100 + 1 = max value (101) 
@@ -36,16 +32,13 @@ Any action assigned to this type will be triggered for both anonymous and non-an
 
 
 #### Generic (Anon) Type / State 
-
 Any action you have assign to this type is for the anonymous cheerers only. This action will not run if the cheerer has NOT selected the option to be anonymous.
 
 #### Generic (Non-Anon) Type / State
-
 Any action you assign to this type will be triggered when a non-anonymous cheer is given. This action will not run if the cheerer is anonymous.
 
 
 # Variables
-
 | Name | Description |
 |-----:|:------------|
 `msgId` | Twitch's message ID 
@@ -71,3 +64,7 @@ Any action you assign to this type will be triggered when a non-anonymous cheer 
 `cheerEmoteCount` | How many Twitch! cheer emotes were found
 {.vars-table}
 
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}

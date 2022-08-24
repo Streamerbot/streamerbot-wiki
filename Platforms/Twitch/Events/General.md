@@ -12,8 +12,8 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 # Events
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
+| Name | Description |
+|-----:|:------------|
 `Follows` | When someone follows your channel
 `Whispers` | When someone whispers your broadcaster account directly | If the whisper itself contains a command, the command action will trigger instead of this generic one
 `Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat
@@ -24,23 +24,22 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 `User Timed Out` | When a user present in chat gets timed out | This event will populate the `duration` argument with the time-out length
 `User Banned` | When a user is banned from the channel | This action will trigger on any user being banned, however if the user has never been present in chat while Streamer.bot is running there will be no username data
 `Ad Run` | When a commercial is triggered on your channel by any source
-
+{.vars-table}
 
 # Variables 
-
 ## Follows
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-`isTest` | Boolean value indicating if the follow event came from the internal Test button | `True`/`False`
+| Name | Description |
+|-----:|:------------|
+`isTest` | Boolean value indicating if the follow event came from the internal Test button <br> `True`/`False`
+{.vars-table}
 
 ## Chat Message / Whispers & First Words
-
-| Value | Description | Notes |
-|------:|:-----------:|:------|
+| Name | Description |
+|-----:|:------------|
 `msgId` | Twitch's message ID 
-`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-`isSubscribed` | Boolean value indicating the user's subscription status |  `True`/`False`
-`color` | Hex value of user's chat color | a random value will be selected if the user has not set one
+`role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
+`isSubscribed` | Boolean value indicating the user's subscription status <br> `True`/`False`
+`color` | Hex value of user's chat color <br> a random value will be selected if the user has not set one
 `colorR` | Hex value for Red component of the `color` variable
 `colorG` | Hex value for Green component of the `color` variable
 `colorB` | Hex value for Blue component of the `color` variable
@@ -49,45 +48,44 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 `emotes` | Comma Separated list of Twitch emotes found
 `messageStripped` | The chat message with emotes stripped
 `messageCheermotesStripped` | The chat message with cheer emotes stripped
-`isHighlight` | Boolean for message highlight property | `True`/`False`
+`isHighlight` | Boolean for message highlight property <br> `True`/`False`
 `bits` | Number of bits the message has
-`isAction` | Boolean value indicating the message is a `/me` action | `True`/`False`
-`isReply`| Boolean value indicating the message is a reply to another message | `True`/`False` 
-`replyTo`| The username the message is replying to | Only populated is `isReply` is `True` 
-`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel | `True`/`False` <span style="color:blue">*(0.18+)*</span>
+`isAction` | Boolean value indicating the message is a `/me` action <br> `True`/`False`
+`isReply`| Boolean value indicating the message is a reply to another message <br> `True`/`False` 
+`replyTo`| The username the message is replying to <br> Only populated is `isReply` is `True` 
+`firstMessage` | Boolean value indicating the message is from a first time chatter in the channel <br> `True`/`False` *v0.1.8*{.version-badge}
+{.vars-table}
 
 ## Present Viewers
-
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `isLive` |Boolean for current streaming status |  `True`/`False` 
-| `isTest` |Boolean for if this is demo data or not |  `True`/`False` 
-| `users` | A Dictionary list of usernames present in IRC chat | Each user present will get the following data
-
+| Name | Description |
+|-----:|:------------|
+`isLive` | Boolean for current streaming status <br> `True`/`False` 
+`isTest` | Boolean for if this is demo data or not <br> `True`/`False` 
+`users` | A Dictionary list of usernames present in IRC chat <br> Each user present will get the following data
+{.vars-table}
 
 ### User Dictionary
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `id` | The Numeric ID of this user
-| `userName` | The user name of this user
-| `display` | The display name of this user
-| `role` | The role of the user | 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
-| `isSubscribed` | Boolean for this users subscription status |  `True`/`False` 
-
-{.is-info}
-
+| Name | Description |
+|-----:|:------------|
+`id` | The Numeric ID of this user
+`userName` | The user name of this user
+`display` | The display name of this user
+`role` | The role of the user <br> 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
+`isSubscribed` | Boolean for this users subscription status <br> `True`/`False` 
+{.vars-table}
 
 ### Live Variables 
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `title` | The current stream title
-| `gameID` | The ID of the category you are streaming
-| `gameName` | The name of the category you are streaming
-| `viewerCount` | Viewer count at the time of the tick
-| `startedAt` | The time stamp when you started streaming
+| Name | Description |
+|-----:|:------------|
+`title` | The current stream title
+`gameID` | The ID of the category you are streaming
+`gameName` | The name of the category you are streaming
+`viewerCount` | Viewer count at the time of the tick
+`startedAt` | The time stamp when you started streaming
+{.vars-table}
 
 ***
 
@@ -95,16 +93,17 @@ If `isLive` is `True` the following variables will also be populated on each tic
 
 | Value | Description | Notes |
 |------:|:-----------:|:------|
-| `announceColor` | The color of the announcement | `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
-| `message` | The announcement message
-| `messageStripped` | The announcement message without emotes
-| `emoteCount` | The number of emotes in the message
-| `emotes` | The emotes in the message, this is a List<> object
-| `badgeCount` | The number of badges for the user making the announcement
-| `badges` | The badges for the user making the announcement | This is a `List<>` object
+`announceColor` | The color of the announcement <br> `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
+`message` | The announcement message
+`messageStripped` | The announcement message without emotes
+`emoteCount` | The number of emotes in the message
+`emotes` | The emotes in the message, this is a List<> object
+`badgeCount` | The number of badges for the user making the announcement
+`badges` | The badges for the user making the announcement <br> This is a `List<>` object
+{.vars-table}
 
-- [More Info](/en/Twitch/Announcement)
-{.links-list}
+- [**More Info*Announcement Documentation***](/en/Twitch/Announcement)
+{.btn-grid}
 
 > This also contains the user's picked color, and user's months subscribed
 {.is-info}
@@ -113,26 +112,32 @@ If `isLive` is `True` the following variables will also be populated on each tic
 
 ## Message Deleted
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `message` | The message that was deleted from chat
-
+| Name | Description |
+|-----:|:------------|
+`message` | The message that was deleted from chat
+{.vars-table}
 ## User Timed Out
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `duration` | The amount of time the user was timed out for
-| `user` | The user that was timed out 
-
+| Name | Description |
+|-----:|:------------|
+`duration` | The amount of time the user was timed out for
+`user` | The user that was timed out 
+{.vars-table}
 ## User Banned
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `user` | The user that was banned | This will not be populated if the user has never been present in chat
-
+| Name | Description |
+|-----:|:------------|
+`user` | The user that was banned <br> This will not be populated if the user has never been present in chat
+{.vars-table}
 ## Ad Run
 
-| Value | Description | Notes |
-|------:|:-----------:|:------|
-| `adLength` | The length of the ad in seconds
-| `adScheduled` | If this ad was a scheduled ad (`True`/`False`)
+| Name | Description |
+|-----:|:------------|
+`adLength` | The length of the ad in seconds
+`adScheduled` | If this ad was a scheduled ad <br> `True`/`False`
+{.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}

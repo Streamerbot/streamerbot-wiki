@@ -9,10 +9,9 @@ dateCreated: 2022-01-21T05:48:30.807Z
 ---
 
 ## Overview
-
 In this tab you can assign actions to your Community Goal that you have set up through your Twitch dashboard. 
 
-> **NOTE**
+> **NOTE:**
 > THIS DOESN'T CREATE THE COMMUNITY GOAL.
 {.is-info}
 
@@ -27,7 +26,6 @@ All you need to do is create an action of each of these and assign them to the r
 On the right side of this tab you have a test area where you can emulate/test the actions you have assigned to the relevant triggers.
 
 ## Variables
-
 The following variables will be available from this event:
 
 | Name | Description |
@@ -42,6 +40,7 @@ The following variables will be available from this event:
 `userContribFormatted` | How much the user  contributed as a formatted number
 `userTotalContributed` | The total amount the user has contributed to this goal
 `userTotalContribFormatted` | The total amount the user has contributed to this goal, formatted
+{.vars-table}
 
 Unverified variables - Mileage may vary
 | Name | Description|
@@ -49,3 +48,9 @@ Unverified variables - Mileage may vary
 `startedAt` | Date Time the community goal was started
 `endedAt` | Date Time the community goal ends 
 `daysLeft` | `endedAt` - Current Date Time
+{.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}

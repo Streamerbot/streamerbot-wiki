@@ -32,15 +32,13 @@ You can also assign actions to specific Tiers `Twitch Prime` `Tier 1` `Tier 2` `
 {.is-warning}
 
 ## Per Tier & Cumulative Months Ranges
-
 You can define ranges to assign special actions that will trigger in place of the regular ones 
 
 These ranges refer to the both the tier they subscribe at and the total time they have been subscribed for
 
 # Variables
-
-| Variable | Description |
-|---------:|:------------|
+| Name | Description |
+|-----:|:------------|
 `tier` | Subscription tier <br> `Prime`, `Tier 1`. `Tier 2`, `Tier 3`
 `monthStreak` | Current subscription streak in months <br> *Not for sub event. Only for re-sub event.*{.small}
 `cumulative` | Total number of months a user has been subscribed for <br> *Not for sub event. Only for re-sub event.*{.small}
@@ -48,3 +46,9 @@ These ranges refer to the both the tier they subscribe at and the total time the
 `rawInputEscaped` | The message escaped
 `role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `color` | User's color (if they have chosen one or a random one if not)
+{.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
