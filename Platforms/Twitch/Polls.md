@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-07-13T20:02:03.502Z
+date: 2022-08-24T16:16:24.237Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -16,52 +16,115 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 
 **Note** I do plan on adding a `Sub-Action` for creating polls, at least, it's on my list, so this will provide another path, other then the [C# Example](#basic-creation-example) shown below.
 
-## Variables Available
+## Variables
+> The `#` goes from 0 to 4
+{.is-info}
 
-| Variable | Description |
-|      ---:|-------------|
-| `poll.Id` | Twitch's ID for the poll |
-| `poll.StartedAt` | When the poll was started |
-| `poll.Title` | The title of the poll |
-| `poll.Duration` | How long the poll will run for, in seconds |
-| `poll.DurationRemaining` | How much longer the poll has left, in seconds |
-| `poll.choices.count` | The number of choices |
+### Created
+| Name | Description |
+|-----:|:------------|
+`poll.Id` | Twitch's ID for the poll
+`poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
+`poll.Title` | The title of the poll
+`poll.Duration` | How long the poll will run for, in seconds
+`poll.DurationRemaining` | How much longer the poll has left, in seconds
+`poll.choices.count` | The number of choices
+`poll.choice#.title` | The title of the poll choice
+`poll.choice#.votes` | Number of regular votes for the choice
+`poll.choice#.bitVotes` | Number of bit based votes for the choice
+`poll.choice#.rewardVotes` | Total number of reward based votes
+`poll.choice#.totalVotes` | Total number of votes for the choice
+`poll.votes` | Total number of regular votes
+`poll.bitVotes` | Total number of bit based votes
+`poll.rewardVotes` | Total number of reward based votes
+`poll.totalVotes` | Overall total number of votes
+`poll._json` | All the variables in a JSON Object
+{.vars-table}
 
-### Choices available
+### Updated
+| Name | Description |
+|-----:|:------------|
+`poll.Id` | Twitch's ID for the poll
+`poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
+`poll.Title` | The title of the poll
+`poll.Duration` | How long the poll will run for, in seconds
+`poll.DurationRemaining` | How much longer the poll has left, in seconds
+`poll.choices.count` | The number of choices
+`poll.choice#.title` | The title of the poll choice
+`poll.choice#.votes` | Number of regular votes for the choice
+`poll.choice#.bitVotes` | Number of bit based votes for the choice
+`poll.choice#.rewardVotes` | Total number of reward based votes
+`poll.choice#.totalVotes` | Total number of votes for the choice
+`poll.votes` | Total number of regular votes
+`poll.bitVotes` | Total number of bit based votes
+`poll.rewardVotes` | Total number of reward based votes
+`poll.totalVotes` | Overall total number of votes
+`poll._json` | All the variables in a JSON Object
+{.vars-table}
 
-| Variable | Description |
-|      ---:|-------------|
-| `poll.choice#.title` | The title of the poll choice |
-| `poll.choice#.votes` | Number of regular votes for the choice |
-| `poll.choice#.bitVotes` | Number of bit based votes for the choice |
-| `poll.choice#.rewardVotes` | Number of reward based votes for the choice |
-| `poll.choice#.totalVotes`| Total number of votes for the choice |
+### Completed
+| Name | Description |
+|-----:|:------------|
+`poll.Id` | Twitch's ID for the poll
+`poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
+`poll.Title` | The title of the poll
+`poll.Duration` | How long the poll will run for, in seconds
+`poll.DurationRemaining` | How much longer the poll has left, in seconds
+`poll.choices.count` | The number of choices
+`poll.choice#.title` | The title of the poll choice
+`poll.choice#.votes` | Number of regular votes for the choice
+`poll.choice#.bitVotes` | Number of bit based votes for the choice
+`poll.choice#.rewardVotes` | Total number of reward based votes
+`poll.choice#.totalVotes` | Total number of votes for the choice
+`poll.votes` | Total number of regular votes
+`poll.bitVotes` | Total number of bit based votes
+`poll.rewardVotes` | Total number of reward based votes
+`poll.totalVotes` | Overall total number of votes
+`poll.EndedAt` | The time that the poll ended <br> `d/M/yyyy HH:mm:ss`
+`poll._json` | All the variables in a JSON Object
+`poll.winningIndex` | 
+`poll.winningChoice.id` | 
+`poll.winningChoice.title` | 
+`poll.winningChoice.votes` | 
+`poll.winningChoice.bitVotes` | 
+`poll.winningChoice.rewardVotes` | 
+`poll.winningChoice.totalVotes` | 
+{.vars-table}
 
-Replace the # in choice# with 0 to 4, depending how many choices there are, to get the choice entry
+### Terminated
 
-| Variable | Description |
-|      ---:|-------------|
-| `poll.votes` | Total number of regular votes |
-| `poll.bitVotes` | Total number of bit based votes |
-| `poll.rewardVotes` | Total number of reward based votes |
-| `poll.totalVotes` | Overall total number of votes |
-
-The above variables are available for all poll actions
-
-`poll.EndedAt` is also available for the completed action
-
-### Poll Ended Variables
-
-| Value | Description |
-|   ---:|-------------|
-| `poll.winningIndex` | The index of the winning choice, from 0 to 4 |
-| `poll.winningChoice.id` | The ID of the winning choice |
-| `poll.winningChoice.title` | The title of the winning choice |
-| `poll.winningChoice.votes` | Number of regular votes |
-| `poll.winningChoice.bitVotes` | Number of bit based votes |
-| `poll.winningChoice.rewardVotes` | Number of channel point based votes |
-| `poll.winningChoice.totalVotes` | Total number of votes for the choice |
-| `poll._json` | JSON string of complete event information that can be parsed
+| Name | Description |
+|-----:|:------------|
+`poll.Id` | 
+`poll.StartedAt` | 
+`poll.Title` | 
+`poll.Duration` | 
+`poll.DurationRemaining` | 
+`poll.choices.count` | 
+`poll.choice0.title` | 
+`poll.choice0.votes` | 
+`poll.choice0.bitVotes` | 
+`poll.choice0.rewardVotes` | 
+`poll.choice0.totalVotes` | 
+`poll.choice1.title` | 
+`poll.choice1.votes`0
+`poll.choice1.bitVotes`0
+`poll.choice1.rewardVotes`0
+`poll.choice1.totalVotes`0
+`poll.votes`0
+`poll.bitVotes`0
+`poll.rewardVotes`0
+`poll.totalVotes`0
+`poll.EndedAt`24/8/2022 08:05:57
+`poll._json` | All the variables in a JSON Object
+`poll.winningIndex`0
+`poll.winningChoice.id`71c67d25-bb6d-42ea-b0bb-f47eaba96469
+`poll.winningChoice.title`Pizza
+`poll.winningChoice.votes`0
+`poll.winningChoice.bitVotes`0
+`poll.winningChoice.rewardVotes`0
+`poll.winningChoice.totalVotes`0
+{.vars-table}
 
 Because how some of this is handled, it is recommended that Execute C# code is used for these as some logic maybe required
 
