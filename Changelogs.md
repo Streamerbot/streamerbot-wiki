@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-19T04:04:53.854Z
+date: 2022-08-24T03:00:16.749Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,6 +31,7 @@ Upcoming changes in the next release!{.subtitle}
 * Extend First Chat event to YouTube
 * Some updates to how YouTube streams are found, this is still very much a WIP and more fixes will come
 * Auto strip newline and whitespace at the end of an import string when pasting
+* Remove Bits from Twitch Polls, as its being removed outright by Twitch
 {.changelog-updates}
 
 <span></span>
