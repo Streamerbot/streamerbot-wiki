@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-08-23T21:36:43.303Z
+date: 2022-08-24T04:32:44.050Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -20,11 +20,11 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***](/Platforms/Twitch/Events/Follows)
 - [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Chat, whispers, and first words events***](/Platforms/Twitch/Events/Chat-Message)
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/Present-Viewers)
-- [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *Twitch Chat announcements***](/Platforms/Twitch/Events/General)
-- [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/General)
-- [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/General)
-- [<i class="mdi mdi-account-minus text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/General)
-- [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/General)
+- [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *Twitch Chat announcements***](/Platforms/Twitch/Events/Announcement)
+- [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/Message-Deleted)
+- [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/User-Timed-Out)
+- [<i class="mdi mdi-account-minus text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/User-Banned)
+- [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/Ad-Run)
 {.btn-grid .my-5}
 
 ## Standard Twitch Events
