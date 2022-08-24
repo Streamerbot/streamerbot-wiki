@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-08-24T16:16:24.237Z
+date: 2022-08-24T16:18:34.396Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -107,23 +107,23 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 `poll.choice0.rewardVotes` | 
 `poll.choice0.totalVotes` | 
 `poll.choice1.title` | 
-`poll.choice1.votes`0
-`poll.choice1.bitVotes`0
-`poll.choice1.rewardVotes`0
-`poll.choice1.totalVotes`0
-`poll.votes`0
-`poll.bitVotes`0
-`poll.rewardVotes`0
-`poll.totalVotes`0
-`poll.EndedAt`24/8/2022 08:05:57
+`poll.choice1.votes` | 
+`poll.choice1.bitVotes` | 
+`poll.choice1.rewardVotes` | 
+`poll.choice1.totalVotes` | 
+`poll.votes` | 
+`poll.bitVotes` | 
+`poll.rewardVotes` | 
+`poll.totalVotes` | 
+`poll.EndedAt` |
 `poll._json` | All the variables in a JSON Object
-`poll.winningIndex`0
-`poll.winningChoice.id`71c67d25-bb6d-42ea-b0bb-f47eaba96469
-`poll.winningChoice.title`Pizza
-`poll.winningChoice.votes`0
-`poll.winningChoice.bitVotes`0
-`poll.winningChoice.rewardVotes`0
-`poll.winningChoice.totalVotes`0
+`poll.winningIndex` | 0
+`poll.winningChoice.id` | 
+`poll.winningChoice.title` | 
+`poll.winningChoice.votes` | 
+`poll.winningChoice.bitVotes` | 
+`poll.winningChoice.rewardVotes` | 
+`poll.winningChoice.totalVotes` | 
 {.vars-table}
 
 Because how some of this is handled, it is recommended that Execute C# code is used for these as some logic maybe required
