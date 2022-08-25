@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: false
-date: 2022-08-25T19:13:22.215Z
+date: 2022-08-25T19:16:48.657Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -40,7 +40,7 @@ Now go to the `Api` section and:
 ## Streamer.bot
 Paste the token that you just copied from Lumia Stream into the `Token` box
 
-![streamer.bot-intergration-lumia-stream-connection.png](/intergrations/lumia-stream/streamer.bot-intergration-lumia-stream-connection.png)
+![streamer.bot-intergration-lumia-stream-connection.png](/intergrations/lumia-stream/streamer.bot-intergration-lumia-stream-connection.png =700x)
 These checkboxes are recommended to be marked:
 - <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Connect</span>
 - <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Reconnect</span>
