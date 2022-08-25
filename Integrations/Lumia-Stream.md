@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: false
-date: 2022-08-25T20:45:09.386Z
+date: 2022-08-25T20:54:38.839Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -10,7 +10,7 @@ dateCreated: 2022-08-25T16:10:41.072Z
 
 ## Quick Links
 
-- [<i class="mdi mdi-lightning-bolt-outline" style="color: #ff4566;"></i> **Lumia Stream Sub-Action Reference *Click here for the full list of all Lumia Stream sub-actions***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-lightning-bolt-outline" style="color: #ff4566;"></i> **Lumia Stream Sub-Action Reference *Click here for the full list of all Lumia Stream sub-actions***](/en/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
 
 ## Overview
@@ -50,3 +50,8 @@ Paste the token that you just copied from Lumia Stream into the `Token` box
 These checkboxes are recommended to be marked:
 - <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Connect</span>
 - <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Reconnect</span>
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
