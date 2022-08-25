@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: false
-date: 2022-08-25T19:31:48.603Z
+date: 2022-08-25T20:45:09.386Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -43,7 +43,7 @@ Now go to the `Api` section and:
 
 ![lumia-connect-guide-api.png](/intergrations/lumia-stream/lumia-connect-guide-api.png =700x)
 
-## Streamer.bot
+### Streamer.bot
 Paste the token that you just copied from Lumia Stream into the `Token` box
 
 ![streamer.bot-intergration-lumia-stream-connection.png](/intergrations/lumia-stream/streamer.bot-intergration-lumia-stream-connection.png =700x)
