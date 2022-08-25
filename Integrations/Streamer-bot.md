@@ -3,7 +3,7 @@ title: Streamer.bot Website Integration
 description: Enable additional Streamer.bot functionality by configuring the Streamer.bot Website integration!
 published: true
 date: 2022-07-12T16:36:11.658Z
-tags: integrations, streamerbot, decks, ko-fi, patreon
+tags: v0.1.8, integrations, streamerbot, decks, ko-fi, patreon
 editor: markdown
 dateCreated: 2022-06-01T04:51:05.664Z
 ---

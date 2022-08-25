@@ -3,7 +3,7 @@ title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
 date: 2022-07-09T20:14:08.962Z
-tags: integrations, streamelements
+tags: v0.52, integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
 ---

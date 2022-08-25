@@ -3,7 +3,7 @@ title: Streamlabs
 description: Streamer.bot integration with Streamlabs
 published: true
 date: 2022-07-10T20:35:38.998Z
-tags: integrations, streamlabs
+tags: v0.50, integrations, streamlabs
 editor: markdown
 dateCreated: 2021-08-25T21:32:50.615Z
 ---
