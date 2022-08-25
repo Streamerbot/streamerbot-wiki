@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-08-24T16:20:16.703Z
+date: 2022-08-25T14:55:18.646Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -17,7 +17,7 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 **Note** I do plan on adding a `Sub-Action` for creating polls, at least, it's on my list, so this will provide another path, other then the [C# Example](#basic-creation-example) shown below.
 
 ## Variables
-> The `#` goes from 0 to 4
+> With `poll.choice#` you need to change the `#` from 0 to 4
 {.is-info}
 
 ### Created
@@ -81,14 +81,14 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 `poll.rewardVotes` | Total number of reward based votes
 `poll.totalVotes` | Overall total number of votes
 `poll.EndedAt` | The time that the poll ended <br> `d/M/yyyy HH:mm:ss`
+`poll.winningIndex` | The index of the winning choice, from 0 to 4
+`poll.winningChoice.id` | The ID of the winning choice
+`poll.winningChoice.title` | The title of the winning choice
+`poll.winningChoice.votes` | Number of regular votes
+`poll.winningChoice.bitVotes` | Number of bit based votes
+`poll.winningChoice.rewardVotes` | Number of channel point based votes
+`poll.winningChoice.totalVotes` | Total number of votes for the choice
 `poll._json` | All the variables in a JSON Object
-`poll.winningIndex` | 
-`poll.winningChoice.id` | 
-`poll.winningChoice.title` | 
-`poll.winningChoice.votes` | 
-`poll.winningChoice.bitVotes` | 
-`poll.winningChoice.rewardVotes` | 
-`poll.winningChoice.totalVotes` | 
 {.vars-table}
 
 ### Terminated
@@ -99,26 +99,26 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 `poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
 `poll.Title` | The title of the poll
 `poll.Duration` | How long the poll will run for, in seconds
-`poll.DurationRemaining` | How much longer the poll has left, in seconds `poll.choices.count` The number of choices
-`poll.choices.count` | 
-`poll.choice0.title` | 
-`poll.choice0.votes` | 
-`poll.choice0.bitVotes` | 
-`poll.choice0.rewardVotes` | 
-`poll.choice0.totalVotes` | 
-`poll.votes` | 
-`poll.bitVotes` | 
-`poll.rewardVotes` | 
-`poll.totalVotes` | 
-`poll.EndedAt` |
+`poll.DurationRemaining` | How much longer the poll has left, in seconds 
+`poll.choices.count` | The number of choices
+`poll.choice#.title` | The title of the poll choice
+`poll.choice#.votes` | Number of regular votes for the choice
+`poll.choice#.bitVotes` | Number of bit based votes for the choice
+`poll.choice#.rewardVotes` | Total number of reward based votes
+`poll.choice#.totalVotes` | Total number of votes for the choice
+`poll.votes` | Total number of regular votes
+`poll.bitVotes` | Total number of bit based votes
+`poll.rewardVotes` | Total number of reward based votes
+`poll.totalVotes` | Overall total number of votes
+`poll.EndedAt` | The time that the poll ended <br> `d/M/yyyy HH:mm:ss`
+`poll.winningIndex` | The index of the winning choice, from 0 to 4
+`poll.winningChoice.id` | The ID of the winning choice
+`poll.winningChoice.title` | The title of the winning choice
+`poll.winningChoice.votes` | Number of regular votes
+`poll.winningChoice.bitVotes` | Number of bit based votes
+`poll.winningChoice.rewardVotes` | Number of channel point based votes
+`poll.winningChoice.totalVotes` | Total number of votes for the choice
 `poll._json` | All the variables in a JSON Object
-`poll.winningIndex` | 0
-`poll.winningChoice.id` | 
-`poll.winningChoice.title` | 
-`poll.winningChoice.votes` | 
-`poll.winningChoice.bitVotes` | 
-`poll.winningChoice.rewardVotes` | 
-`poll.winningChoice.totalVotes` | 
 {.vars-table}
 
 Because how some of this is handled, it is recommended that Execute C# code is used for these as some logic maybe required

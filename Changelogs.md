@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-25T01:21:11.478Z
+date: 2022-08-25T15:23:25.118Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,6 +22,7 @@ Upcoming changes in the next release!{.subtitle}
 * OBS Raw sub-action was not saving the prefix
 * Silent null ref crash for timed actions when Twitch is not connected, should be compeltely decoupled now
 * Twitch GiftSubs from a GiftBomb were being counted twice in the sub-counter
+* `CPH.RunAction` properly checks if an action is enabled when trying to run it
 {.changelog-fixes}
 
 <span></span>
@@ -32,6 +33,7 @@ Upcoming changes in the next release!{.subtitle}
 * Some updates to how YouTube streams are found, this is still very much a WIP and more fixes will come
 * Auto strip newline and whitespace at the end of an import string when pasting
 * Remove Bits from Twitch Polls, as it's being removed outright by Twitch
+* `Execute C# Code` sub-action will now warn if you try to close it by the X and you have unsaved changes
 {.changelog-updates}
 
 <span></span>
