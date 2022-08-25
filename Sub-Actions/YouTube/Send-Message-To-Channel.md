@@ -25,10 +25,8 @@ Enter the message to be sent to your chat.
 ## Variables
 No variables generated.
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-  
-  [<i class="mdi mdi-youtube text--youtube"></i>**Set Title *Up Next***](/en/Sub-Actions/YouTube/Set-Title)
-  
-</section>
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i>**Set Title *Up Next***](/en/Sub-Actions/YouTube/Set-Title)
+{.btn-grid .my-5}

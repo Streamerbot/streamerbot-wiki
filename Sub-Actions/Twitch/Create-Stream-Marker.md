@@ -35,11 +35,8 @@ Click the `OK` button to finalize your configuration and now you’re ready to t
  
  No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Emote Only *Up Next***](/en/Sub-Actions/Twitch/Emote-Only)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Emote Only *Up Next***](/en/Sub-Actions/Twitch/Emote-Only)
+{.btn-grid .my-5}

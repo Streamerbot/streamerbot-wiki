@@ -13,7 +13,7 @@ dateCreated: 2022-07-10T19:03:15.855Z
 
 * [**Set Voice Control Command *Trigger a command with your voice***](/en/Sub-Actions/Set-Voice-Control-Command)
 * [**Set Voice Control Command State *Set the Voice Control Command State***](/en/Sub-Actions/Set-Voice-Control-Command-State)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ---
 

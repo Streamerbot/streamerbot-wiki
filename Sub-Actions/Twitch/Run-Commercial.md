@@ -22,11 +22,8 @@ Duration of ad break, in seconds.
 ## Variables
 No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Create Clip *Up Next***](/en/Sub-Actions/Twitch/Create-Clip)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Create Clip *Up Next***](/en/Sub-Actions/Twitch/Create-Clip)
+{.btn-grid .my-5}

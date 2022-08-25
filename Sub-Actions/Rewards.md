@@ -19,15 +19,11 @@ dateCreated: 2022-07-10T18:45:50.458Z
  * [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
  * [<i class="mdi mdi-upload text--twitch"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
  * [<i class="mdi mdi-list-status text--twitch"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Update-Redemption-Status)
- {.btn-grid}
+ {.btn-grid .my-5}
 
 
- ---
+---
 
- <section class="btn-grid my-5">
-
-   [<i class="mdi mdi-chevron-left"></i> **Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-
-   [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
-
- </section>
+- [<i class="mdi mdi-chevron-left"></i> **Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, and more!***](/en/Sub-Actions/Twitch)
+{.btn-grid .my-5}

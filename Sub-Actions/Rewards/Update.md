@@ -45,7 +45,8 @@ Revert all reward settings to their original values.
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Update Redemption Status *Up Next***](/en/Sub-Actions/Rewards/Update-Redemption-Status)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

@@ -41,10 +41,8 @@ If the chosen account is not more than **12** months old, or already pre-verifie
 
 Once you have a bot account configured, you can select which account should send chat messages on a per [sub-actions](/Sub-Actions#main) level. 
 
-<section class="btn-grid my-5">
+---
 
-[<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-  
-[<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/en/Quick-Start/OBS)
-
-</section>
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
+- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/en/Quick-Start/OBS)
+{.btn-grid .my-5}

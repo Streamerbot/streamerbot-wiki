@@ -15,10 +15,10 @@ dateCreated: 2022-07-10T18:54:22.179Z
 - [**Set Action Group State  *Enable / Disable all actions in a group***](/Sub-Actions/action-group-state)
 - [**Set Action Queue Pause State *Pause / Resume an action queue***](/en/Sub-Actions/Set-Action-Queue-Pause-State)
 - [**Set Action State *Enable / Disable an action***](/Sub-Actions/action-state)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Sub-actions reference for managing chat command state***](/en/Sub-Actions/Commands)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

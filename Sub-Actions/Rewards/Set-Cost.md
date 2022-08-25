@@ -35,7 +35,8 @@ This will automatically fill the `Cost` input with the original cost and set`Ope
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Set Paused State *Up Next***](/en/Sub-Actions/Rewards/Set-Paused-State)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

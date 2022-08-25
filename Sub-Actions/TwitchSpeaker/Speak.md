@@ -35,10 +35,6 @@ Last step is the message box you can either hard write the message in the box or
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<img src="/logos/voicemod.png"/> **VoiceMod *Sub-actions reference for controlling VoiceMod***](/en/Sub-Actions/VoiceMod)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<img src="/logos/voicemod.png"/> **VoiceMod *Sub-actions reference for controlling VoiceMod***](/en/Sub-Actions/VoiceMod)
+{.btn-grid .my-5}

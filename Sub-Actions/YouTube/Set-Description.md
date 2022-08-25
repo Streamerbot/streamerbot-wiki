@@ -29,11 +29,8 @@ Input field accepts variables.
 ## Variables
 No variables generated
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-  
-  [<i class="mdi mdi-youtube text--youtube"></i>**Set Title and Description *Up Next***](/en/Sub-Actions/YouTube/Set-Title-Description)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i>**Set Title and Description *Up Next***](/en/Sub-Actions/YouTube/Set-Title-Description)
+{.btn-grid .my-5}

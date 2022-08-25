@@ -31,11 +31,8 @@ This sub-action can be used to toggle [slow mode](https://help.twitch.tv/s/artic
 ## Variables
 No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Subscriber Only *Up Next***](/en/Sub-Actions/Twitch/Subscriber-Only)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Subscriber Only *Up Next***](/en/Sub-Actions/Twitch/Subscriber-Only)
+{.btn-grid .my-5}

@@ -33,7 +33,7 @@ A special `obsRaw._json` will also be added, which is the entire JSON as a strin
 
 # OBS raw
 * [<i class="mdi mdi-github"></i>**Requests for OBS Websocket v4.9.x**](https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#requests) 
-{.btn-grid}
+{.btn-grid .my-5}
 
 ---
 

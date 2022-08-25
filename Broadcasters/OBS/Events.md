@@ -128,4 +128,4 @@ Added in obs-websocket *v4.9.1*{.obs-version-badge} {.subtitle}
 
 * [<i class="mdi mdi-creation primary--text"></i> **Events Reference *Reference of all events in Streamer.bot***](/en/Events)
 * [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
-{.btn-grid}
+{.btn-grid .my-5}

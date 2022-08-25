@@ -39,10 +39,6 @@ For example, `%user%, you have %points% %pointsName%` could be sent to Twitch ch
 No variables generated.
 
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Game *Up Next***](/en/Sub-Actions/Twitch/Set-Channel-Game)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Set Channel Game *Up Next***](/en/Sub-Actions/Twitch/Set-Channel-Game)
+{.btn-grid .my-5}

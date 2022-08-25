@@ -51,11 +51,8 @@ The following variables will be available after execution of this sub-action:
 `createdAt` | Datetime of when the account was created (v0.1.4+)
 `accountAge` | Age of the account in seconds (v0.1.4+)
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Send Message To Channel *Up Next***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Send Message To Channel *Up Next***](/en/Sub-Actions/Twitch/Send-Message-To-Channel)
+{.btn-grid .my-5}

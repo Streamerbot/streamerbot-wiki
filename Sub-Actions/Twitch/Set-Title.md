@@ -31,7 +31,8 @@ For example, you could use the `%rawInput%` variable from a `!settitle` command 
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Slow Mode *Up Next***](/en/Sub-Actions/Twitch/Slow-Mode)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

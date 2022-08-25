@@ -31,11 +31,8 @@ This sub-action can be used to toggle [subscriber only mode](https://help.twitch
 ## Variables
 No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Timeout User *Up Next***](/en/Sub-Actions/Twitch/Timeout-User)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Timeout User *Up Next***](/en/Sub-Actions/Twitch/Timeout-User)
+{.btn-grid .my-5}

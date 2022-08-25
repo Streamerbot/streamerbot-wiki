@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:31:09.603Z
 
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Action Reference *All sub-actions that can be executed by your actions in Streamer.bot***](/en/Sub-Actions)
 - [<i class="mdi mdi-creation primary--text"></i> **Event Reference *All events that can trigger your Streamer.bot actions***](/en/Events)
-{.btn-grid}
+{.btn-grid .my-5}
 
 # Overview
 

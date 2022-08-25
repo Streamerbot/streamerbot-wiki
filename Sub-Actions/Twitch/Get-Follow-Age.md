@@ -49,11 +49,8 @@ The following variables will be available after execution of this sub-action:
 `followUserName` | The user's login name
 `followUserId` | The user's twitch id
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Get User Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Get User Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-User-Info-for-Target)
+{.btn-grid .my-5}

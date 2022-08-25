@@ -34,8 +34,7 @@ You should then see the **Name** field populated with `Quick Start`, and numerou
 
 Click **Import** to finalize your selection and add all selected actions to your Streamer.bot installation.
 
-<section class="btn-grid my-5">
+---
 
-[<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-
-</section>
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
+{.btn-grid .my-5}

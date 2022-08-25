@@ -20,10 +20,6 @@ dateCreated: 2022-07-10T18:53:32.059Z
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Sub-actions reference for modifying Streamer.bot Action state***](/en/Sub-Actions/Actions)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Sub-actions reference for modifying Streamer.bot Action state***](/en/Sub-Actions/Actions)
+{.btn-grid .my-5}

@@ -28,7 +28,8 @@ Reset the reward title to it's original value.
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Update *Up Next***](/en/Sub-Actions/Rewards/Update)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

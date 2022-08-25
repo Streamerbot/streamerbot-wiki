@@ -33,10 +33,8 @@ This input supports variables.
 ## Variables
 No variables generated.
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-  
-  [<i class="mdi mdi-youtube text--youtube"></i>**Send Message to Channel *Up Next***](/en/Sub-Actions/YouTube/Send-Message-To-Channel)
-  
-</section>
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i>**Send Message to Channel *Up Next***](/en/Sub-Actions/YouTube/Send-Message-To-Channel)
+{.btn-grid .my-5}

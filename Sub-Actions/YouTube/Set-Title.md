@@ -28,11 +28,8 @@ Input accepts variables.
 ## Variables
 No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-  
-  [<i class="mdi mdi-youtube text--youtube"></i>**Set Description *Up Next***](/en/Sub-Actions/YouTube/Set-Description)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i>**Set Description *Up Next***](/en/Sub-Actions/YouTube/Set-Description)
+{.btn-grid .my-5}

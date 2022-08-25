@@ -12,7 +12,7 @@ dateCreated: 2022-05-13T04:09:31.936Z
 
 - [<i class="mdi mdi-creation text--youtube"></i> **YouTube Event Reference *Click here for the full list of all YouTube events and variables***](/en/Platforms/YouTube/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--youtube"></i> **YouTube Sub-Action Reference *Click here for the full list of all YouTube sub-actions***](/en/Sub-Actions/YouTube)
-{.btn-grid}
+{.btn-grid .my-5}
 
 # Configuration
 

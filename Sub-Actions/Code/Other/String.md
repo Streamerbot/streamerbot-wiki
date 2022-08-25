@@ -45,4 +45,4 @@ $"This command has been used {counter} times"
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

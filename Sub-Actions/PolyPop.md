@@ -12,15 +12,11 @@ dateCreated: 2022-07-10T18:51:37.383Z
 {.is-info}
 
 * [<i class="mdi mdi-variable text--polypop"></i>**Trigger Alert *Trigger Events in PolyPop via WebSocket***](/en/Sub-Actions/PolyPop/Trigger-Alert)
-{.btn-grid}
+{.btn-grid .my-5}
 
 
 ---
 
-<section class="btn-grid my-5">
-
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-
-  [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Sub-Action reference for controlling OBS Studio***](/en/Sub-Actions/OBS)
-
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Sub-Action reference for controlling OBS Studio***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

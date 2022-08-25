@@ -53,6 +53,7 @@ You have successfully linked Streamer.bot to PolyPop and configured the trigger 
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

@@ -27,7 +27,8 @@ Select the reward you want to modify.
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Set Prompt *Up Next***](/en/Sub-Actions/Rewards/Set-Prompt)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

@@ -35,7 +35,8 @@ The following variables will be available after execution of this sub-action:
 | `createClipUrl` | Full URL to the created clip <br>  `https://clips.twitch.tv/embed?clip=StormyAttractiveMouseThunBeast-TEfUhBnJpajsSHShD`
 {.vars-table}
 
-    
+---
+
 - [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Create Stream Marker *Up Next***](/en/Sub-Actions/Twitch/Create-Stream-Marker)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

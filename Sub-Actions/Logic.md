@@ -188,10 +188,6 @@ This is a diagnostic Sub-action that will cancel execution of the action
 
 ---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-  
-  [<i class="mdi mdi-network primary--text"></i> **Network *Sub-actions reference for network requests***](/en/Sub-Actions/Network)
-  
-</section>
+-[<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+-[<i class="mdi mdi-network primary--text"></i> **Network *Sub-actions reference for network requests***](/en/Sub-Actions/Network)
+{.btn-grid .my-5}

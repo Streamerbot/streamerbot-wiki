@@ -23,4 +23,4 @@ empty | null |  |
 ---
 
 - [<i class="mdi mdi-code-array primary--text"></i> **Arrays**](/en/Sub-Actions/Code/Arrays)
-{.btn-grid}
+{.btn-grid .my-5}

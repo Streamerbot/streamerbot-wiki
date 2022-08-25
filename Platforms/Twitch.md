@@ -43,8 +43,8 @@ Use this to pull a current list of available Twitch categories to be used as var
 
 For example, you could automatically change scenes in [OBS Studio](/en/Broadcasters/OBS) if your Twitch category is changed to a specific game.
 
-    
+---
+
 - [<i class="mdi mdi-chevron-left"></i>**Platforms *Go Back***](/en/Platforms)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Events *Up Next***](/en/Platforms/Twitch/Events)
-{.btn-grid .mt-10}
-  
+{.btn-grid .my-5}

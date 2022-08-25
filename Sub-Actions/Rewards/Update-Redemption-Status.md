@@ -27,7 +27,8 @@ Set a reward redemption as fulfilled or canceled.
 ## Variables
 No variables generated.
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Configure Reward *Up Next***](/en/Sub-Actions/Rewards/Configure-Reward)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}

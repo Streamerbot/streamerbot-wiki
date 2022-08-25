@@ -31,11 +31,8 @@ This sub-action can be used to toggle [emote only mode](https://help.twitch.tv/s
 ## Variables
 No variables generated.
 
+---
 
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-  
-  [<i class="mdi mdi-twitch text--twitch"></i>**Get Follow Age Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-Follow-Age)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Get Follow Age Info for Target *Up Next***](/en/Sub-Actions/Twitch/Get-Follow-Age)
+{.btn-grid .my-5}

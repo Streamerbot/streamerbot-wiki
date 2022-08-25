@@ -73,11 +73,7 @@ Appending to a file will add the incoming data to the end of the file. So, the d
 If the Append to File option is unchecked it will overwrite everytime each time new data is written.
 
 ---
-
-<section class="btn-grid my-5">
-    
-  [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
   
-  [<i class="mdi mdi-state-machine primary--text"></i> **Logic *Sub-actions reference for custom logic operations***](/en/Sub-Actions/Logic)
-  
-</section>
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-state-machine primary--text"></i> **Logic *Sub-actions reference for custom logic operations***](/en/Sub-Actions/Logic)
+{.btn-grid .my-5}

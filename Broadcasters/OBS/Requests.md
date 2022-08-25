@@ -222,4 +222,4 @@ Ui related OBS Studio requests{.subtitle}
 
 - [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
-{.btn-grid}
+{.btn-grid .my-5}
