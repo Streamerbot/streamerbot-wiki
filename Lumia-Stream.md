@@ -2,13 +2,15 @@
 title: Lumia Stream
 description: 
 published: false
-date: 2022-08-25T18:33:43.741Z
+date: 2022-08-25T18:35:01.920Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
 ---
 
-## Connecting
+## Overview
+
+## Connection
 First go to a tab in Lumia Stream, in the picture it's shown on the `Dashboard` page
 
 ![lumia-connect-guide-dashboard.png](/intergrations/lumia-stream/lumia-connect-guide-dashboard.png =700x)
