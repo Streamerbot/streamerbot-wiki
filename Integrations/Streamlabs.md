@@ -57,9 +57,7 @@ For donation events, different actions can be run based on the size of the donat
 `merchandiseImageEscaped` | URL to the image of the product with escaped characters | |
 `isTest` | Boolean value indicating if the purchase was a test |  `True`/`False` 
 
+---
 
-<div class="btn-grid">
-  
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-  
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}

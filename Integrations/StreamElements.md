@@ -61,9 +61,7 @@ With version 0.1.8, the ability to attach an action to a Merch event was introdu
 `merchItem#.price` | Price of the item purchased, where # is the index of the item (0 based)
 `merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
 
+---
 
-<div class="btn-grid">
-  
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-  
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}

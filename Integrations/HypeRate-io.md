@@ -31,7 +31,7 @@ To connect to HypeRate.io, provide your ID in the `ID` field, and click on Conne
 |   ---:|-------------|
 | `%heartRate%` | Heart Rate value |
 
-
+---
 
 - [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-{.btn-grid}
+{.btn-grid .my-5}

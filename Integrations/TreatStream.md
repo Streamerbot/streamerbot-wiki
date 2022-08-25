@@ -25,4 +25,4 @@ Integrate with [TreatStream](https://treatstream.com) to receive food donation e
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-{.btn-grid}
+{.btn-grid .my-5}

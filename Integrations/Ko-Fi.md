@@ -113,9 +113,7 @@ This event is triggered when a commission is purchased on Kofi
 | `amount` | The commission amount |
 | `currency` | The currency of the commission |
 
+---
 
-<div class="btn-grid">
-
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-
-</div>
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}

@@ -28,6 +28,7 @@ After connecting your account, by clicking **Connect to Pulsoid** and following 
 | `measuredAt` | Time the measurement was taken |
 | `heartRate` | Heart rate value (BPM) |
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
 {.btn-grid .my-5}

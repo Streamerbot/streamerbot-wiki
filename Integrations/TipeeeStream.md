@@ -24,8 +24,7 @@ Variable | Description
 `tipCurrency` | 3 letter curency code
 `tipMessage` | Any donation message the user may have included
 
-<div class="btn-grid">
-  
-  [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-  
-</div>
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}

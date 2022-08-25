@@ -48,5 +48,7 @@ dateCreated: 2022-06-01T04:57:34.650Z
 | `isTeam` | A `true`/`false` respone if this is a team
 | `isParticipant` | A `true`/`false` respone if the user is a participant
 
+---
+
 - [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
 {.btn-grid .my-5}

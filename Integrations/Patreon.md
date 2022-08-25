@@ -38,6 +38,7 @@ Patreon, a highly requested integration, is now available in Streamer.bot *v0.1.
 
 ## Pledge Deleted
 
+---
 
 - [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
-{.btn-grid .mt-10}
+{.btn-grid .my-5}
