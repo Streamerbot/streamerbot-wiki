@@ -2,7 +2,7 @@
 title: Set Color
 description: 
 published: true
-date: 2022-08-25T22:16:20.872Z
+date: 2022-08-25T22:18:22.102Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -12,7 +12,7 @@ dateCreated: 2022-08-25T21:54:15.039Z
 
 
 ## Configuration
-> You can delete any off these fields and it will work, so if you don't want to change the brightness, remove the brightness field.
+> You can delete any off these fields and it will work, so for example if you don't want to change the brightness, remove the brightness field.
 {.is-info}
 ### Colour
 A hex value used to change the colour of your light(s)
