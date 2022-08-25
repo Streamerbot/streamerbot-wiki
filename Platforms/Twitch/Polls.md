@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-08-25T14:49:23.931Z
+date: 2022-08-25T14:55:18.646Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -17,7 +17,7 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 **Note** I do plan on adding a `Sub-Action` for creating polls, at least, it's on my list, so this will provide another path, other then the [C# Example](#basic-creation-example) shown below.
 
 ## Variables
-> The `#` goes from 0 to 4
+> With `poll.choice#` you need to change the `#` from 0 to 4
 {.is-info}
 
 ### Created
