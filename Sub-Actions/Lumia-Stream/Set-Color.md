@@ -2,7 +2,7 @@
 title: Set Color
 description: 
 published: true
-date: 2022-08-25T22:18:22.102Z
+date: 2022-08-25T22:18:37.337Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
