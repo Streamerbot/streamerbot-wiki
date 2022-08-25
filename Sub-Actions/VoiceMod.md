@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-12T10:42:09.095Z
+date: 2022-08-25T07:59:29.904Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -21,7 +21,7 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [<i class="mdi mdi-headphones text--voicemod"></i>**Set Hear My Voice State *Toggles the hear my voice state***](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
 * [<i class="mdi mdi-volume-mute text--voicemod"></i>**Set Mute State *Toggles the mute state***](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [<i class="mdi mdi-robot text--voicemod"></i>**Set Voice Changer State *Toggles the Voice Changer state***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
-{.btn-grid}
+{.btn-grid .my-5}
 
 ---
  
