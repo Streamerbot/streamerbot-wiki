@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-07-20T21:57:16.893Z
+date: 2022-08-24T04:32:46.357Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -102,33 +102,30 @@ If `isLive` is `True` the following variables will also be populated on each tic
 `badges` | The badges for the user making the announcement <br> This is a `List<>` object
 {.vars-table}
 
-- [**More Info*Announcement Documentation***](/en/Twitch/Announcement)
-{.btn-grid}
-
 > This also contains the user's picked color, and user's months subscribed
 {.is-info}
 
 ***
 
 ## Message Deleted
-
 | Name | Description |
 |-----:|:------------|
 `message` | The message that was deleted from chat
 {.vars-table}
-## User Timed Out
 
+## User Timed Out
 | Name | Description |
 |-----:|:------------|
 `duration` | The amount of time the user was timed out for
 `user` | The user that was timed out 
 {.vars-table}
-## User Banned
 
+## User Banned
 | Name | Description |
 |-----:|:------------|
 `user` | The user that was banned <br> This will not be populated if the user has never been present in chat
 {.vars-table}
+
 ## Ad Run
 
 | Name | Description |

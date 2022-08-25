@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-22T00:46:25.366Z
+date: 2022-08-25T05:56:10.764Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -26,7 +26,7 @@ A special `obsRaw._json` will also be added, which is the entire JSON as a strin
 
 # Tabs
 ## Raw
-The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broadcasters/OBS/Requests) check [Explanation](#explanation) below for more info about raw code.
+The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broadcasters/OBS/Requests), and put those request fields in the `requestData` object.
 
 ![obsraw-menu-raw-default.png](/broadcasters/obs/raw/raw/obsraw-menu-raw-default.png)
 
@@ -67,8 +67,8 @@ This will save and close your code menu.
 ### Cancel
 This will undo what you just changed to the code and close the code menu.
 
+***
 
-# Explanation
 ### Format
 ```json
 {
@@ -76,17 +76,7 @@ This will undo what you just changed to the code and close the code menu.
   "requestData": { ... }
 }
 ```
-In the `requestData` you need to put all the request fields
-```json
-{
-  "requestType": "request method",
-  "requestData": { 
-    "request text": "text",
-    "request number": 123,
-    "request boolean": true
- }
-}
-```
+
 All the request fields can be found at the OBS raw Requests page
 - [<i class="mdi mdi-frequently-asked-questions text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcasters/OBS/Requests)
 {.btn-grid .my-5}
