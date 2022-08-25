@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-24T15:45:11.763Z
+date: 2022-08-25T05:56:10.764Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -26,7 +26,7 @@ A special `obsRaw._json` will also be added, which is the entire JSON as a strin
 
 # Tabs
 ## Raw
-The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broadcasters/OBS/Requests) check [Explanation](#explanation) below for more info about raw code.
+The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broadcasters/OBS/Requests), and put those request fields in the `requestData` object.
 
 ![obsraw-menu-raw-default.png](/broadcasters/obs/raw/raw/obsraw-menu-raw-default.png)
 
