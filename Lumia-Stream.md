@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: 
 published: false
-date: 2022-08-25T18:33:11.497Z
+date: 2022-08-25T18:33:43.741Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -21,6 +21,6 @@ You will land on this page
 
 ![lumia-connect-guide-user.png](/intergrations/lumia-stream/lumia-connect-guide-user.png =700x)
 
-Now go to the `Api` section, make sure that <span class="mdi mdi-checkbox-marked text--twitch" style="background-color: #ffffff; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Enable Developers API</span> is marked
+Now go to the `Api` section, make sure that <span class="mdi mdi-checkbox-marked text--twitch" style="background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Enable Developers API</span> is marked
 
 ![lumia-connect-guide-api.png](/intergrations/lumia-stream/lumia-connect-guide-api.png =700x)
