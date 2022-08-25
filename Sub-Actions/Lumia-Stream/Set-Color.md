@@ -2,14 +2,14 @@
 title: Set Color
 description: 
 published: true
-date: 2022-08-25T22:18:37.337Z
+date: 2022-08-25T22:19:14.349Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
 ---
 
 ## Overview
-
+![streamer.bot-intergration-lumia-stream-sub-action-set-color-default.png](/intergrations/lumia-stream/sub-actions/set-color/streamer.bot-intergration-lumia-stream-sub-action-set-color-default.png)
 
 ## Configuration
 > You can delete any off these fields and it will work, so for example if you don't want to change the brightness, remove the brightness field.
