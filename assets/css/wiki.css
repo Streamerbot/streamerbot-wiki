@@ -427,6 +427,9 @@ h6::after {
 .text--voicemod {
   color: #00fff6
 }
+.text--lumia-stream {
+  color: #ff4566
+}
 
 /* tables */
 #root .v-main .contents .vars-table tr > td:nth-child(2) code {
@@ -452,7 +455,7 @@ h6::after {
 .stars.stars--1 { --rating: 1; }
 .stars.stars--2 { --rating: 2; }
 .stars.stars--3 { --rating: 3; }
-.stars.stars--4{ --rating: 4; }
+.stars.stars--4 { --rating: 4; }
 .stars.stars--5 { --rating: 5; }
 .stars::before {
   content: '★★★★★';
