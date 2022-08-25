@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-24T03:00:16.749Z
+date: 2022-08-25T01:21:11.478Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,7 +31,7 @@ Upcoming changes in the next release!{.subtitle}
 * Extend First Chat event to YouTube
 * Some updates to how YouTube streams are found, this is still very much a WIP and more fixes will come
 * Auto strip newline and whitespace at the end of an import string when pasting
-* Remove Bits from Twitch Polls, as its being removed outright by Twitch
+* Remove Bits from Twitch Polls, as it's being removed outright by Twitch
 {.changelog-updates}
 
 <span></span>
@@ -43,6 +43,9 @@ Upcoming changes in the next release!{.subtitle}
 * Add new VoiceMod sub-action to play a soundboard sound
 * Add new VoiceMod sub-action to stop  playing all VoiceMod sounds
 * Regex commands will now add match group values as arguments, `%match[#]%`, as well as named match groups, if you're using `?<groupName>` in your regex
+* [Lumia Stream](#lumia-stream) integration!
+* New sub-action Send Command for Lumia Stream
+* New sub-action Set Color for Lumia Stream
 {.changelog-new}
 
 ## OBS Websocket v5.x
@@ -63,6 +66,9 @@ The new OBS Raw format for OBS Websocket v5.x is the following:
   "requestData": { ... }
 }
 ```
+
+## Lumia Stream
+**Streamer.bot** gains another integration, Lumia Stream! You can now connect to Lumia Stream and set light colors from within **Streamer.bot**
 
 ## Twitch New Scopes
 
