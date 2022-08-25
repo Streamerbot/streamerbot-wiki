@@ -2,7 +2,7 @@
 title: Set Color
 description: 
 published: true
-date: 2022-08-25T21:54:15.039Z
+date: 2022-08-25T22:16:20.872Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -35,3 +35,8 @@ The time it takes to transition from your current light properties to the set co
 
 ### Light
 A list of all your lights that you've added with Lumia Stream
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/en/Sub-Actions/Lumia-Stream)
+{.btn-grid .my-5}
