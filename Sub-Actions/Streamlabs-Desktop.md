@@ -2,7 +2,7 @@
 title: Streamlabs Desktop Sub-Actions
 description: Reference of all Streamlabs Desktop Sub-Actions
 published: true
-date: 2022-08-08T17:45:32.730Z
+date: 2022-08-26T17:16:40.676Z
 tags: subactions, streamlabsdesktop, streamlabs
 editor: markdown
 dateCreated: 2022-07-10T18:50:04.028Z
@@ -16,7 +16,7 @@ dateCreated: 2022-07-10T18:50:04.028Z
 ## Source
 * [<i class="mdi mdi-flip-horizontal text--streamlabs"></i>**Flip Source *Inverts the source vertically***](/Sub-Actions/Streamlabs-Desktop/Flip-Source)
 * [<i class="mdi mdi-group text--streamlabs"></i>**Hide Group's Sources *Hide all sources within a specified SLOBS source group***](/Sub-Actions/Streamlabs-Desktop/Hide-Groups-Sources)
-* [<i class="mdi mdi-rotate-right mdi-spin text--streamlabs"></i>**Rotate Source *Set source rotation translation***](/Sub-Actions/Streamlabs-Desktop/Rotate-Source)
+* [<i class="mdi mdi-rotate-right text--streamlabs"></i>**Rotate Source *Set source rotation translation***](/Sub-Actions/Streamlabs-Desktop/Rotate-Source)
 * [<i class="mdi mdi-google-chrome text--streamlabs"></i>**Set Browser Source URL *Set the URL of a browser source***](/Sub-Actions/Streamlabs-Desktop/Set-Browser-Source-URL){.disabled}
 * [<i class="mdi mdi-format-text text--streamlabs"></i>**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/Streamlabs-Desktop/Set-GDI-Text)
 * [<i class="mdi mdi-group text--streamlabs"></i>**Set Random Group Source Visible *Set a random source in an SLOBS group to `Visible`, Excludes sources already visible***](/Sub-Actions/Streamlabs-Desktop/Set-Random-Group-Source-Visible)
