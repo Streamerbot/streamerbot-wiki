@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-08-20T18:36:13.450Z
+date: 2022-08-26T23:18:20.465Z
 tags: obs, raw
 editor: markdown
 dateCreated: 2021-11-02T04:00:37.158Z
@@ -47,14 +47,12 @@ Here a basic example.
 
 ```json
 {
-"requestType":  "TheRequestType",
-	"requestData": {	
-"sceneName": "your scene name",
-"sourceSettings": {
-"color": 4278255360,
-"name": "your name",
- },
-	}
+  "requestType":  "TheRequestType",
+  "sceneName": "your scene name",
+  "sourceSettings": {
+   "color": 4278255360,
+   "name": "your name",
+  }
 }
 ```
 
@@ -69,9 +67,9 @@ I'm gonna split everything above up in pieces so you understand what this means.
 If your doing a sub branch like `sourceSettings` or `filterSettings` you need to do it like this
 
 ```json
-"sourceSettings": {
-"color": 4279410288,
-"name": "your name",
+  "sourceSettings": {
+  "color": 4279410288,
+  "name": "your name",
 },
 ```
 ---
@@ -92,7 +90,7 @@ Then you need to add the request type.
 
 ```json
 {
-"request-type": "SetSourceSettings"
+  "request-type": "SetSourceSettings"
 }
 ```
 
@@ -102,20 +100,19 @@ Now that you know what you can put it in
 
 ```json
 {
-"requestType":  "SetSourceSettings",
-	"requestData": {	
+"requestType":  "SetSourceSettings"
 "sourceName": "your source name",
 "sourceSettings": {
- "": "",
- },
+  "": "",
+  }
 }
 ```
 
 But to know what source settings exist you need to do GetSourceSettings
 
 ```json
-"request-type": "GetSourceSettings",
-"sourceName": "your source name",
+  "request-type": "GetSourceSettings",
+  "sourceName": "your source name",
 ```
 
 Now that we know that for this color source we can change the color/height and width (these things are diffrent depending on the source)
