@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-25T15:23:25.118Z
+date: 2022-08-26T19:19:06.302Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -66,6 +66,39 @@ The new OBS Raw format for OBS Websocket v5.x is the following:
 {
   "requestType": "request method",
   "requestData": { ... }
+}
+```
+
+### Get Scene Item Properties Sub-Action
+
+A quick note about this sub-action, while I tried to keep data structures the same between the 2 versions, the data for this one unfortunately changed. There is now a common format for the data
+
+```json
+{
+  "name": "name",
+  "itemId": 0,
+  "visible": true,
+  "locked": false,
+  "transform": {
+    "alignment": 0,
+    "boundsAlignment": 0,
+    "boundsHeight": 0.0,
+    "boundsType": "string",
+    "boundsWidth": 0.0,
+    "cropBottom": 0,
+    "cropLeft": 0,
+    "cropRight": 0,
+    "cropTop": 0,
+    "height": 0.0,
+    "positionX": 0.0,
+    "positionY": 0.0,
+    "rotation": 0.0,
+    "scaleX": 0.0,
+    "scaleY": 0.0,
+    "sourceHeight": 0.0,
+    "sourceWidth": 0.0,
+    "width": 0.0
+  }
 }
 ```
 
