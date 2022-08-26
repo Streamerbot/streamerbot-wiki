@@ -2,13 +2,13 @@
 title: Lumia Stream Sub-Actions
 description: Reference of all Lumia Stream Sub-Actions
 published: false
-date: 2022-08-26T16:05:27.176Z
+date: 2022-08-26T22:20:27.186Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T07:25:40.959Z
 ---
 
-<span style="background-color: #121212; padding: 4px 10px 4px 10px; border-radius: 10px; font-size: 30px; position:absolute; top: 0; left: 0; right: 0; text-align: center;"><b style="color: #008bf1;"> V0.1.11+</b></span>
+<span style="background-color: #1c1c1c; padding: 4px 10px 4px 10px; border-radius: 0px; font-size: 30px; position:absolute; top: 0; left: 0; right: 0; text-align: center; border: 1px solid #292929;"><b style="color: #008bf1;"> V0.1.11+</b></span>
 
 <span></span>
 <span></span>
