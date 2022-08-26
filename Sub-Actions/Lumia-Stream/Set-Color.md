@@ -2,7 +2,7 @@
 title: Set Color
 description: 
 published: false
-date: 2022-08-25T22:43:29.213Z
+date: 2022-08-26T22:06:29.731Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -18,8 +18,7 @@ dateCreated: 2022-08-25T21:54:15.039Z
 A hex value used to change the colour of your light(s)
 
 ### Brightness
-A value that changes the brightness of your light(s)
-*0-100*{.datatype}
+A value that changes the brightness of your light(s) *0-100*{.datatype}
 
 ### Duration
 A millisecond value used for a delay before switching back to default after the `Set Color` sub-action
