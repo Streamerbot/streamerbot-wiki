@@ -2,7 +2,7 @@
 title: Streamlabs Desktop
 description: Configure Streamlabs Desktop as a broadcaster in Streamer.bot
 published: true
-date: 2022-07-12T18:08:16.123Z
+date: 2022-08-26T12:08:00.208Z
 tags: broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2021-08-25T21:32:18.787Z
@@ -55,3 +55,9 @@ Shows the status of current streaming and recording activity
 ## Sources
 
 Lists all sources present on the currently selected scene
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Broadcasters *Go Back***](/en/Broadcasters)
+- [<img src="https://streamer.bot/img/integrations/streamlabs.png"/> **Set Active Scene *Up Next***](/en/Sub-Actions/Streamlabs-Desktop/Set-Active-Scene)
+{.btn-grid .my-5}
