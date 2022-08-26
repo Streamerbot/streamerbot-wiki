@@ -2,7 +2,7 @@
 title: Lumia Stream Sub-Actions
 description: Reference of all Lumia Stream Sub-Actions
 published: false
-date: 2022-08-26T22:20:27.186Z
+date: 2022-08-26T22:28:20.411Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T07:25:40.959Z
@@ -13,8 +13,8 @@ dateCreated: 2022-08-25T07:25:40.959Z
 <span></span>
 <span></span>
 
-* [<i class="mdi mdi-slash-forward-box" style="color: #FF4566;"></i>**Send Command *Sub-Action Description***](/en/Sub-Actions/Lumia-Stream/Send-Command)
-* [<i class="mdi mdi-format-color-fill" style="color: #FF4566;"></i>**Set Color *Change Color; Brightness; Duration; Transittion with your Lights***](/en/Sub-Actions/Lumia-Stream/Set-Color)
+* [<i class="mdi mdi-slash-forward-box" style="color: #FF4566;"></i>**Send Command *Send Commands to Lumia Stream to activate all your animations and more***](/en/Sub-Actions/Lumia-Stream/Send-Command)
+* [<i class="mdi mdi-format-color-fill" style="color: #FF4566;"></i>**Set Color *Change Color, Brightness, Duration and Transittion with your Lights***](/en/Sub-Actions/Lumia-Stream/Set-Color)
 {.btn-grid .my-5}
 
 ---
