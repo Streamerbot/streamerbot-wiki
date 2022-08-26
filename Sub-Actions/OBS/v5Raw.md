@@ -43,7 +43,7 @@ When you have clicked on the `Test` button you will see all the Response Fields/
 Here you see one parameter you can change to if the `Results` can be used as variables, by default this is on.
 
 ![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png)
-- [x] Add results to arguments
+- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Add results to arguments</span>
 
 # Other
 ### Name
