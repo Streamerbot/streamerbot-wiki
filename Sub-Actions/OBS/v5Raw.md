@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-08-25T05:56:10.764Z
+date: 2022-08-27T21:50:11.788Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -43,7 +43,7 @@ When you have clicked on the `Test` button you will see all the Response Fields/
 Here you see one parameter you can change to if the `Results` can be used as variables, by default this is on.
 
 ![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png)
-- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Add results to arguments</span>
+- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Add results to arguments</span>
 
 # Other
 ### Name
