@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-07-15T18:25:24.465Z
+date: 2022-08-27T13:23:04.193Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
@@ -161,28 +161,28 @@ Commands are platform agnostic and will trigger when a matching phrase is typed 
 {.is-warning}
 
 
-| Variable | Description | Notes
-|   ---:|-------------|---
-| `command` | The command that was used |
-| `commandID` | The ID of the command that was used | *v0.1.8+*{.version-badge}
-| `rawInput` | The message entered, if the command was a Starts With, this will be removed |
-| `rawInputEscaped` | The message escaped |
-| `rawInputUrlEncoded` | The message URL encoded |
-| `input#` | The # word of the message entered, spaces are delimiters and variable names are 0 indexed, so `input0` would give the first word, `input1` would give the second, and so on |
-| `inputEscaped#` | The indexed word escaped |
-| `inputUrlEncoded#` | The indexed word URL encoded |
-|`message` | The message typed in chat | (unverified)
-|`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
-|`isSubscribed` | Is user subscribed
-| `counter` | A running total of how many times a command has been run since application launch (if `Persisted` is checked, the total will be saved to settings.dat and read in at launch) |
-| `userCounter` | A running total of how many times a command has been run by this chat user since application launch (if `UserPersisted` is checked, the total will be saved to settings.dat and read in at launch) |
+| Name | Description |
+|-----:|:------------|
+`command` | The command that was used
+`commandID` | The ID of the command that was used *v0.1.8+*{.version-badge}
+`rawInput` | The message entered, if the command was a Starts With, this will be removed 
+`rawInputEscaped` | The message escaped
+`rawInputUrlEncoded` | The message URL encoded
+`input#` | The # word of the message entered, spaces are delimiters and variable names are 0 indexed, so `input0` would give the first word, `input1` would give the second, and so on
+`inputEscaped#` | The indexed word escaped
+`inputUrlEncoded#` | The indexed word URL encoded
+`message` | The message typed in chat | (unverified)
+`role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
+`isSubscribed` | Is user subscribed
+`counter` | A running total of how many times a command has been run since application launch (if `Persisted` is checked, the total will be saved to settings.dat and read in at launch)
+`userCounter` | A running total of how many times a command has been run by this chat user since application launch (if `UserPersisted` is checked, the total will be saved to settings.dat and read in at launch)
 
 If a cooldown action is set, and the command is in cooldown, the following variables will be the only ones available.
 
-| Variable | Description |
-|   ---:|-------------|
-| `command` | The command that was used |
-| `cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left |
-| `globalCooldownLeft` | How many seconds are left for the global cooldown of the command |
-| `userCooldownLeft` | How many seconds are left for the user cooldown of the command |
+| Name | Description |
+|-----:|:------------|
+`command` | The command that was used |
+`cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left
+`globalCooldownLeft` | How many seconds are left for the global cooldown of the command
+`userCooldownLeft` | How many seconds are left for the user cooldown of the command
 
