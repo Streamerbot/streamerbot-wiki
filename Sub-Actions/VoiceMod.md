@@ -2,19 +2,13 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-27T19:45:03.219Z
+date: 2022-08-27T21:23:00.722Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
 ---
 
 ![voicemod.png](/logos/voicemod.png){.align-abstopright}
-
-<section class="btn-grid" style="text-align: center;">
-  
-  <b style="color: #008BF1; font-size: 30px;">v0.1.8+</b>
-  
-</section>
 
 * [<i style="color: #00fff6;" class="mdi mdi-microphone text--voicemod"></i>**Get Current Voice *Queries VoiceMod for the current voice in use***](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
 * [<i style="color: #00fff6;" class="mdi mdi-animation-outline text--voicemod"></i>**Select Random Voice *Make Streamer.bot pick a random voice***](/en/Sub-Actions/VoiceMod/Select-Random-Voice)
@@ -25,16 +19,8 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [<i style="color: #00fff6;" class="mdi mdi-headphones text--voicemod"></i>**Set Hear My Voice State *Toggles the hear my voice state***](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
 * [<i style="color: #00fff6;" class="mdi mdi-volume-mute text--voicemod"></i>**Set Mute State *Toggles the mute state***](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [<i style="color: #00fff6;" class="mdi mdi-robot text--voicemod"></i>**Set Voice Changer State *Toggles the Voice Changer state***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
-{.btn-grid .my-5}
-
-<section class="btn-grid" style="text-align: center;">
-  
-  <b style="color: #008BF1; font-size: 30px;">v0.1.11+</b>
-  
-</section>
-
-* [<i style="color: #00fff6;" class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
-* [<i style="color: #00fff6;" class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
+* [<i style="color: #00fff6;" class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound *Coming Soon!*{.version-badge}***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
+* [<i style="color: #00fff6;" class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard *Coming Soon!*{.version-badge}***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
 {.btn-grid .my-5}
 
 ---
