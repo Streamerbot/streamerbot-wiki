@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-27T11:24:16.391Z
+date: 2022-08-27T11:24:51.626Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -27,8 +27,8 @@ dateCreated: 2022-07-10T19:06:14.215Z
 <span></span>
 <span></span>
 
-* [<i style="color: #00fff6;" class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound***](/en/Sub-Actions/VoiceMod/Set-Mute-State){.disabled}
-* [<i style="color: #00fff6;" class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State){.disabled}
+* [<i style="color: #00fff6;" class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
+* [<i style="color: #00fff6;" class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
 {.btn-grid .my-5}
 
 ---
