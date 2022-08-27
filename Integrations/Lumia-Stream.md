@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: false
-date: 2022-08-25T20:54:38.839Z
+date: 2022-08-27T21:49:06.867Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -38,8 +38,8 @@ You will land on this page
 
 Now go to the `Api` section and:
 
-- Mark <span class="mdi mdi-checkbox-marked" style="color: #ff4566; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Enable Developers API</span>
-- Click on <span class="mdi mdi-content-copy" style="color: #ff4566; background-color: #333333; padding: 0px 1px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Copy Token</span>
+- Mark <span class="mdi mdi-checkbox-marked" style="color: #ff4566; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Enable Developers API</span>
+- Click on <span class="mdi mdi-content-copy" style="color: #ff4566; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Copy Token</span>
 
 ![lumia-connect-guide-api.png](/intergrations/lumia-stream/lumia-connect-guide-api.png =700x)
 
@@ -48,8 +48,8 @@ Paste the token that you just copied from Lumia Stream into the `Token` box
 
 ![streamer.bot-intergration-lumia-stream-connection.png](/intergrations/lumia-stream/streamer.bot-intergration-lumia-stream-connection.png =700x)
 These checkboxes are recommended to be marked:
-- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Connect</span>
-- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #333333; padding: 0px 5px 0px 5px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Reconnect</span>
+- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Connect</span>
+- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Auto Reconnect</span>
 
 ---
 
