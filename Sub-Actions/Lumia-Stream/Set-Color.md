@@ -1,8 +1,8 @@
 ---
 title: Set Color
-description: 
+description: Lumia Stream Sub-Action Reference
 published: false
-date: 2022-08-26T22:58:25.879Z
+date: 2022-08-27T12:11:28.967Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
