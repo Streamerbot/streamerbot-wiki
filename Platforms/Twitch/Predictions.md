@@ -2,60 +2,102 @@
 title: Predictions
 description: 
 published: true
-date: 2022-07-13T20:00:41.324Z
+date: 2022-08-27T21:41:25.758Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z
 ---
 
 ## Prediction Variables
+> With `prediction.outcome#` you need to change the `#` from 0 to 9
+{.is-info}
 
-| Variable | Description |
-|---------:|:------------|
-| `prediction.Id` | Twitch's ID of the prediction |
-| `prediction.CreatedAt` | When it was created |
-| `prediction.Title` | It's title |
-| `prediction.PredictionWindow` | the duration of the prediction, in seconds |
+### Prediction Created
+| Name | Description |
+|-----:|:------------|
+`prediction.Id` | Twitch's ID of the prediction
+`prediction.CreatedAt` | When it was created
+`prediction.Title` | It's title
+`prediction.PredictionWindow` | the duration of the prediction, in seconds
+`prediction.outcome#.id` | Title for this outcome
+`prediction.outcome#.title` | Win
+`prediction.outcome#.users` | How many users picked this outcome
+`prediction.outcome#.points` | Total number of rewards used
+`prediction.outcome#.color` | In caps the color name e.g. `BLUE` or `PINK`
+`prediction._json` | All the variables in a JSON Object
 
-### Outcomes available
+### Prediction Updated
+| Name | Description |
+|-----:|:------------|
+`prediction.Id` | Twitch's ID of the prediction
+`prediction.CreatedAt` | When it was created
+`prediction.Title` | It's title
+`prediction.PredictionWindow` | the duration of the prediction, in seconds
+`prediction.outcome#.id` | Title for this outcome
+`prediction.outcome#.title` | Win
+`prediction.outcome#.users` | How many users picked this outcome
+`prediction.outcome#.points` | Total number of rewards used
+`prediction.outcome#.color` | In caps the color name e.g. `BLUE` or `PINK`
+`prediction._json` | All the variables in a JSON Object
 
-| Variable | Description |
-|---------:|:------------|
-| `prediction.outcome#.id` | Twitch's ID for the prediction |
-| `prediction.outcome#.title` | Title for the prediction |
-| `prediction.outcome#.users` | How many users picked this outcome |
-|`prediction.outcome#.points` | Total number of rewards used |
-| `prediction.outcome#.color` | The rgb hex color |
+### Prediction Locked
+| Name | Description |
+|-----:|:------------|
+`prediction.Id` | Twitch's ID of the prediction
+`prediction.CreatedAt` | When it was created
+`prediction.Title` | It's title
+`prediction.PredictionWindow` | the duration of the prediction, in seconds
+`prediction.outcome#.id` | Title for this outcome
+`prediction.outcome#.title` | Win
+`prediction.outcome#.users` | How many users picked this outcome
+`prediction.outcome#.points` | Total number of rewards used
+`prediction.outcome#.color` | In caps the color name e.g. `BLUE` or `PINK`
+`prediction.LockedAt` | When it was locked
+`prediction.EndedAt` | When it ended
 
+### Prediction Resolved
+| Name | Description |
+|-----:|:------------|
+`prediction.Id` | Twitch's ID of the prediction
+`prediction.CreatedAt` | When it was created
+`prediction.Title` | It's title
+`prediction.PredictionWindow` | the duration of the prediction, in seconds
+`prediction.outcome#.id` | Title for this outcome
+`prediction.outcome#.title` | Win
+`prediction.outcome#.users` | How many users picked this outcome
+`prediction.outcome#.points` | Total number of rewards used
+`prediction.outcome#.color` | In caps the color name e.g. `BLUE` or `PINK`
+`prediction.LockedAt` | When it was locked
+`prediction.EndedAt` | When it ended
+`prediction.winningOutcome.id` | The ID of the winning outcome
+`prediction.winningOutcome.title` | The title of the winning outcome
+`prediction.winningOutcome.users` | How many users voted for this prediction
+`prediction.winningOutcome.points` | The total number of channel points used by users
+`prediction.winningOutcome.color`	| In caps the color name e.g. `BLUE` or `PINK`
+`prediction._json` | All the variables in a JSON Object
 
-| Value | Description |
-|   ---:|-------------|
-| `prediction.winningIndex` | Either a 0 or 1 depending on which outcome was chosen as the winner |
-| `prediction.winningOutcome.id` | The ID of the winning outcome |
-| `prediction.winningOutcome.title` | The title of the winning outcome |
-| `prediction.winningOutcome.users` | How many users voted for this prediction |
-| `prediction.winningOutcome.points` | The total number of channel points used by users |
-| `prediction.winningOutcome.color` | The colour of the winning outcome |
-| `prediction._json` | JSON string of complete event information that can be parsed
-
-
-Replace the # in outcome# with 0 or 1, to get the outcome entry
+### Prediction Canceled
+| Name | Description |
+|-----:|:------------|
+`prediction.Id` | Twitch's ID of the prediction
+`prediction.CreatedAt` | When it was created
+`prediction.Title` | It's title
+`prediction.PredictionWindow` | the duration of the prediction, in seconds
+`prediction.outcome#.id` | Title for this outcome
+`prediction.outcome#.title` | Win
+`prediction.outcome#.users` | How many users picked this outcome
+`prediction.outcome#.points` | Total number of rewards used
+`prediction.outcome#.color` | In caps the color name e.g. `BLUE` or `PINK`
+`prediction.LockedAt` | When it was locked
+`prediction.EndedAt` | When it ended
 
 The above are available for all prediction events
 
-The two additional variable are availabe for `Completed`, `Pending` and `Locked` events
-
-| Variable | Description |
-|---------:|:------------|
-| `prediction.LockedAt` | When it was locked |
-| `prediction.EndedAt` | When it ended |
-
 Because how some of this is handled, it is recommended that Execute C# code is used for these as some logic maybe required
 
-**Note** if there are variables missing that you think maybe of benefit, let me know and I can likely add them in
+**Note** if there are variables missing that you think maybe of benefit, let us know [here](https://ideas.streamer.bot) and we can likely add them in
 
 ## Basic Creation Example
-
 To create a prediction outside of the UI, you will need to use [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code), a simple example is provided below.  I've added a few comments to it which hopefully will help you get it setup for your usage.  If you still have questions, be sure to ask them in the discord!
 
 ### Code
