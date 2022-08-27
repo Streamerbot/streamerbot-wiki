@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-27T11:24:51.626Z
+date: 2022-08-27T19:45:03.219Z
 tags: subactions, voicemod
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -10,8 +10,12 @@ dateCreated: 2022-07-10T19:06:14.215Z
 
 ![voicemod.png](/logos/voicemod.png){.align-abstopright}
 
-> Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
-{.is-info}
+<section class="btn-grid" style="text-align: center;">
+  
+  <b style="color: #008BF1; font-size: 30px;">v0.1.8+</b>
+  
+</section>
+
 * [<i style="color: #00fff6;" class="mdi mdi-microphone text--voicemod"></i>**Get Current Voice *Queries VoiceMod for the current voice in use***](/en/Sub-Actions/VoiceMod/Get-Current-Voice)
 * [<i style="color: #00fff6;" class="mdi mdi-animation-outline text--voicemod"></i>**Select Random Voice *Make Streamer.bot pick a random voice***](/en/Sub-Actions/VoiceMod/Select-Random-Voice)
 * [<i style="color: #00fff6;" class="mdi mdi-microphone text--voicemod"></i>**Select Voice *Select a Specific voice***](/en/Sub-Actions/VoiceMod/Select-Voice)
@@ -23,9 +27,11 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [<i style="color: #00fff6;" class="mdi mdi-robot text--voicemod"></i>**Set Voice Changer State *Toggles the Voice Changer state***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
 {.btn-grid .my-5}
 
-<span style="background-color: #1c1c1c; padding: 4px 10px 4px 10px; border-radius: 0px; font-size: 30px; position:absolute; left: 0; right: 0; text-align: center; border: 1px solid #292929;"><b style="color: #008bf1;"> v0.1.11+</b></span>
-<span></span>
-<span></span>
+<section class="btn-grid" style="text-align: center;">
+  
+  <b style="color: #008BF1; font-size: 30px;">v0.1.11+</b>
+  
+</section>
 
 * [<i style="color: #00fff6;" class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
 * [<i style="color: #00fff6;" class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
