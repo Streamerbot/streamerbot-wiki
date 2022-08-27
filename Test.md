@@ -2,7 +2,7 @@
 title: Testing Space
 description: 
 published: false
-date: 2022-08-27T19:13:03.118Z
+date: 2022-08-27T19:16:27.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -15,5 +15,5 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-* [**<b style="text-align: center; color: #008BF1;">v0.1.11+</b>**](https://wiki.streamer.bot/t/v0.1.11)
+* [**<b style="text-align: center; color: #008BF1;">v0.1.11+</b>*required***](https://wiki.streamer.bot/t/v0.1.11)
 {.btn-grid}
