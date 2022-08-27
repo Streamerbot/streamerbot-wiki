@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-08-27T19:01:56.819Z
+date: 2022-08-27T19:04:36.852Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -24,9 +24,9 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate monitor integration***](/en/Integrations/Pulsoid)
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donations integration***](/en/Integrations/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery integration***](/en/Integrations/TreatStream)
-- [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality*New!*{.version-badge}***](/en/Integrations/Streamer-bot)
+- [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality***](/en/Integrations/Streamer-bot)
 {.btn-grid .my-5}
 
 ## Upcoming in v0.1.11
-- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights!***](/en/Integrations/Lumia-Stream){.disabled}
+- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights!*New!*{.version-badge}***](/en/Integrations/Lumia-Stream){.disabled}
 {.btn-grid .my-5}
