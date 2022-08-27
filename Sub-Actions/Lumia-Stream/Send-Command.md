@@ -2,8 +2,8 @@
 title: Send Command
 description: Lumia Stream Sub-Action Reference
 published: false
-date: 2022-08-27T12:54:07.358Z
-tags: 
+date: 2022-08-27T21:52:20.170Z
+tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-27T12:54:07.358Z
 ---
