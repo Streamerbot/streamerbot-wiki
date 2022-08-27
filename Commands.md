@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-08-27T13:23:04.193Z
+date: 2022-08-27T13:23:10.565Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
@@ -181,7 +181,7 @@ If a cooldown action is set, and the command is in cooldown, the following varia
 
 | Name | Description |
 |-----:|:------------|
-`command` | The command that was used |
+`command` | The command that was used
 `cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left
 `globalCooldownLeft` | How many seconds are left for the global cooldown of the command
 `userCooldownLeft` | How many seconds are left for the user cooldown of the command
