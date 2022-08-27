@@ -38,3 +38,8 @@ dateCreated: 2022-06-28T01:36:29.236Z
 | `props.width` | `double`{.datatype} | Scene item width (base source width multiplied by the horizontal scaling factor)
 | `props.groupChildren[#].<one of these above>` | `mixed`{.datatype} | List of children (if this item is a group)
 | `props._json` | `string`{.datatype} | Everything above in a json format
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

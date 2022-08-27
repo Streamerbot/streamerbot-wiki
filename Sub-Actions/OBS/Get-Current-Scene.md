@@ -19,3 +19,8 @@ Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to
 | Name | Description |
 |-----:|:------------|
 | `currentScene` | Name of the currently active scene at the time of execution
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

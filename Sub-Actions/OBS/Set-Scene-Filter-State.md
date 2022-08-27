@@ -29,3 +29,8 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 If the selected OBS connection is currently connected, a dropdown list of available filters will populate for selection, otherwise the filter name can be entered manually.
 
 **NOTE** Filter names are case sensitive
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

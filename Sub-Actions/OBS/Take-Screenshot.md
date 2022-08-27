@@ -47,3 +47,8 @@ The following variables will be available after execution of this sub-action:
 | `screenshotFile` | The full path to the screenshot that was taken
 | `filedatetime` | Date Time varible that can be used for file name <br> `yyyyMMdd.hhmmss`
 {.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

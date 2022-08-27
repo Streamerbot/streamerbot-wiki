@@ -36,5 +36,7 @@ Complete the fields in the box. Connection will be to the OBS Instance of your c
 
 That’s it click the `Test` button to see if it works and the image should appear in your OBS preview.  When your happy click ok and you’re done.  
 
+---
 
-
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

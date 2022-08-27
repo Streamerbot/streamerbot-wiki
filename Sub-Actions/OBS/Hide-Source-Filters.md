@@ -40,3 +40,8 @@ Once you’re done click the `Test` button and check back in OBS/SLOBS and you'l
 ![image_2022-04-03_052615.png](/hide-source-filters/image_2022-04-03_052615.png){.align-center}
 
 Click `OK` to Confirm the Sub-Action and that’s it you're done
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

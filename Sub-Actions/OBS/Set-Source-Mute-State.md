@@ -30,3 +30,8 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 If the selected OBS connection is currently connected, a dropdown list of available sources will populate for selection, otherwise the source name can be entered manually.
 
 **NOTE** Source names are case sensitive
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

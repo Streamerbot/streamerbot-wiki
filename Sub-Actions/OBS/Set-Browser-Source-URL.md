@@ -20,3 +20,8 @@ This is the sub-action.
 ```csharp
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

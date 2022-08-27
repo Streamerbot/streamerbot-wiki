@@ -27,4 +27,9 @@ Name of the GDI source to change
 
 ### Text
 
-Enter any text or display the contents of a defined `variable`  
+Enter any text or display the contents of a defined `variable`
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

@@ -80,3 +80,8 @@ This will undo what you just changed to the code and close the code menu.
 All the request fields can be found at the OBS raw Requests page
 - [<i class="mdi mdi-frequently-asked-questions text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcasters/OBS/Requests)
 {.btn-grid .my-5}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

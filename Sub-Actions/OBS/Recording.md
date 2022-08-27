@@ -17,3 +17,8 @@ Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to
 ### State
 
 `Start` `Stop` `Pause` `Resume`
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

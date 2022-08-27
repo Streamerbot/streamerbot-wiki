@@ -230,20 +230,20 @@ h6::after {
   position: absolute;
   right: .5rem;
 }
+.obs-version-badge {
+  border-radius: 15px;
+  font-size: .75rem;
+  color: #fff;
+  background-color: #545454;
+  border: 1px solid #1e2c37;
+  padding: 0.2rem 0.5rem;
+  align-self: center;
+  font-style: normal;
+}
 .v-application.theme--dark .contents .links-list .obs-version-badge {
   color: #fff !important;
   position: absolute;
   right: .5rem;
-}
-.obs-version-badge {
-    border-radius: 15px;
-    font-size: .75rem;
-    color: #fff;
-    background-color: #545454;
-    border: 1px solid #1e2c37;
-    padding: 0.2rem 0.5rem;
-    align-self: center;
-    font-style: normal;
 }
 .translation-badge {
   border-radius: 15px;
@@ -256,6 +256,11 @@ h6::after {
   position: absolute;
   top: 0;
   right: 0;
+}
+.v-application.theme--dark .contents .links-list .translation-badge {
+  color: #fff !important;
+  position: absolute;
+  right: .5rem;
 }
 #root .v-main .contents .version-badge > a
 #root .v-main .contents .obs-version-badge > a
@@ -321,6 +326,20 @@ h6::after {
   justify-content: space-around;
 }
 #root .v-main .contents .btn-grid .version-badge {
+  position: absolute;
+  top: 1rem;
+  right: .5rem;
+  font-size: .5em;
+  color: #fff !important;
+}
+#root .v-main .contents .btn-grid .obs-version-badge {
+  position: absolute;
+  top: 1rem;
+  right: .5rem;
+  font-size: .5em;
+  color: #fff !important;
+}
+#root .v-main .contents .btn-grid .translation-badge {
   position: absolute;
   top: 1rem;
   right: .5rem;

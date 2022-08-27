@@ -35,3 +35,8 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 `Vertical` Inverts the Y axis
 
 `Both` Inverts both X and Y axes
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

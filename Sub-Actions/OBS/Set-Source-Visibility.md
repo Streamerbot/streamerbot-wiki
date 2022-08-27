@@ -31,3 +31,8 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 ### Visible
 
 Checking this option will activate the selected source, unchecking it will hide it.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

@@ -21,3 +21,8 @@ Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
 **NOTE** Scene names are case sensitive 
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

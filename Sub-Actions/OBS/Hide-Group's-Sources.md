@@ -23,3 +23,8 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 ### Group
 
 If the selected OBS connection is currently connected, a dropdown list of available groups will populate for selection, otherwise the scene name can be entered manually.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

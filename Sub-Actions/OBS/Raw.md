@@ -137,3 +137,8 @@ color: Needs to be ABGR with the `Pick Color` sub-action you can convert the col
 height: It is a number so it doesn't need ""
 
 width: It is a number so it doesn't need ""
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}
