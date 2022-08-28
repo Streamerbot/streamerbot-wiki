@@ -2,7 +2,7 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: false
-date: 2022-08-28T20:28:52.269Z
+date: 2022-08-28T21:03:31.527Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -18,8 +18,7 @@ dateCreated: 2022-08-25T21:54:15.039Z
 A hex value used to change the colour of your light(s)
 
 #### Brightness
----|---
-A value that changes the brightness of your light(s) | *0-100*{.datatype}
+A value that changes the brightness of your light(s)
 
 #### Duration
 A millisecond value used for a delay before switching back to default after the `Set Color` sub-action
