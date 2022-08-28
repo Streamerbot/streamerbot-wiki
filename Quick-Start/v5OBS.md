@@ -1,8 +1,8 @@
 ---
-title: Quick Start - OBS Studio (v0.1.11)
+title: Quick Start - OBS Studio (v5)
 description: Set up Streamer.bot to remotely control your OBS instance
 published: false
-date: 2022-08-28T20:06:22.021Z
+date: 2022-08-28T20:10:35.737Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-28T19:58:44.810Z
