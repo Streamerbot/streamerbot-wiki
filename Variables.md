@@ -2,13 +2,13 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-08-02T08:04:41.165Z
+date: 2022-08-28T18:52:33.830Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
 ---
 
-# Overview
+## Overview
 
 All [events](/en/Events) in Streamer.bot will generate an **argument stack** specific to that event source, providing variable data to the action (and subsequent [sub-actions](/en/Sub-Actions)) being called.
 
@@ -20,13 +20,13 @@ Most events will always include all generic arguments in addition to their own d
 {.is-info}
 
 
-# Usage
+## Usage
 
 Variables can be used in most [sub-action](/en/Sub-Actions) text inputs.
 
 To use a variable from the current argument stack, wrap the variable name with a `%` symbol, e.g. `%userName%`
 
-## Tips
+### Tips
 
 - Arguments only persist until the called action finishes execution and can not be referenced by any other action
 	- If you want to share variables across multiple actions you can write them out to a [Global](/en/Sub-Actions/Logic/Global-Variables) variable{.small}
@@ -37,7 +37,7 @@ To use a variable from the current argument stack, wrap the variable name with a
   - Wrapped variable names will still work as normal in this context{.small}
 
 
-## Formatting
+### Formatting
 Variables can be formatted inline using standard C# notation
 
 For example, to format a numeric veriable `%tipAmount%` as a currency with 2 decimal places, we can use the following syntax: `%tipAmount:c2%`
@@ -46,12 +46,12 @@ Similarly, `%time%` can be formatted in short notation with AM/PM using the foll
 
 Further information on valid formatting modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) and valid format strings for `%time%` can be found [here](/en/Sub-Actions/Code/Other/DateTime)
 
-## Inline Functions
+### Inline Functions
 
 Anywhere you can do a variable replacement, you can also execute [Inline Functions](/en/Inline-Functions)
 
 
-# Variable Sources
+## Variable Sources
 - [<i class="mdi mdi-variable-box primary--text"></i> **Generic Variables *Available to most triggers automatically***](/en/Variables/Generic)
 - [<i class="mdi mdi-creation primary--text"></i> **Events *All events and their associated variables***](/en/Events)
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Some sub-actions will also generate variables***](/en/Sub-Actions)
