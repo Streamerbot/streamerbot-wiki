@@ -2,21 +2,21 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2022-08-22T00:33:04.012Z
+date: 2022-08-28T09:46:51.954Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
 ---
 
-# Overview
+## Overview
 Streamer.bot can handle alerts for both an incoming and outgoing raid from the channel, the actions for both can be configured on the `Raid` tab
 
 ![raid.png](/raid.png)
 
 
-## Incoming Raids
+### Incoming Raids
 
-### Generic
+#### Generic
 The `Generic` action is run on any incoming raid that does not match a defined range
 
 ### Viewer Ranges
@@ -26,21 +26,21 @@ If you would like a special alert to override the generic action for incoming ra
 {.is-info}
 
 
-## Outgoing Raids
+### Outgoing Raids
 Streamer.bot can also perform actions when you are preparing to raid at the end of your stream and provides 3 events it can listen to: `Start`, `Cancel`, `Send`
 
-### Start
+#### Start
 This triggers when the Raid command is first sent either from a `/raid` command in chat or from the Twitch! dashboard. 
 Streamer.bot will detect the destination username and populate the following [Variables](/en/Variables#sending-a-raid) that can be used to drive on screen elements and chat messages
 
-### Cancel
+#### Cancel
 If for any reason the raid is cancelled, this action will trigger. It can be used to reset any elements initialised by the `Start` event or kick off something completely new
 
-### Send
+#### Send
 This event triggers after the raid has transferred your users to the new channel. This is useful for cleanup actions such as turning off lights, stopping streaming state etc.
 
-# Variables
-## Incoming
+## Variables
+### Incoming
 | Name | Description |
 |-----:|:------------|
 `user` | The user who is raiding the channel
@@ -51,7 +51,7 @@ This event triggers after the raid has transferred your users to the new channel
 > **%raiderNames%** is a best guess effort in determining who came along in the raid, there is currently no mechanism from Twitch that provides this information during a raid, so a few extra API calls are made to "guess" at this list
 {.is-info}
 
-## Sending a Raid
+### Sending a Raid
 | Name | Description |
 |-----:|:------------|
 `raidUser` | Target user's display name
