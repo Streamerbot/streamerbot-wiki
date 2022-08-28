@@ -2,7 +2,7 @@
 title: Variable Types
 description: A list of all available variable types that you can import in to your code
 published: true
-date: 2022-08-08T19:07:00.882Z
+date: 2022-08-28T18:48:11.818Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T22:11:03.320Z
@@ -38,7 +38,7 @@ int number = Convert.ToInt32(args["number"].ToString());
 
 ## bool
 ---
-> `bool` is for `true`/`false`
+> `bool` is for `true` / `false`
 {.is-info}
 ```csharp
 bool boolean = Convert.ToBoolean(args["boolean"]);
