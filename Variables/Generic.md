@@ -2,7 +2,7 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2022-07-15T19:26:53.427Z
+date: 2022-08-28T18:53:02.602Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
@@ -18,8 +18,8 @@ Useful general purpose variables{.subtitle}
 
 | Name | Description |
 |-----:|:------------|
-| `date` | Current system date <br> *Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`*{.small}
-| `time` | Current system time <br> *Accepts any standard formtting notation eg. `HH-mm`*{.small}
+`date` | Current system date <br> *Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`*{.small}
+`time` | Current system time <br> *Accepts any standard formtting notation eg. `HH-mm`*{.small}
 {.vars-table}
 
 ## Event User
