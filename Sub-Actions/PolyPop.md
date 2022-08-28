@@ -2,16 +2,13 @@
 title: PolyPop Sub-Actions
 description: Reference of all PolyPop Sub-Actions
 published: true
-date: 2022-07-21T17:26:18.500Z
+date: 2022-08-28T14:20:56.858Z
 tags: subactions, polypop
 editor: markdown
 dateCreated: 2022-07-10T18:51:37.383Z
 ---
 
-> Available as of **Streamer.bot** *v0.1.8*{.version-badge} and higher
-{.is-info}
-
-* [<i class="mdi mdi-variable text--polypop"></i>**Trigger Alert *Trigger Events in PolyPop via WebSocket***](/en/Sub-Actions/PolyPop/Trigger-Alert)
+* [<i class="mdi mdi-variable-box text--polypop"></i>**Trigger Alert *Trigger Events in PolyPop via WebSocket *0.1.8*{.version-badge}***](/en/Sub-Actions/PolyPop/Trigger-Alert)
 {.btn-grid .my-5}
 
 
