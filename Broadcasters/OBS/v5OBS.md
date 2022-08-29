@@ -2,13 +2,13 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-29T10:17:39.815Z
+date: 2022-08-29T10:19:52.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
 ---
 
-## Quick Links
+# Quick Links
 
 - [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
