@@ -16,8 +16,8 @@ Integrate with [TipeeeStream](https://www.tipeeestream.com) to receive donation 
 # Events
 ## Donation
 
-Variable | Description
----------:|------------
+Name | Description
+----:|:------------
 `tipUsername` | Who the donation was from, as the user filled out
 `tipAvatar` | Avatar of the user
 `tipAmount` | The amount of the tip (decimal value)

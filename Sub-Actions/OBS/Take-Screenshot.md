@@ -42,8 +42,8 @@ Select the desired image quality or leave as `Auto`
 
 The following variables will be available after execution of this sub-action:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `screenshotFile` | The full path to the screenshot that was taken
 | `filedatetime` | Date Time varible that can be used for file name <br> `yyyyMMdd.hhmmss`
 {.vars-table}

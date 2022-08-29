@@ -31,8 +31,8 @@ This can be any variable defined in a previous [sub-action](Sub-Actions) or coul
 ## Variables
 The following variables will be available after execution of this sub-action:
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 `targetUser` | Display name of the target user
 `targetUserName` | User name of the target user
 `targetUserId` | User Id of the target user

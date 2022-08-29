@@ -13,8 +13,8 @@ dateCreated: 2021-08-25T21:34:38.706Z
 {.is-info}
 
 ### Prediction Created
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prediction.Id` | Twitch's ID of the prediction
 `prediction.CreatedAt` | When it was created
 `prediction.Title` | It's title
@@ -27,8 +27,8 @@ dateCreated: 2021-08-25T21:34:38.706Z
 `prediction._json` | All the variables in a JSON Object
 
 ### Prediction Updated
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prediction.Id` | Twitch's ID of the prediction
 `prediction.CreatedAt` | When it was created
 `prediction.Title` | It's title
@@ -41,8 +41,8 @@ dateCreated: 2021-08-25T21:34:38.706Z
 `prediction._json` | All the variables in a JSON Object
 
 ### Prediction Locked
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prediction.Id` | Twitch's ID of the prediction
 `prediction.CreatedAt` | When it was created
 `prediction.Title` | It's title
@@ -56,8 +56,8 @@ dateCreated: 2021-08-25T21:34:38.706Z
 `prediction.EndedAt` | When it ended
 
 ### Prediction Resolved
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prediction.Id` | Twitch's ID of the prediction
 `prediction.CreatedAt` | When it was created
 `prediction.Title` | It's title
@@ -77,8 +77,8 @@ dateCreated: 2021-08-25T21:34:38.706Z
 `prediction._json` | All the variables in a JSON Object
 
 ### Prediction Canceled
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prediction.Id` | Twitch's ID of the prediction
 `prediction.CreatedAt` | When it was created
 `prediction.Title` | It's title

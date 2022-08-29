@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T02:32:10.168Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `TransitionListChanged`
 | `obsEvent.transitions[#].name` | The name of all transitions
 | `obsEvent.update-type	` | The update type of the OBS event in this case `TransitionListChanged`

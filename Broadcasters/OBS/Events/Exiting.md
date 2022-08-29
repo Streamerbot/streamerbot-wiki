@@ -12,8 +12,8 @@ dateCreated: 2022-07-15T15:36:41.197Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `Exiting`
 | `obsEvent.update-type` | The update type of the OBS event in this case `Exiting`
 | `obsEvent._json` | Everything above in a json format

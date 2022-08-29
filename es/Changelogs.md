@@ -211,8 +211,8 @@ List<ClipData> GetClipsForGame(int gameId, TimeSpan duration, int count);
 
 If Twitch is connected, actions will have the following five variables available to them
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `%broadcastUser%` | The Twitch display name of the broadcast account |
 | `%broadcastUserName%` | The Twitch user name of the broadcast account |
 | `%broadcastUserId%` | The Twitch user ID of the broadcast account |
@@ -329,14 +329,14 @@ Using this sub-action you can get the state of a command, whether its enabled or
 
 #### Variables provided for `Get Command State`
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `%commandState%` | The state of the command `true`/`false` |
 
 #### Variable provided for `Get Command Group State`
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `%commandGroupState%` | The state of the command group, see table below for information |
 | `%commandsEnabled%` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
 | `%commandsDisabled%` | A `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |
@@ -355,14 +355,14 @@ Using this sub-action you can get the state of an action, whether its enabled or
 
 #### Variables provided for `Get Action State`
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `%actionState%` | The state of the action `true`/`false` |
 
 #### Variables provided for `Get Action Group State`
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `%actionGroupState%` | The state of the command group, see table below for information |
 | `%actionsEnabled%` | A list of action IDs that are enabled |
 | `%actionsDisabled%` | A list of action IDs that are disabled |

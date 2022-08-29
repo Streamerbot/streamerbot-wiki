@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T16:27:45.471Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `MediaStopped`
 | `obsEvent.sourceKind` | Source kind
 | `obsEvent.sourceName` | Source name

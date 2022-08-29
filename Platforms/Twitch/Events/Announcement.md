@@ -9,8 +9,8 @@ dateCreated: 2022-08-24T04:27:32.538Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `announceColor` | The color of the announcement <br> `DEFAULT`, `BLUE`, `RED`, `ORANGE`, `PURPLE`
 `message` | The announcement message
 `messageStripped` | The announcement message without emotes

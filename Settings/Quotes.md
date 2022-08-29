@@ -44,8 +44,8 @@ You can automate the retrieval of a specific or random quote using the Get Quote
 
 When using the built-in `!quote` command the following variables will be made available:
 
-| Variable | Description |
-|   ---:|-------------|
+Name | Description
+----:|:------------
 | `quote` | The quote content
 | `quoteID` | The quote ID number
 | `quoteUser` | The user that added the quote,

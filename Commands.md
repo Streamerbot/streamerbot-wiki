@@ -161,8 +161,8 @@ Commands are platform agnostic and will trigger when a matching phrase is typed 
 {.is-warning}
 
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `command` | The command that was used
 `commandID` | The ID of the command that was used *v0.1.8+*{.version-badge}
 `rawInput` | The message entered, if the command was a Starts With, this will be removed 
@@ -179,8 +179,8 @@ Commands are platform agnostic and will trigger when a matching phrase is typed 
 
 If a cooldown action is set, and the command is in cooldown, the following variables will be the only ones available.
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `command` | The command that was used
 `cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left
 `globalCooldownLeft` | How many seconds are left for the global cooldown of the command

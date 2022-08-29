@@ -14,8 +14,8 @@ The Stream Update event is triggered any time your stream category or title chan
 ## Variables
 The following variables are available from this event:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `status` | Current stream title
 `gameUpdate` | Boolean value denoting whether the game category has changed <br> `True / False`
 `statusUpdate` | Boolean value denoting whether the stream title has changed <br> `True / False`

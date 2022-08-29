@@ -37,8 +37,8 @@ You can define ranges to assign special actions that will trigger in place of th
 These ranges refer to the both the tier they subscribe at and the total time they have been subscribed for
 
 # Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `tier` | Subscription tier <br> `Prime`, `Tier 1`. `Tier 2`, `Tier 3`
 `monthStreak` | Current subscription streak in months <br> *Not for sub event. Only for re-sub event.*{.small}
 `cumulative` | Total number of months a user has been subscribed for <br> *Not for sub event. Only for re-sub event.*{.small}

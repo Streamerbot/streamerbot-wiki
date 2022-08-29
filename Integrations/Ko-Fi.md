@@ -39,8 +39,8 @@ To configure Kofi:
 ### Donation
 This event is triggered when a donation happens through Kofi
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -52,8 +52,8 @@ This event is triggered when a donation happens through Kofi
 ### Subscription
 This event is triggered when a subscription happens through Kofi
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -66,8 +66,8 @@ This event is triggered when a subscription happens through Kofi
 ### Resubscription
 This event is triggered when a resubscription happens through Kofi
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -80,8 +80,8 @@ This event is triggered when a resubscription happens through Kofi
 ### Shop Purchase
 This event is triggered when a shop purchase happens through Kofi
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -95,8 +95,8 @@ This event is triggered when a shop purchase happens through Kofi
 ### Commissions
 This event is triggered when a commission is purchased on Kofi
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |

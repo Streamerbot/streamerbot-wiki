@@ -41,8 +41,8 @@ This event triggers after the raid has transferred your users to the new channel
 
 ## Variables
 ### Incoming
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user who is raiding the channel
 `viewers` | Number of viewers in the raid as reported by Twitch
 `raiderNames` | A comma separated list of display names of users in the raid, any names in groups that have been marked as bots will be excluded.
@@ -52,8 +52,8 @@ This event triggers after the raid has transferred your users to the new channel
 {.is-info}
 
 ### Sending a Raid
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `raidUser` | Target user's display name
 `raidUserName` | Target user's Twitch! login name
 `raidUserId` | Target user's Twitch! ID

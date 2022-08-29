@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T17:41:08.865Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SceneItemAdded`
 | `obsEvent.item-id` | Scene item ID
 | `obsEvent.item-name` | Name of the item added to the scene

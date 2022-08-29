@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:44:48.387Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `RecordingStopped`
 | `obsEvent.recordingFilename` | The file name of the recording |
 | `obsEvent.update-type` | The update type of the OBS event in this case `RecordingStopped`

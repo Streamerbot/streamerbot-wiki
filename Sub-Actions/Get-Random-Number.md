@@ -18,14 +18,14 @@ This sub action will; let you add a random number to your arguments, either betw
 
 If you pick a random number between 2 values, you will get the following variables
 
-Variable | Description
----------|------------
+Name | Description
+----:|:------------
 `randomNumber` | Random number
 
 If you pick next float, you will get the following
 
-Variable | Description
----------|------------
+Name | Description
+----:|:------------
 `randomFloat` | A floating point number between 0 and 1
 `randomPercent` | The floating point number represented as a percentage
 

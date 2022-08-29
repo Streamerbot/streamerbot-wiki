@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T18:11:35.645Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `RecordingPaused`
 | `obsEvent.rec-timecode` | The length of the recording formatted like `hh:mm:ss.sss`
 | `obsEvent.update-type` | The update type of the OBS event in this case `RecordingPaused`

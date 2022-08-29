@@ -28,8 +28,8 @@ Ranges can be `Generic` to match any Tier or can be set to count gifts of specif
 The Ranges can also be `Anonymous`, `Non-Anonymous` or `Either`
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `gifts` | Number of subscriptions in this gift bomb
 `totalGifts` | Total number of subscriptions this user has gifted
 `fromGiftBomb` | Boolean value if sub came from a gift bomb <br>  `True`/`False` 

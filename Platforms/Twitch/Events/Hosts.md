@@ -25,8 +25,8 @@ If you would like a special alert to override the generic action for incoming ho
 > Mileage may vary, Twitch API documentation does not match real life results
 {.is-warning}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user who is hosting the channel
 `viewers` | Provides an estimate of live viewers watching a hosted stream
 {.vars-table}

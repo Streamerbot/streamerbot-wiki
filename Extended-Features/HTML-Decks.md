@@ -79,8 +79,8 @@ Clcik the "Launch Deck" button in the top right to open a new tab with your URL 
 ## Variables
 The following arguments are sent with all button actions and will be available in your Streamer.bot instance as variables
 
-| Variable | Description |
-|      ---:|-------------|
+Name | Description
+----:|:------------
 | `streamerbotUserId` | Streamer.bot user ID |
 | `streamerbotUserDiscordId` | The Discord user ID of the redeemer |
 | `streamerbotUserUsername` | The Streamer.bot username of the redeemer e.g. DiscordUsername#0000 |

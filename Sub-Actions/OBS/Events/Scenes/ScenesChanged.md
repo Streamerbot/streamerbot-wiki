@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:53:30.436Z
 
 ## Variables
 
-| Variable | Description | Notes |
-|---------:|:------------|-------|
+Name | Description | Notes
+----:|:------------|:------
 | `obsEvent.event` | The OBS event in this case `ScenesChanged`
 | `obsEvent.scene-name` | The name of the scene it switches to
 | `obsEvent.scenes[#]` | The settings of all your OBS scenes | (**Note** this gives a lot of variables, it can be in the thousands)

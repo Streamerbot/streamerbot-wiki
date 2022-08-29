@@ -16,8 +16,8 @@ Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to
 
 ## Variables
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `currentScene` | Name of the currently active scene at the time of execution
 
 ---

@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:09:06.949Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SwitchScenes`
 | `obsEvent.scene-name` | The name of the scene it switches to
 | `obsEvent.sources[#]` | The settings of the sources in the scene you switched to

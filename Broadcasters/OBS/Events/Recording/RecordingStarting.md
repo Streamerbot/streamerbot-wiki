@@ -22,8 +22,8 @@ dateCreated: 2022-06-27T17:28:11.096Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `RecordingStarting`
 | `obsEvent.update-type` | The update type of the OBS event in this case `RecordingStarting`
 | `obsEvent._json` | Everything above in a json format

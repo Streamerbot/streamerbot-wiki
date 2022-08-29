@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T16:47:50.777Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceOrderChanged`
 | `obsEvent.scene-items[#].item-id` | Scene item unique ID
 | `obsEvent.scene-items[#].source-name` | Item source name

@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T16:29:57.611Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `MediaNext`
 | `obsEvent.sourceKind` | Source kind
 | `obsEvent.sourceName` | Source name

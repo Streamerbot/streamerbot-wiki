@@ -52,8 +52,8 @@ TlM0RR+LCAAAAAAABACVVE1vnDAQvVfqf7CQclu3BoOB3FY59FZVVW5VDsYeZ5EMbGy8ySrKfy+GRXzt
 
 This sub-action populates 2 variables with the custom name you specify, one as a string and one as a list
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action |
 | `<variableName>.List` | List object for C# containing all commands matching criteria specified in the sub-action |
 

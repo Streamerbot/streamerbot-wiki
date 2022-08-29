@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T15:42:26.234Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceRenamed`
 | `obsEvent.newName` | New source name
 | `obsEvent.previousName` | Previous source name

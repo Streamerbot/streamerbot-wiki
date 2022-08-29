@@ -24,7 +24,7 @@ Select the state to test for.
 
 The following variables will be available after execution of this sub-action:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `actionState` | Boolean for selected action state <br> `True / False`
 {.vars-table}

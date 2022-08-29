@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T18:19:56.970Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SceneItemDeselected`
 | `obsEvent.item-id` | Scene item ID
 | `obsEvent.item-name` | Name of the item in the scene

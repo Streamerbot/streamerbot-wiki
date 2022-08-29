@@ -15,8 +15,8 @@ If Twitch is connected, actions will have the following five variables available
 *v0.1.5-v0.1.7*{.version-badge} This functionality is automatic
 *v0.1.8+*{.version-badge} Requires the [Add Broadcaster Information](/en/Sub-Actions) sub-action because YouTube integration was added
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `broadcastUser` | The Twitch display name of the broadcaster account
 | `broadcastUserName` | The Twitch user name of the broadcaster account
 | `broadcastUserId` | The Twitch user ID of the broadcaster account

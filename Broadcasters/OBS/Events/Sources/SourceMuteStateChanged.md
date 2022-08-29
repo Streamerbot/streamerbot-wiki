@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T14:17:21.696Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceMuteStateChanged`
 | `obsEvent.muted` | Mute status of the source
 | `obsEvent.sourceName` | Source name

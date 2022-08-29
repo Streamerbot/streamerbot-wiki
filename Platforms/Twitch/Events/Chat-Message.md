@@ -9,8 +9,8 @@ dateCreated: 2022-08-23T21:28:11.564Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `msgId` | Twitch's message ID 
 `role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Boolean value indicating the user's subscription status <br> `True`/`False`

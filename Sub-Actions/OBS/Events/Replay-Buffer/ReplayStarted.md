@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T20:04:59.521Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `ReplayStarted`
 | `obsEvent.update-type` | The update type of the OBS event in this case `ReplayStarted`
 | `obsEvent._json` | Everything above in a json format

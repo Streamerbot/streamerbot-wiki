@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T13:55:54.310Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceCreated`
 | `obsEvent.sourceKind` | Source kind
 | `obsEvent.sourceName` | Source name

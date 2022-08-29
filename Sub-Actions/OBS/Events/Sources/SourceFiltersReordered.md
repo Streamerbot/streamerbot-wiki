@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T16:07:15.707Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceFiltersReordered`
 | `obsEvent.filters[#].enabled` | Filter visibility status
 | `obsEvent.filters[#].name` | Filter name

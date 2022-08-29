@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T20:56:37.417Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `BroadcastCustomMessage`
 | `data` | User-defined data
 | `realm` | Identifier provided by the sender

@@ -30,8 +30,8 @@ The following variables will be available after execution of this sub-action:
 > In each of the following variables, replace `myColor` with the variable name you configured.
 {.is-warning}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `myColor.color.a` | The alpha value |
 | `myColor.color.r` | The red value |
 | `myColor.color.g` | The green value |

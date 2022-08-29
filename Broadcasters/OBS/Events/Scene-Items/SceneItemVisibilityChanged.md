@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T17:45:20.166Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SceneItemVisibilityChanged`
 | `obsEvent.item-id` | Scene item ID
 | `obsEvent.item-name` | Name of the item removed from the scene

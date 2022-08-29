@@ -9,8 +9,8 @@ dateCreated: 2022-06-23T02:31:00.996Z
 ---
 
 All events will also have the typical user information
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The title of the broadcast
 `userName` | The description of the broadcast
 `userId` | The time the broadcast was published at
@@ -19,8 +19,8 @@ All events will also have the typical user information
 
 # Broadcast Started
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `title` | The title of the broadcast
 `description` | The description of the broadcast
 `publishedAt` | The time the broadcast was published at
@@ -32,23 +32,23 @@ No variables
 
 # Message
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the message
 `message` | The message sent to the chat
 `publishedAt` | The time the message was published at
 
 # User Banned
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `banType` | The type of ban
 `banDuration` | The duration of the ban
 
 # Super Chat
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the super chat event
 `message` | The message of the super chat event
 `publishedAt` | The time the super chat event was published at
@@ -59,8 +59,8 @@ No variables
 
 # Super Sticker
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the super sticker event
 `publishedAt` | The time the super sticker event was published at
 `tier` | The tier for the paid message
@@ -73,8 +73,8 @@ No variables
 
 # Sponsor
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the sponsor event
 `publishedAt` | The time the sponsor event was published at
 `isUpgrade` | Indicates whether the viewer just upgraded from a lower level
@@ -82,8 +82,8 @@ No variables
 
 # Member Milestone
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the member milestone event
 `publishedAt` | The time the member milestone event was published at
 `months` | The total amount of months (rounded up) the viewer has been a member
@@ -92,31 +92,31 @@ No variables
 
 # Sponsor Only Mode Started
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the sponsor only mode started event
 `publishedAt` | The time the sponsor only mode event was published at
 
 
 # Sponsor Only Mode Ended
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `messageId` | The id of the sponsor only mode ended sticker event
 `publishedAt` | The time the sponsor only mode ended event was published at
 
 # Membership Gifting
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `id` | The title of the broadcast
 `count` | The description of the broadcast
 `tier` | The time the broadcast was published at
 
 # Gift Membership Received
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `id` | The id of the membership gifting event
 `tier` | The tier the gifted user received
 `gifterUser` | The display name of the user who received the gifted membership
@@ -128,8 +128,8 @@ No variables
 
 This event is fired whenever any of the values below change.
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `likeCount` | The number of likes the broadcast has
 `dislikeCount` | The number of dislikes the broadcast has
 `viewCount` | The number of viewers the broadcast has had
@@ -140,8 +140,8 @@ This event is fired whenever any of the values below change.
 
 This event is fired whenever any of the values below change.
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `id` | The id of the broadcast
 `title` | The title of the broadcast
 `description` |The description of the broadcast

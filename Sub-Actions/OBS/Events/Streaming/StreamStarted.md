@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:29:42.941Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `StreamStarted`
 | `obsEvent.stream-timecode` | The length of the stream formatted like `hh:mm:ss.sss`
 | `obsEvent.update-type` | The update type of the OBS event in this case `StreamStarted`

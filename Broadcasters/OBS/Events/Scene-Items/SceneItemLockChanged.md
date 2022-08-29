@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T17:48:06.836Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SceneItemLockChanged`
 | `obsEvent.item-id` | Scene item ID
 | `obsEvent.item-locked` | New locked state of the item

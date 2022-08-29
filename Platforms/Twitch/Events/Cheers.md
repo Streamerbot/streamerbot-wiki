@@ -39,8 +39,8 @@ Any action you assign to this type will be triggered when a non-anonymous cheer 
 
 
 # Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `msgId` | Twitch's message ID 
 `role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Boolean value indicating the user's subscription status <br>  `True`/`False`

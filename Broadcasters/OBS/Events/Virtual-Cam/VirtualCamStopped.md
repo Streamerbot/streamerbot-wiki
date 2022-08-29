@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T18:23:44.597Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `VirtualCamStopped`
 | `obsEvent.update-type` | The update type of the OBS event in this case `VirtualCamStopped`
 | `obsEvent._json` | Everything above in a json format

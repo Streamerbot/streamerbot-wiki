@@ -13,8 +13,8 @@ A custom broadcast message, sent by the server, requested by one of the websocke
 
 ## Variables
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `BroadcastCustomMessage`
 | `data` | User-defined data
 | `realm` | Identifier provided by the sender

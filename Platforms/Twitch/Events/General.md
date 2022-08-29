@@ -12,8 +12,8 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 # Events
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `Follows` | When someone follows your channel
 `Whispers` | When someone whispers your broadcaster account directly | If the whisper itself contains a command, the command action will trigger instead of this generic one
 `Present Viewers` | Triggers automatically every 5 minutes | Populates a dictionary of special variables for each user in chat
@@ -28,14 +28,14 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 # Variables 
 ## Follows
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `isTest` | Boolean value indicating if the follow event came from the internal Test button <br> `True`/`False`
 {.vars-table}
 
 ## Chat Message / Whispers & First Words
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `msgId` | Twitch's message ID 
 `role` | What role the user has `(1-4)` <br> 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Boolean value indicating the user's subscription status <br> `True`/`False`
@@ -57,16 +57,16 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 {.vars-table}
 
 ## Present Viewers
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `isLive` | Boolean for current streaming status <br> `True`/`False` 
 `isTest` | Boolean for if this is demo data or not <br> `True`/`False` 
 `users` | A Dictionary list of usernames present in IRC chat <br> Each user present will get the following data
 {.vars-table}
 
 ### User Dictionary
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `id` | The Numeric ID of this user
 `userName` | The user name of this user
 `display` | The display name of this user
@@ -78,8 +78,8 @@ The `General` tab covers 10 Simple events and a single action can be assigned to
 
 If `isLive` is `True` the following variables will also be populated on each tick of the event:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `title` | The current stream title
 `gameID` | The ID of the category you are streaming
 `gameName` | The name of the category you are streaming
@@ -108,28 +108,28 @@ If `isLive` is `True` the following variables will also be populated on each tic
 ***
 
 ## Message Deleted
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `message` | The message that was deleted from chat
 {.vars-table}
 
 ## User Timed Out
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `duration` | The amount of time the user was timed out for
 `user` | The user that was timed out 
 {.vars-table}
 
 ## User Banned
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user that was banned <br> This will not be populated if the user has never been present in chat
 {.vars-table}
 
 ## Ad Run
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `adLength` | The length of the ad in seconds
 `adScheduled` | If this ad was a scheduled ad <br> `True`/`False`
 {.vars-table}

@@ -93,8 +93,8 @@ Once a trigger phrase has been detected in anything other than `Exact` mode, Str
 
 Any action triggered by Voice Control will have access to the following arguments that can be used in other Sub-Actions or C# code
 
-Variable | Description
----------|------------
+Name | Description
+----:|:------------
 `spokenText` | The full spoken phrase detected, *including the trigger phrase* 
 `spokenTextConfidence` | Voice Recognition confidence raw value
 `spokenTextConfidencePercent` | Confidence value as a percentage
@@ -109,8 +109,8 @@ This tab will show you what the recognition engine is getting.
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 `spokenText` | The full spoken phrase detected, *including the trigger phrase*
 `spokenTextConfidence` | Voice Recognition confidence raw value
 `spokenTextConfidencePercent` | Confidence value as a percentage

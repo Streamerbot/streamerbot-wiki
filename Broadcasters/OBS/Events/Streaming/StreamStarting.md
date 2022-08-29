@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T10:15:12.315Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `StreamStarted`
 | `obsEvent.preview-only` | A `True`/`False` answer to preview only
 | `obsEvent.update-type` | The update type of the OBS event in this case `StreamStarted`

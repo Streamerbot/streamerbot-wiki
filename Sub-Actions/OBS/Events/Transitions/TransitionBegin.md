@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T02:40:20.421Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `TransitionBegin`
 | `obsEvent.duration` | The duration of the transition
 | `obsEvent.from-scene` | On which scene the transition had started

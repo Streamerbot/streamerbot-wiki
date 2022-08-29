@@ -12,8 +12,8 @@ dateCreated: 2022-07-06T21:22:02.944Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceFilterAdded`
 | `obsEvent.filterName` | Filter name
 | `obsEvent.filterSettings.#` | The settings of this filter  <span style="color:red">*Change the `#` with the specific setting*</span>

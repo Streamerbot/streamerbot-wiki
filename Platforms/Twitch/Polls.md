@@ -21,8 +21,8 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 {.is-info}
 
 ### Created
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `poll.Id` | Twitch's ID for the poll
 `poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
 `poll.Title` | The title of the poll
@@ -42,8 +42,8 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 {.vars-table}
 
 ### Updated
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `poll.Id` | Twitch's ID for the poll
 `poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
 `poll.Title` | The title of the poll
@@ -63,8 +63,8 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 {.vars-table}
 
 ### Completed
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `poll.Id` | Twitch's ID for the poll
 `poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
 `poll.Title` | The title of the poll
@@ -93,8 +93,8 @@ The usage of Polls within Streamer.bot can be a bit more complex, so be sure to 
 
 ### Terminated
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `poll.Id` | Twitch's ID for the poll
 `poll.StartedAt` | The time that the poll stared <br> `d/M/yyyy HH:mm:ss`
 `poll.Title` | The title of the poll

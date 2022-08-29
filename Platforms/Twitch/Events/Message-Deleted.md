@@ -9,8 +9,8 @@ dateCreated: 2022-08-24T04:29:28.246Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `message` | The message that was deleted from chat
 {.vars-table}
 

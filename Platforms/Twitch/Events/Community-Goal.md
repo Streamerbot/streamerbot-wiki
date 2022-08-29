@@ -28,8 +28,8 @@ On the right side of this tab you have a test area where you can emulate/test th
 ## Variables
 The following variables will be available from this event:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `title` | Name of community goal
 `goalAmount` | The total amount required to complete the goal
 `goalAmountFormatted` | The total amount required to complete the goal, formatted

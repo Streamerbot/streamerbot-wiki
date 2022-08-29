@@ -9,8 +9,8 @@ dateCreated: 2022-08-24T04:30:39.460Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `duration` | The amount of time the user was timed out for
 `user` | The user that was timed out 
 {.vars-table}

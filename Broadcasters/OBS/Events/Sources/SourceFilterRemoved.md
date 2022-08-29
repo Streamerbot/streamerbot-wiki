@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T15:55:46.848Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceFilterRemoved`
 | `obsEvent.filterName` | Filter name
 | `obsEvent.filterType` | Filter type

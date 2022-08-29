@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:58:18.909Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SceneCollectionChanged`
 | `obsEvent.sceneCollection` | The name of the scene collection it changes to
 | `obsEvent.update-type	` | The update type of the OBS event in this case `SceneCollectionChanged`

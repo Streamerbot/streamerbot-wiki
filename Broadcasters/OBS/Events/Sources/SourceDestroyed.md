@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T14:01:31.642Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceDestroyed`
 | `obsEvent.sourceKind` | Source kind
 | `obsEvent.sourceName` | Source name

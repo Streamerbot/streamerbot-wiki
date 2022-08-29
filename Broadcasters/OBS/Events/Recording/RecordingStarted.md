@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:43:16.510Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `RecordingStarted`
 | `obsEvent.rec-timecode` | The length of the recording formatted like `hh:mm:ss.sss`
 | `obsEvent.recordingFilename` | The file name of the recording |

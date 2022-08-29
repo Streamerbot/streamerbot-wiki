@@ -33,8 +33,8 @@ The following StreamElements events are monitored by Streamer.bot and will allow
 
 The Tip event is fired any time a new donation is receieved through StreamElements
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 `tipUsername` | Username of the user as provided by StreamElements
 `tipAvatar` | Avatar of the user
 `tipAmount` | The amount of the tip
@@ -47,8 +47,8 @@ The Tip event is fired any time a new donation is receieved through StreamElemen
 
 With version 0.1.8, the ability to attach an action to a Merch event was introduced.
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 `merchUsername` | Username of the user as provided by StreamElements
 `merchAvatar` | Avatar of the user
 `merchAmount` | The amount of the purchase

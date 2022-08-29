@@ -15,8 +15,8 @@ Integrate with [TreatStream](https://treatstream.com) to receive food donation e
 
 # Events
 ## Donation
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `username` | The user name of the person that has treated the streamer
 | `timestamp` | Timestamp of when the event occurred |
 | `type` | Type of treat that has been gifted *e.g. Pizza*

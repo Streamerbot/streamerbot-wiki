@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T02:34:57.760Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `TransitionDurationChanged`
 | `obsEvent.new-duration` | The duration of the transition that is changed
 | `obsEvent.update-type	` | The update type of the OBS event in this case `TransitionDurationChanged`

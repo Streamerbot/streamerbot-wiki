@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T14:08:48.776Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceVolumeChanged`
 | `obsEvent.sourceName` | Source name
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceVolumeChanged`

@@ -45,8 +45,8 @@ On the right in this tab is the test section where you can test all that you hav
 
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `level` | Current level <br> `1-5`
 `percent` |Percent complete of the level <br> `50`
 `percentDecimal` | Percent completion of the level as a decimal value <br> `0.5`
@@ -55,14 +55,14 @@ On the right in this tab is the test section where you can test all that you hav
 {.vars-table}
 
 ## Level Up
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `prevLevel` | Previous level of the hype train <br> `1-4`
 {.vars-table}
 
 ## Progression
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user who is contributing to the hype train
 
 ---

@@ -9,8 +9,8 @@ dateCreated: 2022-08-23T19:52:20.005Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user that followed the broadcaster
 `userName` | The login name of the user that followed the broadcaster
 `userId` | Unique user identifier

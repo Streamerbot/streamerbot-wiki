@@ -12,8 +12,8 @@ dateCreated: 2022-07-06T21:21:39.731Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceAudioMixersChanged`
 | `obsEvent.hexMixersValue` | Raw mixer flags (little-endian, one bit per mixer) as an hexadecimal value
 | `obsEvent.mixers[#].enabled` | Routing status

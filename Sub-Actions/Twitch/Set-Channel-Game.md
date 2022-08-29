@@ -22,15 +22,15 @@ This sub-action can modify the current game category displayed on your Twitch ch
 
 ### Source
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `String` | Manual text entry of game title - allows for usage of [variables](/en/Variables). <br/> For Example, using the `%rawInput%` variable from a `!setgame` command used by your moderators.
 `Specific Game` | Select a game from a list of titles provided by Twitch
 
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `gameSuccess` | This is `True`/`False` depending if the Sub-Action succeeded
 `gameName` | The name of the game
 `gameId` | The id of the game

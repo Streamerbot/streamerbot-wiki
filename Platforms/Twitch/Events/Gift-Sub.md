@@ -24,8 +24,8 @@ The ranges here refer to the total amount of gift subs at a particular tier that
 Ranges can be `Generic` to match any Tier or can be set to count gifts of specific tiers only.
 
 # Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `recipientUser` | Recipient user's display name
 `recipientUserName` | Recipient user's Twitch! login name
 `recipientId` | Recipient user's Twitch! ID

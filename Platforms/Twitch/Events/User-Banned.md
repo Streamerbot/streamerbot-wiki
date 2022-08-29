@@ -9,8 +9,8 @@ dateCreated: 2022-08-24T04:32:41.932Z
 ---
 
 ## Variables
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `user` | The user that was banned <br> This will not be populated if the user has never been present in chat
 {.vars-table}
 

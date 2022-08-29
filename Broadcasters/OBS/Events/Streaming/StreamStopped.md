@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T01:38:33.073Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `StreamStopped`
 | `obsEvent.update-type` | The update type of the OBS event in this case `StreamStopped`
 | `obsEvent._json` | Everything above in a json format

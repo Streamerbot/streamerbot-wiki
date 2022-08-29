@@ -12,8 +12,8 @@ dateCreated: 2022-07-06T21:21:45.222Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceAudioSyncOffsetChanged`
 | `obsEvent.sourceName` | Source name
 | `obsEvent.syncOffset` | Audio sync offset of the source (in nanoseconds)

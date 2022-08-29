@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T13:23:13.161Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `StreamStopping`
 | `obsEvent.preview-only` | 	A `True`/`False` answer to preview only
 | `obsEvent.update-type` | The update type of the OBS event in this case `StreamStopping`

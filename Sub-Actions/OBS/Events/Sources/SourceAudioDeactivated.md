@@ -12,8 +12,8 @@ dateCreated: 2022-07-06T21:21:33.678Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceAudioDeactivated`
 | `obsEvent.sourceName` | Source name
 | `obsEvent.update-type` | The update type of the OBS event in this case `SourceAudioDeactivated`

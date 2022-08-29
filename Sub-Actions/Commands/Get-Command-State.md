@@ -28,7 +28,7 @@ Select the command and then click `Ok` and that it you have successfully added t
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `commandState` | Boolean for command enabled state <br> `True / False`
 {.vars-table}

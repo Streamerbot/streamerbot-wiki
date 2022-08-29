@@ -36,8 +36,8 @@ For donation events, different actions can be run based on the size of the donat
 
 ## Donations
 
-| Variable | Description | Values |
-|---------:|:------------|---------|
+Name | Description
+----:|:------------
 `donationFrom` | Who the donation was from, as the user filled out | |
 `donationAmount` | the amount of the donation | |
 `donationCurrency` | 3 letter currency code | |
@@ -48,8 +48,8 @@ For donation events, different actions can be run based on the size of the donat
 
 ## Merchandise
 
-| Variable | Description | Values |
-|---------:|:------------|---------|
+Name | Description
+----:|:------------
 `merchandiseFrom` | Who purchased a product | |
 `merchandiseMessage` | Any message the user attached to the purchase | |
 `merchandiseProduct` | The product that was purchased | |

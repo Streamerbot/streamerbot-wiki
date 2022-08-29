@@ -16,8 +16,8 @@ Generic variables are always available to most event sources, so consider these 
 ## General
 Useful general purpose variables{.subtitle}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `date` | Current system date <br> *Accepts any standard formatting notation eg. `%date:yyyy/MM/dd%` or `%date:dddd, dd MMMM yyyy%`*{.small}
 `time` | Current system time <br> *Accepts any standard formtting notation eg. `HH-mm`*{.small}
 {.vars-table}
@@ -25,8 +25,8 @@ Useful general purpose variables{.subtitle}
 ## Event User
 Variables related to the user that triggered an event{.subtitle}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 `userId` | Unique user identifier
 `userName` | User login name <br> *e.g. on Twitch this is the username in all lowercase, useful for comparison*{.small}
 
@@ -41,8 +41,8 @@ Variables related to the user that triggered an event{.subtitle}
 ## Event Source
 Variables related to the triggering event source{.subtitle}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `__source` | The name of the event triggering the action
 | `eventSource` | String value to specify which platform generated the event *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
 {.vars-table}
@@ -50,8 +50,8 @@ Variables related to the triggering event source{.subtitle}
 ## Action
 Variables related to the action being called{.subtitle}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `actionId` | The unique ID number of the first action called *v0.1.8+*{.version-badge} 
 | `runningActionId` | The instance ID number of the action in the queue *v0.1.8+*{.version-badge}
 {.vars-table}
@@ -63,8 +63,8 @@ Fetch variables for a random user currently in your chat{.subtitle}
 > As of Streamer.bot *v0.1.8*{.version-badge} this functionality requires usage of the [Add Random Users](/en/Sub-Actions/Twitch/) sub-action
 {.is-warning}
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `randomUser0` | The `username` of a random user present in chat
 | `randomUserName0` | The Display name of a random user present in chat
 {.vars-table}

@@ -19,8 +19,8 @@ dateCreated: 2022-06-01T04:57:34.650Z
 
 ## Variables
 ### Donation
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `donorName` | The name of the donor
 | `donorAvatarUrl` | The URL of the donor's avatar
 | `donorIsAnonymous` | A `true`/`false` respone if the donor is anonymous
@@ -37,8 +37,8 @@ dateCreated: 2022-06-01T04:57:34.650Z
 | `raised` | The total amount of money that has been raised
 
 ### Profile Update
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `name` | the name of the profile
 | `teamName` | The name of the team
 | `eventName` | The name of the event

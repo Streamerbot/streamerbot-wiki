@@ -12,8 +12,8 @@ dateCreated: 2022-07-15T18:48:11.947Z
 
 The following variables will be available after execution of this sub-action:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `commandGroupState` | Boolean for command group enabled state <br> `True / False`
 | `commandsEnabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
 | `commandsDisabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |

@@ -37,8 +37,8 @@ This can be any variable defined in a previous [sub-action](Sub-Actions) or coul
 
 The following variables will be available after execution of this sub-action:
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 `followDate`| The date the user followed
 `followAgeLong` | How long the user has been following in a long format, 1 year, 10 months, 5 days, etc
 `followAgeShort` | How long the user has been following in a short format, 1y, 10m, 5d, 22h, 3m, 25s

@@ -12,8 +12,8 @@ dateCreated: 2022-06-28T16:00:01.166Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `SourceFilterVisibilityChanged`
 | `obsEvent.filterEnabled` | New filter state
 | `obsEvent.filterName` | Filter name

@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T18:03:51.600Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `RecordingStopping`
 | `obsEvent.rec-timecode` | The length of the recording formatted like hh:mm:ss.sss |
 | `obsEvent.recordingFilename` | Absolute path to the file of the current recording. |

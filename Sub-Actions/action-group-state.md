@@ -23,8 +23,8 @@ Enables and Disables entire groups of actions
 
 The following variables will be available after execution of this action:
 
-| Name | Description |
-|-----:|:------------|
+Name | Description
+----:|:------------
 | `actionGroupState` | Boolean for action group enabled state <br> `True / False`
 | `actionsEnabled` | A list of action IDs, of actions that are enabled |
 | `actionsDisabled` | A list of action IDs, of commands that are disabled |

@@ -12,8 +12,8 @@ dateCreated: 2022-06-27T09:34:31.158Z
 
 ## Variables
 
-| Variable | Description |
-|---------:|:------------|
+Name | Description
+----:|:------------
 | `obsEvent.event` | The OBS event in this case `ProfileListChanged`
 | `obsEvent.profiles[#]` | The name of all your profiles
 | `obsEvent.update-type	` | The update type of the OBS event in this case `ProfileListChanged`
