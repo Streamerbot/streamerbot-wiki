@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-26T19:19:06.302Z
+date: 2022-08-29T07:33:34.070Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -105,8 +105,16 @@ A quick note about this sub-action, while I tried to keep data structures the sa
 ## Lumia Stream
 **Streamer.bot** gains another integration, Lumia Stream! You can now connect to Lumia Stream and set light colors from within **Streamer.bot**
 
-## Twitch New Scopes
+This adds two new sub-actions:
+ - Set Color
+ - Send Command
+### Set Color
+This sub-action allows you to change your light settings with: color, brightness, transsition and more. You can control all these settings individually.
 
+### Send Command
+This sub-action allows you to send commands, all your commands can be find here `Control Center` `->` `Shortcuts`.
+
+## Twitch New Scopes
 When you connect with your broadcaster account, the following new scopes will be requested
 
 * `moderator:manage:announcements`
