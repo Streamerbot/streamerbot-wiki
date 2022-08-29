@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-29T07:33:34.070Z
+date: 2022-08-29T07:33:50.914Z
 tags: changelogs, release-notes
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -105,7 +105,7 @@ A quick note about this sub-action, while I tried to keep data structures the sa
 ## Lumia Stream
 **Streamer.bot** gains another integration, Lumia Stream! You can now connect to Lumia Stream and set light colors from within **Streamer.bot**
 
-This adds two new sub-actions:
+New sub-actions:
  - Set Color
  - Send Command
 ### Set Color
