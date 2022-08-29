@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-22T19:45:34.570Z
+date: 2022-08-29T10:10:06.426Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -92,6 +92,11 @@ Optional group name to keep your events organized
 Select the action to be executed any time the selected event is fired off from OBS
 
 ***
+
+### Events
+- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/en/Broadcasters/OBS/Events)
+{.btn-grid .my-5}
+
 ### Sub-Actions
 - [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}
