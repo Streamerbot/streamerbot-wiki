@@ -2,16 +2,15 @@
 title: Ko-Fi
 description: Integrate Streamer.bot with your Ko-Fi account!
 published: true
-date: 2022-07-14T18:05:03.072Z
-tags: v0.1.8, integrations, ko-fi
+date: 2022-08-29T06:48:56.627Z
+tags: integrations, ko-fi, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:37:51.447Z
 ---
 
 ![ko-fi_icon_rgb_rounded.png](/ko-fi_icon_rgb_rounded.png){.align-abstopright}
 
-# Overview
-
+## Overview
 Ko-Fi, a highly requested integration, is now available in Streamer.bot *v0.1.8*{.version-badge}
 
 > **NOTE**
@@ -20,8 +19,7 @@ Ko-Fi, a highly requested integration, is now available in Streamer.bot *v0.1.8*
 
 ![kofi-integration.png](/kofi-integration.png)
 
-# Configuration
-
+## Configuration
 To configure Kofi:
 
 1. Head over to [Streamer.bot](https://streamer.bot), and click the `Sign In` button in the top right.
@@ -37,14 +35,12 @@ To configure Kofi:
 > Be sure the Streamer.bot website integration is connected!
 {.is-info}
 
-# Events
-
-## Donation
-
+## Events
+### Donation
 This event is triggered when a donation happens through Kofi
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|-----:|:------------|
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -53,12 +49,11 @@ This event is triggered when a donation happens through Kofi
 | `amount` | The amount donated |
 | `currency` | The currency of the donation |
 
-## Subscription
-
+### Subscription
 This event is triggered when a subscription happens through Kofi
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|-----:|:------------|
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -68,12 +63,11 @@ This event is triggered when a subscription happens through Kofi
 | `currency` | The currency of the subscription |
 | `tier` | The tier of the subscription |
 
-## Resubscription
-
+### Resubscription
 This event is triggered when a resubscription happens through Kofi
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|-----:|:------------|
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -83,12 +77,11 @@ This event is triggered when a resubscription happens through Kofi
 | `currency` | The currency of the subscription |
 | `tier` | The tier of the subscription |
 
-## Shop Purchase
-
+### Shop Purchase
 This event is triggered when a shop purchase happens through Kofi
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|-----:|:------------|
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
@@ -99,12 +92,11 @@ This event is triggered when a shop purchase happens through Kofi
 | `itemCount` | The currency of the donation |
 | `item#` | The id of the item purchased, where # is the index of the item |
 
-## Commissions
-
+### Commissions
 This event is triggered when a commission is purchased on Kofi
 
-| Variable | Description |
-|   ---:|-------------|
+| Name | Description |
+|-----:|:------------|
 | `messageId` | Kofi's internal ID |
 | `timestamp` | Timestamp of when the event occured |
 | `from` | Username of who triggered the event |
