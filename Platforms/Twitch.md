@@ -2,7 +2,7 @@
 title: Twitch
 description: Configure Twitch as a streaming platform in Streamer.bot
 published: true
-date: 2022-07-28T19:32:17.735Z
+date: 2022-08-29T10:19:22.420Z
 tags: twitch, guides, platforms, configuration
 editor: markdown
 dateCreated: 2021-08-25T21:34:42.553Z
@@ -22,9 +22,6 @@ Streamer.bot integrates directly with Twitch to offer a set of first-class funct
 You can configure both a **Broadcaster** *(required)*, and a **Bot** account *(optional)* for interacting with Twitch services.
 
 ![twitch-accounts-019.png](/twitch-accounts-019.png =800x)
-
-- [<i class="mdi mdi-transit-connection-variant text--twitch"></i> **Twitch Account Connecting issues**](/en/Sub-Actions/Twitch/Accounts){.disabled}
-{.btn-grid .my-5}
 
 ### Broadcaster Account
 A Broadcaster account is **required** to monitor your Twitch chat and receive all Twitch [events](/en/Platforms/Twitch/Events).
