@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-08-22T22:25:36.329Z
+date: 2022-08-29T06:39:08.641Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -42,7 +42,7 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
  - [<i class="mdi mdi-chat"></i> **Chatbot Example *Enable some basic chat commands***](/en/Quick-Start/Commands)
 - [<i class="mdi mdi-camera"></i> **Scene Activated Actions *Perform actions when changing scenes***](/en/Quick-Start/Examples/Scene-Change-Actions){.disabled}
 - [<i class="mdi mdi-signal"></i> **Stream Start/End Actions *Perform actions when your streaming status changes***](/en/Quick-Start/Examples/Streaming-Actions){.disabled}
-- [<i class="mdi mdi-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Examples/Startup-Actions){.disabled}
+- [<i class="mdi mdi-rocket-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Examples/Startup-Actions){.disabled}
 - [<i class="mdi mdi-walk"></i> **Walk In Actions *Perform actions when a certian user chats in your stream***](/en/Quick-Start/Examples/Walkin-Actions){.disabled}
 - [<i class="mdi mdi-adjust"></i> **Modify Channel Points *Enable, Disable or Pause all of your channel points with streamer.bot***](/en/Quick-Start/Examples/Enable-Disable-Pause-Channel-Points){.disabled}
 {.btn-grid .my-5}
