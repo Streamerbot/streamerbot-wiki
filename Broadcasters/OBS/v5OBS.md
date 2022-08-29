@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-29T10:11:42.511Z
+date: 2022-08-29T10:17:39.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -17,9 +17,6 @@ dateCreated: 2022-08-19T16:26:40.705Z
 > OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported, but the documentation on the wiki is in *v5+*{.obs-version-badge}
 {.is-info}
 
-- [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
-{.btn-grid .my-5}
-
 # Overview
 
 Adding at least one OBS connection will allow Streamer.bot to control your OBS.
@@ -29,6 +26,9 @@ Adding at least one OBS connection will allow Streamer.bot to control your OBS.
 Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
+- [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
+{.btn-grid .my-5}
+
 <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> to define a new OBS connection
 
 ![connection](/broadcasters/obs/obs-connection.png =250x)
