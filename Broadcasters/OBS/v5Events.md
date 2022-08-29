@@ -1,15 +1,12 @@
 ---
 title: OBS Studio Events v5
-description: Information on OBS events that Streamer.bot can react to using actions.
+description: Information on OBS events (v5) that Streamer.bot can react to using actions.
 published: false
-date: 2022-08-29T01:11:27.500Z
+date: 2022-08-29T07:39:21.524Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
-
-> All these events won't exist yet, because streamer.bot is currently on OBS WebSocket *v4.x.x*{.obs-version-badge} 
-{.is-danger}
 
 There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
 
