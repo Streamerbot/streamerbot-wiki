@@ -2,7 +2,7 @@
 title: Pick Color
 description: Colour picker that populates variables for passing to OBS and HTML objects
 published: true
-date: 2022-07-28T19:41:21.085Z
+date: 2022-08-29T22:17:05.541Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
@@ -27,11 +27,11 @@ Enter an alias for the resulting variables, outlined below.
 
 The following variables will be available after execution of this sub-action:
 
-> In each of the following variables, replace `myColor` with the variable name you configured.
+> In each of the following variables, replace `variableName` with the variable name you configured.
 {.is-warning}
 
-Name | Description
-----:|:------------
+| Name | Description |
+|-----:|:------------|
 | `myColor.color.a` | The alpha value |
 | `myColor.color.r` | The red value |
 | `myColor.color.g` | The green value |
