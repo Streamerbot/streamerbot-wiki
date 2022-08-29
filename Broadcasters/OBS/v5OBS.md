@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-29T10:19:52.379Z
+date: 2022-08-29T10:20:30.746Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-19T16:26:40.705Z
@@ -14,10 +14,9 @@ dateCreated: 2022-08-19T16:26:40.705Z
 - [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}
 
+# Overview
 > OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported, but the documentation on the wiki is in *v5+*{.obs-version-badge}
 {.is-info}
-
-# Overview
 
 Adding at least one OBS connection will allow Streamer.bot to control your OBS.
 
