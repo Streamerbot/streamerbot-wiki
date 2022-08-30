@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-29T07:38:02.726Z
+date: 2022-08-30T23:47:32.769Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -34,6 +34,9 @@ Upcoming changes in the next release!{.subtitle}
 * Auto strip newline and whitespace at the end of an import string when pasting
 * Remove Bits from Twitch Polls, as it's being removed outright by Twitch
 * `Execute C# Code` sub-action will now warn if you try to close it by the X and you have unsaved changes
+* Inspect variables dialog saves its size now when closed
+* Right click context menu on cells in the inspect variable dialog to copy the data, as text, to your clipboard
+* Double clicking on a cell in the inspect variables dialog will copy the value, as text, to your clipboard
 {.changelog-updates}
 
 <span></span>
@@ -48,6 +51,7 @@ Upcoming changes in the next release!{.subtitle}
 * [Lumia Stream](#lumia-stream) integration!
 * New sub-action Send Command for Lumia Stream
 * New sub-action Set Color for Lumia Stream
+* New integration, [Loot Devil](#loot-devil)
 {.changelog-new}
 
 ## OBS Websocket v5.x
@@ -104,6 +108,9 @@ A quick note about this sub-action, while I tried to keep data structures the sa
 
 ## Lumia Stream
 **Streamer.bot** gains another integration, Lumia Stream! You can now connect to Lumia Stream and set light colors from within **Streamer.bot**
+
+## Loot Devil
+Some have been asking for it, well now it's here, you can connect Loot Devil to **Streamer.bot** now!  To use this, requires the use of the **Streamer.bot** website to configure the web hook, and connecting the application to the website to receive gifting events.
 
 ## Twitch New Scopes
 
