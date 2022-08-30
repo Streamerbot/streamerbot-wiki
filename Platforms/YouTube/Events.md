@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-07-20T21:47:10.759Z
+date: 2022-08-30T16:19:19.220Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -15,7 +15,11 @@ Name | Description
 `userName` | The description of the broadcast
 `userId` | The time the broadcast was published at
 `userType` | The id of the broadcast
-`userType` | The id of the broadcast
+`isSubscribed` | Boolean value indicating the user's subscription status
+`isModerator` | Boolean value indicating the sender's moderator status
+`isVip` | Boolean value indicating the sender's VIP status
+`userFileExists` | If the user's file exist
+`userExists` | If the user exist
 
 # Broadcast Started
 
