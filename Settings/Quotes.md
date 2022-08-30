@@ -46,8 +46,13 @@ When using the built-in `!quote` command the following variables will be made av
 
 Name | Description
 ----:|:------------
-| `quote` | The quote content
-| `quoteID` | The quote ID number
-| `quoteUser` | The user that added the quote,
-| `quoteGame` | The game the broadcaster was playing at the time
-| `quoteTime` | The date it was logged
+`quote` | The quote content
+`quoteID` | The quote ID number
+`quoteUser` | The user that added the quote,
+`quoteGame` | The game the broadcaster was playing at the time
+`quoteTime` | The date it was logged
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

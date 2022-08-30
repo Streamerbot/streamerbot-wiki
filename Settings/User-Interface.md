@@ -20,3 +20,8 @@ The tab order on each level can be changed by dragging the tab to the desired po
 `Minimize to Tray` | Enables streamer.bot to sent to the system tray instead of the taskbar
 `Confirmation on Close` | Enables a popup warning before you close streamer.bot
 `Reset Delete Confirmations` | If you have checked the box to supress action and sub-action deletion popup warnings this button re-enables them
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

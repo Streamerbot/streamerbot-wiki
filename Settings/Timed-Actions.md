@@ -47,3 +47,8 @@ The action list can be filtered using the control in the upper right to help fin
 To assign an action, select it form the list and press the `Select` button
 
 To unassign all action press the `Clear` button
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

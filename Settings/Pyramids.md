@@ -34,3 +34,8 @@ Name | Description
 `totalPyramids` | Total number of pyramids made by this user
 `pyramidEmote` | Name of the emote that completed the pyramid
 `pyramidWidth` | Width of the pyramid
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

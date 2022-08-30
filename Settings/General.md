@@ -49,3 +49,8 @@ Defines the default volume at which Streamerbot will play audio. This setting is
 Valid Range is `0% - 200%`
 
 Volume can be overridden on a per sub-action basis if needed
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

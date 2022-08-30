@@ -71,3 +71,8 @@ Name | Description
 `%lineCount%` | The number of lines in the file
 `%line#%` | The line of the file, replace # with the line number you want
 `%lineEscaped#%` | The line of the file URL encoded, replace # with the line number you want
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

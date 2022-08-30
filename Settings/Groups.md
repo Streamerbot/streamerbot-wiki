@@ -39,3 +39,8 @@ Other features may be made bot group aware in future releases
 `Bots` | Designates a Boolean flag to indicate this group contains known bots. Users in a bot group are excluded from credits and certain functionality like First Words
 `Export to File` | Save the contents of a group to an `SBGRP` file for sharing with other users or to use as a backup
 `Import from File ` | Import the contents of an `SBGRP` file into the highlighted group
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}

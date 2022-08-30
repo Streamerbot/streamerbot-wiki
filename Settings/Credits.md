@@ -111,3 +111,8 @@ When sending the above request to `CPH` you will get back a response that is fil
   "id": "someid"
 }
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+{.btn-grid .my-5}
