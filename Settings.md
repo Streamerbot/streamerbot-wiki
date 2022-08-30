@@ -1,9 +1,9 @@
 ---
 title: Settings
-description: 
+description: Documentation of the settings menu tabs in Streamer.bot
 published: true
-date: 2022-08-30T22:07:35.486Z
-tags: 
+date: 2022-08-30T22:08:44.602Z
+tags: settings
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
 ---
