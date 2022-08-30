@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-08-30T14:57:49.723Z
+date: 2022-08-30T21:23:22.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z
@@ -41,5 +41,5 @@ Update to the new version by following these steps:
 ***
 
 - [<i class="mdi mdi-chevron-left"></i>**Home *Go Back***](/en/home)
-- [<i class="mdi mdi-fire primary--text"></i>**Changelogs / Release Notes *Up Next***](/en/Changelogs)
+- [<i class="mdi mdi-fire" style="color: #fbb12b;"></i>**Changelogs / Release Notes *Up Next***](/en/Changelogs)
 {.btn-grid .my-5}
