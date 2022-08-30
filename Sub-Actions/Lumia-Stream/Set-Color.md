@@ -2,7 +2,7 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: false
-date: 2022-08-30T08:46:53.908Z
+date: 2022-08-30T08:48:38.347Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -33,7 +33,7 @@ This will skip the Lumia Stream `Queue` that's visible in your `Dashboard`.
 This will ignore the streamer.bot `Set Color` settings and use the default Lumia Stream settings.
 
 #### Light
-A list of all your lights that you've added with Lumia Stream.
+A list of all your lights that you've added with Lumia Stream. If you don't select any lights it will automatically use all your Lumia Stream configured lights.
 
 ---
 
