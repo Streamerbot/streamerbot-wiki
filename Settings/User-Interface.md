@@ -8,11 +8,15 @@ editor: markdown
 dateCreated: 2021-11-14T20:59:45.133Z
 ---
 
-# User Interface
+This tab formerly controled the visibility of the various tabs in Streamer.bot. The abilty to show and hide tabs has been moved to the <kbd>Right-Click</kbd> context menu of each level of tabs
 
-![ui-settings.png](/ui-settings.png)
+---|---
+![top-level-tab-context-018.png](/top-level-tab-context-018.png)|![settings-tabs-context-018.png](/settings-tabs-context-018.png)
+The tab order on each level can be changed by dragging the tab to the desired position
 
-This tab controls visibility of the various tabs in Streamerbot so you can hide functions you do not need for ease of use
+-----
 
-There is also options for `Minimize to Tray` and `Confirmation on Close`
-If you have checked the box to supress action and sub-action deletion you can re-enable it here also
+---:|---
+`Minimize to Tray` | Enables streamer.bot to sent to the system tray instead of the taskbar
+`Confirmation on Close` | Enables a popup warning before you close streamer.bot
+`Reset Delete Confirmations` | If you have checked the box to supress action and sub-action deletion popup warnings this button re-enables them

@@ -10,8 +10,6 @@ dateCreated: 2021-08-25T21:32:30.409Z
 
 Define the events you wish to monitor here 
 
-# Credits
-
 The script from SLCB has finally been brought over into CPH. It can be configured to include only certain events and information, and the resulting information can be retrieved by using a command on the websocket server.
 
 This feature will likely be evolving, so consider this a first pass implementation to get something in place, it should be feature parity (and then some) with the script.  The only thing I believe that is missing are top gift subs, but I unfortunately do not track this information, and there is no way to get this from twitch that I can see.  Adding new features and capabilities to this is always possible.

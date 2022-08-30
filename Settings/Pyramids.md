@@ -29,8 +29,8 @@ Select the action to execute
 
 The following variables are available to the excuted action:
 
-| Value | Description |
-|------:|:------------|
-| `totalPyramids` | Total number of pyramids made by this user
-| `pyramidEmote` | Name of the emote that completed the pyramid
-| `pyramidWidth` | Width of the pyramid
+Name | Description
+----:|:------------
+`totalPyramids` | Total number of pyramids made by this user
+`pyramidEmote` | Name of the emote that completed the pyramid
+`pyramidWidth` | Width of the pyramid

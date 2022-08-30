@@ -8,25 +8,42 @@ editor: markdown
 dateCreated: 2021-08-25T21:32:26.506Z
 ---
 
-Actions to be performed either repeatedly or for a duration can be defined here. 
+Actions to be performed either repeatedly or for a duration can be defined here.
 
-When a timer becomes enabled its action will execute on the next occurence. 
+![timed-actions-context-018.png](/timed-actions-context-018.png){.align-center}
+
+<kbd>Right-clicking</kbd> inside the pane opens the context menu
+
+## Context Menu
+
+---:|---
+`Add` | Add a new `Timed Action`
+`Edit` | Open the `Edit Timed Action` dialogue to modify the highlighted entry | This is the same as <kbd>Double-Clicking</kbd> the entry
+`Delete` | Delete the highlighted entry
+`Set Action` | Shortcut to the `Select Action` dialogue
+`Enabled` | Shortcut to set the Active state of the Folder Watch entry
+
+When a timer becomes enabled its action will execute on the next occurence.
 
 Unless manually overridden by another [action](/Actions), the `Timed action` will only execute again if both the `Interval` and `Lines` criteria have been met
 
+## Edit Timed Action
 
-![timed action](/122174618-c4eb0280-ce7a-11eb-9ee4-89ed58957788.png)
+![timed-action-edit-018.png](/timed-action-edit-018.png){.align-center}
 
+---:|---
+`Enabled` | States this timer is currently running
+`Repeat` | Defines if the `Timed Action` should automatically run again once the limiting criteria are met
+`Interval` | Minimum time in seconds that must elapse before the action will run again | If `Random` is checked this becomes an upper and lower bound entry
+`Lines` | Any non-zero value will pause the action from running again until that many messages have been recieved in chat
+`Action` | Choose the [action](Actions) to execute when the timer state becomes `Enabled`
 
-`Enabled` states this timer is currently running
+### Action Selector
 
-`Repeat` defines if the `Timed Action` should automatically run again once the limiting criteria are met
+![action-selector-018.png](/action-selector-018.png){.align-center}
 
-`Interval` Time in minutes that must elapse before the action will run again. 
+The action list can be filtered using the control in the upper right to help find what you need easier.
 
-If `Random` is checked this becomes a lower and upper bound in seconds 
+To assign an action, select it form the list and press the `Select` button
 
-`Lines` Any non-zero value will pause the action from running again until that many lines have been entered in chat
-
-`Action` Choose the [action](Actions) to execute when the timer state becomes `Enabled` 
-
+To unassign all action press the `Clear` button
