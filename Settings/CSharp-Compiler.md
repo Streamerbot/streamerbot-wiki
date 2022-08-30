@@ -1,8 +1,8 @@
 ---
 title: C# Compiler
 description: 
-published: false
-date: 2022-08-30T20:25:30.326Z
+published: true
+date: 2022-08-30T20:26:39.939Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T20:13:40.631Z
