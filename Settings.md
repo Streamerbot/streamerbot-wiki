@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2022-08-30T20:22:37.961Z
+date: 2022-08-30T20:27:24.281Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:03.053Z
@@ -28,7 +28,7 @@ Many things have been moved to improve accessibility, some features have been re
 - [<i class="mdi mdi-format-quote-open primary--text"></i>**Quotes**](/en/Settings/Quotes) 
 - [<i class="mdi mdi-counter primary--text"></i>**Sub Counter**](/en/Settings/Sub-Counter) 
 - [<i class="mdi mdi-folder primary--text"></i>**Groups**](/en/Settings/Groups) 
-- [<i class="mdi mdi-language-csharp primary--text"></i>**C# Compiler**](#c-compiler)
+- [<i class="mdi mdi-language-csharp primary--text"></i>**C# Compiler**](/en/Settings/CSharp-Compiler)
 {.btn-grid .my-5}
 
 ***
