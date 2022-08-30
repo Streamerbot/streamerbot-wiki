@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-08-28T18:52:33.830Z
+date: 2022-08-30T22:10:22.222Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -61,5 +61,4 @@ Anywhere you can do a variable replacement, you can also execute [Inline Functio
 - [<i class="mdi mdi-account-heart primary--text"></i> **Sub Counter *Variables from sub counter settings***](/en/Settings/Sub-Counter)
 - [<i class="mdi mdi-comment-quote primary--text"></i> **Quotes *Variables from the built-in `!quote` command***](/en/Settings/Quotes)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Variables from all Voice Control actions***](/en/Voice-Control#variables)
-- [<i class="mdi mdi-twitch text--twitch"></i> **Broadcaster *Variables related to the Twitch broadcaster account*  *v0.1.5 - 0.1.7*{.version-badge}**](/en/Variables/Broadcaster)
 {.btn-grid .my-5}
