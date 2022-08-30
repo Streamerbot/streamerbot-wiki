@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-08-28T17:37:35.442Z
+date: 2022-08-30T21:06:20.001Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -17,7 +17,7 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Donation &amp; merch events***](/en/Integrations/Streamlabs)
 - [<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/en/Integrations/StreamElements)
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donations integration***](/en/Integrations/Ko-Fi)
-- [<img src="/digital-patreon-logo_coral.png"/>**Patreon *Donations integration***](/en/Integrations/Patreon)
+- [<i class="mdi mdi-patreon text--patreon"></i> **Patreon *Donations integration***](/en/Integrations/Patreon)
 - [<img src="/logos/voicemod.png"/>**VoiceMod*Voice changer integration***](/en/Integrations/VoiceMod)
 - [<img src="/donordrive.webp"/>**DonorDrive *Fundraiser integration***](/en/Integrations/DonorDrive)
 - [<img src="https://streamer.bot/img/integrations/hyperate.png"/>**HypeRate.io *Heartrate monitor integration***](/en/Integrations/HypeRate-io)
