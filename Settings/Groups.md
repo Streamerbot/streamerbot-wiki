@@ -2,13 +2,13 @@
 title: Groups
 description: 
 published: true
-date: 2022-08-30T20:19:56.089Z
+date: 2022-08-30T20:20:10.878Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:38.641Z
 ---
 
-![settings-groups-018.png](/settings-groups-018.png){.align-center}
+![settings-groups-018.png](/settings-groups-018.png)
 
 Chat users can be added to groups that are defined here.
 Groups can be used to define permissions for **[Actions](/Actions)** or in the **[Credits](/Settings/Credits)** function
