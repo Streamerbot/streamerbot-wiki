@@ -2,24 +2,28 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-08-30T16:19:19.220Z
+date: 2022-08-30T16:33:54.057Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
 ---
 
 All events will also have the typical user information
+
+> **Note:**
+> `isSubscribed` won't work but you will get the variable anyways, so that's why it's in this list below.
+{.is-info}
+
 Name | Description
 ----:|:------------
 `user` | The title of the broadcast
 `userName` | The description of the broadcast
 `userId` | The time the broadcast was published at
 `userType` | The id of the broadcast
-`isSubscribed` | Boolean value indicating the user's subscription status
+`isSubscribed` | Boolean value indicating the user's subscription status <br> `bugged`
 `isModerator` | Boolean value indicating the sender's moderator status
 `isVip` | Boolean value indicating the sender's VIP status
-`userFileExists` | If the user's file exist
-`userExists` | If the user exist
+{.vars-table}
 
 # Broadcast Started
 
