@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: false
-date: 2022-08-30T21:01:18.792Z
+date: 2022-08-30T21:02:14.053Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -21,12 +21,6 @@ With Lumia Stream you can control your lights with advanced settings like color,
 First go to the `Settings` tab
 
 ![lumia-connect-guide-settings-tab.png](/intergrations/lumia-stream/lumia-connect-guide-settings-tab.png =700x)
-
----
-
-You will land on this page
-
-![lumia-connect-guide-user.png](/intergrations/lumia-stream/lumia-connect-guide-user.png =700x)
 
 ---
 
