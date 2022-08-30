@@ -2,7 +2,7 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: false
-date: 2022-08-28T21:16:00.274Z
+date: 2022-08-30T08:46:53.908Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -15,23 +15,25 @@ dateCreated: 2022-08-25T21:54:15.039Z
 > You can delete any off these fields and it will work, so for example if you don't want to change the brightness, remove the brightness field.
 {.is-info}
 #### Colour
-A hex value used to change the colour of your light(s)
+A hex value used to change the colour of your light(s).
 
 #### Brightness
-A value that changes the brightness of your light(s)
+A value that changes the brightness of your light(s).
 
 #### Duration
-A millisecond value used for a delay before switching back to default after the `Set Color` sub-action
+A millisecond value used for a delay before switching back to default after the `Set Color` sub-action.
 
 #### Transition
-The time it takes to transition from your current light properties to the set color properties
+The time it takes to transition from your current light properties to the set color properties.
 
 #### Skip Queue
+This will skip the Lumia Stream `Queue` that's visible in your `Dashboard`.
 
 #### Default
+This will ignore the streamer.bot `Set Color` settings and use the default Lumia Stream settings.
 
 #### Light
-A list of all your lights that you've added with Lumia Stream
+A list of all your lights that you've added with Lumia Stream.
 
 ---
 
