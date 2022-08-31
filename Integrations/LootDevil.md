@@ -2,16 +2,14 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-08-31T21:57:17.300Z
+date: 2022-08-31T21:59:03.493Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
 ---
 
 ## Overview
-> **BUG:**
-> The Loot Devil intergration doesn't work currently because of the API settings on the Loot Devil site not working
-{.is-danger}
+Safe and secure wishlists for streamers, influencers and creators. Accept gifts from your fans without sharing your name and address.
 
 ## Configuration
 <span></span>
