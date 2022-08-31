@@ -2,7 +2,7 @@
 title: GetSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:21:38.185Z
+date: 2022-08-31T23:20:17.683Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:14:02.903Z
