@@ -2,7 +2,7 @@
 title: SetInputSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:48:36.189Z
+date: 2022-08-31T23:27:00.222Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T04:00:10.499Z
