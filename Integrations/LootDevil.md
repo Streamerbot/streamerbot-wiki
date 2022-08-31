@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-08-31T21:55:39.497Z
+date: 2022-08-31T21:57:17.300Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -55,3 +55,8 @@ Name | Description
 `items[#].url` | The url of the item
 `items[#].image` | The image of the item
 {.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
