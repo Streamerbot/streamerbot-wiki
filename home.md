@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-08-31T10:20:54.657Z
+date: 2022-08-31T10:22:47.831Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-25T17:28:59.469Z
 <div>
 
 Basics{.overline}
-- [🚀 Quick Start Guide](/en/Quick-Start)
-- [⬆️ How to Upgrade](/en/Update)
-- [💾 How to Backup](/en/Backup)
-- [🐧 Linux Setup](/en/Linux-Support)
-- [<i class="mdi mdi-speaker text--twitch"></i> Twitchspeaker](/en/TwitchSpeaker)
-- [Setup Platform: Twitch](/en/Platforms/Twitch)
-- [Setup Platform: YouTube](/en/Platforms/YouTube)
-- [Setup Broadcaster: OBS](/en/Broadcasters/OBS)
-- [Setup Broadcaster: Streamlabs Desktop](/en/Broadcasters/StreamlabsDesktop)
+* [🚀 Quick Start Guide](/en/Quick-Start)
+* [⬆️ How to Upgrade](/en/Update)
+* [💾 How to Backup](/en/Backup)
+* [🐧 Linux Setup](/en/Linux-Support)
+* [<i class="mdi mdi-speaker text--twitch"></i> Twitchspeaker](/en/TwitchSpeaker)
+* [Setup Platform: Twitch](/en/Platforms/Twitch)
+* [Setup Platform: YouTube](/en/Platforms/YouTube)
+* [Setup Broadcaster: OBS](/en/Broadcasters/OBS)
+* [Setup Broadcaster: Streamlabs Desktop](/en/Broadcasters/StreamlabsDesktop)
 </div>
 <div>
 
