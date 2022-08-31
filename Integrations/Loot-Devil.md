@@ -2,7 +2,7 @@
 title: Loot Devil (WIP)
 description: 
 published: false
-date: 2022-08-31T08:34:19.042Z
+date: 2022-08-31T08:35:48.026Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -38,3 +38,6 @@ dateCreated: 2022-08-31T01:57:24.360Z
   ]
 }
 ```
+
+Name | Description
+----:|:------------
