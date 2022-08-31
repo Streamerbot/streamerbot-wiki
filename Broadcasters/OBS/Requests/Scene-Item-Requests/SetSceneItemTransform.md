@@ -2,7 +2,7 @@
 title: SetSceneItemTransform
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:31:25.177Z
+date: 2022-08-31T23:47:46.842Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T07:58:07.898Z
