@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-08-31T02:06:03.275Z
+date: 2022-08-31T08:48:22.232Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -18,8 +18,6 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/en/Integrations/StreamElements)
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donations integration***](/en/Integrations/Ko-Fi)
 - [<i class="mdi mdi-patreon text--patreon"></i> **Patreon *Donations integration***](/en/Integrations/Patreon)
- - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality***](/en/Integrations/Streamer-bot)
-- [<img src="https://streamer.bot/logo.svg"/> **Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
 - [<img src="/logos/voicemod.png"/>**VoiceMod*Voice changer integration***](/en/Integrations/VoiceMod)
 - [<img src="/donordrive.webp"/>**DonorDrive *Fundraiser integration***](/en/Integrations/DonorDrive)
 - [<img src="https://streamer.bot/img/integrations/hyperate.png"/>**HypeRate.io *Heartrate monitor integration***](/en/Integrations/HypeRate-io)
@@ -28,4 +26,6 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery integration***](/en/Integrations/TreatStream)
 - [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights! *Coming Soon!*{.version-badge}***](/en/Integrations/Lumia-Stream){.disabled}
 - [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **Loot Devil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/Loot-Devil){.disabled}
+ - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality***](/en/Integrations/Streamer-bot)
+- [<img src="https://streamer.bot/logo.svg"/> **Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
 {.btn-grid .my-5}
