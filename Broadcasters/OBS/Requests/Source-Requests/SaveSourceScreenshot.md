@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:22:02.247Z
+date: 2022-08-31T23:20:12.796Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
