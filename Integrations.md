@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-08-31T21:23:35.551Z
+date: 2022-08-31T21:56:18.960Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -25,7 +25,7 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donations integration***](/en/Integrations/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery integration***](/en/Integrations/TreatStream)
 - [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights! *Coming Soon!*{.version-badge}***](/en/Integrations/Lumia-Stream){.disabled}
-- [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **Loot Devil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/Loot-Devil){.disabled}
+- [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **LootDevil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/LootDevil){.disabled}
 {.btn-grid .my-5}
 
 <div></div>
