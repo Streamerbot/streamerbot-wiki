@@ -2,7 +2,7 @@
 title: SetSceneItemIndex
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:30:57.745Z
+date: 2022-08-31T23:45:45.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:43:52.471Z
