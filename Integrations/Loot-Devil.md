@@ -1,8 +1,8 @@
 ---
 title: Loot Devil
-description: 
+description: The Wishlist Built for Creators
 published: false
-date: 2022-08-31T21:50:59.094Z
+date: 2022-08-31T21:51:33.541Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
