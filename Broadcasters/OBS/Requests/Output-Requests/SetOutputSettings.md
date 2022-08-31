@@ -2,7 +2,7 @@
 title: SetOutputSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:35:15.940Z
+date: 2022-08-31T23:51:47.444Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T19:22:35.284Z
