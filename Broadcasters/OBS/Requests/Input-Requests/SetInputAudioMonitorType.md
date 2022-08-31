@@ -2,7 +2,7 @@
 title: SetInputAudioMonitorType
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:47:31.368Z
+date: 2022-08-31T23:30:44.900Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T07:50:54.471Z
