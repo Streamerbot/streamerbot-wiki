@@ -2,7 +2,7 @@
 title: GetInputPropertiesListPropertyItems
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:45:53.648Z
+date: 2022-08-31T23:30:00.764Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T05:38:06.382Z
