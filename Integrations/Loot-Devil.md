@@ -2,7 +2,7 @@
 title: Loot Devil
 description: 
 published: false
-date: 2022-08-31T21:19:46.150Z
+date: 2022-08-31T21:50:59.094Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -18,9 +18,15 @@ dateCreated: 2022-08-31T01:57:24.360Z
 
 <h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Website User Settings</h3>
 
+Go to [/settings#lootdevil](https://streamer.bot/user/settings#lootdevil) on the streamer.bot website
+
+Copy the `LootDevil Webhook URL`
+
 ---
 
 <h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Loot Devil API Settings</h3>
+
+Go to [lootdevil.com/integrations/api](https://lootdevil.com/integrations/api)
 
 ---
 
