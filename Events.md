@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-08-31T21:24:58.372Z
+date: 2022-08-31T21:26:08.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -39,9 +39,5 @@ Events from configured Streamer.bot [Integrations](/en/Integrations) {.subtitle}
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donation events***](/en/Integrations/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery events***](/en/Integrations/TreatStream)
 - [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **Loot Devil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/Loot-Devil){.disabled}
-{.btn-grid .my-5}
-
-<div></div>
-
 - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *All events handled through the streamer.bot website***](/en/Integrations/Streamer-bot)
 {.btn-grid .my-5}
