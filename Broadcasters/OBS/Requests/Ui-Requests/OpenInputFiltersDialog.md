@@ -1,7 +1,7 @@
 ---
 title: OpenInputFiltersDialog
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-11T14:13:29.442Z
 tags: 
 editor: markdown

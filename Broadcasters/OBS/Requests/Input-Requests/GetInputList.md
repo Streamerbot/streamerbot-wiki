@@ -1,7 +1,7 @@
 ---
 title: GetInputList
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-11T14:45:29.800Z
 tags: 
 editor: markdown

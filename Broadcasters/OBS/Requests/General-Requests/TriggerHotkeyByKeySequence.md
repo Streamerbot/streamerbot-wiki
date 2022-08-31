@@ -1,7 +1,7 @@
 ---
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-22T19:39:02.586Z
 tags: 
 editor: markdown

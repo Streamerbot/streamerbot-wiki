@@ -1,7 +1,7 @@
 ---
 title: GetTransitionKindList
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-11T14:17:05.854Z
 tags: 
 editor: markdown

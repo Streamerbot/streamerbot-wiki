@@ -1,108 +1,74 @@
 ---
-title: OBS Studio (v5)
+title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: false
-date: 2022-08-29T10:20:30.746Z
-tags: 
+date: 2022-08-12T20:26:15.657Z
+tags: obs, broadcasters
 editor: markdown
-dateCreated: 2022-08-19T16:26:40.705Z
+dateCreated: 2021-08-25T21:32:10.502Z
 ---
 
-# Quick Links
+![obs.svg](/logos/obs.svg){.align-abstopright}
 
-- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/en/Broadcasters/OBS/Events)
-- [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
-{.btn-grid .my-5}
-
-# Overview
-> OBS WebSocket *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge} are both supported, but the documentation on the wiki is in *v5+*{.obs-version-badge}
-{.is-info}
-
-Adding at least one OBS connection will allow Streamer.bot to control your OBS.
-
-![overview](/broadcasters/obs/overview.png =1000x)
-
-Once configured, connected OBS sessions will report their status on this screen.
-
-# Configuration
-- [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
-{.btn-grid .my-5}
-
-<kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> to define a new OBS connection
-
-![connection](/broadcasters/obs/obs-connection.png =250x)
-
-### Name
-Enter any name or label to describe this OBS instance, e.g. `Local`
-
-### Version
-Select the version of OBS WebSocket to use for this connection.
-
-> As of OBS Studio v28.0, OBS WebSocket v5+ is included by default. 
-> To continue using OBS WebSocket v4.9+, you must install the *obs-websocket-4.9.1-compat*{.obs-version-badge} plugin
+> OBS Websocket *4.x.x*{.version-badge} is the only supported version at this time. 
+> Version *5.x.x*{.version-badge} requires a re-write and will be supported in the future.
+> The latest supported version is *4.9.1*{.version-badge} and can be downladed [here](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
 {.is-warning}
 
-It is recommended to update to *v5+*{.obs-version-badge} if you are currently using an older version.
+## Overview
 
-### Host
-Default is localhost, `127.0.0.1`
-To connect to another OBS instance on your local network, you can enter the local IP address, e.g. `192.168.1.10`
+Adding at least one connection will allow you to control your OBS either through the various [sub-actions](/Sub-Actions#main) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
-### Port
-Default is: *v4.9+*{.obs-version-badge} = `4444` or *v5+*{.obs-version-badge} = `4455`
-It's recommended to keep this the same unless you are using multiple OBS portable installs on your same desktop.
+![broadcasters-obs-018.png](/broadcasters-obs-018.png)
 
-### Password
-Not required, devices can only connect to your OBS if they're on the same network as you.
+> If you are using *v0.1.7*{.version-badge} or below the OBS configuration is found as a top level tab but the functionality is the same
+{.is-info}
 
-### Auto Connect on Startup
-When toggled this auto connects your OBS connection when you launch streamer.bot.
 
-### Reconnect on Disconnect
-When toggled this tries to reconnect (by default every 30s) when streamer.bot looses connection with your OBS.
+Once configured, connected OBS sessions will report their status on this screen
 
-### Retry Interval
-When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
+## Setup
+`Right-Click` -> `Add` to define a new connection
+Give it a name and set the IP address and Port number of the OBS Websocket
 
-# Status Panel
-Overview of connection information available on the right-hand panel{.subtitle}
+The Default values of `127.0.0.1` and `4444` will look for the out-of-box configuration for OBS installed on the same computer as CPH is running
 
-### OBS Information
-Shows the version number of OBS and the installed WebSocket plugin
+`Password` Will not be required unless you have specified one in OBS
 
-### Current Scene
-Shows the name of the currently broadcasting scene on that connection
+![New Connection](/119574587-9adb7e80-bdad-11eb-82c1-ec9ed668a40d.png)
 
-### Stream Status
-Shows the status of current streaming and recording activity
 
-### Sources
-Lists all sources present on the currently selected scene
-
-# Events
-
-Select an OBS connection in the top panel, then <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> in the bottom events panel to register an OBS event.
-
-![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
-
-### Event
-Select the event type from OBS
-
-A reference of all OBS Studio events is available [here](/en/Broadcasters/OBS/Events)
-
-### Group
-Optional group name to keep your events organized
-
-### Action
-Select the action to be executed any time the selected event is fired off from OBS
+Connections can be configured to `Auto Connect on Startup`, and to `Reconnect on Disconnect` with a retry interval you specify in seconds
 
 ***
 
-### OBS Raw
-- [<i class="mdi mdi-code-json text--obs"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
-{.btn-grid .my-5}
+### OBS Information
 
-### OBS Raw Requests
-- [<i class="mdi mdi-frequently-asked-questions
- text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcasters/OBS/Requests)
+Shows the version number of OBS and the installed Websocket plugin
+
+### Current Scene
+
+Shows the name of the currently broadcasting scene on that connection
+
+### Stream Status
+
+Shows the status of current streaming and recording activity
+
+### Sources
+
+Lists all sources present on the currently selected scene
+
+## Events
+
+You can assign actions to events that OBS transmits across the websocket connection.
+
+The data that an event emits, is added onto the arguents the same way it is with results from `OBS Raw`, as well as a `%obsEvent._json%` variable that can be parsed in C# (`JObject.Parse()`) for easier use.
+
+OBS events are per-connection based.
+
+---
+
+- [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Studio Events *Full events reference***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-right primary--text"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
+- [<i class="mdi mdi-github"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#requests)
 {.btn-grid .my-5}

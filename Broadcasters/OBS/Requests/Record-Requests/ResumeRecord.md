@@ -1,7 +1,7 @@
 ---
 title: ResumeRecord
 description: 
-published: false
+published: true
 date: 2022-08-11T14:32:10.498Z
 tags: 
 editor: markdown

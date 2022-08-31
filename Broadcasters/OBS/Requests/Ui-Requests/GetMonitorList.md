@@ -1,7 +1,7 @@
 ---
 title: GetMonitorList
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-11T14:12:55.703Z
 tags: 
 editor: markdown

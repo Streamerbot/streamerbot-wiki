@@ -1,128 +1,131 @@
 ---
-title: OBS Studio Events v5
-description: Information on OBS events (v5) that Streamer.bot can react to using actions.
-published: false
-date: 2022-08-29T07:39:21.524Z
-tags: obs, obs-studio, events
+title: OBS Studio Events (v4)
+description: Reference of all configurable events from OBS Studio
+published: true
+date: 2022-08-10T17:40:04.062Z
+tags: obs, obs-studio, events, reference
 editor: markdown
-dateCreated: 2022-07-04T19:18:02.800Z
+dateCreated: 2022-06-27T02:46:20.098Z
 ---
 
-There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
+![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
 
-It's important to note, that while it may seem like one event maybe the one to use, there is the possibility that another one is better suited for the use case.
 
-For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
+This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
 
-## Default Variables
+> **NOTE**
+> Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events.
+> It is important to consider your use case when deciding which event is best suited for you.
+{.is-info}
 
-Name | Type | Description | 
-----:|:----:|:------------|
-`obsEvent.event` | *string*{.datatype} | The OBS event's name
-`obsEvent.update-type` | *string*{.datatype} | The update type of the OBS event
-`obsEvent._json` | *string*{.datatype} | All the variables in a JSON Object
-
-## General Events
+## General
 General & miscellaneous OBS Studio events{.subtitle}
-* [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
-* [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
+* [**Heartbeat *OBS status update every 2 seconds***](/en/Broadcasters/OBS/Events/Heartbeat)
+* [**BroadcastCustomMessage *A custom message sent by the OBS server***](/en/Broadcasters/OBS/Events/BroadcastCustomMessage)
+* [**Exiting *OBS is exiting***](/en/Broadcasters/OBS/Events/Exiting)
+* [**PreviewSceneChanged *The selected preview scene has changed in Studio Mode***](/en/Broadcasters/OBS/Events/Studio-Mode/PreviewSceneChanged)
+* [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Studio-Mode/StudioModeSwitched)
+* [**ProfileChanged *Triggered when switching to another profile or when renaming the current profile***](/en/Broadcasters/OBS/Events/Profiles/ProfileChanged)
+* [**ProfileListChanged *Triggered when a profile is created, added, renamed, or removed***](/en/Broadcasters/OBS/Events/Profiles/ProfileListChanged)
 {.btn-grid .my-5}
 
-## Config Events
-Events related to config changes{.subtitle}
-* [**CurrentSceneCollectionChanging *The current scene collection has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanging)
-* [**CurrentSceneCollectionChanged *The current scene collection has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentSceneCollectionChanged)
-* [**SceneCollectionListChanged *The scene collection list has changed***](/en/Broadcasters/OBS/Events/Config-Events/SceneCollectionListChanged)
-* [**CurrentProfileChanging *The current profile has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanging)
-* [**CurrentProfileChanged *The current profile has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanged)
-* [**ProfileListChanged *The profile list has changed***](/en/Broadcasters/OBS/Events/Config-Events/ProfileListChanged)
+## Stream
+Events related to current streaming status{.subtitle}
+* [**StreamStarting *A request to start streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStarting)
+* [**StreamStarted *Streaming started successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStarted)
+* [**StreamStopping *A request to stop streaming has been issued***](/en/Broadcasters/OBS/Events/Streaming/StreamStopping)
+* [**StreamStopped *Streaming stopped successfully***](/en/Broadcasters/OBS/Events/Streaming/StreamStopped)
+* [**StreamStatus *Emitted every 2 seconds when stream is active***](/en/Broadcasters/OBS/Events/Streaming/StreamStatus)
 {.btn-grid .my-5}
 
-## Scene Events
-Events related to scene changes{.subtitle}
-* [**SceneCreated *A new scene has been created***](/en/Broadcasters/OBS/Events/Scene-Events/SceneCreated)
-* [**SceneRemoved *A scene has been removed***](/en/Broadcasters/OBS/Events/Scene-Events/SceneRemoved)
-* [**SceneNameChanged *The name of a scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/SceneNameChanged)
-* [**CurrentProgramSceneChanged *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentProgramSceneChanged)
-* [**CurrentPreviewSceneChanged *The current preview scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentPreviewSceneChanged)
-* [**SceneListChanged *The list of scenes has changed***](/en/Broadcasters/OBS/Events/Scene-Events/SceneListChanged)
+## Recording
+Events related to current recording status{.subtitle}
+* [**RecordingStarting *A request to start recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStarting)
+* [**RecordingStarted *Recording started successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStarted)
+* [**RecordingStopping *A request to stop recording has been issued***](/en/Broadcasters/OBS/Events/Recording/RecordingStopping)
+* [**RecordingStopped *Recording stopped successfully***](/en/Broadcasters/OBS/Events/Recording/RecordingStopped)
+* [**RecordingPaused *Current recording paused***](/en/Broadcasters/OBS/Events/Recording/RecordingPaused)
+* [**RecordingResumed *Current recording resumed***](/en/Broadcasters/OBS/Events/Recording/RecordingResumed)
 {.btn-grid .my-5}
 
-## Input Events
-Events related to input changes{.subtitle}
-* [**InputCreated *An input has been created***](/en/Broadcasters/OBS/Events/Input-Events/InputCreated)
-* [**InputRemoved *An input has been removed***](/en/Broadcasters/OBS/Events/Input-Events/InputRemoved)
-* [**InputNameChanged *The name of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputNameChanged)
-* [**InputActiveStateChanged *An input's active state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputActiveStateChanged)
-* [**InputShowStateChanged *An input's show state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputShowStateChanged)
-* [**InputMuteStateChanged *An input's mute state has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputMuteStateChanged)
-* [**InputVolumeChanged *An input's volume level has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeChanged)
-* [**InputAudioBalanceChanged *The audio balance value of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioBalanceChanged)
-* [**InputAudioSyncOffsetChanged *The sync offset of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioSyncOffsetChanged)
-* [**InputAudioTracksChanged *The audio tracks of an input have changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioTracksChanged)
-* [**InputAudioMonitorTypeChanged *The monitor type of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioMonitorTypeChanged)
-* [**InputVolumeMeters *A high-volume event providing volume levels of all active inputs every 50 milliseconds***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeMeters)
+## Scene
+Scene change & collection events{.subtitle}
+* [**SwitchScenes *Event triggered **before** a scene change***](/en/Broadcasters/OBS/Events/Scenes/SwitchScenes)
+* [**ScenesChanged *Event triggered **after** a scene change***](/en/Broadcasters/OBS/Events/Scenes/ScenesChanged)
+* [**SceneCollectionChanged *Triggered when switching to another scene collection***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionChanged)
+* [**SceneCollectionListChanged *Triggered when modifying scene collections***](/en/Broadcasters/OBS/Events/Scenes/SceneCollectionListChanged)
 {.btn-grid .my-5}
 
-## Transition Events
+## Scene Item
+Events related to scene item & ordering changes{.subtitle}
+* [**SceneItemAdded *A scene item has been added to a scene***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemAdded)
+* [**SceneItemRemoved *A scene item has been removed from a scene***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemRemoved)
+* [**SceneItemVisibilityChanged *A scene item's visibility has been toggled***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemVisibilityChanged)
+* [**SceneItemLockChanged *A scene item's locked status has been toggled***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemLockChanged)
+* [**SceneItemTransformChanged *A scene item's transform has been changed***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemTransformChanged)
+* [**SceneItemSelected *A scene item is selected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemSelected)
+* [**SceneItemDeselected *A scene item is deselected***](/en/Broadcasters/OBS/Events/Scene-Items/SceneItemDeselected)
+* [**SourceOrderChanged *Scene items within a scene have been reordered***](/en/Broadcasters/OBS/Events/Scene-Items/SourceOrderChanged)
+{.btn-grid .my-5}
+
+## Transition
 Events related to transition changes{.subtitle}
-* [**CurrentSceneTransitionChanged *The current scene transition has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionChanged)
-* [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionDurationChanged)
+* [**SwitchTransition *The active transition has been changed***](/en/Broadcasters/OBS/Events/Transitions/SwitchTransition)
+* [**TransitionListChanged *The list of available transitions has been modified. Transitions have been added, removed, or renamed***](/en/Broadcasters/OBS/Events/Transitions/TransitionListChanged)
+* [**TransitionDurationChanged *The active transition duration has been changed***](/en/Broadcasters/OBS/Events/Transitions/TransitionDurationChanged)
+* [**TransitionBegin *A transition (other than "cut") has begun***](/en/Broadcasters/OBS/Events/Transitions/TransitionBegin)
+* [**TransitionEnd *A transition (other than "cut") has ended***](/en/Broadcasters/OBS/Events/Transitions/TransitionEnd)
+* [**TransitionVideoEnd *A stinger transition has finished playing its video***](/en/Broadcasters/OBS/Events/Transitions/TransitionVideoEnd)
 {.btn-grid .my-5}
 
-<div></div>
-
-* [**SceneTransitionStarted *A scene transition has started***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionStarted)
-* [**SceneTransitionEnded *A scene transition has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded)
-* [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionVideoEnded)
+## Source
+Events related to source & filter changes{.subtitle}
+* [**SourceCreated *A source has been created***](/en/Broadcasters/OBS/Events/Sources/SourceCreated)
+* [**SourceDestroyed *A source has been removed***](/en/Broadcasters/OBS/Events/Sources/SourceDestroyed)
+* [**SourceVolumeChanged *The volume of a source has changed.***](/en/Broadcasters/OBS/Events/Sources/SourceVolumeChanged)
+* [**SourceMuteStateChanged *A source has been muted or unmuted***](/en/Broadcasters/OBS/Events/Sources/SourceMuteStateChanged)
+* [**SourceAudioDeactivated *A source has removed audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioDeactivated)
+* [**SourceAudioActivated *A source has added audio***](/en/Broadcasters/OBS/Events/Sources/SourceAudioActivated)
+* [**SourceAudioSyncOffsetChanged *The audio sync offset of a source has changed***](/en/Broadcasters/OBS/Events/Sources/SourceAudioSyncOffsetChanged)
+* [**SourceAudioMixersChanged *Audio mixer routing changed on a source***](/en/Broadcasters/OBS/Events/Sources/SourceAudioMixersChanged)
+* [**SourceRenamed *A source has been renamed***](/en/Broadcasters/OBS/Events/Sources/SourceRenamed)
+* [**SourceFilterAdded *A filter was added to a source***](/en/Broadcasters/OBS/Events/Sources/SourceFilterAdded)
+* [**SourceFilterRemoved *A filter was removed from a source***](/en/Broadcasters/OBS/Events/Sources/SourceFilterRemoved)
+* [**SourceFilterVisibilityChanged *The visibility/enabled state of a filter changed***](/en/Broadcasters/OBS/Events/Sources/SourceFilterVisibilityChanged)
+* [**SourceFiltersReordered *Filters in a source have been reordered***](/en/Broadcasters/OBS/Events/Sources/SourceFiltersReordered)
 {.btn-grid .my-5}
 
-## Filter Events
-Events related to filter changes{.subtitle}
-* [**SourceFilterListReindexed *A source's filter list has been reindexed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterListReindexed)
-* [**SourceFilterCreated *A filter has been added to a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterCreated)
-* [**SourceFilterRemoved *A filter has been removed from a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved)
-* [**SourceFilterNameChanged *The name of a source filter has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged)
-* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged)
-{.btn-grid .my-5}
-
-## Scene Item Events
-Events related to scene item changes{.subtitle}
-* [**SceneItemCreated *A scene item has been created***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemCreated)
-* [**SceneItemRemoved *A scene item has been removed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemRemoved)
-* [**SceneItemListReindexed *A scene's item list has been reindexed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemListReindexed)
-* [**SceneItemEnableStateChanged *A scene item's enable state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemEnableStateChanged)
-* [**SceneItemLockStateChanged *A scene item's lock state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemLockStateChanged)
-* [**SceneItemSelected *A scene item has been selected in the Ui***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemSelected)
-* [**SceneItemTransformChanged *The transform/crop of a scene item has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemTransformChanged)
-{.btn-grid .my-5}
-
-## Output Events
-Events related to current output status{.subtitle}
-* [**StreamStateChanged *The state of the stream output has changed***](/en/Broadcasters/OBS/Events/Output-Events/StreamStateChanged)
-* [**RecordStateChanged *The state of the record output has changed***](/en/Broadcasters/OBS/Events/Output-Events/RecordStateChanged)
-* [**ReplayBufferStateChanged *The state of the replay buffer output has changed***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferStateChanged)
-* [**VirtualcamStateChanged *The state of the virtualcam output has changed***](/en/Broadcasters/OBS/Events/Output-Events/VirtualcamStateChanged)
-* [**ReplayBufferSaved *The replay buffer has been saved***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferSaved)
-{.btn-grid .my-5}
-
-## Media Input Events
-Events related to media input changes{.subtitle}
+## Media
+Added in obs-websocket *v4.9.0*{.obs-version-badge} {.subtitle}
 
 **Note**: These events are only emitted when something actively controls the media/VLC source. In other words, the source will never emit this on its own naturally.{.subtitle}
-
-* [**MediaInputPlaybackStarted *A media input has started playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackStarted)
-* [**MediaInputPlaybackEnded *A media input has finished playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackEnded)
-* [**MediaInputActionTriggered *An action has been performed on an input***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputActionTriggered)
+* [MediaPlaying](/en/Broadcasters/OBS/Events/Media/MediaPlaying)
+* [MediaPaused](/en/Broadcasters/OBS/Events/Media/MediaPaused)
+* [MediaRestarted](/en/Broadcasters/OBS/Events/Media/MediaRestarted)
+* [MediaStopped](/en/Broadcasters/OBS/Events/Media/MediaStopped)
+* [MediaNext](/en/Broadcasters/OBS/Events/Media/MediaNext)
+* [MediaPrevious](/en/Broadcasters/OBS/Events/Media/MediaPrevious)
+* [MediaStarted](/en/Broadcasters/OBS/Events/Media/MediaStarted)
+* [MediaEnded](/en/Broadcasters/OBS/Events/Media/MediaEnded)
 {.btn-grid .my-5}
 
-## Ui Events
-Events related to Ui changes{.subtitle}
-* [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
+## Replay Buffer
+Added in obs-websocket *v4.2.0*{.obs-version-badge} {.subtitle}
+* [**ReplayStarting *A request to start the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarting)
+* [**ReplayStarted *Replay Buffer started successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStarted)
+* [**ReplayStopping *A request to stop the replay buffer has been issued***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopping)
+* [**ReplayStopped *Replay Buffer stopped successfully***](/en/Broadcasters/OBS/Events/Replay-Buffer/ReplayStopped)
 {.btn-grid .my-5}
 
----
+## Virtual Cam
+Added in obs-websocket *v4.9.1*{.obs-version-badge} {.subtitle}
+* [**VirtualCamStarted *Virtual cam started successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStarted)
+* [**VirtualCamStopped *Virtual cam stopped successfully***](/en/Broadcasters/OBS/Events/Virtual-Cam/VirtualCamStopped)
+{.btn-grid .my-5}
 
-- [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
-- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
+
+---{.my-10}
+
+* [<i class="mdi mdi-creation primary--text"></i> **Events Reference *Reference of all events in Streamer.bot***](/en/Events)
+* [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
 {.btn-grid .my-5}

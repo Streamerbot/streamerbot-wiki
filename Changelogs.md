@@ -8,8 +8,8 @@ editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.11 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.11 (Current)
+Released 2022-08-31{.subtitle}
 
 * Commands in an import will be disabled by default, this is more of a security precaution
 * Action updates were not properly being sent to the Streamer.bot website for decks
@@ -129,7 +129,7 @@ When you connect with your bot account, the following new scopes will be request
 * `user:manage:whispers`
 {.grid-list}
 
-# Streamer.bot v0.1.10 (Current)
+# Streamer.bot v0.1.10
 Released 2022-06-24{.subtitle}
 
 * An issue with authentication for some integrations

@@ -1,7 +1,7 @@
 ---
 title: GetSceneCollectionList
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-12T11:57:00.243Z
 tags: 
 editor: markdown

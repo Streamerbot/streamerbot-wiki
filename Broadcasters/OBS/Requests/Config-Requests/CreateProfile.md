@@ -1,7 +1,7 @@
 ---
 title: CreateProfile
 description: OBS Studio Requests Reference (v5)
-published: false
+published: true
 date: 2022-08-12T11:59:44.228Z
 tags: 
 editor: markdown
