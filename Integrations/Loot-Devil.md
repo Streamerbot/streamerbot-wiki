@@ -2,7 +2,7 @@
 title: Loot Devil
 description: 
 published: false
-date: 2022-08-31T13:52:41.274Z
+date: 2022-08-31T13:58:57.707Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -26,7 +26,7 @@ dateCreated: 2022-08-31T01:57:24.360Z
 
 ---
 
-<h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Settings</h3>
+<h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #78D1FF; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Application Settings</h3>
 
 - [Steamer.bot Loot Devil Connecting Page](https://streamer.bot/user/settings#lootdevil)
 - [Loot Devil Api Page](https://lootdevil.com/integrations/api)
