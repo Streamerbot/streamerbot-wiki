@@ -2,7 +2,7 @@
 title: GetSourceFilterDefaultSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:49:58.293Z
+date: 2022-08-31T23:39:12.727Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:13:18.116Z
