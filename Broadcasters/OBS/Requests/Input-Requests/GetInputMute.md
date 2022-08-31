@@ -2,7 +2,7 @@
 title: GetInputMute
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:45:41.929Z
+date: 2022-08-31T23:26:26.055Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T07:25:43.074Z
