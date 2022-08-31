@@ -2,7 +2,7 @@
 title: Streamer.bot Website Integration
 description: Enable additional Streamer.bot functionality by configuring the Streamer.bot Website integration!
 published: true
-date: 2022-08-31T00:06:50.874Z
+date: 2022-08-31T00:07:50.090Z
 tags: integrations, streamerbot, decks, ko-fi, patreon, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:51:05.664Z
@@ -17,7 +17,7 @@ The Streamer.bot Website integration enables additional functionality within Str
 - [<img src="https://streamer.bot/logo.svg"/> **Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
 - [<img src="/logos/kofi.png"/> **Ko-Fi *Donations integration***](/en/Integrations/Ko-Fi)
 - [<img src="/logos/patreon.png"/> **Patreon *Donations integration***](/en/Integrations/Patreon)
-- [<img src="/logos/lootdevil.png"/> **Lootdevil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/Lootdevil){.disabled}
+- [<img src="https://wiki.streamer.bot//logos/lootdevil.png"/> **Lootdevil *The Wishlist Built for Creators *Coming Soon!*{.version-badge}***](/en/Integrations/Lootdevil){.disabled}
 {.btn-grid .my-5}
 
 ---
