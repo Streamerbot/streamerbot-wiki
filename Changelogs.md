@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-30T23:47:32.769Z
+date: 2022-08-31T08:53:50.601Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -51,6 +51,7 @@ Upcoming changes in the next release!{.subtitle}
 * [Lumia Stream](#lumia-stream) integration!
 * New sub-action Send Command for Lumia Stream
 * New sub-action Set Color for Lumia Stream
+* New sub-action Set to Default for Lumia Stream
 * New integration, [Loot Devil](#loot-devil)
 {.changelog-new}
 
