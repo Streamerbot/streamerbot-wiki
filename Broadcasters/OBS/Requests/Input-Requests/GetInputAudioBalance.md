@@ -2,7 +2,7 @@
 title: GetInputAudioBalance
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:42:14.551Z
+date: 2022-08-31T23:25:04.462Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T06:19:44.006Z
