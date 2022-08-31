@@ -2,7 +2,7 @@
 title: Loot Devil
 description: 
 published: false
-date: 2022-08-31T13:58:57.707Z
+date: 2022-08-31T14:00:18.401Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -14,6 +14,8 @@ dateCreated: 2022-08-31T01:57:24.360Z
 {.is-danger}
 
 ## Configuration
+<span></span>
+
 <h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Website User Settings</h3>
 
 ---
