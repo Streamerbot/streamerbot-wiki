@@ -2,7 +2,7 @@
 title: Loot Devil
 description: 
 published: false
-date: 2022-08-31T14:00:18.401Z
+date: 2022-08-31T21:15:57.430Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -49,42 +49,3 @@ Name | Description
 `items[#].url` | The url of the item
 `items[#].image` | The image of the item
 {.vars-table}
-
-## Other
----
-
-```json
-{
-  "type": "Gift",
-  "from": "John Doe",
-  "message": "Thanks for all the content you create!",
-  "amount": "100",
-  "currency": "USD",
-  "amount_formatted": "$100",
-  "items": [
-    {
-      "name": "$100 tip",
-      "price": "100",
-      "price_formatted": "$100",
-      "url": "https://lootdevil.com/username/gift/1",
-      "image": "https://static.lootdevil.com/tip-jar-1.jpg"
-    } 
-  ]
-}
-```
-
-__source	LootDevilGifted
-timestamp	8/31/2022 11:33:36 AM
-from	John Doe
-message	Thanks for all the content you create!
-amount	100
-amount_formatted	$100
-currency	USD
-items[0].name	$100 tip
-items[0].price	100
-items[0].price_formatted	$100
-items[0].url	https://lootdevil.com/username/gift/1
-items[0].image	https://static.lootdevil.com/tip-jar-1.jpg
-actionId	458f22e4-c129-4372-b563-d498e99d36ec
-eventSource	lootdevil
-runningActionId	e1f320e7-be3f-43fd-b62c-d7cdb8f9d485
