@@ -2,7 +2,7 @@
 title: GetCurrentPreviewScene
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:23:07.542Z
+date: 2022-08-31T23:23:03.298Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T12:54:36.906Z
