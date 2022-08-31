@@ -1,8 +1,8 @@
 ---
 title: GetOutputList
 description: OBS Studio Requests Reference (v5)
-published: false
-date: 2022-08-31T23:53:19.787Z
+published: true
+date: 2022-08-31T23:53:26.141Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T14:15:24.931Z
