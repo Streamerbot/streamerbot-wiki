@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-09-01T03:59:53.630Z
+date: 2022-09-01T04:02:09.861Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -12,8 +12,11 @@ dateCreated: 2022-06-27T02:46:20.098Z
   
  This is a full reference of all [OBS WebSocket 5](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
  
-**NOTE:** OBS WebSocket 4.x event documentation has moved [here](/en/Broadcasters/OBS/Archive/Events)
- 
+> **NOTE** 
+> Streamer.bot now supports OBS Studio v28 and OBS WebSocket 5.x.
+> OBS WebSocket 4.x event documentation can be found [here](/en/Broadcasters/OBS/Archive/Events)
+{.is-info}
+
 
 ## Default Variables
 These variables are available on all OBS Studio events{.subtitle}
