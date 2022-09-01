@@ -2,7 +2,7 @@
 title: RefreshBrowserSource
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-01T14:50:12.148Z
+date: 2022-09-01T14:51:31.943Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T12:19:55.650Z
@@ -19,7 +19,7 @@ Name | Type | Required| Description |
 
 ## Data Fields
 :---|:---:|
-Complexity Rating: | <span class="stars stars--2"></span>
+Complexity Rating: | <span class="stars stars--3"></span>
 Latest Supported RPC Version: | *1*{.obs-version-badge}
 Added in | *v5.0.0*{.obs-version-badge}
 
