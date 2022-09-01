@@ -2,7 +2,7 @@
 title: OpenInputPropertiesDialog
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:13:58.218Z
+date: 2022-09-01T00:02:14.054Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T18:06:04.494Z
