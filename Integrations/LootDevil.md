@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T03:57:05.031Z
+date: 2022-09-01T03:58:22.954Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -14,7 +14,7 @@ Safe and secure wishlists for streamers, influencers and creators. Accept gifts 
 ## Configuration
 <span></span>
 
-<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Website User Settings</h3>
+<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Website User Settings</h3>
 
 ![lootdevil-user-settings-copy-webhook-url.png](/intergrations/lootdevil/lootdevil-user-settings-copy-webhook-url.png)
 
@@ -24,7 +24,7 @@ Copy the `LootDevil Webhook URL`
 
 ---
 
-<h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Loot Devil API Settings</h3>
+<h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Loot Devil API Settings</h3>
 
 ![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
 
@@ -32,13 +32,13 @@ Go to [lootdevil.com/integrations/api](https://lootdevil.com/integrations/api)
 
 ---
 
-<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Website User Settings</h3>
+<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Website User Settings</h3>
 
 ![lootdevil-user-settings-paste-webhook-secret.png](/intergrations/lootdevil/lootdevil-user-settings-paste-webhook-secret.png)
 
 ---
 
-<h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #78D1FF; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Application Settings</h3>
+<h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #78D1FF; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Application Settings</h3>
 
 ![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png)
 
