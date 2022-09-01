@@ -2,13 +2,24 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-01T01:41:25.004Z
+date: 2022-09-01T01:51:07.179Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.11 (WIP)
+# Streamer.bot v0.1.12 (Current)
+Released 2022-08-31{.subtitle}
+
+This is a hotfix release
+
+* OBS Websocket 5.x source vibility sub-action was not working, when the source is in a group
+* OBS Websocket 4.9.x, issues with deserialization of a few calls
+* Silent crash in OBS Hide Group's Sources
+* Potential crash in OBS group related sub-actions, if group no longer exists when editing
+{.changelog-fixes}
+
+# Streamer.bot v0.1.11
 Released 2022-08-31{.subtitle}
 
 * Commands in an import will be disabled by default, this is more of a security precaution
