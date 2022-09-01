@@ -2,7 +2,7 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-09-01T12:13:55.508Z
+date: 2022-09-01T23:05:06.001Z
 tags: obs, raw, obs-studio, obs requests, requests, obs raw
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -215,7 +215,7 @@ Ui related OBS Studio requests{.subtitle}
 
 ## Additional Request Info
 This are examples for requests that existed in privious version of the obs websocket{.subtitle}
-* [**RefreshBrowserSource *Refresh a browser source***](/en/Broadcasters/OBS/Requests/Additional-Request-Info/RefreshBrowserSource){.disabled}
+* [**RefreshBrowserSource *Refresh a browser source***](/en/Broadcasters/OBS/Requests/Additional-Request-Info/RefreshBrowserSource)
 {.btn-grid .my-5}
 ---
 
