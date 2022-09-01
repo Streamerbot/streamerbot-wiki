@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events (v5) that Streamer.bot can react to using actions.
 published: true
-date: 2022-09-01T03:57:57.579Z
+date: 2022-09-01T03:58:36.264Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -118,7 +118,7 @@ Events related to media input changes{.subtitle}
 * [**MediaInputActionTriggered *An action has been performed on an input***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputActionTriggered)
 {.btn-grid .my-5}
 
-## Ui Events
+## UI Events
 Events related to Ui changes{.subtitle}
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
 {.btn-grid .my-5}
