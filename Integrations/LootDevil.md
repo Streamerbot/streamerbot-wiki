@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T08:38:27.607Z
+date: 2022-09-01T08:42:48.791Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -19,7 +19,6 @@ Safe and secure wishlists for streamers, influencers and creators. Accept gifts 
 ![lootdevil-user-settings-copy-webhook-url.png](/intergrations/lootdevil/lootdevil-user-settings-copy-webhook-url.png)
 
 Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot website
-
 Copy the <span class="mdi mdi-content-copy" style="color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> LootDevil Webhook URL</span>
 
 ---
@@ -27,14 +26,18 @@ Copy the <span class="mdi mdi-content-copy" style="color: #A257ED; background-co
 <h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Loot Devil API Settings</h3>
 
 ![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
+Go to [here](https://lootdevil.com/integrations/api)
 
-Go to [lootdevil.com/integrations/api](https://lootdevil.com/integrations/api)
+Paste the <span class="mdi mdi-content-paste" style="color: #4F46E5; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> LootDevil Webhook URL</span>
+Copy the <span class="mdi mdi-content-copy" style="color: #4F46E5; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Signing Secret</span>
 
 ---
 
 <h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Website User Settings</h3>
 
 ![lootdevil-user-settings-paste-webhook-secret.png](/intergrations/lootdevil/lootdevil-user-settings-paste-webhook-secret.png)
+
+Paste the <span class="mdi mdi-content-paste" style="color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Signing Secret</span>
 
 ---
 
