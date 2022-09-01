@@ -2,7 +2,7 @@
 title: GetStudioModeEnabled
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:13:12.505Z
+date: 2022-09-01T00:03:09.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T18:01:51.694Z
