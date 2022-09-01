@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events (v5) that Streamer.bot can react to using actions.
 published: true
-date: 2022-09-01T03:57:40.139Z
+date: 2022-09-01T03:57:57.579Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -16,6 +16,7 @@ dateCreated: 2022-06-27T02:46:20.098Z
  
 
 ## Default Variables
+These variables are available on all OBS Studio events{.subtitle}
 
 Name | Type | Description | 
 ----:|:----:|:------------|
