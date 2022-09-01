@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T10:04:29.250Z
+date: 2022-09-01T23:59:03.554Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -45,9 +45,6 @@ Paste the <span class="mdi mdi-content-paste" style="color: #A257ED; background-
 
 ![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png)
 
-- [Steamer.bot Loot Devil Connecting Page](https://streamer.bot/user/settings#lootdevil)
-- [Loot Devil Api Page](https://lootdevil.com/integrations/api)
-
 ## Variables
 ### Gifted
 Name | Description
@@ -66,10 +63,10 @@ Name | Description
 {.vars-table}
 
 ---
-LINKS:
+#### LINKS
 
 - [<img src="https://streamer.bot/logo.png"></img> **LootDevil *LootDevil User Settings in streamer.bot***](https://streamer.bot/user/settings#lootdevil)
-- [<img src="https://streamer.bot/logo.png"></img> **LootDevil *LootDevil Api page***](https://lootdevil.com/integrations/api)
+- [<img src="https://streamer.bot/img/integrations/lootdevil.png"></img> **LootDevil *LootDevil Api page***](https://lootdevil.com/integrations/api)
 {.btn-grid .my-5}
 ---
 
