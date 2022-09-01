@@ -2,7 +2,7 @@
 title: SetMediaInputCursor
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:40:01.463Z
+date: 2022-09-01T00:03:36.278Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:41:32.946Z
