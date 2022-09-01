@@ -1,9 +1,9 @@
 ---
 title: OBS Studio Events
-description: Information on OBS events (v5) that Streamer.bot can react to using actions.
+description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-09-01T03:58:36.264Z
-tags: obs, obs-studio, events
+date: 2022-09-01T03:59:21.116Z
+tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
 ---
