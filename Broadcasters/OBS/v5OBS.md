@@ -1,11 +1,11 @@
 ---
 title: OBS Studio
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
-published: false
-date: 2022-08-12T20:26:15.657Z
+published: true
+date: 2022-09-01T05:45:37.094Z
 tags: obs, broadcasters
 editor: markdown
-dateCreated: 2021-08-25T21:32:10.502Z
+dateCreated: 2022-08-19T16:26:40.705Z
 ---
 
 ![obs.svg](/logos/obs.svg){.align-abstopright}
