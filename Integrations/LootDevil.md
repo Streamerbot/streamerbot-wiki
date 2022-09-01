@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T09:26:28.983Z
+date: 2022-09-01T09:28:05.459Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -23,7 +23,7 @@ Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot w
 
 ---
 
-<h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> LootDevil API Settings</h3>
+<h3 class="mdi mdi-gold" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> LootDevil API Settings</h3>
 
 ![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
 Go to [here](https://lootdevil.com/integrations/api) on the LootDevil website
