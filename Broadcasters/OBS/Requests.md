@@ -2,7 +2,7 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-08-31T23:09:01.155Z
+date: 2022-09-01T00:04:37.003Z
 tags: obs, raw, obs-studio, obs requests, requests, obs raw
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -212,11 +212,6 @@ Ui related OBS Studio requests{.subtitle}
 * [**OpenVideoMixProjector *Opens a projector for a specific output video mix***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenVideoMixProjector)
 * [**OpenSourceProjector *Opens a projector for a source***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenSourceProjector)
 {.btn-grid .my-5}
-
-#### Pages that need changes
-* SetInputVolume
-* GetOutputList
-{.grid-list}
 
 ---
 
