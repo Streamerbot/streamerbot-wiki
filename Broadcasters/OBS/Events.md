@@ -2,17 +2,18 @@
 title: OBS Studio Events
 description: Information on OBS events (v5) that Streamer.bot can react to using actions.
 published: true
-date: 2022-08-29T07:39:21.524Z
+date: 2022-09-01T03:57:29.604Z
 tags: obs, obs-studio, events
 editor: markdown
-dateCreated: 2022-07-04T19:18:02.800Z
+dateCreated: 2022-06-27T02:46:20.098Z
 ---
 
-There are a handful of events that the OBS websocket broadcasts when things occur within OBS itself.
-
-It's important to note, that while it may seem like one event maybe the one to use, there is the possibility that another one is better suited for the use case.
-
-For example, a single scene change, fires off more events then just changing the scene, there are the transition events the happen, a pre and post event for the switch, etc.
+ ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
+  
+ This is a full reference of all [OBS WebSocket 5](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
+ 
+**NOTE:** OBS WebSocket 4.x event documentation has moved [here](/en/OBS/Archive/Events)
+ 
 
 ## Default Variables
 
