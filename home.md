@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-08-31T10:23:49.514Z
+date: 2022-09-01T02:06:25.002Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -46,6 +46,7 @@ Integrations{.overline}
 - [DonorDrive](/en/Integrations/DonorDrive)
 - [Ko-Fi](/en/Integrations/Ko-Fi)
 - [Patreon](/en/Integrations/Patreon)
+- [Lumia Stream](/en/Integrations/Lumia-Stream)
 - [View all integrations...](/en/Integrations)
 
 </div>
