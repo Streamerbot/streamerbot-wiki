@@ -2,7 +2,7 @@
 title: SetInputMute
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:26:18.595Z
+date: 2022-09-01T04:48:43.139Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T07:27:25.820Z
@@ -34,6 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     "inputMuted": 
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("SetInputMute", "{'inputName': '', 'inputMuted': }", 0);
 ```
 ## End Tabset {.tabset}
 
