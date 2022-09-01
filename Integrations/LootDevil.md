@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T03:58:22.954Z
+date: 2022-09-01T08:38:27.607Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -18,9 +18,9 @@ Safe and secure wishlists for streamers, influencers and creators. Accept gifts 
 
 ![lootdevil-user-settings-copy-webhook-url.png](/intergrations/lootdevil/lootdevil-user-settings-copy-webhook-url.png)
 
-Go to [/settings#lootdevil](https://streamer.bot/user/settings#lootdevil) on the streamer.bot website
+Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot website
 
-Copy the `LootDevil Webhook URL`
+Copy the <span class="mdi mdi-content-copy" style="color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> LootDevil Webhook URL</span>
 
 ---
 
