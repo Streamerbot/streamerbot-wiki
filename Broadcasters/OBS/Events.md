@@ -1,8 +1,8 @@
 ---
-title: OBS Studio Events
+title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-09-01T04:02:09.861Z
+date: 2022-09-01T05:46:09.867Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
