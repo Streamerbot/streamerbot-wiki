@@ -1,11 +1,11 @@
 ---
 title: OBS Studio Events (v4)
-description: Reference of all configurable events from OBS Studio
+description: Reference of all configurable events from OBS Studio (v4)
 published: true
-date: 2022-08-10T17:40:04.062Z
+date: 2022-09-01T00:52:53.829Z
 tags: obs, obs-studio, events, reference
 editor: markdown
-dateCreated: 2022-06-27T02:46:20.098Z
+dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
 ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
