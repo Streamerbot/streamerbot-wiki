@@ -2,7 +2,7 @@
 title: GetMediaInputStatus
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T14:37:52.122Z
+date: 2022-09-01T00:03:41.261Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:38:30.754Z
