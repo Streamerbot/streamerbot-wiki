@@ -2,18 +2,8 @@
 title: RecordingStarting
 description: OBS Studio Events Reference
 published: true
-date: 2022-07-18T16:08:36.190Z
+date: 2022-09-01T07:28:20.891Z
 tags: 
-editor: markdown
-dateCreated: 2022-06-27T17:28:11.096Z
----
-
----
-title: RecordingStarting
-description: 'recordingFilename' is not provided in this event because this information is not available at the time this event is emitted.
-published: true
-date: 2022-07-03T21:38:00.226Z
-tags:
 editor: markdown
 dateCreated: 2022-06-27T17:28:11.096Z
 ---
