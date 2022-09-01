@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-01T01:51:07.179Z
+date: 2022-09-01T01:56:17.262Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,7 +13,7 @@ Released 2022-08-31{.subtitle}
 
 This is a hotfix release
 
-* OBS Websocket 5.x source vibility sub-action was not working, when the source is in a group
+* OBS Websocket 5.x source visibility sub-action was not working, when the source is in a group
 * OBS Websocket 4.9.x, issues with deserialization of a few calls
 * Silent crash in OBS Hide Group's Sources
 * Potential crash in OBS group related sub-actions, if group no longer exists when editing
