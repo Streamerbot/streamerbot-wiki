@@ -2,18 +2,13 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-01T01:32:27.458Z
+date: 2022-09-01T01:41:25.004Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.12 (WIP)
-Upcoming changes in the next release!{.subtitle}
-* Set Source Visibility with sources in groups didn't work
-{.changelog-fixes}
-
-# Streamer.bot v0.1.11 (Current)
+# Streamer.bot v0.1.11 (WIP)
 Released 2022-08-31{.subtitle}
 
 * Commands in an import will be disabled by default, this is more of a security precaution
