@@ -2,7 +2,7 @@
 title: RefreshBrowserSource
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-01T12:19:55.650Z
+date: 2022-09-01T14:50:12.148Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T12:19:55.650Z
@@ -30,12 +30,15 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "PressInputPropertiesButton",
   "requestData": {
-    "inputName": "Browser",
+    "inputName": "",
     "propertyName": "refreshnocache"
   }
 }
 ```
 ### C# Method
+```csharp
+CPH.ObsSendRaw("PressInputPropertiesButton", "{'inputName': '', 'propertyName': 'refreshnocache'}", 0);
+```
 ## End Tabset {.tabset}
 
 ---
