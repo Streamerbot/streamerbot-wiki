@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: false
-date: 2022-09-01T03:54:58.547Z
+date: 2022-09-01T03:57:05.031Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -26,7 +26,8 @@ Copy the `LootDevil Webhook URL`
 
 <h3 class="mdi mdi-api" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Loot Devil API Settings</h3>
 
-![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png)
+![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
+
 Go to [lootdevil.com/integrations/api](https://lootdevil.com/integrations/api)
 
 ---
@@ -39,7 +40,7 @@ Go to [lootdevil.com/integrations/api](https://lootdevil.com/integrations/api)
 
 <h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #78D1FF; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 5px; text-align: center;"> Streamer.bot Application Settings</h3>
 
-![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
+![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png)
 
 - [Steamer.bot Loot Devil Connecting Page](https://streamer.bot/user/settings#lootdevil)
 - [Loot Devil Api Page](https://lootdevil.com/integrations/api)
