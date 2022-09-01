@@ -2,7 +2,7 @@
 title: OBS Studio Events
 description: Information on OBS events (v5) that Streamer.bot can react to using actions.
 published: true
-date: 2022-09-01T03:57:29.604Z
+date: 2022-09-01T03:57:40.139Z
 tags: obs, obs-studio, events
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -24,7 +24,7 @@ Name | Type | Description |
 `obsEvent._json` | *string*{.datatype} | All the variables in a JSON Object
 
 ## General Events
-General & miscellaneous OBS Studio events{.subtitle}
+General OBS Studio events{.subtitle}
 * [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
 * [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
 {.btn-grid .my-5}
