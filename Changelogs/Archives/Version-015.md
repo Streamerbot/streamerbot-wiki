@@ -2,89 +2,101 @@
 title: Version 0.1.5
 description: 
 published: true
-date: 2022-06-23T02:10:36.366Z
+date: 2022-09-02T03:18:32.011Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T02:10:32.421Z
 ---
 
-* **Fixed:** Typos
-* **Fixed:** Regression in Perform Command, variables were not being parsed
-* **Fixed:** Better handling of OBS events, and issues surrounding editing
-* **Fixed:** Better handling of OBS/SLOBS sub-actions where a scene is empty, signifying the source exists in any scene
-* **Fixed:** Anonymous cheers could cause a crash with credits
-* **Fixed:** Some underlying issues with Streamlabs/Streamelements sockets
-* **Fixed:** Add error handling when importing actions, should no longer crash in the event something is malformed
-* **Fixed:** Handle WASAPI init errors on playback, specifically if its unable to initialize the device
-* **Fixed:** Some additional error handling in websocket server/client dialogs
-* **Fixed:** Rare scenario where fetching mod/vip lists internally could cause a crash
-* **Fixed:** Handle data issues with SLOBS not adhering to its on JSON structures
-* **Fixed:** Grouping in OBS Events was not being handled properly (typo)
-* **Fixed:** Custom WebsocketServer message event was emitting the wrong type of event internally
-* **Fixed:** GetCredits method was putting Hype Train conductors in the wrong field
-* **Fixed:** Twitch Slow mode sub-action was not being deserialized properly
-* **Fixed:** Read Lines from File and Read Random Line from File sub-actions, input validation input was not working correctly
-* **Fixed:** Creating/editing reward sub-actions when there are none could cause a potential crash
-* **Fixed:** Fix culture parsing of decimals for streamlabs and stream elements testing of donations, decimals should work for all cultures now
-* **Fixed:** Potential crash in some sub-actions and empty scenes
-* **Fixed:** Drag/drop of sub-action was not properly marking cached info as dirty
-* **Fixed:** Voice control UI was not selecting the saved input device on startup
-* **Fixed:** Issues with Twitch dropping connection, this maybe an on going fix, trying to refine why this behaviour is happening.  This manifests as if the bot stops reacting to most Twitch actions.
-* **Fixed:** Actions were not being flagged as dirty when using drag/drop to re-organize sub-actions, making it look like they were not being saved
-* **Fixed:** Streamlabs donation events were being ignored, they should go through now
-* **Fixed:** Resuming a queue should now correctly fire off any actions that were in the queue
-* **Fixed:** Masimum values for max redeems per user/per stream are set to correct maximums now, should no longer cause a crash
-* **Fixed:** Data type mismatch when creating Stream Markers (oops)
-* **Fixed:** Exporting actions with a queue did not preserve is the queue was blocking
-* **Fixed:** Importing actions did not correctly show blocking/non-blocking queue info (visual only)
-* **Fixed:** Custom websocket server firing incorrect actions
-* **Update:** [Delay](#delay-sub-action) sub-action can now accept variables
-* **Update:** Twitch Slow Mode sub-action (and C# method) has been updated to allow specifiying the delay time
-* **Update:** Update [Twitch Clip C# Methods](#twitch-clip-c-methods) related methods, see section for more details
-* **Update:** %s are auto removed for the variable in the LogicIf dialog
-* **Update:** Add Insert and Delete as usable keys for Hot Keys and Keyboard Press
-* **Update:** [Set Reward Cost](#set-reward-cost) sub-action can now accept variables, and give an operator option to add, subtract, multiply or divide the value
-* **Update:** [Set Argument](#set-argument) sub-action has been updated with full parsing support for its value, and the increment option removed, see section for more details
-* **Update:** New way to [pick actions](#new-way-to-pick-actions) for events!
-* **Update:** Added `%rewardCost%` and `%rewardPrompt%` to the variables for reward redemptions
-* **Update:** The action list in the action sub-action is now sorted alphabetically
-* **Update:** Action lists returned by the HTTP server and Websocket GetActions requests are now sorted alphabetically
-* **Update:** Timed Actions have been decoupled from the Twitch connection, they will now start on application start
-* **Update:** Resolution for Timed Actions has been lowered to 1s from 53, this is tenetive and needs testing internally
-* **Update:** Add game box art (`%gameBoxArt%` and `%oldGameBoxArt%`) to the stream update event
-* **Update:** Global Get/Set sub-actions have been extended to parse the variable name, bringing support for `%variable%` parsing for the variable name itself
-* **Update:** Setting auto reset first words cache time to -1 will disable this check on startup
-* **Update:** Alter how commands start with check is performed, so a command of `!so` wouldn't trigger on `!socials`
-* **New:** New sub-action to set the [OBS Replay Buffer State](#obs-replay-buffer-state), as well as C# methods
-* **New:** Added 2 new [C# Methods](#obs-color-helpers) to translate colors to OBS color
-* **New:** Added a new [C# Helper Method](#obs-helper-methods) to get a connection index by name
-* **New:** New sub-action [Set Reward Title](#set-reward-title), along with a C# method
-* **New:** New sub-action [Set Reward Prompt](#set-reward-prompt), along with a C# method
-* **New:** New sub-action [Update Reward](#update-reward), where you can set the title, prompt and cost of a reward in one call, along with a C# method
-* **New:** Added ability to double click to edit Websocket Servers and Clients
-* **New:** Added new variable `%spokenTextInput%` to Speech To Text events for Commands, this is the text spoken without the trigger word, and is only support for Start based commands
-* **New:** Added new variable `%spokenCommand%` to Speech to Text events that will contain the command that triggered the event
-* **New:** A new Twitch scope will be requested on first start, Commercial Edit
-* **New:** New sub-action [OBS Get Scene Item Properties](#obs-get-scene-item-properties) to get the properties of a scene item, as well as a C# method
-* **New:** New sub-action [Start Commercial](#start-commercial) to start commercials on your channel, as well as C# methods
-* **New:** New sub-action [OBS Set Media Source File](#obs-set-media-source-file) to set the file of an OBS Media Source, as well as C# methods
-* **New:** New sub-action [OBS Set Image Source File](#obs-set-image-source-file) to set the file of an OBS Image Source, as well as C# methods
-* **New:** Support for [DonorDrive](#donordrive) services! This includes ExtraLife, StackUp and any other charity drives that use DonorDrive.
-* **New:** The first [Inline Function](#inline-function) has arrived!
-* **New:** Added new keys to [Hot Keys and Keyboard Presses](#new-hot-keys-and-keyboard-presses)
-* **New:** Add new [C# Methods](#command-cooldown-methods) to alter the cooldowns of a command
-* **New:** New sub-action [Get Commands](#get-commands) to get a list of your commands
-* **New:** New sub-action [Run Commercial](#run-commercial) to run a commercial on your channel, as well as a C# method
-* **New:** Added option to Gift Subs to ignore those that come from a Gift Bomb, there is also a variable `%fromGiftBomb%` that can be checked
-* **New:** With the new way actions are selected, most lists have a new menu item to select the action without needing to edit
-* **New:** The user list in the Timeout User sub-action is now sorted alphabetically, and I've updated the control to support auto complete suggestions to help find user names.
-* **New:** New sub-action [Get Command State](#get-command-state) to get the state of a command, or command group
-* **New:** New sub-action [Get Action State](#get-action-state) to get the state of an action, or action group
-* **New:** Added some [new action wide variables](#new-action-wide-variables)
-* **New:** New sub-action [TwitchSpeaker Speak](#twitchspeaker-speak) to provide a simpler way to get TwitchSpeaker to speak for you, as well as a C# method
-* **New:** 3 new Twitch events can be broadcast across the websocket, message deletion, user timeout and user ban
-* **New:** New sub-action **Break** that will halt the action from continuing, mostly used when debugging
-* **New:** Added new events for twitch message deletion, user being timed out, and a user being banned
+# Streamer.bot v0.1.5
+Released 2021-12-25{.subtitle}
+
+*  Typos
+*  Regression in Perform Command, variables were not being parsed
+*  Better handling of OBS events, and issues surrounding editing
+*  Better handling of OBS/SLOBS sub-actions where a scene is empty, signifying the source exists in any scene
+*  Anonymous cheers could cause a crash with credits
+*  Some underlying issues with Streamlabs/Streamelements sockets
+*  Add error handling when importing actions, should no longer crash in the event something is malformed
+*  Handle WASAPI init errors on playback, specifically if its unable to initialize the device
+*  Some additional error handling in websocket server/client dialogs
+*  Rare scenario where fetching mod/vip lists internally could cause a crash
+*  Handle data issues with SLOBS not adhering to its on JSON structures
+*  Grouping in OBS Events was not being handled properly (typo)
+*  Custom WebsocketServer message event was emitting the wrong type of event internally
+*  GetCredits method was putting Hype Train conductors in the wrong field
+*  Twitch Slow mode sub-action was not being deserialized properly
+*  Read Lines from File and Read Random Line from File sub-actions, input validation input was not working correctly
+*  Creating/editing reward sub-actions when there are none could cause a potential crash
+*  Fix culture parsing of decimals for streamlabs and stream elements testing of donations, decimals should work for all cultures now
+*  Potential crash in some sub-actions and empty scenes
+*  Drag/drop of sub-action was not properly marking cached info as dirty
+*  Voice control UI was not selecting the saved input device on startup
+*  Issues with Twitch dropping connection, this maybe an on going fix, trying to refine why this behaviour is happening.  This manifests as if the bot stops reacting to most Twitch actions.
+*  Actions were not being flagged as dirty when using drag/drop to re-organize sub-actions, making it look like they were not being saved
+*  Streamlabs donation events were being ignored, they should go through now
+*  Resuming a queue should now correctly fire off any actions that were in the queue
+*  Masimum values for max redeems per user/per stream are set to correct maximums now, should no longer cause a crash
+*  Data type mismatch when creating Stream Markers (oops)
+*  Exporting actions with a queue did not preserve is the queue was blocking
+*  Importing actions did not correctly show blocking/non-blocking queue info (visual only)
+*  Custom websocket server firing incorrect actions
+{.changelog-fixes}
+
+<span></span>
+
+*  [Delay](#delay-sub-action) sub-action can now accept variables
+*  Twitch Slow Mode sub-action (and C# method) has been updated to allow specifiying the delay time
+*  Update [Twitch Clip C# Methods](#twitch-clip-c-methods) related methods, see section for more details
+*  %s are auto removed for the variable in the LogicIf dialog
+*  Add Insert and Delete as usable keys for Hot Keys and Keyboard Press
+*  [Set Reward Cost](#set-reward-cost) sub-action can now accept variables, and give an operator option to add, subtract, multiply or divide the value
+*  [Set Argument](#set-argument) sub-action has been updated with full parsing support for its value, and the increment option removed, see section for more details
+*  New way to [pick actions](#new-way-to-pick-actions) for events!
+*  Added `%rewardCost%` and `%rewardPrompt%` to the variables for reward redemptions
+*  The action list in the action sub-action is now sorted alphabetically
+*  Action lists returned by the HTTP server and Websocket GetActions requests are now sorted alphabetically
+*  Timed Actions have been decoupled from the Twitch connection, they will now start on application start
+*  Resolution for Timed Actions has been lowered to 1s from 53, this is tenetive and needs testing internally
+*  Add game box art (`%gameBoxArt%` and `%oldGameBoxArt%`) to the stream update event
+*  Global Get/Set sub-actions have been extended to parse the variable name, bringing support for `%variable%` parsing for the variable name itself
+*  Setting auto reset first words cache time to -1 will disable this check on startup
+*  Alter how commands start with check is performed, so a command of `!so` wouldn't trigger on `!socials`
+{.changelog-updates}
+
+<span></span>
+
+*  New sub-action to set the [OBS Replay Buffer State](#obs-replay-buffer-state), as well as C# methods
+*  Added 2 new [C# Methods](#obs-color-helpers) to translate colors to OBS color
+*  Added a new [C# Helper Method](#obs-helper-methods) to get a connection index by name
+*  New sub-action [Set Reward Title](#set-reward-title), along with a C# method
+*  New sub-action [Set Reward Prompt](#set-reward-prompt), along with a C# method
+*  New sub-action [Update Reward](#update-reward), where you can set the title, prompt and cost of a reward in one call, along with a C# method
+*  Added ability to double click to edit Websocket Servers and Clients
+*  Added new variable `%spokenTextInput%` to Speech To Text events for Commands, this is the text spoken without the trigger word, and is only support for Start based commands
+*  Added new variable `%spokenCommand%` to Speech to Text events that will contain the command that triggered the event
+*  A new Twitch scope will be requested on first start, Commercial Edit
+*  New sub-action [OBS Get Scene Item Properties](#obs-get-scene-item-properties) to get the properties of a scene item, as well as a C# method
+*  New sub-action [Start Commercial](#start-commercial) to start commercials on your channel, as well as C# methods
+*  New sub-action [OBS Set Media Source File](#obs-set-media-source-file) to set the file of an OBS Media Source, as well as C# methods
+*  New sub-action [OBS Set Image Source File](#obs-set-image-source-file) to set the file of an OBS Image Source, as well as C# methods
+*  Support for [DonorDrive](#donordrive) services! This includes ExtraLife, StackUp and any other charity drives that use DonorDrive.
+*  The first [Inline Function](#inline-function) has arrived!
+*  Added new keys to [Hot Keys and Keyboard Presses](#new-hot-keys-and-keyboard-presses)
+*  Add new [C# Methods](#command-cooldown-methods) to alter the cooldowns of a command
+*  New sub-action [Get Commands](#get-commands) to get a list of your commands
+*  New sub-action [Run Commercial](#run-commercial) to run a commercial on your channel, as well as a C# method
+*  Added option to Gift Subs to ignore those that come from a Gift Bomb, there is also a variable `%fromGiftBomb%` that can be checked
+*  With the new way actions are selected, most lists have a new menu item to select the action without needing to edit
+*  The user list in the Timeout User sub-action is now sorted alphabetically, and I've updated the control to support auto complete suggestions to help find user names.
+*  New sub-action [Get Command State](#get-command-state) to get the state of a command, or command group
+*  New sub-action [Get Action State](#get-action-state) to get the state of an action, or action group
+*  Added some [new action wide variables](#new-action-wide-variables)
+*  New sub-action [TwitchSpeaker Speak](#twitchspeaker-speak) to provide a simpler way to get TwitchSpeaker to speak for you, as well as a C# method
+*  3 new Twitch events can be broadcast across the websocket, message deletion, user timeout and user ban
+*  New sub-action **Break** that will halt the action from continuing, mostly used when debugging
+*  Added new events for twitch message deletion, user being timed out, and a user being banned
+{.changelog-new}
 
 ## DonorDrive
 
