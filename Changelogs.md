@@ -2,11 +2,46 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-01T01:56:17.262Z
+date: 2022-09-02T02:25:23.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+# Streamer.bot v0.1.13 (WIP)
+ Upcoming changes in the next release!{.subtitle}
+ 
+* OBS Take Screenshot sub-action was halting an action when used with OBS websocket v5
+{.changelog-fixes}
+
+<span></span>
+
+* Add new C# method, `CPH.ObsTakeScreenshot`
+{.changelog-updates}
+
+<span></span>
+
+* Add a new menu item for OBS connections that lets you assign **ALL** OBS related sub-actions to that connection
+* Add a new [OBS Set Color Source Color](#obs-set-color-source-color) sub-action and C# methods
+{.changelog-new}
+
+## New Sub-actions
+
+### OBS Set Color Source Color
+
+Added a new sub-action that lets yous et the color of a color source within OBS.  All fields support `%variable%` replacement, and there is an option to just set a random color.
+
+## New C# Methods
+
+Add the following new C# methods
+
+### OBS
+```csharp
+bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
+void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
+void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
+void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
+```
 
 # Streamer.bot v0.1.12 (Current)
 Released 2022-08-31{.subtitle}
