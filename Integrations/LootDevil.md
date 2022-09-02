@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: true
-date: 2022-09-02T00:01:24.209Z
+date: 2022-09-02T13:03:41.186Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -14,7 +14,7 @@ Safe and secure wishlists for streamers, influencers and creators. Accept gifts 
 ## Configuration
 <span></span>
 
-<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Website User Settings</h3>
+<h3 class="mdi mdi-account-cog"> Streamer.bot Website User Settings</h3>
 
 ![lootdevil-user-settings-copy-webhook-url.png](/intergrations/lootdevil/lootdevil-user-settings-copy-webhook-url.png)
 
@@ -23,7 +23,7 @@ Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot w
 
 ---
 
-<h3 class="mdi mdi-gold" style="font-size: 20px; color: #4F46E5; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> LootDevil API Settings</h3>
+<h3 class="mdi mdi-gold"> LootDevil API Settings</h3>
 
 ![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
 Go to [here](https://lootdevil.com/integrations/api) on the LootDevil website
@@ -33,7 +33,7 @@ Go to [here](https://lootdevil.com/integrations/api) on the LootDevil website
 
 ---
 
-<h3 class="mdi mdi-account-cog" style="font-size: 20px; color: #A257ED; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Website User Settings</h3>
+<h3 class="mdi mdi-account-cog"> Streamer.bot Website User Settings</h3>
 
 ![lootdevil-user-settings-paste-webhook-secret.png](/intergrations/lootdevil/lootdevil-user-settings-paste-webhook-secret.png)
 
@@ -41,7 +41,7 @@ Paste the <span class="mdi mdi-content-paste" style="color: #A257ED; background-
 
 ---
 
-<h3 class="mdi mdi-application-cog" style="font-size: 20px; color: #78D1FF; background-color: #181818; padding: 7px; margin: 0px 1px 0px 1px; border-radius: 12px; text-align: center;"> Streamer.bot Application Settings</h3>
+<h3 class="mdi mdi-application-cog"> Streamer.bot Application Settings</h3>
 
 ![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png)
 
