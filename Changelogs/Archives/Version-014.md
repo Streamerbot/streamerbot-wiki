@@ -2,89 +2,103 @@
 title: Version 0.1.4
 description: 
 published: true
-date: 2022-06-23T02:09:17.562Z
+date: 2022-09-02T03:17:34.397Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T02:09:12.646Z
 ---
 
-* **Fixed:** Various typos
-* **Fixed:** Editing a channel reward and setting max per stream works correctly now
-* **Fixed:** Creating or duplicating a channel reward correctly says its owned now
-* **Fixed:** Add Follow Age Info was not allowing variable entry
-* **Fixed:** Streaming with no game category selected would cause a crash
-* **Fiexd:** Community Goal contribution event was tied to the wrong underlying event
-* **Fixed:** Added a flag to testing the follow event, so it can bypass the built in follow/unfollow protection
-* **Fixed:** Potential crash when a websocket or http server port was in use
-* **Fixed:** Harden some of the code surrounding Twitch tokens, hopefully less crashes
-* **Fixed:** Community goal percent completed calculation was wrong
-* **Fixed:** Enabling/disabling commands by group was not correctly working
-* **Fixed:** Re-enable maximize box on main window
-* **Fixed:** Poll update and complete events were executing the wrong action setting
-* **Fixed:** The Twitch Raid start event sends the profile image url at 70x70, updated this to be the larger 300x300
-* **Fixed:** PlaySound/PlaySoundFromFolder C# methods were not properly waiting for sound to complete
-* **Fixed:** Handle potential crash on startup related to voice control
-* **Fixed:** Was not correctly forgetting bot account
-* **Fixed:** Poll/Prediction Create, Update and Complete actions were being stored but not shown, the visual bug has been fixed.
-* **Fixed:** Find Refs in C# Execute could cause a crash if there is a bad image (a dll) in your application folder
-* **Fixed:** Some hardening of code surrounding export to clipboard
-* **Fixed:** Fix SetTimerState sub-action not resetting the timer correctly when enabling
-* **Fixed:** StreamElements/Streamlabs events no longer try to resolve the user to a seen viewer
-* **Fixed:** Fixed community goal help text
-* **Fixed:** Fixed a potential deadlock that could occur with OBS Websockets
-* **Fixed:** Setting a source's mute state in SLOBS should work correctly now
-* **Update:** Credits no longer include the Broadcaster or Bot account in any lists
-* **Update:** [Perform Command](#perform-command) sub-action is being updated with new options and capabilities
-* **Update:** [ReadLinesFromFile](#readlinesfromfile-and-readrandomlinesfromfile) and [ReadRandomLinesFromFile](#readlinesfromfile-and-readrandomlinesfromfile) were updated to parse variables, and attempt auto-typing
-* **Update:** Added `%obsRaw._json%` variable to the OBS Raw sub-action, it contains the result as is, so it could be parsed in a C# action
-* **Update:** Missed some variables in [Twitch Prediction](#twitch-predictions) completion event
-* **Update:** Missed some variables in [Twitch Polls](#twitch-polls) completeion event
-* **Update:** [Commands](#commands) got a bit of an overhaul, check the section for more details
-* **Update:** When adding actions, group will be auto filled based on selection
-* **Update:** Improved shutdown time
-* **Update:** Change how [Twitch Gift Sub Bombs/Gift Subs](#twitch-gift-sub-bombgift-subs) are handled
-* **Update:** OBS Set Source Filter State sub-action will now list the global audio sources if they are in use, and will be shown in the list before the scene sources
-* **Update:** When switching scenes in most OBS sub-actions, an attempt will be made to pre-select the same named source if possible, this is an ongoing update
-* **Update:** Variable replacements now supports inline formatting, using any of the standard C# formatting options, example `%donatedValue:N2%` would give a number with 2 decimal places, if the value is a number
-* **Update:** Set Argument subaction can now accept variables as values, be sure to use %s, so you can assign a variable to another variable
-* **Update:** Logic If now supports variable names as comparison values, be sure to use %s
-* **Update:** UDP Broadcast sub-action now behaves similarly to OBS Raw in how replacements are done, invalid characters should no longer be an issue, and numbers will be treated as numbers
-* **Update:** Add new `%messageCheermotesStripped%` variable to a cheer event, that retains all the emotes, and only stiprs cheermotes
-* **Update:** Allow variable usage for SLOBS Set Active Scene sub-action
-* **Update:** Made the text entry for the Twitch Send Message sub-action a bit biger and wrap lines, so more can be seen
-* **New:** New [Hot Key Support](#hot-key-support)
-* **New:** [Confirimation dialog](#confirmation-dialogs) when deleting an action, a sub-action, or all sub-actions
-* **New:** [Confirimation dialog] when closing bot.
-* **New:** Minimize/Close to tray option
-* **New:** Expanded OBS capability with [OBS Events](#obs-events) being able to trigger actions
-* **New:** New [OBS Take Screenshot](#obs-take-screenshot) sub-action
-* **New:** New [OBS Set Audio Track State](#obs-set-audio-track-state) sub-action
-* **New:** New [OBS Set Media State](#obs-set-media-state) sub-action
-* **New:** New [Twitch Set Channel Title](#twitch-set-channel-title) sub-action
-* **New:** New [Twitch Set Game](#twitch-set-game) sub-action
-* **New:** Add ability to enable/disable all actions in a group from context menu
-* **New:** Block port 4444 from being used for **Streamer.bot's** own internal websocket server
-* **New:** Introduced a new option for commands, [Command Cooldown Action](#command-cooldown-action), check for more details
-* **New:** You can now drag sub-actions around to move them **this is still a bit experimental and might have some issues**
-* **New:** Ogg Vorbis is now a supported playback format for sound files
-* **New:** Commands now have a **Case Sensitive** option
-* **New:** Added C# methods for creating [Twitch Predictions](#twitch-predictions)
-* **New:** Add C# methods to enable/disable [Commands](#commands)
-* **New:** Added 2 new variables, `%createdAt%` and `%accountAge%` to the Get Target Info sub-action, accountAge will be given in seconds
-* **New:** Update [Twitch Polls](#twitch-polls) to be able to handle the `/endpoll` command (Poll Terminated action)
-* **New:** Add option to export actions to file
-* **New:** Add indicator to exporting to clipboard that it was successful
-* **New:** Add new context menu item when right clicking a user to perform some twitch actions, at the moment, just banning and adding/removing mod/vip status
-* **New:** New Set Command Group State sub-action
-* **New:** New Set Action Group State sub-action
-* **New:** Quote settings now shows all your quotes, and can be deleted, this is just the start of UI for quotes
-* **New:** Add ability to duplicate a group and all of it's sub-actions
-* **New:** When connecting to Twitch, your list of mods and vips are updated automatically
-* **New:** [Experimental Linux Support](#experimental-linux-support) **READ THIS SECTION FOR IMPORTANT INFORMATION**
-* **New:** Add new sub-action for enabling/disabling slow mode in your twitch channel
-* **New:** Add new sub-action for creating a clip, as well as a C# method. **NOTE, There is no control over the clip created, title, length, etc**
-* **New:** Add new sub-action for creating a stream marker, as well as a C# method; you can provide a description for the marker
+# Streamer.bot v0.1.4
+Released 2021/10/23{.subtitle}
+
+*  Various typos
+*  Editing a channel reward and setting max per stream works correctly now
+*  Creating or duplicating a channel reward correctly says its owned now
+*  Add Follow Age Info was not allowing variable entry
+*  Streaming with no game category selected would cause a crash
+*  Community Goal contribution event was tied to the wrong underlying event
+*  Added a flag to testing the follow event, so it can bypass the built in follow/unfollow protection
+*  Potential crash when a websocket or http server port was in use
+*  Harden some of the code surrounding Twitch tokens, hopefully less crashes
+*  Community goal percent completed calculation was wrong
+*  Enabling/disabling commands by group was not correctly working
+*  Re-enable maximize box on main window
+*  Poll update and complete events were executing the wrong action setting
+*  The Twitch Raid start event sends the profile image url at 70x70, updated this to be the larger 300x300
+*  PlaySound/PlaySoundFromFolder C# methods were not properly waiting for sound to complete
+*  Handle potential crash on startup related to voice control
+*  Was not correctly forgetting bot account
+*  Poll/Prediction Create, Update and Complete actions were being stored but not shown, the visual bug has been fixed.
+*  Find Refs in C# Execute could cause a crash if there is a bad image (a dll) in your application folder
+*  Some hardening of code surrounding export to clipboard
+*  SetTimerState sub-action not resetting the timer correctly when enabling
+*  StreamElements/Streamlabs events no longer try to resolve the user to a seen viewer
+*  Community goal help text
+*  S potential deadlock that could occur with OBS Websockets
+*  Setting a source's mute state in SLOBS should work correctly now
+{.changelog-fixes}
+
+<span></span>
+
+*  Credits no longer include the Broadcaster or Bot account in any lists
+*  [Perform Command](#perform-command) sub-action is being updated with new options and capabilities
+*  [ReadLinesFromFile](#readlinesfromfile-and-readrandomlinesfromfile) and [ReadRandomLinesFromFile](#readlinesfromfile-and-readrandomlinesfromfile) were updated to parse variables, and attempt auto-typing
+*  Added `%obsRaw._json%` variable to the OBS Raw sub-action, it contains the result as is, so it could be parsed in a C# action
+*  Missed some variables in [Twitch Prediction](#twitch-predictions) completion event
+*  Missed some variables in [Twitch Polls](#twitch-polls) completeion event
+*  [Commands](#commands) got a bit of an overhaul, check the section for more details
+*  When adding actions, group will be auto filled based on selection
+*  Improved shutdown time
+*  Change how [Twitch Gift Sub Bombs/Gift Subs](#twitch-gift-sub-bombgift-subs) are handled
+*  OBS Set Source Filter State sub-action will now list the global audio sources if they are in use, and will be shown in the list before the scene sources
+*  When switching scenes in most OBS sub-actions, an attempt will be made to pre-select the same named source if possible, this is an ongoing update
+*  Variable replacements now supports inline formatting, using any of the standard C# formatting options, example `%donatedValue:N2%` would give a number with 2 decimal places, if the value is a number
+*  Set Argument subaction can now accept variables as values, be sure to use %s, so you can assign a variable to another variable
+*  Logic If now supports variable names as comparison values, be sure to use %s
+*  UDP Broadcast sub-action now behaves similarly to OBS Raw in how replacements are done, invalid characters should no longer be an issue, and numbers will be treated as numbers
+*  Add new `%messageCheermotesStripped%` variable to a cheer event, that retains all the emotes, and only stiprs cheermotes
+*  Allow variable usage for SLOBS Set Active Scene sub-action
+*  Made the text entry for the Twitch Send Message sub-action a bit biger and wrap lines, so more can be seen
+{.changelog-updates}
+
+<span></span>
+
+*  New [Hot Key Support](#hot-key-support)
+*  [Confirimation dialog](#confirmation-dialogs) when deleting an action, a sub-action, or all sub-actions
+*  [Confirimation dialog] when closing bot.
+*  Minimize/Close to tray option
+*  Expanded OBS capability with [OBS Events](#obs-events) being able to trigger actions
+*  New [OBS Take Screenshot](#obs-take-screenshot) sub-action
+*  New [OBS Set Audio Track State](#obs-set-audio-track-state) sub-action
+*  New [OBS Set Media State](#obs-set-media-state) sub-action
+*  New [Twitch Set Channel Title](#twitch-set-channel-title) sub-action
+*  New [Twitch Set Game](#twitch-set-game) sub-action
+*  Add ability to enable/disable all actions in a group from context menu
+*  Block port 4444 from being used for **Streamer.bot's** own internal websocket server
+*  Introduced a new option for commands, [Command Cooldown Action](#command-cooldown-action), check for more details
+*  You can now drag sub-actions around to move them **this is still a bit experimental and might have some issues**
+*  Ogg Vorbis is now a supported playback format for sound files
+*  Commands now have a **Case Sensitive** option
+*  Added C# methods for creating [Twitch Predictions](#twitch-predictions)
+*  Add C# methods to enable/disable [Commands](#commands)
+*  Added 2 new variables, `%createdAt%` and `%accountAge%` to the Get Target Info sub-action, accountAge will be given in seconds
+*  Update [Twitch Polls](#twitch-polls) to be able to handle the `/endpoll` command (Poll Terminated action)
+*  Add option to export actions to file
+*  Add indicator to exporting to clipboard that it was successful
+*  Add new context menu item when right clicking a user to perform some twitch actions, at the moment, just banning and adding/removing mod/vip status
+*  New Set Command Group State sub-action
+*  New Set Action Group State sub-action
+*  Quote settings now shows all your quotes, and can be deleted, this is just the start of UI for quotes
+*  Add ability to duplicate a group and all of it's sub-actions
+*  When connecting to Twitch, your list of mods and vips are updated automatically
+*  [Experimental Linux Support](#experimental-linux-support) **READ THIS SECTION FOR IMPORTANT INFORMATION**
+*  Add new sub-action for enabling/disabling slow mode in your twitch channel
+*  Add new sub-action for creating a clip, as well as a C# method. **NOTE, There is no control over the clip created, title, length, etc**
+*  Add new sub-action for creating a stream marker, as well as a C# method; you can provide a description for the marker
 * **Misc:** Update some libraries that are used
+{.changelog-new}
+
+<span></span>
 
 ## Hot Key Support
 After much requesting, it's here, Global Hot Key support!  There is also a new sub-action to send keyboard presses! 
@@ -348,4 +362,3 @@ A dedicated page on the wiki will likely be created for those who are using/test
 
 > Running **Streamer.bot** and/or **TwitchSpeaker** under Linux is considered to be experimental, so expect bugs/issues.
 {.is-warning}
-
