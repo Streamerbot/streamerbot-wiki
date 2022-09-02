@@ -2,7 +2,7 @@
 title: TriggerHotkeyByKeySequence
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-22T19:39:02.586Z
+date: 2022-09-02T02:38:22.162Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:33:21.122Z
@@ -44,6 +44,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     }
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("TriggerHotkeyByKeySequence", "{'keyId': '', 'keyModifiers.shift': , 'keyModifiers.control': '', 'keyModifiers.alt': '', 'keyModifiers.command': '', 'keyModifiers': { '': '' }}", 0);
 ```
 ## End Tabset {.tabset}
 
