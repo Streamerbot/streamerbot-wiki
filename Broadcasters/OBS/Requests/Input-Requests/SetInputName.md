@@ -2,7 +2,7 @@
 title: SetInputName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:27:28.985Z
+date: 2022-09-02T02:32:12.425Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:20:18.286Z
@@ -34,6 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     "newInputName": ""
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("SetInputName", "{'inputName': '', 'newInputName': ''}", 0);
 ```
 ## End Tabset {.tabset}
 
