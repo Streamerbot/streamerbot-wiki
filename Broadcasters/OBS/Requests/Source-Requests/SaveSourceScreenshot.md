@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-02T02:11:53.032Z
+date: 2022-09-02T02:12:49.285Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -19,11 +19,11 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `sourceName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Image compression format to use. <br> Use `GetVersion` to get compatible image formats
+`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Image compression format to use. Use `GetVersion` to get compatible image formats
 `imageFilePath` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
 `imageWidth` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Width to scale the screenshot to | `>= 8, <= 4096`{.datatype}
 `imageHeight` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Height to scale the screenshot to | `>= 8, <= 4096`{.datatype}
-`imageCompressionQuality` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Compression quality to use. 0 for high compression, <br> 100 for uncompressed. -1 to use "default" | `>= -1, <= 100`{.datatype}
+`imageCompressionQuality` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" | `>= -1, <= 100`{.datatype}
 
 ## Variables
 Name | Type | Description | 
