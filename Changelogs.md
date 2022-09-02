@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-02T02:25:23.143Z
+date: 2022-09-02T02:37:40.192Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -30,6 +30,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 ### OBS Set Color Source Color
 
 Added a new sub-action that lets yous et the color of a color source within OBS.  All fields support `%variable%` replacement, and there is an option to just set a random color.
+
+![obs-set-color-source-color-01.png](/obs-set-color-source-color-01.png)
 
 ## New C# Methods
 
