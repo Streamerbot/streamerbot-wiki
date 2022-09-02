@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:20:12.796Z
+date: 2022-09-02T02:10:57.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -19,7 +19,7 @@ The `imageWidth` and `imageHeight` parameters are treated as "scale to inner", m
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `sourceName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Name of the source to take a screenshot of
-`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Image compression format to use. Use `GetVersion` to get compatible image formats
+`imageFormat` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Image compression format to use. <br> Use `GetVersion` to get compatible image formats
 `imageFilePath` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
 `imageWidth` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Width to scale the screenshot to | `>= 8, <= 4096`{.datatype}
 `imageHeight` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Height to scale the screenshot to | `>= 8, <= 4096`{.datatype}
