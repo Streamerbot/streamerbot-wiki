@@ -2,46 +2,51 @@
 title: Version 0.1.1
 description: 
 published: true
-date: 2022-06-23T02:05:54.109Z
+date: 2022-09-02T03:33:19.115Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T02:05:50.673Z
 ---
 
-Visit [Streamer.bot 0.0.61](/en/Changelogs/Archives/Version-0061), [Streamer.bot 0.0.62](/en/Changelogs/Archives/Version-0062), [Streamer.bot 0.0.63](/en/Changelogs/Archives/Version-0063) and [Streamer.bot 0.1.0](/en/Changelogs/Archives/Version-010) to see all the shiny new features and updates.
+* Some typos
+* SetSceneFilterState sub-action not populating filter list
+* not being able to add SLOBS Get Current scene sub-action
+* Crash when adding a Speech To Text command when it is not listening
+* Potential crash when retrieving paginated data from Twitch API
+* Streamlabs typo, was firing the wrong event for the generic donation action
+* Set queue pause state not having a default state when adding the sub-action
+* Importing actions causing all groups to become expanded, and slow updating of adding the actions
+* Pausing a queue, if it had actions queued, they still ran, seems I missed a scenario
+* An issue with WebsocketSend in C# not actually sending data
+* Some fixes surrounding OBS Websocket and authentication states (still some quirks)
+* Misc fixes/cleanup
+* Founder badge was not being associated to a user as being subscribed
+{.changelog-fixes}
 
-### Some fixes/changes
+<span></span>
 
-* **Fixed:** Some typos
-* **Fixed:** SetSceneFilterState sub-action not populating filter list
-* **Fixed:** not being able to add SLOBS Get Current scene sub-action
-* **Fixed:** Crash when adding a Speech To Text command when it is not listening
-* **Fixed:** Potential crash when retrieving paginated data from Twitch API
-* **Fixed:** Streamlabs typo, was firing the wrong event for the generic donation action
-* **Fixed:** Set queue pause state not having a default state when adding the sub-action
-* **Fixed:** Importing actions causing all groups to become expanded, and slow updating of adding the actions
-* **Fixed:** Pausing a queue, if it had actions queued, they still ran, seems I missed a scenario
-* **Fixed:** An issue with WebsocketSend in C# not actually sending data
-* Add new options for Websocket Client settings to specify TLS options
-* Update OBS Raw
+* OBS Raw
 * Some UI QOL improvements, both the main and settings tabs are re-orderable, and can hide unused tabs
 * Save button gives an indication something is happening
-* Some fixes surrounding OBS Websocket and authentication states (still some quirks)
-* Add a Name property to OBS Raw to help differentiate them
 * Remember collapsed sub-action groups
 * Add column to Channel Reward to indicated if we own the reward
-* Update OBS and SLOBS set GDI text to support multi-line text entry
-* Add Collapse/Expand all to context menu for actions
+* OBS and SLOBS set GDI text supports multi-line text entry now
 * Enable and fix Twitch Host event
 * No longer allow empty named actions ;)
-* Add enabled toggle to action dialog, for enabling/disabling actions
-* Creating a new timer did not have the repeat option checked, as it says in the description
-* Founder badge was not being associated to a user as being subscribed
-* Add `%isSubscribed%`, `%isModerator%`, `%isVip%` to action arguments
-* Add a new sub-action `Clear Action Queue` to clear a blocking queue
 * Move separators in sub-action context menu, grouping the menu items a bit better
+* Creating a new timer did not have the repeat option checked, as it says in the description
+{.changelog-updates}
+
+<span></span>
+
+* Options for Websocket Client settings to specify TLS options
+* A Name property to OBS Raw to help differentiate them
+* Collapse/Expand all to context menu for actions
 * Add `Ctrl + Home` and `Ctrl + End` shortcut keys for moving sub-actions to top/bottom
-* Misc fixes/cleanup
+* Add `%isSubscribed%`, `%isModerator%`, `%isVip%` to action arguments
+* A new sub-action `Clear Action Queue` to clear a blocking queue
+* Add enabled toggle to action dialog, for enabling/disabling actions
+{.changelog-new}
 
 Join the [Discord](https://discord.gg/zuXpPpgD5K) if you have any questions, would like to share what you've created, or or would like to lend a hand!
 
