@@ -2,7 +2,7 @@
 title: GetHotkeyList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T13:58:49.490Z
+date: 2022-09-02T02:35:50.752Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:16:17.936Z
@@ -29,6 +29,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "GetHotkeyList"
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("GetHotkeyList", "", 0);
 ```
 ## End Tabset {.tabset}
 
