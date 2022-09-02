@@ -2,7 +2,7 @@
 title: SaveSourceScreenshot
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-02T02:10:57.936Z
+date: 2022-09-02T02:11:23.137Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:21:11.295Z
@@ -23,7 +23,7 @@ Name | Type | Required| Description |
 `imageFilePath` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Path to save the screenshot file to. e.g. `C:\Users\user\Desktop\screenshot.png`
 `imageWidth` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Width to scale the screenshot to | `>= 8, <= 4096`{.datatype}
 `imageHeight` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Height to scale the screenshot to | `>= 8, <= 4096`{.datatype}
-`imageCompressionQuality` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Compression quality to use. 0 for high compression, 100 for uncompressed. -1 to use "default" (whatever that means, idk) | `>= -1, <= 100`{.datatype}
+`imageCompressionQuality` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Compression quality to use. 0 for high compression, <br> 100 for uncompressed. -1 to use "default" (whatever that means, idk) | `>= -1, <= 100`{.datatype}
 
 ## Variables
 Name | Type | Description | 
