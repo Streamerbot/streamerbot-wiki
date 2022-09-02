@@ -2,44 +2,53 @@
 title: Version 0.1.3
 description: 
 published: true
-date: 2022-06-23T02:08:21.144Z
+date: 2022-09-02T03:23:28.961Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T02:08:17.858Z
 ---
 
-* **Fixed:** Logic if sub-action for does exist, code path was unreachable
-* **Fixed:** Importing actions which contained obs actions, was not correctly defaulting to first configured obs instance
-* **Fixed:** Importing actions which contained ClearActionQueue and SetActionQueuePauseState
-* **Fixed:** ClearActionQueue and SetActionQueuePauseState to handle if an invalid queue has been selected
-* **Fixed:** Pyramids, a change to the way emotes were handled broke this feature
-* **Fixed:** Stream Update could cause a crash if your category was empty, On Connect was enabled, and at least 1 Game action was configured 
-* **Fixed:** Typo in the Gift Bomb event, was `totalGits`, should have been `totalGifts`
-* **Fixed:** Assigning an action to a group using the context menu no longer causes all groups to expand
-* **Fixed:** Hosting event had the potential to cause a crash
-* **Fixed:** Clicking cancel when creating a poll will no longer warn that poll could not be created
-* **Fixed:** OBS Raw variable replacement tries to be type aware, if the variable is a number, it won't put it in quotes for instance
-* **Fixed:** Possible crash when removing/updating a speech to text command when its not actively running
-* **Fixed:** Play Sound From Subfolder sub-action was setting the folder properly when editing
-* **Fixed:** Get Random Number sub-action was not linked to the correct edit action (whoops?)
-* **Fixed:** Quote messages were not being sent over bot account if it was connected, this will probably change to actions in another release for better control
-* **Fixed:** If the logic if sub-action was not set to run immediately, it would not break if the after action was set to this
-* **New:** The Rewards -> Configure Rewards sub-action has been updated a bit, window is now resizeable and added a context menu for moving rewards as well
-* **New:** Mask the Streamlabs and StreamElements tokens, with a show/hide button
-* **New:** Added [Subscriber](#subscriber-only) and [Emote](#emote-only) Only Sub-Actions
-* **New:** Added Subscriber and Emote Only methods for Execute C# Code
-* **New:** Added new Sub-Action [Read Lines From File](#read-lines-from-file)
-* **New:** Channel rewards are now groupable, and sortable by `Name`, `Cost` and `Owned` within there groups
-* **New:** Added ability to enable/disable/pause/unpause all owned rewards in a group through context menu
-* **New:** Added ability to enable/disable all commands in a group through context menu
-* **New:** Added [Fetch Url](#fetch-url) sub-action
-* **New:** Added [Pick Color](#pick-color) sub-action
-* **New:** Copy pasta sub-actions!  Be sure to [read below](#copy-pasta-sub-actions) for specifics
-* **New:** Added a [Comment](#comment) sub-action
-* **Updated:** As per a few suggestions, the **Speech To Text** tab has been renamed to **Voice Control**
-* **Updated:** First pass over the **[Groups](#groups)** section has started
-* **Updated:** Execute C# Code [Find Refs](#find-refs) has been updated a bit, and is a lil more forgiving when it tries to add the needed references
-* Misc fixes/tweaks that I probably forgot to write down
+* Logic if sub-action for does exist, code path was unreachable
+* Importing actions which contained OBS actions, was not correctly defaulting to first configured OBS instance
+* Importing actions which contained ClearActionQueue and SetActionQueuePauseState
+* ClearActionQueue and SetActionQueuePauseState to handle if an invalid queue has been selected
+* Pyramids, a change to the way emotes were handled broke this feature
+* Stream Update could cause a crash if your category was empty, On Connect was enabled, and at least 1 Game action was configured 
+* Typo in the Gift Bomb event, was `totalGits`, should have been `totalGifts`
+* Assigning an action to a group using the context menu no longer causes all groups to expand
+* Hosting event had the potential to cause a crash
+* Clicking cancel when creating a poll will no longer warn that poll could not be created
+* OBS Raw variable replacement tries to be type aware, if the variable is a number, it won't put it in quotes for instance
+* Possible crash when removing/updating a speech to text command when its not actively running
+* Play Sound From Subfolder sub-action was setting the folder properly when editing
+* Get Random Number sub-action was not linked to the correct edit action (whoops?)
+* Quote messages were not being sent over bot account if it was connected, this will probably change to actions in another release for better control
+* If the logic if sub-action was not set to run immediately, it would not break if the after action was set to this
+* Misc fixes/tweaks that are probably forgotten
+{.changelog-fixes}
+
+<span></span>
+
+* As per a few suggestions, the **Speech To Text** tab has been renamed to **Voice Control**
+* First pass over the **[Groups](#groups)** section has started
+* Execute C# Code [Find Refs](#find-refs) has been updated a bit, and is a lil more forgiving when it tries to add the needed references
+{.changelog-updates}
+
+<span></span>
+
+* The Rewards -> Configure Rewards sub-action has been updated a bit, window is now resizeable and added a context menu for moving rewards as well
+* Mask the Streamlabs and StreamElements tokens, with a show/hide button
+* Added [Subscriber](#subscriber-only) and [Emote](#emote-only) Only Sub-Actions
+* Added Subscriber and Emote Only methods for Execute C# Code
+* Added new Sub-Action [Read Lines From File](#read-lines-from-file)
+* Channel rewards are now groupable, and sortable by `Name`, `Cost` and `Owned` within there groups
+* Added ability to enable/disable/pause/unpause all owned rewards in a group through context menu
+* Added ability to enable/disable all commands in a group through context menu
+* Added [Fetch Url](#fetch-url) sub-action
+* Added [Pick Color](#pick-color) sub-action
+* Copy pasta sub-actions!  Be sure to [read below](#copy-pasta-sub-actions) for specifics
+* Added a [Comment](#comment) sub-action
+{.changelog-new}
 
 ## Copy Pasta Sub-Actions
 As more of a QoL improvement, I have started implementing some basic copy and paste functionality.  First up to get this capability is the sub-actions.
