@@ -2,7 +2,7 @@
 title: Sleep
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-11T13:59:46.607Z
+date: 2022-09-02T02:39:52.216Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:41:22.866Z
@@ -34,6 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     "sleepFrames": 
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("Sleep", "{'sleepMillis': , 'sleepFrames': }", 0);
 ```
 ## End Tabset {.tabset}
 
