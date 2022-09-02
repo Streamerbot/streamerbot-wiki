@@ -2,12 +2,11 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-08-25T13:30:37.845Z
+date: 2022-09-02T06:13:20.119Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
 ---
-
 
 Below are all the methods that can be accessed via the `CPH` object that is is available in your inline scripts
 
@@ -17,9 +16,7 @@ Below are all the methods that can be accessed via the `CPH` object that is is a
 If there are methods missing, make the suggestion to get them added in!
 
 # Application
-
 ## General
-
 ```csharp
 int Between(int min, int max);
 double NextDouble(); // get a random value between 0f and 1f
@@ -40,7 +37,6 @@ EventType GetEventType();
 ```
 
 ## Logging
-
 ```csharp
 void LogInfo(string logLine);
 void LogWarn(string logLine);
@@ -48,7 +44,6 @@ void LogDebug(string logLine);
 ```
 
 ## Credits & First Words
-
 ```csharp
 void AddToCredits(string section, string value, bool json = true)
 ```
@@ -59,20 +54,17 @@ void ResetFirstWords();
 ```
 
 ## Timers
-
 ```csharp
 void DisableTimer(string timerName);
 void EnableTimer(string timerName);
 ```
 
 ## Variables
-
 ```csharp
 void SetArgument(string variableName, object value); // set an argument to be used in subsequent sub-actions
 ```
 
 ## Global Variables
-
 ```csharp
 T GetGlobalVar<T>(string varName, bool persisted = true);
 void SetGlobalVar(string varName, object value, bool persisted = true);
@@ -84,7 +76,6 @@ void UnsetUser(string userName, bool persisted = true);
 ```
 
 ## Groups
-
 ```csharp
 bool UserInGroup(int userId, string groupName);
 bool UserInGroup(string userName, string groupName);
@@ -95,7 +86,6 @@ bool RemoveUserFromGroup(string userName, string groupName);
 ```
 
 ## Commands
-
 ### Enable/Disable Commands
 ```csharp
 void EnableCommand(string id);
@@ -103,8 +93,6 @@ void DisableCommand(string id);
 ```
 
 ### Set Commands Cooldowns
-> Requires minimum version 0.1.8
-{.is-info}
 ```csharp
 void CommandSetGlobalCooldownDuration(string id, int seconds);
 void CommandSetUserCooldownDuration(string id, int seconds);
@@ -124,16 +112,13 @@ void CommandResetUserCooldown(string id, int userId);
 void CommandResetAllUserCooldowns(string id);
 ```
 # Servers and Clients
-
 ## Websocket Server
-
 ```csharp
 void WebsocketBroadcastString(string data); // send a custom event over the websocket server
 void WebsocketBroadcastJson(string data); // send a custom event over the websocket server
 ```
 
 ## Websocket Clients
-
 ```csharp
 void WebsocketConnect(int connection = 0);
 void WebsocketDisconnect(int connection = 0);
@@ -143,7 +128,6 @@ void WebsocketSend(byte[] data, int connection = 0);
 ```
 
 ## Custom Websocket Servers
-
 ```csharp
 void WebsocketCustomServerStart(int connection = 0);
 void WebsocketCustomServerStop(int connection = 0);
@@ -153,22 +137,16 @@ void WebsocketCustomServerCloseSession(string sessionId, int connection = 0);
 void WebsocketCustomServerBroadcast(string data, string sessionId, int connection = 0);
 ```
 
-> Requires minimum version 0.1.8
-{.is-info}
 ```csharp
 int WebsocketCustomServerGetConnectionByName(string name);
 ```
 
 # Actions
-
 ## General
-
 ```csharp
 bool RunAction(string actionName, bool runImmediately = true);
 ```
 
-> Requires minimum version 0.1.8
-{.is-info}
 ```csharp
 bool RunActionById(string actionId, bool runImmediately = true);
 ```
@@ -179,7 +157,6 @@ void EnableAction(string actionName);
 ```
 
 ## Action Queues
-
 ```csharp
 void PauseActionQueue(string name);
 void PauseAllActionQueues();
@@ -188,13 +165,11 @@ void ResumeAllActionQueues(bool clear = false);
 ```
 
 ## UDP Broadcast
-
 ```csharp
 int BroadcastUdp(int port, object data);
 ```
 
 ## Sound
-
 ```csharp
 void PlaySound(string fileName, float volume = 1.0f, bool finishBeforeContinuing = false);
 void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = false, bool finishBeforeContinuing = false);
@@ -204,27 +179,22 @@ void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = fals
 {.is-danger}
 
 ## TwitchSpeaker
-
 ```csharp
 int TtsSpeak(string voiceAlias, string message, bool badWordFilter = false);
 ```
 
 ## Keyboard Press
-
 ```csharp
 void KeyboardPress(string keyPress);
 ```
 
 ## C# Execute Method
-
 ```csharp
 bool ExecuteMethod(string executeCode, string methodName);
 ```
 
 # Twitch
-
 ## General
-
 ```csharp
 void SendMessage(string message, bool bot = true);
 void SendAction(string action, bool bot = true);
@@ -241,7 +211,6 @@ void TwitchEmoteOnly(bool enabled = true);
 ```
 
 ## Channel Rewards
-
 ```csharp
 void DisableReward(string rewardId);
 void EnableReward(string rewardId);
@@ -259,12 +228,6 @@ string TwitchRedemptionFulfill(string rewardId, string redemptionId);
 string TwitchRedemptionCancel(string rewardId, string redemptionId);
 ```
 
-> Requires minimum version 0.1.5
-{.is-info}
-
-> Return value changed to bool in version 0.1.9
-{.is-info}
-
 ```csharp
 bool UpdateRewardTitle(string rewardId, string title);
 bool UpdateRewardPrompt(string rewardId, string prompt);
@@ -272,7 +235,6 @@ bool UpdateReward(string rewardId, string title = null, string prompt = null, in
 ```
 
 ## Polls
-
 ```csharp
 bool TwitchPollCreate(string title, List<string> choices, int duration, int bitsPerVote = 0, int channelPointsPerVote = 0);
 void TwitchPollTerminate(string pollId);
@@ -280,7 +242,6 @@ void TwitchPollArchive(string pollId);
 ```
 
 ## Predictions
-
 ```csharp
 string TwitchPredictionCreate(string title, List<string> options, int duration);
 void TwitchPredictionCancel(string predictionId);
@@ -289,7 +250,6 @@ void TwitchPredictionResolve(string predictionId, string winningId);
 ```
 
 ## Clips
-
 > All clip data is returned as oldest to newest, this is a limitation of the Twitch API.  To get most recent clips, one would have to get all the clips for the user, one got-ya for this, there is a hard limit of 1000 clips that can be returned
 {.is-info}
 
@@ -303,9 +263,6 @@ List<ClipData> GetClipsForUser(string username);
 ```csharp
 ClipData CreateClip();
 ```
-
-> Requires minimum version 0.1.5
-{.is-info}
 
 ```csharp
 List<ClipData> GetClipsForUser(int userId, int count);
@@ -345,13 +302,11 @@ float Duration;
 ```
 
 ## Markers
-
 ```csharp
 StreamMarker CreateStreamMarker(string description);
 ```
 
 ### StreamMarker is the following class
-
 ```csharp
 public class StreamMarker
 {
@@ -363,13 +318,11 @@ public class StreamMarker
 ```
 
 ## Run Commercial
-
 ```csharp
 void TwitchRunCommercial(int duration);
 ```
 
 ## Slow Mode
-
 ```csharp
 void TwitchSlowMode(bool enabled = true, int duration = 0);
 ```
@@ -393,9 +346,6 @@ void TwitchAnnounce(string message, bool bot = false, string color = null);
 ```
 
 ## OAuth & Client Id
-> Requires minimum version 0.1.10
-{.is-info}
-
 ```csharp
 string TwitchOAuthToken;
 ```
@@ -404,9 +354,6 @@ string TwitchClientId;
 ```
 
 # YouTube
-> Requires minimum version 0.1.8
-{.is-info}
-
 ## Chat Message
 
 ```csharp
@@ -467,7 +414,8 @@ string ObsGetSceneItemProperties(string scene, string source, int connection = 0
 ## Browser/Text Sources
 ```csharp
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
-
+```
+```csharp
 // use '/n' for a new line e.g. line 1/nline 2
 void ObsSetGdiText(string scene, string source, string text, int connection = 0);
 ```
@@ -497,9 +445,6 @@ void ObsSourceMuteToggle(string scene, string source, string filterName, int con
 ```
 
 ## Raw
-> There was an error with the ObsSendRaw method, it does actually return the JSON string from the call for you to parse, and takes a JSON string for the data to send.  A changelog had this information, but forgot to update the list of methods.
-{.is-info}
-
 ```csharp
 string ObsSendRaw(string requestType, string data, int connection = 0);
 ```
@@ -522,9 +467,16 @@ void ObsMediaPrevious(string scene, string source, int connection = 0);
 ```
 
 ## Colors
-> Requires minimum version 0.1.5
+> Requires a minimum of v0.1.13
 {.is-info}
+```csharp
+void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
+void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
+void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
+```
 
+> Requires a minimum of v0.1.5
+{.is-info}
 ```csharp
 long ObsConvertRgb(int a, int r, int g, int b);
 long ObsConvertColorHex(string colorHex);
@@ -553,8 +505,14 @@ void ObsSetMediaSourceFile(string scene, string source, string file, int connect
 void ObsSetImageSourceFile(string scene, string source, string file, int connection = 0);
 ```
 
-# StreamLabs OBS
+## Screenshot
+> Requires a minimum of v0.1.13
+{.is-info}
+```csharp
+bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
+```
 
+# StreamLabs OBS
 ## Connection
 ```csharp
 bool SlobsIsConnected(int connection = 0);
@@ -621,9 +579,6 @@ void SlobsSourceMuteToggle(string scene, string source, string filterName, int c
 ```
 
 # Voicemod
-> Requires minimum version 0.1.8
-{.is-info}
-
 ## Select Voice
 ```csharp
 void VoiceModSelectVoice(string voiceId);
