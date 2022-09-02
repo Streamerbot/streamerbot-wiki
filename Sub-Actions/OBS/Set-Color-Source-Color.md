@@ -2,14 +2,16 @@
 title: Set Color Source Color
 description: OBS Studio Sub-Actions reference
 published: true
-date: 2022-09-02T02:53:25.130Z
+date: 2022-09-02T03:10:54.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-02T02:53:25.130Z
 ---
 
-INSERT IMAGE HERE WHEN ALPHA AVAILABLE
+## Overview
+![overview.png](/broadcasters/obs/sub-actions/set-color-source-color/overview.png)
 
+## Configuration
 ### Scene
 You can choose between all your scenes here.
 
