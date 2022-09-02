@@ -2,7 +2,7 @@
 title: BroadcastCustomEvent
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:12:59.354Z
+date: 2022-09-02T02:33:15.090Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:24:52.588Z
@@ -34,6 +34,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     }
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("BroadcastCustomEvent", "{'eventData': { '': '' }}", 0);
 ```
 ## End Tabset {.tabset}
 
