@@ -2,7 +2,7 @@
 title: CallVendorRequest
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-22T19:19:29.901Z
+date: 2022-09-02T02:35:11.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:32:45.548Z
@@ -47,6 +47,11 @@ Added in | *v5.0.0*{.obs-version-badge}
     }
   }
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("CallVendorRequest", "{'vendorName': '', 'requestType': '', 'requestData': { '': '' }}", 0);
 ```
 ## End Tabset {.tabset}
 
