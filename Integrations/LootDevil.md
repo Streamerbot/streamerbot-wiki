@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: true
-date: 2022-09-02T13:03:41.186Z
+date: 2022-09-02T13:05:51.219Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -65,8 +65,8 @@ Name | Description
 ---
 #### LINKS
 
-- [<img src="https://streamer.bot/logo.png"></img> **LootDevil *LootDevil User Settings in streamer.bot***](https://streamer.bot/user/settings#lootdevil)
-- [<img src="https://streamer.bot/img/integrations/lootdevil.png"></img> **LootDevil *LootDevil Api page***](https://lootdevil.com/integrations/api)
+- [<img src="https://streamer.bot/logo.png"></img> **User Settings *The connection LootDevil settings***](https://streamer.bot/user/settings#lootdevil)
+- [<img src="https://streamer.bot/img/integrations/lootdevil.png"></img> **Api Page *The Api page from LootDevil***](https://lootdevil.com/integrations/api)
 {.btn-grid .my-5}
 ---
 
