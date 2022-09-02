@@ -2,7 +2,7 @@
 title: GetStats
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:12:53.275Z
+date: 2022-09-02T02:15:19.185Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-25T18:13:25.840Z
@@ -39,6 +39,11 @@ Added in | *v5.0.0*{.obs-version-badge}
 {
   "requestType": "GetStats"
 }
+```
+
+### C# Method
+```csharp
+CPH.ObsSendRaw("GetStats", "", 0);
 ```
 ## End Tabset {.tabset}
 
