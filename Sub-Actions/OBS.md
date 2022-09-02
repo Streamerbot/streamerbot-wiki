@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-09-02T02:53:46.274Z
+date: 2022-09-02T10:14:14.078Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -29,7 +29,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 * [<i class="mdi mdi-speaker text--obs"></i>**Set Source Audio Track State *Enable / Disable an OBS audio track***](/Sub-Actions/OBS/Source-Audio-Track-State)
 * [<i class="mdi mdi-speaker text--obs"></i>**Set Source Mute State *Mute / Unmute a source***](/Sub-Actions/OBS/Set-Source-Mute-State)
 * [<i class="mdi mdi-border-none-variant text--obs"></i>**Set Source Visibility *Hide / Unhide a source***](/Sub-Actions/OBS/Set-Source-Visibility)
-* [<i class="mdi mdi-format-paint text--obs"></i>**Set Color Source Color *Set a HEX or random color for a color source *v0.1.13*{.version-badge}***](/Sub-Actions/OBS/Set-Color-Source-Color){.disabled}
+* [<i class="mdi mdi-format-paint text--obs"></i>**Set Color Source Color *Set a HEX or random color for a color source with v0.1.13 *v0.1.13*{.version-badge}***](/Sub-Actions/OBS/Set-Color-Source-Color){.disabled}
 {.btn-grid .my-5}
 
 ## Scene
