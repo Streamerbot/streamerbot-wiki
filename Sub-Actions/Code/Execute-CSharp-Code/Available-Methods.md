@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-09-02T06:13:20.119Z
+date: 2022-09-02T06:14:00.906Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -174,9 +174,6 @@ int BroadcastUdp(int port, object data);
 void PlaySound(string fileName, float volume = 1.0f, bool finishBeforeContinuing = false);
 void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = false, bool finishBeforeContinuing = false);
 ```
-
-> The two methods were originally written on the wiki as finishBeforeContinuing = true, this was incorrect, the default is false for this parameter.
-{.is-danger}
 
 ## TwitchSpeaker
 ```csharp
