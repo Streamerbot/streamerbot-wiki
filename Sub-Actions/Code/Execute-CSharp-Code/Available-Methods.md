@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-09-03T10:20:21.901Z
+date: 2022-09-03T22:02:04.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -464,7 +464,7 @@ void ObsMediaPrevious(string scene, string source, int connection = 0);
 ```
 
 ## Colors
-> Requires a minimum of v0.1.13
+> Requires a minimum of v0.1.14
 {.is-info}
 ```csharp
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
@@ -503,7 +503,7 @@ void ObsSetImageSourceFile(string scene, string source, string file, int connect
 ```
 
 ## Screenshot
-> Requires a minimum of v0.1.13
+> Requires a minimum of v0.1.14
 {.is-info}
 ```csharp
 bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
@@ -614,6 +614,13 @@ bool VoiceModGetVoiceChangerStatus();
 bool VoiceModGetHearMyselfStatus();
 ```
 
+# Lumia Stream
+> All of these require a minimum of v0.1.14
+{.is-info}
+## Set To Default
+```csharp
+void LumiaSetToDefault();
+```
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
