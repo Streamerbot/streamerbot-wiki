@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-02T14:01:52.334Z
+date: 2022-09-03T01:53:23.555Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,10 @@ dateCreated: 2021-08-25T21:51:24.140Z
  Upcoming changes in the next release!{.subtitle}
  
 * OBS Take Screenshot sub-action was halting an action when used with OBS websocket v5
+* Lumia Stream Send Command sub-action dialog would crash if there are no commands
+* Lumia Stream disconnect button would not work
+* Lumia Stream Set Color sub-action dialog could possibly crash
+* Catch exceptions thrown by speech recognition initialization, log and try to be more graceful about it
 {.changelog-fixes}
 
 <span></span>
@@ -23,6 +27,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 * Add a new menu item for OBS connections that lets you assign **ALL** OBS related sub-actions to that connection
 * Add a new [OBS Set Color Source Color](#obs-set-color-source-color) sub-action and C# methods
+* Request new scope `whispers:read` on bot account, you will need to re-authorize your bot account
+* Add new event for Twitch, Bot Whisper, can now react to whispers the bot account receives
+* Add new command source Twitch Bot Whisper, can now react to whispers the bot account receives
 {.changelog-new}
 
 ## New Sub-actions
