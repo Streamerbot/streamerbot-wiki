@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T20:33:11.103Z
+date: 2022-09-03T20:34:03.366Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -14,18 +14,7 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-<style>
-#gradient {
-  height: 300px;
-  width: 300px;
-  margin: 0px 0px 150px 150px;
-  background-color: #00dbff;
-  background-image: linear-gradient(#00dbff, #a257ed);
-  border-radius: 50%;
-  filter: blur(75px);
-}
-</style>
-<div id="gradient"></div>
+<div id="gradient" style="height: 300px;width: 300px;margin: 0px 0px 150px 150px;background-color: #00dbff;background-image: linear-gradient(#00dbff, #a257ed);border-radius: 50%;filter: blur(75px);"></div>
 
 ## Example Page
 
