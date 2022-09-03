@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-09-03T10:18:40.332Z
+date: 2022-09-03T10:19:19.051Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -155,7 +155,7 @@ public class CPHInline
 		// change the number below to alter the duration of the poll, it is in seconds
 		int duration = 60;
 
-		// the next two are options, leave them at 0 to disable them, or, set them to a value to enable them
+		// the next option, leave it at 0 to disable them, or, set it to a value to enable them
 		int channelPointsPerVote = 0;
 
 		CPH.TwitchPollCreate(pollQuestion, pollOptions, duration, channelPointsPerVote);
