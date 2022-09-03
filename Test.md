@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T19:45:52.127Z
+date: 2022-09-03T19:54:16.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -34,4 +34,4 @@ Patreon, a highly requested integration, is now available in Streamer.bot *v0.1.
 
 ---
 
-<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%; display: flex;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-1"><div id="lower-grid-upper" style="color: #ffffff; font-weight: 700;">Intergrations</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e; font-weight: 600;">Go back</div></div></div></a><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-2" style=""><div id="lower-grid-upper" style="text-align: right; color: #ffffff; font-weight: 700;">Lumia Stream</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; position: right; color: #6e6e6e; font-weight: 600;">Up next</div></div></div></a></div>
+<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%; display: flex; transition: color .25s; transition-property: color; transition-duration: 0.25s; transition-timing-function: ease; transition-delay: 0s;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-1"><div id="lower-grid-upper" style="color: #ffffff; font-weight: 700;">Intergrations</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e; font-weight: 600;">Go back</div></div></div></a><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%; transition: color .25s; transition-property: color; transition-duration: 0.25s; transition-timing-function: ease; transition-delay: 0s;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-2" style=""><div id="lower-grid-upper" style="text-align: right; color: #ffffff; font-weight: 700;">Lumia Stream</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; position: right; color: #6e6e6e; font-weight: 600;">Up next</div></div></div></a></div>
