@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T13:08:27.056Z
+date: 2022-09-03T13:08:53.762Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -20,4 +20,4 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-<a href="/" class="px-6 mt-5 v-btn--active v-btn v-btn--router v-btn--text theme--dark v-size--default" aria-current="page"><span class="v-btn__content">Home</span></a>
+<a href="/en/home" class="px-6 mt-5 v-btn--active v-btn v-btn--router v-btn--text theme--dark v-size--default" aria-current="page"><span class="v-btn__content">Home</span></a>
