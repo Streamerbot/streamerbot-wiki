@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T22:16:45.949Z
+date: 2022-09-03T23:17:44.187Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -24,4 +24,4 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"> <a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%;"> <div id="lower-grid-border-spacing" style="margin: 10px;"> <div id="lower-grid-1"> <div id="lower-grid-upper" style="color: #ffffff">Upper Text</div> <div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e;">Lower Text</div> </div> </div> </a> <a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; width: 100%;"> <div id="lower-grid-border-spacing" style="margin: 10px;"> <div id="lower-grid-2" style=""> <div id="lower-grid-upper" style="text-align: right; position: right; color: #ffffff">Upper Text</div> <div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; position: right; color: #6e6e6e;">Lower Text</div> </div> </div> </a></div>
+<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"> <div id="lower-grid-1"><div id="lower-grid-upper" style="color: #ffffff">Upper Text</div> <div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e;">Lower Text</div></div></div></a><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-2"><div id="lower-grid-upper" style="color: #ffffff; text-align: right;">Upper Text</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; color: #6e6e6e;">Lower Text</div></div></div></a></div>
