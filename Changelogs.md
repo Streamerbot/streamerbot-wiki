@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-03T01:53:23.555Z
+date: 2022-09-03T01:54:50.129Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,6 +28,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add a new menu item for OBS connections that lets you assign **ALL** OBS related sub-actions to that connection
 * Add a new [OBS Set Color Source Color](#obs-set-color-source-color) sub-action and C# methods
 * Request new scope `whispers:read` on bot account, you will need to re-authorize your bot account
+* Add new CPH method for logging `LogVerbose(string logLine)`
+* Add new CPH method for LumiaStream `LumiaSetToDefault()`
 * Add new event for Twitch, Bot Whisper, can now react to whispers the bot account receives
 * Add new command source Twitch Bot Whisper, can now react to whispers the bot account receives
 {.changelog-new}
@@ -44,12 +46,22 @@ Added a new sub-action that lets yous et the color of a color source within OBS.
 
 Add the following new C# methods
 
+### Logging
+```csharp
+void LogVerbose(string logLine);
+```
+
 ### OBS
 ```csharp
 bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
 void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
+```
+
+### Lumia Stream
+```csharp
+void LumiaSetToDefault();
 ```
 
 # Streamer.bot v0.1.12 (Current)
