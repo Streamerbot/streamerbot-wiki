@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-03T01:54:50.129Z
+date: 2022-09-03T01:56:49.746Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 <span></span>
 
 * Add new C# method, `CPH.ObsTakeScreenshot`
+* Twitch commands have a new argument, `%msgId%` which is the id of the message
 {.changelog-updates}
 
 <span></span>
