@@ -2,23 +2,11 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T20:04:06.543Z
+date: 2022-09-03T20:11:01.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
 ---
-
-![digital-patreon-logo_coral.png](/digital-patreon-logo_coral.png){.align-abstopright}
-
-## Overview
-
-Patreon, a highly requested integration, is now available in Streamer.bot *v0.1.8*{.version-badge}
-
-> **NOTE**
-> This integration requires signing in to the **Streamer.bot** website and configuring your Patreon account to use the webhooks.
-{.is-info}
-
-![patreon-integration.png](/patreon-integration.png)
 
 ## Configuration
 
