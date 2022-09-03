@@ -2,19 +2,11 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T20:58:37.295Z
+date: 2022-09-03T20:59:32.999Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
 ---
-
-## Gradient Test
-
-<div class="image-bg" style="background-image: linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ); filter: blur(72px); position: absolute; top: 50%; left: 50%; border-radius: 50%; width: 192px; height: 192px; background-image: var(--vp-home-hero-image-background-image); filter: var(--vp-home-hero-image-filter); transform: translate(-50%,-50%);"></div>
-
----
-
-<div id="gradient" style="height: 300px;width: 300px;margin: 0px 0px 150px 150px;background-color: #00dbff;background-image: linear-gradient(#00dbff, #a257ed);border-radius: 50%;filter: blur(75px);"></div>
 
 ## Example Page
 
