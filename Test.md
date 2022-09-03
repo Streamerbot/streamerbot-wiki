@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T13:21:08.049Z
+date: 2022-09-03T13:49:04.533Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -18,5 +18,27 @@ dateCreated: 2022-07-28T01:00:17.477Z
 * [**Version<span class="version-badge" style="color: #9aff67!important; background-color: #006906!important;">New!</span>**]()
 {.btn-grid}
 
+<style type="text/css">
+div#lower-grid-border {
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+}
+div#lower-grid-border-spacing {
+  margin: 10px;
+}
+div#lower-grid-bottom {
+  font-size: 10px;
+  margin-top: 3px;
+}
+div#lower-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+</style>
 
-<a class="pager-link prev" href="/en/Quick-Start" data-v-04568844="" style="display: block; border: 1px solid var(--vp-c-divider-light); border-radius: 8px; padding: 11px 16px 13px; width: 100%; height: 100%; transition: border-color .25s; color: inherit; text-decoration: inherit; touch-action: manipulation; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; flex-shrink: 0; width: 50%;"><span class="desc" data-v-04568844="">Previous page</span><span class="title" data-v-04568844="">Getting Started</span><span class="desc" data-v-04568844="">Previous page</span><span class="title" data-v-04568844="">Update Guide</span></a>
+---
+
+<div id="lower-grid"><div id="lower-grid-border"><div id="lower-grid-border-spacing"><a href="/en/" id="lower-grid-1"><div id="lower-grid-upper">Update Guide</div><div id="lower-grid-bottom">Go Back</div></a></div></div><div id="lower-grid-border"><div id="lower-grid-border-spacing"><a href="/en/" id="lower-grid-2"><div id="lower-grid-upper">Backup Guide</div><div id="lower-grid-bottom">Up Next</div></a></div></div></div>
