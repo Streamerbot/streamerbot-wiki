@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-03T23:18:29.112Z
+date: 2022-09-03T23:22:44.374Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -24,4 +24,4 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"> <div id="lower-grid-1"><div id="lower-grid-upper" style="color: #ffffff">Page</div> <div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e;">Go Back</div></div></div></a><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-2"><div id="lower-grid-upper" style="color: #ffffff; text-align: right;">Page</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; color: #6e6e6e;">Up Next</div></div></div></a></div>
+<div id="lower-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"> <div id="lower-grid-1"><div id="lower-grid-upper" style="color: #ffffff; font-weight: 700;">Page</div> <div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e; font-weight: 500;">Go Back</div></div></div></a><a href="" id="lower-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="lower-grid-border-spacing" style="margin: 10px;"><div id="lower-grid-2"><div id="lower-grid-upper" style="color: #ffffff; text-align: right; font-weight: 700;">Page</div><div id="lower-grid-bottom" style="font-size: 10px; margin-top: 3px; text-align: right; color: #6e6e6e; font-weight: 500;">Up Next</div></div></div></a></div>
