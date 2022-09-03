@@ -2,7 +2,7 @@
 title: All (v0.1.14)
 description: Twitch Events Reference
 published: false
-date: 2022-09-03T23:33:33.075Z
+date: 2022-09-03T23:34:39.952Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-03T23:14:09.721Z
@@ -52,4 +52,4 @@ Unverified variables - Mileage may vary
 
 ---
 
-<div id="footer-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;"><a href="/en/Platforms/Twitch/Events" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-1"><div id="footer-grid-upper" style="color: #ffffff; font-weight: 700;">Twitch Events</div> <div id="footer-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e; font-weight: 500;">Go Back</div></div></div></a></div>
+<div id="footer-grid" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; margin-top: 30px;"><a href="/en/Platforms/Twitch/Events" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-1"><div id="footer-grid-upper" style="color: #ffffff; font-weight: 700;">Twitch Events</div> <div id="footer-grid-bottom" style="font-size: 10px; margin-top: 3px; color: #6e6e6e; font-weight: 500;">Go Back</div></div></div></a></div>
