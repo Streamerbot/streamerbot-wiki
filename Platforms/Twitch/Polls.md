@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-08-25T14:55:18.646Z
+date: 2022-09-03T10:18:12.346Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -159,7 +159,7 @@ public class CPHInline
 		int bitsPerVote = 0;
 		int channelPointsPerVote = 0;
 
-		CPH.TwitchPollCreate(pollQuestion, pollOptions, duration, bitsPerVote, channelPointsPerVote);
+		CPH.TwitchPollCreate(pollQuestion, pollOptions, duration, channelPointsPerVote);
 
 		return true;
 	}
