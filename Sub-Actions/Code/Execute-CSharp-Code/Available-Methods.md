@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-09-02T06:14:00.906Z
+date: 2022-09-03T10:20:21.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -233,7 +233,7 @@ bool UpdateReward(string rewardId, string title = null, string prompt = null, in
 
 ## Polls
 ```csharp
-bool TwitchPollCreate(string title, List<string> choices, int duration, int bitsPerVote = 0, int channelPointsPerVote = 0);
+bool TwitchPollCreate(string title, List<string> choices, int duration, int channelPointsPerVote = 0);
 void TwitchPollTerminate(string pollId);
 void TwitchPollArchive(string pollId);
 ```
