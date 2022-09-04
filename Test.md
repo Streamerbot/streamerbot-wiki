@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-04T14:20:25.806Z
+date: 2022-09-04T14:56:47.586Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -45,19 +45,17 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-> Blockquote
-
-> info Blockquote
+> `info` Blockquote
 {.is-info}
 
 
-> Succes Blockquote
+> `Success` Blockquote
 {.is-success}
 
 
-> Warning Blockquote
+> `Warning` Blockquote
 {.is-warning}
 
 
-> Error Blockquote
+> `Error` Blockquote
 {.is-danger}
