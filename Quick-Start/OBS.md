@@ -2,12 +2,13 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-09-01T09:04:09.206Z
+date: 2022-09-04T15:04:39.171Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
 ---
 
+> **Note:**
 > OBS WebSocket *v5+*{.obs-version-badge} and *v4.9+*{.obs-version-badge} are both supported but the documentation is in *v5+*{.obs-version-badge}
 {.is-info}
 
