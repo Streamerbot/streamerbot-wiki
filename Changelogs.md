@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-04T18:20:02.189Z
+date: 2022-09-04T19:04:39.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,6 +23,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new C# method, `CPH.ObsTakeScreenshot`
 * Twitch commands have a new argument, `%msgId%` which is the id of the message
 * Remove caret from Twitch username text boxes, so there's no indication you should type in them
+* Remove caret from YouTube username text boxes, so there's no indication you should type in them
 {.changelog-updates}
 
 <span></span>
