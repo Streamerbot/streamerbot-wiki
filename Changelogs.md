@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-04T16:36:49.421Z
+date: 2022-09-04T17:16:50.702Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -34,6 +34,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new CPH method for LumiaStream `LumiaSetToDefault()`
 * Add new event for Twitch, Bot Whisper, can now react to whispers the bot account receives
 * Add new command source Twitch Bot Whisper, can now react to whispers the bot account receives
+* Add new CPH method for taking a screen shot in OBS, the source can be either a source, or a scene
 {.changelog-new}
 
 ## New Sub-actions
@@ -55,7 +56,7 @@ void LogVerbose(string logLine);
 
 ### OBS
 ```csharp
-bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
+bool ObsTakeScreenshot(string source, string path, int quality = -1, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
 void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
