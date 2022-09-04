@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-04T17:16:50.702Z
+date: 2022-09-04T18:20:02.189Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -118,7 +118,7 @@ Released 2022-08-31{.subtitle}
 * Add new VoiceMod sub-action to play a soundboard sound
 * Add new VoiceMod sub-action to stop  playing all VoiceMod sounds
 * Regex commands will now add match group values as arguments, `%match[#]%`, as well as named match groups, if you're using `?<groupName>` in your regex
-* [Lumia Stream](#lumia-stream) integration!
+* [Lumia Stream](#lumia-stream-1) integration!
 * New sub-action Send Command for Lumia Stream
 * New sub-action Set Color for Lumia Stream
 * New sub-action Set to Default for Lumia Stream
