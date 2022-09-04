@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-04T13:58:08.125Z
+date: 2022-09-04T14:20:25.806Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -42,3 +42,22 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 <div id="footer-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-gap: 20px; margin-top: 30px;"><a href="" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"> <div id="footer-grid-1"><div id="footer-grid-upper" style="color: #ffffff; font-size: 20px; font-weight: 700;">Page</div><div id="footer-grid-bottom" style="font-size: 12px; margin-top: 3px; color: #6e6e6e; font-weight: 500;">Go Back</div></div></div></a><a href="" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-2"><div id="footer-grid-upper" style="color: #ffffff; text-align: center; font-size: 20px; font-weight: 700;">Page</div><div id="footer-grid-bottom" style="font-size: 12px; margin-top: 3px; text-align: center; color: #6e6e6e; font-weight: 500;">Up Next</div></div></div></a><a href="" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-2"><div id="footer-grid-upper" style="color: #ffffff; text-align: center; font-size: 20px; font-weight: 700;">Page</div><div id="footer-grid-bottom" style="font-size: 12px; margin-top: 3px; text-align: center; color: #6e6e6e; font-weight: 500;">Up Next</div></div></div></a><a href="" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-2"><div id="footer-grid-upper" style="color: #ffffff; text-align: center; font-size: 20px; font-weight: 700;">Page</div><div id="footer-grid-bottom" style="font-size: 12px; margin-top: 3px; text-align: center; color: #6e6e6e; font-weight: 500;">Up Next</div></div></div></a><a href="" id="footer-grid-border" style="border: 1px solid #333333; border-radius: 12px; color: transparent!important;"><div id="footer-grid-border-spacing" style="margin: 10px;"><div id="footer-grid-2"><div id="footer-grid-upper" style="color: #ffffff; text-align: right; font-size: 20px; font-weight: 700;">Page</div><div id="footer-grid-bottom" style="font-size: 12px; margin-top: 3px; text-align: right; color: #6e6e6e; font-weight: 500;">Up Next</div></div></div></a></div>
+
+---
+
+> Blockquote
+
+> info Blockquote
+{.is-info}
+
+
+> Succes Blockquote
+{.is-success}
+
+
+> Warning Blockquote
+{.is-warning}
+
+
+> Error Blockquote
+{.is-danger}
