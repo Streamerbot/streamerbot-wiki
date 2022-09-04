@@ -2,7 +2,7 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-09-04T15:04:39.171Z
+date: 2022-09-04T21:50:07.809Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
@@ -40,6 +40,9 @@ Configuration options are outlined below:
 ### Name
 Enter any name or description for this OBS Studio connection
 
+### Version
+Please select which `WebSocket` Version you are wanting to use. 
+The default value is `4.9.x`.
 ### Host
 Enter the local IP address of your OBS Studio instance
 The default value of `127.0.0.1` will find instances on the same PC
@@ -60,6 +63,7 @@ Enable this option to automatically reconnect to OBS Studio if the connection is
 ### Retry Interval
 Amount of time, in seconds, to wait between each reconnection attempt
 
+> If OBS isn't connecting, please double check the **PORT, PASSWORD and VERSION** to ensure that data is correct. {.is-warning}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
