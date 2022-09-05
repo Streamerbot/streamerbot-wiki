@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2022-07-09T19:59:06.541Z
+date: 2022-09-05T15:40:46.156Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:34.610Z
@@ -17,7 +17,8 @@ dateCreated: 2021-08-25T21:32:34.610Z
 
 *v0.1.8+*{.version-badge}
 
-> **[Action Queues](/en/Action-Queues)** have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
+> **INFO**
+> [Action Queues](/en/Action-Queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
 {.is-info}
 
 
