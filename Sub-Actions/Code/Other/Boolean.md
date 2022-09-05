@@ -2,14 +2,10 @@
 title: Boolean
 description: 
 published: true
-date: 2022-08-02T09:39:43.821Z
+date: 2022-09-05T12:04:04.597Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T23:27:14.258Z
----
-
-<font size="+3" class="mdi mdi-ab-testing primary--text"><b> Boolean</b></font>
-
 ---
 
 ## Overview
