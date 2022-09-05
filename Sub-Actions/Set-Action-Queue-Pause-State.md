@@ -2,7 +2,7 @@
 title: Set Action Queue Pause State
 description: Enable and Disable action queues
 published: true
-date: 2022-09-05T21:45:57.005Z
+date: 2022-09-05T21:53:36.158Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T22:05:53.471Z
@@ -16,6 +16,7 @@ Valid States `Pause` `Resume`
 ![set-action-queue-pause-state.png](/set-action-queue-pause-state.png)
 
 {.is-warning}
+> **WARNING**
 > If all action queues are paused, you will not be able to unpause them unless the action is set to `Always Run`
 {.is-warning}
 
