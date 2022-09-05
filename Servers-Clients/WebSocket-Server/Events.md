@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-07-22T19:40:51.359Z
+date: 2022-09-05T10:16:19.563Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -10,9 +10,11 @@ dateCreated: 2021-08-25T21:37:12.384Z
 
 Below is the current list of events that are emitted by Streamer.bot
 
+> **WARNING**
 > Events are only emitted if they have been subscribed to
 {.is-warning}
 
+> **NOTE**
 > Some events are not being broadcast as of **v0.1.7** despite being listed here and have been indicated.  There are some events which may also change, and provide more data then they currently do, this will be noted when they are updated
 {.is-info}
 
