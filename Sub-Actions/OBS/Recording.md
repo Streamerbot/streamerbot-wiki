@@ -2,21 +2,26 @@
 title: Recording
 description: 
 published: true
-date: 2021-08-26T02:23:13.369Z
+date: 2022-09-06T16:55:23.359Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:42.180Z
 ---
 
-Controls the record to file function in selected OBS connection
+## Overview
+Controls your recording state with `Start`, `Stop`, `Pause` and `Resume`
 
-### Connection
+![overview.png](/broadcasters/obs/sub-actions/recording/overview.png =500x)
+![overview-state.png](/broadcasters/obs/sub-actions/recording/overview-state.png =300x)
 
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
+## Configuration
 ### State
-
-`Start` `Stop` `Pause` `Resume`
+Name | Description
+---:|:---
+`Start` | Starts your OBS Recording 
+`Stop` | Stops your OBS Recording
+`Pause` | Pauses your OBS Recording
+`Resume` | Resumes your OBS Recording
 
 ---
 
