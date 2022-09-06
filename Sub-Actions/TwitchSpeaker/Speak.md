@@ -2,14 +2,14 @@
 title: Speak
 description: How to pair up Streamer.bot and Twitch Speaker
 published: true
-date: 2022-09-06T21:37:14.218Z
+date: 2022-09-06T21:54:52.271Z
 tags: twitch, tts, speak, voice
 editor: markdown
 dateCreated: 2022-03-03T03:27:48.570Z
 ---
 
 ## Overview
-This sub action allows Streamer.bot to interact with Twitch Speaker TTS enabling you to give your commands a voice or some audio feed back.
+Controls the TwitchSpeaker Speak Message using your Voice Alias
 
 ## Configuration
 To do this select an Action you want to have this type of interactivity included then in the sub actions pane right click to bring up the menu now click `Add Action` then down to `Twitch Speaker` then click `Speak` now a dialog box will appear like the one shown below.
