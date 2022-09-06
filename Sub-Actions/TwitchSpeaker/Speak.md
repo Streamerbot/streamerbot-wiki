@@ -2,7 +2,7 @@
 title: Speak
 description: How to pair up Streamer.bot and Twitch Speaker
 published: true
-date: 2022-09-06T21:36:02.154Z
+date: 2022-09-06T21:36:30.154Z
 tags: twitch, tts, speak, voice
 editor: markdown
 dateCreated: 2022-03-03T03:27:48.570Z
@@ -16,7 +16,7 @@ This sub action allows Streamer.bot to interact with Twitch Speaker TTS enabling
 
 To do this select an Action you want to have this type of interactivity included then in the sub actions pane right click to bring up the menu now click `Add Action` then down to `Twitch Speaker` then click `Speak` now a dialog box will appear like the one shown below.
 
-![speaker_options_.png](/twitchspeaker/speaker_options_.png =400x)
+![speaker_options_.png](/twitchspeaker/speaker_options_.png =300x)
 
 In this dialog box you will need to complete in order for streamer bot to pass data through to the Twitch Speaker application starting from the top is `Voice Alias` you will need to input a `Voice Alias` to tell the TTS what voice to use so for this example I’m going to use the default alias this can be found in the `Twitch Speaker Application`. Open your Twitch Speaker application once loaded click `Settings ` tab and then click the `General` tab if it is not displayed already. It should look like this. 
 
@@ -26,7 +26,7 @@ in this window look for the `Default Voice Alias` drop down and you will see the
 
 Last step is the message box you can either hard write the message in the box or pass a variable containing the message or even both. It’s up to you. Click the `Test` button for a preview, when your happy with it click the `OK `button then `Save Setting & Viewers` button on the bot and you’re ready to go.  
 
-![speaker_1_.png](/twitchspeaker/speaker_1_.png =400x)
+![speaker_1_.png](/twitchspeaker/speaker_1_.png =300x)
 
 
 > If you have already set up a different Voice Alias in the Twitch Speaker Application then you can use this name instead.
