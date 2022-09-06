@@ -1,8 +1,8 @@
 ---
 title: Recording
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-09-06T16:55:23.359Z
+date: 2022-09-06T16:56:02.432Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:42.180Z
