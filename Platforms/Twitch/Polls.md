@@ -2,7 +2,7 @@
 title: Polls
 description: 
 published: true
-date: 2022-09-03T10:19:19.051Z
+date: 2022-09-06T13:36:04.988Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -145,7 +145,7 @@ public class CPHInline
 		// these are your poll options, you can have upto 5, if you don't want 5, just delete the lines you don't want, so say
 		// you would like 2, delete Option 3, 4, and 5.
 		// and be sure to rename your options by changing the text inbetween the ""
-		string pollOptions = new List<string>();
+		List <string> pollOptions = new List<string>();
 		pollOptions.Add("Option 1");
 		pollOptions.Add("Option 2");
 		pollOptions.Add("Option 3");
