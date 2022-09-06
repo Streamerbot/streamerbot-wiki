@@ -2,7 +2,7 @@
 title: Recording
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-09-06T16:56:02.432Z
+date: 2022-09-06T17:11:37.516Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:42.180Z
@@ -11,8 +11,8 @@ dateCreated: 2021-08-25T21:33:42.180Z
 ## Overview
 Controls your recording state with `Start`, `Stop`, `Pause` and `Resume`
 
-![overview.png](/broadcasters/obs/sub-actions/recording/overview.png =500x)
-![overview-state.png](/broadcasters/obs/sub-actions/recording/overview-state.png =300x)
+![overview.png](/broadcasters/obs/sub-actions/recording/overview.png =400x)
+![overview-state.png](/broadcasters/obs/sub-actions/recording/overview-state.png =200x)
 
 ## Configuration
 ### State
