@@ -2,7 +2,7 @@
 title: Flip Source
 description: 
 published: true
-date: 2022-09-05T12:10:14.894Z
+date: 2022-09-06T17:21:05.822Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -25,6 +25,7 @@ A dropdown list of available scenes will populate for selection, but the scene n
 If the selected OBS connection is currently connected, a dropdown list of available sources will populate for selection, otherwise the source name can be entered manually.
 
 ### Mode
+Name | Description
 ---:|:---
 `Horizontal` | Inverts the X axis
 `Vertical` | Inverts the Y axis
