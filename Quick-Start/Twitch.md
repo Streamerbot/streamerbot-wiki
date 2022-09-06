@@ -2,13 +2,13 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-09-05T16:32:38.870Z
+date: 2022-09-06T18:19:37.098Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z
 ---
 
-# Connecting your Twitch account!
+## Connecting your Twitch account!
 ![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png =800x)
 1. Navigate through the following: `Platforms` ---> `Twitch` ----> `Accounts`
 2. Press the `Connect to Twitch` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
@@ -24,7 +24,6 @@ Press `Connect to Twitch` to automatically obtain a token. If you are already lo
 
 If the logged in user is not the one you wish to use, please log out and enter the credentials you wish to use 
 
-> **ADDITIONALLY**
 > `Auto Connect` will set **Streamer.bot** to connect to Twitch! with the defined account on startup
 {.is-success}
 
@@ -39,7 +38,6 @@ The account can be any standard Twitch account but with the permission scope the
 If the chosen account is not more than **12** months old, or already pre-verified as a **bot** you will not be able to send whispers from the application
 {.is-warning}
 
-> **ADDITIONALLY**
 > If you you do not intend to use a bot account, leave this field blank or you will restrict certain actions from working correctly such as responding to chat commands that the bot has written in chat
 {.is-success}
 
