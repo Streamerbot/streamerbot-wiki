@@ -2,14 +2,14 @@
 title: Streaming
 description: 
 published: true
-date: 2022-09-06T17:48:59.883Z
+date: 2022-09-06T17:49:42.564Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:18.153Z
 ---
 
 ## Overview
-Signal the defined OBS connection to `Start` or `Stop` a streaming session to the service defined in that application's active profile
+`Stop` or `Start` your OBS stream
 
 ![overview.png](/broadcasters/obs/sub-actions/streaming/overview.png =400x)
 
