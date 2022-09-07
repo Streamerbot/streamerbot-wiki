@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-08-28T21:12:46.926Z
+date: 2022-09-07T09:03:11.636Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -19,8 +19,8 @@ dateCreated: 2022-07-10T19:06:14.215Z
 * [<i class="mdi mdi-headphones text--voicemod"></i>**Set Hear My Voice State *Toggles the hear my voice state***](/en/Sub-Actions/VoiceMod/Set-Hear-My-Voice-State)
 * [<i class="mdi mdi-volume-mute text--voicemod"></i>**Set Mute State *Toggles the mute state}***](/en/Sub-Actions/VoiceMod/Set-Mute-State)
 * [<i class="mdi mdi-robot text--voicemod"></i>**Set Voice Changer State *Toggles the Voice Changer state***](/en/Sub-Actions/VoiceMod/Set-Voice-Changer-State)
-* [<i class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound *Coming Soon!*{.version-badge}***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
-* [<i class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard *Coming Soon!*{.version-badge}***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
+* [<i class="mdi mdi-volume-high text--voicemod"></i>**Play Sound *Play a Soundboard sound *v0.1.11*{.version-badge}***](/en/Sub-Actions/VoiceMod/Play-Sound){.disabled}
+* [<i class="mdi mdi-volume-off text--voicemod"></i>**Stop All Sounds *Stops all the sounds from the Soundboard *v0.1.11*{.version-badge}***](/en/Sub-Actions/VoiceMod/Stop-All-Sounds){.disabled}
 {.btn-grid .my-5}
 
 ---
