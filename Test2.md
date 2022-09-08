@@ -2,7 +2,7 @@
 title: Test
 description: Official Documentation for Streamer.bot
 published: false
-date: 2022-09-08T09:52:37.686Z
+date: 2022-09-08T10:01:04.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T09:52:37.686Z
@@ -13,19 +13,19 @@ dateCreated: 2022-09-08T09:52:37.686Z
 <div>
 
 
-* [🚀 Quick Start Guide](/en/Quick-Start)
+  <a href="" style="font-size: 18px;"><img style="background-color: white; border-radius: 10.5px; margin-bottom: -4px; padding: 3px;" width="21px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> GitHub</a>
 
 </div>
 <div>
 
 
-- [Inline-Functions](/en/Inline-Functions)
+  <a href="">GitHub</a>
 
 </div>
 
 <div>
 
-- [View all integrations...](/en/Integrations)
+  <a href="">GitHub</a>
 
 </div>
 
