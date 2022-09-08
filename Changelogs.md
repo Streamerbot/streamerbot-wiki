@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-04T19:04:39.956Z
+date: 2022-09-08T14:48:40.778Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -11,6 +11,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 # Streamer.bot v0.1.14 (WIP)
  Upcoming changes in the next release!{.subtitle}
  
+* Typos
 * OBS Take Screenshot sub-action was halting an action when used with OBS websocket v5
 * Lumia Stream Send Command sub-action dialog would crash if there are no commands
 * Lumia Stream disconnect button would not work
