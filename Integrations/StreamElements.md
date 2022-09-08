@@ -2,36 +2,35 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-07-09T20:14:08.962Z
+date: 2022-09-08T21:46:12.430Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
 ---
 
 ![streamlabs-logo.png](https://streamer.bot/img/integrations/streamelements.png){.align-abstopright}
-# Overview
+## Overview
 
 The StreamElements integration allows you to connect Streamer.bot with your StreamElements account to receive tip and merch events.
 
 ![integrations-streamelements-events-018.png](/integrations-streamelements-events-018.png =800x)
 
-# Configuration
+## Configuration
 
 You can find the configuration for this integration at `Integrations -> StreamElements -> Settings`
 
-## Authentication
+### Authentication
 **The StreamElements integration now uses OAuth for authorizing against your account**
 
 To connect Streamer.bot with your StreamElements account:
 1. Navigate to the settings tab within the StreamElements integration
 2. Click `Connect` and authorize **Streamer.bot** to connect to your account
 
-# Events
+## Events
 The following StreamElements events are monitored by Streamer.bot and will allow you to execute actions with their content:
 
-## Tips / Donations
-
-The Tip event is fired any time a new donation is receieved through StreamElements
+### Tips / Donations
+The Tip event is fired any time a new donation is receieved through StreamElements{.subtitle}
 
 Name | Description
 ----:|:------------
@@ -42,10 +41,8 @@ Name | Description
 `tipMessage` | Any tip message the user included
 `isTest` | Boolean value indicating the tip was a test |  `True`/`False`
 
-## Merch
-*v0.1.8*{.version-badge}
-
-With version 0.1.8, the ability to attach an action to a Merch event was introduced.
+### Merch
+The Merch event is fired any time a new Merch sale is receieved through StreamElements{.subtitle}
 
 Name | Description
 ----:|:------------
