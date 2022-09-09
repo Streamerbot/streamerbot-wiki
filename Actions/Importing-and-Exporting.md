@@ -2,7 +2,7 @@
 title: Importing & Exporting
 description: 
 published: true
-date: 2022-08-18T22:03:58.936Z
+date: 2022-09-09T13:50:02.242Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:05.659Z
@@ -15,11 +15,11 @@ Importing and Exporting Packages are the way to share projects that have been ma
 
 In the Top Left of Streamer.bot you will see an `Export` button.
 
-![exportbutton.png](/exportbutton.png){.align-center}
+![exportbutton.png](/exportbutton.png)
 
 Pressing that will bring up this dialogue box.
 
-![exportdialogue.png](/exportdialogue.png){.align-center}
+![exportdialogue.png](/exportdialogue.png)
 
 From here you can select one or more `Actions` and `Commands` you would like to package for export.
 
@@ -47,7 +47,7 @@ Actions and Commands can be `Imported` from other installations of Streamer.bot 
 
 To Import an action, open the `Import` dialogue by pressing Import in the Top Left of Streamer.bot.
 
-![importbutton.png](/importbutton.png){.align-center}
+![importbutton.png](/importbutton.png)
 
 You can Import 2 ways either paste in the UUEncoded string for the package you want or drag and drop a file with that contains your import code into the top box.
 
@@ -63,6 +63,6 @@ You can select any of the actions you want to bring in, if any have an identical
 
 > If you see no actions or commands populate when you copy and paste the code ensure that they are no trailing spaces or a new line at the end of the string. {.is-warning}
 
-![importactions.png](/importactions.png){.align-center}
+![importactions.png](/importactions.png)
 
 The above example creates 2 Actions and 2 commands, you can use the checkmark to choose which Actions or Commands you wish to Import.
