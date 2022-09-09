@@ -2,13 +2,12 @@
 title: Output Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:22:35.905Z
+date: 2022-09-09T12:09:01.065Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:15:13.566Z
 ---
 
-## Output Requests
 Output related OBS Studio requests{.subtitle}
 * [**GetVirtualCamStatus *Gets the status of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetVirtualCamStatus)
 * [**ToggleVirtualCam *Toggles the state of the virtualcam output***](/en/Broadcasters/OBS/Requests/Output-Requests/ToggleVirtualCam)
