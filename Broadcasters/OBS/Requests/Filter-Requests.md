@@ -2,13 +2,12 @@
 title: Filter Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:21:18.126Z
+date: 2022-09-09T12:07:38.341Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:14:17.022Z
 ---
 
-## Filter Requests
 Filter related OBS Studio requests{.subtitle}
 * [**GetSourceFilterList *Gets an array of all of a source's filters***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterList)
 * [**GetSourceFilterDefaultSettings *Gets the default settings for a filter kind***](/en/Broadcasters/OBS/Requests/Filter-Requests/GetSourceFilterDefaultSettings)
