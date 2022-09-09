@@ -2,13 +2,12 @@
 title: Transition Requests
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-09-01T00:07:04.809Z
+date: 2022-09-09T12:10:48.365Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:14:02.552Z
 ---
 
-## Transition Requests
 Transition related OBS Studio requests{.subtitle}
 * [**GetTransitionKindList *Gets an array of all available transition kinds***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetTransitionKindList)
 * [**GetSceneTransitionList *Gets an array of all scene transitions in OBS***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetSceneTransitionList)
