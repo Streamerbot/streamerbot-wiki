@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: 
 published: true
-date: 2022-09-03T22:02:04.673Z
+date: 2022-09-09T13:54:05.185Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -464,19 +464,17 @@ void ObsMediaPrevious(string scene, string source, int connection = 0);
 ```
 
 ## Colors
+```csharp
+long ObsConvertRgb(int a, int r, int g, int b);
+long ObsConvertColorHex(string colorHex);
+```
+
 > Requires a minimum of v0.1.14
 {.is-info}
 ```csharp
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
 void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
-```
-
-> Requires a minimum of v0.1.5
-{.is-info}
-```csharp
-long ObsConvertRgb(int a, int r, int g, int b);
-long ObsConvertColorHex(string colorHex);
 ```
 
 ## Get Connection By Name
