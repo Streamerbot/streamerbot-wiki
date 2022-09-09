@@ -2,13 +2,12 @@
 title: Media Input Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:24:13.703Z
+date: 2022-09-09T12:08:44.842Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:16:33.412Z
 ---
 
-## Media Input Requests
 Media Input related OBS Studio requests{.subtitle}
 * [**GetMediaInputStatus *Gets the status of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/GetMediaInputStatus)
 * [**SetMediaInputCursor *Sets the cursor position of a media input***](/en/Broadcasters/OBS/Requests/Media-Input-Requests/SetMediaInputCursor)
