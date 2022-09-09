@@ -2,13 +2,12 @@
 title: Record Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:23:43.494Z
+date: 2022-09-09T12:09:17.331Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:16:06.273Z
 ---
 
-## Record Requests
 Record related OBS Studio requests{.subtitle}
 * [**GetRecordStatus *Gets the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/GetRecordStatus)
 * [**ToggleRecord *Toggles the status of the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecord)
