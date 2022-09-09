@@ -2,13 +2,12 @@
 title: Scene Item Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:22:06.470Z
+date: 2022-09-09T12:09:35.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:15:28.942Z
 ---
 
-## Scene Item Requests
 Scene Item related OBS Studio requests{.subtitle}
 * [**GetSceneItemList *Gets a list of all scene items in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemList)
 * [**GetGroupSceneItemList *Basically GetSceneItemList, but for groups***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetGroupSceneItemList)
