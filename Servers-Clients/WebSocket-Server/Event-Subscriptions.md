@@ -2,13 +2,13 @@
 title: Event Subscription
 description: 
 published: true
-date: 2021-08-26T01:32:17.151Z
+date: 2022-09-09T13:45:06.920Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:59.892Z
 ---
 
-With [Version 0.0.52](/Changelogs/Version-0052), I have changed how events are broadcasted to clients connected to the WebSocket server.  Each client, after connecting will need to send a `Subscribe` command to the server with the events it would like to receive.  A sample request for subscribing is below, and all the events that are available is below that.  You can also always call `GetEvents` to get all the events you can subscribe to.
+With [Version 0.0.52](/en/Changelogs/Archives/Version-0052), I have changed how events are broadcasted to clients connected to the WebSocket server.  Each client, after connecting will need to send a `Subscribe` command to the server with the events it would like to receive.  A sample request for subscribing is below, and all the events that are available is below that.  You can also always call `GetEvents` to get all the events you can subscribe to.
 
 ```json
 {
