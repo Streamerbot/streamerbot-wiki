@@ -2,13 +2,12 @@
 title: Scene Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:19:25.289Z
+date: 2022-09-09T12:09:53.175Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:13:16.678Z
 ---
 
-## Scene Requests
 Scene related OBS Studio requests{.subtitle}
 * [**GetSceneList *Gets an array of all scenes in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneList)
 * [**GetGroupList *Gets an array of all groups in OBS***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetGroupList)
