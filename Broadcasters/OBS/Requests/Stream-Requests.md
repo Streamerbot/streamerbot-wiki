@@ -2,13 +2,12 @@
 title: Stream Requests
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-09-01T00:06:45.304Z
+date: 2022-09-09T12:10:28.460Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:15:52.909Z
 ---
 
-## Stream Requests
 Stream related OBS Studio requests{.subtitle}
 * [**GetStreamStatus *Gets the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/GetStreamStatus)
 * [**ToggleStream *Toggles the status of the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/ToggleStream)
