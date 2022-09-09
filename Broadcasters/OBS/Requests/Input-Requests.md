@@ -2,13 +2,12 @@
 title: Input Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:20:09.961Z
+date: 2022-09-09T12:08:19.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:13:41.178Z
 ---
 
-## Input Requests
 Input related OBS Studio requests{.subtitle}
 * [**GetInputList *Gets an array of all inputs in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputList)
 * [**GetInputKindList *Gets an array of all available input kinds in OBS***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputKindList)
