@@ -2,7 +2,7 @@
 title: Importing & Exporting
 description: 
 published: true
-date: 2022-09-09T13:50:02.242Z
+date: 2022-09-09T13:50:21.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:05.659Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-25T21:31:05.659Z
 Importing and Exporting Packages are the way to share projects that have been made with other members of the community, since 0.1.8 this has been updated to make it far easier with the addition of the ability to export commands too. 
 
 
-# Exporting Actions and Commands
+## Exporting Actions and Commands
 
 In the Top Left of Streamer.bot you will see an `Export` button.
 
@@ -33,7 +33,7 @@ Exported actions will retain any custom JSON or C# code and will retain the sub-
 
 *** 
 
-### UUEncoded Action Example
+#### UUEncoded Action Example
 
 ```
 TlM0RR+LCAAAAAAABADdV02P2zYQvRfofxAM5LZT8FtkbosUKHLpIYdcihyGnGFiwJa3spRkEeS/l7T2w2t7kXXjLJycJHHI4czjm3nUl99/a5rZR+7X81U3e9nIi81Ah0suX7M/GYcPzavV2A3czyYbpqHMXRfzP/W7ab5Mj2KaU12kddAqtBYoBw+m9RIC2gCqlUlmK7wRdvK1WfTvyGPdrBsXi/tR7jAuuPob+pHvxx9EdhMYvBr7nrthy+n7fjVe7TnFxSe8Xr8Za6YZF+stvz12tFpebnLbt6ZVl2722LPt4fEAk82U9WrsUw1bXDwY/4j9vKb5901SVJNK22jfTb2qR7Qe9hHZWInXw7zDGsjbG5/f8EeccVwMb3ExHghsOkiKPtlgHESU5SBTQEDvDLQuGZkpqGjsjttPPH//oYIk/thxOVxf1Y2kkg/HD57UFERH/Lm6uh/9evEYxAN/rtvObqjQTMzd5P6yebENxItdZHvOXBbRZdrMeAyNrNEqYxEcClHQiBrQFG57xUgBMTrfHo2GOBYMuQXG7eu7XTL+Vd1sGPlustzitluqGbWN5DygRgNGOgXImiDZJNCQaD2605bqJdHZlukth7a408y71DOumZphdSIi+UAYPWUIkkIhUmohxLa8OUqJQ0Ktjy+ro4mkn1JVP2njwuRCsOghciy0FmwAlRcgtM3kbWozp3NpXFsI/ECc7w5S7W4wwSgPwWhjZi9dC1kHB8Y6UYiaBaSQUbITiqQ/HkZ1LIzy12DqgQSndqCkM85EyFFYMOwCeKMTBGtdNJ7YtfwMZFUnFRZTbnyWSlK+NDUw2RNgFh6caHOIwmeW+rTC8oaXP5WwEJ9cWKJwSkcpCtSp3NdYKYiigs5WcGl9noP78cJinlKuR5TlqtTlo+1xKq2Z2Fkzncnr//E7MpFh7F4vl0xzHHhxfbAdYC6R3tHlYPss20riQn/ZOqo1UBQ/yQi2yE/UDhPjbtxPKOzvujGeuQrBQRxTaRxFz4uai6zBxNogpTYgRaByF0dCr59BhtRTcDx/GTrYOQwG6zgp0FrnArFR4IPhArEkpTWnFM7mwnT+ED+m9FaiC8JmyDKXToRWQEzSgjDlkbRNluQzoLx98z9C6etjmjbJ9a3x63+9td6ZRBIAAA==
@@ -41,7 +41,7 @@ TlM0RR+LCAAAAAAABADdV02P2zYQvRfofxAM5LZT8FtkbosUKHLpIYdcihyGnGFiwJa3spRkEeS/l7T2
 
 ***
 
-# Importing Actions and Commands
+## Importing Actions and Commands
 
 Actions and Commands can be `Imported` from other installations of Streamer.bot (providing they have been created on an equal or earlier version), allowing you to share your creations to different PCs or even to entirely different streamers.
 
