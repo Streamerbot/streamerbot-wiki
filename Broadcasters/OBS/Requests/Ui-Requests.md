@@ -2,13 +2,12 @@
 title: Ui Requests
 description: OBS Studio Requests Reference (v5)
 published: false
-date: 2022-09-01T00:07:23.281Z
+date: 2022-09-09T12:11:06.667Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:11:58.724Z
 ---
 
-## Ui Requests
 Ui related OBS Studio requests{.subtitle}
 * [**GetStudioModeEnabled *Gets whether studio is enabled***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetStudioModeEnabled)
 * [**SetStudioModeEnabled *Enables or disables studio mode***](/en/Broadcasters/OBS/Requests/Ui-Requests/SetStudioModeEnabled)
