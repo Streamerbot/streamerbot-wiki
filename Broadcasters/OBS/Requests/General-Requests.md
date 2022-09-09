@@ -2,13 +2,12 @@
 title: General Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:12:02.915Z
+date: 2022-09-09T12:07:56.196Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:12:13.004Z
 ---
 
-## General Requests
 General & Miscellaneous OBS Studio requests{.subtitle}
 * [**GetVersion *Gets data about the current plugin and RPC version***](/en/Broadcasters/OBS/Requests/General-Requests/GetVersion)
 * [**GetStats *Gets statistics about OBS, obs-websocket, and the current session***](/en/Broadcasters/OBS/Requests/General-Requests/GetStats)
