@@ -2,13 +2,12 @@
 title: Config Requests
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-12T22:18:36.209Z
+date: 2022-09-09T12:06:28.336Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-12T22:12:33.328Z
 ---
 
-## Config Requests
 Config related OBS Studio requests{.subtitle}
 * [**GetPersistentData *Gets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/GetPersistentData)
 * [**SetPersistentData *Sets the value of a "slot" from the selected persistent data realm***](/en/Broadcasters/OBS/Requests/Config-Requests/SetPersistentData)
