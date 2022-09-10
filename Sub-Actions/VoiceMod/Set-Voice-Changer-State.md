@@ -2,24 +2,22 @@
 title: Set Voice Changer State
 description: 
 published: true
-date: 2022-07-04T22:50:35.910Z
+date: 2022-09-10T20:09:11.124Z
 tags: twitch, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T16:36:02.549Z
 ---
 
-# Set Voice Changer State
-
 With the Streamer.bot *v0.1.8*{.version-badge} you can set the Voice Changer State that is included with the VoiceMod Application.
 
-First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod))
+First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod)
 Once you have done this you can now proceed to the set up this Sub-Action.
 
 
 To do this navigate to the Actions tab, next you can either create a new action or use an existing one.
 Next in the Sub-Action's pane you will need to add this sub action so to do this we `Right Click` in the Sub-Action pane next navigate the menus through the following `Add Sub-Action` the down the second menu to `VoiceMod` the click on the `Set Voice Changer State` action. Once selected a dialog box will appear like the one below.
 
-![vc-dialog.png](/voicemod/vc-dialog.png){.align-center}
+![vc-dialog.png](/voicemod/vc-dialog.png =500x)
 
 This dialog box has a drop-down menu box named **"State"**. This menu has 3 states. 
 
@@ -32,4 +30,4 @@ Once you have selected the desired state you want click `Ok` to continue and tha
 
 If you want to test the state, you have a `Test` button in the dialog box you can click to test this.
 
-![voice-changer-complete.png](/voicemod/voice-changer-complete.png){.align-center}
+![voice-changer-complete.png](/voicemod/voice-changer-complete.png =800x)
