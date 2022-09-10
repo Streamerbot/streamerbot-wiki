@@ -2,53 +2,40 @@
 title: Take Screenshot
 description: Sub-Action to take a screenshot in OBS
 published: true
-date: 2022-07-15T18:35:47.141Z
+date: 2022-09-10T21:21:44.274Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
 ---
 
 ## Overview
+Makes a screenshot from a `scene` or `source`
 
-Take a screenshot in [OBS Studio](/en/Broadcasters/OBS)
-
-![sub-action-obs-takescreenshot-01.png](/sub-action-obs-takescreenshot-01.png)
+![overview.png](/broadcasters/obs/sub-actions/take-screenshot/overview.png =400x)
 
 ## Configuration
-### Connection
-Select the target OBS Studio instance
-
 ### Scene
-Select the scene to screenshot
-
-This input accepts [variables](/en/Variables)
+The scene, this can use variable like `%currentScene%`
 
 ### Source
-Select the source to screenshot
-
-This input accepts [variables](/en/Variables)
-
+The source, can be empty
 
 ### Filepath
-Select the file path to save the resulting `.png` file
-
-This input accepts [variables](/en/Variables)
+Select the file path to save the resulting file like `.png` or `.jpg`
 
 ### Quality
 Select the desired image quality or leave as `Auto`
 
-
 ## Variables
-
 The following variables will be available after execution of this sub-action:
 
 Name | Description
 ----:|:------------
-| `screenshotFile` | The full path to the screenshot that was taken
-| `filedatetime` | Date Time varible that can be used for file name <br> `yyyyMMdd.hhmmss`
+`screenshotFile` | The full path to the screenshot that was taken
+`filedatetime` | Date Time varible that can be used for file name <br> `yyyyMMdd.hhmmss`
 {.vars-table}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}
