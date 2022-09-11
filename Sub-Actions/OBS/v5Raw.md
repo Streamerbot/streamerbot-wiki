@@ -2,7 +2,7 @@
 title: Raw (v5)
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: false
-date: 2022-09-11T16:10:54.334Z
+date: 2022-09-11T16:12:34.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -57,7 +57,7 @@ Using this button your raw code will automatticly be JSON formatted.
 This will test the raw code, but this won't run the action/sub-action in any way.
 
 #### Connection
-You can change between obs connections, only advanced user will use this feauture.
+You can change between obs connections, more for advanced users.
 
 ***
 
