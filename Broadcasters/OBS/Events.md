@@ -2,7 +2,7 @@
 title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-09-01T05:46:09.867Z
+date: 2022-09-11T18:49:00.586Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -31,7 +31,7 @@ Name | Type | Description |
 General OBS Studio events{.subtitle}
 * [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
 * [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Config Events
 Events related to config changes{.subtitle}
@@ -41,7 +41,7 @@ Events related to config changes{.subtitle}
 * [**CurrentProfileChanging *The current profile has begun changing***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanging)
 * [**CurrentProfileChanged *The current profile has changed***](/en/Broadcasters/OBS/Events/Config-Events/CurrentProfileChanged)
 * [**ProfileListChanged *The profile list has changed***](/en/Broadcasters/OBS/Events/Config-Events/ProfileListChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Scene Events
 Events related to scene changes{.subtitle}
@@ -51,7 +51,7 @@ Events related to scene changes{.subtitle}
 * [**CurrentProgramSceneChanged *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentProgramSceneChanged)
 * [**CurrentPreviewSceneChanged *The current preview scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentPreviewSceneChanged)
 * [**SceneListChanged *The list of scenes has changed***](/en/Broadcasters/OBS/Events/Scene-Events/SceneListChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Input Events
 Events related to input changes{.subtitle}
@@ -67,20 +67,16 @@ Events related to input changes{.subtitle}
 * [**InputAudioTracksChanged *The audio tracks of an input have changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioTracksChanged)
 * [**InputAudioMonitorTypeChanged *The monitor type of an input has changed***](/en/Broadcasters/OBS/Events/Input-Events/InputAudioMonitorTypeChanged)
 * [**InputVolumeMeters *A high-volume event providing volume levels of all active inputs every 50 milliseconds***](/en/Broadcasters/OBS/Events/Input-Events/InputVolumeMeters)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Transition Events
 Events related to transition changes{.subtitle}
 * [**CurrentSceneTransitionChanged *The current scene transition has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionChanged)
 * [**CurrentSceneTransitionDurationChanged *The current scene transition duration has changed***](/en/Broadcasters/OBS/Events/Transition-Events/CurrentSceneTransitionDurationChanged)
-{.btn-grid .my-5}
-
-<div></div>
-
 * [**SceneTransitionStarted *A scene transition has started***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionStarted)
 * [**SceneTransitionEnded *A scene transition has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded)
 * [**SceneTransitionVideoEnded *A scene transition's video has completed fully***](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionVideoEnded)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Filter Events
 Events related to filter changes{.subtitle}
@@ -89,7 +85,7 @@ Events related to filter changes{.subtitle}
 * [**SourceFilterRemoved *A filter has been removed from a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved)
 * [**SourceFilterNameChanged *The name of a source filter has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged)
 * [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Scene Item Events
 Events related to scene item changes{.subtitle}
@@ -100,7 +96,7 @@ Events related to scene item changes{.subtitle}
 * [**SceneItemLockStateChanged *A scene item's lock state has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemLockStateChanged)
 * [**SceneItemSelected *A scene item has been selected in the Ui***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemSelected)
 * [**SceneItemTransformChanged *The transform/crop of a scene item has changed***](/en/Broadcasters/OBS/Events/Scene-Item-Events/SceneItemTransformChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Output Events
 Events related to current output status{.subtitle}
@@ -109,7 +105,7 @@ Events related to current output status{.subtitle}
 * [**ReplayBufferStateChanged *The state of the replay buffer output has changed***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferStateChanged)
 * [**VirtualcamStateChanged *The state of the virtualcam output has changed***](/en/Broadcasters/OBS/Events/Output-Events/VirtualcamStateChanged)
 * [**ReplayBufferSaved *The replay buffer has been saved***](/en/Broadcasters/OBS/Events/Output-Events/ReplayBufferSaved)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Media Input Events
 Events related to media input changes{.subtitle}
@@ -119,12 +115,12 @@ Events related to media input changes{.subtitle}
 * [**MediaInputPlaybackStarted *A media input has started playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackStarted)
 * [**MediaInputPlaybackEnded *A media input has finished playing***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputPlaybackEnded)
 * [**MediaInputActionTriggered *An action has been performed on an input***](/en/Broadcasters/OBS/Events/Media-Input-Events/MediaInputActionTriggered)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## UI Events
 Events related to Ui changes{.subtitle}
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ---
 
