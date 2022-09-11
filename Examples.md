@@ -2,14 +2,13 @@
 title: Examples
 description: Here you will find the curated example from the streamer.bot discord .
 published: true
-date: 2022-08-03T12:10:36.308Z
+date: 2022-09-11T14:18:39.499Z
 tags: twitch, examples, action, subactions
 editor: markdown
 dateCreated: 2021-12-29T02:00:45.173Z
 ---
 
 ## Examples 
-
 Here you will find the curated examples from within the Streamer.Bot Discord Community. 
  
 * [**Log Variables *Record all arguments from an action to the Log***](/en/Sub-Actions/Code/Execute-CSharp-Code/Examples/Log-All-Arguments)
@@ -21,5 +20,3 @@ Here you will find the curated examples from within the Streamer.Bot Discord Com
 * [**STREAM START/END**](/en/Examples/stream-start-stop)
 * [**Random Sounds From Folder *Will play a random sound from a folder of sounds***](/en/Examples/random-sound-from-folder)
 {.btn-grid .my-5}
-
----
