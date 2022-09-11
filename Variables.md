@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-08-30T22:10:22.222Z
+date: 2022-09-11T18:31:26.210Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -48,7 +48,9 @@ Further information on valid formatting modifiers can be found [here](https://do
 
 ### Inline Functions
 
-Anywhere you can do a variable replacement, you can also execute [Inline Functions](/en/Inline-Functions)
+> Anywhere you can do a variable replacement, you can also execute [Inline Functions](/en/Inline-Functions)
+{.is-success}
+
 
 
 ## Variable Sources
