@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-09-11T16:14:43.784Z
+date: 2022-09-11T16:16:05.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -69,7 +69,7 @@ You can change between obs connections, more for advanced users.
 }
 ```
 You can use this offical OBS raw generator by Streamer.bot
-- [<i class="mdi mdi-application text--obs"></i>**OBS Raw Generator *Generate Streamer.bot OBS Raw requests for OBS Studio v28 and OBS WebSocket v5***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-application text--obs"></i>**OBS Raw Generator *Generate Streamer.bot OBS Raw requests for OBS Studio v28 and OBS WebSocket v5***](https://obs-raw.streamer.bot)
 {.btn-grid .my-5}
 
 ---
