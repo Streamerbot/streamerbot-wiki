@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-09-11T16:16:05.652Z
+date: 2022-09-11T16:18:31.407Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -30,18 +30,19 @@ The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broa
 
 ### Preview
 In the preview you see your raw code visually.
-
 ![obsraw-menu-preview.png](/broadcasters/obs/raw/preview/obsraw-menu-preview.png)
+
 ### Result
 When you have clicked on the `Test` button you will see all the Response Fields/Variables.
 
 <small>The GetVersion request was used for this example.</small>
 ![obsraw-menu-result-request-getversion.png](/broadcasters/obs/raw/result/obsraw-menu-result-request-getversion.png)
-### Options
-Here you see one parameter you can change to if the `Results` can be used as variables, by default this is on.
 
-![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png)
-- <span class="mdi mdi-checkbox-marked" style="color: #A158EE; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Add results to arguments</span>
+### Options
+Here you see one parameter, `Add results to arguments`. 
+When enabled, Streamer.bot will treat your `Result` as variables, by default this is on.
+
+![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png =500x)
 
 ## Configuration
 #### Name
