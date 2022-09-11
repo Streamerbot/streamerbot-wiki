@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-09-11T21:56:18.997Z
+date: 2022-09-11T21:56:41.607Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:32:10.502Z
 
 - [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/en/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 # Overview
 > **Streamer.bot supports both OBS WebSocket versions, *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge}**
@@ -27,7 +27,7 @@ Once configured, connected OBS sessions will report their status on this screen.
 
 # Configuration
 - [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
-{.btn-grid .list .my-5}
+{.btn-grid .my-5}
 
 <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> to define a new OBS connection
 
