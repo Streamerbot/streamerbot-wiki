@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: true
-date: 2022-09-11T22:34:56.501Z
+date: 2022-09-11T22:36:41.688Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -37,7 +37,7 @@ Go to [here](https://lootdevil.com/integrations/api) on the LootDevil website
 
 ![lootdevil-user-settings-paste-webhook-secret.png](/intergrations/lootdevil/lootdevil-user-settings-paste-webhook-secret.png)
 
-Paste the <span class="mdi mdi-content-paste" style="color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Signing Secret</span> in the `LootDevil Webhook Secret`
+Paste the <span class="mdi mdi-content-paste"> Signing Secret</span> in the `LootDevil Webhook Secret`
 
 ---
 
