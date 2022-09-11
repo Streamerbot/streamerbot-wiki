@@ -2,7 +2,7 @@
 title: LootDevil
 description: The Wishlist Built for Creators
 published: true
-date: 2022-09-02T13:05:51.219Z
+date: 2022-09-11T22:34:56.501Z
 tags: v0.1.11
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -19,7 +19,7 @@ Safe and secure wishlists for streamers, influencers and creators. Accept gifts 
 ![lootdevil-user-settings-copy-webhook-url.png](/intergrations/lootdevil/lootdevil-user-settings-copy-webhook-url.png)
 
 Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot website
-- Copy the <span class="mdi mdi-content-copy" style="color: #A257ED; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> LootDevil Webhook URL</span>
+- Copy the <span class="mdi mdi-content-copy"> LootDevil Webhook URL</span>
 
 ---
 
@@ -28,8 +28,8 @@ Go to [here](https://streamer.bot/user/settings#lootdevil) on the streamer.bot w
 ![lootdevil-api-copy-paste-settings.png](/intergrations/lootdevil/lootdevil-api-copy-paste-settings.png)
 Go to [here](https://lootdevil.com/integrations/api) on the LootDevil website
 
-- Paste the <span class="mdi mdi-content-paste" style="color: #4F46E5; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> LootDevil Webhook URL</span>
-- Copy the <span class="mdi mdi-content-copy" style="color: #4F46E5; background-color: #111111; padding: 1px 7px 1px 7px; margin: 0px 1px 0px 1px; border-radius: 5px;"> Signing Secret</span>
+- Paste the <span class="mdi mdi-content-paste"> LootDevil Webhook URL</span>
+- Copy the <span class="mdi mdi-content-copy"> Signing Secret</span>
 
 ---
 
