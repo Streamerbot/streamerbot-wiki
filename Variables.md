@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-09-11T18:31:26.210Z
+date: 2022-09-11T18:32:06.290Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
