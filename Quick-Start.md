@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-09-11T17:29:31.819Z
+date: 2022-09-11T19:04:50.787Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -45,7 +45,7 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 - [<i class="mdi mdi-rocket-launch"></i> **Startup Actions *Perform actions when Streamer.bot is opened***](/en/Quick-Start/Examples/Startup-Actions){.disabled}
 - [<i class="mdi mdi-walk"></i> **Walk In Actions *Perform actions when a certian user chats in your stream***](/en/Quick-Start/Examples/Walkin-Actions){.disabled}
 - [<i class="mdi mdi-adjust"></i> **Modify Channel Points *Enable, Disable or Pause all of your channel points with streamer.bot***](/en/Quick-Start/Examples/Enable-Disable-Pause-Channel-Points){.disabled}
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Explore
 - [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions &amp; Sub-Actions *Learn about the most important core concept!***](/en/Actions)
