@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-09-11T22:16:55.127Z
+date: 2022-09-11T22:17:41.556Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-25T21:31:38.226Z
 
 Below are all the methods that can be accessed via the `CPH` object that is is available in your inline scripts
 
-> The object name, `CPH`, is a holdover from earlier versions of the Streamer.bot, when it was known as *Channel Points Handler*
+> The object name, `CPH`, is a holdover from earlier versions of the Streamer.bot, when it was known as *Channel Points Handler*.
 > To prevent any breakage, and as a bit of nostalgia, `CPH` was left alone when we renamed to Streamer.bot
 {.is-info}
 
