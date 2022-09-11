@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-09-11T16:23:14.907Z
+date: 2022-09-11T16:26:54.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -27,12 +27,12 @@ The raw code is in `JSON` and you need to follow the list of [Requests](/en/Broa
 
 ### Preview
 In the preview you see your raw code visually.
+
 ![obsraw-menu-preview.png](/broadcasters/obs/raw/preview/obsraw-menu-preview.png)
 
 ### Result
 When you have clicked on the `Test` button you will see all the Response Fields/Variables.
 
-<small>The GetVersion request was used for this example.</small>
 ![obsraw-menu-result-request-getversion.png](/broadcasters/obs/raw/result/obsraw-menu-result-request-getversion.png)
 
 ### Options
