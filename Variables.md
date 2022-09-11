@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-09-11T18:33:24.785Z
+date: 2022-09-11T18:34:55.091Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -38,7 +38,9 @@ To use a variable from the current argument stack, wrap the variable name with a
 
 
 ### Formatting
-Variables can be formatted inline using standard C# notation
+
+> Variables can be formatted inline using standard C# notation
+{.is-success}
 
 For example, to format a numeric veriable `%tipAmount%` as a currency with 2 decimal places, we can use the following syntax: `%tipAmount:c2%`
 
