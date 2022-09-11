@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-09-11T22:17:41.556Z
+date: 2022-09-11T22:25:41.449Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -333,10 +333,11 @@ bool SetChannelGameById(string gameId);
 ```
 
 ## Announcement
-> Requires minimum version 0.1.9, and minimum version 0.1.11 for colors
+> Requires minimum version *v0.1.9*{.version-badge}
 {.is-info}
 
-> Even though the color parameter is present, currently, it's only available in *v0.1.11*{.version-badge} for versions below *v0.1.11*{.version-badge} only null is supported, this will use the default announce command. supported values are `blue`, `orange`, `green`, `purple`
+> Color parameter requires *v0.1.11*{.version-badge} and up.
+> Supported color values are `blue`, `orange`, `green`, `purple`
 {.is-warning}
 
 ```csharp
