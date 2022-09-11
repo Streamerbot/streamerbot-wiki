@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-07-14T16:12:43.277Z
+date: 2022-09-11T18:47:11.692Z
 tags: subactions, guides, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:31:09.603Z
 
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Action Reference *All sub-actions that can be executed by your actions in Streamer.bot***](/en/Sub-Actions)
 - [<i class="mdi mdi-creation primary--text"></i> **Event Reference *All events that can trigger your Streamer.bot actions***](/en/Events)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 # Overview
 
