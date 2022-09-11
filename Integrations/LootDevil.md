@@ -1,9 +1,9 @@
 ---
 title: LootDevil
-description: The Wishlist Built for Creators
+description: Integrate Streamer.bot with the LootDevil webhooks API
 published: true
-date: 2022-09-11T23:09:25.728Z
-tags: v0.1.11
+date: 2022-09-11T23:10:32.218Z
+tags: integrations, v0.1.11, webhooks
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
 ---
