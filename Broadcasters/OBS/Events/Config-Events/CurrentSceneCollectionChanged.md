@@ -2,15 +2,16 @@
 title: CurrentSceneCollectionChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:15:24.706Z
+date: 2022-09-11T19:03:23.939Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:15:22.600Z
 ---
 
-## The current scene collection has changed.
+## Overview
+The current scene collection has changed.
 
-Note: If polling has been paused during `CurrentSceneCollectionChanging`, this is the que to restart polling.
+Note: If polling has been paused during `CurrentSceneCollectionChanging`, this is the cue to restart polling.
 
 ## Variables
 Name | Type | Description | 
