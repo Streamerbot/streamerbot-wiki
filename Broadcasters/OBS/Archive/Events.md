@@ -1,22 +1,26 @@
 ---
-title: OBS Studio Events (v4)
-description: Reference of all configurable events from OBS Studio (v4)
+title: OBS Studio Events (Archive)
+description: Reference of all configurable events from OBS Studio (obs-websocket-4.9.1)
 published: true
-date: 2022-09-01T00:52:53.829Z
-tags: obs, obs-studio, events, reference
+date: 2022-09-11T16:14:17.535Z
+tags: obs, obs-studio, events, reference, obs-websocket-4.9.1
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
 ---
 
 ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
 
+> **ARCHIVE OF OBS-WEBSOCKET-4.x.x DOCS**
+> It is recommended to update to `obs-websocket-5.x.x` and use the latest [OBS Events Docs](/en/Broadcasters/OBS/Events)
+{.is-warning}
+
+
 
 This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
 
-> **NOTE**
-> Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events.
-> It is important to consider your use case when deciding which event is best suited for you.
-{.is-info}
+- **NOTE**
+Some events, such as `SwitchScenes` & `ScenesChanged`, may act as pre & post events.
+It is important to consider your use case when deciding which event is best suited for you.
 
 ## General
 General & miscellaneous OBS Studio events{.subtitle}
