@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2022-09-11T16:28:31.215Z
+date: 2022-09-11T16:32:04.757Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z
@@ -37,7 +37,7 @@ When you have clicked on the `Test` button you will see all the Response Fields/
 
 ### Options
 Here you see one parameter, `Add results to arguments`. 
-When enabled, Streamer.bot will treat your `Result` as variables, by default this is on:
+When enabled, Streamer.bot will treat your `Result` as variables, by default this is turned on.
 
 ![obsraw-menu-options.png](/broadcasters/obs/raw/options/obsraw-menu-options.png =500x)
 
