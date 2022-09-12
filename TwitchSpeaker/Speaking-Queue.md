@@ -2,13 +2,11 @@
 title: Speaking Queue
 description: The Queue where the next TTS message is held 
 published: true
-date: 2022-08-09T00:18:25.969Z
+date: 2022-09-12T07:07:05.329Z
 tags: twitch, queues, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-08-08T00:16:31.439Z
 ---
-
-## Speaking Queue
 
 Twitch Speaker will read the Twitch chat as your stream is happening and new messages are being received in Twitch chat. Depending on the options chosen and how you have set up Twitch Speaker anything that requires to be spoken will be queued here while the current TTS message is being processed and spoken. Just like the screen capture below.
 
