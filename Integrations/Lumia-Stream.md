@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: true
-date: 2022-09-11T22:49:07.829Z
+date: 2022-09-12T15:30:06.648Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -14,7 +14,7 @@ dateCreated: 2022-08-25T16:10:41.072Z
 {.btn-grid .my-5}
 
 ## Overview
-With Lumia Stream you can control your lights with advanced settings like color, brightness, duration, transition and with multiple lights, there is also the capability to send commands so you can have all your favorite commands triggered by streamer.bot!
+With [Lumia Stream](https://lumiastream.com/) you can control your lights with advanced settings like color, brightness, duration, transition and with multiple lights, there is also the capability to send commands so you can have all your favorite commands triggered by streamer.bot!
 
 ## Connection
 ### Lumia Stream
