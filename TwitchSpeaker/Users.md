@@ -1,8 +1,8 @@
 ---
 title: Users
 description: User options
-published: false
-date: 2022-09-12T23:57:50.259Z
+published: true
+date: 2022-09-12T23:58:12.671Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
