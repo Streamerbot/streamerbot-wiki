@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T23:40:13.973Z
+date: 2022-09-12T23:57:50.259Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -23,21 +23,22 @@ Starting with the left side of this window is the list of users/viewer that are 
 
 ![v1.png](/twitchspeaker/tabs/users/v1.png){.align-center}
 
-So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user but ill explain each. 
+So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user but I’ll explain each. 
 
-- ID - this field you cannot alter but it display each User/Viewer Unique ID to Twitch
+- ID - this field you cannot alter but it displays each User/Viewer Unique ID to Twitch
 - Username - This field displays the User/Viewers Username they have set on the Twitch Account.
-- Role - This field displays the role on your channel (I.E Moderator, VIP, Broadcaster , Viewer)
-- Voice Alias - This drop down box allows to assign a custom Voice alias to the user which will be explained in it's own section.
-- Nickname - This field is where you would give/amend a users nickname 
+- Role - This field displays the role on your channel (I.E Moderator, VIP, Broadcaster, Viewer)
+- Voice Alias - This drop-down box allows to assign a custom Voice alias to the user which will be explained in its own section.
+- Nickname - This field is where you would give/amend a user’s nickname 
 - Last Active - This field display's when the user was last active in your Twitch chat
 - The 4 check boxes -
-	1. **Ignored** - Check this box on the user and  Twitch Speaker will not say anything that user input to the Twitch Chat
+	1. **Ignored** - Check this box on the user and Twitch Speaker will not say anything that user input to the Twitch Chat
 	1. **Forced** - This check box will make Twitch Speaker say everything that user inputs to Twitch 	chat.
 	1. **Regular** - check this to enable a user to use TwitchSpeaker. This only is effective if the `Say Everything` setting is checked in the permissions under the `Settings` tab.
-	1. **Subscribed** -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
+	1. **Subscribed** - Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
       
 The last pane is called `Past Voices` in this tab will display all the voices one user has been assigned or has used. The time stamp and the name of the voice(s) used will appear in this pane.
+
 
 
 
