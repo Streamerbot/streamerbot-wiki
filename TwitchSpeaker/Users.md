@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T23:31:18.971Z
+date: 2022-09-12T23:40:13.973Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -17,11 +17,11 @@ In the TwitchSpeaker Users Tab you have various options which is available to al
 
 To get to this tab is easy just open TwitchSpeaker then click the `Users` tab in the top row. This will now display a screen like the one below.
 
-![users_tab_.png](/twitchspeaker/tabs/users/users_tab_.png)
+![users_tab_.png](/twitchspeaker/tabs/users/users_tab_.png){.align-center}
 
 Starting with the left side of this window is the list of users/viewer that are currently in chat. this will be populated as you stream but if you are offline and want to alter a viewer’s options that is not currently present in chat, but the TwitchSpeaker has seen in your chat before then uncheck the box named `Hide Not Present` this pane will now be populated with all the users TwitchSpeaker has seen in your Twitch chat. from this pane select a user/viewer you which to alter the options to once you have done this is the users information pane in the middle will be filled in with users’ data. 
 
-Image 
+![v1.png](/twitchspeaker/tabs/users/v1.png){.align-center}
 
 So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user but ill explain each. 
 
