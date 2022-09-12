@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T22:46:28.086Z
+date: 2022-09-12T22:57:16.754Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -37,7 +37,7 @@ So, as you can see from the screen capture above you have a text field a few che
       Regular - check this to enable a user to use TwitchSpeaker. This only is effective if the `Say Everything` setting is checked in the permissions under the `Settings` tab.
       Subscribed -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
       
-
+The last pane called `Past Voices` in this tab will display all the voices one user has been assigned or has used. The time stamp and the name of the voice(s) used will appear in this pane.
 
 
 
