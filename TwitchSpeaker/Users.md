@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T01:18:15.021Z
+date: 2022-09-12T01:19:59.347Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -35,5 +35,5 @@ So, as you can see from the screen capture above you have a text field a few che
 ***
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue *Up Next***](/en/TwitchSpeaker/Speaking-Queue)
+- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
 {.btn-grid .my-5}
