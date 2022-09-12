@@ -2,13 +2,11 @@
 title: Event Log
 description: Event logs are speaker placed here 
 published: true
-date: 2022-08-09T00:28:45.694Z
+date: 2022-09-12T07:05:46.116Z
 tags: twitch, twitchspeaker, event
 editor: markdown
 dateCreated: 2022-08-08T00:10:28.128Z
 ---
-
-## Event Log
 
 Twitch Speaker currently is a program of its own and has its own functions, but the event log will show you what is happening or happened while it has been running. Each event is time & date stamped and displayed here.
 
