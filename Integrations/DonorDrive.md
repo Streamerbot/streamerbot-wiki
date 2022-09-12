@@ -2,15 +2,16 @@
 title: DonorDrive
 description: Monitor charity donation events sent from the Donor Drive platform
 published: true
-date: 2022-09-12T15:42:05.429Z
+date: 2022-09-12T15:42:34.645Z
 tags: v0.1.5
 editor: markdown
 dateCreated: 2022-06-01T04:57:34.650Z
 ---
 
-Info and Documentation of DonorDrive can be found [here](https://www.donordrive.com/)
-## Overview
+> Info and Documentation of DonorDrive can be found [here](https://www.donordrive.com/)
+{.is-info}
 
+## Overview
 ![donordrive-integration.png](/donordrive-integration.png)
 
 ## Variables
