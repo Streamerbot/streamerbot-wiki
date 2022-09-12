@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-09-12T23:59:04.881Z
+date: 2022-09-12T23:59:43.623Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -18,7 +18,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/en/TwitchSpeaker/Event-Log)
 - [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/en/TwitchSpeaker/Speaking-Queue)
 - [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/en/TwitchSpeaker/Speaking-History)
-- [<i class="mdi mdi-account text--twitch"></i>**Users**](/en/TwitchSpeaker/Tabs/Users)
+- [<i class="mdi mdi-account text--twitch"></i>**Users**](/en/TwitchSpeaker/Users)
 - [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
 - [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/en/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
 - [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/en/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
