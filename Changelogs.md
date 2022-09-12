@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-08T14:48:40.778Z
+date: 2022-09-12T17:54:19.173Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -588,7 +588,7 @@ bool VoiceModVoiceChangerOff();
 void VoiceModCensorOn();
 void VoiceModCensorOff();
 ```
-## Pulsoid Integration
+## [Pulsoid](https://pulsoid.net/?from=streamerbot) Integration
 
 **Streamer.bot** now has a direct integration with Pulsoid, attach an action to the Heart Rate Pulse event to receive your heart rate events.
 
