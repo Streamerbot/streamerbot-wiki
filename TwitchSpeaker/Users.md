@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T23:16:34.223Z
+date: 2022-09-12T23:28:04.170Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -13,15 +13,15 @@ In the TwitchSpeaker Users Tab you have various options which is available to al
 {.is-info}
 
 
-(image)
+![usertab_2_.png](/twitchspeaker/tabs/users/usertab_2_.png){.align-center}
 
 To get to this tab is easy just open TwitchSpeaker then click the `Users` tab in the top row. This will now display a screen like the one below.
 
-(image) 
+
 
 Starting with the left side of this window is the list of users/viewer that are currently in chat. this will be populated as you stream but if you are offline and want to alter a viewer’s options that is not currently present in chat, but the TwitchSpeaker has seen in your chat before then uncheck the box named `Hide Not Present` this pane will now be populated with all the users TwitchSpeaker has seen in your Twitch chat. from this pane select a user/viewer you which to alter the options to once you have done this is the users information pane in the middle will be filled in with users’ data. 
 
-(image)
+![users_tab_.png](/twitchspeaker/tabs/users/users_tab_.png)
 
 So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user but ill explain each. 
 
@@ -38,6 +38,8 @@ So, as you can see from the screen capture above you have a text field a few che
 	1. **Subscribed** -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
       
 The last pane is called `Past Voices` in this tab will display all the voices one user has been assigned or has used. The time stamp and the name of the voice(s) used will appear in this pane.
+
+
 
 ***
 
