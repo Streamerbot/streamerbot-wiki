@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T07:07:31.681Z
+date: 2022-09-12T22:46:28.086Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -23,8 +23,20 @@ Starting with the left side of this window is the list of users/viewer that are 
 
 (image)
 
-So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user
+So, as you can see from the screen capture above you have a text field a few check boxes and a dropdown menu as well as some fields you cannot edit but can see the data associated to that specific user but ill explain each. 
 
+- ID - this field you cannot alter but it display each User/Viewer Unique ID to Twitch
+- Username - This field displays the User/Viewers Username they have set on the Twitch Account.
+- Role - This field displays the role on your channel (I.E Moderator, VIP, Broadcaster , Viewer)
+- Voice Alias - This drop down box allows to assign a custom Voice alias to the user which will be explained in it's own section.
+- Nickname - This field is where you would give/amend a users nickname 
+- Last Active - This field display's when the user was last active in your Twitch chat
+- the 4 check boxes
+			Ignored - Check this box on the user and  Twitch Speaker will not say anything that user input to the Twitch Chat
+      Forced - This check box will make Twitch Speaker say everything that user inputs to Twitch 	chat.
+      Regular - check this to enable a user to use TwitchSpeaker. This only is effective if the `Say Everything` setting is checked in the permissions under the `Settings` tab.
+      Subscribed -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
+      
 
 
 
