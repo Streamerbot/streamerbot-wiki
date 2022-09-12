@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: false
-date: 2022-09-12T22:57:39.284Z
+date: 2022-09-12T23:16:05.126Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -31,11 +31,11 @@ So, as you can see from the screen capture above you have a text field a few che
 - Voice Alias - This drop down box allows to assign a custom Voice alias to the user which will be explained in it's own section.
 - Nickname - This field is where you would give/amend a users nickname 
 - Last Active - This field display's when the user was last active in your Twitch chat
-- The 4 check boxes
-			Ignored - Check this box on the user and  Twitch Speaker will not say anything that user input to the Twitch Chat
-      Forced - This check box will make Twitch Speaker say everything that user inputs to Twitch 	chat.
-      Regular - check this to enable a user to use TwitchSpeaker. This only is effective if the `Say Everything` setting is checked in the permissions under the `Settings` tab.
-      Subscribed -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
+- The 4 check boxes -
+	1. **Ignored** - Check this box on the user and  Twitch Speaker will not say anything that user input to the Twitch Chat
+	1. **Forced** - This check box will make Twitch Speaker say everything that user inputs to Twitch 	chat.
+	1. **Regular** - check this to enable a user to use TwitchSpeaker. This only is effective if the `Say Everything` setting is checked in the permissions under the `Settings` tab.
+	1. **Subscribed** -  Check this to enable a user to use TwitchSpeaker if they are subscribed. This only is effective if the `Say Everything` setting is unchecked in the permissions under the `Settings` tab.
       
 The last pane called `Past Voices` in this tab will display all the voices one user has been assigned or has used. The time stamp and the name of the voice(s) used will appear in this pane.
 
