@@ -2,7 +2,7 @@
 title: VoiceMod
 description: Controlling VoiceMod software via Streamer.bot actions
 published: true
-date: 2022-08-28T21:12:13.636Z
+date: 2022-09-12T15:32:12.816Z
 tags: twitch, integrations, youtube, streamerbot, voicemod, v0.1.8
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z
@@ -15,7 +15,7 @@ dateCreated: 2022-06-23T21:15:57.891Z
 {.btn-grid .my-5}
 
 ## VoiceMod
-With Streamer.bot *v0.1.8*{.version-badge} came with VoiceMod Integration and various actions we can use this  includes those listed below:
+With Streamer.bot *v0.1.8*{.version-badge} came with [VoiceMod](https://www.voicemod.net/) Integration and various actions we can use this  includes those listed below:
 - Get Current Voice
 - Set Random Voice
 - Select Voice
