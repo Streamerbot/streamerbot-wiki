@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-13T03:00:41.511Z
+date: 2022-09-13T19:52:21.840Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,6 +17,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Lumia Stream disconnect button would not work
 * Lumia Stream Set Color sub-action dialog could possibly crash
 * Catch exceptions thrown by speech recognition initialization, log and try to be more graceful about it
+* Handle potential crash with an internal Users Joined event, when an API call failed
+* Small startup improvements
 {.changelog-fixes}
 
 <span></span>
@@ -26,6 +28,12 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Twitch commands have a new argument, `%msgId%` which is the id of the message
 * Remove caret from Twitch username text boxes, so there's no indication you should type in them
 * Remove caret from YouTube username text boxes, so there's no indication you should type in them
+* Updates to LumiaSDK, hopefully its a bit more stable and working better
+* [Twitch Whisper](#twitch-whisper) has been updated to use the new API, this is part of a change away from slash commands being deprecated
+* C# method for sending a whisper on Twitch, has been updated, `bool SendWhisper(string userName, string message, bool bot = true)`
+* Internally, update various methods to use API calls, instead of IRC commands, as these are being deprecated
+* Update internal methods for adding/removing moderators/VIPs to use API calls
+* Update internal methods for deleting a chat message, to use API call
 {.changelog-updates}
 
 <span></span>
@@ -38,6 +46,12 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new event for Twitch, Bot Whisper, can now react to whispers the bot account receives
 * Add new command source Twitch Bot Whisper, can now react to whispers the bot account receives
 * Add new CPH method for taking a screen shot in OBS, the source can be either a source, or a scene
+* Add a new sub-action, `OBS`->[Get Status](#obs-get-status) to add OBS status information
+* Add a new sub-action, `Twitch`->[Add Viewer Count](#twitch-add-viewer-count) to add your current Twitch viewer count as a variable
+* Add new CPH methods for adding/removing moderators/VIPs
+* Add internal method for clearing chat using API call
+* Add new CPH method for clearing chat, `bool TwitchClearChatMessages(bool bot = true)`
+* Add new CPH method for deleting a chat message, `bool TwitchDeleteChatMessage(string messageId, bool bot = true)`
 {.changelog-new}
 
 ## New Twitch Scopes
@@ -52,6 +66,27 @@ Added a new sub-action that lets yous et the color of a color source within OBS.
 
 ![obs-set-color-source-color-01.png](/obs-set-color-source-color-01.png)
 
+### OBS Get Status
+This will add upto 3 new variables to your action for the selected OBS connection.
+
+Name | Description
+----:|:------------
+`isConnected` | Boolean value indicating if the selected OBS connection is connected <br> `True`/`False`
+`isStreaming` | Boolean value indicating if the selected OBS connection is streaming <br> `True`/`False`
+`isRecording` | Boolean value indicating if the selected OBS connection is recording <br> `True`/`False`
+{.vars-table}
+
+### Twitch Add Viewer Count
+This will let you add your current Twitch viewer count as a variable to your action.
+
+> This value is only updated every 30 seconds
+{.is-info}
+
+Name | Description
+----:|:------------
+`viewers` | Your current Twitch viewer count
+{.vars-table}
+
 ## New C# Methods
 
 Add the following new C# methods
@@ -59,6 +94,17 @@ Add the following new C# methods
 ### Logging
 ```csharp
 void LogVerbose(string logLine);
+```
+
+### Twitch
+```csharp
+bool SendWhisper(string userName, string message, bool bot = true);
+bool TwitchAddModerator(string userName);
+bool TwitchRemoveModerator(string userName);
+bool TwitchAddVip(string userName);
+bool TwitchRemoveVip(string userName);
+bool TwitchClearChatMessages(bool bot = true);
+bool TwitchDeleteChatMessage(string messageId, bool bot = true);
 ```
 
 ### OBS
@@ -78,6 +124,21 @@ void LumiaSetToDefault();
 ```csharp
 bool ActionExists(string actionName);
 ```
+
+## Twitch Whisper
+Some important notes with how Twitch Whispers appear to be handled now, this is a copy from the Twitch development documentation.
+
+The user sending the whisper must have a **verified phone number** (see the **Phone Number setting** in your **Security and Privacy settings**).
+
+The API may silently drop whispers that it suspects of violating Twitch policies, it will still indicate success even if the message is dropped.
+
+Rate Limits: You may whisper to a maximum of **40 unique recipients per day**. Within the per day limit, you may whisper a maximum of 3 whispers per second and a maximum of 100 whispers per minute.
+
+The maximum message lengths are:
+* 500 characters if the user you're sending the message to hasn't whispered you before.
+* 10,000 characters if the user you're sending the message to has whispered you before.
+
+Messages that exceed the maximum length are truncated.
 
 # Streamer.bot v0.1.12 (Current)
 Released 2022-08-31{.subtitle}
