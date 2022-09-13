@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-08-04T13:29:51.314Z
+date: 2022-09-13T23:52:05.797Z
 tags: html overlay, extended features
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -47,5 +47,5 @@ To close HTML Overlay, simply exit the application by double-clicking the icon i
 
 Want to add your own functionality to the HTML Overlay app? Follow this guide!
 
-- [Custom Modules Guide *Learn how to code new features for the HTML Overlay application with Javascript*](/Extended-Features/HTML-Overlay/Custom-Modules-Guide)
-{.links-list}
+- [**Custom Modules Guide *Learn how to code new features for the HTML Overlay application with Javascript***](/Extended-Features/HTML-Overlay/Custom-Modules-Guide)
+{.btn-grid .my-5}
