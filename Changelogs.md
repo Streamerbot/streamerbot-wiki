@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-13T02:47:34.483Z
+date: 2022-09-13T03:00:41.511Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 <span></span>
 
+* New Twitch Scopes requested
 * Add new C# method, `CPH.ObsTakeScreenshot`
 * Twitch commands have a new argument, `%msgId%` which is the id of the message
 * Remove caret from Twitch username text boxes, so there's no indication you should type in them
@@ -38,6 +39,10 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new command source Twitch Bot Whisper, can now react to whispers the bot account receives
 * Add new CPH method for taking a screen shot in OBS, the source can be either a source, or a scene
 {.changelog-new}
+
+## New Twitch Scopes
+* `channel:read:charity`
+{.grid-list}
 
 ## New Sub-actions
 
