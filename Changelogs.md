@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-12T17:54:19.173Z
+date: 2022-09-13T02:47:34.483Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -67,6 +67,11 @@ void ObsSetColorSourceRandomColor(string scene, string source, int connection = 
 ### Lumia Stream
 ```csharp
 void LumiaSetToDefault();
+```
+
+### Actions
+```csharp
+bool ActionExists(string actionName);
 ```
 
 # Streamer.bot v0.1.12 (Current)
