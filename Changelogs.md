@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-13T19:52:21.840Z
+date: 2022-09-13T19:53:42.324Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -34,6 +34,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Internally, update various methods to use API calls, instead of IRC commands, as these are being deprecated
 * Update internal methods for adding/removing moderators/VIPs to use API calls
 * Update internal methods for deleting a chat message, to use API call
+* Read Random Line from file sub-action now includes the line number as a variable, `%randomLineNumber#%`
 {.changelog-updates}
 
 <span></span>
