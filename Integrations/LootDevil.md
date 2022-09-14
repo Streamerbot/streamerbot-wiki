@@ -2,7 +2,7 @@
 title: LootDevil
 description: Integrate Streamer.bot with the LootDevil webhooks API
 published: true
-date: 2022-09-11T23:10:32.218Z
+date: 2022-09-14T11:36:04.209Z
 tags: integrations, v0.1.11, webhooks
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -29,7 +29,7 @@ dateCreated: 2022-08-31T01:57:24.360Z
 
 ### Streamer.bot Setup
 
-Navigate to `Integrations -> Streamer.bot Website -> LootDevil` in the Streamer.bot application
+Navigate to `Integrations` `->` `Streamer.bot Website` `->` `LootDevil` in the Streamer.bot application
 
 ![streamerbot-intergrations-streamerbot_website-lootdevil.png](/intergrations/lootdevil/streamerbot-intergrations-streamerbot_website-lootdevil.png =700x)
 
