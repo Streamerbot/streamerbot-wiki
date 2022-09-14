@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-13T20:03:55.971Z
+date: 2022-09-14T03:11:14.315Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Catch exceptions thrown by speech recognition initialization, log and try to be more graceful about it
 * Handle potential crash with an internal Users Joined event, when an API call failed
 * Small startup improvements
+* Twitch Add Target Info should have the correct VIP/Subscriber boolean values now
 {.changelog-fixes}
 
 <span></span>
