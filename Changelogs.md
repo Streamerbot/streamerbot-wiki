@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-14T03:11:14.315Z
+date: 2022-09-14T22:59:10.392Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,7 +24,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 <span></span>
 
-* New Twitch Scopes requested
+* New Twitch Scopes requested for both broadcaster and bot accounts
 * Add new C# method, `CPH.ObsTakeScreenshot`
 * Twitch commands have a new argument, `%msgId%` which is the id of the message
 * Remove caret from Twitch username text boxes, so there's no indication you should type in them
@@ -57,8 +57,13 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new CPH method for deleting a chat message, `bool TwitchDeleteChatMessage(string messageId, bool bot = true)`
 {.changelog-new}
 
-## New Twitch Scopes
+## New Twitch Broadcaster Scopes
 * `channel:read:charity`
+* `moderator:manage:chat_messages`
+{.grid-list}
+
+## New Twitch Bot Scopes
+* `moderator:manage:chat_messages`
 {.grid-list}
 
 ## New Sub-actions
