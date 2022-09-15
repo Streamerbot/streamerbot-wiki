@@ -2,7 +2,7 @@
 title: OBS Studio Requests v5
 description: Information on OBS requests that is used in Streamer.bot with OBS raw.
 published: true
-date: 2022-09-01T23:05:06.001Z
+date: 2022-09-15T20:27:07.763Z
 tags: obs, raw, obs-studio, obs requests, requests, obs raw
 editor: markdown
 dateCreated: 2022-07-19T18:29:42.792Z
@@ -35,7 +35,7 @@ General & Miscellaneous OBS Studio requests{.subtitle}
 * [**TriggerHotkeyByName *Triggers a hotkey using its name. See `GetHotkeyList`***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByName)
 * [**TriggerHotkeyByKeySequence *Triggers a hotkey using a sequence of keys***](/en/Broadcasters/OBS/Requests/General-Requests/TriggerHotkeyByKeySequence)
 * [**Sleep *Sleeps for a time duration or number of frames. Only available in request batches with types `SERIAL_REALTIME` or `SERIAL_FRAME`***](/en/Broadcasters/OBS/Requests/General-Requests/Sleep)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Config Requests
 Config related OBS Studio requests{.subtitle}
@@ -54,14 +54,14 @@ Config related OBS Studio requests{.subtitle}
 * [**SetVideoSettings *Sets the current video settings***](/en/Broadcasters/OBS/Requests/Config-Requests/SetVideoSettings)
 * [**GetStreamServiceSettings *Gets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/GetStreamServiceSettings)
 * [**SetStreamServiceSettings *Sets the current stream service settings (stream destination)***](/en/Broadcasters/OBS/Requests/Config-Requests/SetStreamServiceSettings)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Source Requests
 Source related OBS Studio requests{.subtitle}
 * [**GetSourceActive *Gets the active and show state of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceActive)
 * [**GetSourceScreenshot *Gets a Base64-encoded screenshot of a source***](/en/Broadcasters/OBS/Requests/Source-Requests/GetSourceScreenshot)
 * [**SaveSourceScreenshot *Saves a screenshot of a source to the filesystem***](/en/Broadcasters/OBS/Requests/Source-Requests/SaveSourceScreenshot)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Scene Requests
 Scene related OBS Studio requests{.subtitle}
@@ -76,7 +76,7 @@ Scene related OBS Studio requests{.subtitle}
 * [**SetSceneName *Sets the name of a scene (rename)***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneName)
 * [**GetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/GetSceneSceneTransitionOverride)
 * [**SetSceneSceneTransitionOverride *Gets the scene transition overridden for a scene***](/en/Broadcasters/OBS/Requests/Scene-Requests/SetSceneSceneTransitionOverride)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Input Requests
 Input related OBS Studio requests{.subtitle}
@@ -104,7 +104,7 @@ Input related OBS Studio requests{.subtitle}
 * [**SetInputAudioTracks *Sets the enable state of audio tracks of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/SetInputAudioTracks)
 * [**GetInputPropertiesListPropertyItems *Gets the items of a list property from an input's properties***](/en/Broadcasters/OBS/Requests/Input-Requests/GetInputPropertiesListPropertyItems)
 * [**PressInputPropertiesButton *Presses a button in the properties of an input***](/en/Broadcasters/OBS/Requests/Input-Requests/PressInputPropertiesButton)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Transition Requests
 Transition related OBS Studio requests{.subtitle}
@@ -117,7 +117,7 @@ Transition related OBS Studio requests{.subtitle}
 * [**GetCurrentSceneTransitionCursor *Gets the cursor position of the current scene transition***](/en/Broadcasters/OBS/Requests/Transition-Requests/GetCurrentSceneTransitionCursor)
 * [**TriggerStudioModeTransition *Triggers the current scene transition. Same functionality as the Transition button in studio mode***](/en/Broadcasters/OBS/Requests/Transition-Requests/TriggerStudioModeTransition)
 * [**SetTBarPosition *Sets the position of the TBar***](/en/Broadcasters/OBS/Requests/Transition-Requests/SetTBarPosition)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Filter Requests
 Filter related OBS Studio requests{.subtitle}
@@ -130,7 +130,7 @@ Filter related OBS Studio requests{.subtitle}
 * [**SetSourceFilterIndex *Sets the index position of a filter on a source***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterIndex)
 * [**SetSourceFilterSettings *Sets the settings of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterSettings)
 * [**SetSourceFilterEnabled *Sets the enable state of a source filter***](/en/Broadcasters/OBS/Requests/Filter-Requests/SetSourceFilterEnabled)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Scene Item Requests
 Scene Item related OBS Studio requests{.subtitle}
@@ -150,7 +150,7 @@ Scene Item related OBS Studio requests{.subtitle}
 * [**SetSceneItemIndex *Sets the index position of a scene item in a scene***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemIndex)
 * [**GetSceneItemBlendMode *Gets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/GetSceneItemBlendMode)
 * [**SetSceneItemBlendMode *Sets the blend mode of a scene item***](/en/Broadcasters/OBS/Requests/Scene-Item-Requests/SetSceneItemBlendMode)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Output Requests
 Output related OBS Studio requests{.subtitle}
@@ -171,7 +171,7 @@ Output related OBS Studio requests{.subtitle}
 * [**StopOutput *Stops an output***](/en/Broadcasters/OBS/Requests/Output-Requests/StopOutput)
 * [**GetOutputSettings *Gets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/GetOutputSettings)
 * [**SetOutputSettings *Sets the settings of an output***](/en/Broadcasters/OBS/Requests/Output-Requests/SetOutputSettings)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Stream Requests
 Stream related OBS Studio requests{.subtitle}
@@ -180,7 +180,7 @@ Stream related OBS Studio requests{.subtitle}
 * [**StartStream *Starts the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StartStream)
 * [**StopStream *Stops the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/StopStream)
 * [**SendStreamCaption *Sends CEA-608 caption text over the stream output***](/en/Broadcasters/OBS/Requests/Stream-Requests/SendStreamCaption)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Record Requests
 Record related OBS Studio requests{.subtitle}
@@ -191,7 +191,7 @@ Record related OBS Studio requests{.subtitle}
 * [**ToggleRecordPause *Toggles pause on the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ToggleRecordPause)
 * [**PauseRecord *Pauses the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/PauseRecord)
 * [**ResumeRecord *Resumes the record output***](/en/Broadcasters/OBS/Requests/Record-Requests/ResumeRecord)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Media Input Requests
 Media Input related OBS Studio requests{.subtitle}
@@ -211,12 +211,12 @@ Ui related OBS Studio requests{.subtitle}
 * [**GetMonitorList *Gets a list of connected monitors and information about them***](/en/Broadcasters/OBS/Requests/Ui-Requests/GetMonitorList)
 * [**OpenVideoMixProjector *Opens a projector for a specific output video mix***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenVideoMixProjector)
 * [**OpenSourceProjector *Opens a projector for a source***](/en/Broadcasters/OBS/Requests/Ui-Requests/OpenSourceProjector)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 
 ## Additional Request Info
 This are examples for requests that existed in privious version of the obs websocket{.subtitle}
 * [**RefreshBrowserSource *Refresh a browser source***](/en/Broadcasters/OBS/Requests/Additional-Request-Info/RefreshBrowserSource)
-{.btn-grid .my-5}
+{.btn-grid .list .my-5}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
