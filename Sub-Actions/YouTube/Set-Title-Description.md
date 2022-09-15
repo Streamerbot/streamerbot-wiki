@@ -2,7 +2,7 @@
 title: Set Title and Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:07:55.227Z
+date: 2022-09-15T07:38:24.973Z
 tags: sub-action, subactions, youtube
 editor: markdown
 dateCreated: 2022-06-07T03:56:57.575Z
@@ -15,7 +15,7 @@ Set the title and your description on your YouTube stream in one sub-action.
 
 ## Configuration 
 
-> **NOTE**
+> **WARNING**
 > YouTube titles are limited to 100 characters
 > YouTube descriptions are limited to 5,000 characters
 {.is-warning}
