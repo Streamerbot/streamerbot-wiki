@@ -2,7 +2,7 @@
 title: StreamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T18:05:40.575Z
+date: 2022-09-16T16:44:17.623Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:05:38.373Z
@@ -10,6 +10,13 @@ dateCreated: 2022-08-08T18:05:38.373Z
 
 ## Overview
 The state of the stream output has changed.
+
+Output States:
+* OBS_WEBSOCKET_OUTPUT_STOPPING
+* OBS_WEBSOCKET_OUTPUT_STOPPED
+* OBS_WEBSOCKET_OUTPUT_STARTING
+* OBS_WEBSOCKET_OUTPUT_STARTED
+{.links-list}
 
 ## Variables
 Name | Type | Description | 
