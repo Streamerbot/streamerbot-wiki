@@ -2,7 +2,7 @@
 title: YouTube Sub-Actions
 description: Reference of all YouTube Sub-Actions
 published: true
-date: 2022-09-17T13:27:52.929Z
+date: 2022-09-17T13:28:05.461Z
 tags: subactions, youtube
 editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
@@ -31,4 +31,4 @@ YouTube stream management{.subtitle}
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Sub-Actions to control every aspect of OBS***](/en/Sub-Actions/OBS)
-{.btn-grid my-5}
+{.btn-grid .my-5}
