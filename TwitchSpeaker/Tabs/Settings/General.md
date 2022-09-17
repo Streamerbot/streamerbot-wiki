@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T15:55:16.647Z
+date: 2022-09-17T15:55:56.571Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -12,7 +12,7 @@ Port: `6669`
 
 Payload Data (currently available):
 
-### pause
+## pause
 ```json
 {
   "command": "pause"
@@ -21,7 +21,7 @@ Payload Data (currently available):
 
 ***
 
-### resume
+## resume
 ```json
 {
   "command": "resume"
@@ -30,7 +30,7 @@ Payload Data (currently available):
 
 ***
 
-### clear
+## clear
 ```json
 {
   "command": "clear"
@@ -39,7 +39,7 @@ Payload Data (currently available):
 
 ***
 
-### off
+## off
 ```json
 {
   "command": "off"
@@ -48,7 +48,7 @@ Payload Data (currently available):
 
 ***
 
-### disable
+## disable
 ```json
 {
   "command": "disable"
@@ -57,7 +57,7 @@ Payload Data (currently available):
 
 ***
 
-### on
+## on
 ```json
 {
   "command": "on"
@@ -66,7 +66,7 @@ Payload Data (currently available):
 
 ***
 
-### enable
+## enable
 ```json
 {
   "command": "enable"
@@ -75,7 +75,7 @@ Payload Data (currently available):
 
 ***
 
-### stop
+## stop
 ```json
 {
   "command": "stop"
@@ -84,7 +84,7 @@ Payload Data (currently available):
 
 ***
 
-### events (on)
+## events (on)
 ```json
 {
   "command": "events",
@@ -104,7 +104,7 @@ Payload Data (currently available):
 
 ***
 
-### events (off)
+## events (off)
 ```json
 {
   "command": "events",
@@ -124,7 +124,7 @@ Payload Data (currently available):
 
 ***
 
-### reg (add)
+## reg (add)
 ```json
 {
   "command": "reg",
@@ -146,7 +146,7 @@ Payload Data (currently available):
 
 ***
 
-### reg (del)
+## reg (del)
 ```json
 {
   "command": "reg",
@@ -168,7 +168,7 @@ Payload Data (currently available):
 
 ***
 
-### Profile
+## Profile
 ```json
 {
   "command": "profile",
@@ -186,7 +186,7 @@ Payload Data (currently available):
 
 ***
 
-### Profile (none)
+## Profile (none)
 ```json
 {
   "command": "profile", 
