@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T16:05:56.679Z
+date: 2022-09-17T16:08:14.630Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -11,61 +11,75 @@ dateCreated: 2022-09-17T15:23:48.991Z
 Port: `6669`
 
 Payload Data (currently available):
-# tabset {.tabset}
-## pause
+{.my-5}
+<div>
+<details>
+<summary>pause</summary>
+  
 ```json
 {
   "command": "pause"
 }
 ```
+  
+</details>
 
-***
+<details>
+<summary>resume</summary>
 
-## resume
 ```json
 {
   "command": "resume"
 }
 ```
 
-***
+</details>
 
-## clear
+<details>
+<summary>clear</summary>
+
 ```json
 {
   "command": "clear"
 }
 ```
 
-***
+</details>
 
-## off
+<details>
+<summary>off</summary>
 ```json
 {
   "command": "off"
 }
 ```
 
-***
+</details>
 
-## disable
+<details>
+<summary>disable</summary>
+
 ```json
 {
   "command": "disable"
 }
 ```
 
-***
+</details>
 
-## on
+<details>
+<summary>on</summary>
+
 ```json
 {
   "command": "on"
 }
 ```
 
-***
+</details>
 
+<details>
+<summary>enable</summary>
 ## enable
 ```json
 {
@@ -73,18 +87,22 @@ Payload Data (currently available):
 }
 ```
 
-***
+</details>
 
-## stop
+<details>
+<summary>stop</summary>
+
 ```json
 {
   "command": "stop"
 }
 ```
 
-***
+</details>
 
-## events (on)
+<details>
+<summary>events (on)</summary>
+
 ```json
 {
   "command": "events",
@@ -102,9 +120,11 @@ Payload Data (currently available):
 }
 ```
 
-***
+</details>
 
-## events (off)
+<details>
+<summary>events (off)</summary>
+
 ```json
 {
   "command": "events",
@@ -122,9 +142,11 @@ Payload Data (currently available):
 }
 ```
 
-***
+</details>
 
-## reg (add)
+<details>
+<summary>reg (add)</summary>
+
 ```json
 {
   "command": "reg",
@@ -144,9 +166,11 @@ Payload Data (currently available):
 }
 ```
 
-***
+</details>
 
-## reg (del)
+<details>
+<summary>reg (del)</summary>
+
 ```json
 {
   "command": "reg",
@@ -165,10 +189,11 @@ Payload Data (currently available):
   "id": "%userId%"
 }
 ```
+</details>
 
-***
+<details>
+<summary>profile</summary>
 
-## Profile
 ```json
 {
   "command": "profile",
@@ -184,9 +209,11 @@ Payload Data (currently available):
 }
 ```
 
-***
+</details>
 
-## Profile (none)
+<details>
+<summary>profile (none)</summary>
+
 ```json
 {
   "command": "profile", 
@@ -194,9 +221,8 @@ Payload Data (currently available):
 }
 ```
 
-***
-
-# End Tabset {.tabset}
+</details>
+</div>
 You can also send text to be spoken
 
  ```json
