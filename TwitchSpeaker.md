@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-09-17T15:16:55.316Z
+date: 2022-09-17T15:25:41.691Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -25,9 +25,12 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-cog text--twitch"></i>**Settings**](/en/TwitchSpeaker/Tabs/Settings){.disabled}
 {.btn-grid .my-5}
 
+## General
+- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface*Run TwitchSpeaker stuff trough Streamer.bot and other applications***](/en/TwitchSpeaker/Tabs/Settings/UDP-Interface){.disabled}
+{.btn-grid .list .my-5}
+
 ## Settings
-- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface*Run TwitchSpeaker stuff trough Streamer.bot***](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
-- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
+- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/General/UDP-Interface){.disabled}
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
 - [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/en/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
 - [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/en/TwitchSpeaker/Tabs/Settings/Replacement){.disabled}
