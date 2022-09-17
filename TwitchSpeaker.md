@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-09-12T23:59:43.623Z
+date: 2022-09-17T15:15:43.598Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -26,6 +26,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .my-5}
 
 ## Settings
+- [<i class="mdi mdi-application text--twitch"></i>**Run Stuff Through Streamer.bot*With the UDP Broadcast sub-action you can run all kind of stuff in TwitchSpeaker***](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/Tabs/Settings/General){.disabled}
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/en/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
 - [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/en/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
