@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T15:52:28.023Z
+date: 2022-09-17T15:55:16.647Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -19,12 +19,16 @@ Payload Data (currently available):
 }
 ```
 
+***
+
 ### resume
 ```json
 {
   "command": "resume"
 }
 ```
+
+***
 
 ### clear
 ```json
@@ -33,12 +37,16 @@ Payload Data (currently available):
 }
 ```
 
+***
+
 ### off
 ```json
 {
   "command": "off"
 }
 ```
+
+***
 
 ### disable
 ```json
@@ -47,6 +55,8 @@ Payload Data (currently available):
 }
 ```
 
+***
+
 ### on
 ```json
 {
@@ -54,6 +64,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### enable
 ```json
@@ -62,12 +73,16 @@ Payload Data (currently available):
 }
 ```
 
+***
+
 ### stop
 ```json
 {
   "command": "stop"
 }
 ```
+
+***
 
 ### events (on)
 ```json
@@ -87,6 +102,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### events (off)
 ```json
@@ -106,6 +122,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### reg (add)
 ```json
@@ -127,6 +144,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### reg (del)
 ```json
@@ -148,6 +166,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### Profile
 ```json
@@ -165,6 +184,7 @@ Payload Data (currently available):
 }
 ```
 
+***
 
 ### Profile (none)
 ```json
@@ -184,7 +204,7 @@ Payload Data (currently available):
 
 ***
 
- You can also send text to be spoken
+You can also send text to be spoken
 
  ```json
 {
