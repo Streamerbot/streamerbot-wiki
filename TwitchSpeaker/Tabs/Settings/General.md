@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T16:11:12.282Z
+date: 2022-09-17T16:13:32.697Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -11,8 +11,24 @@ dateCreated: 2022-09-17T15:23:48.991Z
 Port: `6669`
 
 Payload Data (currently available):
-{.my-5}
-<div>
+```json
+{ "command": "pause" }
+{ "command": "resume" }
+{ "command": "clear" }
+{ "command": "off" }
+{ "command": "disable" }
+{ "command": "on" }
+{ "command": "enable" }
+{ "command": "stop" }
+{ "command": "events", "value": "", "state": "on" }
+{ "command": "events", "value": "", "state": "off" }
+{ "command": "reg", "mode": "add", "user": "%user%", "id": "%userId%" }
+{ "command": "reg", "mode": "del", "user": "%user%", "id": "%userId%" }
+{ "command": "profile", "profile": "none" }
+{ "command": "profile", "profile": "<profile name>" 
+```
+## Examples
+
 <details style="margin: 0.5em 0em;">
 <summary>pause</summary>
   
@@ -48,6 +64,7 @@ Payload Data (currently available):
 
 <details style="margin: 0.5em 0em;">
 <summary>off</summary>
+  
 ```json
 {
   "command": "off"
@@ -80,7 +97,7 @@ Payload Data (currently available):
 
 <details style="margin: 0.5em 0em;">
 <summary>enable</summary>
-## enable
+
 ```json
 {
   "command": "enable"
@@ -222,7 +239,6 @@ Payload Data (currently available):
 ```
 
 </details>
-</div>
 You can also send text to be spoken
 
  ```json
