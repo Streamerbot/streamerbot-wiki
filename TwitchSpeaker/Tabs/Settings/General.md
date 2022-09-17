@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T16:08:14.630Z
+date: 2022-09-17T16:11:12.282Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -13,7 +13,7 @@ Port: `6669`
 Payload Data (currently available):
 {.my-5}
 <div>
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>pause</summary>
   
 ```json
@@ -24,7 +24,7 @@ Payload Data (currently available):
   
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>resume</summary>
 
 ```json
@@ -35,7 +35,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>clear</summary>
 
 ```json
@@ -46,7 +46,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>off</summary>
 ```json
 {
@@ -56,7 +56,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>disable</summary>
 
 ```json
@@ -67,7 +67,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>on</summary>
 
 ```json
@@ -78,7 +78,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>enable</summary>
 ## enable
 ```json
@@ -89,7 +89,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>stop</summary>
 
 ```json
@@ -100,7 +100,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>events (on)</summary>
 
 ```json
@@ -122,7 +122,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>events (off)</summary>
 
 ```json
@@ -144,7 +144,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>reg (add)</summary>
 
 ```json
@@ -168,7 +168,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>reg (del)</summary>
 
 ```json
@@ -191,7 +191,7 @@ Payload Data (currently available):
 ```
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>profile</summary>
 
 ```json
@@ -211,7 +211,7 @@ Payload Data (currently available):
 
 </details>
 
-<details>
+<details style="margin: 0.5em 0em;">
 <summary>profile (none)</summary>
 
 ```json
