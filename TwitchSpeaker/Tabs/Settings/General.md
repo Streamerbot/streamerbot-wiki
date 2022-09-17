@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T15:57:27.040Z
+date: 2022-09-17T16:05:56.679Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -190,14 +190,6 @@ Payload Data (currently available):
 ```json
 {
   "command": "profile", 
-  "profile": "none"
-}
-```
-
-**Example:**
-```json
-{
-  "command": "profile",
   "profile": "none"
 }
 ```
