@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Run TwitchSpeaker stuff trough Streamer.bot
 published: true
-date: 2022-09-17T15:55:56.571Z
+date: 2022-09-17T15:56:37.016Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-17T15:23:48.991Z
 Port: `6669`
 
 Payload Data (currently available):
-
+# tabset {.tabset}
 ## pause
 ```json
 {
