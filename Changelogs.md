@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-22T20:32:56.085Z
+date: 2022-09-22T21:12:00.416Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -59,6 +59,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new CPH method for clearing chat, `bool TwitchClearChatMessages(bool bot = true)`
 * Add new CPH method for deleting a chat message, `bool TwitchDeleteChatMessage(string messageId, bool bot = true)`
 * Add new CPH methods for banning/unbanning and timing out a user
+* Add new CPH method for checking if an action exists, or if its enabled/disabled
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
