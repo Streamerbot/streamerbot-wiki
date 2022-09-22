@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-22T17:32:09.632Z
+date: 2022-09-22T20:32:56.085Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -37,6 +37,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Update internal methods for adding/removing moderators/VIPs to use API calls
 * Update internal methods for deleting a chat message, to use API call
 * Read Random Line from file sub-action now includes the line number as a variable, `%randomLineNumber#%`
+* MathParser-mXparser updated to v5.0.7
+* Updated Google YouTube C# Libraries to current
 {.changelog-updates}
 
 <span></span>
