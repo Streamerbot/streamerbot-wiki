@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-22T17:12:44.438Z
+date: 2022-09-22T17:32:09.632Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -56,6 +56,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add internal method for clearing chat using API call
 * Add new CPH method for clearing chat, `bool TwitchClearChatMessages(bool bot = true)`
 * Add new CPH method for deleting a chat message, `bool TwitchDeleteChatMessage(string messageId, bool bot = true)`
+* Add new CPH methods for banning/unbanning and timing out a user
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -112,8 +113,13 @@ bool TwitchAddModerator(string userName);
 bool TwitchRemoveModerator(string userName);
 bool TwitchAddVip(string userName);
 bool TwitchRemoveVip(string userName);
+
 bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
+
+bool TwitchBanUser(string userName, string reason = null, bool bot = false);
+bool TwitchUnbanUser(string userName, bool bot = false);
+bool TwitchTimeoutUser(string username, int duration, string reason = null, bool bot = false);
 ```
 
 ### OBS
