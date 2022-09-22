@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-14T22:59:10.392Z
+date: 2022-09-22T17:12:44.438Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Handle potential crash with an internal Users Joined event, when an API call failed
 * Small startup improvements
 * Twitch Add Target Info should have the correct VIP/Subscriber boolean values now
+* Some Twitch API calls weren't being routed through proper internal calls, causing tokens not to be refreshed as needed
 {.changelog-fixes}
 
 <span></span>
