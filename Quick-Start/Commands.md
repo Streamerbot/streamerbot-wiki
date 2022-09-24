@@ -2,7 +2,7 @@
 title: Quick Start - Chatbot Example
 description: Learn how to configure some basic chat commands with Streamer.bot
 published: true
-date: 2022-09-24T15:41:44.939Z
+date: 2022-09-24T15:44:15.889Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-07-10T01:47:22.629Z
@@ -19,6 +19,9 @@ Below, you will find a code to import them directly into your setup for immediat
 The following actions and commands will be imported into your Streamer.bot instance:
 
 ![commands.png](/quick-start/chatbot-example/commands.png)
+
+> For securtiy reasons all commands are disabled by default, you need to enable them first before you can use them.
+{.is-danger}
 
 ## Import Code
 Click **Import** at the top of Streamer.bot and paste the following code into the **Import String** field:
