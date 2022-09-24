@@ -2,7 +2,7 @@
 title: Quick Start - Chatbot Example
 description: Learn how to configure some basic chat commands with Streamer.bot
 published: true
-date: 2022-09-24T15:34:11.822Z
+date: 2022-09-24T15:35:57.754Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-07-10T01:47:22.629Z
@@ -36,4 +36,5 @@ Click **Import** to finalize your selection and add all selected actions to your
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
+- [<i class="mdi mdi-comment-alert"></i> **Commands *Next up***](/en/Commands)
 {.btn-grid .my-5}
