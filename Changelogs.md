@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-22T21:12:00.416Z
+date: 2022-09-25T22:24:56.606Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Small startup improvements
 * Twitch Add Target Info should have the correct VIP/Subscriber boolean values now
 * Some Twitch API calls weren't being routed through proper internal calls, causing tokens not to be refreshed as needed
+* Some potential crashes in obs-websocket 5 data handling (there may still be more unfortunately)
+* Lumia Stream set color sub-action should correctly pickup manual changes to the color field now
 {.changelog-fixes}
 
 <span></span>
@@ -39,6 +41,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Read Random Line from file sub-action now includes the line number as a variable, `%randomLineNumber#%`
 * MathParser-mXparser updated to v5.0.7
 * Updated Google YouTube C# Libraries to current
+* Twitch sub-action Set Channel Game, now adds game variables if you've picked a game from the list
 {.changelog-updates}
 
 <span></span>
@@ -60,6 +63,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new CPH method for deleting a chat message, `bool TwitchDeleteChatMessage(string messageId, bool bot = true)`
 * Add new CPH methods for banning/unbanning and timing out a user
 * Add new CPH method for checking if an action exists, or if its enabled/disabled
+* Support for [Twitch Charity](#twitch-charity), with 2 new events, Donation and Completed
+* Add new sub-action to fetch the latest [Twitch Charity Campaign](#twitch-get-latest-charity-campaign)
+* Support for Coin Cheer (this is experimental and could break)
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -71,11 +77,50 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * `moderator:manage:chat_messages`
 {.grid-list}
 
+## Twitch Charity
+THe newly released Charity feature of Twitch is now supported within **Streamer.bot**
+
+This introduces 2 new events, **Donation** and **Completed**
+
+### Donation Event
+The donation event occurs when someone has donated to your charity.
+
+Variable that are included are as follows:
+
+Name | Description
+----:|:------------
+`baseAmount` | The amount of the donation as a whole number
+`donationAmount` | The amount of the donation in decimal form
+`charity.name` | The name of the charity you are supporting
+`currency.code` | The 3 letter ISO currency code
+`currency.exponent` | Divide base amount by 10 to the power of this number to get the decimal value
+{.vars-table}
+
+> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
+{.is-warning}
+
+### Completed Event
+When donations come through, a check is made if your current donation amount matches what your goal is, and will send a compelted event if this is true.
+
+Variable that are included are as follows:
+
+Name | Description
+----:|:------------
+`charity.id` | Twitch's internal ID for your campaign
+`charity.timestamp` | The timestamp of the event
+`charity.currency` | The 3 letter ISO currency code
+`charity.donationTotal` | How much you have raised so far, asa  whole number
+`charity.goalTarget` | Your campaign's target amount as a whole number
+{.vars-table}
+
+> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
+{.is-warning}
+
 ## New Sub-actions
 
 ### OBS Set Color Source Color
 
-Added a new sub-action that lets yous et the color of a color source within OBS.  All fields support `%variable%` replacement, and there is an option to just set a random color.
+Added a new sub-action that lets you set the color of a color source within OBS.  All fields support `%variable%` replacement, and there is an option to just set a random color.
 
 ![obs-set-color-source-color-01.png](/obs-set-color-source-color-01.png)
 
@@ -99,6 +144,23 @@ Name | Description
 ----:|:------------
 `viewers` | Your current Twitch viewer count
 {.vars-table}
+
+### Twitch Get Latest Charity Campaign
+This sub-action will fetch your latest Twitch Charity campaign and add the information as variables.
+
+Name | Description
+----:|:------------
+`campaignId` | Twitch's internal ID for your campaign
+`charity.name` | The name of the charity you are supporting
+`charity.description` | The description of the charity you are supporting
+`charity.logoUrl` | The logo of the charity you are supporting
+`charity.websiteUrl` | The website to the charity you are supporting
+`currentAmount` | How much you have raised so far, asa  whole number
+`targetAmount` | Your campaign's target amount as a whole number
+{.vars-table}
+
+> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
+{.is-warning}
 
 ## New C# Methods
 
