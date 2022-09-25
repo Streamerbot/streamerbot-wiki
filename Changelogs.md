@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-25T22:24:56.606Z
+date: 2022-09-25T22:29:50.698Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
 # Streamer.bot v0.1.14 (WIP)
- Upcoming changes in the next release!{.subtitle}
+Upcoming changes in the next release!{.subtitle}
  
 * Typos
 * OBS Take Screenshot sub-action was halting an action when used with OBS websocket v5
