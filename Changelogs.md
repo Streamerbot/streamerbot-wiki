@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-26T22:51:05.783Z
+date: 2022-09-26T22:55:34.428Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -121,12 +121,12 @@ Name | Description
 {.is-warning}
 
 ## Shopify
-By using the **Streamer.bot** website, you caan now add webhooks to your Shopify store front!
+By using the **Streamer.bot** website, you can now add webhooks to your Shopify store front!
 
 > Supported webhook events include `Order creation` and `Order payment`
 {.is-warning}
 
-THere are 2 new events within **Streamer.bot** that you can associate an action with, `Order Created`and `Order Paid`.  Both of these events will provide you with almost all the information that is proveded dby the webhook.
+There are 2 new events within **Streamer.bot** that you can associate an action with, `Order Created`and `Order Paid`.  Both of these events will provide you with almost all the information that is proveded dby the webhook.
 
 The best way to check the variables, is to setup your webhooks, and assign an empty action, then check the available variables in the `Action History` tab under `Action Queues`
 
