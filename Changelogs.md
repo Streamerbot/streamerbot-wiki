@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-26T22:05:11.740Z
+date: 2022-09-26T22:51:05.783Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -43,6 +43,8 @@ Upcoming changes in the next release!{.subtitle}
 * MathParser-mXparser updated to v5.0.7
 * Updated Google YouTube C# Libraries to current
 * Twitch sub-action Set Channel Game, now adds game variables if you've picked a game from the list
+* **Streamer.bot**'s built in websocket server can now listen on any address, just enter `*` for the ip address
+* Custom websocket servers can now listen on any address, just enter `*` for the ip address
 {.changelog-updates}
 
 <span></span>
@@ -67,6 +69,7 @@ Upcoming changes in the next release!{.subtitle}
 * Support for [Twitch Charity](#twitch-charity), with 2 new events, Donation and Completed
 * Add new sub-action to fetch the latest [Twitch Charity Campaign](#twitch-get-latest-charity-campaign)
 * Support for Coin Cheer (this is experimental and could break)
+* Support for [Shopify Webhooks](#shopify)!
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -116,6 +119,16 @@ Name | Description
 
 > Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
 {.is-warning}
+
+## Shopify
+By using the **Streamer.bot** website, you caan now add webhooks to your Shopify store front!
+
+> Supported webhook events include `Order creation` and `Order payment`
+{.is-warning}
+
+THere are 2 new events within **Streamer.bot** that you can associate an action with, `Order Created`and `Order Paid`.  Both of these events will provide you with almost all the information that is proveded dby the webhook.
+
+The best way to check the variables, is to setup your webhooks, and assign an empty action, then check the available variables in the `Action History` tab under `Action Queues`
 
 ## New Sub-actions
 
