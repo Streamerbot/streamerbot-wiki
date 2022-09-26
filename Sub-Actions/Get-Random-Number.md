@@ -2,14 +2,13 @@
 title: Get Random Number
 description: 
 published: true
-date: 2022-07-28T19:39:43.547Z
+date: 2022-09-26T22:19:56.391Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T02:13:10.625Z
 ---
 
-# Get Random Number
-
+## Overview
 This sub action will; let you add a random number to your arguments, either between a range of numbers, or as a next floating point.
 
 ![sub-action-get-random-number.png](/sub-action-get-random-number.png)
