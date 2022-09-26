@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-09-06T17:56:06.012Z
+date: 2022-09-26T16:12:53.391Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -14,6 +14,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 * [<i class="mdi mdi-signal text--obs"></i>**Streaming *Start / Stop streaming state***](/Sub-Actions/OBS/Streaming)
 * [<i class="mdi mdi-replay text--obs"></i>**Set Replay Buffer State *Sets the state of the OBS Replay Buffer***](/Sub-Actions/OBS/Replay-Buffer-State)
 * [<i class="mdi mdi-monitor-screenshot text--obs"></i>**Take Screenshot *Take a screenshot of a scene / source and save to file***](/Sub-Actions/OBS/Take-Screenshot)
+* [<i class="mdi mdi-connection text--obs"></i>**Get Status *Get your Connection, Streaming and Recording status*** *v0.1.14*{.version-badge}](/Sub-Actions/OBS/Get-Status){.disabled}
 {.btn-grid .my-5}
 
 ## Source
