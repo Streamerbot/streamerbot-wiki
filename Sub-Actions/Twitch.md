@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-07-28T20:20:25.537Z
+date: 2022-09-26T16:03:45.939Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -32,7 +32,6 @@ Twitch channel &amp; stream management{.subtitle}
 - [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/en/Sub-Actions/Twitch/Run-Commercial)
 {.btn-grid .my-5}
 
-
 ## User Information
 Fetch information about specific users{.subtitle}
 
@@ -41,6 +40,10 @@ Fetch information about specific users{.subtitle}
 - [<i class="mdi mdi-account text--twitch"></i>**Add Broadcaster Information *Populate variables related to the Broadcaster account***](/en/Sub-Actions/Twitch/Add-Broadcaster-Information){.disabled}
 - [<i class="mdi mdi-account text--twitch"></i>**Get Team Info For Target *Populate variables related to the teams a named user is part of***](/en/Sub-Actions/Twitch/Get-Team-Info-For-Target){.disabled}
 - [<i class="mdi mdi-account text--twitch"></i>**Add Random Users *Randomly select any number of users present in chat***](/en/Sub-Actions/Twitch/Add-Random-Users){.disabled}
+{.btn-grid .my-5}
+
+## Additional Sub-Actions
+- [<i class="mdi mdi-charity text--twitch"></i>**Twitch Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add the information as variables.*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Charity){.disabled}
 {.btn-grid .my-5}
 
 ## Channel Point Rewards
