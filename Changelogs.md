@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-25T22:29:50.698Z
+date: 2022-09-26T19:44:43.548Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -78,7 +78,7 @@ Upcoming changes in the next release!{.subtitle}
 {.grid-list}
 
 ## Twitch Charity
-THe newly released Charity feature of Twitch is now supported within **Streamer.bot**
+The newly released Charity feature of Twitch is now supported within **Streamer.bot**
 
 This introduces 2 new events, **Donation** and **Completed**
 
