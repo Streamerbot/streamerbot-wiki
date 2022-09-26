@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-26T19:44:43.548Z
+date: 2022-09-26T22:05:11.740Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,6 +23,7 @@ Upcoming changes in the next release!{.subtitle}
 * Some Twitch API calls weren't being routed through proper internal calls, causing tokens not to be refreshed as needed
 * Some potential crashes in obs-websocket 5 data handling (there may still be more unfortunately)
 * Lumia Stream set color sub-action should correctly pickup manual changes to the color field now
+* Custom Websocket Server would crash when using an invalid address
 {.changelog-fixes}
 
 <span></span>
