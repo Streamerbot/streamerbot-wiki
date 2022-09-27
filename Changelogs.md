@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-27T19:59:07.178Z
+date: 2022-09-27T20:29:43.018Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -72,6 +72,7 @@ Upcoming changes in the next release!{.subtitle}
 * Support for Coin Cheer (this is experimental and could break)
 * Support for [Shopify Webhooks](#shopify)!
 * Add new sub-action [Discord Basic Webhook](#discord-basic-webhook), to enable posting basic text to a discord webhook
+* Add new CPH method, `DiscordPostTextToWebhook` to post text to a discord webhook
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -229,6 +230,11 @@ void LumiaSetToDefault();
 ### Actions
 ```csharp
 bool ActionExists(string actionName);
+```
+
+### Discord
+```csharp
+bool DiscordPostTextToWebhook(string webhookUrl, string content, string username = null, bool textToSpeech = false);
 ```
 
 ## Twitch Whisper
