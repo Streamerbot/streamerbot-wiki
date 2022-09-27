@@ -2,7 +2,7 @@
 title: Discord
 description: Integrate Streamer.bot with the Discord webhooks
 published: true
-date: 2022-09-27T10:37:31.668Z
+date: 2022-09-27T10:38:01.995Z
 tags: webhooks, v0.1.14, discord
 editor: markdown
 dateCreated: 2022-09-27T10:35:28.047Z
@@ -21,7 +21,7 @@ With [Discord](https://discord.com) webhooks you can send messages to channels w
 5. <kbd><i class="mdi mdi-content-copy"></i> Copy</kbd> the webhooks url
 6. <kbd><i class="mdi mdi-content-paste"></i> Paste</kbd> this url into streamer.bot
 
-![image](https://support.discord.com/hc/article_attachments/360101553853/Screen_Shot_2020-12-15_at_4.51.38_PM.png)
+![image](https://support.discord.com/hc/article_attachments/360101553853/Screen_Shot_2020-12-15_at_4.51.38_PM.png =500x)
 
 ![streamerbot-overview.png](/intergrations/Discord/streamerbot-overview.png =700x)
 
