@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-26T22:55:34.428Z
+date: 2022-09-27T00:10:13.648Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -70,6 +70,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add new sub-action to fetch the latest [Twitch Charity Campaign](#twitch-get-latest-charity-campaign)
 * Support for Coin Cheer (this is experimental and could break)
 * Support for [Shopify Webhooks](#shopify)!
+* Add new sub-action [Discord Basic Webhook](#discord-basic-webhook), to enable posting basic text to a discord webhook
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -175,6 +176,13 @@ Name | Description
 
 > Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
 {.is-warning}
+
+### Discord Basic Webhook
+This is the first of a few new Discord specific sub-actions that will be added.  Up first is a friendlier way to post to a webhook you setup in your discord.  This one only allows for basic text posting.
+
+Username, and content can contain variables and will be parsed.
+
+![discord-basic-webhook-01.png](/discord-basic-webhook-01.png)
 
 ## New C# Methods
 
