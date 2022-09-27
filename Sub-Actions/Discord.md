@@ -2,7 +2,7 @@
 title: Discord Sub-Actions
 description: Reference of all Discord Sub-Actions
 published: false
-date: 2022-09-27T07:51:02.344Z
+date: 2022-09-27T07:52:47.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-27T07:51:02.344Z
@@ -14,5 +14,5 @@ dateCreated: 2022-09-27T07:51:02.344Z
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-- [<img src="/logos/voicemod.png"/>**VoiceMod *Select voices, modify state, get current state***](/en/Sub-Actions/VoiceMod)
+- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Next Up***](/en/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
