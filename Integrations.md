@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-09-27T08:39:50.027Z
+date: 2022-09-27T08:40:57.568Z
 tags: integrations
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -30,8 +30,8 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 
 <div></div>
 
-- [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/en/Integrations/Discord){.disabled}
-- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/en/Integrations/Discord){.disabled}
  - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality***](/en/Integrations/Streamer-bot)
 - [<img src="https://streamer.bot/logo.svg"/>**Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
+- [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/en/Integrations/Discord){.disabled}
+- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/en/Integrations/Discord){.disabled}
 {.btn-grid .my-5}
