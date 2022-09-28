@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-09T20:09:11.047Z
+date: 2022-09-28T08:31:13.005Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -140,3 +140,31 @@ Name | Description
 `title` | The title of the broadcast
 `description` |The description of the broadcast
 `privacy` | The privacy setting of the broadcast
+
+> **Note**
+> Coming soon
+{.is-info}
+
+## Generic Events
+* [**Chat Message**](){.disabled}
+* [**First Words**](){.disabled}
+* [**Sponser Event**](){.disabled}
+* [**Sponser Mode Only Started**](){.disabled}
+* [**Sponser Mode Only Ended**](){.disabled}
+* [**Member Milestone Event**](){.disabled}
+* [**User Banned Event**](){.disabled}
+* [**Membership Gift Event**](){.disabled}
+* [**Gift Membership Event**](){.disabled}
+{.btn-grid .my-5}
+
+## Super Events
+* [**Super Chat**](){.disabled}
+* [**Super Sticker**](){.disabled}
+{.btn-grid .my-5}
+
+## Broadcast Events
+* [**Broadcast Started**](){.disabled}
+* [**Broadcast Ended**](){.disabled}
+* [**Broadcast Update**](){.disabled}
+* [**Statistics Update**](){.disabled}
+{.btn-grid .my-5}
