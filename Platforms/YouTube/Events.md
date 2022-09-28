@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-28T08:31:13.005Z
+date: 2022-09-28T08:48:44.319Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -141,30 +141,32 @@ Name | Description
 `description` |The description of the broadcast
 `privacy` | The privacy setting of the broadcast
 
+---
+
 > **Note**
-> Coming soon
+> These pages below are coming soon
 {.is-info}
 
 ## Generic Events
-* [**Chat Message**](){.disabled}
-* [**First Words**](){.disabled}
-* [**Sponser Event**](){.disabled}
-* [**Sponser Mode Only Started**](){.disabled}
-* [**Sponser Mode Only Ended**](){.disabled}
-* [**Member Milestone Event**](){.disabled}
-* [**User Banned Event**](){.disabled}
-* [**Membership Gift Event**](){.disabled}
-* [**Gift Membership Event**](){.disabled}
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](){.disabled}
+* [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words**](){.disabled}
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Event**](){.disabled}
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Mode Only Started**](){.disabled}
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Mode Only Ended**](){.disabled}
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](){.disabled}
+* [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event**](){.disabled}
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event**](){.disabled}
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Event**](){.disabled}
 {.btn-grid .my-5}
 
 ## Super Events
-* [**Super Chat**](){.disabled}
-* [**Super Sticker**](){.disabled}
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Super Chat**](){.disabled}
+* [<i class="mdi mdi-sticker text--youtube"></i> **Super Sticker**](){.disabled}
 {.btn-grid .my-5}
 
 ## Broadcast Events
-* [**Broadcast Started**](){.disabled}
-* [**Broadcast Ended**](){.disabled}
-* [**Broadcast Update**](){.disabled}
-* [**Statistics Update**](){.disabled}
+* [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started**](){.disabled}
+* [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended**](){.disabled}
+* [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update**](){.disabled}
+* [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update**](){.disabled}
 {.btn-grid .my-5}
