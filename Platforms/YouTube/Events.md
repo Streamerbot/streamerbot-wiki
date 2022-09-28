@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-28T08:52:06.486Z
+date: 2022-09-28T08:57:28.223Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -148,7 +148,7 @@ Name | Description
 {.is-info}
 
 ## Generic Events
-* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](/en/Platforms/YouTube/Events/Chat-Message){.disabled}
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](/en/Platforms/YouTube/Events/Chat-Message)
 * [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words**](/en/Platforms/YouTube/Events/First-Words){.disabled}
 * [<i class="mdi mdi-cash text--youtube"></i> **Sponser Event**](/en/Platforms/YouTube/Events/Sponser-Event){.disabled}
 * [<i class="mdi mdi-cash text--youtube"></i> **Sponser Mode Only Started**](/en/Platforms/YouTube/Events/Sponser-Mode-Only-Started){.disabled}
