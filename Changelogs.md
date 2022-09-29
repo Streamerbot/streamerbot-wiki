@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-29T00:03:50.842Z
+date: 2022-09-29T01:03:32.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -48,6 +48,7 @@ Upcoming changes in the next release!{.subtitle}
 * Custom websocket servers can now listen on any address, just enter `*` for the ip address
 * Since Hosts are goiing away soon on Twitch, they have been remoeved from **Streamer.bot**
 * Better handling of Twitch disconnects, this is part of ongoing improvements
+* Timed Action linecounts now support YouTube chat, at the moment, line counts work for either service, if you have both connected, line counts will not be used
 {.changelog-updates}
 
 <span></span>
