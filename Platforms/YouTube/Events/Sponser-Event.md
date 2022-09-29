@@ -1,8 +1,8 @@
 ---
-title: Sponser Event
+title: Sponsor Event
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:15:22.340Z
+date: 2022-09-29T22:17:49.663Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:15:22.339Z
