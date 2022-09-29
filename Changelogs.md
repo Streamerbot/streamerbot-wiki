@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-29T17:25:38.402Z
+date: 2022-09-29T22:33:00.767Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -51,6 +51,8 @@ Upcoming changes in the next release!{.subtitle}
 * Since Hosts are goiing away soon on Twitch, they have been remoeved from **Streamer.bot**
 * Better handling of Twitch disconnects, this is part of ongoing improvements
 * Timed Action linecounts now support YouTube chat, at the moment, line counts work for either service, if you have both connected, line counts will not be used
+* Update endpoint used to get a users current chatters to the new GetChatters API
+* Decreate present viewers tick to 1 minute, with the change to the new GetChatters API
 {.changelog-updates}
 
 <span></span>
