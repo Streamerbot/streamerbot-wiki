@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-09-29T07:42:38.917Z
+date: 2022-09-29T16:16:31.501Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -10,7 +10,6 @@ dateCreated: 2022-07-13T18:55:36.587Z
 
 Streamer.bot constantly listens for events from your configured Twitch account and can perform actions for each of them.
 
-> **NOTE**
 > Some Twitch events may require [Affiliate](https://help.twitch.tv/s/article/twitch-affiliate-program-faq) status and some may be unavailable if prohibited by local laws.
 {.is-info}
 
