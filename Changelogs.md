@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-29T22:33:00.767Z
+date: 2022-09-29T22:35:21.760Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -86,6 +86,7 @@ Upcoming changes in the next release!{.subtitle}
 ## New Twitch Broadcaster Scopes
 * `channel:read:charity`
 * `moderator:manage:chat_messages`
+* `moderator:read:chatters`
 {.grid-list}
 
 ## New Twitch Bot Scopes
