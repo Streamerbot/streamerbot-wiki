@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-29T08:58:15.826Z
+date: 2022-09-29T22:25:41.637Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -24,6 +24,30 @@ Name | Description
 `isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
 {.vars-table}
+
+## Generic Events
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](/en/Platforms/YouTube/Events/Chat-Message)
+* [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words**](/en/Platforms/YouTube/Events/First-Words){.disabled}
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Event**](/en/Platforms/YouTube/Events/Sponsor-Event)
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Mode Only Started**](/en/Platforms/YouTube/Events/Sponsor-Mode-Only-Started)
+* [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Mode Only Ended**](/en/Platforms/YouTube/Events/Sponsor-Mode-Only-Ended)
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](/en/Platforms/YouTube/Events/Member-Milestone-Event)
+* [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event**](/en/Platforms/YouTube/Events/User-Banned-Event)
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event**](/en/Platforms/YouTube/Events/Membership-Gift-Event)
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Received Event**](/en/Platforms/YouTube/Events/Gift-Membership-Received-Event)
+{.btn-grid .my-5}
+
+## Super Events
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Super Chat**](/en/Platforms/YouTube/Events/Super-Chat)
+* [<i class="mdi mdi-sticker text--youtube"></i> **Super Sticker**](/en/Platforms/YouTube/Events/Super-Sticker)
+{.btn-grid .my-5}
+
+## Broadcast Events
+* [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started**](/en/Platforms/YouTube/Events/Broadcast-Started)
+* [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended**](/en/Platforms/YouTube/Events/Broadcast-Ended)
+* [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update**](/en/Platforms/YouTube/Events/Broadcast-Update)
+* [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update**](/en/Platforms/YouTube/Events/Statistics-Update)
+{.btn-grid .my-5}
 
 ## Broadcast Started
 Name | Description
@@ -143,30 +167,5 @@ Name | Description
 
 ---
 
-> **Note**
-> These pages below are coming soon
-{.is-info}
-
-## Generic Events
-* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](/en/Platforms/YouTube/Events/Chat-Message)
-* [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words**](/en/Platforms/YouTube/Events/First-Words){.disabled}
-* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Event**](/en/Platforms/YouTube/Events/Sponser-Event){.disabled}
-* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Mode Only Started**](/en/Platforms/YouTube/Events/Sponser-Mode-Only-Started){.disabled}
-* [<i class="mdi mdi-cash text--youtube"></i> **Sponser Mode Only Ended**](/en/Platforms/YouTube/Events/Sponser-Mode-Only-Ended){.disabled}
-* [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](/en/Platforms/YouTube/Events/Member-Milestone-Event){.disabled}
-* [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event**](/en/Platforms/YouTube/Events/User-Banned-Event){.disabled}
-* [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event**](/en/Platforms/YouTube/Events/Membership-Gift-Event){.disabled}
-* [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Event**](/en/Platforms/YouTube/Events/Gift-Membership-Event){.disabled}
-{.btn-grid .my-5}
-
-## Super Events
-* [<i class="mdi mdi-comment-outline text--youtube"></i> **Super Chat**](/en/Platforms/YouTube/Events/Super-Chat){.disabled}
-* [<i class="mdi mdi-sticker text--youtube"></i> **Super Sticker**](/en/Platforms/YouTube/Events/Super-Sticker){.disabled}
-{.btn-grid .my-5}
-
-## Broadcast Events
-* [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started**](/en/Platforms/YouTube/Events/Broadcast-Started)
-* [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended**](/en/Platforms/YouTube/Events/Broadcast-Ended)
-* [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update**](/en/Platforms/YouTube/Events/Broadcast-Update){.disabled}
-* [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update**](/en/Platforms/YouTube/Events/Statistics-Update){.disabled}
+- [<i class="mdi mdi-chevron-left"></i>**Events *Go Back***](/en/Events)
 {.btn-grid .my-5}
