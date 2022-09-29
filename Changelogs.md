@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-29T01:03:32.355Z
+date: 2022-09-29T04:25:52.319Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -138,7 +138,7 @@ Name | Description
 ----:|:------------
 `shoutoutId` | Twitch's internal ID for the shoutout
 `targetUserId` | The user'd id
-`targetUserLogin` | The user's login naem
+`targetUserLogin` | The user's login name
 `targetUserDisplayName` | The user's display name
 `targetUserPrimaryColorHex` | The user's primary color in hex
 `targetUserProfileImageURL` | The user's profile image
@@ -180,7 +180,7 @@ This will let you add your current Twitch viewer count as a variable to your act
 
 Name | Description
 ----:|:------------
-`viewers` | Your current Twitch viewer count
+`viewerCount` | Your current Twitch viewer count
 {.vars-table}
 
 ### Twitch Get Latest Charity Campaign
