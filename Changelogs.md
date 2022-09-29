@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-27T20:29:43.018Z
+date: 2022-09-29T00:03:50.842Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -46,6 +46,8 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch sub-action Set Channel Game, now adds game variables if you've picked a game from the list
 * **Streamer.bot**'s built in websocket server can now listen on any address, just enter `*` for the ip address
 * Custom websocket servers can now listen on any address, just enter `*` for the ip address
+* Since Hosts are goiing away soon on Twitch, they have been remoeved from **Streamer.bot**
+* Better handling of Twitch disconnects, this is part of ongoing improvements
 {.changelog-updates}
 
 <span></span>
@@ -73,6 +75,7 @@ Upcoming changes in the next release!{.subtitle}
 * Support for [Shopify Webhooks](#shopify)!
 * Add new sub-action [Discord Basic Webhook](#discord-basic-webhook), to enable posting basic text to a discord webhook
 * Add new CPH method, `DiscordPostTextToWebhook` to post text to a discord webhook
+* Add new event for Twitch, [Shoutout Created](#twitch-shoutout), this is triggered when the `/shoutout` command is used, if your channel has the ability
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -122,6 +125,23 @@ Name | Description
 
 > Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
 {.is-warning}
+
+## Twitch Shoutout
+Twitch recently added, as a beta feature a new `/shoutout` command, so for those users who have this on there channel, you can now react to when you, or a moderator uses this command, and treat it like a !so chat command!
+
+The user who was given the shoutout will be contained in the `target*` variables.
+
+Available variables:
+
+Name | Description
+----:|:------------
+`shoutoutId` | Twitch's internal ID for the shoutout
+`targetUserId` | The user'd id
+`targetUserLogin` | The user's login naem
+`targetUserDisplayName` | The user's display name
+`targetUserPrimaryColorHex` | The user's primary color in hex
+`targetUserProfileImageURL` | The user's profile image
+{.vars-table}
 
 ## Shopify
 By using the **Streamer.bot** website, you can now add webhooks to your Shopify store front!
