@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-09-30T12:37:47.062Z
+date: 2022-09-30T12:41:45.561Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -31,8 +31,6 @@ NOTE: This plugin requires [Streamer.bot](https://streamer.bot) to work, and mak
 ## Installation
 1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above
 ## Configuration
-
-## Usage
 
 ---
 
