@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-09-30T12:23:28.723Z
+date: 2022-09-30T12:26:25.848Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -450,7 +450,7 @@ string ObsGetSceneItemProperties(string scene, string source, int connection = 0
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
 ```
 ```csharp
-// use '\n' for a new line e.g. line 1/nline 2
+// use '\n' for a new line e.g. line 1\nline 2
 void ObsSetGdiText(string scene, string source, string text, int connection = 0);
 ```
 
