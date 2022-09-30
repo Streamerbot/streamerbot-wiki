@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-09-30T12:34:39.163Z
+date: 2022-09-30T12:36:21.355Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -14,10 +14,12 @@ dateCreated: 2022-08-13T20:20:57.000Z
 
 ***
 
-This Elgato StreamDeck plugin allows for the runing of actions in Streamer.bot
+## Overview
 Features |
 :---|:---
 An action button that can be linked to an action within Streamer.bot |
+
+This Elgato StreamDeck plugin allows for the runing of actions in Streamer.bot
 
 You should be able to double click the `nate1280.streamerbot.streamDeckPlugin` file to have it install in Stream Deck
 
@@ -27,7 +29,7 @@ NOTE: This plugin requires [Streamer.bot](https://streamer.bot) to work, and mak
 {.is-info}
 
 ## Installation
-
+1. Double click the `nate1280.streamerbot.streamDeckPlugin` file
 ## Configuration
 
 ## Usage
