@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-30T00:37:07.754Z
+date: 2022-09-30T00:39:26.230Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -27,15 +27,15 @@ Name | Description
 {.vars-table}
 
 ## Generic Events
-* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message**](/en/Platforms/YouTube/Events/Chat-Message)
-* [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words**](/en/Platforms/YouTube/Events/First-Words)
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message*When someone leaves a message in chat***](/en/Platforms/YouTube/Events/Chat-Message)
+* [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words*The first words in the stream (auto resets every 12 hours)***](/en/Platforms/YouTube/Events/First-Words)
 * [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Event**](/en/Platforms/YouTube/Events/Sponsor-Event)
 * [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Mode Only Started**](/en/Platforms/YouTube/Events/Sponsor-Mode-Only-Started)
 * [<i class="mdi mdi-cash text--youtube"></i> **Sponsor Mode Only Ended**](/en/Platforms/YouTube/Events/Sponsor-Mode-Only-Ended)
 * [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](/en/Platforms/YouTube/Events/Member-Milestone-Event)
-* [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event**](/en/Platforms/YouTube/Events/User-Banned-Event)
-* [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event**](/en/Platforms/YouTube/Events/Membership-Gift-Event)
-* [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Received Event**](/en/Platforms/YouTube/Events/Gift-Membership-Received-Event)
+* [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event*When a user gets banned***](/en/Platforms/YouTube/Events/User-Banned-Event)
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event*When someone gifts a membership to someone***](/en/Platforms/YouTube/Events/Membership-Gift-Event)
+* [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Received Event*When someone receives a membership from someone***](/en/Platforms/YouTube/Events/Gift-Membership-Received-Event)
 {.btn-grid .my-5}
 
 ## Super Events
