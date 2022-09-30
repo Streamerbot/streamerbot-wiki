@@ -2,7 +2,7 @@
 title: Get Random Number
 description: 
 published: true
-date: 2022-09-30T12:55:34.497Z
+date: 2022-09-30T12:56:18.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T02:13:10.625Z
@@ -11,14 +11,14 @@ dateCreated: 2021-10-24T02:13:10.625Z
 ## Overview
 This sub action will; let you add a random number to your arguments, either between a range of numbers, or as a next floating point.
 
+For example if you choose between `1` and `3`
+You wil get the values: `1`, `2` and `3`
+
 ![sub-action-get-random-number.png](/sub-action-get-random-number.png)
 
 ## Variables
 
 If you pick a random number between 2 values, you will get the following variables
-
-For example if you choose between `1` and `3`
-You wil get the values: `1`, `2` and `3`
 
 Name | Description
 ----:|:------------
