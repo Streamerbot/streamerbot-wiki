@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-29T22:35:21.760Z
+date: 2022-09-30T04:36:46.852Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -53,6 +53,7 @@ Upcoming changes in the next release!{.subtitle}
 * Timed Action linecounts now support YouTube chat, at the moment, line counts work for either service, if you have both connected, line counts will not be used
 * Update endpoint used to get a users current chatters to the new GetChatters API
 * Decreate present viewers tick to 1 minute, with the change to the new GetChatters API
+* Remove LootDevil support, as they closed down
 {.changelog-updates}
 
 <span></span>
