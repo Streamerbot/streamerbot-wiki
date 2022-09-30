@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-09-11T22:25:41.449Z
+date: 2022-09-30T12:23:28.723Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -155,8 +155,13 @@ bool RunActionById(string actionId, bool runImmediately = true);
 ```csharp
 void DisableAction(string actionName);
 void EnableAction(string actionName);
-```
+``` 
 
+> Requires minimum version v0.1.14
+{.is-info}
+```csharp
+bool ActionExists(string actionName);
+```
 ## Action Queues
 ```csharp
 void PauseActionQueue(string name);
@@ -196,9 +201,8 @@ bool ExecuteMethod(string executeCode, string methodName);
 ```csharp
 void SendMessage(string message, bool bot = true);
 void SendAction(string action, bool bot = true);
-void SendWhisper(string userName, string message);
-void TimeoutUser(string userName, int duration);
 ```
+
 ```csharp
 List<Cheermote> GetCheermotes();
 ```
@@ -206,6 +210,40 @@ List<Cheermote> GetCheermotes();
 ```csharp
 void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
+```
+
+> Changed `void` to `bool` in v0.1.14
+{.is-info}
+```csharp
+bool SendWhisper(string userName, string message);
+```
+
+## Moderator
+> Requires minimum version v0.1.14
+{.is-info}
+```csharp
+bool TwitchAddModerator(string userName);
+bool TwitchRemoveModerator(string userName);
+```
+
+## Vip
+> Requires minimum version v0.1.14
+{.is-info}
+```csharp
+bool TwitchAddVip(string userName);
+bool TwitchRemoveVip(string userName);
+```
+
+## Timout / Messages
+> Requires minimum version v0.1.14
+{.is-info}
+```csharp
+void TimeoutUser(string userName, int duration);
+```
+
+```csharp
+bool TwitchClearChatMessages(bool bot = true);
+bool TwitchDeleteChatMessage(string messageId, bool bot = true);
 ```
 
 ## Channel Rewards
@@ -333,9 +371,6 @@ bool SetChannelGameById(string gameId);
 ```
 
 ## Announcement
-> Requires minimum version *v0.1.9*{.version-badge}
-{.is-info}
-
 > Color parameter requires *v0.1.11*{.version-badge} and up.
 > Supported color values are `blue`, `orange`, `green`, `purple`
 {.is-warning}
@@ -415,7 +450,7 @@ string ObsGetSceneItemProperties(string scene, string source, int connection = 0
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
 ```
 ```csharp
-// use '/n' for a new line e.g. line 1/nline 2
+// use '\n' for a new line e.g. line 1/nline 2
 void ObsSetGdiText(string scene, string source, string text, int connection = 0);
 ```
 
