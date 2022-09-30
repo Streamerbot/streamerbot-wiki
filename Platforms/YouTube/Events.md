@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-30T00:30:14.798Z
+date: 2022-09-30T00:37:07.754Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -44,10 +44,10 @@ Name | Description
 {.btn-grid .my-5}
 
 ## Broadcast Events
-* [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started**](/en/Platforms/YouTube/Events/Broadcast-Started)
-* [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended**](/en/Platforms/YouTube/Events/Broadcast-Ended)
-* [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update**](/en/Platforms/YouTube/Events/Broadcast-Update)
-* [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update**](/en/Platforms/YouTube/Events/Statistics-Update)
+* [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started*When the broadcast starts***](/en/Platforms/YouTube/Events/Broadcast-Started)
+* [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended*When the broadcast end***](/en/Platforms/YouTube/Events/Broadcast-Ended)
+* [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update*When the broadcast configuration updates***](/en/Platforms/YouTube/Events/Broadcast-Update)
+* [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update*When the statistics of your stream updates***](/en/Platforms/YouTube/Events/Statistics-Update)
 {.btn-grid .my-5}
 
 ---
