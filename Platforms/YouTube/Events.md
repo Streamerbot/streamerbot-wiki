@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-30T00:43:54.690Z
+date: 2022-09-30T00:44:41.289Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -35,24 +35,20 @@ Name | Description
 * [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](/en/Platforms/YouTube/Events/Member-Milestone-Event)
 * [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event*When a user gets banned***](/en/Platforms/YouTube/Events/User-Banned-Event)
 * [<i class="mdi mdi-account-plus text--youtube"></i> **Membership Gift Event*When someone gifts a membership to someone***](/en/Platforms/YouTube/Events/Membership-Gift-Event)
-{.btn-grid .my-5}
-
-<div></div>
-
 * [<i class="mdi mdi-account-plus text--youtube"></i> **Gift Membership Received Event*When someone receives a membership from someone***](/en/Platforms/YouTube/Events/Gift-Membership-Received-Event)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Super Events
 * [<i class="mdi mdi-comment-outline text--youtube"></i> **Super Chat**](/en/Platforms/YouTube/Events/Super-Chat)
 * [<i class="mdi mdi-sticker text--youtube"></i> **Super Sticker**](/en/Platforms/YouTube/Events/Super-Sticker)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Broadcast Events
 * [<i class="mdi mdi-calendar-check-outline text--youtube"></i> **Broadcast Started*When the broadcast starts***](/en/Platforms/YouTube/Events/Broadcast-Started)
 * [<i class="mdi mdi-calendar-remove-outline text--youtube"></i> **Broadcast Ended*When the broadcast end***](/en/Platforms/YouTube/Events/Broadcast-Ended)
 * [<i class="mdi mdi-calendar text--youtube"></i> **Broadcast Update*When the broadcast configuration updates***](/en/Platforms/YouTube/Events/Broadcast-Update)
 * [<i class="mdi mdi-microsoft-excel text--youtube"></i> **Statistics Update*When the statistics of your stream updates***](/en/Platforms/YouTube/Events/Statistics-Update)
-{.btn-grid .my-5}
+{.btn-grid .list .dense  .my-5}
 
 ---
 
