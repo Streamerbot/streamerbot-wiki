@@ -2,7 +2,7 @@
 title: YouTube Event Variables
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-09-29T23:52:51.399Z
+date: 2022-09-30T00:26:48.096Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -17,6 +17,7 @@ Name | Description
 `userName` | User login name <br> `lowercase`
 `userId` | Unique user identifier
 `userType` | Specifies which streaming service the triggering user is coming from <br> `twitch` or `youtube`
+`userProfileUrl` | The user's profile image url<br>
 `isSubscribed` | **Not Supported**<br>
 `isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
