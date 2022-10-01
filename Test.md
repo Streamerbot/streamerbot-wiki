@@ -45,7 +45,7 @@ dateCreated: 2022-07-28T01:00:17.477Z
 
 ---
 
-## 'code' Example
+## `code` Example
 > `info` Blockquote
 {.is-info}
 
