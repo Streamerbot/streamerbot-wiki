@@ -64,7 +64,7 @@ When toggled this auto connects your OBS connection when you launch streamer.bot
 When toggled this tries to reconnect (by default every 30s) when streamer.bot looses connection with your OBS.
 
 ### Retry Interval
-When streamer.bot looses connection with your OBS this by default will try the reconnect every 30s, but you can change it to what you want.
+When streamer.bot looses connection with your OBS this by default will try to reconnect every 30s, but you can change it to what you want.
 
 # Status Panel
 Overview of connection information available on the right-hand panel{.subtitle}
