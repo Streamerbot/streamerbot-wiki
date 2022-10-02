@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-09-11T17:31:50.301Z
+date: 2022-10-02T20:21:06.078Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -68,6 +68,7 @@ Extended Features{.overline}
 - [Streamer.bot Decks](/en/Extended-Features/HTML-Decks)
 - [HTML-Overlay](/en/Extended-Features/HTML-Overlay)
 - [Extensions Wiki](https://extensions.streamer.bot)
+- [Streamer.bot External Plugins](/en/Plugins)
 
 </div>
 
