@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-09-30T12:41:45.561Z
+date: 2022-10-02T11:44:48.913Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -15,22 +15,18 @@ dateCreated: 2022-08-13T20:20:57.000Z
 ***
 
 ## Overview
-Features |
-:---|:---
-An action button that can be linked to an action within Streamer.bot |
+This plugin allows for running streamer.bot actions
 
-This Elgato StreamDeck plugin allows for the runing of actions in Streamer.bot
+This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
 
-You should be able to double click the `nate1280.streamerbot.streamDeckPlugin` file to have it install in Stream Deck
-
-NOTE: This plugin requires [Streamer.bot](https://streamer.bot) to work, and make sure the WebSocket server in **Streamer.bot** is enabled.
-
-> This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
-{.is-info}
+**Make sure that the that the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) is enabled in streamer.bot**
 
 ## Installation
-1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above
-## Configuration
+1. Close down the `Stream Deck` application
+1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above, this will automatically install the plugin
+3. Make sure that the `Streamer.bot Authentication` field matches your [WebSocket Server](/en/Servers-Clients/WebSocket-Server) settings
+
+![streamdeck-overview.png](/plugins/streamdeck/streamdeck-overview.png =450x)
 
 ---
 
