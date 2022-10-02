@@ -2,7 +2,7 @@
 title: Voice Attack Plugin
 description: The official Streamer.bot Voice Attack plugin
 published: false
-date: 2022-10-02T20:26:03.321Z
+date: 2022-10-02T20:27:30.372Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T20:25:48.092Z
@@ -15,7 +15,7 @@ dateCreated: 2022-10-02T20:25:48.092Z
 ***
 
 ## Overview
-This plugin allows you to execute Streamer.bot actions from your [Elgato StreamDeck](https://www.elgato.com/en/stream-deck)
+This plugin allows you to execute Streamer.bot actions with [Voice Attack](https://voiceattack.com/)
 
 This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
 
