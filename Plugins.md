@@ -2,7 +2,7 @@
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
 published: true
-date: 2022-10-02T00:51:28.417Z
+date: 2022-10-02T00:59:52.132Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T00:51:28.417Z
@@ -11,6 +11,8 @@ dateCreated: 2022-10-02T00:51:28.417Z
 List of all Plugins made for controlling streamer.bot actions
 
 These plugins don't work vice versa, so you can't activate a button in one of these applications
+
+All of these plugins require that the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) is enabled
 
 - [<img src="https://streamer.bot/img/integrations/touchportal.png"/>**TouchPortal**](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
 - [<img src="https://streamer.bot/img/integrations/streamdeck.png"/>**StreamDeck**](/en/Plugins/StreamDeck)
