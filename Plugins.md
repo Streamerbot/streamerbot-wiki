@@ -2,7 +2,7 @@
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
 published: true
-date: 2022-10-02T11:35:13.101Z
+date: 2022-10-02T11:45:45.364Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T00:51:28.417Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-02T00:51:28.417Z
 
 List of all Plugins made for controlling streamer.bot actions
 
-These plugins don't work vice versa, so you can't activate a button in one of these applications
+These plugins don't work vice versa, so you can't activate things in these applications from streamer.bot
 
 All of these plugins require that the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) is enabled in streamer.bot
 
