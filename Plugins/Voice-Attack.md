@@ -2,13 +2,13 @@
 title: Voice Attack Plugin
 description: The official Streamer.bot Voice Attack plugin
 published: false
-date: 2022-10-02T20:27:30.372Z
+date: 2022-10-02T20:31:25.878Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T20:25:48.092Z
 ---
 
-- [<i class="mdi mdi-download"></i> **Download *<i class="mdi mdi-github"></i> Download the latest version of this plugin***](https://github.com/nate1280/voiceattack-Streamer.bot/releases/latest/download/nate1280.streamerbot.streamDeckPlugin)
+- [<i class="mdi mdi-download"></i> **Download *<i class="mdi mdi-github"></i> Download the latest version of this plugin***](https://github.com/nate1280/voiceattack-Streamer.bot/releases/latest/download/StreamerBotActionRunner-1.0.zip)
 - [<i class="mdi mdi-chevron-right"></i> **Releases *<i class="mdi mdi-github"></i> View all versions of this plugin on GitHub***](https://github.com/nate1280/voiceattack-Streamer.bot/releases)
 {.btn-grid .list .dense .my-5}
 
@@ -17,9 +17,7 @@ dateCreated: 2022-10-02T20:25:48.092Z
 ## Overview
 This plugin allows you to execute Streamer.bot actions with [Voice Attack](https://voiceattack.com/)
 
-This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
-
-**Make sure that the that the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) is enabled in streamer.bot**
+**Make sure that the that the [UDP Server](/en/Servers-Clients/UDP-Server) is enabled in streamer.bot**
 
 ## Installation
 1. Close down the `StreamDeck` application
