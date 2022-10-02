@@ -2,7 +2,7 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-10-02T20:08:56.264Z
+date: 2022-10-02T20:10:52.374Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -22,7 +22,7 @@ This is more of a proof of concept then a fully realized plugin, while it does w
 **Make sure that the that the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) is enabled in streamer.bot**
 
 ## Installation
-1. Close down the `Stream Deck` application
+1. Close down the `StreamDeck` application
 1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above, this will automatically install the plugin
 3. Make sure that the `Streamer.bot Authentication` field matches your [WebSocket Server](/en/Servers-Clients/WebSocket-Server) settings
 
