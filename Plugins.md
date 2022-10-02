@@ -2,16 +2,13 @@
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
 published: true
-date: 2022-10-02T20:33:10.712Z
+date: 2022-10-02T20:34:49.682Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T00:51:28.417Z
 ---
 
 List of all plugins made for controlling Streamer.bot actions from external applications.
-
-> All of these plugins require that you have enabled the [WebSocket Server](/en/Servers-Clients/WebSocket-Server) in Streamer.bot
-{.is-warning}
 
 - [<img src="https://streamer.bot/img/integrations/deckboard.png"/>**Deckboard**](https://github.com/rivafarabi/streamerbot-deckboard)
 - [<img src="https://streamer.bot/img/integrations/streamdeck.png"/>**Elgato Stream Deck**](/en/Plugins/Stream-Deck)
