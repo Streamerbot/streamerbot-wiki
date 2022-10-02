@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2022-10-02T21:14:00.417Z
+date: 2022-10-02T21:16:04.758Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T19:54:55.723Z
@@ -17,6 +17,6 @@ dateCreated: 2022-07-09T19:54:55.723Z
 ## Streamer.bot Wiki
 The place for all documentation about streamer.bot
 
-Check the [homepage](/home)
+Check the [homepage](/home.md)
 
 </div>
