@@ -2,20 +2,20 @@
 title: StreamDeck Plugin
 description: The official Streamer.bot StreamDeck plugin
 published: true
-date: 2022-10-02T11:44:48.913Z
+date: 2022-10-02T20:08:56.264Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
 ---
 
-- [<i class="mdi mdi-download"></i> **Download *<i class="mdi mdi-github"></i> This button will download the latest version of the plugin***](https://github.com/nate1280/streamdeck-Streamer.bot/releases/latest/download/nate1280.streamerbot.streamDeckPlugin)
-- [<i class="mdi mdi-chevron-right"></i> **Releases *<i class="mdi mdi-github"></i> This links to the `Releases` page on GitHub***](https://github.com/nate1280/streamdeck-Streamer.bot/releases)
+- [<i class="mdi mdi-download"></i> **Download *<i class="mdi mdi-github"></i> Download the latest version of this plugin***](https://github.com/nate1280/streamdeck-Streamer.bot/releases/latest/download/nate1280.streamerbot.streamDeckPlugin)
+- [<i class="mdi mdi-chevron-right"></i> **Releases *<i class="mdi mdi-github"></i> View all versions of this plugin on GitHub***](https://github.com/nate1280/streamdeck-Streamer.bot/releases)
 {.btn-grid .list .dense .my-5}
 
 ***
 
 ## Overview
-This plugin allows for running streamer.bot actions
+This plugin allows you to execute Streamer.bot actions from your [Elgato StreamDeck](https://www.elgato.com/en/stream-deck)
 
 This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
 
