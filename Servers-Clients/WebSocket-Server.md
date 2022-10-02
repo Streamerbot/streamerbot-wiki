@@ -2,7 +2,7 @@
 title: WebSocket Server
 description: Configure the internal Streamer.bot WebSocket API
 published: true
-date: 2022-07-22T19:30:50.307Z
+date: 2022-10-02T11:48:39.981Z
 tags: websocket, api
 editor: markdown
 dateCreated: 2021-08-25T21:37:04.299Z
@@ -14,7 +14,7 @@ Streamer.bot has an internal WebSocket server and API that can be enabled in the
 
 This allows you to connect to your Streamer.bot application using any WebSocket client and react to events in real time.
 
-> **WARNING**
+> **Warning**
 > Your client must [Subscribe](/Servers-Clients/WebSocket-Server/Requests#subscribe) to any events it wishes to receive from Streamer.bot
 {.is-warning}
 
