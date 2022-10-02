@@ -1,8 +1,8 @@
 ---
 title: Voice Attack Plugin
 description: The official Streamer.bot Voice Attack plugin
-published: true
-date: 2022-10-02T20:25:48.092Z
+published: false
+date: 2022-10-02T20:26:03.321Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T20:25:48.092Z
