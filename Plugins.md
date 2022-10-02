@@ -1,16 +1,20 @@
 ---
 title: Streamer.bot External Plugins
 description: Links and Documentation for all the External Streamer.bot plugins
-published: false
-date: 2022-09-30T12:41:02.487Z
+published: true
+date: 2022-10-02T00:51:28.417Z
 tags: 
 editor: markdown
-dateCreated: 2022-08-13T13:50:09.153Z
+dateCreated: 2022-10-02T00:51:28.417Z
 ---
 
-- [<img src="/plugins/streamdeck/logo.png"/>**StreamDeck**](/en/Plugins/StreamDeck)
-- [<img src="/plugins/touchportal/logo.png"/>**TouchPortal**](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
-- [<img src="/plugins/voice-attack/logo.png"/>**Voice Attack**](/en/Plugins/Voice-Attack){.disabled}
-- [<img src="/plugins/loupedeck/logo.png"/>**LoupeDeck**](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot/releases)
-- [<img src="/plugins/deckboard/logo.png"/>**Deckboard**](https://github.com/rivafarabi/streamerbot-deckboard)
+List of all Plugins made for controlling streamer.bot actions
+
+These plugins don't work vice versa, so you can't activate a button in one of these applications
+
+- [<img src="https://streamer.bot/img/integrations/touchportal.png"/>**TouchPortal**](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
+- [<img src="https://streamer.bot/img/integrations/streamdeck.png"/>**StreamDeck**](/en/Plugins/StreamDeck)
+- [<img src="https://streamer.bot/img/integrations/voiceattack.png"/>**Voice Attack**](/en/Plugins/Voice-Attack){.disabled}
+- [<img src="https://streamer.bot/img/integrations/deckboard.png"/>**Deckboard**](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img src="https://streamer.bot/img/integrations/loupedeck.jpg"/>**LoupeDeck**](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot/releases)
 {.btn-grid .list .my-5}
