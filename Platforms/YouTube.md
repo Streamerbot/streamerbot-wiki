@@ -2,7 +2,7 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-08-12T20:27:20.188Z
+date: 2022-10-03T00:51:51.424Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -19,26 +19,26 @@ dateCreated: 2022-05-13T04:09:31.936Z
 ## Account
 First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
 
-![youtube_tab_.png](/youtube/youtube_tab_.png){.align-center}
+![youtube_tab_.png](/youtube/youtube_tab_.png)
 
 
 
 Now a third row of tabs will appear, Navigate to the `Account` Tab in this YouTube section. It should look like the one below. 
 
-![yt_account_new.png](/youtube/yt_account_new.png){.align-center}
+![yt_account_new.png](/youtube/yt_account_new.png)
 
 Next click the `Sign in with Google` button your default browser will open. In the browser you will need to login to Google. when you have done this, you will be presented with a similar screen to the one below here you will need to select your "YouTube" Account to proceed to the permissions page.
 
-![login_to_google.png](/youtube/login_to_google.png){.align-center}
-![permissions_.png](/youtube/permissions_.png){.align-center}
+![login_to_google.png](/youtube/login_to_google.png)
+![permissions_.png](/youtube/permissions_.png)
 
 On the permissions page it will show you have Streamer.bot has access to if you’re OK with these permissions click `Allow` to continue. When the login is successful you will get this window in the browser at this point you can close the tab or browser window. 
 
-![login_success_.png](/youtube/login_success_.png){.align-center}
+![login_success_.png](/youtube/login_success_.png)
 
 Back to Streamer.bot it should now be linked to YouTube account don’t forget to put a check mark next to the auto connect. Click the `Save` button. 
 
-![linked_to_yt_new.png](/youtube/linked_to_yt_new.png){.align-center}{.align-center}
+![linked_to_yt_new.png](/youtube/linked_to_yt_new.png)
 
 That is, it you’re ready to level up that YouTube Streams.
 
@@ -52,7 +52,7 @@ Now that Streamer bot is connected to your YouTube Account you can edit the stre
 
 To get to this tab first, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this navigate to the `Stream Info` tab. 
 
-![stream_info_offline_new.png](/youtube/stream_info_offline_new.png){.align-center}
+![stream_info_offline_new.png](/youtube/stream_info_offline_new.png)
 
 This is what it will look like when your YouTube stream is offline. As you can see in the image above the fields are greyed out. This is Normal behaviour. When you go live on YouTube these fields will become editable. 
 
@@ -67,7 +67,7 @@ This is the part you have been waiting for what can Streamer bot do with your Yo
 
 To get to this tab first, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this, then navigate to the `Events` tab. 
 
-![yt_events_new.png](/youtube/yt_events_new.png){.align-center}
+![yt_events_new.png](/youtube/yt_events_new.png)
 
 
 This tab is where you can assign the magic of Streamer bot to each of the events. 
@@ -84,7 +84,7 @@ This tab is where you can assign the magic of Streamer bot to each of the events
 Assigning an action to these events works in the same way you have done with the Twitch actions. 
 Click the ` <No Action Selected> ` button under the event that you want to assign an action to. A pop-up window will appear like this one below.
 
-![select_action_yt.png](/youtube/select_action_yt.png){.align-center}
+![select_action_yt.png](/youtube/select_action_yt.png)
 
 Select the action you want to assign to the selected event. and then click `Select` this will now tie the action to the YouTube event. The `Clear` button will unbind that action from the event. 
 
