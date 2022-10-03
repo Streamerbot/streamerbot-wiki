@@ -2,7 +2,7 @@
 title: Flip Source
 description: 
 published: true
-date: 2022-09-06T17:21:05.822Z
+date: 2022-10-03T21:35:47.362Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -16,7 +16,7 @@ Transforms the source to be inverted horizontally, vertically or both
 ## Configuration
 ### Connection
 
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from.
+Any OBS connections you have configured in the OBS tab will be listed to choose from.
 
 ### Scene
 A dropdown list of available scenes will populate for selection, but the scene name can also be entered manually.
