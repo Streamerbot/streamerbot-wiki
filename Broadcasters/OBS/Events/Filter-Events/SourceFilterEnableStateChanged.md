@@ -2,7 +2,7 @@
 title: SourceFilterEnableStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T16:09:25.161Z
+date: 2022-10-03T21:10:26.985Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:09:22.980Z
@@ -16,7 +16,7 @@ Name | Type | Description |
 ----:|:----:|:------------|
 `obsEvent.sourceName` | `String`{.datatype} | Name of the source the filter is on
 `obsEvent.filterName` | `String`{.datatype} | Name of the filter
-`obsEvent.Boolean` | `datatype`{.datatype} | Whether the filter is enabled
+`obsEvent.filterEnabled` | `Boolean`{.datatype} | Whether the filter is enabled
 
 ## Data Fields
 :---|:---:|
