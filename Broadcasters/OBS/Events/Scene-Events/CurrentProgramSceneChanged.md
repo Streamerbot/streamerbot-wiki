@@ -2,7 +2,7 @@
 title: CurrentProgramSceneChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-09-05T22:46:26.154Z
+date: 2022-10-05T11:49:11.514Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:38:18.513Z
@@ -27,6 +27,7 @@ Name | Type | Description |
 if ("obsEvent.sceneName" Equals "brb") do "disable channel points action" then "break"
 if ("obsEvent.sceneName" Equals "game") do "enable channel points action" then "break"
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
