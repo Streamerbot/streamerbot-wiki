@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-05T14:59:42.010Z
+date: 2022-10-05T15:01:59.833Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -49,11 +49,11 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch sub-action Set Channel Game, now adds game variables if you've picked a game from the list
 * **Streamer.bot**'s built in websocket server can now listen on any address, just enter `*` for the ip address
 * Custom websocket servers can now listen on any address, just enter `*` for the ip address
-* Since Hosts are goiing away soon on Twitch, they have been remoeved from **Streamer.bot**
+* Since Hosts are going away soon on Twitch, they have been removed from **Streamer.bot**
 * Better handling of Twitch disconnects, this is part of ongoing improvements
-* Timed Action linecounts now support YouTube chat, at the moment, line counts work for either service, if you have both connected, line counts will not be used
+* Timed Action line counts now support YouTube chat, at the moment, line counts work for either service, if you have both connected, line counts will not be used
 * Update endpoint used to get a users current chatters to the new GetChatters API
-* Decreate present viewers tick to 1 minute, with the change to the new GetChatters API
+* Decrease present viewers tick to 1 minute, with the change to the new GetChatters API
 * Remove LootDevil support, as they closed down
 {.changelog-updates}
 
@@ -118,7 +118,7 @@ Name | Description
 {.is-warning}
 
 ### Completed Event
-When donations come through, a check is made if your current donation amount matches what your goal is, and will send a compelted event if this is true.
+When donations come through, a check is made if your current donation amount matches what your goal is, and will send a completed event if this is true.
 
 Variable that are included are as follows:
 
@@ -144,7 +144,7 @@ Available variables:
 Name | Description
 ----:|:------------
 `shoutoutId` | Twitch's internal ID for the shoutout
-`targetUserId` | The user'd id
+`targetUserId` | The user's id
 `targetUserLogin` | The user's login name
 `targetUserDisplayName` | The user's display name
 `targetUserPrimaryColorHex` | The user's primary color in hex
@@ -157,7 +157,7 @@ By using the **Streamer.bot** website, you can now add webhooks to your Shopify 
 > Supported webhook events include `Order creation` and `Order payment`
 {.is-warning}
 
-There are 2 new events within **Streamer.bot** that you can associate an action with, `Order Created`and `Order Paid`.  Both of these events will provide you with almost all the information that is proveded by the webhook.
+There are 2 new events within **Streamer.bot** that you can associate an action with, `Order Created`and `Order Paid`.  Both of these events will provide you with almost all the information that is provided by the webhook.
 
 The best way to check the variables, is to setup your webhooks, and assign an empty action, then check the available variables in the `Action History` tab under `Action Queues`
 
@@ -170,7 +170,7 @@ Added a new sub-action that lets you set the color of a color source within OBS.
 ![obs-set-color-source-color-01.png](/obs-set-color-source-color-01.png)
 
 ### OBS Get Status
-This will add upto 3 new variables to your action for the selected OBS connection.
+This will add up to 3 new variables to your action for the selected OBS connection.
 
 Name | Description
 ----:|:------------
