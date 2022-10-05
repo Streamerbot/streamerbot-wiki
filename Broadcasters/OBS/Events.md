@@ -2,7 +2,7 @@
 title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-10-05T12:04:14.575Z
+date: 2022-10-05T12:08:43.534Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -122,7 +122,7 @@ Events related to Ui changes{.subtitle}
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/en/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
 {.btn-grid .list .dense .my-5}
 
-## Additional Request Info
+## Additional Event Info
 Events that are regularly used{.subtitle}
 * [**Stream Start/Stop Event *The stream has started or stopped***](/en/Broadcasters/OBS/Events/Output-Events/StreamStateChanged)
 * [**OBS Scene Changed Event *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentProgramSceneChanged)
