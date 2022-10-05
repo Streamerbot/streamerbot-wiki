@@ -2,7 +2,7 @@
 title: Stream Start/Stop
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-05T11:51:46.541Z
+date: 2022-10-05T11:54:20.129Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-05T11:43:52.981Z
@@ -23,6 +23,12 @@ Name | Type | Description |
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
 
+## Example
+
+```json
+if ("obsEvent.sceneName" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "disable channel points action" then "break"
+if ("obsEvent.sceneName" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "enable channel points action" then "break"
+```
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
