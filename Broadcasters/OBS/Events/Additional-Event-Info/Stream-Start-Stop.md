@@ -2,7 +2,7 @@
 title: Stream Start/Stop
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-05T11:54:38.373Z
+date: 2022-10-05T11:55:24.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-05T11:43:52.981Z
@@ -26,8 +26,8 @@ Name | Type | Description |
 ## Example
 
 ```json
-if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "disable channel points action" then "break"
-if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "enable channel points action" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "Send Stream Started Message To Discord Webhook Action" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "Send Stream Ended Message To Discord Webhook Action" then "break"
 ```
 ---
 
