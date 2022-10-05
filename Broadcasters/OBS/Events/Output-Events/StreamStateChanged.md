@@ -2,7 +2,7 @@
 title: StreamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-09-16T16:44:43.808Z
+date: 2022-10-05T11:56:21.967Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:05:38.373Z
@@ -29,6 +29,12 @@ Name | Type | Description |
 | Complexity Rating: | <span class="stars stars--2"></span>
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
+
+## Example
+```json
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "Send Stream Started Message To Discord Webhook Action" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "Send Stream Ended Message To Discord Webhook Action" then "break"
+```
 
 ---
 
