@@ -2,21 +2,14 @@
 title: Stream Start/Stop
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-05T11:43:52.981Z
+date: 2022-10-05T11:51:46.541Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-05T11:43:52.981Z
 ---
 
 ## Overview
-The state of the stream output has changed.
-
-Output States:
-* OBS_WEBSOCKET_OUTPUT_STOPPING
-* OBS_WEBSOCKET_OUTPUT_STOPPED
-* OBS_WEBSOCKET_OUTPUT_STARTING
-* OBS_WEBSOCKET_OUTPUT_STARTED
-{.links-list}
+**Use the `StreamStateChanged` event**
 
 ## Variables
 Name | Type | Description | 
