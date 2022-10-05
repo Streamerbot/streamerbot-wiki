@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-09-30T16:05:47.141Z
+date: 2022-10-05T14:59:42.010Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 Upcoming changes in the next release!{.subtitle}
  
 * Typos
+* Blocking state of a queue was not updating visually
 * OBS Take Screenshot sub-action was halting an action when used with OBS websocket v5
 * Lumia Stream Send Command sub-action dialog would crash if there are no commands
 * Lumia Stream disconnect button would not work
