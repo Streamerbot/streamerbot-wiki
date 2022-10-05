@@ -2,7 +2,7 @@
 title: CurrentProgramSceneChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-05T11:49:11.514Z
+date: 2022-10-05T11:53:44.569Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:38:18.513Z
@@ -24,8 +24,8 @@ Name | Type | Description |
 
 ## Example
 ```json
-if ("obsEvent.sceneName" Equals "brb") do "disable channel points action" then "break"
-if ("obsEvent.sceneName" Equals "game") do "enable channel points action" then "break"
+if ("obsEvent.outputState" Equals "brb") do "Send Stream Started Message To Discord Webhook" then "break"
+if ("obsEvent.outputState" Equals "game") do "Send Stream Ended Message To Discord Webhook" then "break"
 ```
 
 ---
