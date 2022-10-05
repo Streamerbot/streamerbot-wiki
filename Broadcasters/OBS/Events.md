@@ -2,7 +2,7 @@
 title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-10-05T12:02:25.203Z
+date: 2022-10-05T12:03:13.430Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -123,7 +123,7 @@ Events related to Ui changes{.subtitle}
 {.btn-grid .list .dense .my-5}
 
 ## Additional Request Info
-This are examples for requests that existed in privious version of the obs websocket{.subtitle}
+Events that are regularly used{.subtitle}
 * [**Stream Start/Stop Ecent *The stream has started or stopped***](/en/Broadcasters/OBS/Events/Output-Events/StreamStateChanged)
 * [**OBS Scene Changed Event *The current program scene has changed***](/en/Broadcasters/OBS/Events/Scene-Events/CurrentProgramSceneChanged)
 {.btn-grid .list .dense .my-5}
