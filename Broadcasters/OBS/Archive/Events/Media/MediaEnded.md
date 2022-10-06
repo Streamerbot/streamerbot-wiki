@@ -1,6 +1,6 @@
 ---
 title: MediaEnded
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:07:44.689Z
 tags: 

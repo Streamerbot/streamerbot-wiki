@@ -1,14 +1,12 @@
 ---
 title: MediaPrevious
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:01.687Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:32:27.748Z
 ---
-
-# MediaPrevious
 
 ## Variables
 

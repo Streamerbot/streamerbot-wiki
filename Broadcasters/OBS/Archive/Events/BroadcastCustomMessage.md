@@ -1,6 +1,6 @@
 ---
 title: BroadcastCustomMessage
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-19T17:55:29.457Z
 tags: 

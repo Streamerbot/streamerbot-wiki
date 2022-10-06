@@ -1,14 +1,12 @@
 ---
 title: MediaRestarted
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:05.417Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:26:02.254Z
 ---
-
-# MediaRestarted
 
 ## Variables
 

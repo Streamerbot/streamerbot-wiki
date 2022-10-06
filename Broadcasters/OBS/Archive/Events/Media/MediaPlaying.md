@@ -1,14 +1,12 @@
 ---
 title: MediaPlaying
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:07:57.238Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:20:32.304Z
 ---
-
-# MediaPlaying
 
 ## Variables
 

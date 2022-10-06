@@ -1,14 +1,12 @@
 ---
 title: SourceOrderChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:09:36.696Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:47:50.777Z
 ---
-
-# SourceOrderChanged
 
 ## Variables
 

@@ -1,6 +1,6 @@
 ---
 title: MediaNext
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:07:49.605Z
 tags: 

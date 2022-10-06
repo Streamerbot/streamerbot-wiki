@@ -1,14 +1,12 @@
 ---
 title: RecordingPaused
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:24.428Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T18:11:35.645Z
 ---
-
-# RecordingPaused
 
 ## Variables
 

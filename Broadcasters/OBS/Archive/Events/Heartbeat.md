@@ -1,14 +1,12 @@
 ---
 title: Heartbeat
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-20T22:00:58.261Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:47:31.411Z
 ---
-
-# Heartbeat
 
 ## Variables
 

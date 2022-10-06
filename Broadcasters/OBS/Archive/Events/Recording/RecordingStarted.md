@@ -1,14 +1,12 @@
 ---
 title: RecordingStarted
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:32.416Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:43:16.510Z
 ---
-
-# RecordingStarted
 
 ## Variables
 

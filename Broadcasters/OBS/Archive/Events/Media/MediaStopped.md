@@ -1,14 +1,12 @@
 ---
 title: MediaStopped
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:12.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:27:45.471Z
 ---
-
-# MediaStopped
 
 ## Variables
 

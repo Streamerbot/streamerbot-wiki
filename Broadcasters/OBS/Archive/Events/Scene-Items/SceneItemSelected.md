@@ -1,14 +1,12 @@
 ---
 title: SceneItemSelected
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:09:21.645Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:18:30.715Z
 ---
-
-# SceneItemSelected
 
 ## Variables
 
