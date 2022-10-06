@@ -2,8 +2,8 @@
 title: Logic Sub-Actions
 description: Sub-Actions Reference
 published: true
-date: 2022-07-28T20:21:42.200Z
-tags: logic, if, else, set argument, break, global variables, subactions
+date: 2022-10-06T23:54:41.965Z
+tags: subactions, logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
 ---
@@ -188,6 +188,6 @@ This is a diagnostic Sub-action that will cancel execution of the action
 
 ---
 
--[<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
--[<i class="mdi mdi-network primary--text"></i> **Network *Sub-actions reference for network requests***](/en/Sub-Actions/Network)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-network primary--text"></i> **Network *Sub-actions reference for network requests***](/en/Sub-Actions/Network)
 {.btn-grid .my-5}
