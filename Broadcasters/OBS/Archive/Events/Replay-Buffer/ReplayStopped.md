@@ -1,14 +1,12 @@
 ---
 title: ReplayStopped
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:56.142Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:12:14.645Z
 ---
-
-# ReplayStopped
 
 ## Variables
 

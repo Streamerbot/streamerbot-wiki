@@ -1,14 +1,12 @@
 ---
 title: PreviewSceneChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:11:10.962Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T19:12:25.206Z
 ---
-
-# PreviewSceneChanged
 
 ## Variables
 

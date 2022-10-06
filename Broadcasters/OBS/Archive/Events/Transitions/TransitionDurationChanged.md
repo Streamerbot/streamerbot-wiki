@@ -1,14 +1,12 @@
 ---
 title: TransitionDurationChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:11:28.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:34:57.760Z
 ---
-
-# TransitionDurationChanged
 
 ## Variables
 

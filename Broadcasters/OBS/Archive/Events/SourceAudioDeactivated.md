@@ -1,14 +1,12 @@
 ---
 title: SourceAudioDeactivated
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:00.965Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:09:24.345Z
 ---
-
-# SourceAudioDeactivated
 
 ## Variables
 

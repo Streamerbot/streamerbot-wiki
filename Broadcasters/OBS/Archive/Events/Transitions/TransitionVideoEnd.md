@@ -1,14 +1,12 @@
 ---
 title: TransitionVideoEnd
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:11:40.954Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:45:18.870Z
 ---
-
-# TransitionVideoEnd
 
 ## Variables
 

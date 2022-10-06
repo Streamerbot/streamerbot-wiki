@@ -1,14 +1,12 @@
 ---
 title: Scenes
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-17T22:26:31.402Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T18:39:05.038Z
 ---
-
-# Scene
 Scene change & collection events{.subtitle}
 * [**SwitchScenes *Event triggered **before** a scene change***](/en/Broadcasters/OBS/Archive/Events/Scenes/SwitchScenes)
 * [**ScenesChanged *Event triggered **after** a scene change***](/en/Broadcasters/OBS/Archive/Events/Scenes/ScenesChanged)

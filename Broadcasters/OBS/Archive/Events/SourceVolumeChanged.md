@@ -1,14 +1,12 @@
 ---
 title: SourceVolumeChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:45.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T14:08:48.776Z
 ---
-
-# SourceVolumeChanged
 
 ## Variables
 

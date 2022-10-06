@@ -1,14 +1,12 @@
 ---
 title: Recording
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-17T22:25:13.474Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T18:38:46.909Z
 ---
-
-# Recording
 Events related to current recording status{.subtitle}
 * [**RecordingStarting *A request to start recording has been issued***](/en/Broadcasters/OBS/Archive/Events/Recording/RecordingStarting)
 * [**RecordingStarted *Recording started successfully***](/en/Broadcasters/OBS/Archive/Events/Recording/RecordingStarted)

@@ -1,14 +1,12 @@
 ---
 title: StreamStarting
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:53.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T10:15:12.315Z
 ---
-
-# StreamStarting
 
 ## Variables
 

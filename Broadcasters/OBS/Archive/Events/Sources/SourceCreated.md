@@ -1,14 +1,12 @@
 ---
 title: SourceCreated
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:13.084Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T13:55:54.310Z
 ---
-
-# SourceCreated
 
 ## Variables
 

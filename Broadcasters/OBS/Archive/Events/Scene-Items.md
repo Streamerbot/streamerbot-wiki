@@ -1,6 +1,6 @@
 ---
 title: Scene Items
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-17T22:25:57.912Z
 tags: 

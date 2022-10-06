@@ -1,14 +1,12 @@
 ---
 title: Streaming
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-17T22:27:40.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T18:39:16.364Z
 ---
-
-# Stream
 Events related to current streaming status{.subtitle}
 * [**StreamStarting *A request to start streaming has been issued***](/en/Broadcasters/OBS/Archive/Events/Streaming/StreamStarting)
 * [**StreamStarted *Streaming started successfully***](/en/Broadcasters/OBS/Archive/Events/Streaming/StreamStarted)

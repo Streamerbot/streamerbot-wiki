@@ -1,14 +1,12 @@
 ---
 title: SceneItemVisibilityChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:09:29.314Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:45:20.166Z
 ---
-
-# SceneItemVisibilityChanged
 
 ## Variables
 

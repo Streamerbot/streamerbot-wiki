@@ -1,14 +1,12 @@
 ---
 title: SourceFiltersReordered
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:33.948Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:07:15.707Z
 ---
-
-# SourceFiltersReordered
 
 ## Variables
 

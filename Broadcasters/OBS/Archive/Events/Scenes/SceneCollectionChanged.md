@@ -1,14 +1,12 @@
 ---
 title: SceneCollectionChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:09:40.564Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:58:18.909Z
 ---
-
-# SceneCollectionChanged
 
 ## Variables
 

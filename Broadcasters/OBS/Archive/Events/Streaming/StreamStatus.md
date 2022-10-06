@@ -1,14 +1,12 @@
 ---
 title: StreamStatus
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:57.908Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T13:51:20.162Z
 ---
-
-# StreamStatus
 
 ## Variables
 

@@ -1,14 +1,12 @@
 ---
 title: SourceAudioMixersChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:10:05.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:35:36.718Z
 ---
-
-# SourceAudioMixersChanged
 
 ## Variables
 

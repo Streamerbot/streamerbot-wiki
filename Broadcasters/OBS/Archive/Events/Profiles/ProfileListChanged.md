@@ -1,14 +1,12 @@
 ---
 title: ProfileListChanged
-description: OBS Studio Events Reference
+description: OBS Studio Events Reference (Archive)
 published: true
 date: 2022-07-18T16:08:20.714Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:34:31.158Z
 ---
-
-# ProfileListChanged
 
 ## Variables
 
