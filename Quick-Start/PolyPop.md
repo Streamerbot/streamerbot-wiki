@@ -2,15 +2,11 @@
 title: Quick Start - PolyPop
 description: Set up Streamer.bot to remotely control your OBS instance
 published: false
-date: 2022-10-06T00:52:07.331Z
+date: 2022-10-06T00:53:06.167Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-06T00:52:07.331Z
 ---
-
-> **Note:**
-> OBS WebSocket *v5+*{.obs-version-badge} and *v4.9+*{.obs-version-badge} are both supported but the documentation is in *v5+*{.obs-version-badge}
-{.is-info}
 
 ## Prerequisites
 To enable remote control of your **OBS Studio** instance from **Streamer.bot** you must first install the OBS WebSocket Plugin
