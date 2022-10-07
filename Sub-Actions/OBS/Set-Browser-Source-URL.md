@@ -2,21 +2,15 @@
 title: Set Browser Source URL
 description: 
 published: true
-date: 2022-10-02T12:09:27.129Z
+date: 2022-10-07T08:52:03.953Z
 tags: obs
 editor: markdown
 dateCreated: 2022-06-28T02:08:54.022Z
 ---
 
-# Set Browser Source URL
-## Sub-Action
+## Overview
 
-![set-browser-source-url-settings.png](/set-browser-source-url-settings.png)
-
-## C# Available Methods
-```csharp
-void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
-```
+![overview.png](/Sub-Actions/OBS/set-browser-source-url/overview.png =400x)
 
 ---
 
