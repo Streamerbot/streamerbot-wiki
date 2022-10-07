@@ -2,7 +2,7 @@
 title: Take Screenshot
 description: Sub-Action to take a screenshot in OBS
 published: true
-date: 2022-09-10T21:21:44.274Z
+date: 2022-10-07T08:47:26.255Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
@@ -11,7 +11,7 @@ dateCreated: 2021-09-11T00:20:13.509Z
 ## Overview
 Makes a screenshot from a `scene` or `source`
 
-![overview.png](/broadcasters/obs/sub-actions/take-screenshot/overview.png =400x)
+![overview.png](/Sub-Actions/OBS/take-screenshot/overview.png =400x)
 
 ## Configuration
 ### Scene
