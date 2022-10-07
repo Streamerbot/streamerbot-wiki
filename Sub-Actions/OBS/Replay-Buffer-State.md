@@ -2,7 +2,7 @@
 title: Set Replay Buffer State
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-09-06T17:55:51.516Z
+date: 2022-10-07T08:46:45.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-06T17:55:51.516Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-06T17:55:51.516Z
 ## Overview
 `Start`, `Stop` or `Save` your Replay Buffer
 
-![overview.png](/broadcasters/obs/sub-actions/set-replay-buffer-state/overview.png =400x)
+![overview.png](/Sub-Actions/OBS/set-replay-buffer-state/overview.png =400x)
 
 ## Configuration
 ### State
