@@ -2,17 +2,15 @@
 title: Set Source Audio Track State
 description: OBS Studio Sub-Actions Reference
 published: true
-date: 2022-07-12T17:51:15.155Z
+date: 2022-10-07T08:57:41.918Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-12T17:51:11.423Z
 ---
 
-*Requires obs-websocket 4.9.1*{.version-badge}
-
 ## Overview
 
-Coming soon
+![overview.png](/Sub-Actions/OBS/set-source-audio-track-state/overview.png)
 
 ---
 
