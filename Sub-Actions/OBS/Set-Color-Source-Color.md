@@ -2,7 +2,7 @@
 title: Set Color Source Color
 description: OBS Studio Sub-Actions reference
 published: true
-date: 2022-10-07T12:54:34.140Z
+date: 2022-10-07T12:55:20.388Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-02T02:53:25.130Z
@@ -24,7 +24,7 @@ You can choose between all your sources here.
 This get a random HEX color each time this sub-action runs.
 
 ### Color
-This uses `#RRGGBBAA` the `AA` stand for alpha and that's the opacity.
+This uses `#RRGGBBAA` the `AA` stand for alpha and is used for opacity.
 
 ### Pick Random
 This picks a random color once. 
