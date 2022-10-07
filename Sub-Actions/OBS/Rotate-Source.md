@@ -2,17 +2,19 @@
 title: Rotate Source
 description: 
 published: true
-date: 2021-08-28T01:58:27.307Z
+date: 2022-10-07T08:50:51.033Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:46.410Z
 ---
 
+## Overview
 Sets the rotation tranformation angle of a source to the specified angle
 **NOTE** Rotation occours around the alignment position defined in OBS itself. By default this is the top left corner of the source not the center
 
-![Rotate Source](/119569573-d292f800-bda6-11eb-8d36-bd9148d963b8.png)
+![overview.png](/Sub-Actions/OBS/rotate-source/overview.png =400x)
 
+## Configuration
 ### Connection
 
 Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
