@@ -2,12 +2,17 @@
 title: Get Scene Item Properties
 description: 
 published: true
-date: 2022-10-06T21:54:47.032Z
+date: 2022-10-07T09:15:16.527Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T01:36:29.236Z
 ---
 
+## Overview
+
+![overview.png](/Sub-Actions/OBS/get-scene-item-properties/overview.png =400x)
+
+## Variables
 Name | Type | Description
 ----:|:----:|:------------
 `props.bounds.alignment` | `Number`{.datatype} | Alignment of the bounding box
