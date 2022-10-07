@@ -2,7 +2,7 @@
 title: OBS Studio Sub-Actions
 description: Reference of all OBS Studio Sub-Actions
 published: true
-date: 2022-10-07T12:35:08.368Z
+date: 2022-10-07T12:39:28.982Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-10T18:49:11.651Z
@@ -25,7 +25,7 @@ dateCreated: 2022-07-10T18:49:11.651Z
 * [<i class="mdi mdi-format-text text--obs"></i>**Set GDI Text *Change the text shown in a GDI+ source***](/Sub-Actions/OBS/Set-GDI-Text)
 * [<i class="mdi mdi-image text--obs"></i>**Set Image Source File *Set filepath for Image source***](/Sub-Actions/OBS/Set-Image-Source-File)
 * [<i class="mdi mdi-camera-iris text--obs"></i>**Set Media Source File *Set filepath for Media source***](/Sub-Actions/OBS/Set-Media-Source-File)
-* [<i class="mdi mdi-camera-iris text--obs"></i>**Set Media State *Media playback controls for specified source***](/Sub-Actons/OBS/Set-Media-State)
+* [<i class="mdi mdi-camera-iris text--obs"></i>**Set Media State *Media playback controls for specified source***](/Sub-Actions/OBS/Set-Media-State)
 * [<i class="mdi mdi-group text--obs"></i>**Set Random Group Source Visible *Set a random source in an OBS group to `Visible`***](/Sub-Actions/OBS/Set-Random-Group-Source-Visible)
 * [<i class="mdi mdi-speaker text--obs"></i>**Set Source Audio Track State *Enable / Disable an OBS audio track***](/Sub-Actions/OBS/Source-Audio-Track-State)
 * [<i class="mdi mdi-speaker text--obs"></i>**Set Source Mute State *Mute / Unmute a source***](/Sub-Actions/OBS/Set-Source-Mute-State)
