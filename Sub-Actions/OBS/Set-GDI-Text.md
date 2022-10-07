@@ -2,16 +2,16 @@
 title: Set GDI Text
 description: 
 published: true
-date: 2021-08-28T01:59:34.865Z
+date: 2022-10-07T08:52:59.160Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:54.019Z
 ---
 
-
-![GDI Text Source](/119720707-39291c00-be62-11eb-9145-66cbc7359096.png)
-
+## Overview
 Set the text string to appear in a GDI Text Source
+
+![overview.png](/Sub-Actions/OBS/set-gdi-text/overview.png)
 
 ### Connection
 
