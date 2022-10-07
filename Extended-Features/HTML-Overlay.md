@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-09-13T23:52:05.797Z
+date: 2022-10-07T00:48:53.433Z
 tags: html overlay, extended features
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -24,17 +24,6 @@ It also comes preconfigured to rain emotes down over the content on screen. [VRF
 > Special thanks to Ruirize for the development.
 {.is-info}
 
-
-
-
-## Download
-
-Download the HTML Overlay application from and unzip the conents anywhere you like. 
-
-- [<i class="mdi mdi-cloud-download"></i> **HTML Overlay.zip *Updated 2022-07-09***](https://cdn.streamer.bot/html-overlay/HTML%20Overlay.zip)
-{.btn-grid .my-5}
-
-**This should not go directly into your Streamer.bot folder, but a subfolder inside it is fine.**
 
 ## Usage
 In the HTML Overlay folder, simply run `HTMLWindowsOverlay.exe`. You will see a quick dark flash and then normal. An icon (like the image at top of this page) should now be in your system tray.
