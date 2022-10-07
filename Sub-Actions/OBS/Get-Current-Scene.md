@@ -2,23 +2,25 @@
 title: Get Current Scene
 description: 
 published: true
-date: 2022-07-15T18:29:08.985Z
+date: 2022-10-07T09:14:19.439Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:22.695Z
 ---
 
+## Overview
 Sets the variable `currentScene` to the name of the curently broadcasting scene from the chosen OBS connection.
 
-### Connection
+![overview.png](/Sub-Actions/OBS/get-current-scene/overview.png =400x)
 
+## Configuration
+### Connection
 Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
 
 ## Variables
-
 Name | Description
 ----:|:------------
-| `currentScene` | Name of the currently active scene at the time of execution
+`currentScene` | Name of the currently active scene at the time of execution
 
 ---
 
