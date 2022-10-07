@@ -2,13 +2,15 @@
 title: Get Status
 description: 
 published: true
-date: 2022-10-07T12:29:58.608Z
+date: 2022-10-07T12:30:37.940Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:29:58.608Z
 ---
 
 ## Overview
+Get your OBS Studio output status
+
 ![overview.png](/Sub-Actions/OBS/get-status/overview.png =400x)
 
 ## Variables
