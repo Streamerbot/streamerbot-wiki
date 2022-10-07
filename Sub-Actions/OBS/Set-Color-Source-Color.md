@@ -2,14 +2,16 @@
 title: Set Color Source Color
 description: OBS Studio Sub-Actions reference
 published: true
-date: 2022-09-02T03:10:54.184Z
+date: 2022-10-07T12:54:34.140Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-02T02:53:25.130Z
 ---
 
 ## Overview
-![overview.png](/broadcasters/obs/sub-actions/set-color-source-color/overview.png)
+Set a random or a HEX color for your color sources
+
+![overview.png](/Sub-Actions/OBS/set-color-source-color/overview.png =400x)
 
 ## Configuration
 ### Scene
