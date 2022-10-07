@@ -2,7 +2,7 @@
 title: Flip Source
 description: 
 published: true
-date: 2022-10-03T21:35:47.362Z
+date: 2022-10-07T08:48:15.313Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-25T21:33:18.885Z
 ## Overview
 Transforms the source to be inverted horizontally, vertically or both
 
-![Flip Source](/119571382-30284400-bda9-11eb-9b22-cff633b53275.png)
+![overview.png](/Sub-Actions/OBS/flip-source/overview.png =400x)
 
 ## Configuration
 ### Connection
