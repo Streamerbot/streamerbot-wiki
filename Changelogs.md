@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-05T16:27:45.386Z
+date: 2022-10-07T00:04:33.644Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -29,6 +29,10 @@ Upcoming changes in the next release!{.subtitle}
 * Some logging was not behaving correctly, should behave now
 * Some error may be caught properly now, and longer full crash **Streamer.bot**
 * DoAction and C# RunAction should now create a new argument dictionary when not running immediately, no longer sharing it
+* <kbd>CTRL+D</kbd> shortcut on sub-actions will not duplicate a group correctly
+* VoiceMod Set BVackground Effect State should work correctly now
+* C# method SetChannelGame should no longer throw an exception when used
+* Comment sub-action should behave correctly now (no longer disappearing, or moving around on its own)
 {.changelog-fixes}
 
 <span></span>
@@ -56,6 +60,7 @@ Upcoming changes in the next release!{.subtitle}
 * Update endpoint used to get a users current chatters to the new GetChatters API
 * Decrease present viewers tick to 1 minute, with the change to the new GetChatters API
 * Remove LootDevil support, as they closed down
+* Wrap sub-action handling within an action in a try/catch, to catch generic exceptions, this will also ***halt*** an action
 {.changelog-updates}
 
 <span></span>
