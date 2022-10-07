@@ -1,8 +1,8 @@
 ---
-title: Hide Source Filters 
-description: Hide your OBS / SLOBS Source Filters 
+title: Hide Source Filters
+description: Hide your OBS / SLOBS Source Filters
 published: true
-date: 2022-07-03T20:15:02.131Z
+date: 2022-10-07T12:08:45.026Z
 tags: twitch, obs, slobs
 editor: markdown
 dateCreated: 2022-03-19T16:40:42.314Z
@@ -23,21 +23,21 @@ Make sure the status says it is connected. Otherwise, the Bot cannot perform thi
 
 In OBS/SLOBS you will need to have a source with a filter just like the image below. 
 
-![image_2022-04-03_051016.png](/hide-source-filters/image_2022-04-03_051016.png){.align-center}
+![image_2022-04-03_051016.png](/hide-source-filters/image_2022-04-03_051016.png)
 
 Next in Streamer.bot create an action or use an existing one next right click to get the Sub-Action menu displayed. Now navigate to `Add Action` then `OBS` then click the `Hide Sources Filter`. 
 
-![source_filters.png](/hide-source-filters/source_filters.png){.align-center}
+![source_filters.png](/hide-source-filters/source_filters.png)
 
 Next you will see a pop-up box like the one below. In this box you will need to select the OBS/SLOBS connection you want the bot to send this command to. Now select the Scene of which the Source is in and finally the Source itself.
 > This will hide ALL filters on the selected source! 
 {.is-info}
 
-![image_2022-04-03_051826.png](/hide-source-filters/image_2022-04-03_051826.png){.align-center}
+![overview.png](/Sub-Actions/OBS/hide-sources-filters/overview.png =400x)
 
 Once you’re done click the `Test` button and check back in OBS/SLOBS and you'll see it has set the source filter visibility to hidden.
 
-![image_2022-04-03_052615.png](/hide-source-filters/image_2022-04-03_052615.png){.align-center}
+![image_2022-04-03_052615.png](/hide-source-filters/image_2022-04-03_052615.png)
 
 Click `OK` to Confirm the Sub-Action and that’s it you're done
 
