@@ -15,18 +15,12 @@ Sets the rotation tranformation angle of a source to the specified angle
 ![overview.png](/Sub-Actions/OBS/rotate-source/overview.png =400x)
 
 ## Configuration
-### Connection
-
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
-
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
 **NOTE** Scene names are case sensitive 
 
 ### Source
-
 If the selected OBS connection is currently connected, a dropdown list of available sources will populate for selection, otherwise the source name can be entered manually.
 
 **NOTE** Source names are case sensitive
@@ -43,5 +37,5 @@ By default this is an `Absolute` angle with 0 being normal rotation, valid range
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

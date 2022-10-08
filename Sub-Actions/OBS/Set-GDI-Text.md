@@ -14,9 +14,6 @@ Set the text string to appear in a GDI Text Source
 ![overview.png](/Sub-Actions/OBS/set-gdi-text/overview.png)
 
 ## Configuration
-### Connection
-Target OBS Connection, if OBS is connected the Scene and Source properties will auto-populate with valid selections
-
 ### Scene
 A scene containing a GDI text source
 
@@ -28,5 +25,5 @@ Enter any text or display the contents of a defined `variable`
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

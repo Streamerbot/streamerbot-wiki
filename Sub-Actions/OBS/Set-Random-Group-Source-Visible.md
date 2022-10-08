@@ -14,9 +14,6 @@ This will set the source visibilty for a single random source in a defined group
 ![overview.png](/Sub-Actions/OBS/set-random-group-source-visible/overview.png =400x)
 
 ## Configuration
-### Connection
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
@@ -25,5 +22,5 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

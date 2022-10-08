@@ -21,9 +21,13 @@ The scene where the settings get applied
 The source where the settings get applied
 
 ### State
-The new state for the for the media source
+Name | Description
+---:|:---
+`Visible` | Sets the filter state on your source to Visible
+`Hidden` | Sets the filter state on your source to Hidden
+`Toggle` | Toggles the filter state on your source between Visible and Hidden
 
-Available states:
-* `Visible`
-* Other ones coming soon…
-{.grid-list}
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

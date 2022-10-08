@@ -38,5 +38,5 @@ That’s it click the `Test` button to see if it works and the image should appe
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

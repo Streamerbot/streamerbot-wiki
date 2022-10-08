@@ -21,9 +21,16 @@ The scene where the settings get applied
 The source where the settings get applied
 
 ### State
-The new state for the for the media source
+Name | Description
+---:|:---
+`Play` | Plays your Media Source
+`Pause` | Pauses your Media Source
+`Restart` | Restarts your Media Source
+`Stop` | Stops your Media Source
+`Next` | Goes next on your Media Source
+`Previous` | Goes previous on your Media Source
 
-Available states:
-* `Play`
-* Other ones coming soon…
-{.grid-list}
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

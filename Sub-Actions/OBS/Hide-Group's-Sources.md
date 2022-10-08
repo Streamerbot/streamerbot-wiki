@@ -14,19 +14,13 @@ This will set the source visibilty for all sources in a defined group to `Inacti
 ![overview.png](/Sub-Actions/OBS/hide-groups-sources/overview.png =400x)
 
 ## Configuration
-### Connection
-
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
-
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
 ### Group
-
 If the selected OBS connection is currently connected, a dropdown list of available groups will populate for selection, otherwise the scene name can be entered manually.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

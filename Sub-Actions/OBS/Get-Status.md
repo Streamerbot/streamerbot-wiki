@@ -20,3 +20,8 @@ Name | Description
 `isStreaming` | Boolean value indicating if the selected OBS connection is streaming <br> `True`/`False`
 `isRecording` | Boolean value indicating if the selected OBS connection is recording <br> `True`/`False`
 {.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}
