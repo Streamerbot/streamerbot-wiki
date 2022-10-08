@@ -32,7 +32,14 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 **NOTE** Filter names are case sensitive
 
+### State
+Name | Description
+---:|:---
+`Visible` | Sets the filter state on your source to Visible
+`Hidden` | Sets the filter state on your source to Hidden
+`Toggle` | Toggles the filter state on your source between Visible and Hidden
+
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

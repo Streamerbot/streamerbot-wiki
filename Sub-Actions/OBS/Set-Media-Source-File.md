@@ -22,3 +22,8 @@ The source where the settings get applied
 
 ### Filename
 The new filepath for the media source
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+{.btn-grid .my-5}

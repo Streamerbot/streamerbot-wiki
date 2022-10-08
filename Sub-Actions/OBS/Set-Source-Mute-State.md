@@ -29,7 +29,14 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 **NOTE** Source names are case sensitive
 
+### State
+Name | Description
+---:|:---
+`Muted` | Sets the mute state on your source to Muted
+`Not Muted` | Sets the mute state on your source to Not Muted
+`Toggle` | Toggles the mute state on your source between Muted and Not Muted
+
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

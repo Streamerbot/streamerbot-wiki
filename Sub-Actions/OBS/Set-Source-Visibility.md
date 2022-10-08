@@ -30,7 +30,14 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 ### Visible
 Checking this option will activate the selected source, unchecking it will hide it.
 
+### State
+Name | Description
+---:|:---
+`Visible` | Sets the visibility state on your source to Visible
+`Hidden` | Sets the visibility state on your source to Hidden
+`Toggle` | Toggles the visibility state on your source between Visible and Hidden
+
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}

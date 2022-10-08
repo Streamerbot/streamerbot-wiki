@@ -27,8 +27,6 @@ Select the file path to save the resulting file like `.png` or `.jpg`
 Select the desired image quality or leave as `Auto`
 
 ## Variables
-The following variables will be available after execution of this sub-action:
-
 Name | Description
 ----:|:------------
 `screenshotFile` | The full path to the screenshot that was taken
