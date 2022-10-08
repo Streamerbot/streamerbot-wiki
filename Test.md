@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-09-23T15:55:02.990Z
+date: 2022-10-08T19:12:01.649Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -110,3 +110,8 @@ Lorem ipsum
 Lorem ipsum
 ## Tab 3
 Lorem ipsum
+# end {.tabset}
+#### end {.tabset}
+
+
+## MDI Copy/Paste Classes
