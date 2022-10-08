@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-09-27T07:42:49.094Z
+date: 2022-10-08T19:04:01.972Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -27,7 +27,7 @@ Sub-Actions specific to your broadcasting software{.subtitle}
 ## Integration
 Sub-Actions specific to Streamer.bot [Integrations](/en/Integrations) {.subtitle}
 
-- [<i class="mdi mdi-speaker text--twitch"></i>**TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker)
+- [<i class="mdi mdi-speaker text--twitch"></i>**TwitchSpeaker *Send TTS text to TwitchSpeaker***](/en/Sub-Actions/TwitchSpeaker)
 - [<img src="/logos/voicemod.png"/>**VoiceMod *Select voices, modify state, get current state***](/en/Sub-Actions/VoiceMod)
 - [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Change color settings and send commands***](/en/Sub-Actions/Lumia-Stream)
 - [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Discord){.disabled}
