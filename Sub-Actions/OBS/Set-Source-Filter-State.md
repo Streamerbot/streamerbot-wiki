@@ -1,8 +1,8 @@
 ---
 title: Set Source Filter State
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T12:10:26.365Z
+date: 2022-10-09T13:48:33.859Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:02.059Z
@@ -14,9 +14,6 @@ Sets the enabled state of a specified filter on a source. Valid states are `Visi
 ![overview.png](/Sub-Actions/OBS/set-source-filter-state/overview.png =400x)
 
 ## Configuration
-### Connection
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
@@ -34,7 +31,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the filter state on your source to Visible
 `Hidden` | Sets the filter state on your source to Hidden
 `Toggle` | Toggles the filter state on your source between Visible and Hidden
