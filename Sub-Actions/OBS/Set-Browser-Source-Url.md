@@ -2,14 +2,14 @@
 title: Set Browser Source Url
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:33:48.566Z
+date: 2022-10-09T13:34:19.512Z
 tags: obs
 editor: markdown
 dateCreated: 2022-06-28T02:08:54.022Z
 ---
 
 ## Overview
-Change the url of any browser source
+Change the Url of any browser source
 
 ![overview.png](/Sub-Actions/OBS/set-browser-source-url/overview.png =400x)
 
