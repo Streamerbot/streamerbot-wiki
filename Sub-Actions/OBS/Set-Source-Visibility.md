@@ -1,8 +1,8 @@
 ---
 title: Set Source Visibility
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T09:00:58.336Z
+date: 2022-10-09T13:56:36.196Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:10.227Z
@@ -14,9 +14,6 @@ Shows or hides a selected source
 ![overview.png](/Sub-Actions/OBS/set-source-visibility/overview.png =400x)
 
 ## Configuration
-### Connection
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
@@ -27,12 +24,9 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 **NOTE** Source names are case sensitive
 
-### Visible
-Checking this option will activate the selected source, unchecking it will hide it.
-
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the visibility state on your source to Visible
 `Hidden` | Sets the visibility state on your source to Hidden
 `Toggle` | Toggles the visibility state on your source between Visible and Hidden
