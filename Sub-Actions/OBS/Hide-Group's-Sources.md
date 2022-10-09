@@ -1,8 +1,8 @@
 ---
 title: Hide Group's Sources
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:49:24.710Z
+date: 2022-10-09T13:20:18.207Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:34.433Z
