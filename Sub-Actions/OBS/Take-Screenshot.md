@@ -1,8 +1,8 @@
 ---
 title: Take Screenshot
-description: Sub-Action to take a screenshot in OBS
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:47:26.255Z
+date: 2022-10-09T13:59:17.322Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
