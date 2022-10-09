@@ -2,7 +2,7 @@
 title: StreamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-09T21:07:53.529Z
+date: 2022-10-09T21:12:47.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:05:38.373Z
@@ -32,8 +32,8 @@ Name | Description
 
 ## Example
 ```json
-if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "<action>" then "break"
-if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "<action>" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "<start streaming action>" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "<stop streaming action>" then "break"
 ```
 
 ---
