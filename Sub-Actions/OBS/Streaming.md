@@ -2,7 +2,7 @@
 title: Streaming
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:45:54.189Z
+date: 2022-10-09T13:57:35.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:18.153Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-25T21:34:18.153Z
 ## Configuration
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Stop` | Stops your OBS Stream
 `Start` | Starts your OBS Stream
 
