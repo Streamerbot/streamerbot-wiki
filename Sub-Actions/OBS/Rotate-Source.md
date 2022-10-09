@@ -1,8 +1,8 @@
 ---
 title: Rotate Source
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:50:51.033Z
+date: 2022-10-09T13:25:18.499Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:46.410Z
@@ -26,16 +26,14 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 **NOTE** Source names are case sensitive
 
 ### Alignment
-
 Reports the currently configured alignment position.
 
 ### Rotation
-
 By default this is an `Absolute` angle with 0 being normal rotation, valid range -360 -> +360, however as tranform is instant values outside -180 -> +180 will be visually the same. Negative values rotate the source counter-clockwise.
 
 `Additive` option will make the rotation relative to its current transform rather than overwriting
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}
