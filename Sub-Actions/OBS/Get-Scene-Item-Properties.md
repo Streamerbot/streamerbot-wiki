@@ -1,8 +1,8 @@
 ---
 title: Get Scene Item Properties
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T09:15:16.527Z
+date: 2022-10-09T13:18:27.906Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T01:36:29.236Z
