@@ -2,7 +2,7 @@
 title: Set Random Group Source Visible
 description: 
 published: true
-date: 2022-10-07T08:56:36.810Z
+date: 2022-10-09T13:14:28.855Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:57.829Z
@@ -22,5 +22,5 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
 {.btn-grid .my-5}
