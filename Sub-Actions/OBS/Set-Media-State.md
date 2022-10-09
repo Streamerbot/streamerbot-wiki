@@ -22,7 +22,7 @@ The source where the settings get applied
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Play` | Plays your Media Source
 `Pause` | Pauses your Media Source
 `Restart` | Restarts your Media Source

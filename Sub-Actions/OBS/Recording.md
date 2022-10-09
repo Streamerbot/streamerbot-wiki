@@ -16,7 +16,7 @@ Controls your recording state with `Start`, `Stop`, `Pause` and `Resume`
 ## Configuration
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Start` | Starts your OBS Recording 
 `Stop` | Stops your OBS Recording
 `Pause` | Pauses your OBS Recording
