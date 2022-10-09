@@ -2,7 +2,7 @@
 title: Flip Source
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:47:19.555Z
+date: 2022-10-09T13:48:10.756Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -22,7 +22,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### Mode
 Name | Description
-----:|:-----------
+----:|:------------
 `Horizontal` | Inverts the X axis
 `Vertical` | Inverts the Y axis
 `Both` | Inverts both X and Y axes
