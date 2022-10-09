@@ -2,7 +2,7 @@
 title: Logic Sub-Actions
 description: Sub-Actions Reference
 published: true
-date: 2022-10-06T23:54:41.965Z
+date: 2022-10-09T20:08:22.980Z
 tags: subactions, logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
@@ -44,7 +44,7 @@ Sub-actions in the UI can only use `Arguments` as a data source
 
 `Globals` will persist beyond the end of the action and are generally used to store data that needs to be read by future Actions
 
-Thier data can not be used directly in an Action. To use them a `Global (Get)` sub-action must be added to copy the currently stored data into a temporary argument. Subsequent sub-actions can then use this argument and data can be written back to Global storage using a `Global (Set)` sub-action.
+Their data can not be used directly in an Action. To use them a `Global (Get)` sub-action must be added to copy the currently stored data into a temporary argument. Subsequent sub-actions can then use this argument and data can be written back to Global storage using a `Global (Set)` sub-action.
 
 
 ## Global (Get)
