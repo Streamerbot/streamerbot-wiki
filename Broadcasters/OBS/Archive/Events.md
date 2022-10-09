@@ -2,7 +2,7 @@
 title: OBS Studio Events (Archive)
 description: Reference of all configurable events from OBS Studio (obs-websocket-4.9.1)
 published: true
-date: 2022-09-11T21:55:51.256Z
+date: 2022-10-09T17:29:43.971Z
 tags: obs, obs-studio, events, reference, obs-websocket-4.9.1
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -30,7 +30,7 @@ General & miscellaneous OBS Studio events{.subtitle}
 * [**StudioModeSwitched *Studio Mode has been enabled or disabled***](/en/Broadcasters/OBS/Archive/Events/Studio-Mode/StudioModeSwitched)
 * [**ProfileChanged *Triggered when switching to another profile or when renaming the current profile***](/en/Broadcasters/OBS/Archive/Events/Profiles/ProfileChanged)
 * [**ProfileListChanged *Triggered when a profile is created, added, renamed, or removed***](/en/Broadcasters/OBS/Archive/Events/Profiles/ProfileListChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Stream
 Events related to current streaming status{.subtitle}
@@ -39,7 +39,7 @@ Events related to current streaming status{.subtitle}
 * [**StreamStopping *A request to stop streaming has been issued***](/en/Broadcasters/OBS/Archive/Events/Streaming/StreamStopping)
 * [**StreamStopped *Streaming stopped successfully***](/en/Broadcasters/OBS/Archive/Events/Streaming/StreamStopped)
 * [**StreamStatus *Emitted every 2 seconds when stream is active***](/en/Broadcasters/OBS/Archive/Events/Streaming/StreamStatus)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Recording
 Events related to current recording status{.subtitle}
@@ -49,7 +49,7 @@ Events related to current recording status{.subtitle}
 * [**RecordingStopped *Recording stopped successfully***](/en/Broadcasters/OBS/Archive/Events/Recording/RecordingStopped)
 * [**RecordingPaused *Current recording paused***](/en/Broadcasters/OBS/Archive/Events/Recording/RecordingPaused)
 * [**RecordingResumed *Current recording resumed***](/en/Broadcasters/OBS/Archive/Events/Recording/RecordingResumed)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Scene
 Scene change & collection events{.subtitle}
@@ -57,7 +57,7 @@ Scene change & collection events{.subtitle}
 * [**ScenesChanged *Event triggered **after** a scene change***](/en/Broadcasters/OBS/Archive/Events/Scenes/ScenesChanged)
 * [**SceneCollectionChanged *Triggered when switching to another scene collection***](/en/Broadcasters/OBS/Archive/Events/Scenes/SceneCollectionChanged)
 * [**SceneCollectionListChanged *Triggered when modifying scene collections***](/en/Broadcasters/OBS/Archive/Events/Scenes/SceneCollectionListChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Scene Item
 Events related to scene item & ordering changes{.subtitle}
@@ -69,7 +69,7 @@ Events related to scene item & ordering changes{.subtitle}
 * [**SceneItemSelected *A scene item is selected***](/en/Broadcasters/OBS/Archive/Events/Scene-Items/SceneItemSelected)
 * [**SceneItemDeselected *A scene item is deselected***](/en/Broadcasters/OBS/Archive/Events/Scene-Items/SceneItemDeselected)
 * [**SourceOrderChanged *Scene items within a scene have been reordered***](/en/Broadcasters/OBS/Archive/Events/Scene-Items/SourceOrderChanged)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Transition
 Events related to transition changes{.subtitle}
@@ -79,7 +79,7 @@ Events related to transition changes{.subtitle}
 * [**TransitionBegin *A transition (other than "cut") has begun***](/en/Broadcasters/OBS/Archive/Events/Transitions/TransitionBegin)
 * [**TransitionEnd *A transition (other than "cut") has ended***](/en/Broadcasters/OBS/Archive/Events/Transitions/TransitionEnd)
 * [**TransitionVideoEnd *A stinger transition has finished playing its video***](/en/Broadcasters/OBS/Archive/Events/Transitions/TransitionVideoEnd)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Source
 Events related to source & filter changes{.subtitle}
@@ -96,7 +96,7 @@ Events related to source & filter changes{.subtitle}
 * [**SourceFilterRemoved *A filter was removed from a source***](/en/Broadcasters/OBS/Archive/Events/Sources/SourceFilterRemoved)
 * [**SourceFilterVisibilityChanged *The visibility/enabled state of a filter changed***](/en/Broadcasters/OBS/Archive/Events/Sources/SourceFilterVisibilityChanged)
 * [**SourceFiltersReordered *Filters in a source have been reordered***](/en/Broadcasters/OBS/Archive/Events/Sources/SourceFiltersReordered)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Media
 Added in obs-websocket *v4.9.0*{.obs-version-badge} {.subtitle}
@@ -110,7 +110,7 @@ Added in obs-websocket *v4.9.0*{.obs-version-badge} {.subtitle}
 * [MediaPrevious](/en/Broadcasters/OBS/Archive/Events/Media/MediaPrevious)
 * [MediaStarted](/en/Broadcasters/OBS/Archive/Events/Media/MediaStarted)
 * [MediaEnded](/en/Broadcasters/OBS/Archive/Events/Media/MediaEnded)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Replay Buffer
 Added in obs-websocket *v4.2.0*{.obs-version-badge} {.subtitle}
@@ -118,16 +118,15 @@ Added in obs-websocket *v4.2.0*{.obs-version-badge} {.subtitle}
 * [**ReplayStarted *Replay Buffer started successfully***](/en/Broadcasters/OBS/Archive/Events/Replay-Buffer/ReplayStarted)
 * [**ReplayStopping *A request to stop the replay buffer has been issued***](/en/Broadcasters/OBS/Archive/Events/Replay-Buffer/ReplayStopping)
 * [**ReplayStopped *Replay Buffer stopped successfully***](/en/Broadcasters/OBS/Archive/Events/Replay-Buffer/ReplayStopped)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Virtual Cam
 Added in obs-websocket *v4.9.1*{.obs-version-badge} {.subtitle}
 * [**VirtualCamStarted *Virtual cam started successfully***](/en/Broadcasters/OBS/Archive/Events/Virtual-Cam/VirtualCamStarted)
 * [**VirtualCamStopped *Virtual cam stopped successfully***](/en/Broadcasters/OBS/Archive/Events/Virtual-Cam/VirtualCamStopped)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
-
----{.my-10}
+---
 
 * [<i class="mdi mdi-creation primary--text"></i> **Events Reference *Reference of all events in Streamer.bot***](/en/Events)
 * [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Configure broadcaster: OBS Studio***](/en/Broadcasters/OBS)
