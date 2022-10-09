@@ -2,7 +2,7 @@
 title: Restore a Backup
 description: Learn how to restore a backup with Streamer.bot!
 published: true
-date: 2022-09-04T19:55:27.491Z
+date: 2022-10-09T12:58:26.636Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
@@ -11,7 +11,7 @@ dateCreated: 2022-07-16T22:38:01.518Z
 ## Backup Folder
 Go to your backup folder, it's located in `Streamer.bot-[version]/backup`.
 
-> **NOTE**
+> **Note**
 > The backup that you unzip might need to be from 2-3 days back
 {.is-info}
 
@@ -21,7 +21,7 @@ If you unzip that file, you should see `globals.dat`, `quotes.dat`, `users.dat`,
 
 ## Data Folder
 All the files that are in the backup you can paste in `Streamer.bot-[version]/data`.
-> **WARNING**
+> **Warning**
 > If a `Replace or Skip Files` menu opens, click on `Replace the file in the destination`
 {.is-warning}
 
