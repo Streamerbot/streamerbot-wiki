@@ -1,8 +1,8 @@
 ---
 title: Set Scene Filter State
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T12:46:06.614Z
+date: 2022-10-09T13:42:46.988Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T13:05:02.947Z
