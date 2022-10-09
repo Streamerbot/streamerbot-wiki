@@ -1,8 +1,8 @@
 ---
 title: Set GDI Text
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:53:16.945Z
+date: 2022-10-09T13:35:26.858Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:54.019Z
