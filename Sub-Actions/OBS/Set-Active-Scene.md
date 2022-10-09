@@ -2,7 +2,7 @@
 title: Set Active Scene
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:30:36.952Z
+date: 2022-10-09T13:30:42.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:10.870Z
