@@ -8,18 +8,27 @@ editor: markdown
 dateCreated: 2021-08-26T12:53:29.517Z
 ---
 
-![hide group](/122117096-5a0bde00-ce1e-11eb-8eb1-f95f9aa1082f.png)
-
+## Overview
 This will set the source visibilty for all sources in a defined group to `Inactive`
 
-### Connection
+![overview.png](/Sub-Actions/OBS/hide-groups-sources/overview.png =400x)
 
+## Configuration
+### Connection
 Any SLOBS connections you have configured in the [SLOBS](/SLOBS) tab will be listed to choose from
 
 ### Scene
-
 If the selected SLOBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
 ### Group
-
 If the selected SLOBS connection is currently connected, a dropdown list of available groups will populate for selection, otherwise the scene name can be entered manually.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+{.btn-grid .my-5}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+{.btn-grid .my-5}

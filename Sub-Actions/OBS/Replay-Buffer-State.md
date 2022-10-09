@@ -16,7 +16,7 @@ dateCreated: 2022-09-06T17:55:51.516Z
 ## Configuration
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Start` | Starts your Replay Buffer
 `Stop` | Stops your Replay Buffer
 `Save` | Saves your Replay Buffer

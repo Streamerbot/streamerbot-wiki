@@ -15,7 +15,7 @@ dateCreated: 2022-07-12T17:51:11.423Z
 ## Configuration
 ### Track
 Name | Description
----:|:---
+----:|:------------
 `Track 1` | The First Track
 `Track 2` | The Second Track
 `Track 3` | The Third Track
@@ -25,7 +25,7 @@ Name | Description
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Active` | Sets the audio track state on your source to Active
 `Inactive` | Sets the audio track state on your source to Inactive
 `Toggle` | Toggles the audio track state on your source between Active and Inactive

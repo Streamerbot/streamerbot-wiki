@@ -22,7 +22,7 @@ The source where the settings get applied
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the filter state on your source to Visible
 `Hidden` | Sets the filter state on your source to Hidden
 `Toggle` | Toggles the filter state on your source between Visible and Hidden

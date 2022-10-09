@@ -26,7 +26,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### Mode
 Name | Description
----:|:---
+----:|:------------
 `Horizontal` | Inverts the X axis
 `Vertical` | Inverts the Y axis
 `Both` | Inverts both X and Y axes

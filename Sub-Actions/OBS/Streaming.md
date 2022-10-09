@@ -16,7 +16,7 @@ dateCreated: 2021-08-25T21:34:18.153Z
 ## Configuration
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Stop` | Stops your OBS Stream
 `Start` | Starts your OBS Stream
 

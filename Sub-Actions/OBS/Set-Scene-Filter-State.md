@@ -26,7 +26,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the filter state on your scene to Visible
 `Hidden` | Sets the filter state on your scene to Hidden
 `Toggle` | Toggles the filter state on your scene between Visible and Hidden

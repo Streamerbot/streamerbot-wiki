@@ -31,7 +31,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Muted` | Sets the mute state on your source to Muted
 `Not Muted` | Sets the mute state on your source to Not Muted
 `Toggle` | Toggles the mute state on your source between Muted and Not Muted

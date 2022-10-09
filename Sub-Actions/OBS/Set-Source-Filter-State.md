@@ -34,7 +34,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the filter state on your source to Visible
 `Hidden` | Sets the filter state on your source to Hidden
 `Toggle` | Toggles the filter state on your source between Visible and Hidden

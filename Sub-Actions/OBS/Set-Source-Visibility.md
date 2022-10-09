@@ -32,7 +32,7 @@ Checking this option will activate the selected source, unchecking it will hide 
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the visibility state on your source to Visible
 `Hidden` | Sets the visibility state on your source to Hidden
 `Toggle` | Toggles the visibility state on your source between Visible and Hidden
