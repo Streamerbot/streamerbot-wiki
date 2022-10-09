@@ -1,8 +1,8 @@
 ---
 title: Set Media Source File
-description: 
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T12:34:42.125Z
+date: 2022-10-09T13:38:47.515Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:34:42.125Z
