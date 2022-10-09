@@ -1,8 +1,8 @@
 ---
-title: Set Source Random Filter State
-description: 
+title: Set State of a Random Filter
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T12:52:10.484Z
+date: 2022-10-09T13:55:14.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:52:10.484Z
@@ -22,7 +22,7 @@ The source where the settings get applied
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Visible` | Sets the filter state on your source to Visible
 `Hidden` | Sets the filter state on your source to Hidden
 `Toggle` | Toggles the filter state on your source between Visible and Hidden
