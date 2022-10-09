@@ -1,8 +1,8 @@
 ---
 title: Set Source Audio Track State
-description: OBS Studio Sub-Actions Reference
+description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:57:41.918Z
+date: 2022-10-09T13:45:54.610Z
 tags: obs, subactions, obs-studio
 editor: markdown
 dateCreated: 2022-07-12T17:51:11.423Z
