@@ -2,7 +2,7 @@
 title: Set Source Mute State
 description: 
 published: true
-date: 2022-10-07T08:59:32.649Z
+date: 2022-10-09T13:49:12.585Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:06.029Z
@@ -16,9 +16,6 @@ Sets a defined source to be muted or unmuted on the stream broadcast
 ![overview.png](/Sub-Actions/OBS/set-source-mute-state/overview.png =400x)
 
 ## Configuration
-### Connection
-Any OBS connections you have configured in the [OBS](/OBS) tab will be listed to choose from
-
 ### Scene
 If the selected OBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
 
@@ -31,7 +28,7 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ### State
 Name | Description
----:|:---
+----:|:------------
 `Muted` | Sets the mute state on your source to Muted
 `Not Muted` | Sets the mute state on your source to Not Muted
 `Toggle` | Toggles the mute state on your source between Muted and Not Muted
