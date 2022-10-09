@@ -2,7 +2,7 @@
 title: Flip Source
 description: 
 published: true
-date: 2022-10-07T08:48:15.313Z
+date: 2022-10-09T13:15:31.339Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -14,10 +14,6 @@ Transforms the source to be inverted horizontally, vertically or both
 ![overview.png](/Sub-Actions/OBS/flip-source/overview.png =400x)
 
 ## Configuration
-### Connection
-
-Any OBS connections you have configured in the OBS tab will be listed to choose from.
-
 ### Scene
 A dropdown list of available scenes will populate for selection, but the scene name can also be entered manually.
 
