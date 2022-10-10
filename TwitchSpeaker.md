@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-10-10T14:25:23.102Z
+date: 2022-10-10T14:26:33.555Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -12,7 +12,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade*Learn how to update your TwitchSpeaker installation to the latest version***](/en/TwitchSpeaker/Update)
 - [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup*Learn how to restore a backup with TwitchSpeaker!***](/en/TwitchSpeaker/Backup)
 - [<i class="mdi mdi-update text--twitch"></i>**Changelogs*List of new features, bug fixes and improvements***](/en/TwitchSpeaker/Changelogs)
-{.btn-grid .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Tabs
 - [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/en/TwitchSpeaker/Event-Log)
@@ -28,7 +28,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 ## General
 - [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference***](/en/Sub-Actions/TwitchSpeaker)
 - [<i class="mdi mdi-application text--twitch"></i>**UDP Interface*Run TwitchSpeaker stuff trough Streamer.bot and other applications***](/en/TwitchSpeaker/General/UDP-Interface)
-{.btn-grid .list .my-5}
+{.btn-grid .list .dense .my-5}
 
 ## Settings
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/en/TwitchSpeaker/General/UDP-Interface){.disabled}
