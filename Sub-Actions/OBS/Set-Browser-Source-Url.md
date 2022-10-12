@@ -2,7 +2,7 @@
 title: Set Browser Source Url
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:34:19.512Z
+date: 2022-10-12T01:06:45.850Z
 tags: obs
 editor: markdown
 dateCreated: 2022-06-28T02:08:54.022Z
@@ -21,7 +21,7 @@ You can choose between all your scenes here.
 You can choose between all your sources here.
 
 ### Url
-The Url that the broswer source changes to.
+The Url that the browser source changes to.
 
 ---
 
