@@ -2,19 +2,19 @@
 title: Set To Default
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-09-04T18:35:43.075Z
+date: 2022-10-13T11:09:14.159Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-30T14:48:43.138Z
 ---
 
 ## Overview
-![streamer.bot-intergration-lumia-stream-sub-action-set-to-default.png](/intergrations/lumia-stream/sub-actions/set-to-default/streamer.bot-intergration-lumia-stream-sub-action-set-to-default.png =500x)
+![overview.png](/Sub-Actions/Lumia-Stream/set-to-default/overview.png =400x)
 
 ## Configuration
 Configure your default state settings in `Default State` `->` `Default Light State`
 
-![lumia-default-state-tab.png](/intergrations/lumia-stream/sub-actions/set-to-default/lumia-default-state-tab.png)
+![overview-extra-1.png](/Sub-Actions/Lumia-Stream/set-to-default/overview-extra-1.png =700x)
 
 ## C# Method
 > Requires a minimum of v0.1.14
