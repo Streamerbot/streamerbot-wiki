@@ -2,7 +2,7 @@
 title: Set Title
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:04:08.194Z
+date: 2022-10-13T11:02:50.404Z
 tags: subactions, youtube, sub action
 editor: markdown
 dateCreated: 2022-06-06T03:27:24.075Z
@@ -12,7 +12,7 @@ dateCreated: 2022-06-06T03:27:24.075Z
 
 This Sub-Action within Streamer Bot can be used to set the title on your YouTube stream.
 
-![set-title-yt-dialog-box.png](/set-title-yt/set-title-yt-dialog-box.png)
+![overview.png](/Sub-Actions/YouTube/set-title/overview.png =400x)
 
 ## Configuration
 
