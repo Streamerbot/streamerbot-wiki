@@ -2,17 +2,18 @@
 title: Send Command
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-08-31T23:14:48.211Z
+date: 2022-10-13T11:11:56.957Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-27T12:54:07.358Z
 ---
 
 ## Overview
-![streamer.bot-intergration-lumia-stream-sub-action-send-command-default.png](/intergrations/lumia-stream/sub-actions/send-command/streamer.bot-intergration-lumia-stream-sub-action-send-command-default.png =400x)
+![overview.png](/Sub-Actions/Lumia-Stream/send-command/overview.png =400x)
 
 `Control Center` `->` `Shortcuts` You can see and add commands here.
-![lumia-command-tab.png](/intergrations/lumia-stream/sub-actions/send-command/lumia-command-tab.png =700x)
+
+![overview-extra-1.png](/Sub-Actions/Lumia-Stream/send-command/overview-extra-1.png =700x)
 
 ## Configuration
 #### Command
