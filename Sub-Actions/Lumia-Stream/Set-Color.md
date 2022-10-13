@@ -2,17 +2,17 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-09-06T17:40:02.992Z
+date: 2022-10-13T11:10:57.559Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
 ---
 
 ## Overview
-![streamer.bot-intergration-lumia-stream-sub-action-set-color-default.png](/intergrations/lumia-stream/sub-actions/set-color/streamer.bot-intergration-lumia-stream-sub-action-set-color-default.png)
+![overview.png](/Sub-Actions/Lumia-Stream/set-color/overview.png =400x)
 
 ## Configuration
-> **INFO**
+> **Info**
 > You can delete some of these fields and it will work, so for example if you don't want to change the brightness, remove the brightness field.
 {.is-info}
 #### Colour
