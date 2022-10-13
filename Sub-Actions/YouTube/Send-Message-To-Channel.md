@@ -2,8 +2,8 @@
 title: Send Message To YouTube Channel
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:13:56.329Z
-tags: sub-action, message, youtube, sub action, send message, subactions, chat
+date: 2022-10-13T11:05:38.330Z
+tags: sub-action, message, subactions, chat, youtube, sub action, send message
 editor: markdown
 dateCreated: 2022-06-06T03:54:35.975Z
 ---
@@ -12,7 +12,7 @@ dateCreated: 2022-06-06T03:54:35.975Z
 
 Send a chat message to your YouTube stream. *v0.1.8*{.version-badge}
 
-![send-yt-message-input.png](/send-message-yt/send-yt-message-input.png)
+![overview.png](/Sub-Actions/YouTube/send-message-to-channel/overview.png =400x)
 
 ## Configuration
 ### Message
