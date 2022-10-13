@@ -2,7 +2,7 @@
 title: Set Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-07-12T01:07:05.700Z
+date: 2022-10-13T11:04:58.091Z
 tags: sub-action, subactions, youtube, description
 editor: markdown
 dateCreated: 2022-06-07T02:38:04.431Z
@@ -12,7 +12,7 @@ dateCreated: 2022-06-07T02:38:04.431Z
 
 Modify the description of your YouTube stream.
 
-![set-description-yt.png](/set-description-yt/set-description-yt.png)
+![overview.png](/Sub-Actions/YouTube/set-description/overview.png =400x)
 
 ## Configuration
 
