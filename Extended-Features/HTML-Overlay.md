@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-10-14T14:51:02.209Z
+date: 2022-10-14T15:22:53.109Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -27,7 +27,7 @@ It also comes preconfigured to rain emotes down over the content on screen. [VRF
 ## Download
 Download the HTML Overlay application from and unzip the conents anywhere you like. 
 
-- [<i class="mdi mdi-cloud-download"></i> **HTML Overlay.zip *Updated 14-10-2022***](https://cdn.streamer.bot/html-overlay/HTML%20Overlay.zip)
+- [<i class="mdi mdi-cloud-download"></i> **HTML Overlay.zip *Updated 14-10-2022***](https://cdn.streamer.bot/html-overlay/HTML%20Overlay.zip){.disabled}
 {.btn-grid .my-5}
 
 **This should not go directly into your Streamer.bot folder, but a subfolder inside it is fine.**
