@@ -2,7 +2,7 @@
 title: VoiceMod
 description: Controlling VoiceMod software via Streamer.bot actions
 published: true
-date: 2022-09-12T15:32:12.816Z
+date: 2022-10-14T08:30:55.691Z
 tags: twitch, integrations, youtube, streamerbot, voicemod, v0.1.8
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z
@@ -15,18 +15,9 @@ dateCreated: 2022-06-23T21:15:57.891Z
 {.btn-grid .my-5}
 
 ## VoiceMod
-With Streamer.bot *v0.1.8*{.version-badge} came with [VoiceMod](https://www.voicemod.net/) Integration and various actions we can use this  includes those listed below:
-- Get Current Voice
-- Set Random Voice
-- Select Voice
-- Select Voice by Id
-- Set Background Effect State
-- Set Censor State
-- Set Hear My Voice State
-- Set Mute State
-- Set Voice Changer State
+With Streamer.bot *v0.1.8*{.version-badge} came with [VoiceMod](https://www.voicemod.net/) Integration and various sub-actions we can use this  includes those listed [here](/en/Sub-Actions/VoiceMod).
 
-To do this we first need to make sure you are using Streamer.bot (v0.18 or greater) is linked to your VoiceMod.
+To do this we first need to make sure you are using Streamer.bot (v0.1.8 or greater) is linked to your VoiceMod.
 
 
 #### Connecting to VoiceMod
