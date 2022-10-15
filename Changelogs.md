@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-15T15:18:22.095Z
+date: 2022-10-15T15:21:00.578Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -66,6 +66,12 @@ Upcoming changes in the next release!{.subtitle}
 * Decrease present viewers tick to 1 minute, with the change to the new GetChatters API
 * Remove LootDevil support, as they closed down
 * Wrap sub-action handling within an action in a try/catch, to catch generic exceptions, this will also ***halt*** an action
+* Performance improvements when handling large amounts of viewers
+* Performance improvements when connecting to Twitch
+* Disable verbose logging on Twitch Bot Account
+* Stop saving config when a channel reward is updated
+* Forgetting broadcaster account forgot bot account (woops)
+* Add more verbose logging
 {.changelog-updates}
 
 <span></span>
@@ -94,6 +100,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add new sub-action [Discord Basic Webhook](#discord-basic-webhook), to enable posting basic text to a discord webhook
 * Add new CPH method, `DiscordPostTextToWebhook` to post text to a discord webhook
 * Add new event for Twitch, [Shoutout Created](#twitch-shoutout), this is triggered when the `/shoutout` command is used, if your channel has the ability
+* Added option to enable/disable present viewer tick, default disabled
+* Added option to change present viewer tick from 1 to 10 minutes, default of 5 minutes
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
