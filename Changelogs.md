@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-07T00:04:33.644Z
+date: 2022-10-15T01:41:32.840Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -30,7 +30,7 @@ Upcoming changes in the next release!{.subtitle}
 * Some error may be caught properly now, and longer full crash **Streamer.bot**
 * DoAction and C# RunAction should now create a new argument dictionary when not running immediately, no longer sharing it
 * <kbd>CTRL+D</kbd> shortcut on sub-actions will not duplicate a group correctly
-* VoiceMod Set BVackground Effect State should work correctly now
+* VoiceMod Set Background Effect State should work correctly now
 * C# method SetChannelGame should no longer throw an exception when used
 * Comment sub-action should behave correctly now (no longer disappearing, or moving around on its own)
 {.changelog-fixes}
