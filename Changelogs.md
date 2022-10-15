@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-15T01:41:32.840Z
+date: 2022-10-15T15:18:22.095Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,6 +33,11 @@ Upcoming changes in the next release!{.subtitle}
 * VoiceMod Set Background Effect State should work correctly now
 * C# method SetChannelGame should no longer throw an exception when used
 * Comment sub-action should behave correctly now (no longer disappearing, or moving around on its own)
+* Forgetting Twitch broadcaster account forgot bot account (woops)
+* Stop saving config when a channel reward is updated
+* Added option to enable/disable present viewer tick
+* Added option to change present viewer tick from 1 to 10 minutes
+* By default present viewer tick is now disabled
 {.changelog-fixes}
 
 <span></span>
