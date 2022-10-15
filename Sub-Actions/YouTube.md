@@ -2,7 +2,7 @@
 title: YouTube Sub-Actions
 description: Reference of all YouTube Sub-Actions
 published: true
-date: 2022-10-09T17:50:09.918Z
+date: 2022-10-15T22:08:52.448Z
 tags: subactions, youtube
 editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
@@ -23,6 +23,8 @@ YouTube stream management{.subtitle}
 - [<i class="mdi mdi-text text--youtube"></i>**Set Description *Modify your current stream description***](/en/Sub-Actions/YouTube/Set-Description)
 - [<i class="mdi mdi-text-box-multiple text--youtube"></i> **Set Title and Description *Modify title &amp; description at once***](/en/Sub-Actions/YouTube/Set-Title-and-Description)
 {.btn-grid .my-5}
+
+[Go here.](/en/Sub-Actions/YouTube/Set-Title-and-Description)
 
 ---
 
