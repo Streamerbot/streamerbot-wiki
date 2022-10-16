@@ -2,7 +2,7 @@
 title: Pick Color
 description: Color picker that populates variables for passing to OBS and HTML objects
 published: true
-date: 2022-10-10T23:33:39.866Z
+date: 2022-10-16T11:13:15.186Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
@@ -30,13 +30,13 @@ The following variables will be available after execution of this sub-action:
 
 Name | Description
 ----:|:------------
-`myColor.color.a` | The alpha value
-`myColor.color.r` | The red value
-`myColor.color.g` | The green value
-`myColor.color.b` | The blue value
-`myColor.html` | The html color code
-`myColor.htmlalpha` | The html color code with alpha value
-`myColor.obs` | The color as an OBS ABGR value
+`variableName.color.a` | The alpha value
+`variableName.color.r` | The red value
+`variableName.color.g` | The green value
+`variableName.color.b` | The blue value
+`variableName.html` | The html color code
+`variableName.htmlalpha` | The html color code with alpha value
+`variableName.obs` | The color as an OBS ABGR value
 
 ---
 
