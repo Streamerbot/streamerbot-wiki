@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: false
-date: 2022-10-16T17:08:15.813Z
+date: 2022-10-16T19:49:58.568Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -29,5 +29,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **Discord Sub-Actions *Go Back***](/en/Sub-Actions/Discord)
 {.btn-grid .my-5}
