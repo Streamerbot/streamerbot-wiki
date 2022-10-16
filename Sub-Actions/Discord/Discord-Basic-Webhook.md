@@ -2,16 +2,20 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: false
-date: 2022-10-16T19:49:58.568Z
+date: 2022-10-16T19:52:24.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
 ---
 
 ## Overview
-Transforms the source to be inverted horizontally, vertically or both
+This is the first of a few new Discord specific sub-actions that will be added.  Up first is a friendlier way to post to a webhook you setup in your discord.  This one only allows for basic text posting.
 
-![overview.png](/Sub-Actions/OBS/flip-source/overview.png =400x)
+Username, content, and image can contain variables and will be parsed.
+
+Username, and image are also optional
+
+![overview.png](/discord-basic-webhook-02.png =400x)
 
 ## Configuration
 ### Scene
