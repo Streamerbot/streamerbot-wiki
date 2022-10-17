@@ -2,13 +2,13 @@
 title: Predictions
 description: 
 published: true
-date: 2022-08-27T21:41:25.758Z
+date: 2022-10-17T09:01:35.243Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z
 ---
 
-## Prediction Variables
+## Variables
 > With `prediction.outcome#` you need to change the `#` from 0 to 9
 {.is-info}
 
