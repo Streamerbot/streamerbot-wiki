@@ -2,7 +2,7 @@
 title: Cloud Service Google
 description: 
 published: true
-date: 2022-08-14T22:29:46.121Z
+date: 2022-10-17T07:56:20.955Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z
@@ -24,3 +24,8 @@ Goto Google Cloud Services, you can setup a free account and get a trial which l
 12. Point to this JSON file for Google Auth in the TTS Settings tab, and you can now use the Google engine
 
 > Still these should be all the correct steps.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+{.btn-grid .my-5}
