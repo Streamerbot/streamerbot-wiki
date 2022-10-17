@@ -2,12 +2,13 @@
 title:  Charity
 description: Twitch Events Reference
 published: false
-date: 2022-09-26T15:58:17.808Z
+date: 2022-10-17T17:21:43.294Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-09-26T15:58:17.808Z
 ---
 
+## Variables
 ### Donation Event
 The donation event occurs when someone has donated to your charity.
 
