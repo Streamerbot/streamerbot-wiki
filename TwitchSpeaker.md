@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-10-16T00:49:48.838Z
+date: 2022-10-17T07:54:21.064Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -42,7 +42,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 ## Speech Engines
 - [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
-- [<i class="mdi mdi-google theme--dark"></i>**Google**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
+- [<i class="mdi mdi-google theme--dark"></i>**Google**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/)
 - [<i class="mdi mdi-microphone theme--dark"></i>**Watson**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-microsoft-azure theme--dark"></i>**Azure**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
 - [<i class="mdi mdi-microphone theme--dark"></i>**Acapela**](/en/TwitchSpeaker/Tabs/Settings/Speech-Engines/){.disabled}
