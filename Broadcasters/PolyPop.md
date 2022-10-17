@@ -2,13 +2,11 @@
 title: PolyPop
 description: 
 published: true
-date: 2022-07-20T12:58:38.055Z
+date: 2022-10-17T09:08:56.291Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T19:40:37.143Z
 ---
-
-# PolyPop
 
 PolyPop integration is made possible via the community made Websocket plugin available [here](https://github.com/Jabbey92/PolyPopWebsocketPlugin/releases/tag/1.0)
 
