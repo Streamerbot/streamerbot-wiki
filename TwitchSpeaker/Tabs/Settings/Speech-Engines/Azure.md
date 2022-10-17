@@ -1,8 +1,8 @@
 ---
-title: Cloud Service Google
+title: Cloud Service Microsoft Azure
 description: 
 published: true
-date: 2022-10-17T07:57:46.725Z
+date: 2022-10-17T07:58:08.588Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T07:57:46.725Z
