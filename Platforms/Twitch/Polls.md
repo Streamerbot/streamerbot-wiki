@@ -1,15 +1,14 @@
 ---
 title: Polls
-description: 
+description: Twitch Events Reference
 published: true
-date: 2022-09-26T15:13:16.524Z
+date: 2022-10-17T17:23:31.934Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
 ---
 
 ## Twitch Polls
-
 With Twitch polls, you can drive interactive elements on your stream, showing your viewers choices in real time!  You could also create polls when certain actions happen, or setup some pre-defined polls, and just assign the actions to keys on your StreamDeck (or TouchPortal) for quick and easy access!
 
 The usage of Polls within Streamer.bot can be a bit more complex, so be sure to ask in the Discord if you get stuck!
