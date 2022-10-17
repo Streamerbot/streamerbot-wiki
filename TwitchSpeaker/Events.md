@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2022-10-17T22:12:48.883Z
+date: 2022-10-17T23:34:55.179Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -22,7 +22,7 @@ First section of this tab you will see is a `Global Event Settings` here you wil
 
 ## Event States
 
- In this section you have a check box to enable the event trigger for TwitchSpeaker to announce along with addition options as seen in the screenshot below. You can specify the amount for Cheer, Donations, Raids and Hosts with (x) amount of viewers. 
+In this section you have a check box to enable/disable the event triggers for TwitchSpeaker to announce along with addition options as seen in the screenshot below. You can specify the amount for Cheer, Donations, Raids and Hosts with (x) amount of viewers. 
 
 > **Note : Hosts are now discontinued due to Twitch API changes.**
 {.is-info}
@@ -31,6 +31,9 @@ First section of this tab you will see is a `Global Event Settings` here you wil
 ![event-states.png](/twitchspeaker/tabs/events/event-states.png){.align-center}
 ***
 
+## Per Event Settings
+
+ In this section is where you can really customise TwitchSpeaker TTS with your own unique messagead your flare and personality to it also it doesnt have to be just one single message. You can have multiple different message for each event and TwitchSpeaker will choose one 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
 - [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
 {.btn-grid .my-5}
