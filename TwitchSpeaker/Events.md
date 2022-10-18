@@ -1,8 +1,8 @@
 ---
 title: Events
 description: Twitch Speaker Event options 
-published: false
-date: 2022-10-18T00:39:01.328Z
+published: true
+date: 2022-10-18T00:39:20.664Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
