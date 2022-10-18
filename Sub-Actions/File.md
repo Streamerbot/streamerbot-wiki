@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-10-18T06:46:37.529Z
+date: 2022-10-18T06:47:13.452Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -13,33 +13,6 @@ Streamer.bot has the capability of reading the contents of files into variables 
 * [<i class="mdi mdi-file-find primary--text"></i>**Read Lines From File *Load the entire contents of a file into your action***](/en/Sub-Actions/File/Read-Lines-From-File)
 * [<i class="mdi mdi-file-move primary--text"></i>**Read Random Line From File *Read random line from a file***](/en/Sub-Actions/File/Read-Random-Line-From-File)
 {.btn-grid .my-5}
-
----
-
-## Read Random Line From File
-
-Load the entire contents of a file into your action, then you can have the bot read a random line from the file and load it into a variable `%randomLine%`.
-
-![sub-action-readrandomlinefromfile-01.png](/sub-action-readrandomlinefromfile-01.png)
-
-### Parse Variables
-If this option is selected, when reading in the lines, if there are any %variables% present, they will be replaced with the current contents of the specified variable. 
-Example:
-
-You have a file containing a list of welcome messages, such as: 
-    Welcome `%user%`.
-  Greetings `%user%`.
-  Nice to see you `%user%`, have a seat.
-
-The `%user%` would be replaced when reading the file.
-
-### Attempt Auto-typing
-While reading the contents of the file, an attempt will be made on each line to determine its ‘type’. So, if it's a number, it will make sure the variable is defined as a numeric, if it contains a string it will define the variable as a string. This is useful for future operations on the created variable.
-
-### Variables
-Name | Description
-----:|:------------
-| `randomLine#` | Reads a random line from a given source file, the first will have no number, then 1, 2, 3 and so on for each concurrent use within the same action. i.e. `%randomLine%`, `randomLine1`, `randomLine2`
 
 ---
 
