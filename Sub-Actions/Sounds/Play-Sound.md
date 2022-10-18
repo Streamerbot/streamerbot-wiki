@@ -2,13 +2,11 @@
 title: Play Sound
 description: 
 published: true
-date: 2021-11-02T04:23:36.470Z
+date: 2022-10-18T00:24:20.862Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T04:23:33.090Z
 ---
-
-# Play Sound
 
 Play a sound file on your computer.
 
