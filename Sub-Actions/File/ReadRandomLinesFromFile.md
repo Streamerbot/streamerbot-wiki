@@ -2,13 +2,11 @@
 title: Read Random Lines From File
 description: 
 published: true
-date: 2021-11-26T00:25:58.954Z
+date: 2022-10-18T06:51:07.196Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-18T21:44:05.986Z
 ---
-
-# Read Random Lines From File
 
 Using this sub-action, you can load the entire contents of a file into your action, then you can have the bot read a random line from the file and load it into a variable `%randomLine%`.
 
