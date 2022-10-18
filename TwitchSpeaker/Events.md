@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2022-10-18T00:36:11.024Z
+date: 2022-10-18T00:37:29.842Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -39,22 +39,22 @@ In this section is where you can really customise TwitchSpeaker TTS with your ow
 
 Variable's that are available for use in TwitchSpeaker are as follows :
 
-| Variable | Description |
-|   ---:|-------------|
-| `%name%` | Say the name of the user who triggered the event |
-| `%level%` | Say the current level of a Hype Train |
-| `%gift%` | Say the amount of gift subs given to the community |
-| `%subtier%` | Say the tier of the subscription |
-| `%title%` | Say the title of the channel point reward redeemed |
-| `%cost%` | Say the cost of the channel point redemption that has been triggered |
-| `%bits%` | Say the number of bits cheered |
-| `%amount%` | Say the amount bits / money / channel points used or donated |
-| `%percent%` | Say the percentage of completion of a hype train or a community goal etc. |
-| `%currency%` | Say the currency used in the donation message |
-| `%tier%` | Say the tier of the Subscription gifted |
-| `%recipient%` | Say who received a gift sub |
-| `%cumulative%` | Say how long a user has been subscribed to the channel |
-| `%message%` | Say the text that is pass through with a sub, resub or donation |
+  | Variable | Description |
+  |   ---:|-------------|
+  | `%name%` | Say the name of the user who triggered the event |
+  | `%level%` | Say the current level of a Hype Train |
+  | `%gift%` | Say the amount of gift subs given to the community |
+  | `%subtier%` | Say the tier of the subscription |
+  | `%title%` | Say the title of the channel point reward redeemed |
+  | `%cost%` | Say the cost of the channel point redemption that has been triggered |
+  | `%bits%` | Say the number of bits cheered |
+  | `%amount%` | Say the amount bits / money / channel points used or donated |
+  | `%percent%` | Say the percentage of completion of a hype train or a community goal etc. |
+  | `%currency%` | Say the currency used in the donation message |
+  | `%tier%` | Say the tier of the Subscription gifted |
+  | `%recipient%` | Say who received a gift sub |
+  | `%cumulative%` | Say how long a user has been subscribed to the channel |
+  | `%message%` | Say the text that is pass through with a sub, resub or donation |
 
 
 
