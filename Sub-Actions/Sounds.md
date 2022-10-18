@@ -2,13 +2,13 @@
 title: Sounds Sub-Actions
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-10-18T00:21:55.587Z
+date: 2022-10-18T00:22:44.510Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
 ---
 
-* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound**](#play-sound)
+* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](#play-sound)
 * [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound from Folder**](#play-sound-from-folder)
 {.btn-grid .my-5}
 
@@ -43,7 +43,7 @@ Adjust the volume of the sound file.  This is a very basic volume adjustment, an
 
 # Play Sound from Folder
 
-This sub action allows you to play a sound file from a folder on your computer that is in the folder you specify in the dialog box. 
+Play a sound file from a folder on your computer that is in the folder you specify in the dialog box. 
 
 ![sound_from_folder.png](/sound_from_folder.png)
 
