@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-10-18T06:41:51.671Z
+date: 2022-10-18T06:44:45.721Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -11,13 +11,14 @@ dateCreated: 2022-01-23T19:39:55.125Z
 Streamer.bot has the capability of reading the contents of files into variables and writing back to files when needed.
 
 * [<i class="mdi mdi-file-find primary--text"></i>**Read Lines From File *Load the entire contents of a file into your action***](/en/Sub-Actions/File/Read-Lines-From-File)
+* [<i class="mdi mdi-file-arrow-left-right primary--text"></i>**Read Random Line From File *Read randomm line from a file***](/en/Sub-Actions/File/Read-Random-Line-From-File)
 {.btn-grid .my-5}
 
 ---
 
 ## Read Random Line From File
 
-Using this sub-action, you can load the entire contents of a file into your action, then you can have the bot read a random line from the file and load it into a variable `%randomLine%`.
+Load the entire contents of a file into your action, then you can have the bot read a random line from the file and load it into a variable `%randomLine%`.
 
 ![sub-action-readrandomlinefromfile-01.png](/sub-action-readrandomlinefromfile-01.png)
 
