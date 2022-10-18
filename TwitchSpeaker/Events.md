@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2022-10-18T00:34:05.452Z
+date: 2022-10-18T00:36:11.024Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -35,7 +35,9 @@ In this section you have a check box to enable/disable the event triggers for Tw
 
 In this section is where you can really customise TwitchSpeaker TTS with your own unique message and your flare and personality to it also it doesn’t have to be just one single message. You can have multiple different messages for each event and TwitchSpeaker will choose one at random or you can add weight to each message (this makes it that TwitchSpeaker will favour 1 message more than the other that are available). In this section you also have a check box that allows you to Enable/Disable a specific message.
 
-Variable that are available for use in this are as follows 
+![per-event-settings.png](/twitchspeaker/tabs/events/per-event-settings.png){.align-center}
+
+Variable's that are available for use in TwitchSpeaker are as follows :
 
 | Variable | Description |
 |   ---:|-------------|
@@ -53,7 +55,7 @@ Variable that are available for use in this are as follows
 | `%recipient%` | Say who received a gift sub |
 | `%cumulative%` | Say how long a user has been subscribed to the channel |
 | `%message%` | Say the text that is pass through with a sub, resub or donation |
-![per-event-settings.png](/twitchspeaker/tabs/events/per-event-settings.png){.align-center}
+
 
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
