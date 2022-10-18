@@ -2,14 +2,14 @@
 title: Sounds Sub-Actions
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-10-18T00:22:44.510Z
+date: 2022-10-18T00:23:17.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
 ---
 
 * [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](#play-sound)
-* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound from Folder**](#play-sound-from-folder)
+* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound from Folder *Play a sound file from a folder***](#play-sound-from-folder)
 {.btn-grid .my-5}
 
 Streamer.bot has the capability of playing sounds directly from the application, no sources in your streaming software are required.
