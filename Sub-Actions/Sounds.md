@@ -1,8 +1,8 @@
 ---
 title: Sounds Sub-Actions
-description: Play sound files directly from the Streamer.bot application
+description: Reference of all Sounds Sub-Actions
 published: true
-date: 2022-10-18T00:31:05.982Z
+date: 2022-10-18T00:32:42.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
