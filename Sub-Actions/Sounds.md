@@ -2,13 +2,13 @@
 title: Sounds Sub-Actions
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-10-18T00:23:17.484Z
+date: 2022-10-18T00:25:55.728Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
 ---
 
-* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](#play-sound)
+* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](/en/Sub-Actions/Sounds/Play-Sound)
 * [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound from Folder *Play a sound file from a folder***](#play-sound-from-folder)
 {.btn-grid .my-5}
 
