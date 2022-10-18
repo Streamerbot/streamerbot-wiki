@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2022-10-18T00:37:29.842Z
+date: 2022-10-18T00:39:01.328Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -59,5 +59,5 @@ Variable's that are available for use in TwitchSpeaker are as follows :
 
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
+- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/en/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
 {.btn-grid .my-5}
