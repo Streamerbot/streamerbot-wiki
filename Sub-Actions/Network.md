@@ -2,14 +2,14 @@
 title: Network Sub-Actions
 description: Reference of all sub-actions for interacting with external networks or URL's
 published: true
-date: 2022-07-28T19:42:56.573Z
+date: 2022-10-18T06:34:52.493Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T19:01:16.907Z
 ---
 
-- [**Fetch URL *Retrieve data from a URL and populate into an argument***](/Sub-Actions/Network/Fetch-URL)
-- [**UDP Broadcast *Transmit custom data payload over UDP protocol***](/Sub-Actions/Network/UDP-Broadcast)
+- [<i class="mdi mdi-cloud-search primary--text"></i> **Fetch URL *Retrieve data from a URL and populate into an argument***](/Sub-Actions/Network/Fetch-URL)
+- [<i class="mdi mdi-cloud-upload primary--text"></i> **UDP Broadcast *Transmit custom data payload over UDP protocol***](/Sub-Actions/Network/UDP-Broadcast)
 {.btn-grid .my-5}
 
 ---
