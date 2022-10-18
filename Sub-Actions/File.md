@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-10-18T06:40:50.071Z
+date: 2022-10-18T06:41:51.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -12,29 +12,6 @@ Streamer.bot has the capability of reading the contents of files into variables 
 
 * [<i class="mdi mdi-file-find primary--text"></i>**Read Lines From File *Load the entire contents of a file into your action***](/en/Sub-Actions/File/Read-Lines-From-File)
 {.btn-grid .my-5}
-
----
-
-## Read Lines From File
-
-Using this sub-action, you can, each line will be added as a new variable, `%line#%` where `#` would be from 0 to n-number of lines in the file.
-
-![sub-action-read-lines-from-file-001.png](/sub-action-read-lines-from-file-001.png)
-
-### Parse Variables
-If this option is selected, when reading in the lines, if there are any `%variables%` present, they will be parsed for you.
-
-For example, you have a file of welcome messages, that consist of `Welcome %user%`, with variations on that, the `%user%` would be replaced when reading the file.
-
-### Attempt Auto-typing
-While reading the contents of the file, an attempt will be made on each line to auto-type it.  So if it's a number, it will make sure the variable contains a number type.
-
-### Variables
-
-| Name | Description |
-|---------:|:------------|
-| `lineCount` | The number of lines read from the file
-| `line#` | The line number from the file, replace `#` with the line number, starting from **0**
 
 ---
 
