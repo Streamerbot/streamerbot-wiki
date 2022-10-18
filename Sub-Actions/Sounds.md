@@ -2,12 +2,11 @@
 title: Sounds Sub-Actions
 description: Play sound files directly from the Streamer.bot application
 published: true
-date: 2022-10-18T00:29:47.440Z
+date: 2022-10-18T00:29:55.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
 ---
-
 
 Streamer.bot has the capability of playing sounds directly from the application, no sources in your streaming software are required.
 
