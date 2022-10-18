@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2022-10-17T23:39:55.780Z
+date: 2022-10-18T00:14:02.020Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -33,7 +33,28 @@ In this section you have a check box to enable/disable the event triggers for Tw
 
 ## Per Event Settings
 
- In this section is where you can really customise TwitchSpeaker TTS with your own unique messagead your flare and personality to it also it doesnt have to be just one single message. You can have multiple different message for each event and TwitchSpeaker will choose one at random or you can add weight to each message (this makes it that Twitch speaker will favour 1 message more than the other that are available )
+In this section is where you can really customise TwitchSpeaker TTS with your own unique messagead your flare and personality to it also it doesnt have to be just one single message. You can have multiple different message for each event and TwitchSpeaker will choose one at random or you can add weight to each message (this makes it that TwitchSpeaker will favour 1 message more than the other that are available ). In this section you also have a check box that allows you to Enable/Disable a specific message.
+
+Variable that are aviable for use in this are as follows 
+
+1.  name  
+1. level 
+1. gift 
+1. subtier
+1. title
+1. cost 
+1. bits 
+1. amount 
+1. percent 
+1. currency
+1. tier
+1. recipient
+1. cumulative
+1. message
+
+![per-event-settings.png](/twitchspeaker/tabs/events/per-event-settings.png){.align-center}
+
+
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
 - [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
 {.btn-grid .my-5}
