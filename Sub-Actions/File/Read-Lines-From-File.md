@@ -2,18 +2,18 @@
 title: Read Lines From File
 description: 
 published: true
-date: 2021-10-24T23:49:28.053Z
+date: 2022-10-18T06:52:50.579Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
 ---
 
-# Read Lines From File
-
+## Overview
 Using this sub-action, you can load the entire contents of a file into your action, each line will be added as a new variable, `%line#%` where `#` would be from 0 to n-number of lines in the file.
 
 ![sub-action-read-lines-from-file-001.png](/sub-action-read-lines-from-file-001.png)
 
+## Configuration
 ### Parse Variables
 If this option is selected, when reading in the lines, if there are any `%variables%` present, they will be parsed for you.
 
