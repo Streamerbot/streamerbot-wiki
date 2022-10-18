@@ -2,7 +2,7 @@
 title: File Operations
 description: Reading and Writing files with sub-actions
 published: true
-date: 2022-10-18T06:48:59.511Z
+date: 2022-10-18T06:49:40.862Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T19:39:55.125Z
@@ -12,7 +12,7 @@ Streamer.bot has the capability of reading the contents of files into variables 
 
 * [<i class="mdi mdi-file-find primary--text"></i>**Read Lines From File *Load the entire contents of a file into your action***](/en/Sub-Actions/File/Read-Lines-From-File)
 * [<i class="mdi mdi-file-move primary--text"></i>**Read Random Line From File *Read random line from a file***](/en/Sub-Actions/File/Read-Random-Line-From-File)
-* [<i class="mdi mdi-file primary--text"></i>**Write to File *Write variable data to files***](/en/Sub-Actions/File/Write-to-File)
+* [<i class="mdi mdi-file-edit primary--text"></i>**Write to File *Write variable data to files***](/en/Sub-Actions/File/Write-to-File)
 {.btn-grid .my-5}
 
 ---
