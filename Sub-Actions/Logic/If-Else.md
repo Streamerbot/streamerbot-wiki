@@ -2,7 +2,7 @@
 title: If/Else
 description: Working with variables and logic statements
 published: true
-date: 2022-10-19T06:01:39.463Z
+date: 2022-10-19T06:15:59.748Z
 tags: logic, if, else
 editor: markdown
 dateCreated: 2022-01-09T11:33:31.443Z
@@ -36,7 +36,7 @@ If the `Run Action Immediately` checkbox is ticked, this will run the action out
 
 If the box is unchecked then Streamerbot will queue it as normal as a completely separate action and then move on immediately to the next sub-action
 
-## Then
+### Then
 This specifies if the Action should `Continue` or `Break` after performing its named Action. This flag will only trigger if the test was `True`, if not it will always `Continue`
 
 ---
