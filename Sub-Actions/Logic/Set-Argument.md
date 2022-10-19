@@ -2,22 +2,25 @@
 title: Set Argument
 description: 
 published: true
-date: 2022-06-28T00:44:28.698Z
+date: 2022-10-19T06:18:04.623Z
 tags: logic, set argument
 editor: markdown
 dateCreated: 2022-06-28T00:44:25.623Z
 ---
 
-# Set Argument
+## Overview
+This sub-action is used to define custom `Arguments` or perform [Inline Functions](/en/Inline-Functions) with them such as [Math](/en/inline-functions-math)
 
 ![logic-set-argument.png](/logic-set-argument.png)
 
-This sub-action is used to define custom `Arguments` or perform [Inline Functions](/en/Inline-Functions) with them such as [Math](/en/inline-functions-math)
-
-## Variable Name
-
+## Configuration
+### Variable Name
 The `Argument` you wish to manipulate (This should be without the % symbols)
 
-## Value
-
+### Value
 The data you want to store in the argument
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
+{.btn-grid .my-5}
