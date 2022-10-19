@@ -2,7 +2,7 @@
 title: Set Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2022-10-19T05:56:41.484Z
+date: 2022-10-19T05:58:16.611Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:56:41.484Z
@@ -43,3 +43,8 @@ Mode | Description
 `Value`| Store the entered value, exactly as written 
 `Increment`| Take the current global value and add the specified value to it (only works for integers)
 `Argument` | Store the contents of a named active argument (do not include the % symbols)
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
+{.btn-grid .my-5}
