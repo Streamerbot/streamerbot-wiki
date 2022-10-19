@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-15T15:21:00.578Z
+date: 2022-10-19T00:59:29.218Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -35,9 +35,6 @@ Upcoming changes in the next release!{.subtitle}
 * Comment sub-action should behave correctly now (no longer disappearing, or moving around on its own)
 * Forgetting Twitch broadcaster account forgot bot account (woops)
 * Stop saving config when a channel reward is updated
-* Added option to enable/disable present viewer tick
-* Added option to change present viewer tick from 1 to 10 minutes
-* By default present viewer tick is now disabled
 {.changelog-fixes}
 
 <span></span>
@@ -72,6 +69,7 @@ Upcoming changes in the next release!{.subtitle}
 * Stop saving config when a channel reward is updated
 * Forgetting broadcaster account forgot bot account (woops)
 * Add more verbose logging
+* Changes to the [Twitch Present Viewer Tick](#tiwtch-present-viewer-tick)
 {.changelog-updates}
 
 <span></span>
@@ -113,6 +111,17 @@ Upcoming changes in the next release!{.subtitle}
 ## New Twitch Bot Scopes
 * `moderator:manage:chat_messages`
 {.grid-list}
+
+## Twitch Present Viewer Tick
+I have gone through and changed how the present viewer tick operates, it is still possible to have the same behavior as 0.1.12, so continue reading.
+
+The present viewer tick will always happen, but you now have the ability to have it "live update" from twitch, or artificially mark someone as present.
+
+Under the Present Viewer action selector, there are 2 new setttings, a `Live Update` check box, and a slider bar.
+
+When Live Update is checked, the slider next to it is how often this update will occur, between 1 and 10 minutes, this will also still execute the action at this interval.
+
+When Live Update is not checked, the slider next to it behaves as a threshold. The timer runs every minute, and checks the current time minus the user's last active time, if this is less then the threshold, they are marked as present, otherwise they are marked as not present.  The action will still be executed, but, it will occur every minute.
 
 ## Twitch Charity
 The newly released Charity feature of Twitch is now supported within **Streamer.bot**
