@@ -2,7 +2,7 @@
 title: Get Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2022-10-19T05:54:26.112Z
+date: 2022-10-19T06:18:51.849Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:54:26.112Z
@@ -44,3 +44,8 @@ This is the name of the custom `Argument` the data will be stored in.
 
 ### Default Value
 If the specified `Global` / `User` variable does not exist for that context, the Get subaction will create it for you and populate with this value
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
+{.btn-grid .my-5}
