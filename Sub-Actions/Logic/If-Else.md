@@ -2,7 +2,7 @@
 title: If/Else
 description: Working with variables and logic statements
 published: true
-date: 2022-06-28T00:44:56.606Z
+date: 2022-10-19T06:00:23.267Z
 tags: logic, if, else
 editor: markdown
 dateCreated: 2022-01-09T11:33:31.443Z
@@ -43,3 +43,8 @@ If the box is unchecked then Streamerbot will queue it as normal as a completely
 ## Then
 
 This specifies if the Action should `Continue` or `Break` after performing its named Action. This flag will only trigger if the test was `True`, if not it will always `Continue`
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
+{.btn-grid .my-5}
