@@ -2,7 +2,7 @@
 title: Set Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2022-10-19T05:58:16.611Z
+date: 2022-10-19T05:58:43.131Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:56:41.484Z
