@@ -2,7 +2,7 @@
 title: OBS Studio Events (Archive)
 description: Reference of all configurable events from OBS Studio (obs-websocket-4.9.1)
 published: true
-date: 2022-10-09T17:29:43.971Z
+date: 2022-10-19T14:59:51.273Z
 tags: obs, obs-studio, events, reference, obs-websocket-4.9.1
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z
@@ -11,7 +11,7 @@ dateCreated: 2022-07-04T19:18:02.800Z
 ![OBS Studio Logo](https://streamer.bot/img/integrations/obs.svg){.align-abstopright}
 
 > **ARCHIVE OF OBS-WEBSOCKET-4.x.x DOCS**
-> It is recommended to update to `obs-websocket-5.x.x` and use the latest [OBS Events Docs](/en/Broadcasters/OBS/Archive/Events)
+> It is recommended to update to `obs-websocket-5.x.x` and use the latest [OBS Events Docs](/en/Broadcasters/OBS/Events)
 {.is-danger}
 
 This is a full reference of all [OBS WebSocket](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md) events that can be mapped to [actions](/en/Actions) in Streamer.bot.
