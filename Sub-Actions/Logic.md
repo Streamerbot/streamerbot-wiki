@@ -2,7 +2,7 @@
 title: Logic Sub-Actions
 description: Sub-Actions Reference
 published: true
-date: 2022-10-19T07:18:11.758Z
+date: 2022-10-20T08:41:32.910Z
 tags: subactions, logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
@@ -24,7 +24,7 @@ All logic in Streamer.bot must be performed against active Arguments. As any arg
 
 * [**Global (Get) *Read data from a`Global Variable` into an argument***](/en/Sub-Actions/Logic/Get-Global-Variable)
 * [**Global (Set) *Save data to a custom `Global Variable`***](/en/Sub-Actions/Logic/Set-Global-Variable)
-* [**If / Else *Performs an `Action` if logical test is `True`***](/en/Sub-Actions/Logic/If-Else)
+* [<i class="mdi mdi-ab-testing primary--text"></i> **If / Else *Performs an `Action` if logical test is `True`***](/en/Sub-Actions/Logic/If-Else)
 * [**Set Argument *Store / Manipulate data in an argument***](/Sub-Actions/Logic/Set-Argument)
 * [**Break *Diagnostic user only, cancels the running action***](/Sub-Actions/Logic/Break)
 {.btn-grid .my-5}
