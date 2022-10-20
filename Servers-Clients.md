@@ -2,7 +2,7 @@
 title: Servers and Clients
 description: Configure communications to/from Streamer.bot using WebSockets, HTTP, or UDP connections
 published: true
-date: 2022-07-27T21:11:39.996Z
+date: 2022-10-20T19:04:01.876Z
 tags: websocket, settings, api
 editor: markdown
 dateCreated: 2021-08-25T21:32:22.739Z
@@ -21,5 +21,5 @@ This can enable advanced interactions, such as the [Streamer.bot Decks](/en/Exte
 - [<i class="mdi mdi-api primary--text"></i> **WebSocket Server *Enable the internal Streamer.bot WebSocket API***](/Servers-Clients/WebSocket-Server)
 - [<i class="mdi mdi-api primary--text"></i> **HTTP Server *Enable the internal Streamer.bot HTTP API***](/Servers-Clients/HTTP-Server)
 - [<i class="mdi mdi-api primary--text"></i> **UDP Server *Enable the internal Streamer.bot UDP Server***](/Servers-Clients/UDP-Server)
-- [<i class="mdi mdi-plus-network primary--text"></i> **WebSocket Clients *Connect to external WebSocket servers***](/Servers-Clients/WebSocket-Clients)
+- [<i class="mdi mdi-plus-network primary--text"></i> **WebSocket Clients *Connect to external WebSocket servers***](/en/Servers-Clients/WebSocket-Clients)
 {.btn-grid .my-5}
