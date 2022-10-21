@@ -2,7 +2,7 @@
 title: Take Screenshot
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:59:17.322Z
+date: 2022-10-21T15:28:48.942Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
@@ -30,7 +30,7 @@ Select the desired image quality or leave as `Auto`
 Name | Description
 ----:|:------------
 `screenshotFile` | The full path to the screenshot that was taken
-`filedatetime` | Date Time varible that can be used for file name <br> `yyyyMMdd.hhmmss`
+`filedatetime` | Date Time variable that can be used for file name <br> `yyyyMMdd.hhmmss`
 {.vars-table}
 
 ---
