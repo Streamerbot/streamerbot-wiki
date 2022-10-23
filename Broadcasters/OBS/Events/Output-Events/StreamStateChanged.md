@@ -2,7 +2,7 @@
 title: StreamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-09T21:12:47.567Z
+date: 2022-10-23T11:44:36.157Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:05:38.373Z
@@ -24,6 +24,7 @@ Name | Description
 `OBS_WEBSOCKET_OUTPUT_STOPPED` | You have successfully stopped streaming
 `OBS_WEBSOCKET_OUTPUT_STARTING` | You have send the request to start streaming
 `OBS_WEBSOCKET_OUTPUT_STARTED` | You have successfully started streaming
+
 ## Data Fields
 :---|:---:|
 | Complexity Rating: | <span class="stars stars--2"></span>
