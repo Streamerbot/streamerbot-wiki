@@ -2,7 +2,7 @@
 title: RecordStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T18:07:40.184Z
+date: 2022-10-23T11:47:00.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:07:37.969Z
@@ -18,11 +18,25 @@ Name | Type | Description |
 `obsEvent.outputState` | `String`{.datatype} | The specific state of the output
 `obsEvent.outputPath` | `String`{.datatype} | File name for the saved recording, if record stopped. `null` otherwise
 
+### obsEvent.outputState
+Name | Description
+----:|:------------
+`OBS_WEBSOCKET_OUTPUT_STOPPING` | You have send the request to stop recording
+`OBS_WEBSOCKET_OUTPUT_STOPPED` | You have successfully stopped recording
+`OBS_WEBSOCKET_OUTPUT_STARTING` | You have send the request to start recording
+`OBS_WEBSOCKET_OUTPUT_STARTED` | You have successfully started recording
+
 ## Data Fields
 :---|:---:|
 | Complexity Rating: | <span class="stars stars--2"></span>
 | Latest Supported RPC Version: | *1*{.obs-version-badge}
 | Added in | *v5.0.0*{.obs-version-badge}
+
+## Example
+```json
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STARTED") do "<start recording action>" then "break"
+if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "<stop recording action>" then "break"
+```
 
 ---
 
