@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-19T02:14:47.577Z
+date: 2022-10-25T22:29:26.519Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -35,6 +35,7 @@ Upcoming changes in the next release!{.subtitle}
 * Comment sub-action should behave correctly now (no longer disappearing, or moving around on its own)
 * Forgetting Twitch broadcaster account forgot bot account (woops)
 * Stop saving config when a channel reward is updated
+* Fix File/Folder watch init to check for existence of folder
 {.changelog-fixes}
 
 <span></span>
@@ -70,6 +71,8 @@ Upcoming changes in the next release!{.subtitle}
 * Forgetting broadcaster account forgot bot account (woops)
 * Add more verbose logging
 * Changes to the [Twitch Present Viewer Tick](#tiwtch-present-viewer-tick)
+* Updates to File/Folder watch to show error if you try to enable a watcher with a missing folder
+* Move [Twitch timeout and ban events](#twitch-timeout-and-ban-events) to use PubSub events, this provides who, as well as reason in addition to existing data.
 {.changelog-updates}
 
 <span></span>
@@ -100,6 +103,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add new event for Twitch, [Shoutout Created](#twitch-shoutout), this is triggered when the `/shoutout` command is used, if your channel has the ability
 * Added option to enable/disable present viewer tick, default disabled
 * Added option to change present viewer tick from 1 to 10 minutes, default of 5 minutes
+* Added new context menu item for actions to set their queue
 {.changelog-new}
 
 ## New Twitch Broadcaster Scopes
@@ -129,6 +133,19 @@ The default setting is `Live Update` not checked, and the slider set to `5` minu
 The newly released Charity feature of Twitch is now supported within **Streamer.bot**
 
 This introduces 2 new events, **Donation** and **Completed**
+
+## Twitch Timeout and Ban Events
+Switching these events to use the data that comes from PubSub, they may happen quicker, as well, more variables are available.
+
+Both the ban and timeout events gain the following variables
+
+Name | Description
+----:|:------------
+`createdAt` | The date and time the ban or timeout was created
+`createdById` | The Twitch ID of the user who created the ban or timeout
+`createdByUsername` | The user name of the user who created the ban or timeout
+`createdByDisplayName` | The display name of the user who created the ban or timeout
+`reason` | The reason for the ban or timeout
 
 ### Donation Event
 The donation event occurs when someone has donated to your charity.
