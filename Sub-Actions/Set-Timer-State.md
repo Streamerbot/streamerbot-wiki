@@ -2,14 +2,16 @@
 title: Set Timer State
 description: 
 published: true
-date: 2022-07-28T19:43:50.446Z
+date: 2022-10-25T17:10:12.973Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:13.939Z
 ---
 
+## Overview
 Enable, Disable or Toggle the state of the selected timer
 
+## Configuration
 ### Timer
 
 The timer you wish to alter the state of
