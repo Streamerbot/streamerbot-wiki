@@ -2,7 +2,7 @@
 title: Streamlabs Desktop
 description: Configure Streamlabs Desktop as a broadcaster in Streamer.bot
 published: true
-date: 2022-08-26T12:08:00.208Z
+date: 2022-10-26T15:36:18.964Z
 tags: broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2021-08-25T21:32:18.787Z
@@ -10,12 +10,12 @@ dateCreated: 2021-08-25T21:32:18.787Z
 
 ![Streamlabs Logo](https://streamer.bot/img/integrations/streamlabs.png){.align-abstopright}
 
-# Overview
+## Overview
 Control your Streamlabs Desktop instance(s) with Streamer.bot
 
 Adding at least one connection will allow you to control your Streamlabs Desktop either through the various [sub-actions](/Sub-Actions) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
 
-# Configuration
+## Configuration
 `Right-Click` `->` `Add` to define a new connection
 Give it a name and set the IP address and Port number of your SLOBS / Streamlabs Desktop installation
 
@@ -25,7 +25,7 @@ The Default values of `127.0.0.1` and `59650` will look for the out-of-box confi
 
 ![SLOBS settings](/122339880-810b0280-cf39-11eb-9453-f6e4e6473f1e.png)
 
-## Token
+### Token
 In SLOBS / Streamlabs Desktop settings go to **Remote Control**
 
 Click to reveal the QR code and then click **Show Details**
@@ -42,13 +42,13 @@ Once configured, connected SLOBS / Streamlabs Desktop sessions will report their
 
 ![SLOBS connection](/122341198-1fe42e80-cf3b-11eb-9c5e-42217878766d.png)
 
-## Current Scene
+### Current Scene
 Shows the name of the currently broadcasting scene on that connection
 
-## Stream Status
+### Stream Status
 Shows the status of current streaming and recording activity
 
-## Sources
+### Sources
 Lists all sources present on the currently selected scene
 
 ---
