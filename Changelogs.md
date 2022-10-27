@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-27T00:34:18.122Z
+date: 2022-10-27T23:58:19.087Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.14 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.14 (Current)
+Released 2022-10-27{.subtitle}
  
 * Typos
 * Blocking state of a queue was not updating visually
@@ -74,6 +74,7 @@ Upcoming changes in the next release!{.subtitle}
 * Updates to File/Folder watch to show error if you try to enable a watcher with a missing folder
 * Move [Twitch timeout and ban events](#twitch-timeout-and-ban-events) to use PubSub events, this provides who, as well as reason in addition to existing data.
 * Updated line count handling for Timed Actions, this is no longer a debounced event, it should happen as the line counts increase.  This may change depending how it behaves with performance.
+* Add some checks when using `Set Reward Title` and `Reward Update` sub-actions to prevent setting titles longer then 45 characters, and prompt longer then 200 characters
 {.changelog-updates}
 
 <span></span>
