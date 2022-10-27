@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-27T00:26:47.263Z
+date: 2022-10-27T00:34:18.122Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -78,6 +78,7 @@ Upcoming changes in the next release!{.subtitle}
 
 <span></span>
 
+* **Streamer.bot** now has an [Auto Updater!](#auto-updater)
 * Add a new menu item for OBS connections that lets you assign **ALL** OBS related sub-actions to that connection
 * Add a new [OBS Set Color Source Color](#obs-set-color-source-color) sub-action and C# methods
 * Request new scope `whispers:read` on bot account, you will need to re-authorize your bot account
@@ -106,6 +107,23 @@ Upcoming changes in the next release!{.subtitle}
 * Added option to change present viewer tick from 1 to 10 minutes, default of 5 minutes
 * Added new context menu item for actions to set their queue
 {.changelog-new}
+
+## Auto Updater
+With version 0.1.14, the ground work has been put in to include an auto updater, which means, this is the **last** version that will require you to manually update.  Moving forward, starting with version 0.1.15, you will be able to update within **Streamer.bot** itself.
+
+If you have been using the recent betas, or are part of alpha testing, you've already been giving this feature a try!
+
+When you launch **Streamer.bot** it will perform a check to see if there is an update, and if there is, you will see a screen pop-up similar to the one below.
+
+![auto-updater-001.png](/update/auto-updater-001.png)
+
+After you click `Download`, and the update is downloaded, you will be able to install the update by clicking on `Install`
+
+![auto-updater-002.png](/update/auto-updater-002.png)
+
+As you can see, there are update channels, `stable`, `beta`, `alpha`.  By default everyone will be on the stable channel, which are the public releases.
+
+To be able to select any other update channel, you will need to have **Streamer.bot** connected to the website, under Integrations, and have the appropriate roles in the Discord.
 
 ## New Twitch Broadcaster Scopes
 * `channel:read:charity`
