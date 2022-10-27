@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: false
-date: 2022-10-16T19:54:48.065Z
+date: 2022-10-27T15:04:32.352Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -19,11 +19,22 @@ Username, and image are also optional
 
 ## Configuration
 ### Webhook Name
+The name of the webhook (will be shown when you close this sub-action).
+
 ### Username
+The username of the webhook in Discord.
+
 ### Webhook Url
+The webhook url that you've copied from this Discord.
+
 ### Content
+The content of the message of the webhook, can use `\n`
+
 ### Image
+Optional added images the to webhook message.
+
 ### Text to Speech
+Whether the Discord webhook message is Text to Speech or not.
 
 ---
 
