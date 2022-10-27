@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-25T22:29:26.519Z
+date: 2022-10-27T00:26:47.263Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -73,6 +73,7 @@ Upcoming changes in the next release!{.subtitle}
 * Changes to the [Twitch Present Viewer Tick](#tiwtch-present-viewer-tick)
 * Updates to File/Folder watch to show error if you try to enable a watcher with a missing folder
 * Move [Twitch timeout and ban events](#twitch-timeout-and-ban-events) to use PubSub events, this provides who, as well as reason in addition to existing data.
+* Updated line count handling for Timed Actions, this is no longer a debounced event, it should happen as the line counts increase.  This may change depending how it behaves with performance.
 {.changelog-updates}
 
 <span></span>
