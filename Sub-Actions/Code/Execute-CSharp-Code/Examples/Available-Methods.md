@@ -1,8 +1,8 @@
 ---
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
-published: true
-date: 2022-10-28T16:37:34.887Z
+published: false
+date: 2022-10-28T16:39:13.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
