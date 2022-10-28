@@ -2,7 +2,7 @@
 title: Variable Types
 description: A list of all available variable types that you can import in to your code
 published: true
-date: 2022-08-28T18:48:23.544Z
+date: 2022-10-28T17:25:25.831Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T22:11:03.320Z
@@ -78,3 +78,8 @@ float sevenDecimal = float.Parse(args["sevenDecimal"].ToString());
 double fourteenDecimal = Convert.ToDouble(args["fourteenDecimal"]);
 decimal twentyEightDecimal = Convert.ToDecimal(args["twentyEightDecimal"]);
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+{.btn-grid .my-5}
