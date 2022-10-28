@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-27T23:58:19.087Z
+date: 2022-10-28T00:09:13.300Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -347,7 +347,7 @@ The maximum message lengths are:
 
 Messages that exceed the maximum length are truncated.
 
-# Streamer.bot v0.1.12 (Current)
+# Streamer.bot v0.1.12
 Released 2022-08-31{.subtitle}
 
 This is a hotfix release
