@@ -2,7 +2,7 @@
 title: Application
 description: C# Available Methods Reference
 published: false
-date: 2022-10-28T17:15:22.625Z
+date: 2022-10-28T18:06:58.953Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T17:10:24.521Z
@@ -50,11 +50,6 @@ void AddToCredits(string section, string value, bool json = true)
 void ResetCredits();
 void ResetFirstWords();
 ```
-
----
-
-- [<i class="mdi mdi-chevron-left"></i> **C# Available Methods *Go Back***](/Sub-Actions/Code/CSharp/Available-Methods)
-{.btn-grid .my-5}
 
 ## Timers
 ```csharp
