@@ -2,13 +2,13 @@
 title: Discord Sub-Actions
 description: Reference of all Discord Sub-Actions
 published: true
-date: 2022-10-28T00:16:34.451Z
+date: 2022-10-28T00:37:31.757Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-27T07:51:02.344Z
 ---
 
-- [<i class="mdi mdi-format-text text--discord"></i>**Discord Basic Webhook *Send basic webhook requests to Discord *v0.1.14*{.version-badge}***](/en/Sub-Actions/Discord/Discord-Basic-Webhook)
+- [<i class="mdi mdi-format-title text--discord"></i>**Discord Basic Webhook *Send basic webhook requests to Discord *v0.1.14*{.version-badge}***](/en/Sub-Actions/Discord/Discord-Basic-Webhook)
 {.btn-grid .my-5}
 
 ---
