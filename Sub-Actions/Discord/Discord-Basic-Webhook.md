@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: true
-date: 2022-10-28T22:59:32.360Z
+date: 2022-10-28T23:01:33.500Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -28,7 +28,7 @@ Optional username of the webhook in Discord. When not entered, the username will
 The webhook url that you've copied from this Discord.
 
 ### Content
-The content of the message of the webhook, can use <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>enter</kbd>
+The content of the message of the webhook, can use <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>enter</kbd> for multiple lines.
 
 ### Image
 Optional added images the to webhook message.
