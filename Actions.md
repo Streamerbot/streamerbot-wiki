@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-10-28T22:57:43.560Z
+date: 2022-10-28T22:58:28.132Z
 tags: subactions, guides, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -116,7 +116,7 @@ Option|Description|Notes
 `Enabled` | Boolean flag for disabling a sub-action for diagnostic purposes | Disabled sub-actions will be highlighted with Red text
 `Random` | Boolean flag to set a group folder as `Random Execution` | This will only execute a single, random sub-action from within the group. 
 `Delete all sub-actions` | Erases all sub-actions from this action |  This will show a confirmation dialogue by default unless you have turned it off
-`Move` | Submenu to change the order of sub-actions | This has the same effect as keybaord shortcuts <kbd>Ctrl + <i class="mdi mdi-arrow-up-bold"></i></kbd> and <kbd>Ctrl + <i class="mdi mdi-arrow-down-bold"></i></kbd>. Valid options are `Up`, `Down`, `Top`, `Bottom`
+`Move` | Submenu to change the order of sub-actions | This has the same effect as keybaord shortcuts <kbd>Ctrl + <i class="mdi mdi-arrow-up-thick"></i></kbd> and <kbd>Ctrl + <i class="mdi mdi-arrow-down-thick"></i></kbd>. Valid options are `Up`, `Down`, `Top`, `Bottom`
 
 > You can also drag and drop items both up and down the list and into and out of group folders
 {.is-info}
