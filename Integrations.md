@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-10-28T00:42:03.667Z
+date: 2022-10-28T00:50:22.224Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -25,10 +25,14 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate monitor integration***](/en/Integrations/Pulsoid)
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donations integration***](/en/Integrations/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery integration***](/en/Integrations/TreatStream)
-- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights! *v0.1.11*{.version-badge}***](/en/Integrations/Lumia-Stream)
-- [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **LootDevil *The Wishlist Built for Creators *DEPRECATED*{.version-badge}***](/en/Integrations/LootDevil){.disabled}
-- [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/en/Integrations/Discord)
-- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/en/Integrations/Shopify){.disabled}
+- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Control your lights!***](/en/Integrations/Lumia-Stream)
 - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *Enable additional Streamer.bot functionality***](/en/Integrations/Streamer-bot)
 - [<img src="https://streamer.bot/logo.svg"/>**Streamer.bot Decks *Web based stream decks for Streamer.bot***](/en/Extended-Features/HTML-Decks)
+- [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/en/Integrations/Discord)
+- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/en/Integrations/Shopify){.disabled}
+{.btn-grid .my-5}
+
+## Deprecated Intergrations
+These intergrations aren't supported anymore, all documentation will be removed{.subtitle}
+- [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **LootDevil *The Wishlist Built for Creators *DEPRECATED*{.version-badge}***](/en/Integrations/LootDevil){.disabled}
 {.btn-grid .my-5}
