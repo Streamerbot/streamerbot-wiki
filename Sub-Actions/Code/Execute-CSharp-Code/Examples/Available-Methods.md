@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-28T16:58:00.256Z
+date: 2022-10-28T16:59:59.573Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -16,17 +16,28 @@ Below are all the methods that can be accessed via the `CPH` object that is is a
 
 If there are methods missing, make the suggestion to get them added in!
 
+## General
 * [<i class="mdi mdi-iframe primary--text"></i> **Application**](#application)
 * [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients**](#servers-and-clients)
 * [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions**](#actions)
+{.btn-grid .my-5}
+
+## Platforms
 * [<i class="mdi mdi-twitch text--twitch"></i> **Twitch**](#twitch)
 * [<i class="mdi mdi-youtube text--youtube"></i> **YouTube**](#youtube)
+{.btn-grid .my-5}
+
+## Broadcasters
 * [<img src="https://streamer.bot/img/integrations/obs.svg"> **OBS**](#obs)
 * [<img src="https://streamer.bot/img/integrations/streamlabs.png"> **StreamLabs Desktop**](#streamlabs-desktop)
+{.btn-grid .my-5}
+
+## Intergrations
 * [<img src="https://streamer.bot/img/integrations/voicemod.png"> **VoiceMod**](#voicemod)
 * [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](#lumia-stream)
 * [<i class="mdi mdi-discord text--discord"></i> **Discord**](#discord)
 {.btn-grid .my-5}
+
 # Application
 ## General
 ```csharp
