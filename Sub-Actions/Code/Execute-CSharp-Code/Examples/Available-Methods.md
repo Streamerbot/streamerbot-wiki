@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-28T16:39:13.656Z
+date: 2022-10-28T16:45:38.647Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -16,6 +16,17 @@ Below are all the methods that can be accessed via the `CPH` object that is is a
 
 If there are methods missing, make the suggestion to get them added in!
 
+* [**Application**](#application)
+* [**Servers and Clients**](#servers-and-clients)
+* [**Actions**](#actions)
+* [**Twitch**](#twitch)
+* [**YouTube**](#youtube)
+* [**OBS**](#obs)
+* [**StreamLabs Desktop**](#streamlabs-desktop)
+* [**VoiceMod**](#voicemod)
+* [**Lumia Stream**](#lumia-stream)
+* [**Discord**](#discord)
+{.btn-grid .my-5}
 # Application
 ## General
 ```csharp
@@ -560,7 +571,7 @@ void ObsSetImageSourceFile(string scene, string source, string file, int connect
 bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
 ```
 
-# StreamLabs OBS
+# StreamLabs Desktop
 ## Connection
 ```csharp
 bool SlobsIsConnected(int connection = 0);
