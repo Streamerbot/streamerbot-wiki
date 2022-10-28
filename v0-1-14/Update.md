@@ -2,7 +2,7 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: false
-date: 2022-09-08T23:50:37.205Z
+date: 2022-10-28T00:27:33.169Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T23:49:55.127Z
@@ -10,6 +10,15 @@ dateCreated: 2022-09-08T23:49:55.127Z
 
 # Auto Updater
 ## Overview
+1. Click on `Check for Updates` / or the update window has be shown on startup.
+2. **Optional:** Change the `Update Channel` to `stable`/`beta`/`alpha`, this will only work when your [Streamer.bot Website Integration](/en/Integrations/Streamer-bot) is connected.
+3. Now you can click on `Download`.
+4. And then click on `Install`.
+5. And as you see here streamer.bot is updated!
+
+![auto-updater-001.png](/update/auto-updater-001.png =700x)
+![auto-updater-002.png](/update/auto-updater-002.png =700x)
+
 # Manual
 ## Backup
 
