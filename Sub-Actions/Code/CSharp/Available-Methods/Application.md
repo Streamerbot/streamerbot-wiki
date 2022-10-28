@@ -2,7 +2,7 @@
 title: Application
 description: C# Available Methods Reference
 published: true
-date: 2022-10-28T17:10:24.521Z
+date: 2022-10-28T17:13:19.715Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T17:10:24.521Z
@@ -109,8 +109,3 @@ void CommandResetGlobalCooldown(string id);
 void CommandResetUserCooldown(string id, int userId);
 void CommandResetAllUserCooldowns(string id);
 ```
-
----
-
-- [<i class="mdi mdi-chevron-left"></i> **C# Available Methods *Go Back***](/Sub-Actions/Code/CSharp/Available-Methods)
-{.btn-grid .my-5}
