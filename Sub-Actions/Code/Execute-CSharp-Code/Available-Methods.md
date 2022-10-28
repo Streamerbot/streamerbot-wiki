@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-09-30T12:26:25.848Z
+date: 2022-10-28T16:34:14.280Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
@@ -42,6 +42,12 @@ EventType GetEventType();
 void LogInfo(string logLine);
 void LogWarn(string logLine);
 void LogDebug(string logLine);
+```
+
+> Requires minimum version v0.1.14
+{.is-info}
+```csharp
+void LogVerbose(string logLine);
 ```
 
 ## Credits & First Words
@@ -234,16 +240,26 @@ bool TwitchAddVip(string userName);
 bool TwitchRemoveVip(string userName);
 ```
 
-## Timout / Messages
+## Messages
 > Requires minimum version v0.1.14
 {.is-info}
-```csharp
-void TimeoutUser(string userName, int duration);
-```
 
 ```csharp
 bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
+```
+
+## Timouts / Bans
+> Requires minimum version v0.1.14
+{.is-info}
+
+```csharp
+bool TwitchBanUser(string userName, string reason = null, bool bot = false);
+bool TwitchUnbanUser(string userName, bool bot = false);
+```
+
+```csharp
+void TimeoutUser(string userName, int duration);
 ```
 
 ## Channel Rewards
@@ -408,7 +424,6 @@ void UnsetYouTubeUser(string userName, bool persisted = true);
 ```
 
 # OBS
-
 ## Connection
 ```csharp
 bool ObsIsConnected(int connection = 0);
@@ -508,6 +523,7 @@ long ObsConvertColorHex(string colorHex);
 
 > Requires a minimum of v0.1.14
 {.is-info}
+
 ```csharp
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
@@ -656,6 +672,20 @@ bool VoiceModGetHearMyselfStatus();
 ```csharp
 void LumiaSetToDefault();
 ```
+
+## Send Command
+```csharp
+void LumiaSendCommand(string command);
+```
+
+# Discord
+> All of these require a minimum of v0.1.14
+{.is-info}
+## Post Text To Webhook
+```csharp
+bool DiscordPostTextToWebhook(string webhookUrl, string content, string username = null, bool textToSpeech = false);
+```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
