@@ -1,8 +1,8 @@
 ---
 title: Get Status
 description: OBS Studio Sub-Action Reference
-published: false
-date: 2022-10-24T05:40:20.223Z
+published: true
+date: 2022-10-28T00:17:37.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:29:58.608Z
