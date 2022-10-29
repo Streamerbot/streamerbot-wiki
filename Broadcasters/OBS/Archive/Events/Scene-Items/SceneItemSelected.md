@@ -2,14 +2,13 @@
 title: SceneItemSelected
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-07-18T16:09:21.645Z
+date: 2022-10-29T22:32:39.318Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:18:30.715Z
 ---
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `obsEvent.event` | The OBS event in this case `SceneItemSelected`
@@ -21,6 +20,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Archive/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Archive *Go Back***](/Broadcasters/OBS/Archive/Events)
 - [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemselected)
 {.btn-grid my-5}
