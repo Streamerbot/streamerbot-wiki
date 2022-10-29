@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-29T21:05:55.526Z
+date: 2022-10-29T21:06:37.366Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -40,5 +40,5 @@ If there are methods missing you'd like, make the suggestion to get them added i
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+- [<i class="mdi mdi-chevron-left"></i> **Code Sub-Actions *Go Back***](/en/Sub-Actions/Code)
 {.btn-grid .my-5}
