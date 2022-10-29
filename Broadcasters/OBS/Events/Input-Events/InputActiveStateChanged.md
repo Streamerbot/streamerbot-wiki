@@ -2,7 +2,7 @@
 title: InputActiveStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:16:35.334Z
+date: 2022-10-29T22:14:10.900Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:16:33.184Z
@@ -27,6 +27,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#inputactivestatechanged)
 {.btn-grid my-5}
