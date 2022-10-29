@@ -2,7 +2,7 @@
 title: RecordStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-23T11:47:00.286Z
+date: 2022-10-29T22:18:06.161Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:07:37.969Z
@@ -40,6 +40,6 @@ if ("obsEvent.outputState" Equals "OBS_WEBSOCKET_OUTPUT_STOPPED") do "<stop reco
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#recordstatechanged)
 {.btn-grid my-5}
