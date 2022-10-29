@@ -2,14 +2,14 @@
 title: General Events
 description: General & miscellaneous OBS Studio events
 published: true
-date: 2022-10-29T22:13:05.239Z
+date: 2022-10-29T22:13:43.171Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:28:17.485Z
 ---
 
-* [**ExitStarted *OBS has begun the shutdown process***](/en/Broadcasters/OBS/Events/General-Events/ExitStarted)
-* [**VendorEvent *An event has been emitted from a vendor***](/en/Broadcasters/OBS/Events/General-Events/VendorEvent)
+* [**ExitStarted *OBS has begun the shutdown process***](/Broadcasters/OBS/Events/General-Events/ExitStarted)
+* [**VendorEvent *An event has been emitted from a vendor***](/Broadcasters/OBS/Events/General-Events/VendorEvent)
 {.btn-grid .my-5}
 
 ---
