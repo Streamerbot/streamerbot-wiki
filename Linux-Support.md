@@ -2,20 +2,18 @@
 title: Linux Support
 description: Information pertaining to running Streamer.bot on Linux
 published: true
-date: 2022-08-22T20:52:38.777Z
+date: 2022-10-29T21:51:19.994Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T01:57:25.992Z
 ---
 
 ## Installer
-
 There is an install script available at: https://github.com/Streamerbot/sb-linux-installer
 
-[Installation Guide on how to install on Linux can be found here](/en/Installing-on-Linux)
+[Installation Guide on how to install on Linux can be found here](/Installing-on-Linux)
 
 ## Experimental Linux Support
-
 > There is no guarentee this will work 100%, there are areas of the app that may not function correctly, so this will be a complete work in progress depending on time/effort.
 {.is-warning}
 
@@ -58,9 +56,7 @@ UPDATE=1 ./install.sh
 
 wait for it to complete and congratulations you have sucessfully updated Streamer.bot
 ## Known issues
-
 ### Right click viewers
-
 Right click on viewers on the Viewers tab does not render correctly, you need to move the mouse over the opening context menu to let it appear. The speed with which the menu shows up can be improved by redirecting stderr (and stdout) to /dev/null:
 ```bash
 wine Streamer.bot.exe >/dev/null 2>&1
