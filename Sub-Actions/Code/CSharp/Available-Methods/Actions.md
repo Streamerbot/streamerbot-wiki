@@ -2,7 +2,7 @@
 title: Actions
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T21:29:39.493Z
+date: 2022-10-29T22:48:04.634Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -39,11 +39,6 @@ void ResumeAllActionQueues(bool clear = false);
 ```csharp
 void PlaySound(string fileName, float volume = 1.0f, bool finishBeforeContinuing = false);
 void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = false, bool finishBeforeContinuing = false);
-```
-
-## TwitchSpeaker
-```csharp
-int TtsSpeak(string voiceAlias, string message, bool badWordFilter = false);
 ```
 
 ## Keyboard Press
