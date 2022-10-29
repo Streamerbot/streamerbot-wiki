@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-29T20:40:18.997Z
+date: 2022-10-29T20:47:49.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -37,90 +37,6 @@ If there are methods missing, make the suggestion to get them added in!
 * [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](/Sub-Actions/Code/CSharp/Available-Methods/Lumia-Stream)
 * [<i class="mdi mdi-discord text--discord"></i> **Discord**](/Sub-Actions/Code/CSharp/Available-Methods/Discord)
 {.btn-grid .my-5}
-
-# Servers and Clients
-## Websocket Server
-```csharp
-void WebsocketBroadcastString(string data); // send a custom event over the websocket server
-void WebsocketBroadcastJson(string data); // send a custom event over the websocket server
-```
-
-## Websocket Clients
-```csharp
-void WebsocketConnect(int connection = 0);
-void WebsocketDisconnect(int connection = 0);
-bool WebsocketIsConnected(int connection = 0);
-void WebsocketSend(string data, int connection = 0);
-void WebsocketSend(byte[] data, int connection = 0);
-```
-
-## Custom Websocket Servers
-```csharp
-void WebsocketCustomServerStart(int connection = 0);
-void WebsocketCustomServerStop(int connection = 0);
-bool WebsocketCustomServerIsListening(int connection = 0);
-void WebsocketCustomServerCloseAllSessions(int connection = 0);
-void WebsocketCustomServerCloseSession(string sessionId, int connection = 0);
-void WebsocketCustomServerBroadcast(string data, string sessionId, int connection = 0);
-```
-
-```csharp
-int WebsocketCustomServerGetConnectionByName(string name);
-```
-
-# Actions
-## General
-```csharp
-bool RunAction(string actionName, bool runImmediately = true);
-```
-
-```csharp
-bool RunActionById(string actionId, bool runImmediately = true);
-```
-
-```csharp
-void DisableAction(string actionName);
-void EnableAction(string actionName);
-``` 
-
-> Requires minimum version v0.1.14
-{.is-info}
-```csharp
-bool ActionExists(string actionName);
-```
-## Action Queues
-```csharp
-void PauseActionQueue(string name);
-void PauseAllActionQueues();
-void ResumeActionQueue(string name, bool clear = false);
-void ResumeAllActionQueues(bool clear = false);
-```
-
-## UDP Broadcast
-```csharp
-int BroadcastUdp(int port, object data);
-```
-
-## Sound
-```csharp
-void PlaySound(string fileName, float volume = 1.0f, bool finishBeforeContinuing = false);
-void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = false, bool finishBeforeContinuing = false);
-```
-
-## TwitchSpeaker
-```csharp
-int TtsSpeak(string voiceAlias, string message, bool badWordFilter = false);
-```
-
-## Keyboard Press
-```csharp
-void KeyboardPress(string keyPress);
-```
-
-## C# Execute Method
-```csharp
-bool ExecuteMethod(string executeCode, string methodName);
-```
 
 # Twitch
 ## General
