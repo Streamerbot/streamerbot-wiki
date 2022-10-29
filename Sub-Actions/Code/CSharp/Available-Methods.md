@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-28T17:21:27.611Z
+date: 2022-10-29T20:40:18.997Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -18,24 +18,24 @@ If there are methods missing, make the suggestion to get them added in!
 
 ## General
 * [<i class="mdi mdi-iframe primary--text"></i> **Application**](/Sub-Actions/Code/CSharp/Available-Methods/Application)
-* [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients**](#servers-and-clients)
-* [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions**](#actions)
+* [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients**](/Sub-Actions/Code/CSharp/Available-Methods/Servers-and-Clients)
+* [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions**](/Sub-Actions/Code/CSharp/Available-Methods/Actions)
 {.btn-grid .my-5}
 
 ## Platforms
-* [<i class="mdi mdi-twitch text--twitch"></i> **Twitch**](#twitch)
-* [<i class="mdi mdi-youtube text--youtube"></i> **YouTube**](#youtube)
+* [<i class="mdi mdi-twitch text--twitch"></i> **Twitch**](/Sub-Actions/Code/CSharp/Available-Methods/Twitch)
+* [<i class="mdi mdi-youtube text--youtube"></i> **YouTube**](/Sub-Actions/Code/CSharp/Available-Methods/YouTube)
 {.btn-grid .my-5}
 
 ## Broadcasters
-* [<img src="https://streamer.bot/img/integrations/obs.svg"> **OBS**](#obs)
-* [<img src="https://streamer.bot/img/integrations/streamlabs.png"> **StreamLabs Desktop**](#streamlabs-desktop)
+* [<img src="https://streamer.bot/img/integrations/obs.svg"> **OBS**](/Sub-Actions/Code/CSharp/Available-Methods/OBS)
+* [<img src="https://streamer.bot/img/integrations/streamlabs.png"> **StreamLabs Desktop**](/Sub-Actions/Code/CSharp/Available-Methods/StreamLabs-Desktop)
 {.btn-grid .my-5}
 
 ## Intergrations
-* [<img src="https://streamer.bot/img/integrations/voicemod.png"> **VoiceMod**](#voicemod)
-* [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](#lumia-stream)
-* [<i class="mdi mdi-discord text--discord"></i> **Discord**](#discord)
+* [<img src="https://streamer.bot/img/integrations/voicemod.png"> **VoiceMod**](/Sub-Actions/Code/CSharp/Available-Methods/VoiceMod)
+* [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](/Sub-Actions/Code/CSharp/Available-Methods/Lumia-Stream)
+* [<i class="mdi mdi-discord text--discord"></i> **Discord**](/Sub-Actions/Code/CSharp/Available-Methods/Discord)
 {.btn-grid .my-5}
 
 # Servers and Clients
