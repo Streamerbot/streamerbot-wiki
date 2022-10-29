@@ -2,7 +2,7 @@
 title: InputAudioMonitorTypeChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:28:43.000Z
+date: 2022-10-29T22:14:35.457Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:28:40.905Z
@@ -31,6 +31,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#inputaudiomonitortypechanged)
 {.btn-grid my-5}
