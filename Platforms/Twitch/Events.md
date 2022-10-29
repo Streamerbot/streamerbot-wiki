@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-10-29T17:37:36.596Z
+date: 2022-10-29T21:58:59.598Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -46,13 +46,13 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 ## Additional Event Types
 *These event sources each have their own configuration tabs* {.subtitle}
 
-- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Point Rewards *Execute actions on point redemptions***](/en/Platforms/Twitch/Channel-Point-Rewards)
-- [<i class="mdi mdi-poll text--twitch"></i>**Polls *Integration with Twitch Polls***](/en/Platforms/Twitch/Polls)
-- [<i class="mdi mdi-poll mdi-flip-h text--twitch"></i>**Predictions *Integration with Twitch Predictions***](/en/Platforms/Twitch/Predictions)
+- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Point Rewards *Execute actions on point redemptions***](/Platforms/Twitch/Channel-Point-Rewards)
+- [<i class="mdi mdi-poll text--twitch"></i>**Polls *Integration with Twitch Polls***](/Platforms/Twitch/Polls)
+- [<i class="mdi mdi-poll mdi-flip-h text--twitch"></i>**Predictions *Integration with Twitch Predictions***](/Platforms/Twitch/Predictions)
 {.btn-grid .my-5}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch *Go Back***](/en/Platforms/Twitch)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Sub-Actions *Up Next***](/en/Sub-Actions/Twitch)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch *Go Back***](/Platforms/Twitch)
+- [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Sub-Actions *Up Next***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
