@@ -2,7 +2,7 @@
 title: SourceAudioSyncOffsetChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-07-18T16:10:09.661Z
+date: 2022-10-29T22:25:47.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:18:29.858Z
@@ -20,6 +20,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Archive/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Archive *Go Back***](/Broadcasters/OBS/Archive/Events)
 - [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sourceaudiosyncoffsetchanged)
 {.btn-grid my-5}
