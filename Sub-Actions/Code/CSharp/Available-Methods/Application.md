@@ -2,7 +2,7 @@
 title: Application
 description: C# Available Methods Reference
 published: false
-date: 2022-10-28T18:06:58.953Z
+date: 2022-10-29T17:53:31.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T17:10:24.521Z
