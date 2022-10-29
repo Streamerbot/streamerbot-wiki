@@ -2,7 +2,7 @@
 title: DonorDrive
 description: Monitor charity donation events sent from the Donor Drive platform
 published: true
-date: 2022-09-12T15:42:34.645Z
+date: 2022-10-29T22:00:40.109Z
 tags: v0.1.5
 editor: markdown
 dateCreated: 2022-06-01T04:57:34.650Z
@@ -47,5 +47,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
