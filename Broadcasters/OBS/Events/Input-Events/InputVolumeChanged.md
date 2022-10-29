@@ -2,7 +2,7 @@
 title: InputVolumeChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:21:52.887Z
+date: 2022-10-29T22:15:11.012Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:21:50.821Z
@@ -26,6 +26,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#inputvolumechanged)
 {.btn-grid my-5}
