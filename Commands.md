@@ -2,14 +2,13 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-08-27T13:23:10.565Z
+date: 2022-10-29T21:45:14.986Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
 ---
 
 ## Overview
-
 ![commands-018.png](/commands-018.png =x400)
 
 This tab is used to view and define chat commands you want Streamer.bot to watch for and the actions each should perform. 
@@ -19,22 +18,19 @@ This tab is used to view and define chat commands you want Streamer.bot to watch
 ![commands-context-018.png](/commands-context-018.png)
 
 ## Context Menu
-
 ---|---
 `Add` | Create a new command
 `Edit` | Edit the highlighted command | This is the same as <kbd>double-clicking</kbd> on the command
 `Delete` | Deletes the highlighted command
-`Set Action` | Shortcut to the `Select Action` dialogue | Selected action will assign to the main [Action](/en/Actions) for the command
-`Set Cooldown Action` | Shortcut to the `Select Action` dialogue | Selected action will assign to the cooldown [Action](/en/Actions) for the command
+`Set Action` | Shortcut to the `Select Action` dialogue | Selected action will assign to the main [Action](/Actions) for the command
+`Set Cooldown Action` | Shortcut to the `Select Action` dialogue | Selected action will assign to the cooldown [Action](/Actions) for the command
 `Group` | Assign the command to a pre-defined group | Groups can be created in the `Edit Command` dialogue by typing directly into the dropdown control
 `Enabled` | Shortcut to toggle the command on and off
 `Copy Command Id` | Copies the unique ID string for the highlighted command to the clipboard
 
-
 ***
 
 ## Edit Command Dialogue
-
 Command settings are defined on the `Edit Command` dialogue window
 
 ![edit-command-018.png](/edit-command-018.png)
@@ -48,7 +44,6 @@ Mode | Description | Notes
 
 
 ### Location
-
 | Location | Description |
 |     ---:|--------------|
 | `Start` | The command must be typed as the first character in a line of chat or it will be ignored |
@@ -56,21 +51,16 @@ Mode | Description | Notes
 | `Anywhere` | Command will trigger if the string is entered anywhere in a line of chat, regardless of what comes before or after |
 
 ### Command(s)
-
 This is the exact string that Streamer.Bot is monitoring chat for. Commands may have multiple trigger strings / aliases, enter them one per line.
 > The cooldowns and counters on a command is common across all its aliases. If you want an action to be be triggered by multiple commands and have each have its own cooldown you sould create each separately
 {.is-info}
 
 
 ### Group
-
 For housekeeping, you can define a group name by typing or selecting from the dropdown. Grouped commands will appear together in a collapsable section in the `Commands` tab 
 Groups are also used in conjuction with the `Get Commands` & `Command Group State` subactions
 
-
-
 ### Action
-
 The name of the defined [action](/Actions) to execute. Pressing this button opens the `Select Action` dialogue
 
 ![action-selector-018.png](/action-selector-018.png)
@@ -82,7 +72,6 @@ To assign an action, select it form the list and press the `Select` button
 To unassign all action press the `Clear` button
 
 ## Options
-
 A number of toggle switches can be set to change the behaviour of the command processing
 
 Toggle  | Description | Notes
@@ -94,7 +83,6 @@ Toggle  | Description | Notes
 
 
 ### Source(s)
-
 You can pick any combination of the following sources for the origination of the command.
 
 |Source | Description |
@@ -108,7 +96,6 @@ You can pick any combination of the following sources for the origination of the
 
 
 ### Counters
-
 Actions in Streamer.bot have per-session and per-command variables `counter` & `userCounter` that records how many times that command has been used. 
 
 By default this clears when the application is closed but the following options will save the counts to the settings file so they will persist between sessions
@@ -119,9 +106,7 @@ By default this clears when the application is closed but the following options 
 
 
 ### Cooldowns
-
 A cooldown can be set for a command set on both a `Global` and `Per-User` basis, this prevents the main action being run again while the cooldown is active.
-
 
 Option | Description | Notes 
 ---|---|---
@@ -132,16 +117,12 @@ Option | Description | Notes
 > The **Broadcaster** is always exempt from cooldowns. Use a different account when testing this feature.
 {.is-success}
 
-
-
 ## Permissions
-
 By default, commands can be executed by anyone in chat but you may wish to restrict specific commands to certain [groups](/Settings/Groups) or even specific users, the default permissions are shown below in the image. 
 
 ![basic_command_.png](/basic_command_.png) 
 
 ### Grant Type
-
 ---|---
 `Allow` | Only `Groups` / `Users` specified can use this command
 `Deny` | Everyone except specified `Groups` / `Users` can use this command
@@ -153,13 +134,11 @@ By default, commands can be executed by anyone in chat but you may wish to restr
 > If you want to exclude the broadcaster from an action, you should use a `Logic > If` sub-action
 {.is-success}
 
-
 ## Variables
 Commands are platform agnostic and will trigger when a matching phrase is typed into chat / whisper
 
 > Command events can trigger chat events at the same time but the argument stack for each are completely separate.
 {.is-warning}
-
 
 Name | Description
 ----:|:------------
@@ -185,4 +164,3 @@ Name | Description
 `cooldownLeft` | How many seconds are left for the cooldown, and is the maximum of the global and user cooldown left
 `globalCooldownLeft` | How many seconds are left for the global cooldown of the command
 `userCooldownLeft` | How many seconds are left for the user cooldown of the command
-
