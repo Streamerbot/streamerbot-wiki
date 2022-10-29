@@ -2,7 +2,7 @@
 title: Pulsoid
 description: Integrate Streamer.bot with Pulsoid
 published: true
-date: 2022-09-12T15:02:13.204Z
+date: 2022-10-29T22:01:29.602Z
 tags: integrations, pulsoid, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:14:54.410Z
@@ -30,5 +30,5 @@ After connecting your account, by clicking **Connect to Pulsoid** and following 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
