@@ -2,19 +2,17 @@
 title: TreatStream
 description: Integrate Streamer.bot with TreatStream
 published: true
-date: 2022-07-22T00:59:08.153Z
-tags: v0.1.8, donations, treatstream
+date: 2022-10-29T22:02:26.241Z
+tags: donations, treatstream, v0.1.8
 editor: markdown
 dateCreated: 2022-06-26T23:40:15.870Z
 ---
 
-![treatstream-logo.png](https://streamer.bot/img/integrations/treatstream.png){.align-abstopright}
-
-# Overview
+## Overview
 Integrate with [TreatStream](https://treatstream.com) to receive food donation events!
 
-# Events
-## Donation
+## Events
+### Donation
 Name | Description
 ----:|:------------
 | `username` | The user name of the person that has treated the streamer
