@@ -2,7 +2,7 @@
 title: Servers and Clients
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:46:01.700Z
+date: 2022-10-29T21:29:27.800Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:46:01.700Z
@@ -35,6 +35,11 @@ void WebsocketCustomServerBroadcast(string data, string sessionId, int connectio
 
 ```csharp
 int WebsocketCustomServerGetConnectionByName(string name);
+```
+
+## UDP Broadcast
+```csharp
+int BroadcastUdp(int port, object data);
 ```
 
 ---
