@@ -2,7 +2,7 @@
 title: HypeRate.io
 description: Trigger actions based on your heart rate
 published: true
-date: 2022-10-29T22:00:53.649Z
+date: 2022-10-29T22:01:08.347Z
 tags: v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:20:14.642Z
@@ -10,9 +10,7 @@ dateCreated: 2022-06-01T04:20:14.642Z
 
 ![HypeRate-logo.png](https://streamer.bot/img/integrations/hyperate.png){.align-abstopright}
 
-
 ## Overview
-
 No longer an extension written in C#, HypeRate.io support is now a native part of **Streamer.bot**
 
 ![hyperate.io-integration.png](/hyperate.io-integration.png)
@@ -26,7 +24,6 @@ To connect to HypeRate.io, provide your ID in the `ID` field, and click on Conne
 {.is-warning}
 
 ## Variables
-
 | Name | Description |
 |   ---:|-------------|
 | `%heartRate%` | Heart Rate value |
