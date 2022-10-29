@@ -2,7 +2,7 @@
 title: Input Events
 description: Events related to input changes
 published: true
-date: 2022-08-08T18:36:05.631Z
+date: 2022-10-29T22:13:25.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:36:03.538Z
@@ -24,6 +24,6 @@ dateCreated: 2022-08-08T18:36:03.538Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for these requests***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#inputs-events)
 {.btn-grid my-5}
