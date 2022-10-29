@@ -2,14 +2,13 @@
 title: RecordingResumed
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-07-18T16:08:27.885Z
+date: 2022-10-29T22:27:47.396Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T18:16:59.180Z
 ---
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `obsEvent.event` | The OBS event in this case `RecordingResumed`
