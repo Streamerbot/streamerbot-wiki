@@ -2,14 +2,13 @@
 title: SceneItemLockChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-07-18T16:09:13.029Z
+date: 2022-10-29T22:32:25.860Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T17:48:06.836Z
 ---
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `obsEvent.event` | The OBS event in this case `SceneItemLockChanged`
@@ -22,6 +21,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Archive/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Archive *Go Back***](/Broadcasters/OBS/Archive/Events)
 - [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#sceneitemlockchanged)
 {.btn-grid my-5}
