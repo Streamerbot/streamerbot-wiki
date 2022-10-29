@@ -2,7 +2,7 @@
 title: CurrentProgramSceneChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-05T15:21:40.775Z
+date: 2022-10-29T22:17:46.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:38:18.513Z
@@ -30,6 +30,6 @@ if ("obsEvent.sceneName" Equals "game") do "enable channel points action" then "
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#currentprogramscenechanged)
 {.btn-grid my-5}
