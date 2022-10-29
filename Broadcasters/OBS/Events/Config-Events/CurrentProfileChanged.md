@@ -2,7 +2,7 @@
 title: CurrentProfileChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T10:28:17.926Z
+date: 2022-10-29T22:08:45.297Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:28:15.936Z
@@ -24,6 +24,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#currentprofilechanged)
 {.btn-grid my-5}
