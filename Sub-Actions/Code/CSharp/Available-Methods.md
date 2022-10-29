@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-29T20:59:05.989Z
+date: 2022-10-29T21:04:04.080Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -37,66 +37,6 @@ If there are methods missing, make the suggestion to get them added in!
 * [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](/Sub-Actions/Code/CSharp/Available-Methods/Lumia-Stream)
 * [<i class="mdi mdi-discord text--discord"></i> **Discord**](/Sub-Actions/Code/CSharp/Available-Methods/Discord)
 {.btn-grid .my-5}
-
-# Voicemod
-## Select Voice
-```csharp
-void VoiceModSelectVoice(string voiceId);
-```
-
-## Voice Changer On/Off
-```csharp
-bool VoiceModVoiceChangerOn();
-bool VoiceModVoiceChangerOff();
-```
-
-## Hear My Voice On/Off
-```csharp
-bool VoiceModHearMyVoiceOn();
-bool VoiceModHearMyVoiceOff();
-```
-
-## Censor On/Off
-```csharp
-void VoiceModCensorOn();
-void VoiceModCensorOff();
-```
-
-## Get Current Voice
-```csharp
-string VoiceModGetCurrentVoice();
-```
-
-## Get Voice Changer Status
-```csharp
-bool VoiceModGetVoiceChangerStatus();
-```
-
-## Get Hear Myself Status
-```csharp
-bool VoiceModGetHearMyselfStatus();
-```
-
-# Lumia Stream
-> All of these require a minimum of v0.1.14
-{.is-info}
-## Set To Default
-```csharp
-void LumiaSetToDefault();
-```
-
-## Send Command
-```csharp
-void LumiaSendCommand(string command);
-```
-
-# Discord
-> All of these require a minimum of v0.1.14
-{.is-info}
-## Post Text To Webhook
-```csharp
-bool DiscordPostTextToWebhook(string webhookUrl, string content, string username = null, bool textToSpeech = false);
-```
 
 ---
 
