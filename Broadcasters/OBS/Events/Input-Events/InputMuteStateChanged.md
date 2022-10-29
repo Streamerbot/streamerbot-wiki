@@ -2,7 +2,7 @@
 title: InputMuteStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T11:19:46.648Z
+date: 2022-10-29T22:14:51.283Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:19:44.527Z
@@ -25,6 +25,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#inputmutestatechanged)
 {.btn-grid my-5}
