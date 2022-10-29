@@ -2,7 +2,7 @@
 title: HypeRate.io
 description: Trigger actions based on your heart rate
 published: true
-date: 2022-08-03T15:24:13.067Z
+date: 2022-10-29T22:00:53.649Z
 tags: v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:20:14.642Z
@@ -33,5 +33,5 @@ To connect to HypeRate.io, provide your ID in the `ID` field, and click on Conne
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
