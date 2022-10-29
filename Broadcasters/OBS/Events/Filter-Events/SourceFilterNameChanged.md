@@ -2,7 +2,7 @@
 title: SourceFilterNameChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T16:07:22.786Z
+date: 2022-10-29T22:10:19.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:07:20.398Z
@@ -26,6 +26,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#sourcefilternamechanged)
 {.btn-grid my-5}
