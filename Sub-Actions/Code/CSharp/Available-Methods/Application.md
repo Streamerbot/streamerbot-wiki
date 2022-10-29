@@ -2,7 +2,7 @@
 title: Application
 description: C# Available Methods Reference
 published: false
-date: 2022-10-29T17:53:31.671Z
+date: 2022-10-29T20:37:54.811Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T17:10:24.521Z
@@ -35,8 +35,9 @@ void LogWarn(string logLine);
 void LogDebug(string logLine);
 ```
 
-> Requires minimum version v0.1.14
+> Requires minimum version 0.1.14
 {.is-info}
+
 ```csharp
 void LogVerbose(string logLine);
 ```
