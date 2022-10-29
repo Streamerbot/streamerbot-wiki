@@ -2,14 +2,13 @@
 title: ProfileListChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-07-18T16:08:20.714Z
+date: 2022-10-29T22:27:40.678Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:34:31.158Z
 ---
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `obsEvent.event` | The OBS event in this case `ProfileListChanged`
@@ -18,6 +17,6 @@ Name | Description
 `obsEvent._json` | Everything above in a json format
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Back to the OBS events page*Go Back***](/en/Broadcasters/OBS/Archive/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Archive *Go Back***](/Broadcasters/OBS/Archive/Events)
 - [<i class="mdi mdi-github"></i> **OBS Websocket documentation *This links to the GitHub documentation of this specific event***](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#profilelistchanged)
 {.btn-grid my-5}
