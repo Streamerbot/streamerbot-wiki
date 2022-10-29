@@ -2,17 +2,16 @@
 title: Hot Keys
 description: Assigning actions to keyboard shortcuts
 published: true
-date: 2022-07-09T19:55:44.473Z
+date: 2022-10-29T21:49:54.199Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T11:21:31.463Z
 ---
 
-# Hot Keys
+## Overview
+The Hot Keys tab enables configuration of global keyboard shortcuts to trigger [actions](/Actions)
 
-The Hot Keys tab enables configuration of global keyboard shortcuts to trigger [actions](/en/Actions)
-
-This is not to be confused with the [Keyboard Press](/en/Sub-Actions/Keyboard-Press) sub-action. Hot-Keys are for recieving input, `Keyboard Press` is for sending inputs.
+This is not to be confused with the [Keyboard Press](/Sub-Actions/Keyboard-Press) sub-action. Hot-Keys are for recieving input, `Keyboard Press` is for sending inputs.
 
 > While a `Hot Key` is defined, even if it is disabled, that key combination will be unavailable to **ALL** applications other than streamer.bot while the application is running. 
 This is why all Hot Keys require modifier keys to be set
@@ -21,11 +20,9 @@ This is why all Hot Keys require modifier keys to be set
 > Where Left and Right versions of `Keys` or `Modifiers` exist no definition is made between them. To streamer.bot they will be treated equally
 {.is-info}
 
-
-
 ![hotkeys-018.png](/hotkeys-018.png)
-
-## Context Menu
+## Configuration
+### Context Menu
 
 <kbd>Right-Click</kbd> in the pane to show the context menu
 
@@ -39,7 +36,7 @@ This is why all Hot Keys require modifier keys to be set
 `Group` | Shortcut to assign the Hot Key to a predefined group | Groups can be defined in the `Edit Hotkey` dialogue
 `Enabled` | Shortcut to turn the action trigger on or off without removing the key binding
 
-## Edit Hotkey Dialogue
+### Edit Hotkey Dialogue
 
 ![edit-global-hotkey-018.png](/edit-global-hotkey-018.png)
 
