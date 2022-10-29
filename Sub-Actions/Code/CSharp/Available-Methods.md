@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-29T20:52:31.783Z
+date: 2022-10-29T20:54:41.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -37,26 +37,6 @@ If there are methods missing, make the suggestion to get them added in!
 * [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream**](/Sub-Actions/Code/CSharp/Available-Methods/Lumia-Stream)
 * [<i class="mdi mdi-discord text--discord"></i> **Discord**](/Sub-Actions/Code/CSharp/Available-Methods/Discord)
 {.btn-grid .my-5}
-
-# YouTube
-## Chat Message
-
-```csharp
-void SendYouTubeMessage(string message);
-```
-
-## User Variables
-
-```csharp
-T GetTwitchUserVar<T>(string userName, string varName, bool persisted = true);
-T GetYouTubeUserVar<T>(string userName, string varName, bool persisted = true);
-void SetTwitchUserVar(string userName, string varName, object value, bool persisted = true);
-void SetYouTubeUserVar(string userName, string varName, object value, bool persisted = true);
-void UnsetTwitchUserVar(string userName, string varName, bool persisted = true);
-void UnsetYouTubeUserVar(string userName, string varName, bool persisted = true);
-void UnsetTwitchUser(string userName, bool persisted = true);
-void UnsetYouTubeUser(string userName, bool persisted = true);
-```
 
 # OBS
 ## Connection
