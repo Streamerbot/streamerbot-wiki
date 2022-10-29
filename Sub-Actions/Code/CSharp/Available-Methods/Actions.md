@@ -2,7 +2,7 @@
 title: Actions
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:47:28.087Z
+date: 2022-10-29T21:27:19.539Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -22,7 +22,7 @@ void DisableAction(string actionName);
 void EnableAction(string actionName);
 ``` 
 
-> Requires minimum version v0.1.14
+> Requires minimum version 0.1.14
 {.is-info}
 ```csharp
 bool ActionExists(string actionName);
