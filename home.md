@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-02T20:21:06.078Z
+date: 2022-10-29T21:48:20.321Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -14,40 +14,40 @@ dateCreated: 2021-08-25T17:28:59.469Z
 <div>
 
 Basics{.overline}
-* [🚀 Quick Start Guide](/en/Quick-Start)
-* [⬆️ How to Upgrade](/en/Update)
-* [💾 How to Backup](/en/Backup)
-* [🐧 Linux Setup](/en/Linux-Support)
-* [<i class="mdi mdi-speaker text--twitch"></i> TwitchSpeaker](/en/TwitchSpeaker)
-* [Setup Platform: Twitch](/en/Platforms/Twitch)
-* [Setup Platform: YouTube](/en/Platforms/YouTube)
-* [Setup Broadcaster: OBS](/en/Broadcasters/OBS)
-* [Setup Broadcaster: Streamlabs Desktop](/en/Broadcasters/StreamlabsDesktop)
+* [🚀 Quick Start Guide](/Quick-Start)
+* [⬆️ How to Upgrade](/Update)
+* [💾 How to Backup](/Backup)
+* [🐧 Linux Setup](/Linux-Support)
+* [<i class="mdi mdi-speaker text--twitch"></i> TwitchSpeaker](/TwitchSpeaker)
+* [Setup Platform: Twitch](/Platforms/Twitch)
+* [Setup Platform: YouTube](/Platforms/YouTube)
+* [Setup Broadcaster: OBS](/Broadcasters/OBS)
+* [Setup Broadcaster: Streamlabs Desktop](/Broadcasters/StreamlabsDesktop)
 </div>
 <div>
 
 Configuration{.overline}
-- [Actions](/en/Actions)
-- [Sub-Actions](/en/Sub-Actions)
-- [Commands](/en/Commands)
-- [Settings](/en/Settings)
-- [Voice-Control](/en/Voice-Control)
-- [Variables](/en/Variables)
-- [Inline-Functions](/en/Inline-Functions)
+- [Actions](/Actions)
+- [Sub-Actions](/Sub-Actions)
+- [Commands](/Commands)
+- [Settings](/Settings)
+- [Voice-Control](/Voice-Control)
+- [Variables](/Variables)
+- [Inline-Functions](/Inline-Functions)
 
 </div>
 
 <div>
 
 Integrations{.overline}
-- [Streamlabs](/en/Integrations/Streamlabs)
-- [StreamElements](/en/Integrations/StreamElements)
-- [VoiceMod](/en/Integrations/VoiceMod)
-- [DonorDrive](/en/Integrations/DonorDrive)
-- [Ko-Fi](/en/Integrations/Ko-Fi)
-- [Patreon](/en/Integrations/Patreon)
-- [Lumia Stream](/en/Integrations/Lumia-Stream)
-- [View all integrations...](/en/Integrations)
+- [Streamlabs](/Integrations/Streamlabs)
+- [StreamElements](/Integrations/StreamElements)
+- [VoiceMod](/Integrations/VoiceMod)
+- [DonorDrive](/Integrations/DonorDrive)
+- [Ko-Fi](/Integrations/Ko-Fi)
+- [Patreon](/Integrations/Patreon)
+- [Lumia Stream](/Integrations/Lumia-Stream)
+- [View all integrations...](/Integrations)
 
 </div>
 
@@ -65,10 +65,10 @@ Available Plugins{.overline}
 <div>
 
 Extended Features{.overline}
-- [Streamer.bot Decks](/en/Extended-Features/HTML-Decks)
-- [HTML-Overlay](/en/Extended-Features/HTML-Overlay)
+- [Streamer.bot Decks](/Extended-Features/HTML-Decks)
+- [HTML-Overlay](/Extended-Features/HTML-Overlay)
 - [Extensions Wiki](https://extensions.streamer.bot)
-- [Streamer.bot External Plugins](/en/Plugins)
+- [Streamer.bot External Plugins](/Plugins)
 
 </div>
 
