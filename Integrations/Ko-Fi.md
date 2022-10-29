@@ -2,7 +2,7 @@
 title: Ko-Fi
 description: Integrate Streamer.bot with your Ko-Fi account!
 published: true
-date: 2022-09-12T15:08:03.463Z
+date: 2022-10-29T22:00:13.638Z
 tags: integrations, ko-fi, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:37:51.447Z
@@ -107,5 +107,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
