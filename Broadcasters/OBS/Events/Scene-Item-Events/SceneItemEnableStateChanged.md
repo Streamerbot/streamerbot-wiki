@@ -2,7 +2,7 @@
 title: SceneItemEnableStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-08-08T16:28:07.719Z
+date: 2022-10-29T22:17:28.639Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:28:05.499Z
@@ -26,6 +26,6 @@ Name | Type | Description |
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#sceneitemenablestatechanged)
 {.btn-grid my-5}
