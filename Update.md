@@ -2,21 +2,20 @@
 title: Update Streamer.bot
 description: Learn how to update your Streamer.bot installation to the latest version
 published: true
-date: 2022-10-29T19:34:32.348Z
+date: 2022-10-29T21:41:55.340Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:27:48.282Z
 ---
 
 # Auto Updater
-
 > Automatic updates are now supported with the release of *v0.1.14*{.version-badge}
 {.is-success}
 
 
 ## Overview
 1. Click on `Check for Updates` / or the update window has be shown on startup.
-2. **Optional:** Change the `Update Channel` between `stable`/`beta`/`alpha`, this will only work when your [Streamer.bot Website Integration](/en/Integrations/Streamer-bot) is connected.
+2. **Optional:** Change the `Update Channel` between `stable`/`beta`/`alpha`, this will only work when your [Streamer.bot Website Integration](/Integrations/Streamer-bot) is connected.
 3. Now you can click on the `Download` button.
 4. And then click on the `Install` button.
 5. And as you see here streamer.bot is updated!
@@ -30,7 +29,7 @@ dateCreated: 2022-07-01T17:27:48.282Z
 > It is highly recommended to backup your existing installation **before** updating Streamer.bot
 {.is-warning}
 
-- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup & Restore Guide *Backup your existing Streamer.bot installation***](/en/Backup)
+- [<i class="mdi mdi-backup-restore primary--text"></i> **Backup & Restore Guide *Backup your existing Streamer.bot installation***](/Backup)
 {.btn-grid .my-5}
 
 1. Close Streamer.bot if it is currently running
@@ -56,6 +55,6 @@ Update to the new version by following these steps:
 
 ***
 
-- [<i class="mdi mdi-chevron-left"></i>**Home *Go Back***](/en/home)
-- [<i class="mdi mdi-fire" style="color: #fbb12b;"></i>**Changelogs / Release Notes *Up Next***](/en/Changelogs)
+- [<i class="mdi mdi-chevron-left"></i>**Home *Go Back***](/home)
+- [<i class="mdi mdi-fire" style="color: #fbb12b;"></i>**Changelogs / Release Notes *Up Next***](/Changelogs)
 {.btn-grid .my-5}
