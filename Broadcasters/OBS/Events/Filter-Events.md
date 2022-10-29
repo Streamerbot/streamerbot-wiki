@@ -2,7 +2,7 @@
 title: Filter Events
 description: Events related to filter changes
 published: true
-date: 2022-08-08T18:40:25.068Z
+date: 2022-10-29T22:09:22.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:40:22.853Z
@@ -17,6 +17,6 @@ dateCreated: 2022-08-08T18:40:22.853Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/en/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for these requests***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#filters-events)
 {.btn-grid my-5}
