@@ -2,7 +2,7 @@
 title: C# Available Methods (Coming Soon)
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: false
-date: 2022-10-29T21:04:04.080Z
+date: 2022-10-29T21:05:55.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -14,7 +14,7 @@ Below are all the methods that can be accessed via the `CPH` object that is is a
 > To prevent any breakage, and as a bit of nostalgia, `CPH` was left alone when we renamed to Streamer.bot
 {.is-info}
 
-If there are methods missing, make the suggestion to get them added in!
+If there are methods missing you'd like, make the suggestion to get them added in [here](https://ideas.streamer.bot)!
 
 ## General
 * [<i class="mdi mdi-iframe primary--text"></i> **Application**](/Sub-Actions/Code/CSharp/Available-Methods/Application)
