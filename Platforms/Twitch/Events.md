@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-09-29T16:16:31.501Z
+date: 2022-10-29T17:37:36.596Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -36,7 +36,7 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 - [<i class="mdi mdi-wallet-giftcard text--twitch"></i> **Gift Sub *Gifting a subscription to a named person***](/Platforms/Twitch/Events/Gift-Sub)
 - [<i class="mdi mdi-gift text--twitch"></i> **Gift Bomb *Gifting 1 or more subscriptions to random users***](/Platforms/Twitch/Events/Gift-Bomb)
 - [<i class="mdi mdi-target-account text--twitch"></i> **Raid *Incoming and Outgoing Raids***](/Platforms/Twitch/Events/Raid)
-- [<i class="mdi mdi-tooltip-account text--twitch"></i> **Hosts *When a user starts hosting the channel***](/Platforms/Twitch/Events/Hosts)
+- [<i class="mdi mdi-tooltip-account text--twitch"></i> **Hosts *When a user starts hosting the channel*** *DEPRECATED*{.version-badge}](/Platforms/Twitch/Events/Hosts){.disabled}
 - [<i class="mdi mdi-train text--twitch"></i> **Hype Train *Start/end, progression, and level-up events***](/Platforms/Twitch/Events/Hype-Train)
 - [<i class="mdi mdi-progress-check text--twitch"></i> **Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
 - [<i class="mdi mdi-update text--twitch"></i> **Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
