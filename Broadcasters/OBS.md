@@ -2,16 +2,15 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-10-02T00:50:46.079Z
+date: 2022-10-29T21:56:14.087Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
 ---
 
 # Quick Links
-
-- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/en/Broadcasters/OBS/Events)
-- [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/Broadcasters/OBS/Events)
+- [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/Sub-Actions/OBS)
 {.btn-grid .list .my-5}
 
 # Overview
@@ -82,7 +81,6 @@ Shows the status of current streaming and recording activity
 Lists all sources present on the currently selected scene
 
 # Events
-
 Select an OBS connection in the top panel, then <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> in the bottom events panel to register an OBS event.
 
 ![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
@@ -90,7 +88,7 @@ Select an OBS connection in the top panel, then <kbd>Right-Click</kbd> <kbd>-></
 ### Event
 Select the event type from OBS
 
-A reference of all OBS Studio events is available [here](/en/Broadcasters/OBS/Events)
+A reference of all OBS Studio events is available [here](/Broadcasters/OBS/Events)
 
 ### Group
 Optional group name to keep your events organized
@@ -101,10 +99,10 @@ Select the action to be executed any time the selected event is fired off from O
 ***
 
 ### OBS Raw
-- [<i class="mdi mdi-code-json text--obs"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/en/Sub-Actions/OBS/Raw)
+- [<i class="mdi mdi-code-json text--obs"></i>**OBS Raw *Sub-Action for executing raw OBS requests***](/Sub-Actions/OBS/Raw)
 {.btn-grid .my-5}
 
 ### OBS Raw Requests
 - [<i class="mdi mdi-frequently-asked-questions
- text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/en/Broadcasters/OBS/Requests)
+ text--obs"></i>**OBS Raw Requests *Reference of all requests supported with OBS Raw***](/Broadcasters/OBS/Requests)
 {.btn-grid .my-5}
