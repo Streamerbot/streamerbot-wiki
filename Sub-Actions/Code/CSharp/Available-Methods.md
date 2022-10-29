@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-10-29T21:30:57.715Z
+date: 2022-10-29T21:31:19.601Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -20,7 +20,7 @@ If there are methods missing you'd like, make the suggestion to get them added i
 General & miscellaneous CPH methods{.subtitle}
 
 * [<i class="mdi mdi-iframe primary--text"></i> **Application *Interaction with all things solely related to the application***](/Sub-Actions/Code/CSharp/Available-Methods/Application)
-* [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients *Websocket servers, UDP servers, etc.***](/Sub-Actions/Code/CSharp/Available-Methods/Servers-and-Clients)
+* [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients *Websocket servers, UDP Broadcast, etc.***](/Sub-Actions/Code/CSharp/Available-Methods/Servers-and-Clients)
 * [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Control actions and operate sounds, keyboard press, etc.***](/Sub-Actions/Code/CSharp/Available-Methods/Actions)
 {.btn-grid .my-5}
 
