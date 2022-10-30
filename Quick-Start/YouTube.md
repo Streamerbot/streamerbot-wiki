@@ -2,13 +2,13 @@
 title: Quick Start - YouTube
 description: Connect your YouTube account with Streamer.bot
 published: true
-date: 2022-10-30T01:30:15.140Z
+date: 2022-10-30T01:30:23.094Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T19:13:33.290Z
 ---
 
-# Connecting your YouTube account!
+## Connecting your YouTube account!
 ![connect_to_youtube_.png](/youtube/yt_account_new.png =800x)
 1. Navigate through the following: `Platforms` ---> `YouTube` ----> `Accounts`
 2. Press the `Sign in with Google` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
