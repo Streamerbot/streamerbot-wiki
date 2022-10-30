@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-30T22:55:02.001Z
+date: 2022-10-30T22:58:09.301Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -54,11 +54,11 @@ Integrations{.overline}
 <div>
 
 Available Plugins{.overline}
-- [StreamDeck](https://github.com/nate1280/streamdeck-Streamer.bot)
-- [TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
-- [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
-- [LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
-- [DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/deckboard.png"> DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/streamdeck.png"> StreamDeck](/Plugins/Stream-Deck)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/loupedeck.jpg"> LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/touchportal.png"> TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/voiceattack.png"> Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
 - [View all plugins...](/Plugins)
 
 </div>
