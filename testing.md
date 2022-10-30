@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-30T22:54:07.334Z
+date: 2022-10-30T22:55:02.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -59,6 +59,7 @@ Available Plugins{.overline}
 - [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
 - [LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
 - [DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [View all plugins...](/Plugins)
 
 </div>
 
@@ -68,7 +69,6 @@ Extended Features{.overline}
 - [Streamer.bot Decks](/Extended-Features/HTML-Decks)
 - [HTML-Overlay](/Extended-Features/HTML-Overlay)
 - [Extensions Wiki](https://extensions.streamer.bot)
-- [Streamer.bot External Plugins](/Plugins)
 
 </div>
 
