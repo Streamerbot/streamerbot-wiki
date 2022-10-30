@@ -2,7 +2,7 @@
 title: Predictions
 description: Twitch Events Reference
 published: true
-date: 2022-10-17T17:23:51.063Z
+date: 2022-10-30T13:26:24.229Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z
@@ -137,3 +137,8 @@ public class CPHInline
 	}
 }
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
