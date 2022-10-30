@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-10-29T21:56:14.087Z
+date: 2022-10-30T16:53:44.399Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -38,7 +38,7 @@ Enter any name or label to describe this OBS instance, e.g. `Local`
 ### Version
 Select the version of OBS WebSocket to use for this connection.
 
-> **WARNING**
+> **Warning**
 > As of OBS Studio v28.0, OBS WebSocket v5+ is included by default. 
 > To continue using OBS WebSocket v4.9+, you must install the *obs-websocket-4.9.1-compat*{.obs-version-badge} plugin
 {.is-warning}
