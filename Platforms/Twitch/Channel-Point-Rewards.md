@@ -2,13 +2,13 @@
 title: Channel Point Rewards
 description: Twitch Events Reference
 published: true
-date: 2022-10-17T17:23:08.802Z
+date: 2022-10-30T13:25:42.348Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
 ---
 
-# Overview
+## Overview
 
 **Streamer.bot** can automatically execute [Actions](/Actions) when a Channel Point Reward is redeemed
 
@@ -21,28 +21,24 @@ You can also `Add` and `Delete` rewards directly from the application.
 > This gives Streamer.bot full control of the reward and is **required** for many of the features outlined below.
 {.is-warning}
 
-# Guide
-
+## Guide
 To create a new reward <kbd>Right-Click</kbd> inside the Channel Point Rewards panel and click `Add`
 
 ![New Channel Point Reward](/119646229-d4949f80-be16-11eb-806f-8dca85bdce45.png)
 
-## Title
-
+### Title
 The name of the reward
 
 `Enabled` The reward is visible to the channel
 
 `Paused` The reward can not be redeemed but can be seen if `Enabled` is also checked
 
-## Cost
-
+### Cost
 The number of channel points needed to redeem this reward
 
 `User Input Required` This will show a text box to the user to allow them to enter a message. This can be read by [sub-actions](/Sub-Actions#main) with the `%rawInput%` variable
 
-## Prompt
-
+### Prompt
 This is the text that will be displayed to the user before they confirm redemption to explain what will happen
 
 `Background Colour` Sets the colour of the button
@@ -53,8 +49,7 @@ This is the text that will be displayed to the user before they confirm redempti
 
 `Global Cooldown` Defines the miniimum time in seconds before this reward can be redeemed again by anyone
 
-## Counters
-
+### Counters
 Actions in **Streamer.bot** have per-session and per-command variables `%counter%`, and `%userCounter%` that records how many times that channel reward has been used. 
 
 By default this clears when the application is closed but the following options will save the counts to a file so they will persist between sessions
@@ -63,12 +58,10 @@ By default this clears when the application is closed but the following options 
 
 `Persist per User Counter` Will save details of how often each user has executed this command
 
-## Action
-
+### Action
 `Action` Defines the action that will be executed when the reward is redeemed
 
-# Variables
-
+## Variables
 The following variables will be available after a channel point redemption:
 
 Name | Description
@@ -93,3 +86,8 @@ Name | Description
 
 > This will also include all the [Broadcaster Variables](/en/Variables/Broadcaster)
 {.is-success}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
