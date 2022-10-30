@@ -2,7 +2,7 @@
 title: Restore a Backup
 description: Learn how to restore a backup with TwitchSpeaker!
 published: true
-date: 2022-08-07T16:33:44.490Z
+date: 2022-10-30T19:38:43.062Z
 tags: backup, restore, restore a backup, twitchspeaker, backup twitchspeaker, how to backup twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:04:38.848Z
@@ -11,7 +11,7 @@ dateCreated: 2022-08-02T16:04:38.848Z
 ## Backup Folder
 Go to your backup folder, it's located in `TwitchSpeaker-[version]/backup`.
 
-> **NOTE:**
+> **Note**
 > The backup that you unzip might need to be from 2-3 days back
 {.is-info}
 
