@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-10-29T21:58:59.598Z
+date: 2022-10-30T13:09:19.099Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -40,7 +40,7 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 - [<i class="mdi mdi-train text--twitch"></i> **Hype Train *Start/end, progression, and level-up events***](/Platforms/Twitch/Events/Hype-Train)
 - [<i class="mdi mdi-progress-check text--twitch"></i> **Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
 - [<i class="mdi mdi-update text--twitch"></i> **Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
-- [<i class="mdi mdi-charity text--twitch"></i> **Charity *This has the Donation and Completed event*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Charity){.disabled}
+- [<i class="mdi mdi-charity text--twitch"></i> **Charity *This has the Donation and Completed event*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Charity)
 {.btn-grid .my-5}
 
 ## Additional Event Types
