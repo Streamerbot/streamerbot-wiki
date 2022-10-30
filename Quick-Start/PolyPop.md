@@ -2,7 +2,7 @@
 title: Quick Start - PolyPop
 description: Set up Streamer.bot to remotely control your OBS instance
 published: false
-date: 2022-10-06T00:53:06.167Z
+date: 2022-10-30T01:33:39.873Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-06T00:52:07.331Z
@@ -62,6 +62,6 @@ Amount of time, in seconds, to wait between each reconnection attempt
 > If OBS isn't connecting, please double check the **PORT, PASSWORD and VERSION** to ensure that data is correct. {.is-warning}
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-- [<i class="mdi mdi-chat"></i> **Up Next *Configure basic chat commands***](/en/Quick-Start/Commands)
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/Quick-Start)
+- [<i class="mdi mdi-chat"></i> **Up Next *Configure basic chat commands***](/Quick-Start/Commands)
 {.btn-grid .my-5}
