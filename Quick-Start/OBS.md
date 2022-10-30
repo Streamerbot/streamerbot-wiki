@@ -2,7 +2,7 @@
 title: Quick Start - OBS Studio
 description: Set up Streamer.bot to remotely control your OBS instance
 published: true
-date: 2022-10-30T15:05:43.138Z
+date: 2022-10-30T15:06:10.788Z
 tags: obs, guides
 editor: markdown
 dateCreated: 2022-07-10T01:33:32.353Z
@@ -26,7 +26,6 @@ Later, you will need to match these settings in Streamer.bot
 
 
 ## Configuration
-
 Once configured, connected OBS sessions will report their status on the OBS tab in Streamer.bot
 
 ![overview.png](/broadcasters/obs/overview.png =700x)
