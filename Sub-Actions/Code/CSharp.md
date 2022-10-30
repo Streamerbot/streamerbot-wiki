@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-08-28T18:41:47.476Z
+date: 2022-10-30T00:51:25.533Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -49,7 +49,7 @@ public void Dispose()
 
 You will be able to make calls to internal Streamer.bot methods using a special `CPH` class.  You can see all the available methods at:
 
-* [Available Methods](/Sub-Actions/Code/Execute-CSharp-Code/Available-Methods)
+* [Available Methods](/Sub-Actions/Code/CSharp/Available-Methods)
 {.links-list}
 
 {.is-info}
