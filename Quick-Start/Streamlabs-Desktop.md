@@ -2,7 +2,7 @@
 title: Quick Start - Streamlabs Desktop
 description: Set up Streamer.bot to remotely control your Streamlabs Desktop instance
 published: true
-date: 2022-08-04T15:58:01.409Z
+date: 2022-10-30T01:32:43.532Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T13:56:19.296Z
@@ -54,6 +54,6 @@ Amount of time, in seconds, to wait between each reconnection attempt
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-- [<i class="mdi mdi-chat"></i> **Up Next *Configure basic chat commands***](/en/Quick-Start/Commands)
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/Quick-Start)
+- [<i class="mdi mdi-chat"></i> **Up Next *Configure basic chat commands***](/Quick-Start/Commands)
 {.btn-grid .my-5}
