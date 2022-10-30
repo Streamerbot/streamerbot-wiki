@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-30T22:48:47.453Z
+date: 2022-10-30T22:49:33.237Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -47,7 +47,7 @@ Integrations{.overline}
 - [<img style="width: 1em;" src="/ko-fi_icon_rgb_rounded.png"> Ko-Fi](/Integrations/Ko-Fi)
 - [<i class="mdi mdi-patreon text--patreon"></i> Patreon](/Integrations/Patreon)
 - [<img style="width: 1em;" src="/logos/lumia_stream.png"> Lumia Stream](/Integrations/Lumia-Stream)
-- [<i style="color: #fff" class="mdi mdi-search-web"></i> View all integrations...](/Integrations)
+- [<i style="color: #fff" class="mdi mdi-card-search"></i> View all integrations...](/Integrations)
 
 </div>
 
