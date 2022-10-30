@@ -2,7 +2,7 @@
 title: User Banned Event
 description: Twitch Events Reference
 published: true
-date: 2022-08-24T04:32:41.932Z
+date: 2022-10-30T13:35:42.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:32:41.932Z
@@ -12,6 +12,11 @@ dateCreated: 2022-08-24T04:32:41.932Z
 Name | Description
 ----:|:------------
 `user` | The user that was banned <br> This will not be populated if the user has never been present in chat
+`createdAt` | The date and time when the ban was created
+`createdById` | The Twitch ID of the user who created the ban 
+`createdByUsername` | The user name of the user who created the ban
+`createdByDisplayName` | The display name of the user who created the ban
+`reason` | The reason for the ban
 {.vars-table}
 
 ---
