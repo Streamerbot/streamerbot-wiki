@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-30T22:42:03.896Z
+date: 2022-10-30T22:46:11.328Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -40,12 +40,12 @@ Configuration{.overline}
 <div>
 
 Integrations{.overline}
-- [Streamlabs](/Integrations/Streamlabs)
-- [StreamElements](/Integrations/StreamElements)
-- [VoiceMod](/Integrations/VoiceMod)
-- [DonorDrive](/Integrations/DonorDrive)
-- [Ko-Fi](/Integrations/Ko-Fi)
-- [Patreon](/Integrations/Patreon)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/streamlabs.png"> Streamlabs](/Integrations/Streamlabs)
+- [<img style="width: 1em;" src="https://streamer.bot/img/integrations/streamelements.png"> StreamElements](/Integrations/StreamElements)
+- [<img style="width: 1em;" src="/logos/voicemod.png"> VoiceMod](/Integrations/VoiceMod)
+- [<img style="width: 1em;" src="/donordrive.webp"> DonorDrive](/Integrations/DonorDrive)
+- [<img style="width: 1em;" src="/ko-fi_icon_rgb_rounded.png"> Ko-Fi](/Integrations/Ko-Fi)
+- [<i class="mdi mdi-patreon text--patreon"></i> Patreon](/Integrations/Patreon)
 - [<img style="width: 1em;" src="/logos/lumia_stream.png"> Lumia Stream](/Integrations/Lumia-Stream)
 - [View all integrations...](/Integrations)
 
