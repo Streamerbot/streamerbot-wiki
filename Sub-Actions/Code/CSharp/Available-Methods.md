@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-10-29T22:49:00.482Z
+date: 2022-10-30T10:35:01.179Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -28,7 +28,7 @@ General & miscellaneous CPH methods{.subtitle}
 Platform based CPH methods{.subtitle}
 
 * [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control everything related to Twitch***](/Sub-Actions/Code/CSharp/Available-Methods/Twitch)
-* [<i class="mdi mdi-youtube text--youtube"></i> **YouTube  *Control everything related to Twitch***](/Sub-Actions/Code/CSharp/Available-Methods/YouTube)
+* [<i class="mdi mdi-youtube text--youtube"></i> **YouTube  *Control everything related to YouTube***](/Sub-Actions/Code/CSharp/Available-Methods/YouTube)
 {.btn-grid .my-5}
 
 ## Broadcasters
