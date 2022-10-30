@@ -2,7 +2,7 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-09-06T18:19:37.098Z
+date: 2022-10-30T01:31:22.923Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z
@@ -16,7 +16,7 @@ dateCreated: 2022-07-10T01:25:27.617Z
 > **WARNING**
 > You can not type into either of the username boxes. They will display your username once you have authenticated.
 {.is-warning}
-## Broadcaster Account
+### Broadcaster Account
 
 If you want Streamer.bot to be able to monitor chat and Twitch events, a `Broadcaster` account must be defined. 
 
@@ -27,7 +27,7 @@ If the logged in user is not the one you wish to use, please log out and enter t
 > `Auto Connect` will set **Streamer.bot** to connect to Twitch! with the defined account on startup
 {.is-success}
 
-## Bot Account
+### Bot Account
 
 You might wish for messages sent to chat to be sent from a separate user account. You can log in such an account here the same way as the Broadcaster account.
 
@@ -45,6 +45,6 @@ Once you have a bot account configured, you can select which account should send
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/en/Quick-Start/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/Quick-Start)
+- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/Quick-Start/OBS)
 {.btn-grid .my-5}
