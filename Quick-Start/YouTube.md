@@ -2,7 +2,7 @@
 title: Quick Start - YouTube
 description: Connect your YouTube account with Streamer.bot
 published: true
-date: 2022-10-30T01:30:23.094Z
+date: 2022-10-30T01:30:45.512Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T19:13:33.290Z
@@ -15,7 +15,7 @@ dateCreated: 2022-08-06T19:13:33.290Z
 
 > You can not type into either of the username boxes. They will display your username once you have authenticated.
 {.is-warning}
-## Broadcaster Account
+### Broadcaster Account
 
 If you want Streamer.bot to be able to monitor chat and YouTube events, a `Broadcaster` account must be defined. 
 
