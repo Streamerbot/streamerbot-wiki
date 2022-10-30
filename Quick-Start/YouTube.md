@@ -2,7 +2,7 @@
 title: Quick Start - YouTube
 description: Connect your YouTube account with Streamer.bot
 published: true
-date: 2022-08-07T15:05:00.055Z
+date: 2022-10-30T01:30:15.140Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T19:13:33.290Z
@@ -26,6 +26,6 @@ If the logged in user is not the one you wish to use, please log out and enter t
 > `Auto Connect` will set **Streamer.bot** to connect to YouTube! with the defined account on startup
 {.is-success}
 
-- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/en/Quick-Start)
-- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/en/Quick-Start/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/Quick-Start)
+- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **Up Next *Connect Streamer.bot to OBS Studio***](/Quick-Start/OBS)
 {.btn-grid .my-5}
