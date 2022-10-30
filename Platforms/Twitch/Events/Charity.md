@@ -2,7 +2,7 @@
 title:  Charity
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:09:04.569Z
+date: 2022-10-30T13:24:26.354Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-09-26T15:58:17.808Z
@@ -42,3 +42,8 @@ Name | Description
 
 > Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
 {.is-warning}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+{.btn-grid .my-5}
