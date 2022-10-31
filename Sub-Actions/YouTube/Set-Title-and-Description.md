@@ -2,7 +2,7 @@
 title: Set Title and Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-10-31T09:50:14.915Z
+date: 2022-10-31T09:51:42.326Z
 tags: sub-action, subactions, youtube
 editor: markdown
 dateCreated: 2022-06-07T03:56:57.575Z
@@ -30,6 +30,6 @@ This input supports variables.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-- [<i class="mdi mdi-youtube text--youtube"></i>**Send Message to Channel *Up Next***](/en/Sub-Actions/YouTube/Send-Message-To-Channel)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/Sub-Actions/YouTube)
+- [<i class="mdi mdi-comment text--youtube"></i>**Send Message to Channel *Up Next***](/Sub-Actions/YouTube/Send-Message-To-Channel)
 {.btn-grid .my-5}
