@@ -2,32 +2,25 @@
 title: Set Description
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-10-25T19:34:30.706Z
+date: 2022-10-31T09:49:25.850Z
 tags: sub-action, subactions, youtube, description
 editor: markdown
 dateCreated: 2022-06-07T02:38:04.431Z
 ---
 
 ## Overview
-
 Modify the description of your YouTube stream.
 
 ![overview.png](/Sub-Actions/YouTube/set-description/overview.png =400x)
 
 ## Configuration
-
-> **NOTE**
 > YouTube descriptions are limited to 5,000 characters
 {.is-warning}
 
 ### Description
-
 Enter the text you would like to set your new stream description to.
 
 Input field accepts variables.
-
-## Variables
-No variables generated
 
 ---
 
