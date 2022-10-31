@@ -2,34 +2,27 @@
 title: Set Title
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-10-26T15:34:23.276Z
+date: 2022-10-31T09:48:38.255Z
 tags: subactions, youtube, sub action
 editor: markdown
 dateCreated: 2022-06-06T03:27:24.075Z
 ---
 
-# Set Title 
-
+## Overview 
 This Sub-Action within Streamer Bot can be used to set the title on your YouTube stream.
 
 ![overview.png](/Sub-Actions/YouTube/set-title/overview.png =400x)
 
 ## Configuration
-
-> **Note**
 > YouTube titles are limited to 100 characters
 {.is-warning}
-
 ### Title
 Enter the text you would like to use as your new stream title.
 
 Input accepts variables.
 
-## Variables
-No variables generated.
-
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-- [<i class="mdi mdi-youtube text--youtube"></i>**Set Description *Up Next***](/en/Sub-Actions/YouTube/Set-Description)
+- [<i class="mdi mdi-text text--youtube"></i>**Set Description *Up Next***](/en/Sub-Actions/YouTube/Set-Description)
 {.btn-grid .my-5}
