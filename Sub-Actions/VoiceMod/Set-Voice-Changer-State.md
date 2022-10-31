@@ -2,7 +2,7 @@
 title: Set Voice Changer State
 description: 
 published: true
-date: 2022-09-10T20:09:11.124Z
+date: 2022-10-31T10:07:28.328Z
 tags: twitch, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T16:36:02.549Z
@@ -31,3 +31,8 @@ Once you have selected the desired state you want click `Ok` to continue and tha
 If you want to test the state, you have a `Test` button in the dialog box you can click to test this.
 
 ![voice-changer-complete.png](/voicemod/voice-changer-complete.png =800x)
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**VoiceMod Sub-Actions *Go Back***](/Sub-Actions/VoiceMod)
+{.btn-grid .my-5}
