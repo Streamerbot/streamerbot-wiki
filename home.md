@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-10-29T21:48:20.321Z
+date: 2022-10-31T00:20:59.927Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-25T17:28:59.469Z
 <div>
 
 Basics{.overline}
-* [🚀 Quick Start Guide](/Quick-Start)
-* [⬆️ How to Upgrade](/Update)
-* [💾 How to Backup](/Backup)
-* [🐧 Linux Setup](/Linux-Support)
+* [<i class="primary--text mdi mdi-rocket-launch"></i> Quick Start Guide](/Quick-Start)
+* [<i class="primary--text mdi mdi-publish"></i> How to Upgrade](/Update)
+* [<i class="primary--text mdi mdi-backup-restore"></i> How to Backup](/Backup)
+* [<i class="primary--text mdi mdi-linux"></i> Linux Setup](/Linux-Support)
 * [<i class="mdi mdi-speaker text--twitch"></i> TwitchSpeaker](/TwitchSpeaker)
 * [Setup Platform: Twitch](/Platforms/Twitch)
 * [Setup Platform: YouTube](/Platforms/YouTube)
@@ -40,13 +40,13 @@ Configuration{.overline}
 <div>
 
 Integrations{.overline}
-- [Streamlabs](/Integrations/Streamlabs)
-- [StreamElements](/Integrations/StreamElements)
-- [VoiceMod](/Integrations/VoiceMod)
-- [DonorDrive](/Integrations/DonorDrive)
-- [Ko-Fi](/Integrations/Ko-Fi)
-- [Patreon](/Integrations/Patreon)
-- [Lumia Stream](/Integrations/Lumia-Stream)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamlabs.png"> Streamlabs](/Integrations/Streamlabs)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamelements.png"> StreamElements](/Integrations/StreamElements)
+- [<img style="width: 1em; transform: translateY(2px);" src="/logos/voicemod.png"> VoiceMod](/Integrations/VoiceMod)
+- [<img style="width: 1em; transform: translateY(2px);" src="/donordrive.webp"> DonorDrive](/Integrations/DonorDrive)
+- [<img style="width: 1em; transform: translateY(2px);" src="/ko-fi_icon_rgb_rounded.png"> Ko-Fi](/Integrations/Ko-Fi)
+- [<i class="mdi mdi-patreon text--patreon"></i> Patreon](/Integrations/Patreon)
+- [<img style="width: 1em; transform: translateY(2px);" src="/logos/lumia_stream.png"> Lumia Stream](/Integrations/Lumia-Stream)
 - [View all integrations...](/Integrations)
 
 </div>
@@ -54,11 +54,12 @@ Integrations{.overline}
 <div>
 
 Available Plugins{.overline}
-- [StreamDeck](https://github.com/nate1280/streamdeck-Streamer.bot)
-- [TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
-- [Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
-- [LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
-- [DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/deckboard.png"> DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamdeck.png"> StreamDeck](/Plugins/Stream-Deck)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/loupedeck.jpg"> LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/touchportal.png"> TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
+- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/voiceattack.png"> Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
+- [View all plugins...](/Plugins)
 
 </div>
 
@@ -68,7 +69,6 @@ Extended Features{.overline}
 - [Streamer.bot Decks](/Extended-Features/HTML-Decks)
 - [HTML-Overlay](/Extended-Features/HTML-Overlay)
 - [Extensions Wiki](https://extensions.streamer.bot)
-- [Streamer.bot External Plugins](/Plugins)
 
 </div>
 
