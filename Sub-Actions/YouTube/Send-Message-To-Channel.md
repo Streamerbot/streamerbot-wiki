@@ -2,7 +2,7 @@
 title: Send Message To YouTube Channel
 description: YouTube Sub-Actions Reference
 published: true
-date: 2022-10-31T09:46:26.121Z
+date: 2022-10-31T09:52:14.973Z
 tags: sub-action, message, subactions, chat, youtube, sub action, send message
 editor: markdown
 dateCreated: 2022-06-06T03:54:35.975Z
@@ -22,6 +22,6 @@ Enter the message to be sent to your chat.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/en/Sub-Actions/YouTube)
-- [<i class="mdi mdi-format-title text--youtube"></i>**Set Title *Up Next***](/en/Sub-Actions/YouTube/Set-Title)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Sub-Actions *Go Back***](/Sub-Actions/YouTube)
+- [<i class="mdi mdi-format-title text--youtube"></i>**Set Title *Up Next***](/Sub-Actions/YouTube/Set-Title)
 {.btn-grid .my-5}
