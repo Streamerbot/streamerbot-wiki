@@ -2,7 +2,7 @@
 title: Select Random Voice
 description: Set a random voice to use 
 published: true
-date: 2022-07-04T22:50:07.971Z
+date: 2022-10-31T10:01:58.602Z
 tags: twitch, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-24T03:40:28.684Z
@@ -38,3 +38,8 @@ When your happy with your selection you have made click `Ok` to continue
 ![select-random-voice-complete.png](/voicemod/select-random-voice-complete.png){.align-center}
 
 And that is it you have successfully set up Streamer.Bot to select a random voice on and action trigger.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**VoiceMod Sub-Actions *Go Back***](/Sub-Actions/VoiceMod)
+{.btn-grid .my-5}
