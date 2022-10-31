@@ -2,13 +2,11 @@
 title: About
 description: Streamer.bot, supercharge your stream!
 published: true
-date: 2022-07-09T19:54:05.285Z
+date: 2022-10-31T10:11:15.359Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:00.127Z
 ---
-
-# About Streamer.bot
 
 **Streamer.bot**, supercharge your stream!
 
