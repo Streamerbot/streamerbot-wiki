@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: false
-date: 2022-10-31T00:15:59.445Z
+date: 2022-10-31T00:20:44.364Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -14,10 +14,10 @@ dateCreated: 2022-10-30T22:42:03.896Z
 <div>
 
 Basics{.overline}
-* [<i class="text--primary mdi mdi-rocket-launch"></i> Quick Start Guide](/Quick-Start)
-* [⬆️ How to Upgrade](/Update)
-* [💾 How to Backup](/Backup)
-* [🐧 Linux Setup](/Linux-Support)
+* [<i class="primary--text mdi mdi-rocket-launch"></i> Quick Start Guide](/Quick-Start)
+* [<i class="primary--text mdi mdi-publish"></i> How to Upgrade](/Update)
+* [<i class="primary--text mdi mdi-backup-restore"></i> How to Backup](/Backup)
+* [<i class="primary--text mdi mdi-linux"></i> Linux Setup](/Linux-Support)
 * [<i class="mdi mdi-speaker text--twitch"></i> TwitchSpeaker](/TwitchSpeaker)
 * [Setup Platform: Twitch](/Platforms/Twitch)
 * [Setup Platform: YouTube](/Platforms/YouTube)
