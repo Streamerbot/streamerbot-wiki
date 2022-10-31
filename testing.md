@@ -2,7 +2,7 @@
 title: Testing Page
 description: Official Documentation for Streamer.bot
 published: false
-date: 2022-10-30T23:04:22.896Z
+date: 2022-10-31T00:14:09.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-30T22:42:03.896Z
@@ -14,7 +14,7 @@ dateCreated: 2022-10-30T22:42:03.896Z
 <div>
 
 Basics{.overline}
-* [🚀 Quick Start Guide](/Quick-Start)
+  * [<i style="color: white" class="mdi mdi-rocket-launch"></i> Quick Start Guide](/Quick-Start)
 * [⬆️ How to Upgrade](/Update)
 * [💾 How to Backup](/Backup)
 * [🐧 Linux Setup](/Linux-Support)
