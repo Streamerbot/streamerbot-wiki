@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:51:36.923Z
+date: 2022-11-01T18:04:40.211Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -81,8 +81,8 @@ void UpdateRewardCooldown(string rewardId, int cooldown, bool additive = false);
 ```
 
 ```csharp
-string TwitchRedemptionFulfill(string rewardId, string redemptionId);
-string TwitchRedemptionCancel(string rewardId, string redemptionId);
+bool TwitchRedemptionFulfill(string rewardId, string redemptionId);
+bool TwitchRedemptionCancel(string rewardId, string redemptionId);
 ```
 
 ```csharp
