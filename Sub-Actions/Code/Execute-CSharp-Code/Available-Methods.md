@@ -1,8 +1,8 @@
 ---
-title: C# Available Methods (ARCHIVED)
+title: ARCHIVED C# Available Methods
 description: ARCHIVED Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-11-01T18:13:31.354Z
+date: 2022-11-01T19:22:20.852Z
 tags: csharp
 editor: markdown
 dateCreated: 2021-08-25T21:31:38.226Z
