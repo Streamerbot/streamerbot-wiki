@@ -2,7 +2,7 @@
 title: Rewards Sub-Actions
 description: Reference of all Twitch Channel Point Reward Sub-Actions
 published: true
-date: 2022-07-28T20:19:31.016Z
+date: 2022-11-01T22:46:14.781Z
 tags: twitch, channel-points, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:45:50.458Z
@@ -12,6 +12,7 @@ dateCreated: 2022-07-10T18:45:50.458Z
 
  * [<i class="mdi mdi-cog text--twitch"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
  * [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
+ * [<i class="mdi mdi-download text--twitch"></i>**Get Reward Info *Gets the info from a reward***](/Sub-Actions/Rewards/Get-Reward-Info)
  * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Rewards/Set-Enabled-State)
  * [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
  * [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
