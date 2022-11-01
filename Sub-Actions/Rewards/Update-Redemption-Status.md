@@ -2,7 +2,7 @@
 title: Update Redemption Status
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-07-12T19:05:58.406Z
+date: 2022-11-01T21:06:24.356Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:07:12.107Z
@@ -15,10 +15,10 @@ Set a reward redemption as fulfilled or canceled.
 
 ## Configuration
 ### Status
-| Values | Description |
-|-------:|:------------|
-|`Fulfilled`| Accept the redemption, marking it as complete
-|`Cancel`| Cancel the reward redemption, refunding any channel points spent
+Name | Description
+----:|:------------
+`Fulfilled` | Accept the redemption, marking it as complete
+`Cancel` | Cancel the reward redemption, refunding any channel points spent
 
 > **WARNING**
 > A redeem must be originally created by Streamer.bot for this sub-action to work.
