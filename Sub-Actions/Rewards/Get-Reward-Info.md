@@ -2,14 +2,14 @@
 title: Get Reward Info
 description: Rewards Sub-Action Reference
 published: true
-date: 2022-11-01T22:41:40.241Z
+date: 2022-11-01T22:42:20.899Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T22:41:40.241Z
 ---
 
 ## Overview
-Set a reward redemption as fulfilled or canceled.
+Gets the info from a reward and outputs it as variables
 
 ## Variables
 Name | Description
@@ -25,5 +25,4 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Configure Reward *Up Next***](/en/Sub-Actions/Rewards/Configure-Reward)
 {.btn-grid .my-5}
