@@ -2,15 +2,10 @@
 title: Array
 description: 
 published: true
-date: 2022-08-02T18:12:52.986Z
+date: 2022-11-01T19:23:42.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-17T14:26:01.568Z
----
-
-<font size="+3" class="mdi mdi-ab-testing primary--text"><b> Array</b></font>
-
-
 ---
 
 ## Looks
