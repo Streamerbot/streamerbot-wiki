@@ -2,14 +2,14 @@
 title: Get Reward Info
 description: Rewards Sub-Action Reference
 published: true
-date: 2022-11-01T22:42:20.899Z
+date: 2022-11-01T22:42:41.426Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T22:41:40.241Z
 ---
 
 ## Overview
-Gets the info from a reward and outputs it as variables
+Gets the info from a reward
 
 ## Variables
 Name | Description
