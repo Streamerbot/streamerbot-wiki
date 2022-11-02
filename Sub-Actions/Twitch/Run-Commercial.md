@@ -1,8 +1,8 @@
 ---
-title: Run Commercial 
+title: Run Commercial
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:46:39.155Z
+date: 2022-11-02T09:19:35.921Z
 tags: twitch, subactions, ad break, ad, commercial
 editor: markdown
 dateCreated: 2022-02-20T12:46:59.075Z
@@ -18,9 +18,6 @@ Start an ad break on your Twitch channel.
 
 ### Duration
 Duration of ad break, in seconds.
-
-## Variables
-No variables generated.
 
 ---
 
