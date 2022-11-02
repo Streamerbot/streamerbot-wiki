@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-09-26T16:08:52.517Z
+date: 2022-11-02T12:33:24.599Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -30,7 +30,7 @@ Twitch channel & stream management{.subtitle}
 - [<i class="mdi mdi-clipboard-play text--twitch"></i> **Create Clip *Create a 30 second Twitch clip***](/en/Sub-Actions/Twitch/Create-Clip)
 - [<i class="mdi mdi-bookmark text--twitch"></i>**Create Stream Marker *Create a Twitch stream marker***](/en/Sub-Actions/Twitch/Create-Stream-Marker)
 - [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/en/Sub-Actions/Twitch/Run-Commercial)
-- [<i class="mdi mdi-counter text--twitch"></i>**Twitch Add Viewer Count *Add your current Twitch viewer count to your action*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Add-Viewer-Count){.disabled}
+- [<i class="mdi mdi-counter text--twitch"></i>**Add Viewer Count *Add your current Twitch viewer count to your action*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Add-Viewer-Count){.disabled}
 {.btn-grid .my-5}
 
 ## User Information
@@ -44,7 +44,7 @@ Fetch information about specific users{.subtitle}
 {.btn-grid .my-5}
 
 ## Additional Sub-Actions
-- [<i class="mdi mdi-charity text--twitch"></i>**Twitch Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add it to your action*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Charity){.disabled}
+- [<i class="mdi mdi-charity text--twitch"></i>**Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add it to your action*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Charity){.disabled}
 {.btn-grid .my-5}
 
 ## Channel Point Rewards
