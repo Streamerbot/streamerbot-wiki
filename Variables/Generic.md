@@ -2,17 +2,16 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2022-08-28T18:53:02.602Z
+date: 2022-11-02T09:26:33.818Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
 ---
 
 # Overview
-Generic variables are always available to most event sources, so consider these the bare minimum you can use in your [sub-actions](/en/Sub-Actions)
+Generic variables are always available to most event sources, so consider these the bare minimum you can use in your [sub-actions](/Sub-Actions)
 
 # Variables
-
 ## General
 Useful general purpose variables{.subtitle}
 
@@ -43,8 +42,8 @@ Variables related to the triggering event source{.subtitle}
 
 Name | Description
 ----:|:------------
-| `__source` | The name of the event triggering the action
-| `eventSource` | String value to specify which platform generated the event *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
+`__source` | The name of the event triggering the action
+`eventSource` | String value to specify which platform generated the event *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
 {.vars-table}
 
 ## Action
@@ -52,21 +51,17 @@ Variables related to the action being called{.subtitle}
 
 Name | Description
 ----:|:------------
-| `actionId` | The unique ID number of the first action called *v0.1.8+*{.version-badge} 
-| `runningActionId` | The instance ID number of the action in the queue *v0.1.8+*{.version-badge}
+`actionId` | The unique ID number of the first action called *v0.1.8+*{.version-badge} 
+`runningActionId` | The instance ID number of the action in the queue *v0.1.8+*{.version-badge}
 {.vars-table}
 
 ## Random User
-Fetch variables for a random user currently in your chat{.subtitle}
-
-> **WARNING**
-> As of Streamer.bot *v0.1.8*{.version-badge} this functionality requires usage of the [Add Random Users](/en/Sub-Actions/Twitch/) sub-action
-{.is-warning}
+Fetch variables for a random user currently in your chat with this sub-action [Add Random Users](/Sub-Actions/Twitch/) {.subtitle}
 
 Name | Description
 ----:|:------------
-| `randomUser0` | The `username` of a random user present in chat
-| `randomUserName0` | The Display name of a random user present in chat
+`randomUser0` | The `username` of a random user present in chat
+`randomUserName0` | The Display name of a random user present in chat
 {.vars-table}
 
 
