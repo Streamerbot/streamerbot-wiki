@@ -2,7 +2,7 @@
 title: Ko-Fi
 description: Integrate Streamer.bot with your Ko-Fi account!
 published: true
-date: 2022-10-29T22:00:13.638Z
+date: 2022-11-02T09:24:52.864Z
 tags: integrations, ko-fi, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:37:51.447Z
@@ -13,7 +13,6 @@ dateCreated: 2022-06-01T04:37:51.447Z
 ## Overview
 [Ko-Fi](https://ko-fi.com/), a highly requested integration, is now available in Streamer.bot *v0.1.8*{.version-badge}
 
-> **NOTE**
 > This integration requires signing in to the **Streamer.bot** website and configuring your Ko-Fi account to use the webhooks.
 {.is-info}
 
