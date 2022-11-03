@@ -2,7 +2,7 @@
 title: Send Announcement to Channel
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:12:06.535Z
+date: 2022-11-03T19:14:10.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:12:06.535Z
@@ -23,11 +23,11 @@ Name | Description
 ### Color
 Name | Description
 ----:|:------------
-`Default` | Sends the announcement with the default color.
-`Blue` | Sends the announcement with the color blue.
-`Green` | Sends the announcement with the color green.
-`Orange` | Sends the announcement with the color orange.
-`Purple` | Sends the announcement with the color purple.
+`Default` | Sends the announcement with the **default** color.
+`Blue` | Sends the announcement with the color **blue**.
+`Green` | Sends the announcement with the color **green**.
+`Orange` | Sends the announcement with the color **orange**.
+`Purple` | Sends the announcement with the color **purple**.
 
 ### Message
 Enter the announcement you would like to send.
