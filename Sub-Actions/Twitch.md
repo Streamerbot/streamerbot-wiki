@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-11-02T12:34:24.365Z
+date: 2022-11-03T17:56:13.316Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -20,7 +20,6 @@ Chat message and moderation controls{.subtitle}
 - [<i class="mdi mdi-speedometer-slow text--twitch"></i>**Slow Mode *Toggle slow mode***](/en/Sub-Actions/Twitch/Slow-Mode)
 - [<i class="mdi mdi-account-lock text--twitch"></i>**Subscriber Only *Toggle sub-only mode***](/en/Sub-Actions/Twitch/Subscriber-Only)
 {.btn-grid .my-5}
-
 
 ## Channel
 Twitch channel & stream management{.subtitle}
@@ -44,20 +43,23 @@ Fetch information about specific users{.subtitle}
 {.btn-grid .my-5}
 
 ## Additional Sub-Actions
+
 - [<i class="mdi mdi-charity text--twitch"></i>**Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add it to your action*** *v0.1.14*{.version-badge}](/en/Sub-Actions/Twitch/Charity){.disabled}
 {.btn-grid .my-5}
 
 ## Channel Point Rewards
 Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
- * [<i class="mdi mdi-cog text--twitch"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
- * [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
- * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Rewards/Set-Enabled-State)
- * [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
- * [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
- * [<i class="mdi mdi-text-box text--twitch"></i>**Set Prompt *Set the prompt text shown for a channel point reward***](/Sub-Actions/Rewards/Set-Prompt)
- * [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
- * [<i class="mdi mdi-upload text--twitch"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
- * [<i class="mdi mdi-list-status text--twitch"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Update-Redemption-Status)
+
+* [<i class="mdi mdi-cog text--twitch"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
+* [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
+* [<i class="mdi mdi-download text--twitch"></i>**Get Reward Info *Gets the info from a reward***](/Sub-Actions/Rewards/Get-Reward-Info)
+* [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Rewards/Set-Enabled-State)
+* [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
+* [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
+* [<i class="mdi mdi-text-box text--twitch"></i>**Set Prompt *Set the prompt text shown for a channel point reward***](/Sub-Actions/Rewards/Set-Prompt)
+* [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
+* [<i class="mdi mdi-upload text--twitch"></i>**Update *Modify title, prompt, cost, and cooldown***](/Sub-Actions/Rewards/Update)
+* [<i class="mdi mdi-list-status text--twitch"></i>**Update Redemption Status *Mark a redeem as completed or rejected***](/Sub-Actions/Rewards/Update-Redemption-Status)
 {.btn-grid .my-5}
 ---
 
