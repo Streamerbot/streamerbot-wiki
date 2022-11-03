@@ -2,20 +2,18 @@
 title: YouTube
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:53:53.607Z
+date: 2022-11-03T08:44:57.080Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:53:53.607Z
 ---
 
 ## Chat Message
-
 ```csharp
 void SendYouTubeMessage(string message);
 ```
 
 ## User Variables
-
 ```csharp
 T GetTwitchUserVar<T>(string userName, string varName, bool persisted = true);
 T GetYouTubeUserVar<T>(string userName, string varName, bool persisted = true);
