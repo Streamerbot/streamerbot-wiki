@@ -2,7 +2,7 @@
 title: YouTube
 description: C# Available Methods Reference
 published: true
-date: 2022-11-03T08:44:57.080Z
+date: 2022-11-03T08:45:36.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:53:53.607Z
@@ -15,13 +15,9 @@ void SendYouTubeMessage(string message);
 
 ## User Variables
 ```csharp
-T GetTwitchUserVar<T>(string userName, string varName, bool persisted = true);
 T GetYouTubeUserVar<T>(string userName, string varName, bool persisted = true);
-void SetTwitchUserVar(string userName, string varName, object value, bool persisted = true);
 void SetYouTubeUserVar(string userName, string varName, object value, bool persisted = true);
-void UnsetTwitchUserVar(string userName, string varName, bool persisted = true);
 void UnsetYouTubeUserVar(string userName, string varName, bool persisted = true);
-void UnsetTwitchUser(string userName, bool persisted = true);
 void UnsetYouTubeUser(string userName, bool persisted = true);
 ```
 
