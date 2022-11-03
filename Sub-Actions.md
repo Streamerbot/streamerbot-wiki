@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-11-03T17:57:06.921Z
+date: 2022-11-03T17:58:21.055Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:34:29.815Z
 Sub-Actions specific to your streaming platform{.subtitle}
 
 - [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Control your Twitch channel settings, send chat messages, create clips, control rewards, and more!***](/Sub-Actions/Twitch)
-- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Control your YouTube channel title, description, and send chat messages***](/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Control your YouTube channel settings, change title, change description, send chat messages, and more!***](/Sub-Actions/YouTube)
 {.btn-grid .my-5}
 
 ## Broadcaster
