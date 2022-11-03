@@ -2,7 +2,7 @@
 title: Create Stream Marker
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:24:42.481Z
+date: 2022-11-03T19:25:45.506Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-11-02T04:18:32.823Z
@@ -16,10 +16,9 @@ Creates a Stream Marker on Twitch. You can use this to signify an important even
 
 ![overview.png](/Sub-Actions/Twitch/create-stream-marker/overview.png =400x)
 
-
 ## Configuration
 ### Description
-The description of the stream marker
+The description of the stream marker.
 
 ## Variables
 Name | Description
