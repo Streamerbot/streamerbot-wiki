@@ -2,11 +2,29 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-10-28T02:04:08.036Z
+date: 2022-11-03T21:03:40.289Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+# Streamer.bot v0.1.15 (WIP)
+ Upcoming changes in the next release!{.subtitle}
+ 
+ * Misc fixes/tweaks
+{.changelog-fixes}
+
+<span></span>
+
+ * Add the ability to change the avatar image for the Basic Discord Hook
+ * Update `CPH.TwitchRunCommercial(...)` to return a `bool`, `True` if it was successful, `False` otherwise
+ 
+ {.changelog-updates}
+ 
+<span></span>
+
+* Added the ability to use **REDACTED** and **REDACTED**!
+{.changelog-new}
 
 # Streamer.bot v0.1.14 (Current)
 Released 2022-10-27{.subtitle}
