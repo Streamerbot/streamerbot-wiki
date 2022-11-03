@@ -1,38 +1,29 @@
 ---
-title: Slow Mode 
+title: Slow Mode
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-07-11T23:32:47.390Z
+date: 2022-11-03T19:15:53.226Z
 tags: twitch, subactions, slow-mode
 editor: markdown
 dateCreated: 2021-11-20T03:30:11.449Z
 ---
 
 ## Overview
+This sub-action can be used to toggle slow mode in your Twitch chat. 
 
-This sub-action can be used to toggle [slow mode](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat?language=en_US#SlowMode) in your Twitch channel. 
-
-![slow_mode_.png](/slow_mode_.png)
-
-> **WARNING**
-> Moderator privileges are required on your bot account for this sub-action to work!
-{.is-warning}
-
+![overview.png](/Sub-Actions/Twitch/slow-mode/overview.png =400x)
 
 ## Configuration
-
 ### State
-
-| Value | Description |
-|------:|:------------|
+Name | Description
+----:|:------------
 `Yes` | Set slow mode to **enabled**
 `No` | Set slow mode to **disabled**
 
-## Variables
-No variables generated.
+### Duration
+A number in seconds for the duration of the Slow Mode
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/en/Sub-Actions/Twitch)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Subscriber Only *Up Next***](/en/Sub-Actions/Twitch/Subscriber-Only)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
