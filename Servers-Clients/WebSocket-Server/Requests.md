@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-08-15T00:47:38.021Z
+date: 2022-11-04T21:21:48.982Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -118,9 +118,85 @@ This request will get you a list of all events that may be emitted
 {
   "id": "<message id>",
   "events": {
+    "application": [
+      "ActionAdded",
+      "ActionUpdated",
+      "ActionDeleted"
+    ],
+    "command": [
+      "Message",
+      "Whisper",
+      "MessageCooldown",
+      "BotWhisper"
+    ],
+    "donorDrive":[
+         "Donation",
+         "ProfileUpdated"
+      ],
+    "fileWatcher": [
+      "Changed",
+      "Created",
+      "Deleted",
+      "Renamed"
+    ],
     "general": [
       "Custom"
     ],
+    "hypeRate":[
+         "HeartRatePulse"
+      ],
+    "kofi":[
+         "Donation",
+         "Subscription",
+         "Resubscription",
+         "ShopOrder",
+         "Commission"
+      ],
+    "misc": [
+      "TimedAction",
+      "PyramidSuccess",
+      "PyramidBroken"
+    ],
+    "patreon":[
+         "FollowCreated",
+         "FollowDeleted",
+         "PledgeCreated",
+         "PledgeUpdated",
+         "PledgeDeleted"
+      ],
+      "pulsoid":[
+         "HeartRatePulse"
+      ],
+    "quote": [
+      "Added",
+      "Show"
+    ],
+    "raw": [
+      "Action",
+      "SubAction"
+    ],
+    "shopify":[
+         "OrderCreated",
+         "OrderPaid"
+      ],
+    "speechToText": [
+      "Dictation",
+      "Command"
+    ],
+    "streamElements": [
+      "Tip",
+      "Merch"
+    ],
+    "streamlabs": [
+      "Donation",
+      "Merchandise"
+    ],
+    "tipeeeStream":[
+         "Donation"
+      ],
+      "treatStream":[
+         "Treat"
+      ],
     "twitch": [
       "Follow",
       "Cheer",
@@ -155,55 +231,46 @@ This request will get you a list of all events that may be emitted
       "PredictionCanceled",
       "PredictionLocked",
       "ChatMessage",
-      "Host"
-    ],
-    "streamlabs": [
-      "Donation",
-      "Merchandise"
-    ],
-    "speechToText": [
-      "Dictation",
-      "Command"
-    ],
-    "command": [
-      "Message",
-      "Whisper"
-    ],
-    "fileWatcher": [
-      "Changed",
-      "Created",
-      "Deleted"
-    ],
-    "quote": [
-      "Added",
-      "Show"
-    ],
-    "misc": [
-      "TimedAction",
-      "PyramidSuccess"
-    ],
-    "raw": [
-      "Action",
-      "SubAction"
+      "ChatMessageDeleted",
+      "UserTimedOut",
+      "UserBanned",
+      "Announcement",
+      "AdRun",
+      "BotWhisper",
+      "CharityDonation",
+      "CharityCompleted",
+      "CoinCheer",
+      "ShoutoutCreated",
+      "UserUntimedOut"
     ],
     "websocketClient": [
       "Open",
       "Close",
       "Message"
     ],
-    "streamElements": [
-      "Tip"
-    ],
     "websocketCustomServer": [
       "Open",
       "Close",
       "Message"
     ],
-    "application": [
-      "ActionAdded",
-      "ActionUpdated",
-      "ActionDeleted"
-    ]
+    "youTube":[
+         "BroadcastStarted",
+         "BroadcastEnded",
+         "Message",
+         "MessageDeleted",
+         "UserBanned",
+         "SuperChat",
+         "SuperSticker",
+         "NewSponsor",
+         "MemberMileStone",
+         "NewSponsorOnlyStarted",
+         "NewSponsorOnlyEnded",
+         "StatisticsUpdated",
+         "BroadcastUpdated",
+         "MembershipGift",
+         "GiftMembershipReceived",
+         "FirstWords"
+      ]
   },
   "status": "ok"
 }
