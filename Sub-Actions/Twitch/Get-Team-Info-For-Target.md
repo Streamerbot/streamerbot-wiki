@@ -2,7 +2,7 @@
 title: Get Team Info For Target
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-04T15:32:00.368Z
+date: 2022-11-04T15:33:15.702Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:34:41.017Z
@@ -17,6 +17,7 @@ Collects follow data from a Twitch user.
 ### Source Type
 Name | Description
 ----:|:------------
+`Broadcaster` | The broadcast user.
 `User` | User that invoked the action e.g. a raid leader, subscriber, point redeemer etc.
 `From Input` | This will take the next word proceeding the trigger as the username to lookup. This user does not have to be present in the channel
 `Variable` | Use the content of an existing variable as the target
