@@ -1,8 +1,8 @@
 ---
-title: Get-Team-Info-For-Target
+title: Get Team Info For Target
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:34:41.017Z
+date: 2022-11-04T15:32:00.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:34:41.017Z
