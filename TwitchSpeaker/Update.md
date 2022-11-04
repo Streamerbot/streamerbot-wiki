@@ -2,7 +2,7 @@
 title: Update TwitchSpeaker
 description: Learn how to update your TwitchSpeaker installation to the latest version
 published: true
-date: 2022-10-17T07:55:36.277Z
+date: 2022-11-04T13:47:59.186Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:56:03.875Z
@@ -10,7 +10,6 @@ dateCreated: 2022-08-02T16:56:03.875Z
 
 ## Backup
 
-> **Recommended**
 It is highly recommended to backup your existing installation **before** updating TwitchSpeaker
 {.is-warning}
 
