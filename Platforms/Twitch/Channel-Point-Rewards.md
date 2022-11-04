@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:25:42.348Z
+date: 2022-11-04T13:35:49.488Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -16,7 +16,6 @@ When the `Broadcaster` account is connected, **Streamer.bot** will automatically
 
 You can also `Add` and `Delete` rewards directly from the application. 
 
-> **WARNING**
 > It is **highly recommended** to create your rewards through Streamer.bot
 > This gives Streamer.bot full control of the reward and is **required** for many of the features outlined below.
 {.is-warning}
