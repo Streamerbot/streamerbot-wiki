@@ -2,7 +2,7 @@
 title: Application
 description: C# Available Methods Reference
 published: true
-date: 2022-10-30T10:34:02.451Z
+date: 2022-11-08T22:27:25.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T17:10:24.521Z
@@ -33,12 +33,8 @@ EventType GetEventType();
 void LogInfo(string logLine);
 void LogWarn(string logLine);
 void LogDebug(string logLine);
-```
 
-> Requires minimum version 0.1.14
-{.is-info}
-
-```csharp
+// Added in v0.1.14
 void LogVerbose(string logLine);
 ```
 
