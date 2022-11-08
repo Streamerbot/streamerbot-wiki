@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2022-10-02T21:16:04.758Z
+date: 2022-11-08T17:25:56.269Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T19:54:55.723Z
@@ -14,6 +14,12 @@ dateCreated: 2022-07-09T19:54:55.723Z
 [![Pull Requests Opened](https://img.shields.io/github/issues-pr/Streamerbot/streamerbot-wiki?color=red&label=Pull%20Requests)](https://github.com/Streamerbot/streamerbot-wiki/pulls) [![Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/Streamerbot/streamerbot-wiki?color=red&label=Pull%20Requests)](https://github.com/Streamerbot/streamerbot-wiki/pulls?q=is%3Apr+is%3Aclosed) [![Open A Pull Requests](https://img.shields.io/badge/Pull%20Requests-Submit-red)](https://github.com/Streamerbot/streamerbot-wiki/compare) 
 [![Issues Opened](https://img.shields.io/github/issues/Streamerbot/streamerbot-wiki?color=blue&label=Issues)](https://github.com/Streamerbot/streamerbot-wiki/issues) [![Issues Closed](https://img.shields.io/github/issues-closed/Streamerbot/streamerbot-wiki?color=blue&label=Issues)](https://github.com/Streamerbot/streamerbot-wiki/issues?q=is%3Aissue+is%3Aclosed) [![Open An Issue](https://img.shields.io/badge/Issues-Submit-blue)](https://github.com/Streamerbot/streamerbot-wiki/issues/new) 
 
+---
+  
+<img src = "https://contrib.rocks/image?repo=Streamerbot/streamerbot-wiki">
+  
+---
+  
 ## Streamer.bot Wiki
 The place for all documentation about streamer.bot
 
