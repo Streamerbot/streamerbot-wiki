@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-10-14T16:04:40.635Z
+date: 2022-11-08T18:44:47.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -114,4 +114,25 @@ Lorem ipsum
 
 ---
 
-## MDI Copy/Paste Classes
+<div data-version="v0.1.14">
+  
+```csharp
+int Between(int min, int max);
+double NextDouble(); // get a random value between 0f and 1f
+```
+  
+</div>
+
+```csharp
+void Wait(int milliseconds);
+```
+
+```csharp
+string UrlEncode(string text);
+string EscapeString(string text);
+```
+
+```csharp
+EventSource GetSource();
+EventType GetEventType();
+```
