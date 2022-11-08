@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-11-08T18:44:47.345Z
+date: 2022-11-08T18:53:47.370Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -136,3 +136,12 @@ string EscapeString(string text);
 EventSource GetSource();
 EventType GetEventType();
 ```
+
+<div data-version="v0.1.14">
+
+```csharp
+EventSource GetSource();
+string user = user + anotherUser + anotherAnotherUser + manyOtherUser + manyManyOtherUsers;
+```
+  
+</div>
