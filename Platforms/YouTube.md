@@ -2,7 +2,7 @@
 title: YouTube
 description: Streamer.bot now supports YouTube as a streaming platform!
 published: true
-date: 2022-10-03T00:51:51.424Z
+date: 2022-11-08T01:33:17.760Z
 tags: platforms, youtube
 editor: markdown
 dateCreated: 2022-05-13T04:09:31.936Z
@@ -17,7 +17,7 @@ dateCreated: 2022-05-13T04:09:31.936Z
 # Configuration
 
 ## Account
-First, Open Streamer.bot (0.18+) then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
+First, Open Streamer.bot then navigate to the `Platforms` tab, here you will have an extra tab called `YouTube` located in the second row of tabs click this. to continue be sure to agree to the terms and conditions of both YouTube and Google and Streamer.bot when you’re ready click the `I Agree` button.
 
 ![youtube_tab_.png](/youtube/youtube_tab_.png)
 
