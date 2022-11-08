@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Events Reference
 published: true
-date: 2022-11-08T19:26:01.454Z
+date: 2022-11-08T19:34:28.142Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -22,7 +22,11 @@ As mentioned above you can set a specific action to run when a specified range i
 ![twitch_cheers_range.png](/twitch_cheers_range.png =700x)
 
 ## Cheer Types / States
-There are 3 cheer types. Generic (Either), Generic (Anon) for Anonymous Cheers and Generic (Non-Anon) is for those public cheerers.
+There are 3 selectable cheer types. Generic (Either), Generic (Anon) for Anonymous Cheers and Generic (Non-Anon) is for those public cheerers.
+
+> As of October 28th 2022 Twitch has deprecated anonymous cheer functionality from the platform
+{.is-info}
+
 
 #### Generic (Either) Type / State 
 Any action assigned to this type will be triggered for both anonymous and non-anonymous cheerers and those that have not been set up for a specific range. 
