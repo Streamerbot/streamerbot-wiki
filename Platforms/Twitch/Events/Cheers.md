@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Events Reference
 published: true
-date: 2022-11-08T19:34:28.142Z
+date: 2022-11-08T20:50:14.834Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -64,8 +64,13 @@ Name | Description
 `replyTo`| if `isReply` is True, populates the username the message is replying to
 `firstMessage` | Boolean value indicating the message is from a first time chatter in the channel <br> `True`/`False` *v0.1.8+*{.version-badge}
 `cheerEmotes` | List of cheermotes found in the message
+`cheerEmoteCount` | A count of all the cheermotes in the message
 `anonymous` | Boolean value indicating if the cheer was anonymous <br> `True`/`False` <br> <i>Anonymous bit cheering has been deprecated by Twitch as of October 27 2022 </i>
 `cheerEmoteCount` | How many Twitch! cheer emotes were found
+`badgeCount` | A count of the number of badges the user is displaying
+`badges` | 
+`eventSource` | The platform identifier string (For cheers this will always be `twitch`)
+
 {.vars-table}
 
 ---
