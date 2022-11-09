@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Common Streamer.bot support & troubleshooting questions
 published: false
-date: 2022-11-09T18:59:33.416Z
+date: 2022-11-09T18:59:55.106Z
 tags: faq, support
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -26,6 +26,8 @@ There a couple of things that can cause this
 
 ### Why does my bot stop responding after I test a sub?
 You have Sub Counter **enabled** in Streamer.bot and it is not pointing to a valid text file.  Either **disable** it or make sure the **file path** is pointing to a **valid** text file.
+
+# OBS
 
 ### How do I upgrade to OBS WebSocket 5
 1. Disconnect your OBS Connection but **don't delete it**
