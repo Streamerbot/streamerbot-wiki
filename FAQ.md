@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions
 description: Common Streamer.bot support & troubleshooting questions
-published: false
-date: 2022-11-09T19:00:06.388Z
+published: true
+date: 2022-11-09T19:00:32.723Z
 tags: faq, support
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
