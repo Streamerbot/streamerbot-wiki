@@ -2,7 +2,7 @@
 title: Testing Page (Locked)
 description: 
 published: true
-date: 2022-11-09T16:47:51.300Z
+date: 2022-11-09T16:48:24.742Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-09T16:35:17.597Z
@@ -11,19 +11,19 @@ dateCreated: 2022-11-09T16:35:17.597Z
 Click on the image for the documentation!{.text-center}
 
 ## Twitch{.text-center}
-[![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png =700x){.align-center}](/Quick-Start/Twitch)
+[![connect_to_twitch_.png](/quick-start/connect_to_twitch_.png =800x){.align-center}](/Quick-Start/Twitch)
 
 ## Youtube{.text-center}
-[![connect_to_youtube_.png](/youtube/yt_account_new.png =700x){.align-center}](/Quick-Start/YouTube)
+[![connect_to_youtube_.png](/youtube/yt_account_new.png =800x){.align-center}](/Quick-Start/YouTube)
 
 ## OBS Studio{.text-center}
-[![overview.png](/broadcasters/obs/overview.png =700x){.align-center}](/Quick-Start/OBS)
+[![overview.png](/broadcasters/obs/overview.png =800x){.align-center}](/Quick-Start/OBS)
 
 ## Streamlabs Desktop{.text-center}
-[![streamlabs_desktop_landing_page.png](/quick-start/streamlabs_desktop_landing_page.png =700x){.align-center}](/Quick-Start/Streamlabs-Desktop)
+[![streamlabs_desktop_landing_page.png](/quick-start/streamlabs_desktop_landing_page.png =800x){.align-center}](/Quick-Start/Streamlabs-Desktop)
 
 ## PolyPop{.text-center}
-[![polypop-streamerbot.png](/polypop/polypop-streamerbot.png =700x){.align-center}](/Quick-Start/PolyPop)
+[![polypop-streamerbot.png](/polypop/polypop-streamerbot.png =800x){.align-center}](/Quick-Start/PolyPop)
 
 ## Examples (Coming Soon!){.text-center}
  - [<i class="mdi mdi-chat"></i> **Chatbot Example *Enable some basic chat commands***](/Quick-Start/Commands)
