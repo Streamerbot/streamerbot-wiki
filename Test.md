@@ -2,7 +2,7 @@
 title: IK's Testing Laboratory of Fun and Science!
 description: 
 published: false
-date: 2022-11-09T12:48:11.075Z
+date: 2022-11-09T12:49:13.397Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:17.477Z
@@ -114,7 +114,7 @@ Lorem ipsum
 
 ---
 
-<div data-codeblock-version="v0.1.14">
+<div data-codeblock-version="v0.1.15">
   
 ```csharp
 int Between(int min, int max);
@@ -134,6 +134,8 @@ string EscapeString(string text);
 
 ```csharp
 EventSource GetSource();
+
+// Added in v0.1.15
 EventType GetEventType();
 ```
 
