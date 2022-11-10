@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Common Streamer.bot support & troubleshooting questions
 published: true
-date: 2022-11-10T16:32:41.262Z
+date: 2022-11-10T16:32:48.887Z
 tags: faq, support
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -27,7 +27,6 @@ There a couple of things that can cause this
 You have Sub Counter **enabled** in Streamer.bot and it is not pointing to a valid text file.  Either **disable** it or make sure the **file path** is pointing to a **valid** text file.
 
 ## OBS
-
 ### How do I upgrade to OBS WebSocket 5
 1. Disconnect your OBS Connection but **don't delete it**
 2. Edit the OBS Connection to version `v5.x` and port `4455` and make sure you have OBS Websocket version 5 installed.
