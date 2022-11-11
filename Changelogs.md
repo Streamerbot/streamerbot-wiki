@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T06:04:55.461Z
+date: 2022-11-11T15:44:32.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  Upcoming changes in the next release!{.subtitle}
  
  * Misc fixes/tweaks
+ * Twitch artifical present viewers tick could return YouTube users as well
 {.changelog-fixes}
 
 <span></span>
@@ -29,6 +30,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Added the ability to use **REDACTED** and **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
+* Add an artifical Present Viewers tick to YouTube
 {.changelog-new}
 
 ## OBS Websocket v5.x Batch Requests
