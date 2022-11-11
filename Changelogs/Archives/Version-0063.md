@@ -2,15 +2,13 @@
 title: Version 0.0.63
 description: 
 published: true
-date: 2022-11-11T16:59:33.867Z
+date: 2022-11-11T17:00:07.483Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T20:28:13.485Z
 ---
 
 Visit [Streamer.bot 0.0.61](/Changelogs/Archives/Version-0061) and [Streamer.bot 0.0.62](/Changelogs/Archives/Version-0061) to see all the shiny new features and updates.
-
-# Some fixes/changes
 
 * Misc fixes/etc that I've probably forgot
 * Change what modules are merged
