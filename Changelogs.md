@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T01:17:44.302Z
+date: 2022-11-11T01:50:58.412Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Add the ability to change the avatar image for the Basic Discord Hook
  * Update `CPH.TwitchRunCommercial(...)` to return a `bool`, `True` if it was successful, `False` otherwise
  * Add option to disable auto completion of braces and quotes in `Execute C# Code` editor, default is enabled
+ * Add `firstMessage` argument to `Twitch First Words` event
+ * Update arguments for `Twitch First Words` event to be more like a chat message event since they are near identical
+ * Update the Websocket message that is broadcast for a `Twitch First Words` event, this could be a breaking change
  {.changelog-updates}
  
 <span></span>
