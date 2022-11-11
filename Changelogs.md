@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T01:50:58.412Z
+date: 2022-11-11T05:05:16.220Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -27,7 +27,30 @@ dateCreated: 2021-08-25T21:51:24.140Z
 <span></span>
 
 * Added the ability to use **REDACTED** and **REDACTED**!
+* [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 {.changelog-new}
+
+## OBS Websocket v5.x Batch Requests
+You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
+```js
+{
+  "haltOnFailure": false,
+  "executionType": -1
+  "requests": [
+    {
+      "requestType": <string>,
+      "requestData": { ... }
+    }
+  ]
+}
+```
+
+Name | Description
+----:|:------------
+`haltOnFailure` | `True`/`False`, setting to true will stop processing requests if one fails, default is `False` and can be omitted
+`executionType` | A number value, `-1`, `0`, `1`, `2` to indicate how to perform the requests, default is `-1` and can be omitted
+`requests` | This is the array of your requests, each request takes on the same format as a single request
+
 
 # Streamer.bot v0.1.14 (Current)
 Released 2022-10-27{.subtitle}
