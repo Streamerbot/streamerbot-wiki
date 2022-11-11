@@ -2,7 +2,7 @@
 title: Version 0.0.63
 description: 
 published: true
-date: 2022-02-14T20:28:17.536Z
+date: 2022-11-11T16:59:33.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T20:28:13.485Z
@@ -12,19 +12,28 @@ Visit [Streamer.bot 0.0.61](/Changelogs/Archives/Version-0061) and [Streamer.bot
 
 # Some fixes/changes
 
-* Log files have been moved to their own logs folder
-* All settings and cache files are now in their own data folder
+* Misc fixes/etc that I've probably forgot
 * Change what modules are merged
-* Tweak finding references for Execute C# code
 * Fix delete key not removing references properly in Execute C# Code sub-action
 * Fix OBS/SLOBS visibility state not setting a default state, which could lead to a crash
 * Commands became unusable after editing a command, woops
+* Fix creating rewards not having action assigned if one was chosen
+{.changelog-fixes}
+
+<span></span>
+
+* Log files have been moved to their own logs folder
+* All settings and cache files are now in their own data folder
+* Tweak finding references for Execute C# code
+{.changelog-updates}
+
+<span></span>
+
+* Add top/bottom move otpions for moving sub-actions
+* New app icon
 * Added 2 new scopes, to create clips, and to manage your broadcast (update title, set game, etc)  The app will notify you that you'll need to re-auth
 * Added new Action Added/Updated/Deleted events, mostly to better support StreamDeck plugin
-* Misc fixes/etc that I've probably forgot
-* Add top/bottom move otpions for moving sub-actions
-* Fix creating rewards not having action assigned if one was chosen
-* New app icon
+{.changelog-new}
 
 # StreamDeck
 Was tinkering around with StreamDeck plugins and managed to get a basic one working, you can create a new button and give it an action.  My experience with writing these plugins is very limited, so this version may not advance very far, but hopefully a more advanced one may eventually takes its place.
