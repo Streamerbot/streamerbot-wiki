@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T05:05:16.220Z
+date: 2022-11-11T06:04:55.461Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,6 +28,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 * Added the ability to use **REDACTED** and **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
+* Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
 {.changelog-new}
 
 ## OBS Websocket v5.x Batch Requests
