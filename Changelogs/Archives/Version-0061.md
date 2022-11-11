@@ -2,34 +2,40 @@
 title: Version 0.0.61
 description: 
 published: true
-date: 2022-02-14T20:25:10.666Z
+date: 2022-11-11T17:02:32.304Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T20:25:07.288Z
 ---
 
-Jump to [New Features](#new-features)
-
 * Fix running action from C#, possible caught crash and the action would not run
-* Add new options to Execute C# Code to support delayed start
-* Updated Execute C# Method sub-action to run on UI thread
 * Fix crash when editing play sound from folder, when folder no longer exists
 * Fix editing channel rewards, global cooldown limit was too low causing a crash
-* Update actions list with groups, actions are sorted and groups can be collapsed
-* Update commands to allow groups to be collapsible.
-* Collapsed groups in actions and commands will be remembered and set on launch
-* Add new menu item when right clicking on sub-action to provide capabilities to run certain methods tied to the sub-action
-* First pass of updating groups for future changes, this converts and alters underlying data
-* Update cheers not being included in credits
 * Fix custom server sockets, sending data was not working correctly
-* Add a few new menu options to copy the IDs of Actions and Commands
-* Add ability to enable/disable actions, along with a new sub-action to set an actions state and C# methods
 * Fix FileWatcher, had a few typos with menu interactions
-* More fixes/updates I probably forgot
-***
+* Collapsed groups in actions and commands will be remembered and set on launch
+* More fixes I probably forgot
+{.changelog-fixes}
+
+<span></span>
+
+* Update commands to allow groups to be collapsible.
+* Updated Execute C# Method sub-action to run on UI thread
+* Update actions list with groups, actions are sorted and groups can be collapsed
+* Update cheers not being included in credits
+* First pass of updating groups for future changes, this converts and alters underlying data
+* More updates I probably forgot
+{.changelog-updates}
+
+<span></span>
+
+* Add ability to enable/disable actions, along with a new sub-action to set an actions state and C# methods
+* Add new menu item when right clicking on sub-action to provide capabilities to run certain methods tied to the sub-action
+* Add a few new menu options to copy the IDs of Actions and Commands
+* Add new options to Execute C# Code to support delayed start
+{.changelog-new}
 
 # New Features
-
 ## Sub-Actions
 As an experiment, I am adding new custom menu item to run certain methods contained within a sub-action.  At this moment, this only applies to Execute C# Code, there are 2 new menu items to Compile, and Unload; which will trigger a compile and init of the code, or it will fully unload/dispose of the code (like what happens in a shutdown)
 
