@@ -2,7 +2,7 @@
 title: Version 0.1.1
 description: 
 published: true
-date: 2022-09-02T03:33:19.115Z
+date: 2022-11-11T16:56:13.221Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T02:05:50.673Z
@@ -48,7 +48,7 @@ dateCreated: 2022-06-23T02:05:50.673Z
 * Add enabled toggle to action dialog, for enabling/disabling actions
 {.changelog-new}
 
-Join the [Discord](https://discord.gg/zuXpPpgD5K) if you have any questions, would like to share what you've created, or or would like to lend a hand!
+Join the [Discord](https://discord.streamer.bot) if you have any questions, would like to share what you've created, or or would like to lend a hand!
 
 ### OBS Raw
 I have gone through and updated how OBS Raw behaves, previously it would only return if the status of the call was a success or not.  Now, it will take all the JSON values returned and add them onto the argument list in the form of `obsRaw.{path}`, so `status` is now in `obsRaw.status`, so you can check this if the call was successful or not.  The values that are put on the arguments are dynamic and depend on what you are sending.
