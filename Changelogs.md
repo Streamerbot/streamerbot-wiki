@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T15:44:32.901Z
+date: 2022-11-11T15:45:52.548Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  Upcoming changes in the next release!{.subtitle}
  
  * Misc fixes/tweaks
+ * Testing OBS Raw should no longer crash if the call to OBS errors
  * Twitch artifical present viewers tick could return YouTube users as well
 {.changelog-fixes}
 
