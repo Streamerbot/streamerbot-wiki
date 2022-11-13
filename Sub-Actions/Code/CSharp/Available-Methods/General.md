@@ -1,8 +1,8 @@
 ---
-title: Actions
+title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-11-13T23:41:26.113Z
+date: 2022-11-13T23:42:25.308Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
