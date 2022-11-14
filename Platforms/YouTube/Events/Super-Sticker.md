@@ -2,12 +2,13 @@
 title: Super Sticker
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:14:12.721Z
+date: 2022-11-14T23:01:15.688Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:14:12.721Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `messageId` | The id of the super sticker event
