@@ -2,12 +2,13 @@
 title: Member Milestone Event
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:16:20.532Z
+date: 2022-11-14T22:59:47.316Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:16:20.532Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `messageId` | The id of the member milestone event
