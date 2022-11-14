@@ -2,12 +2,13 @@
 title: Gift Membership Received Event
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:21:39.823Z
+date: 2022-11-14T22:59:27.437Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:21:39.823Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `id` | The id of the membership gifting event
