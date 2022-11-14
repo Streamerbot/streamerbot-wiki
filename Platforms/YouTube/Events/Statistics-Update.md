@@ -2,12 +2,13 @@
 title: Statistics Update
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:24:41.093Z
+date: 2022-11-14T23:01:13.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:24:41.093Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `likeCount` | The number of likes the broadcast has
