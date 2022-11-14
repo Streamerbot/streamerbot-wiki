@@ -2,12 +2,13 @@
 title: Broadcast Update
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:23:51.119Z
+date: 2022-11-14T22:55:58.061Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:23:51.119Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `id` | The id of the broadcast
