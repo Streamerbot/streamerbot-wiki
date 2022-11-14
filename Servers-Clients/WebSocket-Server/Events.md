@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-11-10T17:43:46.483Z
+date: 2022-11-14T14:19:58.509Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -1119,7 +1119,6 @@ Only `lines` or `data` will exist for a changed event, not both.
 ```
 
 # Quote
-> **DANGER**
 > These events are currently not broadcast, will be updated in a future version
 {.is-danger}
 
@@ -1128,7 +1127,6 @@ Only `lines` or `data` will exist for a changed event, not both.
 {.grid-list}
 
 # Websocket Client
-> **DANGER**
 > These events are currently not broadcast, will be updated in a future version
 {.is-danger}
 
@@ -1153,7 +1151,6 @@ Only `lines` or `data` will exist for a changed event, not both.
 ```
 
 # Websocket Custom Server
-> **DANGER**
 > These events are currently not broadcast, will be updated in a future version
 {.is-danger}
 
