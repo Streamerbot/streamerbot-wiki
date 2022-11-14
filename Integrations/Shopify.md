@@ -2,7 +2,7 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: true
-date: 2022-11-14T23:36:31.131Z
+date: 2022-11-14T23:40:47.898Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
@@ -35,33 +35,33 @@ Name | Description
 `shopify.landing_site` | <!NO CLUE!>
 `shopify.total_price_usd` | <!NO CLUE!>
 `shopify.order_number` | The order number.
-`shopify.line_items[0].id` | 487817672276298560
-`shopify.line_items[0].variant_id` | 
-`shopify.line_items[0].title` | Aviator sunglasses
-`shopify.line_items[0].quantity` | 1
-`shopify.line_items[0].sku` | SKU2006-001
-`shopify.line_items[0].variant_title` | 
-`shopify.line_items[0].vendor` | 
-`shopify.line_items[0].fulfillment_service` | manual
-`shopify.line_items[0].product_id` | 788032119674292900
-`shopify.line_items[0].requires_shipping` | True
-`shopify.line_items[0].taxable` | True
-`shopify.line_items[0].gift_card` | False
-`shopify.line_items[0].name` | Aviator sunglasses
-`shopify.line_items[0].variant_inventory_management` | 
-`shopify.line_items[0].product_exists` | True
-`shopify.line_items[0].fulfillable_quantity` | 1
-`shopify.line_items[0].grams` | 100
-`shopify.line_items[0].price` | 89.99
-`shopify.line_items[0].total_discount` | 0.00
-`shopify.line_items[0].fulfillment_status` | 
-`shopify.line_items[0].price_set.shop_money.amount` | 89.99
-`shopify.line_items[0].price_set.shop_money.currency_code` | EUR
-`shopify.line_items[0].price_set.presentment_money.amount` | 89.99
-`shopify.line_items[0].price_set.presentment_money.currency_code` | EUR
-`shopify.line_items[0].total_discount_set.shop_money.amount` | 0.00
-`shopify.line_items[0].total_discount_set.shop_money.currency_code` | EUR
-`shopify.line_items[0].total_discount_set.presentment_money.amount` | 0.00
-`shopify.line_items[0].total_discount_set.presentment_money.currency_code` | EUR
-`shopify.line_items[0].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
+`shopify.line_items[#].id` | 487817672276298560
+`shopify.line_items[#].variant_id` | 
+`shopify.line_items[#].title` | Aviator sunglasses
+`shopify.line_items[#].quantity` | 1
+`shopify.line_items[#].sku` | SKU2006-001
+`shopify.line_items[#].variant_title` | 
+`shopify.line_items[#].vendor` | 
+`shopify.line_items[#].fulfillment_service` | manual
+`shopify.line_items[#].product_id` | 788032119674292900
+`shopify.line_items[#].requires_shipping` | True
+`shopify.line_items[#].taxable` | True
+`shopify.line_items[#].gift_card` | False
+`shopify.line_items[#].name` | Aviator sunglasses
+`shopify.line_items[#].variant_inventory_management` | 
+`shopify.line_items[#].product_exists` | True
+`shopify.line_items[#].fulfillable_quantity` | 1
+`shopify.line_items[#].grams` | 100
+`shopify.line_items[#].price` | 89.99
+`shopify.line_items[#].total_discount` | 0.00
+`shopify.line_items[#].fulfillment_status` | 
+`shopify.line_items[#].price_set.shop_money.amount` | 89.99
+`shopify.line_items[#].price_set.shop_money.currency_code` | EUR
+`shopify.line_items[#].price_set.presentment_money.amount` | 89.99
+`shopify.line_items[#].price_set.presentment_money.currency_code` | EUR
+`shopify.line_items[#].total_discount_set.shop_money.amount` | 0.00
+`shopify.line_items[#].total_discount_set.shop_money.currency_code` | EUR
+`shopify.line_items[#].total_discount_set.presentment_money.amount` | 0.00
+`shopify.line_items[#].total_discount_set.presentment_money.currency_code` | EUR
+`shopify.line_items[#].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
 `_json` | These variables in JSON for C# usage.
