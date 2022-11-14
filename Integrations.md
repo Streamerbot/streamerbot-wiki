@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-10-29T21:50:18.943Z
+date: 2022-11-14T23:02:39.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -30,9 +30,4 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/logo.svg"/>**Streamer.bot Decks *Web based stream decks for Streamer.bot***](/Extended-Features/HTML-Decks)
 - [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/Integrations/Discord)
 - [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/Integrations/Shopify){.disabled}
-{.btn-grid .my-5}
-
-## Deprecated Intergrations
-These intergrations aren't supported anymore, all documentation will be removed{.subtitle}
-- [<img src="https://streamer.bot/img/integrations/lootdevil.png"/> **LootDevil *The Wishlist Built for Creators *DEPRECATED*{.version-badge}***](/Integrations/LootDevil){.disabled}
 {.btn-grid .my-5}
