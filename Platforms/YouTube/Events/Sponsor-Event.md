@@ -2,12 +2,13 @@
 title: Sponsor Event
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:17:49.663Z
+date: 2022-11-14T23:00:28.852Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:15:22.339Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `messageId` | The id of the sponsor event
