@@ -2,13 +2,14 @@
 title: Broadcast Ended
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T08:59:50.572Z
+date: 2022-11-14T22:55:06.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T08:59:50.572Z
 ---
 
-> No variables available
+## Variables
+> No variables generated.
 {.is-info}
 
 ---
