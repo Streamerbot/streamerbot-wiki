@@ -2,12 +2,13 @@
 title: Super Chat
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:13:07.455Z
+date: 2022-11-14T23:01:10.359Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:13:07.455Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `messageId` | The id of the super chat event
