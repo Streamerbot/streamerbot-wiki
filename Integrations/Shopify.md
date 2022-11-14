@@ -2,7 +2,7 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: true
-date: 2022-11-14T23:28:09.285Z
+date: 2022-11-14T23:36:31.131Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
@@ -14,28 +14,27 @@ dateCreated: 2022-11-14T23:05:03.709Z
 ### Order Paid
 Name | Description
 ----:|:------------
-`__source` | ShopifyOrderPaid
-`shopify.created_at`| 11/15/2022 12:21:55 AM
+`shopify.created_at`| The time the order was paid.
 `shopify.event` | orders/paid
-`shopify.id` | 820982911946154500
-`shopify.email` | jon@doe.ca
-`shopify.closed_at` | 
-`shopify.updated_at` | 11/15/2022 12:21:55 AM
+`shopify.id` | The shopify id.
+`shopify.email` | The email of the customer e.g. `jon@doe.ca`.
+`shopify.closed_at` | <!NO CLUE!>
+`shopify.updated_at` | <!NO CLUE!>
 `shopify.number` | 234
 `shopify.note` | 
 `shopify.total_price` | 254.98
 `shopify.subtotal_price` | 244.98
-`shopify.currency` | EUR
-`shopify.financial_status` | voided
-`shopify.confirmed` | False
-`shopify.total_discounts` | 5.00
-`shopify.total_line_items_price` | 249.98
-`shopify.buyer_accepts_marketing` | True
-`shopify.name` | #9999
-`shopify.referring_site` | 
-`shopify.landing_site` | 
-`shopify.total_price_usd` | 
-`shopify.order_number` | 1234
+`shopify.currency` | The 3 letter currency e.g. `EUR`.
+`shopify.financial_status` | <!NO CLUE!> voided
+`shopify.confirmed` | The confirmed status `True`/`False`.
+`shopify.total_discounts` | The total amount of discount e.g. `5.00`.
+`shopify.total_line_items_price` | The total price e.g. `249.98`.
+`shopify.buyer_accepts_marketing` | If the customer accepts marketing `True`/`False`.
+`shopify.name` | <!NO CLUE!> #9999
+`shopify.referring_site` | <!NO CLUE!>
+`shopify.landing_site` | <!NO CLUE!>
+`shopify.total_price_usd` | <!NO CLUE!>
+`shopify.order_number` | The order number.
 `shopify.line_items[0].id` | 487817672276298560
 `shopify.line_items[0].variant_id` | 
 `shopify.line_items[0].title` | Aviator sunglasses
@@ -65,6 +64,4 @@ Name | Description
 `shopify.line_items[0].total_discount_set.presentment_money.amount` | 0.00
 `shopify.line_items[0].total_discount_set.presentment_money.currency_code` | EUR
 `shopify.line_items[0].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
-`actionId` | 1510a9fe-e9ec-4cd8-8f25-cc5d704e5421
-`eventSource` | shopify
 `_json` | These variables in JSON for C# usage.
