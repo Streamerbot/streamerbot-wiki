@@ -2,12 +2,13 @@
 title: User Banned Event
 description: YouTube Events Reference
 published: true
-date: 2022-09-29T22:12:07.784Z
+date: 2022-11-14T23:01:18.476Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:12:07.784Z
 ---
 
+## Variables
 Name | Description
 ----:|:------------
 `banType` | The type of ban
