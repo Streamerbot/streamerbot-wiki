@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Common Streamer.bot support & troubleshooting questions
 published: true
-date: 2022-11-10T16:32:48.887Z
+date: 2022-11-14T20:16:12.337Z
 tags: faq, support
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -37,4 +37,4 @@ You have Sub Counter **enabled** in Streamer.bot and it is not pointing to a val
 https://wiki.streamer.bot/en/Broadcasters/OBS/Requests
 https://obs-raw.streamer.bot/
 
-**If you did remove your OBS Connection, you can [Restore a Backup](/en/Backup)**
+**If you did remove your OBS Connection, you can [Restore a Backup](/Backup)**
