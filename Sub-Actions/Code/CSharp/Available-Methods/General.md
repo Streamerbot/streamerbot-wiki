@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-11-13T23:42:25.308Z
+date: 2022-11-15T00:16:18.788Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -11,6 +11,9 @@ dateCreated: 2022-10-29T20:47:28.087Z
 ## General
 ```csharp
 int Between(int min, int max);
+```
+
+```csharp
 double NextDouble(); // get a random value between 0f and 1f
 ```
 
@@ -20,11 +23,17 @@ void Wait(int milliseconds);
 
 ```csharp
 string UrlEncode(string text);
+```
+
+```csharp
 string EscapeString(string text);
 ```
 
 ```csharp
 EventSource GetSource();
+```
+
+```csharp
 EventType GetEventType();
 ```
 
@@ -53,6 +62,9 @@ bool ActionExists(string actionName);
 ```csharp
 void PauseActionQueue(string name);
 void PauseAllActionQueues();
+```
+
+```csharp
 void ResumeActionQueue(string name, bool clear = false);
 void ResumeAllActionQueues(bool clear = false);
 ```
@@ -60,6 +72,9 @@ void ResumeAllActionQueues(bool clear = false);
 ## Sound
 ```csharp
 void PlaySound(string fileName, float volume = 1.0f, bool finishBeforeContinuing = false);
+```
+
+```csharp
 void PlaySoundFromFolder(string path, float volume = 1.0f, bool recursive = false, bool finishBeforeContinuing = false);
 ```
 
@@ -78,8 +93,6 @@ bool ExecuteMethod(string executeCode, string methodName);
 void LogInfo(string logLine);
 void LogWarn(string logLine);
 void LogDebug(string logLine);
-
-// Added in v0.1.14
 void LogVerbose(string logLine);
 ```
 
@@ -100,17 +113,24 @@ void EnableTimer(string timerName);
 ```
 
 ## Variables
+set an argument to be used in subsequent sub-actions{.subtitle}
 ```csharp
-void SetArgument(string variableName, object value); // set an argument to be used in subsequent sub-actions
+void SetArgument(string variableName, object value);
 ```
 
 ## Global Variables
 ```csharp
 T GetGlobalVar<T>(string varName, bool persisted = true);
-void SetGlobalVar(string varName, object value, bool persisted = true);
-void UnsetGlobalVar(string varName, bool persisted = true);
 T GetUserVar<T>(string userName, string varName, bool persisted = true);
+```
+
+```csharp
+void SetGlobalVar(string varName, object value, bool persisted = true);
 void SetUserVar(string userName, string varName, object value, bool persisted = true);
+```
+
+```csharp
+void UnsetGlobalVar(string varName, bool persisted = true);
 void UnsetUserVar(string userName, string varName, bool persisted = true);
 void UnsetUser(string userName, bool persisted = true);
 ```
@@ -119,8 +139,14 @@ void UnsetUser(string userName, bool persisted = true);
 ```csharp
 bool UserInGroup(int userId, string groupName);
 bool UserInGroup(string userName, string groupName);
+```
+
+```csharo
 bool AddUserToGroup(int userId, string groupName);
 bool AddUserToGroup(string userName, string groupName);
+```
+
+```csharp
 bool RemoveUserFromGroup(int userId, string groupName);
 bool RemoveUserFromGroup(string userName, string groupName);
 ```
