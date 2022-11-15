@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-11-15T00:16:18.788Z
+date: 2022-11-15T00:16:46.354Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -31,9 +31,6 @@ string EscapeString(string text);
 
 ```csharp
 EventSource GetSource();
-```
-
-```csharp
 EventType GetEventType();
 ```
 
