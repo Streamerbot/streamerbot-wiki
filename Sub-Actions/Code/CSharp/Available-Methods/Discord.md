@@ -2,14 +2,12 @@
 title: Discord
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T21:03:50.261Z
+date: 2022-11-15T00:19:35.613Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T21:03:50.261Z
 ---
 
-> All of these require a minimum of version 0.1.14
-{.is-info}
 ## Post Text To Webhook
 ```csharp
 bool DiscordPostTextToWebhook(string webhookUrl, string content, string username = null, bool textToSpeech = false);
