@@ -2,7 +2,7 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: false
-date: 2022-11-14T23:57:57.054Z
+date: 2022-11-15T15:23:48.146Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
@@ -10,6 +10,62 @@ dateCreated: 2022-11-14T23:05:03.709Z
 
 ## Variables
 ### Order Created
+Name | Description
+----:|:------------
+`shopify.created_at` | 11/15/2022 12:21:46 AM
+`shopify.event` | orders/create
+`shopify.id` | 820982911946154500
+`shopify.email` | jon@doe.ca
+`shopify.closed_at` | 
+`shopify.updated_at` | 11/15/2022 12:21:46 AM
+`shopify.number` | 234
+`shopify.note` | 
+`shopify.total_price` | 254.98
+`shopify.subtotal_price` | 244.98
+`shopify.currency` | EUR
+`shopify.financial_status` | voided
+`shopify.confirmed` | False
+`shopify.total_discounts` | 5.00
+`shopify.total_line_items_price` | 249.98
+`shopify.buyer_accepts_marketing` | True
+`shopify.name` | #9999
+`shopify.referring_site` | 
+`shopify.landing_site` | 
+`shopify.total_price_usd` | 
+`shopify.order_number` | 1234
+`shopify.line_items[#].id` | 487817672276298560
+`shopify.line_items[#].variant_id` | 
+`shopify.line_items[#].title` | Aviator sunglasses
+`shopify.line_items[#].quantity` | 1
+`shopify.line_items[#].sku` | SKU2006-001
+`shopify.line_items[#].variant_title` | 
+`shopify.line_items[#].vendor` | 
+`shopify.line_items[#].fulfillment_service` | manual
+`shopify.line_items[#].product_id` | 788032119674292900
+`shopify.line_items[#].requires_shipping` | True
+`shopify.line_items[#].taxable` | True
+`shopify.line_items[#].gift_card` | False
+`shopify.line_items[#].name` | Aviator sunglasses
+`shopify.line_items[#].variant_inventory_management` | 
+`shopify.line_items[#].product_exists` | True
+`shopify.line_items[#].fulfillable_quantity` | 1
+`shopify.line_items[#].grams` | 100
+`shopify.line_items[#].price` | 89.99
+`shopify.line_items[#].total_discount` | 0.00
+`shopify.line_items[#].fulfillment_status` | 
+`shopify.line_items[#].price_set.shop_money.amount` | 89.99
+`shopify.line_items[#].price_set.shop_money.currency_code` | EUR
+`shopify.line_items[#].price_set.presentment_money.amount` | 89.99
+`shopify.line_items[#].price_set.presentment_money.currency_code` | EUR
+`shopify.line_items[#].total_discount_set.shop_money.amount` | 0.00
+`shopify.line_items[#].total_discount_set.shop_money.currency_code` | EUR
+`shopify.line_items[#].total_discount_set.presentment_money.amount` | 0.00
+`shopify.line_items[#].total_discount_set.presentment_money.currency_code` | EUR
+`shopify.line_items[#].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
+`_json` | These variables in JSON for C# usage.
+`actionId` | 673dbf96-b118-4601-85f5-78045910db51
+`eventSource` | shopify
+`runningActionId` | 4a7b8da0-622b-4903-8df8-28bc8f276932
 
 ### Order Paid
 Name | Description
