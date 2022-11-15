@@ -2,14 +2,13 @@
 title: Importing & Exporting
 description: 
 published: true
-date: 2022-09-09T13:50:21.828Z
+date: 2022-11-15T22:51:25.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:05.659Z
 ---
 
 Importing and Exporting Packages are the way to share projects that have been made with other members of the community, since 0.1.8 this has been updated to make it far easier with the addition of the ability to export commands too. 
-
 
 ## Exporting Actions and Commands
 
