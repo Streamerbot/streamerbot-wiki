@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-11-03T08:46:18.930Z
+date: 2022-11-15T00:19:09.855Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -192,9 +192,8 @@ bool SetChannelGameById(string gameId);
 ```
 
 ## Announcement
-> Color parameter requires *v0.1.11*{.version-badge} and up.
 > Supported color values are `blue`, `orange`, `green`, `purple`
-{.is-warning}
+{.is-success}
 
 ```csharp
 void TwitchAnnounce(string message, bool bot = false, string color = null);
