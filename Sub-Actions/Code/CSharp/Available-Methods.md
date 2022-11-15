@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2022-11-13T23:40:05.743Z
+date: 2022-11-15T00:13:10.795Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -15,6 +15,9 @@ Below are all the methods that can be accessed via the `CPH` object that is is a
 {.is-info}
 
 If there are methods missing you'd like, make the suggestion to get them added in [here](https://ideas.streamer.bot)!
+
+> Always be up to date with your Streamer.bot version, if you aren't some methods might not work.
+{.is-danger}
 
 ## General
 General & miscellaneous CPH methods{.subtitle}
