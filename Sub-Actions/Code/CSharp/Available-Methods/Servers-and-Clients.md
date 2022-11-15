@@ -2,7 +2,7 @@
 title: Servers and Clients
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T21:29:27.800Z
+date: 2022-11-15T00:18:23.405Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:46:01.700Z
@@ -18,7 +18,13 @@ void WebsocketBroadcastJson(string data); // send a custom event over the websoc
 ```csharp
 void WebsocketConnect(int connection = 0);
 void WebsocketDisconnect(int connection = 0);
+```
+
+```csharp
 bool WebsocketIsConnected(int connection = 0);
+```
+
+```csharp
 void WebsocketSend(string data, int connection = 0);
 void WebsocketSend(byte[] data, int connection = 0);
 ```
@@ -27,7 +33,13 @@ void WebsocketSend(byte[] data, int connection = 0);
 ```csharp
 void WebsocketCustomServerStart(int connection = 0);
 void WebsocketCustomServerStop(int connection = 0);
+```
+
+```csharp
 bool WebsocketCustomServerIsListening(int connection = 0);
+```
+
+```csharp
 void WebsocketCustomServerCloseAllSessions(int connection = 0);
 void WebsocketCustomServerCloseSession(string sessionId, int connection = 0);
 void WebsocketCustomServerBroadcast(string data, string sessionId, int connection = 0);
