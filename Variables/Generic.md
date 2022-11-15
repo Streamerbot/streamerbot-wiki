@@ -2,7 +2,7 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2022-11-02T09:26:33.818Z
+date: 2022-11-15T15:45:25.403Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
@@ -28,10 +28,8 @@ Name | Description
 ----:|:------------
 `userId` | Unique user identifier
 `userName` | User login name <br> *e.g. on Twitch this is the username in all lowercase, useful for comparison*{.small}
-
 `user` | User display name <br> *Case sensitive for comparison*{.small}
 `userType` | Specifies which streaming service the triggering user is coming from *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
-
 `isSubscribed` | Twitch subscription status of triggering user <br> `True / False`
 `isVip` | Twitch VIP status of triggering user <br> `True / False`
 `isModerator` | Twitch moderator status of triggering user <br> `True / False`
@@ -53,18 +51,4 @@ Name | Description
 ----:|:------------
 `actionId` | The unique ID number of the first action called *v0.1.8+*{.version-badge} 
 `runningActionId` | The instance ID number of the action in the queue *v0.1.8+*{.version-badge}
-{.vars-table}
-
-## Random User
-Fetch variables for a random user currently in your chat with this sub-action [Add Random Users](/Sub-Actions/Twitch/) {.subtitle}
-
-Name | Description
-----:|:------------
-`randomUser0` | The `username` of a random user present in chat
-`randomUserName0` | The Display name of a random user present in chat
-{.vars-table}
-
-
-
-
 {.vars-table}
