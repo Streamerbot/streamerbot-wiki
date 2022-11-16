@@ -2,7 +2,7 @@
 title: Keyboard Press
 description: 
 published: true
-date: 2022-11-16T14:19:30.201Z
+date: 2022-11-16T14:25:33.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T03:47:06.237Z
@@ -17,6 +17,9 @@ Send keyboard presses to the current active application, or to global hotkeys.
 ## Configuartion
 ### Key
 Pick the key you wish to be pressed, not all possible keys are listed here, as some just do not make sense at the moment, this list may be expanded out in the future.
+
+> Using fullscreen applications and/or applications in adminstrator mode can stop the `Keyboard Press` sub-action from working in that application.
+{.is-danger}
 
 ### Modifiers
 The modifier to press along with the key.
