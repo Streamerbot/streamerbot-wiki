@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-11T15:45:52.548Z
+date: 2022-11-16T05:25:30.176Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,6 +24,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Add `firstMessage` argument to `Twitch First Words` event
  * Update arguments for `Twitch First Words` event to be more like a chat message event since they are near identical
  * Update the Websocket message that is broadcast for a `Twitch First Words` event, this could be a breaking change
+ * Update check performed on the Discordf Webhook URL in the Discord Basic Webhook sub-action
+ * Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
  {.changelog-updates}
  
 <span></span>
@@ -32,6 +34,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
+* Add a setting to name your instance of **Streamer.bot**
 {.changelog-new}
 
 ## OBS Websocket v5.x Batch Requests
