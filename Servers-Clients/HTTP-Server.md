@@ -2,7 +2,7 @@
 title: HTTP Server
 description: 
 published: true
-date: 2022-07-09T19:58:45.518Z
+date: 2022-11-16T14:44:15.390Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:02.438Z
@@ -13,8 +13,6 @@ You'll be able to setup an HTTP listener within CPH to make HTTP queries to exec
 ![HTTP Server Settings](https://user-images.githubusercontent.com/3193453/121987897-5ec18b00-cd67-11eb-9ec8-3786248b909a.png)
 
 Most methods mirror the Websocket Server requests that you can make
-
-# Available Methods
 
 ## /GetActions (GET)
 This is a very basic request, and will get you a list of the actions in CPH, this mirrors the Websocket server request.
