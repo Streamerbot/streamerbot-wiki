@@ -25,10 +25,10 @@ This is your main account that streamer.bot uses for most the things from Twitch
 ## Bot Account
 The bot account will be primarily used for sending messages/whispers, but it isn't required for most uses.
 
-Soon in *v0.1.14*{.version-badge} it can also listen to a whipser event
+Soon in *v0.1.14*{.version-badge} it can also listen to a whisper event
 
 > **WARNING**
-> Sending whipsers programatically is something that `Twitch` restricts fairly heavily.
+> Sending whispers programatically is something that `Twitch` restricts fairly heavily.
 If the chosen account is not more than **12** months old, or already pre-verified as a **bot** you will not be able to send whispers from the application
 {.is-warning}
 
