@@ -2,7 +2,7 @@
 title: SetInputVolume
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:25:11.883Z
+date: 2022-11-16T14:12:26.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T06:14:44.537Z
@@ -15,8 +15,8 @@ Sets the volume setting of an input.
 Name | Type | Required| Description |
 ----:|:----:|:-------:|:------------|
 `inputName` | `String`{.datatype} | <i class="mdi mdi-check-bold"></i> | Name of the input to set the volume of
-`inputVolumeMul` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Volume setting in mul | `>= 0, <= 20`{.datatype}
-`inputVolumeDb` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | Volume setting in dB | `>= -100, <= 26`{.datatype}
+`inputVolumeMul` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | New volume level multiplier | `>= 0, <= 20`{.datatype}
+`inputVolumeDb` | `Number`{.datatype} | <i class="mdi mdi-close-thick"></i> | New volume level in dB | `>= -100, <= 26`{.datatype}
 
 ## Data Fields
 :---|:---:|
