@@ -34,11 +34,11 @@ You might wish for messages sent to chat to be sent from a separate user account
 The account can be any standard Twitch account but with the permission scope the application requests it can not listen to incoming events or messages, it can only send messages to chat or whisper.
 
 > **WARNING**
-> Sending whipsers programatically is something that `Twitch` restricts fairly heavily.
+> Sending whispers programatically is something that `Twitch` restricts fairly heavily.
 If the chosen account is not more than **12** months old, or already pre-verified as a **bot** you will not be able to send whispers from the application
 {.is-warning}
 
-> If you you do not intend to use a bot account, leave this field blank or you will restrict certain actions from working correctly such as responding to chat commands that the bot has written in chat
+> If you do not intend to use a bot account, leave this field blank or you will restrict certain actions from working correctly such as responding to chat commands that the bot has written in chat
 {.is-success}
 
 Once you have a bot account configured, you can select which account should send chat messages on a per [sub-actions](/Sub-Actions#main) level. 

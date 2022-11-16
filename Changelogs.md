@@ -815,7 +815,7 @@ When you connect with your broadcaster account, the following new scopes will be
 * `user:read:follows`
 {.grid-list}
 
-Since I needed to add the moderation scopes, I decided to finally add the whipser edit scope, this will allow the broadcaster account to send whispers.  The restrictions by twitch are still in place!
+Since I needed to add the moderation scopes, I decided to finally add the whisper edit scope, this will allow the broadcaster account to send whispers.  The restrictions by twitch are still in place!
 
 ## New C# Methods
 
