@@ -2,7 +2,7 @@
 title: Keyboard Press
 description: 
 published: true
-date: 2022-11-16T14:27:40.210Z
+date: 2022-11-16T14:29:45.176Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T03:47:06.237Z
@@ -18,7 +18,7 @@ Send keyboard presses to the current active application, or to global hotkeys.
 ### Key
 Pick the key you wish to be pressed, not all possible keys are listed here, as some just do not make sense at the moment, this list may be expanded out in the future.
 
-> Using fullscreen applications and/or applications in administrator mode can stop the `Keyboard Press` sub-action from working in that application. We do not advocate running Streamer.bot in administrator mode.
+> Using fullscreen applications and/or applications in administrator mode can stop the `Keyboard Press` sub-action from working in that application, however we do not advocate running Streamer.bot in administrator mode as a fix.
 {.is-danger}
 
 ### Modifiers
