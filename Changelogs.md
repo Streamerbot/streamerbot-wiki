@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-16T05:38:29.519Z
+date: 2022-11-16T05:41:45.764Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -35,6 +35,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
 * Add a setting to name your instance of **Streamer.bot**
+* Add a `Connected` and `Disconnected` event to an OBS Websocket Connection
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
 {.changelog-new}
