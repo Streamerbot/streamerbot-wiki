@@ -2,7 +2,7 @@
 title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-11-08T00:36:00.293Z
+date: 2022-11-16T15:41:45.297Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -30,6 +30,8 @@ Name | Type | Description |
 General OBS Studio events{.subtitle}
 * [**ExitStarted *OBS has begun the shutdown process***](/Broadcasters/OBS/Events/General-Events/ExitStarted)
 * [**VendorEvent *An event has been emitted from a vendor***](/Broadcasters/OBS/Events/General-Events/VendorEvent)
+* [**Connected *OBS Websocket has connected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Events/General-Events/Connected){.disabled}
+* [**Disconnected *OBS Websocket has disconnected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Events/General-Events/Disconnected){.disabled}
 {.btn-grid .list .dense .my-5}
 
 ## Config Events
