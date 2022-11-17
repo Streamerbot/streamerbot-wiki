@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-11-17T15:54:16.841Z
+date: 2022-11-17T16:07:16.166Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -98,8 +98,8 @@ Select the action to be executed any time the selected event is fired off from O
 
 # Connect/Disconnect Actions
 Events emitted when the OBS websocket server has connected/disconnected{.subtitle}
-* [**Connected *OBS Websocket has connected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Events/General-Events/Connected){.disabled}
-* [**Disconnected *OBS Websocket has disconnected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Events/General-Events/Disconnected){.disabled}
+* [**Connected *OBS Websocket has connected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Actions/Connected){.disabled}
+* [**Disconnected *OBS Websocket has disconnected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Actions/Disconnected){.disabled}
 {.btn-grid .list .dense .my-5}
 
 ***
