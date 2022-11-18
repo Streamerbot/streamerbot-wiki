@@ -2,18 +2,14 @@
 title: Community Goal
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:35:37.048Z
+date: 2022-11-18T01:13:05.701Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-21T05:48:30.807Z
 ---
 
 ## Overview
-In this tab you can assign actions to your Community Goal that you have set up through your Twitch dashboard. 
-
-> **NOTE:**
-> THIS DOESN'T CREATE THE COMMUNITY GOAL.
-{.is-info}
+In this tab you can assign actions to your Community Goal that you have set up through your Twitch dashboard.
 
 To get to this tab you need to click through the following tabs, First click the `Settings` tab next click on the `Events` tab then finally click the `Community Goal` tab. You should now see a window just like the image below.
 
