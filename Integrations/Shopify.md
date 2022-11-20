@@ -2,7 +2,7 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: false
-date: 2022-11-15T15:23:48.146Z
+date: 2022-11-20T22:14:03.039Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
@@ -12,10 +12,10 @@ dateCreated: 2022-11-14T23:05:03.709Z
 ### Order Created
 Name | Description
 ----:|:------------
-`shopify.created_at` | 11/15/2022 12:21:46 AM
-`shopify.event` | orders/create
-`shopify.id` | 820982911946154500
-`shopify.email` | jon@doe.ca
+`shopify.created_at`| The time the order was paid.
+`shopify.event` | orders/paid
+`shopify.id` | The shopify id.
+`shopify.email` | The email of the customer e.g. `jon@doe.ca`.
 `shopify.closed_at` | 
 `shopify.updated_at` | 11/15/2022 12:21:46 AM
 `shopify.number` | 234
@@ -62,10 +62,7 @@ Name | Description
 `shopify.line_items[#].total_discount_set.presentment_money.amount` | 0.00
 `shopify.line_items[#].total_discount_set.presentment_money.currency_code` | EUR
 `shopify.line_items[#].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
-`_json` | These variables in JSON for C# usage.
-`actionId` | 673dbf96-b118-4601-85f5-78045910db51
-`eventSource` | shopify
-`runningActionId` | 4a7b8da0-622b-4903-8df8-28bc8f276932
+`_json` | The variables in JSON for C# usage.
 
 ### Order Paid
 Name | Description
@@ -120,4 +117,4 @@ Name | Description
 `shopify.line_items[#].total_discount_set.presentment_money.amount` | 0.00
 `shopify.line_items[#].total_discount_set.presentment_money.currency_code` | EUR
 `shopify.line_items[#].admin_graphql_api_id` | gid://shopify/LineItem/487817672276298554
-`_json` | These variables in JSON for C# usage.
+`_json` | The variables in JSON for C# usage.
