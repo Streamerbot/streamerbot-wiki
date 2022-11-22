@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-16T15:28:59.136Z
+date: 2022-11-22T23:39:08.259Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -27,6 +27,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Update check performed on the Discordf Webhook URL in the Discord Basic Webhook sub-action
  * Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
  * Prevent empty messages, and messages longer than 500 characters from being sent to Twitch, they will be logged
+ * Command settings have been split from the main settings file into their own file
  {.changelog-updates}
  
 <span></span>
