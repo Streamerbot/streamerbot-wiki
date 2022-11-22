@@ -2,7 +2,7 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-10-30T01:31:22.923Z
+date: 2022-11-22T01:36:52.857Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z
@@ -13,9 +13,6 @@ dateCreated: 2022-07-10T01:25:27.617Z
 1. Navigate through the following: `Platforms` ---> `Twitch` ----> `Accounts`
 2. Press the `Connect to Twitch` button to bring up an authorization webpage that will detail all the permissions **Streamer.bot** wants to have access to on your behalf
 
-> **WARNING**
-> You can not type into either of the username boxes. They will display your username once you have authenticated.
-{.is-warning}
 ### Broadcaster Account
 
 If you want Streamer.bot to be able to monitor chat and Twitch events, a `Broadcaster` account must be defined. 
