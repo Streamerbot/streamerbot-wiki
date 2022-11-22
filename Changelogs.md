@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-22T23:39:08.259Z
+date: 2022-11-22T23:40:01.349Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,7 +24,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Add `firstMessage` argument to `Twitch First Words` event
  * Update arguments for `Twitch First Words` event to be more like a chat message event since they are near identical
  * Update the Websocket message that is broadcast for a `Twitch First Words` event, this could be a breaking change
- * Update check performed on the Discordf Webhook URL in the Discord Basic Webhook sub-action
+ * Discord Webhook sub-action now supports `%variables%` for the webhook url, URL check is performed when sub-action is run now
  * Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
  * Prevent empty messages, and messages longer than 500 characters from being sent to Twitch, they will be logged
  * Command settings have been split from the main settings file into their own file
