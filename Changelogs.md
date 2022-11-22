@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-22T23:41:51.177Z
+date: 2022-11-22T23:43:13.822Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -41,6 +41,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add a `Connected` and `Disconnected` event to an OBS Websocket Connection
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
+* Add option to disable logging of Text To Speech dictation entries, this is now disabled by default
 {.changelog-new}
 
 ## M**REDACTED**
