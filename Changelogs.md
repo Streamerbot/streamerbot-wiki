@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-22T23:40:01.349Z
+date: 2022-11-22T23:41:51.177Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -32,7 +32,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  
 <span></span>
 
-* Added the ability to use **REDACTED** and **REDACTED**!
+* Added the ability to use [M**REDACTED**](#mredacted)
+* Added new feature **REDACTED**
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
@@ -41,6 +42,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
 {.changelog-new}
+
+## M**REDACTED**
+With **Streamer.bot** v0.1.15, it will now be possible to run actions by using your **REDACTED**, and **REDACTED**, oh, even your **REDACTED**, or anything that supports **REDACTED**!
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
