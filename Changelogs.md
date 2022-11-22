@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-22T23:43:13.822Z
+date: 2022-11-22T23:44:22.698Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -32,7 +32,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  
 <span></span>
 
-* Added the ability to use [M**REDACTED**](#mredacted)
+* Added the ability to use [M**REDACTED**](#mr-edacted-support)
 * Added new feature **REDACTED**
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
@@ -44,7 +44,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to disable logging of Text To Speech dictation entries, this is now disabled by default
 {.changelog-new}
 
-## M**REDACTED**
+## M-**REDACTED** Support
 With **Streamer.bot** v0.1.15, it will now be possible to run actions by using your **REDACTED**, and **REDACTED**, oh, even your **REDACTED**, or anything that supports **REDACTED**!
 
 ## OBS Websocket v5.x Batch Requests
