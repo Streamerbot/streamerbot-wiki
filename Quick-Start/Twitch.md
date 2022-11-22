@@ -2,7 +2,7 @@
 title: Quick Start - Twitch
 description: Connect your Twitch account with Streamer.bot
 published: true
-date: 2022-11-22T01:36:52.857Z
+date: 2022-11-22T01:37:15.106Z
 tags: twitch, guides
 editor: markdown
 dateCreated: 2022-07-10T01:25:27.617Z
@@ -30,7 +30,6 @@ You might wish for messages sent to chat to be sent from a separate user account
 
 The account can be any standard Twitch account but with the permission scope the application requests it can not listen to incoming events or messages, it can only send messages to chat or whisper.
 
-> **WARNING**
 > Sending whispers programatically is something that `Twitch` restricts fairly heavily.
 If the chosen account is not more than **12** months old, or already pre-verified as a **bot** you will not be able to send whispers from the application
 {.is-warning}
