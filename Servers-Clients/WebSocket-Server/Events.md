@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-11-23T09:17:30.921Z
+date: 2022-11-24T16:57:51.587Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -1161,6 +1161,11 @@ Only `lines` or `data` will exist for a changed event, not both.
 
 # General
 ### Tabs {.tabset}
+#### Custom
+There is no fixed JSON format for data, as it is custom sent via the C# method.
+
+# Misc
+### Tabs {.tabset}
 #### TimedAction
 ```json
 {
@@ -1185,9 +1190,6 @@ Only `lines` or `data` will exist for a changed event, not both.
   }
 }
 ```
-
-#### Custom
-There is no fixed JSON format for data, as it is custom sent via the C# method.
 
 # Donor Drive
 ### Tabs {.tabset}
