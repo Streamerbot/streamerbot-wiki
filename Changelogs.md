@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-24T05:02:22.066Z
+date: 2022-11-24T12:13:40.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -44,7 +44,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add a `Connected` and `Disconnected` event to an OBS Websocket Connection
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
-* Add option to disable logging of Text To Speech dictation entries, this is now disabled by default
+* Add option to disable logging of Voice Control dictation entries, this is now disabled by default
 {.changelog-new}
 
 ## MIDI Support
