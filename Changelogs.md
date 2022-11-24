@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-24T02:25:00.772Z
+date: 2022-11-24T05:02:22.066Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -15,6 +15,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Testing OBS Raw should no longer crash if the call to OBS errors
  * Twitch artifical present viewers tick could return YouTube users as well
  * Double clicking on a Channel Reward when not connected to Twitch would cause a crash
+ * Double clicking in empty area, or headers in inspect variable dialog would cause a crash
+ * Right clicking in empty area, or headers in inspect variable dialog would cause a crash
 {.changelog-fixes}
 
 <span></span>
