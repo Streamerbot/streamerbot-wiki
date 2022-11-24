@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-23T02:56:06.937Z
+date: 2022-11-24T02:17:02.244Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,7 +33,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  
 <span></span>
 
-* Added the ability to use [M**REDACTED**](#mr-edacted-support)
+* Added the ability to use [MIDI](#midi-support)!
 * Added new feature **REDACTED**
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
@@ -45,8 +45,23 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to disable logging of Text To Speech dictation entries, this is now disabled by default
 {.changelog-new}
 
-## M-**REDACTED** Support
-With **Streamer.bot** v0.1.15, it will now be possible to run actions by using your **REDACTED**, and **REDACTED**, oh, even your **REDACTED**, or anything that supports **REDACTED**!
+## MIDI Support
+Yes, you read the correctly, as of **Streamer.bot** v0.1.15, there will be MIDI support!
+
+So, it will now be possible to run actions by using your MIDI Piano, and MIDI synth, oh, even your MIDI wind instrument, or anything that supports MIDI!
+
+This section is a WIP for information, but to get you started, here are some screenshots.
+
+![midi-04.png](/midi/midi-04.png)
+
+Add a new MIDI In device
+![midi-01.png](/midi/midi-01.png)
+
+Add a new MIDI event
+![midi-03.png](/midi/midi-03.png)
+
+Editing a MIDI event
+![midi-02.png](/midi/midi-02.png)
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
