@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-11-24T16:57:51.587Z
+date: 2022-11-24T16:59:46.118Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -969,7 +969,7 @@ These are the events that are broadcast from Streamlabs events.
 # Application
 These are the events **Streamer.bot** broadcasts when changes are made to Actions
 ### Tab {.tabset}
-#### Added
+#### ActionAdded
 ```json
 {
   "id": "9ed46f4e-a76b-4a1a-92b7-0a12a78a2c3a",
@@ -979,7 +979,7 @@ These are the events **Streamer.bot** broadcasts when changes are made to Action
 }
 ```
 
-#### Updated
+#### ActionUpdated
 ```json
 {
   "id": "9ed46f4e-a76b-4a1a-92b7-0a12a78a2c3a",
@@ -989,7 +989,7 @@ These are the events **Streamer.bot** broadcasts when changes are made to Action
 }
 ```
 
-#### Deleted
+#### ActionDeleted
 ```json
 {
   "id": "9ed46f4e-a76b-4a1a-92b7-0a12a78a2c3a",
