@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-10-29T21:55:40.978Z
+date: 2022-11-26T19:11:09.946Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -42,7 +42,7 @@ For example, to format a numeric veriable `%tipAmount%` as a currency with 2 dec
 
 Similarly, `%time%` can be formatted in short notation with AM/PM using the following syntax: `%time:t%` 
 
-Further information on valid formatting modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) and valid format strings for `%time%` can be found [here](/Sub-Actions/Code/Other/DateTime)
+Further information on valid formatting modifiers can be found [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) and valid format strings for `%time%`
 
 ### Inline Functions
 > Anywhere you can do a variable replacement, you can also execute [Inline Functions](/Inline-Functions)
