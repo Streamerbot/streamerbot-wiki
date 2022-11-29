@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-24T12:13:40.514Z
+date: 2022-11-29T05:10:45.196Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,6 +31,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
  * Prevent empty messages, and messages longer than 500 characters from being sent to Twitch, they will be logged
  * Command settings have been split from the main settings file into their own file
+ * Twitch Accunt tab has a new look
+ * Split various Twitch services, so when one is disconnected, it won't bring them all down
  {.changelog-updates}
  
 <span></span>
