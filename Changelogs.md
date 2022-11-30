@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-29T05:10:45.196Z
+date: 2022-11-30T05:52:48.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,6 +33,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Command settings have been split from the main settings file into their own file
  * Twitch Accunt tab has a new look
  * Split various Twitch services, so when one is disconnected, it won't bring them all down
+ * Lumia Stream Set Color sub-action now supports variables for the color
+ * Split auth tokens into separate file, reducing how often main settings is saved
  {.changelog-updates}
  
 <span></span>
