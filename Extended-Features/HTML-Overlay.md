@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-10-14T16:06:12.681Z
+date: 2022-12-01T04:55:34.169Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -11,7 +11,7 @@ dateCreated: 2022-01-07T17:09:36.784Z
 ![html-ovrly-380.png](/logos/html-ovrly-380.png){.align-abstopright}
 
 ## Overview
-This is a simple cross-platform app that runs in the background allowing for an HTML/browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating.
+This is a simple cross-platform app that runs in the background allowing for an <abbr title="HyperText Markup Language">HTML</abbr>/browser source to be displayed on the PC, over the screen, between the streamer and the content they are creating.
 
 For example, the app comes preconfigured to show a simple dark splat that will cover most of the screen, (think Mario Kart oil spots) distracting them. 
 All you need to do is create a Channel Reward with the name ***SPLAT*** then relax and enjoy the distraction. [Lyfesaver]
