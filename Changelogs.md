@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-11-30T05:52:48.355Z
+date: 2022-12-02T04:47:17.630Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,6 +17,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Double clicking on a Channel Reward when not connected to Twitch would cause a crash
  * Double clicking in empty area, or headers in inspect variable dialog would cause a crash
  * Right clicking in empty area, or headers in inspect variable dialog would cause a crash
+ * Add a check for OBS port being out of range
+ * Add a check for a possible null ref in loading 7TV emotes
 {.changelog-fixes}
 
 <span></span>
@@ -35,6 +37,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Split various Twitch services, so when one is disconnected, it won't bring them all down
  * Lumia Stream Set Color sub-action now supports variables for the color
  * Split auth tokens into separate file, reducing how often main settings is saved
+ * Convert globals file to new database file, this should be transparent for most users
+ * For twitch events that provide the user's color, if it is not set, do not add the color variable
  {.changelog-updates}
  
 <span></span>
@@ -42,7 +46,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Added the ability to use [MIDI](#midi-support)!
 * Added new feature **REDACTED**
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
-* Add 2 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)` and `Not Equals (Ignore Case)`, data is assumed to be a string
+* Add 3 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)`, `Not Equals (Ignore Case)` and `Is Null or Empty`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
 * Add a setting to name your instance of **Streamer.bot**
 * Add a `Connected` and `Disconnected` event to an OBS Websocket Connection
