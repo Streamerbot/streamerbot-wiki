@@ -2,7 +2,7 @@
 title: Patreon
 description: Integrate Streamer.bot with your Patreon account!
 published: true
-date: 2022-12-03T22:07:43.045Z
+date: 2022-12-03T22:08:43.505Z
 tags: integrations, patreon, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:43:25.450Z
@@ -19,11 +19,11 @@ Integrate Streamer.bot with your [Patreon](https://www.patreon.com/) account!
 ![patreon-integration.png](/patreon-integration.png)
 
 ## Events
-* Follow Created
-* Follow Deleted
-* Pledge Created
-* Pledge Updated
-* Pledge Deleted
+### Follow Created
+### Follow Deleted
+### Pledge Created
+### Pledge Updated
+### Pledge Deleted
 
 ---
 
