@@ -2,7 +2,7 @@
 title: Send Command
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-10-13T11:11:56.957Z
+date: 2022-12-03T20:25:23.066Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-27T12:54:07.358Z
@@ -21,5 +21,5 @@ Here you can select commands, there are a ton of preconfigured commands by Lumia
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/en/Sub-Actions/Lumia-Stream)
+- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
