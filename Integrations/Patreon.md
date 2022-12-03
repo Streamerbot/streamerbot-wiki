@@ -2,7 +2,7 @@
 title: Patreon
 description: Integrate Streamer.bot with your Patreon account!
 published: true
-date: 2022-12-03T22:06:24.785Z
+date: 2022-12-03T22:07:43.045Z
 tags: integrations, patreon, v0.1.8
 editor: markdown
 dateCreated: 2022-06-01T04:43:25.450Z
@@ -11,12 +11,10 @@ dateCreated: 2022-06-01T04:43:25.450Z
 ![digital-patreon-logo_coral.png](/digital-patreon-logo_coral.png){.align-abstopright}
 
 ## Overview
+Integrate Streamer.bot with your [Patreon](https://www.patreon.com/) account!
 
-[Patreon](https://www.patreon.com/), a highly requested integration, is now available in Streamer.bot *v0.1.8*{.version-badge}
-
-> **NOTE**
-> This integration requires signing in to the **Streamer.bot** website and configuring your Patreon account to use the webhooks.
-{.is-info}
+> Patreon requires signing in to the **Streamer.bot website** and configuring your Patreon account to use the webhooks.
+{.is-success}
 
 ![patreon-integration.png](/patreon-integration.png)
 
