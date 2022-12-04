@@ -1,8 +1,8 @@
 ---
 title: Actions Sub-Actions
-description: Reference of Sub-Actions used for controlling Streamer.bot Action state
+description: Reference of all Action Sub-Actions
 published: true
-date: 2022-12-04T19:22:41.940Z
+date: 2022-12-04T19:25:00.986Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T18:54:22.179Z
