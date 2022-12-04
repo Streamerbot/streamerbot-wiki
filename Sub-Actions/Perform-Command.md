@@ -1,8 +1,8 @@
 ---
 title: Perform Command
-description: Sub-Actions Reference
+description: General Sub-Actions Reference
 published: true
-date: 2022-08-17T16:19:34.484Z
+date: 2022-12-04T19:14:33.228Z
 tags: subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:38.438Z
