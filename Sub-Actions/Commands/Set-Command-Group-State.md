@@ -1,8 +1,8 @@
 ---
 title: Set Command Group State
-description: Enable and Disable groups of chat commands
+description: Commands Sub-Actions Reference
 published: true
-date: 2022-07-15T18:46:43.252Z
+date: 2022-12-04T19:10:38.071Z
 tags: subactions, commands
 editor: markdown
 dateCreated: 2021-11-19T21:44:58.665Z
