@@ -1,8 +1,8 @@
 ---
 title: Network Sub-Actions
-description: Reference of all sub-actions for interacting with external networks or URL's
+description: Reference of all Network Sub-Actions
 published: true
-date: 2022-10-18T06:34:52.493Z
+date: 2022-12-04T19:24:20.112Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T19:01:16.907Z
