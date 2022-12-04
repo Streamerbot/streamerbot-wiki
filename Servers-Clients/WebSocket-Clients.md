@@ -2,7 +2,7 @@
 title: WebSocket Clients
 description: Configure Streamer.bot to connect to an external WebSocket server
 published: true
-date: 2022-11-16T14:41:32.433Z
+date: 2022-12-04T20:32:49.821Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:08.368Z
@@ -26,7 +26,6 @@ The `Message` event is the main one you're going to want to assign an action to.
 
 
 ## Example
-> **WARNING**
 > *DO NOT ACTUALLY USE THIS EXAMPLE, IT WILL SPAM YOUR CHAT IF IT IS AN ACTIVE CLIENT*
 {.is-warning}
 
