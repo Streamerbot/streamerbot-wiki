@@ -1,8 +1,8 @@
 ---
-title: Get Commands 
-description: Capture the commands available .
+title: Get Commands
+description: Commands Sub-Actions Reference
 published: true
-date: 2022-07-15T18:42:54.754Z
+date: 2022-12-04T19:10:21.811Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z
