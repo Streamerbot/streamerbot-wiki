@@ -1,8 +1,8 @@
 ---
 title: Set Voice Control Command
-description: Trigger an action with your voice
+description: Voice Control Sub-Actions Reference
 published: true
-date: 2022-07-09T20:00:36.712Z
+date: 2022-12-04T19:17:50.040Z
 tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
 dateCreated: 2022-07-04T01:16:31.435Z
