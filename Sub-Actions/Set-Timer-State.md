@@ -1,8 +1,8 @@
 ---
 title: Set Timer State
-description: 
+description: General Sub-Actions Reference
 published: true
-date: 2022-10-25T17:10:12.973Z
+date: 2022-12-04T19:16:52.586Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:13.939Z
