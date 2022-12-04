@@ -1,8 +1,8 @@
 ---
 title: Pick Color
-description: Color picker that populates variables for passing to OBS and HTML objects
+description: General Sub-Actions Reference
 published: true
-date: 2022-10-16T11:13:15.186Z
+date: 2022-12-04T19:14:43.067Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
