@@ -1,15 +1,12 @@
 ---
 title: Set Voice Control Command State
-description: Enable / Disable a Voice Control Command
+description: Voice Control Sub-Actions Reference
 published: true
-date: 2022-07-09T20:00:32.810Z
+date: 2022-12-04T19:17:59.724Z
 tags: twitch, commands, voice, youtube, streamerbot, voice control
 editor: markdown
 dateCreated: 2022-07-08T20:25:22.954Z
 ---
-
-# Set Voice Control Command State
-
 
 ![sb-vc-state.png](/voice-control/sb-vc-state.png){.align-center}
 
