@@ -2,13 +2,13 @@
 title: HTTP Server
 description: 
 published: true
-date: 2022-11-16T14:44:15.390Z
+date: 2022-12-04T00:19:14.750Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:02.438Z
 ---
 
-You'll be able to setup an HTTP listener within CPH to make HTTP queries to execute actions and query for data.
+You'll be able to setup an HTTP listener within Streamer.bot to make HTTP queries to execute actions and query for data.
 
 ![HTTP Server Settings](https://user-images.githubusercontent.com/3193453/121987897-5ec18b00-cd67-11eb-9ec8-3786248b909a.png)
 
