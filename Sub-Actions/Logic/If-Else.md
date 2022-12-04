@@ -1,8 +1,8 @@
 ---
 title: If/Else
-description: Working with variables and logic statements
+description: Logic Sub-Actions Reference
 published: true
-date: 2022-10-19T06:15:59.748Z
+date: 2022-12-04T19:13:54.541Z
 tags: logic, if, else
 editor: markdown
 dateCreated: 2022-01-09T11:33:31.443Z
