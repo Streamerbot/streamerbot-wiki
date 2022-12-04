@@ -1,8 +1,8 @@
 ---
 title: Set Argument
-description: 
+description: Logic Sub-Actions Reference
 published: true
-date: 2022-10-19T06:18:04.623Z
+date: 2022-12-04T19:14:04.761Z
 tags: logic, set argument
 editor: markdown
 dateCreated: 2022-06-28T00:44:25.623Z
