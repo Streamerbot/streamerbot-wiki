@@ -2,13 +2,11 @@
 title: Set Voice Control Command
 description: Voice Control Sub-Actions Reference
 published: true
-date: 2022-12-04T19:17:50.040Z
+date: 2022-12-04T19:18:03.571Z
 tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
 dateCreated: 2022-07-04T01:16:31.435Z
 ---
-
-# Set Voice Control Command
 
 With the Streamer.bot (0.18 +) you can now assign an action to a voice control command, then trigger this with a keyword or sentence that you say.
 To do this you need to make sure you have streamer.bot listening to you on the correct input device. The microphone that you are going to use. 
