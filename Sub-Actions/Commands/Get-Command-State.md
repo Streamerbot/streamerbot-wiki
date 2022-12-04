@@ -1,8 +1,8 @@
 ---
 title: Get Command State
-description: Retrieve the commands current state
+description: Commands Sub-Actions Reference
 published: true
-date: 2022-07-15T18:44:17.752Z
+date: 2022-12-04T19:10:20.605Z
 tags: subactions, commands, streamerbot, actions
 editor: markdown
 dateCreated: 2022-05-23T21:53:34.525Z
