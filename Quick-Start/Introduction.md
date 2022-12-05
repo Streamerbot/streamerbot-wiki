@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: false
-date: 2022-12-05T21:25:46.848Z
+date: 2022-12-05T21:27:10.318Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -25,10 +25,10 @@ Global Variables are for using variables in multiple actions with no time limit,
 Global Variable example: You want to save your game in a global variable, you do this on the `Stream Update` event and do this below (this is how it should look in the Sub-Actions list, not in the Sub-Action itself):
 ```css
 Set global "gameName" to the value of %gameName%
-Get global "gameName" to "gameName", with dafault value of "No game available"
+Get global "gameName" to "gameName", with default value of "No game available"
 ```
 
 ### Action History
 
 ## Events
-Events come from intergrations, broadcasters, platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
+Events come from Integrations, Broadcasters, Platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
