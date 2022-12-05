@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2022-11-24T16:59:46.118Z
+date: 2022-12-05T22:16:51.403Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -417,6 +417,14 @@ These are the Twitch events that will be broadcast, the examples provided are wh
   "amount": 0, /* total amount required to complete goal */
   "contributed": 0, /* how much has been contributed so far */
   "duration": 0,
+}
+```
+
+#### AdRun
+```json
+{
+  "length": 90,
+  "scheduled": false
 }
 ```
 
