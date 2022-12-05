@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-12-05T15:38:48.809Z
+date: 2022-12-05T15:39:10.340Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -36,6 +36,7 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 {.btn-grid .my-5}
 
 ## Introduction
+Coming very soon...{.subtitle}
 - [<i class="mdi mdi-swap-horizontal-variant"></i> **Introduction *Read the introduction to understand the fundamentals of Streamer.bot***](/Quick-Start/Examples/Introduction){.disabled}
 {.btn-grid .list .my-5}
 
