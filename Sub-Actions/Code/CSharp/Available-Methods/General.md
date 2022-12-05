@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-11-15T00:16:46.354Z
+date: 2022-12-05T15:20:38.211Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -138,7 +138,7 @@ bool UserInGroup(int userId, string groupName);
 bool UserInGroup(string userName, string groupName);
 ```
 
-```csharo
+```csharp
 bool AddUserToGroup(int userId, string groupName);
 bool AddUserToGroup(string userName, string groupName);
 ```
