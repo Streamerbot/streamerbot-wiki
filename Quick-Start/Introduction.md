@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: false
-date: 2022-12-05T00:24:04.370Z
+date: 2022-12-05T07:30:34.950Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -19,6 +19,10 @@ Sub-Actions are important to do all the stuff in the action, from sending messag
 
 ## Variables
 To make your Sub-Actions interactive you need Variables. Variables work with the name of the variable between percentage symbols e.g. `%variable%`. This variables are findable on this wiki. Variables primarily come from Events and Sub-Actions. You have Sub-Actions like [Get Random Number](/Sub-Actions/Get-Random-Number) where you get a random number between two values and it outputs it as a variable, in this case: `%randomNumber%`. But the majority of the variables comes from [Events](#events).
+
+### Global Variables
+
+### Action History
 
 ## Events
 Events come from intergrations, broadcasters, platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
