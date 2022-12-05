@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-11-15T00:19:09.855Z
+date: 2022-12-05T22:24:16.684Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -54,7 +54,7 @@ bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
 ```
 
-## Timouts / Bans
+## Timeouts / Bans
 > Requires minimum version v0.1.14
 {.is-info}
 
