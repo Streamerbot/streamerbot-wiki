@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-11-03T19:38:59.030Z
+date: 2022-12-05T09:32:50.314Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -19,6 +19,8 @@ Chat message and moderation controls{.subtitle}
 - [<i class="mdi mdi-emoticon text--twitch"></i>**Emote Only *Toggle emote-only mode***](/Sub-Actions/Twitch/Emote-Only)
 - [<i class="mdi mdi-speedometer-slow text--twitch"></i>**Slow Mode *Toggle slow mode***](/Sub-Actions/Twitch/Slow-Mode)
 - [<i class="mdi mdi-account-lock text--twitch"></i>**Subscriber Only *Toggle sub-only mode***](/Sub-Actions/Twitch/Subscriber-Only)
+- [<i class="mdi mdi-shield text--twitch"></i>**Get Shield Mode Status *Gets the current shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Get-Shield-Mode-Status){.disabled}
+- [<i class="mdi mdi-shield-refresh text--twitch"></i>**Update Shield Mode Status *Updates the shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Update-Shield-Mode-Status){.disabled}
 {.btn-grid .my-5}
 
 ## Channel
