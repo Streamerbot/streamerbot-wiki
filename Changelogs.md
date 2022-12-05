@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-02T04:47:17.630Z
+date: 2022-12-05T03:28:39.558Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -53,6 +53,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
 * Add option to disable logging of Voice Control dictation entries, this is now disabled by default
+* Add 2 new Twitch sub-actions, Get Shield Mode Status, and Update Shield Mode Status
 {.changelog-new}
 
 ## MIDI Support
