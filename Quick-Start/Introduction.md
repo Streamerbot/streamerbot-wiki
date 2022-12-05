@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: false
-date: 2022-12-05T21:27:10.318Z
+date: 2022-12-05T21:53:02.923Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -24,11 +24,13 @@ To make your Sub-Actions interactive you need Variables. Variables work with the
 Global Variables are for using variables in multiple actions with no time limit, the no time limit is when `Persisted` is turned on in Set Global Variable (this is by default) if you tick it of it resets when restarting Streamer.bot.
 Global Variable example: You want to save your game in a global variable, you do this on the `Stream Update` event and do this below (this is how it should look in the Sub-Actions list, not in the Sub-Action itself):
 ```css
-Set global "gameName" to the value of %gameName%
-Get global "gameName" to "gameName", with default value of "No game available"
+Set global "gameNameGlobal" to the value of %gameName%
+Get global "gameNameGlobal" to "gameName", with default value of "No game available"
 ```
+Now when using the Set Global Variable in the action linked to the `Stream Update` event. You can make a action with the Get Global Variable and use `%gameName%` as variable without it having to be linked to the event. 
 
 ### Action History
+
 
 ## Events
 Events come from Integrations, Broadcasters, Platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
