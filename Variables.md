@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2022-11-26T19:11:09.946Z
+date: 2022-12-06T15:57:55.778Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -26,7 +26,7 @@ To use a variable from the current argument stack, wrap the variable name with a
 
 ### Tips
 - Arguments only persist until the called action finishes execution and can not be referenced by any other action
-	- If you want to share variables across multiple actions you can write them out to a [Global](/Sub-Actions/Logic/Global-Variables) variable{.small}
+	- If you want to share variables across multiple actions you can write them out to a [Global](/Sub-Actions/Logic/Set-Global-Variable) variable{.small}
 - Variables are added onto the argument stack during execution of each sub-action
   - If you are testing and a variable seems to be missing, ensure you are testing at the right point of execution{.small}
 - You do not need to wrap variable names with `%` within logic statements like `If` and `Global`
