@@ -2,7 +2,7 @@
 title: Update Shield Mode Status
 description: Twitch Sub-Action Reference
 published: false
-date: 2022-12-06T09:43:35.134Z
+date: 2022-12-06T09:55:01.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-06T09:43:35.134Z
@@ -15,8 +15,6 @@ This sub-action is used to toggle shield mode on your Twitch channel.
 
 ## Configuration
 ### State
-Name | Description
-----:|:------------
 Name | Description
 ----:|:------------
 `Yes` | Set shield mode mode to **enabled**
