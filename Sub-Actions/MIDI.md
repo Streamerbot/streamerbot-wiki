@@ -2,7 +2,7 @@
 title: MIDI Sub-Actions
 description: Reference of all MIDI Sub-Actions
 published: false
-date: 2022-12-07T17:48:24.562Z
+date: 2022-12-07T17:49:23.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T17:48:24.562Z
@@ -16,5 +16,5 @@ dateCreated: 2022-12-07T17:48:24.562Z
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-- [<img src="/logos/lumia_stream.png"/>**Lumia Stream *Next Up***](/en/Sub-Actions/Lumia-Stream)
+- [<i class="mdi mdi-discord text--discord"></i> **Discord *Next Up***](/Sub-Actions/Discord)
 {.btn-grid .my-5}
