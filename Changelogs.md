@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-07T00:10:21.722Z
+date: 2022-12-07T02:55:22.217Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -45,6 +45,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 <span></span>
 
 * Added the ability to use [MIDI](#midi-support)!
+* Request new [Twitch Scope](#new-twitch-broadcaster-scopes)
 * Add 3 new sub-actions for MIDI Out, `Note On`, `Control Change` and `Generic`
 * Added the ability to **REDACTED** and to also **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
@@ -86,6 +87,14 @@ To get started with MIDI follow these steps:
 4. Right click anywhere in the bottom list, and Add an event.
 5. With the Add Event dialog open, you can pr
 ess any of the keys on your device to have it fill in all the data for you and show an example of what the arguments will look like.
+
+
+## New Twitch Broadcaster Scopes
+* `channel:manage:raids`
+* `channel:read:hype_train`
+* `channel:read:goals`
+* `moderator:manage:shield_mode`
+{.grid-list}
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
