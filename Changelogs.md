@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-05T03:28:39.558Z
+date: 2022-12-07T00:10:21.722Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Right clicking in empty area, or headers in inspect variable dialog would cause a crash
  * Add a check for OBS port being out of range
  * Add a check for a possible null ref in loading 7TV emotes
+ * Fix being able to drag sub-action groups into groups
 {.changelog-fixes}
 
 <span></span>
@@ -44,7 +45,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 <span></span>
 
 * Added the ability to use [MIDI](#midi-support)!
-* Added new feature **REDACTED**
+* Add 3 new sub-actions for MIDI Out, `Note On`, `Control Change` and `Generic`
+* Added the ability to **REDACTED** and to also **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 3 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)`, `Not Equals (Ignore Case)` and `Is Null or Empty`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
