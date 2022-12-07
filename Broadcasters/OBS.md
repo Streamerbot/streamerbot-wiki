@@ -2,18 +2,18 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-12-07T10:19:15.633Z
+date: 2022-12-07T10:19:35.309Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
 ---
 
-# Quick Links
+## Quick Links
 - [<i class="mdi mdi-creation text--obs"></i>**OBS Studio Events *Reference of all events supported with OBS Studio***](/Broadcasters/OBS/Events)
 - [<i class="mdi mdi-lightning-bolt-outline text--obs"></i>**OBS Studio Sub-Actions *Control OBS with all these amazing sub-actions!***](/Sub-Actions/OBS)
 {.btn-grid .list .my-5}
 
-# Overview
+## Overview
 > **Streamer.bot supports both OBS WebSocket versions, *v4.9+*{.obs-version-badge} and *v5+*{.obs-version-badge}**
 This documentation refers to OBS WebSocket version *v5+*{.obs-version-badge}
 {.is-info}
