@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2022-11-17T16:07:16.166Z
+date: 2022-12-07T10:19:15.633Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z
@@ -24,7 +24,7 @@ Adding at least one OBS connection will allow Streamer.bot to control your OBS.
 
 Once configured, connected OBS sessions will report their status on this screen.
 
-# Configuration
+## Configuration
 - [<img src="/logos/obs-websocket.png"/>**Download OBS WebSocket *<i class="mdi mdi-github"></i> obs-websocket v5+***](https://github.com/obsproject/obs-websocket/releases/latest)
 {.btn-grid .my-5}
 
@@ -65,7 +65,7 @@ When toggled this tries to reconnect (by default every 30s) when streamer.bot lo
 ### Retry Interval
 When Streamer.bot loses connection with your OBS this by default will try to reconnect every 30s, but you can change it to what you want.
 
-# Status Panel
+## Status Panel
 Overview of connection information available on the right-hand panel{.subtitle}
 
 ### OBS Information
@@ -80,7 +80,7 @@ Shows the status of current streaming and recording activity
 ### Sources
 Lists all sources present on the currently selected scene
 
-# Events
+## Events
 Select an OBS connection in the top panel, then <kbd>Right-Click</kbd> <kbd>-></kbd> <kbd>Add</kbd> in the bottom events panel to register an OBS event.
 
 ![add obs event currentprogramscenechanged](/broadcasters/obs/add-obs-event-currentprogramscenechanged.png =300x)
@@ -96,7 +96,7 @@ Optional group name to keep your events organized
 ### Action
 Select the action to be executed any time the selected event is fired off from OBS
 
-# Connect/Disconnect Actions
+## Connect/Disconnect Actions
 Events emitted when the OBS websocket server has connected/disconnected{.subtitle}
 * [**Connected *OBS Websocket has connected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Actions/Connected){.disabled}
 * [**Disconnected *OBS Websocket has disconnected*** *v0.1.15*{.version-badge}](/Broadcasters/OBS/Actions/Disconnected){.disabled}
