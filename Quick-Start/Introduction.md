@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: false
-date: 2022-12-08T08:35:34.037Z
+date: 2022-12-08T08:36:19.629Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -30,7 +30,7 @@ Get global "gameNameGlobal" to "gameName", with default value of "No game availa
 Now when using the Set Global Variable in the action linked to the `Stream Update` event. You can make a action with the Get Global Variable and use `%gameName%` as variable without it having to be linked to the event. 
 
 ### Action History
-The action history is the place where you can see the variables that your action has generated. This tab is located at `Action Queues` `-->` `Action History`. When an action runs you can see it in the list there, if you want to disabled some events e.g. a chat message event, go to the actions tab and right click on the action and click on `Exclude from Hisory`. Back at the Action History you can right click on every item in the list and click on the `Inspect Variables After Run (#)` this will open a table displaying all the variables that you can use in the action.
+The action history is the place where you can see the variables that your action has generated. This tab is located at `Action Queues` `-->` `Action History`. When an action runs you can see it in the list there, if you want to exclude some actions e.g. a chat message event action, go to the actions tab and right click on the action and click on `Exclude from Hisory`. Back at the Action History you can right click on every item in the list and click on the `Inspect Variables After Run (#)` this will open a table displaying all the variables that you can use in the action.
 
 ## Events
 Events come from Integrations, Broadcasters, Platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
