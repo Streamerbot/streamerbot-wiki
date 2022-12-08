@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: false
-date: 2022-12-08T08:36:19.629Z
+date: 2022-12-08T08:41:09.921Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -34,3 +34,13 @@ The action history is the place where you can see the variables that your action
 
 ## Events
 Events come from Integrations, Broadcasters, Platforms, etc. e.g. Commands, Subscription, Heart Rate Event, Poll Updated, etc. when these trigger it will produce variables what you can find on the wiki, these variables are useable in Sub-Actions.
+
+## More in depth
+For more in depth explantations give a visit to these page below{.subtitle}
+
+- [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions &amp; Sub-Actions *Learn about the most important core concept!***](/Actions)
+- [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions Reference *List of all sub-actions performed by Streamer.bot***](/Sub-Actions)
+- [<i class="mdi mdi-creation primary--text"></i> **Events Reference *List of all events in Streamer.bot***](/Events)
+- [<i class="mdi mdi-comment primary--text"></i> **Commands *Learn how to configure chat commands***](/Commands)
+- [<i class="mdi mdi-view-grid-plus primary--text"></i> **Integrations *List of available integrations***](/Integrations)
+{.btn-grid .my-5}
