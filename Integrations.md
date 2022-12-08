@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2022-11-14T23:02:39.361Z
+date: 2022-12-08T08:52:56.404Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -30,4 +30,5 @@ Don't see an integration you're looking for? Check out the [Ideas &amp; Suggesti
 - [<img src="https://streamer.bot/logo.svg"/>**Streamer.bot Decks *Web based stream decks for Streamer.bot***](/Extended-Features/HTML-Decks)
 - [<i class="mdi mdi-discord text--discord"></i>**Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/Integrations/Discord)
 - [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid*** *v0.1.14*{.version-badge}](/Integrations/Shopify){.disabled}
+- [<img src="/logos/shopify.svg"/>**IFTTT *Trigger applets with Sub-Actions*** *v0.1.15*{.version-badge}](/Integrations/IFTTT){.disabled}
 {.btn-grid .my-5}
