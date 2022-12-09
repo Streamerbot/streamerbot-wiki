@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-11-09T16:33:06.165Z
+date: 2022-12-09T02:28:20.107Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -15,7 +15,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .list .dense .my-5}
 
 ## General
-- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference***](/Sub-Actions/TwitchSpeaker)
+- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference in Streamer.bot***](/Sub-Actions/TwitchSpeaker)
 - [<i class="mdi mdi-application text--twitch"></i>**UDP Interface*Run TwitchSpeaker stuff trough Streamer.bot and other applications***](/TwitchSpeaker/General/UDP-Interface)
 {.btn-grid .list .dense .my-5}
 
