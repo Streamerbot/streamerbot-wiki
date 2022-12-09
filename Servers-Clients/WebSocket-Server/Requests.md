@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-11-04T21:21:48.982Z
+date: 2022-12-09T13:09:37.563Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -335,6 +335,44 @@ If the action is not found, an error will be returned, if the action was dispatc
 }
 ```
 
+## GetBroadcaster
+This request will give the broadcaster information for Twitch/Youtube
+
+### Tab {.tabset}
+#### Request
+```json
+{
+  "request": "GetBroadcaster",
+  "id": "<id>"
+}
+```
+
+#### Response
+```json
+{
+  "platforms": {
+    "twitch": {
+      "broadcastUser": "ik1497",
+      "broadcastUserName": "ik1497",
+      "broadcastUserId": 695682330,
+      "broadcasterIsAffiliate": false,
+      "broadcasterIsPartner": false
+    },
+    "youtube": {
+      "broadcastUserName": "Ik1497 Tutorials",
+      "broadcastUserId": "UCl3oatIf9tYopHaZHvnH3xw",
+      "broadcastUserProfileImage": "https://yt3.ggpht.com/VpC8_9WcDEKcPSvnD6p1iGT_S2_XxdeZtL6tTL2axexj0SpG-c4Wx8i5lYNbJtvmzwCnzm9Bsg=s88-c-k-c0x00ffffff-no-rj"
+    }
+  },
+  "connected": [
+    "twitch",
+    "youtube"
+  ],
+  "disconnected": [],
+  "status": "ok",
+  "id": "123"
+}
+```
 
 ## Examples
 Example Javascript code for interacting with the WebSocket Server
