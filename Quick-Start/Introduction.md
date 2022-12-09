@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: true
-date: 2022-12-09T01:09:20.302Z
+date: 2022-12-09T01:10:40.215Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -43,4 +43,9 @@ For more in depth explantations give a visit to these page below{.subtitle}
 - [<i class="mdi mdi-creation primary--text"></i> **Events Reference *List of all events in Streamer.bot***](/Events)
 - [<i class="mdi mdi-comment primary--text"></i> **Commands *Learn how to configure chat commands***](/Commands)
 - [<i class="mdi mdi-view-grid-plus primary--text"></i> **Integrations *List of available integrations***](/Integrations)
+{.btn-grid .my-5}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Quick Start Guide *Go Back***](/Quick-Start)
 {.btn-grid .my-5}
