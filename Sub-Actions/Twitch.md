@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-12-05T11:30:09.995Z
+date: 2022-12-09T16:55:58.718Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -67,5 +67,5 @@ Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)
-- [<i class="mdi mdi-twitch text--twitch"></i>**YouTube *Up Next***](/Sub-Actions/YouTube)
+- [<i class="mdi mdi-youtube text--youtube"></i>**YouTube *Up Next***](/Sub-Actions/YouTube)
 {.btn-grid .my-5}
