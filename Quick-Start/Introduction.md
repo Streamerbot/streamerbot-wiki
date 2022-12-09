@@ -1,8 +1,8 @@
 ---
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
-published: false
-date: 2022-12-08T08:41:09.921Z
+published: true
+date: 2022-12-09T01:09:20.302Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
