@@ -2,7 +2,7 @@
 title: Streamer.bot Introduction
 description: An introduction about all the fundamentals of Streamer.bot
 published: true
-date: 2022-12-09T01:10:40.215Z
+date: 2022-12-10T16:11:44.963Z
 tags: quick-start
 editor: markdown
 dateCreated: 2022-12-04T23:50:16.986Z
@@ -18,7 +18,7 @@ Actions is the place where all the data is stored for what you want to achieve, 
 Sub-Actions are important to do all the stuff in the action, from sending messages to Discord to making your lights go red to playing some TTS. All of that you can imagine, you can do and if you can't you will be soon! Submit suggestions [here](https://ideas.streamer.bot).
 
 ## Variables
-To make your Sub-Actions interactive you need Variables. Variables work with the name of the variable between percentage symbols e.g. `%variable%`. This variables are findable on this wiki. Variables primarily come from Events and Sub-Actions. You have Sub-Actions like [Get Random Number](/Sub-Actions/Get-Random-Number) where you get a random number between two values and it outputs it as a variable, in this case: `%randomNumber%`. But the majority of the variables comes from [Events](#events).
+To make your Sub-Actions interactive you need Variables. Variables work with the name of the variable between percentage symbols e.g. `%variable%`. This variables are findable on this wiki. Variables primarily come from Events and Sub-Actions. You have Sub-Actions like [Get Random Number](/Sub-Actions/Get-Random-Number) where you get a random number between two values and it outputs it as a variable, in this case: `%randomNumber%`. But the majority of the variables comes from [Events](#events). Note: variables are case sensitive, so `%User%` won't work if the variable actually is `%user%`.
 
 ### Global Variables
 Global Variables are for using variables in multiple actions with no time limit, the no time limit is when `Persisted` is turned on in Set Global Variable (this is by default) if you tick it of it resets when restarting Streamer.bot.
