@@ -2,7 +2,7 @@
 title: Users
 description: User options
 published: true
-date: 2022-09-12T23:58:12.671Z
+date: 2022-12-10T14:21:14.648Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
@@ -45,5 +45,5 @@ The last pane is called `Past Voices` in this tab will display all the voices on
 ***
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events){.disabled}
+- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/en/TwitchSpeaker/Tabs/Events)
 {.btn-grid .my-5}
