@@ -1,8 +1,8 @@
 ---
-title: [PRIVATE] Patreon
+title: Private Page
 description: Integrate Streamer.bot with your Patreon account!
 published: false
-date: 2022-12-12T22:11:55.162Z
+date: 2022-12-12T22:36:57.038Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-12T22:11:55.162Z
