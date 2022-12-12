@@ -2,7 +2,7 @@
 title: Notification
 description: IFTTT Sub-Action Reference
 published: false
-date: 2022-12-10T04:18:01.719Z
+date: 2022-12-12T11:10:06.378Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z
@@ -16,6 +16,11 @@ Send Notification to IFTTT to trigger the Streamer.bot event
 ## Configuration
 ### Notification Text
 The text that you have filled in the event
+
+## Variables
+Name | Description
+----:|:------------
+`iftttText` | The notification text
 
 ---
 
