@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-07T02:55:22.217Z
+date: 2022-12-13T20:15:25.437Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Add a check for OBS port being out of range
  * Add a check for a possible null ref in loading 7TV emotes
  * Fix being able to drag sub-action groups into groups
+ * First pass of networking code improvements
 {.changelog-fixes}
 
 <span></span>
@@ -40,6 +41,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Split auth tokens into separate file, reducing how often main settings is saved
  * Convert globals file to new database file, this should be transparent for most users
  * For twitch events that provide the user's color, if it is not set, do not add the color variable
+ * Added new library to make use of [Twitch EventSub](#twitch-eventsub), a handful of events are moved over to this service now
+ * Some Twitch specific user data has been moved to its own database, this includes channel reward redeems and pyramid creations/breakings.  This will drastically lower the file size of the users.dat file
+ * Twitch Rewards have been moved to their own data file
  {.changelog-updates}
  
 <span></span>
@@ -57,10 +61,17 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
 * Add option to disable logging of Voice Control dictation entries, this is now disabled by default
 * Add 2 new Twitch sub-actions, Get Shield Mode Status, and Update Shield Mode Status
+* Add 2 new Twitch Events, Shield Mode Start and End
+* When inspecting variables in the Action History, you can now copy all variable names, and/or copy all the data as a text table
+* A new menu layout for adding sub-actions, with a config option to use old style
+* A way to favorite sub-actions to show in a Favorite Sub-action menu item (only applies to the new layout)
+* Add a new Twitch Event, Ad Mid-Roll, this event typically fires 5s before an ad runs
 {.changelog-new}
 
 ## MIDI Support
 Yes, you read the correctly, as of **Streamer.bot** v0.1.15, there will be MIDI support!
+
+### MIDI In
 
 So, it will now be possible to run actions by using your MIDI Piano, and MIDI synth, oh, even your MIDI wind instrument, or anything that supports MIDI!
 
@@ -88,6 +99,15 @@ To get started with MIDI follow these steps:
 5. With the Add Event dialog open, you can pr
 ess any of the keys on your device to have it fill in all the data for you and show an example of what the arguments will look like.
 
+### MIDI Out
+The other side of MIDI, being able to send MIDI events out to your devices or DAWs.
+
+Much like MIDI In, you create a device mapping within Streamer.bot, and you can use 1 of 3 new sub-actions to send MIDI events.
+
+#### New Sub-Actions
+* Control Change
+* Note On
+* Generic
 
 ## New Twitch Broadcaster Scopes
 * `channel:manage:raids`
@@ -95,6 +115,37 @@ ess any of the keys on your device to have it fill in all the data for you and s
 * `channel:read:goals`
 * `moderator:manage:shield_mode`
 {.grid-list}
+
+## Twitch EventSub
+Twitch updated there eventsub to support websocket connections, so after trialing it for a bit, I have added a new library to connect to this new service, and subscribe to various events.
+
+### Events that are now on EventSub
+* Twitch Poll Events
+* Twitch Prediction Events
+* Twitch Channel Reward Events
+* Twitch Follow Event
+* Twitch HypeTrain Events
+* Twitch Charity Events (**improved and some new**)
+* Twitch Channel Goals (**new**)
+* Twitch Shield Mode (**new**)
+
+### Twitch Charity Events
+Despite there already being support for Twitch Charity Donate, switching over to EventSub has introduced 3 new events (Started, Progress and Stop), as well as update the Donate event with more data.
+
+### Twitch Channel Goals
+These are the goals you can configure, new follower goal, subscription goal, etc.  Now you can get udpates on these by way of 3 new events, Goal Begin, Goal Progress and Goal End
+
+### Twitch HypeTrain Events
+The hype train events have been altered slightly, and are no longer restricted to 5 levels, they can go on forever now.  The calculations for % complete have also been tweaked and hopefully are more accurate now.
+
+### Twitch Channel Reward Events
+These events mostly remain unchanged, there is a slight re-organization of data, but is ver minimal.
+
+### Twitch Shield Mode Events
+There are 2 new events for Twitch's Shield Mode, Begin and End.  YOu can assign actions to these and have your stream react when your Shield Mode is enabled/disabled.
+
+### Twitch Prediction and Poll Events
+Largely remain unchanged from the previous events.
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
