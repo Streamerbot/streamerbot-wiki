@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-13T20:15:25.437Z
+date: 2022-12-13T20:22:34.488Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,7 +21,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Add a check for a possible null ref in loading 7TV emotes
  * Fix being able to drag sub-action groups into groups
  * First pass of networking code improvements
-{.changelog-fixes}
+ * Prevent channel reward costs from exceeding 2,147,483,647 points
+ {.changelog-fixes}
 
 <span></span>
 
@@ -42,14 +43,15 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Convert globals file to new database file, this should be transparent for most users
  * For twitch events that provide the user's color, if it is not set, do not add the color variable
  * Added new library to make use of [Twitch EventSub](#twitch-eventsub), a handful of events are moved over to this service now
- * Some Twitch specific user data has been moved to its own database, this includes channel reward redeems and pyramid creations/breakings.  This will drastically lower the file size of the users.dat file
+ * Some Twitch specific user data has been moved to its own database, this includes channel reward redeems and pyramid creations/breakings. This will drastically lower the file size of the users.dat file
  * Twitch Rewards have been moved to their own data file
+ * Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
  {.changelog-updates}
  
 <span></span>
 
 * Added the ability to use [MIDI](#midi-support)!
-* Request new [Twitch Scope](#new-twitch-broadcaster-scopes)
+* Request new [Twitch Scopes](#new-twitch-broadcaster-scopes)
 * Add 3 new sub-actions for MIDI Out, `Note On`, `Control Change` and `Generic`
 * Added the ability to **REDACTED** and to also **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
@@ -60,8 +62,10 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
 * Add option to `Execute C# Method` to save the result (`true/false`) to a variable
 * Add option to disable logging of Voice Control dictation entries, this is now disabled by default
+* [New C# methods](#new-c-methods) to start/cancel a raid
 * Add 2 new Twitch sub-actions, Get Shield Mode Status, and Update Shield Mode Status
 * Add 2 new Twitch Events, Shield Mode Start and End
+* Refresh the Account tab for Twitch and Streamer.bot Integrations
 * When inspecting variables in the Action History, you can now copy all variable names, and/or copy all the data as a text table
 * A new menu layout for adding sub-actions, with a config option to use old style
 * A way to favorite sub-actions to show in a Favorite Sub-action menu item (only applies to the new layout)
@@ -146,6 +150,17 @@ There are 2 new events for Twitch's Shield Mode, Begin and End.  YOu can assign 
 
 ### Twitch Prediction and Poll Events
 Largely remain unchanged from the previous events.
+
+## New C# Methods
+
+```csharp
+bool TwitchStartRaidById(string userId);
+bool TwitchStartRaidByName(string userName);
+bool TwitchCancelRaid();
+```
+> There is no way, by API to send a raid yet, can only create, and cancel a raid
+{.is-info}
+
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
