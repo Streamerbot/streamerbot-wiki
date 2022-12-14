@@ -2,7 +2,7 @@
 title: VoiceMod Sub-Actions
 description: Reference of all sub-actions for controlling VoiceMod
 published: true
-date: 2022-09-07T09:03:11.636Z
+date: 2022-12-14T06:59:03.704Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
@@ -26,5 +26,5 @@ dateCreated: 2022-07-10T19:06:14.215Z
 ---
  
 - [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
-- [<i class="mdi mdi-speaker text--twitch"></i> **TwitchSpeaker *Send text to TwitchSpeaker TTS***](/en/Sub-Actions/TwitchSpeaker)
+- [<i class="mdi mdi-timelapse primary--text"></i> **Delay *Next Up***](/Sub-Actions/Delay)
 {.btn-grid .my-5}
