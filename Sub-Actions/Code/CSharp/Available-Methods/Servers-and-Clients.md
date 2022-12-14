@@ -2,7 +2,7 @@
 title: Servers and Clients
 description: C# Available Methods Reference
 published: true
-date: 2022-11-15T00:18:23.405Z
+date: 2022-12-14T16:55:38.340Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:46:01.700Z
@@ -11,7 +11,7 @@ dateCreated: 2022-10-29T20:46:01.700Z
 ## Websocket Server
 ```csharp
 void WebsocketBroadcastString(string data); // send a custom event over the websocket server
-void WebsocketBroadcastJson(string data); // send a custom event over the websocket server
+void WebsocketBroadcastJson(string data); // send a custom event over the websocket server, used for browser widgets
 ```
 
 ## Websocket Clients
