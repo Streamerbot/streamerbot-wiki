@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-13T20:22:34.488Z
+date: 2022-12-15T23:47:14.705Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,6 +22,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Fix being able to drag sub-action groups into groups
  * First pass of networking code improvements
  * Prevent channel reward costs from exceeding 2,147,483,647 points
+ * Fix possible crash when exporting actions
+ * Fix OBS Event dialog not validating correctly when editing an event
  {.changelog-fixes}
 
 <span></span>
@@ -46,6 +48,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Some Twitch specific user data has been moved to its own database, this includes channel reward redeems and pyramid creations/breakings. This will drastically lower the file size of the users.dat file
  * Twitch Rewards have been moved to their own data file
  * Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
+ * Some tweaks to Patreon events that come through the Streamer.bot website
+ * Tab order of Actions dialog and Twitch CHannel Rewards dialog have been updated
  {.changelog-updates}
  
 <span></span>
@@ -70,6 +74,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * A new menu layout for adding sub-actions, with a config option to use old style
 * A way to favorite sub-actions to show in a Favorite Sub-action menu item (only applies to the new layout)
 * Add a new Twitch Event, Ad Mid-Roll, this event typically fires 5s before an ad runs
+* New Service Status indicator in the status bar of Streamer.bot
 {.changelog-new}
 
 ## MIDI Support
