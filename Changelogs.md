@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-15T23:47:14.705Z
+date: 2022-12-15T23:52:20.702Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -74,7 +74,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * A new menu layout for adding sub-actions, with a config option to use old style
 * A way to favorite sub-actions to show in a Favorite Sub-action menu item (only applies to the new layout)
 * Add a new Twitch Event, Ad Mid-Roll, this event typically fires 5s before an ad runs
-* New Service Status indicator in the status bar of Streamer.bot
+* New [Service Status](#service-status) indicator in the status bar of Streamer.bot
 {.changelog-new}
 
 ## MIDI Support
@@ -155,6 +155,13 @@ There are 2 new events for Twitch's Shield Mode, Begin and End.  YOu can assign 
 
 ### Twitch Prediction and Poll Events
 Largely remain unchanged from the previous events.
+
+## Service Status
+With **Streamer.bot** v0.1.15 you can see, at a glance, if all your serrvices are connected.
+
+In the bottom right hand corner of **Streamer.bot**, there is now an indicator that shows if you're connected to your services.  If you click on this, you'll be presented with a detailed list of what is all connected, and, you can click on any of the services to be taken to the settings page for it.
+
+![service-status.png](/service-status.png)
 
 ## New C# Methods
 
