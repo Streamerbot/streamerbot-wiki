@@ -2,7 +2,7 @@
 title: YouTube Event Reference
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2022-12-03T20:16:49.502Z
+date: 2022-12-16T11:45:23.743Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z
@@ -27,7 +27,7 @@ Name | Description
 {.vars-table}
 
 ## Generic Events
-* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message*When someone leaves a message in chat***](/Platforms/YouTube/Events/Chat-Message)
+* [<i class="mdi mdi-comment-outline text--youtube"></i> **Chat Message *When someone leaves a message in chat***](/Platforms/YouTube/Events/Chat-Message)
 * [<i class="mdi mdi-numeric-1-box text--youtube"></i> **First Words *The first words in the stream (resets every 12 hours)***](/Platforms/YouTube/Events/First-Words)
 * [<i class="mdi mdi-account-plus text--youtube"></i> **Member Milestone Event**](/Platforms/YouTube/Events/Member-Milestone-Event)
 * [<i class="mdi mdi-account-remove text--youtube"></i> **User Banned Event *When a user gets banned***](/Platforms/YouTube/Events/User-Banned-Event)
