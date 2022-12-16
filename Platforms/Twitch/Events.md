@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-12-16T11:41:45.750Z
+date: 2022-12-16T11:48:25.982Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -18,8 +18,10 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***](/Platforms/Twitch/Events/Follows)
 - [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Chat, whispers, and first words events***](/Platforms/Twitch/Events/Chat-Message)
+- [<i class="mdi mdi-account-voice text--twitch"></i> **Whispers** *Soon!*{.version-badge}](/Platforms/Twitch/Events/Whispers){.disabled}
 - [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *Twitch Chat announcements***](/Platforms/Twitch/Events/Announcement)
 - [<i class="mdi mdi-account-star text--twitch"></i> **Shoutout Created *When a shoutout gets created on your channel*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Shoutout-Created)
+- [<i class="mdi mdi-numeric-1-box text--twitch"></i> **First Words** *Soon!*{.version-badge}](/Platforms/Twitch/Events/First-Words){.disabled}
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/Present-Viewers)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/Ad-Run)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Midroll *When an ad runs on your channel in the middle of streams*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Ad-Midroll){.disabled}
@@ -29,8 +31,8 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/Message-Deleted)
 - [<i class="mdi mdi-account-minus text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/User-Banned)
 - [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/User-Timed-Out)
-- [<i class="mdi mdi-shield-outline text--twitch"></i> **Shield Mode Begin *Shield Mode has begun***](/Platforms/Twitch/Events/Shield-Mode-Begin){.disabled}
-- [<i class="mdi mdi-shield-outline text--twitch"></i> **Shield Mode End *Shield Mode has ended***](/Platforms/Twitch/Events/Shield-Mode-End){.disabled}
+- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode Begin *Shield Mode has begun***](/Platforms/Twitch/Events/Shield-Mode-Begin){.disabled}
+- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode End *Shield Mode has ended***](/Platforms/Twitch/Events/Shield-Mode-End){.disabled}
 {.btn-grid .my-5}
 
 ## Standard Twitch Events
