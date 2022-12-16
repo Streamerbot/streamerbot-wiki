@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-15T23:52:20.702Z
+date: 2022-12-16T19:52:10.336Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -57,7 +57,6 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Added the ability to use [MIDI](#midi-support)!
 * Request new [Twitch Scopes](#new-twitch-broadcaster-scopes)
 * Add 3 new sub-actions for MIDI Out, `Note On`, `Control Change` and `Generic`
-* Added the ability to **REDACTED** and to also **REDACTED**!
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 3 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)`, `Not Equals (Ignore Case)` and `Is Null or Empty`, data is assumed to be a string
 * Add an artifical Present Viewers tick to YouTube
