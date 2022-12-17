@@ -2,7 +2,7 @@
 title: Actions
 description: Learn how to configure the most important piece of Streamer.bot - Actions & Sub-Actions!
 published: true
-date: 2022-10-29T21:40:58.492Z
+date: 2022-12-17T09:41:05.031Z
 tags: subactions, guides, actions
 editor: markdown
 dateCreated: 2021-08-25T21:31:09.603Z
@@ -95,14 +95,14 @@ Option|Description|Notes
 ## Sub Action Pane
 <kbd>Right-clicking</kbd> anywhere in the Sub-Action pane will open up the context menu. This will show more options if a sub-action is selected 
 
-![subaction-context-018.png](/subaction-context-018.png)
+![subaction-context-018.png](/subaction-context-018.png =200x)
 
 
 ### Context Menu Options
 ---|---
-`Add Sub-Action` | Opens the list of available sub-actions to add at the current position
+`Favorite Sub-Actions` | Opens the list of your favorited sub-actions. To add something to this list go to the Sub-Action e.g. YouTube --> Send Message to Channel and right click on it, now it should appear in the favorite Sub-Actions list. To remove one go to Favorite Sub-Actions and right click on the one that you'd like to remove.
 `Edit Sub-Action` | Opens the properties dialogue for the selected sub-action | This is the same as <kbd>double-clicking</kbd> on the sub-action
-`Copy Sub-Action` | Copies the selected subaction to the clipboard | This creates a Base64 string intended to be pasted into other actions but it can also be sent to notepad or any other computer to be imported into another version of streamer.bot
+`Copy Sub-Action` | Copies the selected Sub-Action to the clipboard | This creates a Base64 string intended to be pasted into other actions but it can also be sent to notepad or any other computer to be imported into another version of streamer.bot
 `Paste Sub-Action` | Detects if the string in clipboard is Base64 and if so it will paste the subaction into this action
 `Duplicate Sub-Action  ` | Clones the selected sub-action into the currently open action
 `Delete Sub-Action` | Deletes the selected sub-action | This will show a confirmation dialogue by default unless you have turned it off
@@ -110,7 +110,8 @@ Option|Description|Notes
 `Delete Group` | Deletes the selected group | Only shows if selction is a group folder
 `Rename Group` | Renames the seleccted group | Only shows if selction is a group folder
 `Enabled` | Boolean flag for disabling a sub-action for diagnostic purposes | Disabled sub-actions will be highlighted with Red text
-`Random` | Boolean flag to set a group folder as `Random Execution` | This will only execute a single, random sub-action from within the group. 
+`Random` | Boolean flag to set a group folder as `Random Execution` | This will only execute a single, random sub-action from within the group.
+`Weight` | The weight of the Sub-Action when the Action/Group is set on Random.
 `Delete all sub-actions` | Erases all sub-actions from this action |  This will show a confirmation dialogue by default unless you have turned it off
 `Move` | Submenu to change the order of sub-actions | This has the same effect as keybaord shortcuts <kbd>Ctrl + <i class="mdi mdi-arrow-up-thick"></i></kbd> and <kbd>Ctrl + <i class="mdi mdi-arrow-down-thick"></i></kbd>. Valid options are `Up`, `Down`, `Top`, `Bottom`
 
