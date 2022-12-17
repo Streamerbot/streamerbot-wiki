@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-12-16T11:51:34.058Z
+date: 2022-12-17T10:59:55.246Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -31,8 +31,8 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/Message-Deleted)
 - [<i class="mdi mdi-account-minus text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/User-Banned)
 - [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/User-Timed-Out)
-- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode Begin *Shield Mode has begun***](/Platforms/Twitch/Events/Shield-Mode-Begin){.disabled}
-- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode End *Shield Mode has ended***](/Platforms/Twitch/Events/Shield-Mode-End){.disabled}
+- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode Begin *Shield Mode has begun*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Shield-Mode-Begin){.disabled}
+- [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode End *Shield Mode has ended*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Shield-Mode-End){.disabled}
 {.btn-grid .my-5}
 
 ## Standard Twitch Events
