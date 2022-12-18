@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-09T13:09:37.563Z
+date: 2022-12-18T18:18:04.207Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -370,7 +370,80 @@ This request will give the broadcaster information for Twitch/Youtube
   ],
   "disconnected": [],
   "status": "ok",
-  "id": "123"
+  "id": "<id>"
+}
+```
+
+## GetCredits
+
+### Tab {.tabset}
+#### Request
+```json
+{
+  "request": "GetCredits",
+  "id": "<id>"
+}
+```
+
+#### Response
+```json
+{
+  "id": "credits",
+  "Events": {
+    "Follows": [],
+    "Cheers": [],
+    "Subs": [],
+    "ReSubs": [],
+    "GiftSubs": [],
+    "GiftBombs": [],
+    "Raided": [],
+    "RewardRedemptions": [],
+    "GoalContributions": [],
+    "GameUpdates": [],
+    "Pyramids": []
+  },
+  "HypeTrainConductor": [],
+  "HypeTrainContributors": [],
+  "User": {
+    "Editors": [],
+    "Moderator": [],
+    "Subscriber": [],
+    "VIPs": [],
+    "Users": [],
+    "regulars": []
+  },
+  "Custom": {},
+  "TopBits": {
+    "All": [],
+    "Month": [],
+    "Week": []
+  },
+  "TopChannelRewards": [],
+  "status": "ok"
+}
+```
+
+## TestCredits
+
+### Tab {.tabset}
+#### Request
+
+```
+{
+  "request": "TestCredits",
+  "id": "<id>"
+}
+```
+  
+## ClearCredits
+
+### Tab {.tabset}
+#### Request
+
+```
+{
+  "request": "ClearCredits",
+  "id": "<id>"
 }
 ```
 
