@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-12-17T10:59:55.246Z
+date: 2022-12-18T18:42:38.341Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -17,11 +17,11 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle}
 
 - [<i class="mdi mdi-account text--twitch"></i> **Follows *When someone follows the broadcast user***](/Platforms/Twitch/Events/Follows)
-- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Chat, whispers, and first words events***](/Platforms/Twitch/Events/Chat-Message)
-- [<i class="mdi mdi-account-voice text--twitch"></i> **Whispers *When you receive a non-command whisper*** *Soon!*{.version-badge}](/Platforms/Twitch/Events/Whispers){.disabled}
+- [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Receival of Chat Messages in the Broadcaster's chat***](/Platforms/Twitch/Events/Chat-Message)
+- [<i class="mdi mdi-account-voice text--twitch"></i> **Whispers *When you receive a non-command whisper***](/Platforms/Twitch/Events/Whispers)
 - [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *Twitch Chat announcements***](/Platforms/Twitch/Events/Announcement)
 - [<i class="mdi mdi-account-star text--twitch"></i> **Shoutout Created *When a shoutout gets created on your channel*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Shoutout-Created)
-- [<i class="mdi mdi-numeric-1-box text--twitch"></i> **First Words *First words of the stream for individual users*** *Soon!*{.version-badge}](/Platforms/Twitch/Events/First-Words){.disabled}
+- [<i class="mdi mdi-numeric-1-box text--twitch"></i> **First Words *First words of the stream for individual users***](/Platforms/Twitch/Events/First-Words)
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/Present-Viewers)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/Ad-Run)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Midroll *When an ad runs on your channel in the middle of streams*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Ad-Midroll){.disabled}
