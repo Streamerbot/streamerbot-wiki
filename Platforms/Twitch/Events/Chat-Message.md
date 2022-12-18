@@ -1,8 +1,8 @@
 ---
-title: Chat Messages, Whispers, and First Words Events
+title: Chat Message
 description: Twitch Events Reference
 published: true
-date: 2022-08-23T21:37:35.857Z
+date: 2022-12-18T18:40:25.122Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:28:11.564Z
