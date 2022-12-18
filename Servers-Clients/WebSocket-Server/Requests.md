@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-18T18:18:04.207Z
+date: 2022-12-18T18:19:03.806Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -428,7 +428,7 @@ This request will give the broadcaster information for Twitch/Youtube
 ### Tab {.tabset}
 #### Request
 
-```
+```json
 {
   "request": "TestCredits",
   "id": "<id>"
@@ -440,7 +440,7 @@ This request will give the broadcaster information for Twitch/Youtube
 ### Tab {.tabset}
 #### Request
 
-```
+```json
 {
   "request": "ClearCredits",
   "id": "<id>"
