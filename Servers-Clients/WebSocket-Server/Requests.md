@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-18T18:19:03.806Z
+date: 2022-12-18T18:22:28.716Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -29,7 +29,7 @@ The basic format for a request is as follows:
 ```json
 {
   "request": "Subscribe",
-  "id": "<message id>",
+  "id": "<id>",
   "events": {
     "<event category>": [
       "<event name>",
@@ -45,7 +45,7 @@ The basic format for a request is as follows:
 ```json
 {
   "request": "Subscribe",
-  "id": "my-subscribe-events-id",
+  "id": "<id>",
   "events": {
     "Twitch": [
       "Follow",
@@ -68,7 +68,7 @@ This request allows you to unsubscribe from any message events you are currently
 ```json
 {
   "request": "UnSubscribe",
-  "id": "<message id>",
+  "id": "<id>",
   "events": {
     "<event category>": [
       "<event name>",
@@ -84,7 +84,7 @@ This request allows you to unsubscribe from any message events you are currently
 ```json
 {
   "request": "UnSubscribe",
-  "id": "my-unsubscribe-events-id",
+  "id": "<id>",
   "events": {
     "Twitch": [
       "Follow",
@@ -108,7 +108,7 @@ This request will get you a list of all events that may be emitted
 ```json
 {
   "request": "GetEvents",
-  "id": "<message id>",
+  "id": "<id>",
 }
 ```
 
@@ -116,7 +116,6 @@ This request will get you a list of all events that may be emitted
 
 ```json
 {
-  "id": "<message id>",
   "events": {
     "application": [
       "ActionAdded",
@@ -272,7 +271,8 @@ This request will get you a list of all events that may be emitted
          "FirstWords"
       ]
   },
-  "status": "ok"
+  "status": "ok",
+  "id": "<id>"
 }
 ```
 
@@ -285,7 +285,7 @@ This request will get you a list of all the actions you have configured in your 
 ```json
 {
   "request": "GetActions",
-  "id": "<message id>"
+  "id": "<id>"
 }
 ```
 
@@ -293,7 +293,6 @@ This request will get you a list of all the actions you have configured in your 
 
 ```json
 {
-  "id": "<message id>",
   "count": 00,
   "actions": [
     {
@@ -301,7 +300,8 @@ This request will get you a list of all the actions you have configured in your 
       "name": "<action name>"
     },
   ],
-  "status": "ok"
+  "status": "ok",
+  "id": "<id>"
 }
 ```
 
@@ -330,8 +330,8 @@ This request will trigger an action that you provide
 If the action is not found, an error will be returned, if the action was dispatched it will return success.
 ```json
 {
-  "id": "<id>",
-  "status": "ok"
+  "status": "ok",
+  "id": "<id>"
 }
 ```
 
@@ -388,7 +388,6 @@ This request will give the broadcaster information for Twitch/Youtube
 #### Response
 ```json
 {
-  "id": "credits",
   "Events": {
     "Follows": [],
     "Cheers": [],
@@ -419,7 +418,8 @@ This request will give the broadcaster information for Twitch/Youtube
     "Week": []
   },
   "TopChannelRewards": [],
-  "status": "ok"
+  "status": "ok",
+   "id": "<id>"
 }
 ```
 
