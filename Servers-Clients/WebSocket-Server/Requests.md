@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-18T18:22:28.716Z
+date: 2022-12-20T00:07:44.391Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -375,7 +375,6 @@ This request will give the broadcaster information for Twitch/Youtube
 ```
 
 ## GetCredits
-
 ### Tab {.tabset}
 #### Request
 ```json
@@ -424,10 +423,8 @@ This request will give the broadcaster information for Twitch/Youtube
 ```
 
 ## TestCredits
-
 ### Tab {.tabset}
 #### Request
-
 ```json
 {
   "request": "TestCredits",
@@ -436,14 +433,79 @@ This request will give the broadcaster information for Twitch/Youtube
 ```
   
 ## ClearCredits
-
 ### Tab {.tabset}
 #### Request
-
 ```json
 {
   "request": "ClearCredits",
   "id": "<id>"
+}
+```
+
+## GetInfo
+### Tab {.tabset}
+#### Request
+```json
+{
+  "request": "GetInfo",
+  "id": "<id>"
+}
+```
+
+#### Response
+```json
+{
+  "info": {
+    "instanceId": "jx5gd80u-3b04-4c9b-x902-4589nn5010ax",
+    "name": "‍Streamer.bot",
+    "version": "0.1.15",
+    "os": "windows"
+  },
+  "status": "ok",
+  "id": "123"
+}
+```
+
+## GetActiveViewers
+### Tab {.tabset}
+#### Request
+```json
+{
+  "request": "GetActiveViewers",
+  "id": "<id>"
+}
+```
+
+#### Response
+```json
+{
+  "count": 2,
+  "viewers": [
+    {
+      "id": "695682330",
+      "login": "ik1497",
+      "display": "ik1497",
+      "subscribed": true,
+      "role": "Broadcaster",
+      "groups": [],
+      "channelPointsUsed": 0,
+      "lastActive": "2022-12-20T01:03:01.4613004+01:00",
+      "exempt": true
+    },
+    {
+      "id": "750146097",
+      "login": "ik1497bot",
+      "display": "Ik1497Bot",
+      "subscribed": false,
+      "role": "Moderator",
+      "groups": [],
+      "channelPointsUsed": 0,
+      "lastActive": "2022-12-20T01:03:10.5548462+01:00",
+      "exempt": false
+    }
+  ],
+  "status": "ok",
+  "id": "123"
 }
 ```
 
