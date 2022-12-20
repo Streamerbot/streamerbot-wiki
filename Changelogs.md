@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-16T19:52:10.336Z
+date: 2022-12-20T05:39:17.789Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Prevent channel reward costs from exceeding 2,147,483,647 points
  * Fix possible crash when exporting actions
  * Fix OBS Event dialog not validating correctly when editing an event
+ * Fix Quotes not being removed in the UI
  {.changelog-fixes}
 
 <span></span>
@@ -50,6 +51,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
  * Some tweaks to Patreon events that come through the Streamer.bot website
  * Tab order of Actions dialog and Twitch CHannel Rewards dialog have been updated
+ * Show `<null>` in the Inspect Variable dialog, when the value is null, instead of an empty space
+ * Update visual display of LogicIf sub-action, else will always show now
  {.changelog-updates}
  
 <span></span>
