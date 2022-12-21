@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-21T07:50:31.114Z
+date: 2022-12-21T14:29:25.620Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -164,7 +164,7 @@ There are 2 new events for Twitch's Shield Mode, Begin and End.  YOu can assign 
 Largely remain unchanged from the previous events.
 
 ## Service Status
-With **Streamer.bot** v0.1.15 you can see, at a glance, if all your serrvices are connected.
+With **Streamer.bot** v0.1.15 you can see, at a glance, if all your services are connected.
 
 In the bottom right hand corner of **Streamer.bot**, there is now an indicator that shows if you're connected to your services.  If you click on this, you'll be presented with a detailed list of what is all connected, and, you can click on any of the services to be taken to the settings page for it.
 
