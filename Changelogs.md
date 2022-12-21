@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-20T05:39:17.789Z
+date: 2022-12-21T07:50:31.114Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -25,6 +25,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Fix possible crash when exporting actions
  * Fix OBS Event dialog not validating correctly when editing an event
  * Fix Quotes not being removed in the UI
+ * Fix Twitch Gift Sub Bomb test not using the correct anonymous check box
+ * Fix Anonymous Twitch Gift Bomb causing a silent crash
  {.changelog-fixes}
 
 <span></span>
@@ -53,6 +55,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Tab order of Actions dialog and Twitch CHannel Rewards dialog have been updated
  * Show `<null>` in the Inspect Variable dialog, when the value is null, instead of an empty space
  * Update visual display of LogicIf sub-action, else will always show now
+ * Update Twitch Gift Sub Bomb test to send out gift subs that match the Gift Bomb event
+ * Still send Websocket message for Twitch gift subs that come from a sub bomb even if they're ignored
  {.changelog-updates}
  
 <span></span>
@@ -77,6 +81,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * A way to favorite sub-actions to show in a Favorite Sub-action menu item (only applies to the new layout)
 * Add a new Twitch Event, Ad Mid-Roll, this event typically fires 5s before an ad runs
 * New [Service Status](#service-status) indicator in the status bar of Streamer.bot
+* Add a Decrement option to the Global (Set) sub-action
 {.changelog-new}
 
 ## MIDI Support
