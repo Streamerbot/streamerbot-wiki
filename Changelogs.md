@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-21T14:29:25.620Z
+date: 2022-12-21T17:22:08.117Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -57,6 +57,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
  * Update visual display of LogicIf sub-action, else will always show now
  * Update Twitch Gift Sub Bomb test to send out gift subs that match the Gift Bomb event
  * Still send Websocket message for Twitch gift subs that come from a sub bomb even if they're ignored
+ * Set Voice Control Command sub-action can now change any voice control command type, instead of `Anywhere` only
  {.changelog-updates}
  
 <span></span>
