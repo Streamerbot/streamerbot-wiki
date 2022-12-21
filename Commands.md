@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-10-29T21:45:14.986Z
+date: 2022-12-21T20:27:24.721Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
@@ -81,19 +81,16 @@ Toggle  | Description | Notes
 `Ignore Bot Account` | If the `Bot Account` is not blank, this toggle will ignore command processing from that account | If the `Bot Account` is the same as your `Broadcaster Account` this property is ignored
 `Case Sensitive` | Requires the command to be typed with the exact case specified
 
-
 ### Source(s)
 You can pick any combination of the following sources for the origination of the command.
 
-|Source | Description |
-|   ---:|-------------|
-| `Twitch Message` | Accept command from the Twitch! chat of the `Twitch Broadcaster` account |
-| `YouTube Message` | Accept commands from the YouTube chat of the `YouTube Broadcaster` account |
-| `Twitch Whisper` | Accept command from whispers sent to the `Twitch Broadcaster` account |
-| `Twitch Subscription Message` | Allow the command to be sent as part of a Twitch! subscription message |
-| `Twitch Re-subscription Message` | Allow the command to be sent as part of a Twitch! re-sub message |
-
-
+Name | Description
+----:|:------------
+`Twitch Message` | Accept command from the Twitch! chat of the `Twitch Broadcaster` account
+`YouTube Message` | Accept commands from the YouTube chat of the `YouTube Broadcaster` account
+`Twitch Whisper` | Accept command from whispers sent to the `Twitch Broadcaster` account
+`Twitch Subscription Message` | Allow the command to be sent as part of a Twitch! subscription message
+`Twitch Re-subscription Message` | Allow the command to be sent as part of a Twitch! re-sub message
 
 ### Counters
 Actions in Streamer.bot have per-session and per-command variables `counter` & `userCounter` that records how many times that command has been used. 
@@ -103,7 +100,6 @@ By default this clears when the application is closed but the following options 
 ---|---
 `Persist Counter` | Save the total number of executions for this command or any of its aliases
 `Persist per User Counter` | Save details of how often each user has executed this command or any of its aliases
-
 
 ### Cooldowns
 A cooldown can be set for a command set on both a `Global` and `Per-User` basis, this prevents the main action being run again while the cooldown is active.
@@ -150,7 +146,6 @@ Name | Description
 `input#` | The # word of the message entered, spaces are delimiters and variable names are 0 indexed, so `input0` would give the first word, `input1` would give the second, and so on
 `inputEscaped#` | The indexed word escaped
 `inputUrlEncoded#` | The indexed word URL encoded
-`message` | The message typed in chat | (unverified)
 `role` | What role the user has `(1-4)` | 4=`Broadcaster` 3=`Mod` 2=`VIP` 1=`Viewer`
 `isSubscribed` | Is user subscribed
 `counter` | A running total of how many times a command has been run since application launch (if `Persisted` is checked, the total will be saved to settings.dat and read in at launch)
