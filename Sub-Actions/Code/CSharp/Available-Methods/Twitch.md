@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-12-22T16:40:57.643Z
+date: 2022-12-22T16:44:01.607Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -172,11 +172,26 @@ void TwitchRunCommercial(int duration);
 void TwitchSlowMode(bool enabled = true, int duration = 0);
 ```
 
+## Follow Mode
+```csharp
+// Requires a minimum version of v0.1.15
+void TwitchFollowMode(bool enabled = true, int duration = 0);
+```
+
 ## Stream Update
 ```csharp
 bool SetChannelTitle(string title);
 GameInfo SetChannelGame(string game);
 bool SetChannelGameById(string gameId);
+```
+
+## Raids
+```csharp
+// Requires a minimum version of v0.1.15
+
+bool TwitchStartRaidById(string userId);
+bool TwitchStartRaidByName(string userName);
+bool TwitchCancelRaid();
 ```
 
 ## Announcement
