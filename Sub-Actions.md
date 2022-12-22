@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2022-12-22T01:20:27.235Z
+date: 2022-12-22T16:06:37.410Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -30,13 +30,13 @@ Sub-Actions specific to Streamer.bot [Integrations](/Integrations) {.subtitle}
 - [<img src="https://streamer.bot/img/integrations/voicemod.png"> **VoiceMod *Select voices, modify state, get current state***](/Sub-Actions/VoiceMod)
 - [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream *Change color settings, send commands***](/Sub-Actions/Lumia-Stream)
 - [<i class="mdi mdi-discord text--discord"></i> **Discord *Send webhook requests to Discord*** *v0.1.14*{.version-badge}](/Sub-Actions/Discord)
-- [<img src="/logos/ifttt.png" alt="" style="height: auto;"></img> **IFTTT *Sub-Actions to trigger IFTTT applets*** *v0.1.15*{.version-badge}](/Sub-Actions/IFTTT){.disabled}
+- [<img src="/logos/ifttt.png" alt="" style="height: auto;"></img> **IFTTT *Sub-Actions to trigger IFTTT applets*** *v0.1.15*{.version-badge}](/Sub-Actions/IFTTT)
 {.btn-grid .my-5}
 
 ## General
 All general purpose sub-actions available for use{.subtitle}
 
-- [<img src="/logos/midi.svg" alt="" style="height: auto;"></img> **MIDI *Sub-Actions to control MIDI Output devices*** *v0.1.15*{.version-badge}](/Sub-Actions/MIDI){.disabled}
+- [<img src="/logos/midi.svg" alt="" style="height: auto;"></img> **MIDI *Sub-Actions to control MIDI Output devices*** *v0.1.15*{.version-badge}](/Sub-Actions/MIDI)
 - [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Modify Streamer.bot action state***](/Sub-Actions/Actions)
 - [<i class="mdi mdi-comment-edit primary--text"></i> **Comment *Add a comment line to your sub-action stack***](/Sub-Actions/Comment)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Manage chat command state***](/Sub-Actions/Commands)
