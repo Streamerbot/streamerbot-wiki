@@ -2,8 +2,8 @@
 title: IFTTT Sub-Actions
 description: Reference of all IFTTT Sub-Actions
 published: false
-date: 2022-12-10T04:22:56.750Z
-tags: 
+date: 2022-12-22T01:30:38.393Z
+tags: v0.1.15
 editor: markdown
 dateCreated: 2022-12-10T04:15:16.884Z
 ---
