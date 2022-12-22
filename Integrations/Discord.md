@@ -2,7 +2,7 @@
 title: Discord
 description: Integrate Streamer.bot with the Discord webhooks
 published: true
-date: 2022-10-04T20:47:32.060Z
+date: 2022-12-22T16:12:12.836Z
 tags: webhooks, v0.1.14, discord
 editor: markdown
 dateCreated: 2022-09-27T10:35:28.047Z
@@ -27,7 +27,6 @@ With [Discord](https://discord.com) webhooks you can send messages to your Disco
 
 ### Streamer.bot
 1. <kbd><i class="mdi mdi-content-paste"></i> Paste</kbd> the webhook URL in the `Webhook Url` field
-
 
 ---
 
