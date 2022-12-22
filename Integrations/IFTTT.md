@@ -1,8 +1,8 @@
 ---
 title: IFTTT
 description: Trigger applets with Sub-Actions
-published: false
-date: 2022-12-14T02:02:56.837Z
+published: true
+date: 2022-12-22T16:10:21.230Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-08T08:55:20.007Z
