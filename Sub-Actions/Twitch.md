@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2022-12-09T16:55:58.718Z
+date: 2022-12-22T16:15:42.260Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -19,8 +19,8 @@ Chat message and moderation controls{.subtitle}
 - [<i class="mdi mdi-emoticon text--twitch"></i>**Emote Only *Toggle emote-only mode***](/Sub-Actions/Twitch/Emote-Only)
 - [<i class="mdi mdi-speedometer-slow text--twitch"></i>**Slow Mode *Toggle slow mode***](/Sub-Actions/Twitch/Slow-Mode)
 - [<i class="mdi mdi-account-lock text--twitch"></i>**Subscriber Only *Toggle sub-only mode***](/Sub-Actions/Twitch/Subscriber-Only)
-- [<i class="mdi mdi-shield text--twitch"></i>**Get Shield Mode Status *Gets the current shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Get-Shield-Mode-Status){.disabled}
-- [<i class="mdi mdi-shield-edit text--twitch"></i>**Update Shield Mode Status *Updates the shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Update-Shield-Mode-Status){.disabled}
+- [<i class="mdi mdi-shield text--twitch"></i>**Get Shield Mode Status *Gets the current shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Get-Shield-Mode-Status)
+- [<i class="mdi mdi-shield-edit text--twitch"></i>**Update Shield Mode Status *Updates the shield mode status*** *v0.1.15*{.version-badge}](/Sub-Actions/Twitch/Update-Shield-Mode-Status)
 {.btn-grid .my-5}
 
 ## Channel
@@ -31,7 +31,7 @@ Twitch channel & stream management{.subtitle}
 - [<i class="mdi mdi-clipboard-play text--twitch"></i> **Create Clip *Create a 30 second Twitch clip***](/Sub-Actions/Twitch/Create-Clip)
 - [<i class="mdi mdi-bookmark text--twitch"></i>**Create Stream Marker *Create a Twitch stream marker***](/Sub-Actions/Twitch/Create-Stream-Marker)
 - [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/Sub-Actions/Twitch/Run-Commercial)
-- [<i class="mdi mdi-counter text--twitch"></i>**Add Viewer Count *Add your current Twitch viewer count to your action*** *v0.1.14*{.version-badge}](/Sub-Actions/Twitch/Add-Viewer-Count)
+- [<i class="mdi mdi-counter text--twitch"></i>**Add Viewer Count *Add your current Twitch viewer count to your action***](/Sub-Actions/Twitch/Add-Viewer-Count)
 {.btn-grid .my-5}
 
 ## User Information
@@ -46,7 +46,7 @@ Fetch information about specific users{.subtitle}
 
 ## Additional Sub-Actions
 
-- [<i class="mdi mdi-charity text--twitch"></i>**Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add it to your action*** *v0.1.14*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Charity-Campaign)
+- [<i class="mdi mdi-charity text--twitch"></i>**Get Latest Charity Campaign *fetch your latest Twitch Charity campaign and add it to your action***](/Sub-Actions/Twitch/Get-Latest-Charity-Campaign)
 {.btn-grid .my-5}
 
 ## Channel Point Rewards
