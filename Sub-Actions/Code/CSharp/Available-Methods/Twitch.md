@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-12-05T22:24:16.684Z
+date: 2022-12-22T16:40:57.643Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -23,41 +23,29 @@ void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
 ```
 
-> Changed `void` to `bool` in v0.1.14
-{.is-info}
 ```csharp
 bool SendWhisper(string userName, string message);
 ```
 
 ## Moderator
-> Requires minimum version v0.1.14
-{.is-info}
 ```csharp
 bool TwitchAddModerator(string userName);
 bool TwitchRemoveModerator(string userName);
 ```
 
 ## Vip
-> Requires minimum version v0.1.14
-{.is-info}
 ```csharp
 bool TwitchAddVip(string userName);
 bool TwitchRemoveVip(string userName);
 ```
 
 ## Messages
-> Requires minimum version v0.1.14
-{.is-info}
-
 ```csharp
 bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
 ```
 
 ## Timeouts / Bans
-> Requires minimum version v0.1.14
-{.is-info}
-
 ```csharp
 bool TwitchBanUser(string userName, string reason = null, bool bot = false);
 bool TwitchUnbanUser(string userName, bool bot = false);
