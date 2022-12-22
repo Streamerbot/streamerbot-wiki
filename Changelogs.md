@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-22T01:15:12.743Z
+date: 2022-12-22T03:55:44.630Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -88,6 +88,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add new setting to customize the color of a disabled sub-action
 * Add new setting to customize the color of a comment sub-action
 * Add color setting to comment sub-action to be able to override application default
+* New Twitch sub-action [Follow Mode](#twitch-follow-mode), and C# Method
 {.changelog-new}
 
 ## MIDI Support
@@ -176,6 +177,11 @@ In the bottom right hand corner of **Streamer.bot**, there is now an indicator t
 
 ![service-status.png](/service-status.png)
 
+## New Sub-actions
+
+### Twitch Follow Mode
+Turn follow mode on, or off with the new sub-action, or by the new C# method
+
 ## New C# Methods
 
 ```csharp
@@ -186,6 +192,9 @@ bool TwitchCancelRaid();
 > There is no way, by API to send a raid yet, can only create, and cancel a raid
 {.is-info}
 
+```csharp
+void TwitchFollowMode(bool enabled = true, int duration = 0);
+```
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
