@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2022-11-14T23:02:14.004Z
+date: 2022-12-22T16:37:49.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -38,5 +38,6 @@ Events from configured Streamer.bot [Integrations](/Integrations) {.subtitle}
 - [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate events***](/Integrations/Pulsoid)
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donation events***](/Integrations/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery events***](/Integrations/TreatStream)
+- [<img src="/logos/ifttt.png"/>**IFTTT *Trigger applets with Sub-Actions*** *v0.1.15*{.version-badge}](/Integrations/IFTTT)
 - [<img src="https://streamer.bot/logo.png"/>**Streamer.bot Website *All events handled through the streamer.bot website***](/Integrations/Streamer-bot)
 {.btn-grid .my-5}
