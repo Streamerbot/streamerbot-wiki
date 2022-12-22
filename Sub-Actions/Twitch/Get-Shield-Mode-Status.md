@@ -1,8 +1,8 @@
 ---
 title: Get Shield Mode Status
 description: Twitch Sub-Actions Reference
-published: false
-date: 2022-12-06T09:51:33.681Z
+published: true
+date: 2022-12-22T16:14:46.546Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-05T09:35:30.752Z
