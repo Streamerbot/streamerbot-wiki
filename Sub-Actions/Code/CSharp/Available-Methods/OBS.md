@@ -2,7 +2,7 @@
 title: OBS Studio
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:56:46.806Z
+date: 2022-12-22T16:39:57.873Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:56:46.806Z
@@ -105,9 +105,6 @@ long ObsConvertRgb(int a, int r, int g, int b);
 long ObsConvertColorHex(string colorHex);
 ```
 
-> Requires a minimum of v0.1.14
-{.is-info}
-
 ```csharp
 void ObsSetColorSourceColor(string scene, string source, int a, int r, int g, int b, int connection = 0);
 void ObsSetColorSourceColor(string scene, string source, string hexColor, int connection = 0);
@@ -138,8 +135,6 @@ void ObsSetImageSourceFile(string scene, string source, string file, int connect
 ```
 
 ## Screenshot
-> Requires a minimum of v0.1.14
-{.is-info}
 ```csharp
 bool ObsTakeScreenshot(string scene, string source, string path, int quality = -1, int connection = 0);
 ```
