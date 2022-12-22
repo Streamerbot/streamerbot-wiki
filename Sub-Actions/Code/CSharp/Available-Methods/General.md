@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-12-05T15:20:38.211Z
+date: 2022-12-22T16:41:50.155Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -47,9 +47,6 @@ bool RunActionById(string actionId, bool runImmediately = true);
 void DisableAction(string actionName);
 void EnableAction(string actionName);
 ```
-
-> Requires minimum version 0.1.14
-{.is-info}
 
 ```csharp
 bool ActionExists(string actionName);
@@ -111,6 +108,7 @@ void EnableTimer(string timerName);
 
 ## Variables
 set an argument to be used in subsequent sub-actions{.subtitle}
+
 ```csharp
 void SetArgument(string variableName, object value);
 ```
