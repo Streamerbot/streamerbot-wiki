@@ -2,7 +2,7 @@
 title: IFTTT
 description: Trigger applets with Sub-Actions
 published: true
-date: 2022-12-22T16:10:21.230Z
+date: 2022-12-22T16:12:47.613Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-08T08:55:20.007Z
@@ -28,3 +28,8 @@ Name | Description
 2. With the `Then That` choose Streamer.bot.
 3. **Login** with the **Streamer.bot Website** in **IFTTT** and in the **Streamer.bot application**.
 4. Choose your Streamer.bot action and run it with IFTTT!
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+{.btn-grid .my-5}
