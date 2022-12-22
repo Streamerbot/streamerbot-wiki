@@ -2,14 +2,12 @@
 title: Lumia Stream
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T21:03:12.644Z
+date: 2022-12-22T16:38:59.710Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T21:03:12.644Z
 ---
 
-> All of these require a minimum of version 0.1.14
-{.is-info}
 ## Set To Default
 ```csharp
 void LumiaSetToDefault();
