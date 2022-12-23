@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-23T10:12:48.810Z
+date: 2022-12-23T10:15:21.270Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -174,7 +174,7 @@ In the bottom right hand corner of **Streamer.bot**, there is now an indicator t
 ### Twitch Follow Mode
 Turn follow mode on, or off with the new sub-action, or by the new [C# method](#new-c-methods)
 
-## MIDI Out Sub-Actions
+### MIDI Out Sub-Actions
 * Control Change
 * Note On
 * Generic Event
