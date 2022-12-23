@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-20T00:07:44.391Z
+date: 2022-12-23T10:27:30.624Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -116,87 +116,87 @@ This request will get you a list of all events that may be emitted
 
 ```json
 {
-  "events": {
-    "application": [
+  "events":{
+    "application":[
       "ActionAdded",
       "ActionUpdated",
       "ActionDeleted"
     ],
-    "command": [
+    "command":[
       "Message",
       "Whisper",
       "MessageCooldown",
       "BotWhisper"
     ],
     "donorDrive":[
-         "Donation",
-         "ProfileUpdated"
-      ],
-    "fileWatcher": [
+      "Donation",
+      "ProfileUpdated"
+    ],
+    "fileWatcher":[
       "Changed",
       "Created",
       "Deleted",
       "Renamed"
     ],
-    "general": [
+    "general":[
       "Custom"
     ],
     "hypeRate":[
-         "HeartRatePulse"
-      ],
+      "HeartRatePulse"
+    ],
     "kofi":[
-         "Donation",
-         "Subscription",
-         "Resubscription",
-         "ShopOrder",
-         "Commission"
-      ],
-    "misc": [
+      "Donation",
+      "Subscription",
+      "Resubscription",
+      "ShopOrder",
+      "Commission"
+    ],
+    "misc":[
       "TimedAction",
       "PyramidSuccess",
       "PyramidBroken"
     ],
     "patreon":[
-         "FollowCreated",
-         "FollowDeleted",
-         "PledgeCreated",
-         "PledgeUpdated",
-         "PledgeDeleted"
-      ],
-      "pulsoid":[
-         "HeartRatePulse"
-      ],
-    "quote": [
+      "FollowCreated",
+      "FollowDeleted",
+      "PledgeCreated",
+      "PledgeUpdated",
+      "PledgeDeleted"
+    ],
+    "pulsoid":[
+      "HeartRatePulse"
+    ],
+    "quote":[
       "Added",
       "Show"
     ],
-    "raw": [
+    "raw":[
       "Action",
       "SubAction"
     ],
     "shopify":[
-         "OrderCreated",
-         "OrderPaid"
-      ],
-    "speechToText": [
+      "OrderCreated",
+      "OrderPaid"
+    ],
+    "speechToText":[
       "Dictation",
       "Command"
     ],
-    "streamElements": [
+    "streamElements":[
       "Tip",
       "Merch"
     ],
-    "streamlabs": [
+    "streamlabs":[
       "Donation",
       "Merchandise"
     ],
     "tipeeeStream":[
-         "Donation"
-      ],
-      "treatStream":[
-         "Treat"
-      ],
-    "twitch": [
+      "Donation"
+    ],
+    "treatStream":[
+      "Treat"
+    ],
+    "twitch":[
       "Follow",
       "Cheer",
       "Sub",
@@ -242,37 +242,37 @@ This request will get you a list of all events that may be emitted
       "ShoutoutCreated",
       "UserUntimedOut"
     ],
-    "websocketClient": [
+    "websocketClient":[
       "Open",
       "Close",
       "Message"
     ],
-    "websocketCustomServer": [
+    "websocketCustomServer":[
       "Open",
       "Close",
       "Message"
     ],
     "youTube":[
-         "BroadcastStarted",
-         "BroadcastEnded",
-         "Message",
-         "MessageDeleted",
-         "UserBanned",
-         "SuperChat",
-         "SuperSticker",
-         "NewSponsor",
-         "MemberMileStone",
-         "NewSponsorOnlyStarted",
-         "NewSponsorOnlyEnded",
-         "StatisticsUpdated",
-         "BroadcastUpdated",
-         "MembershipGift",
-         "GiftMembershipReceived",
-         "FirstWords"
-      ]
+      "BroadcastStarted",
+      "BroadcastEnded",
+      "Message",
+      "MessageDeleted",
+      "UserBanned",
+      "SuperChat",
+      "SuperSticker",
+      "NewSponsor",
+      "MemberMileStone",
+      "NewSponsorOnlyStarted",
+      "NewSponsorOnlyEnded",
+      "StatisticsUpdated",
+      "BroadcastUpdated",
+      "MembershipGift",
+      "GiftMembershipReceived",
+      "FirstWords"
+    ]
   },
-  "status": "ok",
-  "id": "<id>"
+  "status":"ok",
+  "id":"<id>"
 }
 ```
 
