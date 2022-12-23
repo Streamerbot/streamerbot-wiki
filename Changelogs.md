@@ -2,64 +2,64 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-22T03:55:44.630Z
+date: 2022-12-23T10:00:56.798Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.15 (WIP)
- Upcoming changes in the next release!{.subtitle}
- 
- * Misc fixes/tweaks
- * Testing OBS Raw should no longer crash if the call to OBS errors
- * Twitch artifical present viewers tick could return YouTube users as well
- * Double clicking on a Channel Reward when not connected to Twitch would cause a crash
- * Double clicking in empty area, or headers in inspect variable dialog would cause a crash
- * Right clicking in empty area, or headers in inspect variable dialog would cause a crash
- * Add a check for OBS port being out of range
- * Add a check for a possible null ref in loading 7TV emotes
- * Fix being able to drag sub-action groups into groups
- * First pass of networking code improvements
- * Prevent channel reward costs from exceeding 2,147,483,647 points
- * Fix possible crash when exporting actions
- * Fix OBS Event dialog not validating correctly when editing an event
- * Fix Quotes not being removed in the UI
- * Fix Twitch Gift Sub Bomb test not using the correct anonymous check box
- * Fix Anonymous Twitch Gift Bomb causing a silent crash
- {.changelog-fixes}
+# Streamer.bot v0.1.15 (Current)
+Released 2022-12-22{.subtitle}
+
+* Misc fixes/tweaks
+* Testing OBS Raw should no longer crash if the call to OBS errors
+* Twitch artificial present viewers tick could return YouTube users as well
+* Double clicking on a Channel Reward when not connected to Twitch would cause a crash
+* Double clicking in empty area, or headers in inspect variable dialog would cause a crash
+* Right clicking in empty area, or headers in inspect variable dialog would cause a crash
+* Add a check for OBS port being out of range
+* Add a check for a possible null ref in loading 7TV emotes
+* Fix being able to drag sub-action groups into groups
+* First pass of networking code improvements
+* Prevent channel reward costs from exceeding 2,147,483,647 points
+* Fix possible crash when exporting actions
+* Fix OBS Event dialog not validating correctly when editing an event
+* Fix Quotes not being removed in the UI
+* Fix Twitch Gift Sub Bomb test not using the correct anonymous check box
+* Fix Anonymous Twitch Gift Bomb causing a silent crash
+{.changelog-fixes}
 
 <span></span>
 
- * Add the ability to change the avatar image for the Basic Discord Hook
- * Update `CPH.TwitchRunCommercial(...)` to return a `bool`, `True` if it was successful, `False` otherwise
- * Add option to disable auto completion of braces and quotes in `Execute C# Code` editor, default is enabled
- * Add `firstMessage` argument to `Twitch First Words` event
- * Update arguments for `Twitch First Words` event to be more like a chat message event since they are near identical
- * Update the Websocket message that is broadcast for a `Twitch First Words` event, this could be a breaking change
- * Discord Webhook sub-action now supports `%variables%` for the webhook url, URL check is performed when sub-action is run now
- * Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
- * Prevent empty messages, and messages longer than 500 characters from being sent to Twitch, they will be logged
- * Command settings have been split from the main settings file into their own file
- * Twitch Accunt tab has a new look
- * Split various Twitch services, so when one is disconnected, it won't bring them all down
- * Lumia Stream Set Color sub-action now supports variables for the color
- * Split auth tokens into separate file, reducing how often main settings is saved
- * Convert globals file to new database file, this should be transparent for most users
- * For twitch events that provide the user's color, if it is not set, do not add the color variable
- * Added new library to make use of [Twitch EventSub](#twitch-eventsub), a handful of events are moved over to this service now
- * Some Twitch specific user data has been moved to its own database, this includes channel reward redeems and pyramid creations/breakings. This will drastically lower the file size of the users.dat file
- * Twitch Rewards have been moved to their own data file
- * Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
- * Some tweaks to Patreon events that come through the Streamer.bot website
- * Tab order of Actions dialog and Twitch CHannel Rewards dialog have been updated
- * Show `<null>` in the Inspect Variable dialog, when the value is null, instead of an empty space
- * Update visual display of LogicIf sub-action, else will always show now
- * Update Twitch Gift Sub Bomb test to send out gift subs that match the Gift Bomb event
- * Still send Websocket message for Twitch gift subs that come from a sub bomb even if they're ignored
- * Set Voice Control Command sub-action can now change any voice control command type, instead of `Anywhere` only
- * Update tab order for most dialogs
- {.changelog-updates}
+* Add the ability to change the avatar image for the Basic Discord Hook
+* Update `CPH.TwitchRunCommercial(...)` to return a `bool`, `True` if it was successful, `False` otherwise
+* Add option to disable auto completion of braces and quotes in `Execute C# Code` editor, default is enabled
+* Add `firstMessage` argument to `Twitch First Words` event
+* Update arguments for `Twitch First Words` event to be more like a chat message event since they are near identical
+* Update the Websocket message that is broadcast for a `Twitch First Words` event, this could be a breaking change
+* Discord Webhook sub-action now supports `%variables%` for the Webhook URL, URL check is performed when sub-action is run now
+* Prevent empty messages, and messages longer than 200 characters from being sent to YouTube, they will be logged
+* Prevent empty messages, and messages longer than 500 characters from being sent to Twitch, they will be logged
+* Command settings have been split from the main settings file into their own file
+* Twitch Account tab has a new look
+* Split various Twitch services, so when one is disconnected, it won't bring them all down
+* Lumia Stream Set Color sub-action now supports variables for the color
+* Split auth tokens into separate file, reducing how often main settings is saved
+* Convert globals file to new database file, this should be transparent for most users
+* For twitch events that provide the user's color, if it is not set, do not add the color variable
+* Added new library to make use of [Twitch EventSub](#twitch-eventsub), a handful of events are moved over to this service now
+* Some Twitch specific user data has been moved to its own database, this includes channel point rewards redeems and pyramid creations breakings. This will drastically lower the file size of the users.dat file
+* Twitch Rewards have been moved to their own data file
+* Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
+* Some tweaks to Patreon events that come through the Streamer.bot website
+* Tab order of Actions dialog and Twitch Channel Rewards dialog have been updated
+* Show `<null>` in the Inspect Variable dialog, when the value is null, instead of an empty space
+* Update visual display of Logic If sub-action, else will always show now
+* Update Twitch Gift Sub Bomb test to send out gift subs that match the Gift Bomb event
+* Still send Websocket message for Twitch gift subs that come from a sub bomb even if they're ignored
+* Set Voice Control Command sub-action can now change any voice control command type, instead of `Anywhere` only
+* Update tab order for most dialogs
+{.changelog-updates}
  
 <span></span>
 
@@ -68,7 +68,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add 3 new sub-actions for MIDI Out, `Note On`, `Control Change` and `Generic`
 * [Batch request](#obs-websocket-v5x-batch-requests) support for v5.x OBS Raw sub-action
 * Add 3 new comparison options for `Logic If` sub-action, `Equals (Ignore Case)`, `Not Equals (Ignore Case)` and `Is Null or Empty`, data is assumed to be a string
-* Add an artifical Present Viewers tick to YouTube
+* Add an artificial Present Viewers tick to YouTube
 * Add a setting to name your instance of **Streamer.bot**
 * Add a `Connected` and `Disconnected` event to an OBS Websocket Connection
 * Add option to `Execute C# Code` to save the result (`true/false`) to a variable
@@ -84,7 +84,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add a new Twitch Event, Ad Mid-Roll, this event typically fires 5s before an ad runs
 * New [Service Status](#service-status) indicator in the status bar of Streamer.bot
 * Add a Decrement option to the Global (Set) sub-action
-* Add header options to FetchUrl sub-action
+* Add header options to Fetch URL sub-action
 * Add new setting to customize the color of a disabled sub-action
 * Add new setting to customize the color of a comment sub-action
 * Add color setting to comment sub-action to be able to override application default
@@ -95,7 +95,6 @@ dateCreated: 2021-08-25T21:51:24.140Z
 Yes, you read the correctly, as of **Streamer.bot** v0.1.15, there will be MIDI support!
 
 ### MIDI In
-
 So, it will now be possible to run actions by using your MIDI Piano, and MIDI synth, oh, even your MIDI wind instrument, or anything that supports MIDI!
 
 When adding an `Event`, you will be able to just press the key, turn the knob, or flick the wheel to have it auto populate all the settings for you.
@@ -119,8 +118,7 @@ To get started with MIDI follow these steps:
 2. Pick your device from the drop down, and give it a name, and click Ok
 3. Select the device you just added
 4. Right click anywhere in the bottom list, and Add an event.
-5. With the Add Event dialog open, you can pr
-ess any of the keys on your device to have it fill in all the data for you and show an example of what the arguments will look like.
+5. With the Add Event dialog open, you can press any of the keys on your device to have it fill in all the data for you and show an example of what the arguments will look like.
 
 ### MIDI Out
 The other side of MIDI, being able to send MIDI events out to your devices or DAWs.
@@ -178,19 +176,18 @@ In the bottom right hand corner of **Streamer.bot**, there is now an indicator t
 ![service-status.png](/service-status.png)
 
 ## New Sub-actions
-
 ### Twitch Follow Mode
 Turn follow mode on, or off with the new sub-action, or by the new C# method
 
 ## New C# Methods
+> There is no way, by API to send a raid yet, can only create, and cancel a raid
+{.is-info}
 
 ```csharp
 bool TwitchStartRaidById(string userId);
 bool TwitchStartRaidByName(string userName);
 bool TwitchCancelRaid();
 ```
-> There is no way, by API to send a raid yet, can only create, and cancel a raid
-{.is-info}
 
 ```csharp
 void TwitchFollowMode(bool enabled = true, int duration = 0);
@@ -198,13 +195,13 @@ void TwitchFollowMode(bool enabled = true, int duration = 0);
 
 ## OBS Websocket v5.x Batch Requests
 You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
-```js
+```json
 {
   "haltOnFailure": false,
   "executionType": -1
   "requests": [
     {
-      "requestType": <string>,
+      "requestType": "<string>",
       "requestData": { ... }
     }
   ]
@@ -217,8 +214,7 @@ Name | Description
 `executionType` | A number value, `-1`, `0`, `1`, `2` to indicate how to perform the requests, default is `-1` and can be omitted
 `requests` | This is the array of your requests, each request takes on the same format as a single request
 
-
-# Streamer.bot v0.1.14 (Current)
+# Streamer.bot v0.1.14
 Released 2022-10-27{.subtitle}
  
 * Typos
