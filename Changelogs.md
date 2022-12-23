@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-23T10:15:21.270Z
+date: 2022-12-23T15:24:18.670Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -140,7 +140,7 @@ Twitch updated there eventsub to support websocket connections, so after trialin
 * Twitch Prediction Events
 * Twitch Channel Reward Events
 * Twitch Follow Event
-* Twitch HypeTrain Events
+* Twitch Hype Train Events
 * Twitch Charity Events (**improved and some new**)
 * Twitch Channel Goals (**new**)
 * Twitch Shield Mode (**new**)
@@ -151,14 +151,14 @@ Despite there already being support for Twitch Charity Donate, switching over to
 ### Twitch Channel Goals
 These are the goals you can configure, new follower goal, subscription goal, etc.  Now you can get udpates on these by way of 3 new events, Goal Begin, Goal Progress and Goal End
 
-### Twitch HypeTrain Events
+### Twitch Hype Train Events
 The hype train events have been altered slightly, and are no longer restricted to 5 levels, they can go on forever now.  The calculations for % complete have also been tweaked and hopefully are more accurate now.
 
 ### Twitch Channel Reward Events
 These events mostly remain unchanged, there is a slight re-organization of data, but is ver minimal.
 
 ### Twitch Shield Mode Events
-There are 2 new events for Twitch's Shield Mode, Begin and End.  YOu can assign actions to these and have your stream react when your Shield Mode is enabled/disabled.
+There are 2 new events for Twitch's Shield Mode, Begin and End. You can assign actions to these and have your stream react when your Shield Mode is enabled/disabled.
 
 ### Twitch Prediction and Poll Events
 Largely remain unchanged from the previous events.
@@ -195,7 +195,7 @@ void TwitchFollowMode(bool enabled = true, int duration = 0);
 ```
 
 ## OBS Websocket v5.x Batch Requests
-You cna now perform batch requests to a v5.x obs-websocket with OBS Raw
+You can now perform batch requests to a v5.x obs-websocket with OBS Raw
 ```json
 {
   "haltOnFailure": false,
