@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-23T10:00:56.798Z
+date: 2022-12-23T10:02:23.231Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -48,7 +48,7 @@ Released 2022-12-22{.subtitle}
 * Convert globals file to new database file, this should be transparent for most users
 * For twitch events that provide the user's color, if it is not set, do not add the color variable
 * Added new library to make use of [Twitch EventSub](#twitch-eventsub), a handful of events are moved over to this service now
-* Some Twitch specific user data has been moved to its own database, this includes channel point rewards redeems and pyramid creations breakings. This will drastically lower the file size of the users.dat file
+* Some Twitch specific user data has been moved to its own database, this includes channel point rewards redeems and pyramid `creations`/`breakings`. This will drastically lower the file size of the users.dat file
 * Twitch Rewards have been moved to their own data file
 * Twitch Reward Configure sub-action, now sends calls all at once instead of waiting for results
 * Some tweaks to Patreon events that come through the Streamer.bot website
