@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-23T10:02:23.231Z
+date: 2022-12-23T10:04:02.400Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -1204,11 +1204,6 @@ View changelogs for older releases{.subtitle}
 * [Streamer.bot 0.0.52](/en/Changelogs/Archives/Version-0052)
 * [Streamer.bot 0.0.51](/en/Changelogs/Archives/Version-0051)
 * [Streamer.bot 0.0.50](/en/Changelogs/Archives/Version-0050)
-* [Streamer.bot 0.0.49](/en/Changelogs/Archives/Version-0049)
-* [Streamer.bot 0.0.48](/en/Changelogs/Archives/Version-0048)
-* [Streamer.bot 0.0.47](/en/Changelogs/Archives/Version-0047)
-* [Streamer.bot 0.0.46](/en/Changelogs/Archives/Version-0046)
-* [Streamer.bot 0.0.45](/en/Changelogs/Archives/Version-0045)
 * [Streamer.bot 0.0.44](/en/Changelogs/Archives/Version-0044)
 * [Streamer.bot 0.0.43](/en/Changelogs/Archives/Version-0043)
 * [Streamer.bot 0.0.42](/en/Changelogs/Archives/Version-0042)
