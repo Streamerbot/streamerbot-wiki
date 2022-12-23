@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-23T10:27:30.624Z
+date: 2022-12-23T10:29:43.103Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -116,87 +116,87 @@ This request will get you a list of all events that may be emitted
 
 ```json
 {
-  "events":{
-    "application":[
+  "events": {
+    "application": [
       "ActionAdded",
       "ActionUpdated",
       "ActionDeleted"
     ],
-    "command":[
+    "command": [
       "Message",
       "Whisper",
       "MessageCooldown",
       "BotWhisper"
     ],
-    "donorDrive":[
+    "donorDrive": [
       "Donation",
       "ProfileUpdated"
     ],
-    "fileWatcher":[
+    "fileWatcher": [
       "Changed",
       "Created",
       "Deleted",
       "Renamed"
     ],
-    "general":[
+    "general": [
       "Custom"
     ],
-    "hypeRate":[
+    "hypeRate": [
       "HeartRatePulse"
     ],
-    "kofi":[
+    "kofi": [
       "Donation",
       "Subscription",
       "Resubscription",
       "ShopOrder",
       "Commission"
     ],
-    "misc":[
+    "misc": [
       "TimedAction",
       "PyramidSuccess",
       "PyramidBroken"
     ],
-    "patreon":[
+    "patreon": [
       "FollowCreated",
       "FollowDeleted",
       "PledgeCreated",
       "PledgeUpdated",
       "PledgeDeleted"
     ],
-    "pulsoid":[
+    "pulsoid": [
       "HeartRatePulse"
     ],
-    "quote":[
+    "quote": [
       "Added",
       "Show"
     ],
-    "raw":[
+    "raw": [
       "Action",
       "SubAction"
     ],
-    "shopify":[
+    "shopify": [
       "OrderCreated",
       "OrderPaid"
     ],
-    "speechToText":[
+    "speechToText": [
       "Dictation",
       "Command"
     ],
-    "streamElements":[
+    "streamElements": [
       "Tip",
       "Merch"
     ],
-    "streamlabs":[
+    "streamlabs": [
       "Donation",
       "Merchandise"
     ],
-    "tipeeeStream":[
+    "tipeeeStream": [
       "Donation"
     ],
-    "treatStream":[
+    "treatStream": [
       "Treat"
     ],
-    "twitch":[
+    "twitch": [
       "Follow",
       "Cheer",
       "Sub",
@@ -242,17 +242,17 @@ This request will get you a list of all events that may be emitted
       "ShoutoutCreated",
       "UserUntimedOut"
     ],
-    "websocketClient":[
+    "websocketClient": [
       "Open",
       "Close",
       "Message"
     ],
-    "websocketCustomServer":[
+    "websocketCustomServer": [
       "Open",
       "Close",
       "Message"
     ],
-    "youTube":[
+    "youTube": [
       "BroadcastStarted",
       "BroadcastEnded",
       "Message",
@@ -271,8 +271,8 @@ This request will get you a list of all events that may be emitted
       "FirstWords"
     ]
   },
-  "status":"ok",
-  "id":"<id>"
+  "status": "ok",
+  "id": "<id>"
 }
 ```
 
