@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-23T10:04:54.136Z
+date: 2022-12-23T10:12:48.810Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -125,11 +125,6 @@ The other side of MIDI, being able to send MIDI events out to your devices or DA
 
 Much like MIDI In, you create a device mapping within Streamer.bot, and you can use 1 of 3 new sub-actions to send MIDI events.
 
-#### New Sub-Actions
-* Control Change
-* Note On
-* Generic
-
 ## New Twitch Broadcaster Scopes
 * `channel:manage:raids`
 * `channel:read:hype_train`
@@ -177,7 +172,13 @@ In the bottom right hand corner of **Streamer.bot**, there is now an indicator t
 
 ## New Sub-actions
 ### Twitch Follow Mode
-Turn follow mode on, or off with the new sub-action, or by the new C# method
+Turn follow mode on, or off with the new sub-action, or by the new [C# method](#new-c-methods)
+
+## MIDI Out Sub-Actions
+* Control Change
+* Note On
+* Generic Event
+{.grid-list}
 
 ## New C# Methods
 > There is no way, by API to send a raid yet, can only create, and cancel a raid
@@ -435,7 +436,6 @@ There are 2 new events within **Streamer.bot** that you can associate an action 
 The best way to check the variables, is to setup your webhooks, and assign an empty action, then check the available variables in the `Action History` tab under `Action Queues`
 
 ## New Sub-actions
-
 ### OBS Set Color Source Color
 
 Added a new sub-action that lets you set the color of a color source within OBS.  All fields support `%variable%` replacement, and there is an option to just set a random color.
@@ -490,7 +490,6 @@ Username, and image are also optional
 ![discord-basic-webhook-02.png](/discord-basic-webhook-02.png)
 
 ## New C# Methods
-
 Add the following new C# methods
 
 ### Logging
@@ -732,8 +731,8 @@ There is a new event that will be triggered when an ad is run on your channel.
 
 Name | Description
 ----:|:------------
-| `%adLength%` | The length of the ad in seconds |
-| `%adScheduled%` | If this ad was a scheduled ad |
+`%adLength%` | The length of the ad in seconds
+`%adScheduled%` | If this ad was a scheduled ad
 
 # Streamer.bot v0.1.9
 Released 2022-06-16{.subtitle}
@@ -1080,8 +1079,8 @@ The Heart Rate event happens every second while data is being transmitted from P
 
 Name | Description
 ----:|:------------
-| `%measuredAt%` | Time the measurement was taken |
-| `%heartRate%` | Heart Rate value |
+`%measuredAt%` | Time the measurement was taken
+`%heartRate%` | Heart Rate value
 
 ## HypeRate Integration
 
@@ -1091,7 +1090,7 @@ The Heart Rate event happens every second while data is being transmitted from H
 
 Name | Description
 ----:|:------------
-| `%heartRate%` | Heart Rate value |
+`%heartRate%` | Heart Rate value
 
 ## StreamElements
 
