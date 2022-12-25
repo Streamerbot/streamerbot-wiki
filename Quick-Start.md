@@ -2,7 +2,7 @@
 title: Quick Start Guide
 description: A Few Quick Tips and Examples to get you started
 published: true
-date: 2022-12-11T18:19:12.322Z
+date: 2022-12-25T13:34:39.003Z
 tags: guides, quick-start
 editor: markdown
 dateCreated: 2022-01-20T12:18:32.710Z
@@ -30,7 +30,7 @@ Supported broadcasting software includes OBS Studio, Streamlabs Desktop, and Pol
 
 **OBS Studio** is highly recommended.
 
-- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **OBS Studio *Enable remote control of OBS from Streamer.bot***](/Quick-Start/OBS)
+- [<img src="https://streamer.bot/img/integrations/obs.svg" /> **OBS Studio *Enable remote control of OBS Studio from Streamer.bot***](/Quick-Start/OBS)
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png" /> **Streamlabs Desktop *Enable remote control of Streamlabs Desktop from Streamer.bot***](/Quick-Start/Streamlabs-Desktop)
 - [<img src="https://streamer.bot/img/integrations/polypop.png"/>**PolyPop *Enable remote control of PolyPop from Streamer.bot*** *Soon!*{.version-badge}](/Quick-Start/PolyPop){.disabled}
 {.btn-grid .my-5}
