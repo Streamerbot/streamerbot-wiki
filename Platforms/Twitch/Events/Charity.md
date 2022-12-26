@@ -2,46 +2,86 @@
 title:  Charity
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:24:26.354Z
+date: 2022-12-26T13:49:30.061Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-09-26T15:58:17.808Z
 ---
 
 ## Variables
-### Donation Event
-The donation event occurs when someone has donated to your charity.
+> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
+{.is-warning}
 
-Variable that are included are as follows:
+### Donation Event
+The Donation event occurs when someone has donated to your charity.
 
 Name | Description
 ----:|:------------
-`baseAmount` | The amount of the donation as a whole number
-`donationAmount` | The amount of the donation in decimal form
-`charity.name` | The name of the charity you are supporting
-`currency.code` | The 3 letter ISO currency code
-`currency.exponent` | Divide base amount by 10 to the power of this number to get the decimal value
+`charity.amount.value` | The amount of the donation in decimal form e.g. `5.25` ($5.25).
+`charity.amount.valueMinor` | The amount of the donation in non-decimal form e.g. `525` ($5.25).
+`charity.amount.currency` | The 3 letter ISO currency code.
+`charity.campaignId` | Twitch's internal ID for your campaign.
+`charity.name` | The name of the charity you're supporting.
+`charity.description` | The description of the charity you're supporting.
+`charity.logo` | The URL to the logo of the charity you're supporting.
+`charity.website` | The URL to the website of the charity you're supporting.
 {.vars-table}
 
-> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
-{.is-warning}
+### Started Event
+The Started event occurs when your charity event starts.
+
+Name | Description
+----:|:------------
+`charity.startedAt` | The time and date the charity event started, format: `MM/dd/yyyy h:m:ss tt`.
+`charity.currentAmount.value` | The current amount of the money raised in decimal form e.g. `5.25` ($5.25).
+`charity.currentAmount.valueMinor` | The current amount of the money raised in non-decimal form e.g. `525` ($5.25).
+`charity.currentAmount.currency` | The 3 letter ISO currency code for the current amount of money raised.
+`charity.targetAmount.value` | The target amount of the money to be raised in decimal form e.g. `20` ($20.00).
+`charity.targetAmount.valueMinor` | The target amount of the money to be raised in non-decimal form e.g. `2000` ($20.00).
+`charity.targetAmount.currency` | The 3 letter ISO currency code for the target amount of money to be raised.
+`charity.id` | Twitch's internal ID for your campaign.
+`charity.name` | The name of the charity you're supporting.
+`charity.description` | The description of the charity you're supporting.
+`charity.logo` | The URL to the logo of the charity you're supporting.
+`charity.website` | The URL to the website of the charity you're supporting.
+{.vars-table}
+
+### Progress Event
+The donation event occurs when your charity event progresses.
+
+Name | Description
+----:|:------------
+`charity.currentAmount.value` | The current amount of the money raised in decimal form e.g. `5.25` ($5.25).
+`charity.currentAmount.valueMinor` | The current amount of the money raised in non-decimal form e.g. `525` ($5.25).
+`charity.currentAmount.currency` | The 3 letter ISO currency code for the current amount of money raised.
+`charity.targetAmount.value` | The target amount of the money to be raised in decimal form e.g. `20` ($20.00).
+`charity.targetAmount.valueMinor` | The target amount of the money to be raised in non-decimal form e.g. `2000` ($20.00).
+`charity.targetAmount.currency` | The 3 letter ISO currency code for the target amount of money to be raised.
+`charity.id` | Twitch's internal ID for your campaign.
+`charity.name` | The name of the charity you're supporting.
+`charity.description` | The description of the charity you're supporting.
+`charity.logo` | The URL to the logo of the charity you're supporting.
+`charity.website` | The URL to the website of the charity you're supporting.
+{.vars-table}
 
 ### Completed Event
-When donations come through, a check is made if your current donation amount matches what your goal is, and will send a compelted event if this is true.
-
-Variable that are included are as follows:
+When donations come through, a check is made if your current donation amount matches what your goal is, and will send a completed event if this is true.
 
 Name | Description
 ----:|:------------
-`charity.id` | Twitch's internal ID for your campaign
-`charity.timestamp` | The timestamp of the event
-`charity.currency` | The 3 letter ISO currency code
-`charity.donationTotal` | How much you have raised so far, asa  whole number
-`charity.goalTarget` | Your campaign's target amount as a whole number
+`charity.stoppedAt` | The time and date the charity event completed, format: `MM/dd/yyyy h:m:ss tt`.
+`charity.currentAmount.value` | The current amount of the money raised in decimal form e.g. `5.25` ($5.25).
+`charity.currentAmount.valueMinor` | The current amount of the money raised in non-decimal form e.g. `525` ($5.25).
+`charity.currentAmount.currency` | The 3 letter ISO currency code for the current amount of money raised.
+`charity.targetAmount.value` | The target amount of the money to be raised in decimal form e.g. `20` ($20.00).
+`charity.targetAmount.valueMinor` | The target amount of the money to be raised in non-decimal form e.g. `2000` ($20.00).
+`charity.targetAmount.currency` | The 3 letter ISO currency code for the target amount of money to be raised.
+`charity.id` | Twitch's internal ID for your campaign.
+`charity.name` | The name of the charity you're supporting.
+`charity.description` | The description of the charity you're supporting.
+`charity.logo` | The URL to the logo of the charity you're supporting.
+`charity.website` | The URL to the website of the charity you're supporting.
 {.vars-table}
-
-> Twitch is providing amount values for Charity calls as whole numbers, so $42.00 will return as 4200.
-{.is-warning}
 
 ---
 
