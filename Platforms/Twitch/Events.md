@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2022-12-18T18:42:38.341Z
+date: 2022-12-26T13:49:56.133Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -20,7 +20,7 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-comment-outline text--twitch"></i> **Chat Message *Receival of Chat Messages in the Broadcaster's chat***](/Platforms/Twitch/Events/Chat-Message)
 - [<i class="mdi mdi-account-voice text--twitch"></i> **Whispers *When you receive a non-command whisper***](/Platforms/Twitch/Events/Whispers)
 - [<i class="mdi mdi-bullhorn text--twitch"></i> **Announcement *Twitch Chat announcements***](/Platforms/Twitch/Events/Announcement)
-- [<i class="mdi mdi-account-star text--twitch"></i> **Shoutout Created *When a shoutout gets created on your channel*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Shoutout-Created)
+- [<i class="mdi mdi-account-star text--twitch"></i> **Shoutout Created *When a shoutout gets created on your channel***](/Platforms/Twitch/Events/Shoutout-Created)
 - [<i class="mdi mdi-numeric-1-box text--twitch"></i> **First Words *First words of the stream for individual users***](/Platforms/Twitch/Events/First-Words)
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/Present-Viewers)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/Ad-Run)
@@ -45,7 +45,7 @@ Configurable events in the *Platforms > Twitch > Events* tab{.subtitle}
 - [<i class="mdi mdi-gift text--twitch"></i> **Gift Bomb *Gifting 1 or more subscriptions to random users***](/Platforms/Twitch/Events/Gift-Bomb)
 - [<i class="mdi mdi-target-account text--twitch"></i> **Raid *Incoming and Outgoing Raids***](/Platforms/Twitch/Events/Raid)
 - [<i class="mdi mdi-train text--twitch"></i> **Hype Train *Start/end, progression, and level-up events***](/Platforms/Twitch/Events/Hype-Train)
-- [<i class="mdi mdi-charity text--twitch"></i> **Charity *This has the Donation and Completed event*** *v0.1.14*{.version-badge}](/Platforms/Twitch/Events/Charity)
+- [<i class="mdi mdi-charity text--twitch"></i> **Charity *This has the Donation and Completed event*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Charity)
 - [<i class="mdi mdi-progress-check text--twitch"></i> **Community Goal *When Community Goals are Started or Progressed***](/Platforms/Twitch/Events/Community-Goal)
 - [<i class="mdi mdi-update text--twitch"></i> **Stream Update *When the Stream Category or Title changes***](/Platforms/Twitch/Events/Stream-Update)
 {.btn-grid .my-5}
