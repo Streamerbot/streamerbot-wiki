@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-27T19:13:12.090Z
+date: 2022-12-27T22:58:56.999Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -14,6 +14,7 @@ Upcoming changes in the next release!{.subtitle}
 * Starting **Streamer.bot** in a folder with uncommon characters should no longer cause a crash
 * Fix handling of connetion retries for the **Streamer.bot** website
 * Fix forget button for **Streamer.bot** Website integration, was forgetting wrong account
+* Handle `Nullable<T>` generics for generic global variable methods
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
