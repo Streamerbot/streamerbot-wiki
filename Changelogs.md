@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-27T22:58:56.999Z
+date: 2022-12-27T23:22:50.460Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -15,6 +15,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix handling of connetion retries for the **Streamer.bot** website
 * Fix forget button for **Streamer.bot** Website integration, was forgetting wrong account
 * Handle `Nullable<T>` generics for generic global variable methods
+* Twitch Channel Follows, and Channel redemptions were not being added to credits
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
