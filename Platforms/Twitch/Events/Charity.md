@@ -2,7 +2,7 @@
 title:  Charity
 description: Twitch Events Reference
 published: true
-date: 2022-12-26T13:49:30.061Z
+date: 2022-12-27T12:36:38.351Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-09-26T15:58:17.808Z
@@ -65,7 +65,7 @@ Name | Description
 {.vars-table}
 
 ### Completed Event
-When donations come through, a check is made if your current donation amount matches what your goal is, and will send a completed event if this is true.
+When the creator mannually stops the charity this event is emitted. Note: it won't trigger when the goal matches the progress.
 
 Name | Description
 ----:|:------------
