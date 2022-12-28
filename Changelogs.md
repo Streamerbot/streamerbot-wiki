@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-28T21:59:40.693Z
+date: 2022-12-28T22:58:13.844Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,6 +17,7 @@ Upcoming changes in the next release!{.subtitle}
 * Handle `Nullable<T>` generics for generic global variable methods
 * Twitch Channel Follows, Channel Reward redemptions, and Hype Train completions were not being added to credits
 * Gracefully handle errors related to invalid Donor Drive campaign IDs and Custom Endpoint urls
+* Gracefully handle errors related to cleaning up Twitch EventSub subscriptions
 * Some internal fixes to update download handling
 * Setting an action to the TipeeeStream generic event, and deleting it would cause a crash
 * Fix potential crash in Add Target Info sub-action when using variables
