@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-28T19:01:44.516Z
+date: 2022-12-28T20:36:16.235Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,7 @@ Upcoming changes in the next release!{.subtitle}
 * Gracefully handle errors related to invalid Donor Drive campaign IDs and Custom Endpoint urls
 * Some internal fixes to update download handling
 * Setting an action to the TipeeeStream generic event, and deleting it would cause a crash
+* Fix potential crash in Add Target Info sub-action when using variables
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
