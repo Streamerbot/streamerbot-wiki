@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-28T22:58:13.844Z
+date: 2022-12-29T20:57:33.921Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,6 +22,8 @@ Upcoming changes in the next release!{.subtitle}
 * Setting an action to the TipeeeStream generic event, and deleting it would cause a crash
 * Fix potential crash in Add Target Info sub-action when using variables
 * StreamLabs, StreamElements, TipeeeStream and TreatStream test button no longer uses a random user, it now uses a fixed `Test User` for tests.  These 4 services do not do any username parsing
+* Some tweaks to Twitch Present viewer routines
+* Some tweaks to shut down routines
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
