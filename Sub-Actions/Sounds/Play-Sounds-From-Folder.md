@@ -2,7 +2,7 @@
 title: Play Sound From Folder
 description: Sounds Sub-Action Reference
 published: true
-date: 2022-10-18T00:27:48.483Z
+date: 2022-12-30T15:58:15.278Z
 tags: sounds, folder, recursive
 editor: markdown
 dateCreated: 2021-11-22T01:08:16.939Z
@@ -21,6 +21,8 @@ Application default will use whatever audio device is configured in the applicat
 
 ### Sound file to play
 The sound file you would like to play.  Supported audio formats are, `mp3`, `wav`, `m4a` and `ogg`
+
+When the channels of the file is 2F2R it might not work, because those are surround sound files.
 
 ### Finish playing before continuing
 Enabling this will wait for the duration of the sound file before continuing onto the next action.  If this is disabled, the sound will start being played and immediately carry onto the next sub-action.
