@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-29T20:57:33.921Z
+date: 2022-12-30T20:42:22.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,6 +24,7 @@ Upcoming changes in the next release!{.subtitle}
 * StreamLabs, StreamElements, TipeeeStream and TreatStream test button no longer uses a random user, it now uses a fixed `Test User` for tests.  These 4 services do not do any username parsing
 * Some tweaks to Twitch Present viewer routines
 * Some tweaks to shut down routines
+* File/Folder Watcher changed event would crash when parsing as json
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
