@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-31T19:49:00.429Z
+date: 2022-12-31T19:49:15.597Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
 # Streamer.bot v0.1.16 (WIP)
-Upcoming changes in the next release!{.subtitle}
+Released 2022-12-31{.subtitle}
 
 * Starting **Streamer.bot** in a folder with uncommon characters should no longer cause a crash
 * Fix handling of connetion retries for the **Streamer.bot** website
