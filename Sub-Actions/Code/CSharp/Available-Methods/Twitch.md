@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-12-22T16:44:01.607Z
+date: 2022-12-31T19:52:51.970Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -52,7 +52,7 @@ bool TwitchUnbanUser(string userName, bool bot = false);
 ```
 
 ```csharp
-void TimeoutUser(string userName, int duration);
+bool TwitchTimeoutUser(string username, int duration, string reason = null, bool bot = false);
 ```
 
 ## Channel Rewards
