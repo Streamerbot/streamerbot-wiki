@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2022-12-30T12:10:03.527Z
+date: 2022-12-31T03:26:29.919Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -40,13 +40,13 @@ Configuration{.overline}
 <div>
 
 Integrations{.overline}
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamlabs.png"> Streamlabs](/Integrations/Streamlabs)
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamelements.png"> StreamElements](/Integrations/StreamElements)
-- [<img style="width: 1em; transform: translateY(2px);" src="/logos/voicemod.png"> VoiceMod](/Integrations/VoiceMod)
-- [<img style="width: 1em; transform: translateY(2px);" src="/donordrive.webp"> DonorDrive](/Integrations/DonorDrive)
-- [<img style="width: 1em; transform: translateY(2px);" src="/ko-fi_icon_rgb_rounded.png"> Ko-Fi](/Integrations/Ko-Fi)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamlabs.png"> Streamlabs](/Integrations/Streamlabs)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamelements.png"> StreamElements](/Integrations/StreamElements)
+- [<img style="height: 1em; transform: translateY(2px);" src="/logos/voicemod.png"> VoiceMod](/Integrations/VoiceMod)
+- [<img style="height: 1em; transform: translateY(2px);" src="/donordrive.webp"> DonorDrive](/Integrations/DonorDrive)
+- [<img style="height: 1em; transform: translateY(2px);" src="/ko-fi_icon_rgb_rounded.png"> Ko-Fi](/Integrations/Ko-Fi)
 - [<i class="mdi mdi-patreon text--patreon"></i> Patreon](/Integrations/Patreon)
-- [<img style="width: 1em; transform: translateY(2px);" src="/logos/lumia_stream.png"> Lumia Stream](/Integrations/Lumia-Stream)
+- [<img style="height: 1em; transform: translateY(2px);" src="/logos/lumia_stream.png"> Lumia Stream](/Integrations/Lumia-Stream)
 - [View all integrations...](/Integrations)
 
 </div>
@@ -54,11 +54,11 @@ Integrations{.overline}
 <div>
 
 Available Plugins{.overline}
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/deckboard.png"> DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamdeck.png"> StreamDeck](/Plugins/Stream-Deck)
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/loupedeck.jpg"> LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/touchportal.png"> TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/voiceattack.png"> Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/deckboard.png"> DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamdeck.png"> StreamDeck](/Plugins/Stream-Deck)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/loupedeck.jpg"> LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/touchportal.png"> TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/voiceattack.png"> Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
 - [View all plugins...](/Plugins)
 
 </div>
@@ -66,9 +66,9 @@ Available Plugins{.overline}
 <div>
 
 Extended Features{.overline}
-- [<img style="width: 1em; transform: translateY(2px);" src="https://streamer.bot/img/deck-logo.png"> Streamer.bot Decks](/Extended-Features/HTML-Decks)
-- [HTML-Overlay](/Extended-Features/HTML-Overlay)
-- [Extensions Wiki](https://extensions.streamer.bot)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/deck-logo.png"> Streamer.bot Decks](/Extended-Features/HTML-Decks)
+- [<img style="height: 1em; transform: translateY(2px);" src="/logos/html.svg"> HTML-Overlay](/Extended-Features/HTML-Overlay)
+- [<img style="height: 1em; transform: translateY(2px);" src="https://extensions.streamer.bot/logos/streamerbot-ext-logo.png"> Extensions Wiki](https://extensions.streamer.bot)
 
 </div>
 
