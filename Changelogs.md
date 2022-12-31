@@ -2,13 +2,13 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-31T19:49:15.597Z
+date: 2022-12-31T19:54:59.718Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.16 (WIP)
+# Streamer.bot v0.1.16 (Current)
 Released 2022-12-31{.subtitle}
 
 * Starting **Streamer.bot** in a folder with uncommon characters should no longer cause a crash
@@ -29,7 +29,7 @@ Released 2022-12-31{.subtitle}
 * C# Method ObsSetMediaSource was inverting a flag for local/url sources
 {.changelog-fixes}
 
-# Streamer.bot v0.1.15 (Current)
+# Streamer.bot v0.1.15
 Released 2022-12-22{.subtitle}
 
 * Misc fixes/tweaks
