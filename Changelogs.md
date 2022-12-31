@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-12-30T20:42:22.150Z
+date: 2022-12-31T19:49:00.429Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -25,6 +25,8 @@ Upcoming changes in the next release!{.subtitle}
 * Some tweaks to Twitch Present viewer routines
 * Some tweaks to shut down routines
 * File/Folder Watcher changed event would crash when parsing as json
+* C# Methods for controlling OBS Media State were wired up incorrectly
+* C# Method ObsSetMediaSource was inverting a flag for local/url sources
 {.changelog-fixes}
 
 # Streamer.bot v0.1.15 (Current)
