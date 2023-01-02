@@ -2,18 +2,13 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2022-12-31T19:52:51.970Z
+date: 2023-01-02T11:26:13.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
 ---
 
 ## General
-```csharp
-void SendMessage(string message, bool bot = true);
-void SendAction(string action, bool bot = true);
-```
-
 ```csharp
 List<Cheermote> GetCheermotes();
 ```
@@ -23,8 +18,9 @@ void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
 ```
 
+## Whisper
 ```csharp
-bool SendWhisper(string userName, string message);
+bool SendWhisper(string userName, string message, bool bot = true);
 ```
 
 ## Moderator
@@ -40,6 +36,11 @@ bool TwitchRemoveVip(string userName);
 ```
 
 ## Messages
+```csharp
+void SendMessage(string message, bool bot = true);
+void SendAction(string action, bool bot = true);
+```
+
 ```csharp
 bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
