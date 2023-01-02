@@ -2,7 +2,7 @@
 title: Present Viewers Event
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:05:32.508Z
+date: 2023-01-02T21:34:21.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:35:31.605Z
@@ -22,9 +22,19 @@ The default setting is `Live Update` not checked, and the slider set to `5` minu
 ## Variables
 Name | Description
 ----:|:------------
-`isLive` |Boolean for current streaming status <br> `True`/`False` 
-`isTest` |Boolean for if this is demo data or not <br> `True`/`False` 
+`isLive` | Boolean for current streaming status <br> `True`/`False` 
+`isTest` | Boolean for if this is demo data or not <br> `True`/`False` 
 `users` | A Dictionary list of usernames present in IRC chat <br> Each user present will get the following data
+{.vars-table}
+
+### users Dictionary
+Name | Description
+----:|:------------
+`id` | The Numeric user ID of the user
+`userName` | The user name of the user
+`display` | The display name of this user
+`role` | The role of the user <br> 1=`Viewer`, 2=`VIP`, 3=`Moderator`, 4=`Broadcaster`
+`isSubscribed` | Boolean value indicating user's subscription status <br> `True`/`False` 
 {.vars-table}
 
 ---
