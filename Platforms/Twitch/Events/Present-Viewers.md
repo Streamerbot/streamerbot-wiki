@@ -2,7 +2,7 @@
 title: Present Viewers Event
 description: Twitch Events Reference
 published: true
-date: 2023-01-02T21:34:21.035Z
+date: 2023-01-02T21:36:03.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:35:31.605Z
@@ -24,7 +24,7 @@ Name | Description
 ----:|:------------
 `isLive` | Boolean for current streaming status <br> `True`/`False` 
 `isTest` | Boolean for if this is demo data or not <br> `True`/`False` 
-`users` | A Dictionary list of usernames present in IRC chat <br> Each user present will get the following data
+`users` | A C# Dictionary list of usernames present in IRC chat <br> Each user present will get [the following data](#user-dictionary)
 {.vars-table}
 
 ### users Dictionary
