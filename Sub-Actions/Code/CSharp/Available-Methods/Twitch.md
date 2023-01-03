@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-02T11:26:13.294Z
+date: 2023-01-03T00:12:41.192Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -209,14 +209,6 @@ string TwitchOAuthToken;
 ```
 ```csharp
 string TwitchClientId;
-```
-
-## User Variables
-```csharp
-T GetTwitchUserVar<T>(string userName, string varName, bool persisted = true);
-void SetTwitchUserVar(string userName, string varName, object value, bool persisted = true);
-void UnsetTwitchUserVar(string userName, string varName, bool persisted = true);
-void UnsetTwitchUser(string userName, bool persisted = true);
 ```
 
 ---
