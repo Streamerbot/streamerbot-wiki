@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-02T20:35:43.387Z
+date: 2023-01-03T23:14:43.952Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,6 +13,7 @@ Upcoming changes in the next release!{.subtitle}
 
 * CPH Method, EnableTimer was not correctly resetting a timer
 * SetTimerState sub-action was not correctly resetting a timer's line counts
+* Regression, was not listening for Twitch Community Goal events
 {.changelog-fixes}
 
 # Streamer.bot v0.1.16 (Current)
