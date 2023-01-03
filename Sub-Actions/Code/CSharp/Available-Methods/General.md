@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2022-12-22T16:41:50.155Z
+date: 2023-01-03T00:12:10.751Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -111,23 +111,6 @@ set an argument to be used in subsequent sub-actions{.subtitle}
 
 ```csharp
 void SetArgument(string variableName, object value);
-```
-
-## Global Variables
-```csharp
-T GetGlobalVar<T>(string varName, bool persisted = true);
-T GetUserVar<T>(string userName, string varName, bool persisted = true);
-```
-
-```csharp
-void SetGlobalVar(string varName, object value, bool persisted = true);
-void SetUserVar(string userName, string varName, object value, bool persisted = true);
-```
-
-```csharp
-void UnsetGlobalVar(string varName, bool persisted = true);
-void UnsetUserVar(string userName, string varName, bool persisted = true);
-void UnsetUser(string userName, bool persisted = true);
 ```
 
 ## Groups
