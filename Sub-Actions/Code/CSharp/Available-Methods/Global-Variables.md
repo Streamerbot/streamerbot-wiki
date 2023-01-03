@@ -2,7 +2,7 @@
 title: Global Variables
 description: C# Available Methods Reference
 published: true
-date: 2023-01-03T00:13:01.336Z
+date: 2023-01-03T00:14:33.504Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T00:13:01.336Z
@@ -40,3 +40,8 @@ void SetYouTubeUserVar(string userName, string varName, object value, bool persi
 void UnsetYouTubeUserVar(string userName, string varName, bool persisted = true);
 void UnsetYouTubeUser(string userName, bool persisted = true);
 ```
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **C# Available Methods *Go Back***](/Sub-Actions/Code/CSharp/Available-Methods)
+{.btn-grid .my-5}
