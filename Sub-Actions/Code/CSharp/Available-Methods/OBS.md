@@ -2,7 +2,7 @@
 title: OBS Studio
 description: C# Available Methods Reference
 published: true
-date: 2022-12-22T16:39:57.873Z
+date: 2023-01-03T00:53:44.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:56:46.806Z
@@ -15,10 +15,18 @@ bool ObsConnect(int connection = 0);
 void ObsDisconnect(int connection = 0);
 ```
 
-## Stream/Recording Status
+```csharp
+int ObsGetConnectionByName(string name);
+```
+
+## Stream
 ```csharp
 bool ObsIsStreaming(int connection = 0);
 void ObsStopStreaming(int connection = 0);
+```
+
+## Recording
+```csharp
 bool ObsIsRecording(int connection = 0);
 void ObsStartRecording(int connection = 0);
 void ObsStopRecording(int connection = 0);
@@ -34,20 +42,32 @@ string ObsGetCurrentScene(int connection = 0);
 
 ## Sources
 ```csharp
-bool ObsIsSourceVisible(string scene, string source, int connection = 0);
 void ObsSetSourceVisibility(string scene, string source, bool visible, int connection = 0);
+bool ObsIsSourceVisible(string scene, string source, int connection = 0);
+```
+
+```csharp
 void ObsShowSource(string scene, string source, int connection = 0);
+string ObsSetRandomGroupSourceVisible(string scene, string groupName, int connection = 0);
+```
+
+```csharp
 void ObsHideSource(string scene, string source, int connection = 0);
 void ObsHideGroupsSources(string scene, string groupName, int connection = 0);
-string ObsSetRandomGroupSourceVisible(string scene, string groupName, int connection = 0);
+```
+
+```csharp
 List<string> ObsGetGroupSources(string scene, string groupName, int connection = 0);
 string ObsGetSceneItemProperties(string scene, string source, int connection = 0);
 ```
 
-## Browser/Text Sources
+## Browser Sources
 ```csharp
 void ObsSetBrowserSource(string scene, string source, string url, int connection = 0);
 ```
+
+## GDI+ Text Sources
+
 ```csharp
 // use '\n' for a new line e.g. line 1\nline 2
 void ObsSetGdiText(string scene, string source, string text, int connection = 0);
@@ -57,14 +77,29 @@ void ObsSetGdiText(string scene, string source, string text, int connection = 0)
 ```csharp
 bool ObsIsFilterEnabled(string scene, string filterName, int connection = 0);
 bool ObsIsFilterEnabled(string scene, string source, string filterName, int connection = 0);
+```
+
+```csharp
 void ObsSetFilterState(string scene, string filterName, int state, int connection = 0);
 void ObsSetFilterState(string scene, string source, string filterName, int state, int connection = 0);
+```
+
+```csharp
 void ObsShowFilter(string scene, string filterName, int connection = 0);
 void ObsShowFilter(string scene, string source, string filterName, int connection = 0);
+```
+
+```csharp
 void ObsHideFilter(string scene, string filterName, int connection = 0);
 void ObsHideFilter(string scene, string source, string filterName, int connection = 0);
+```
+
+```csharp
 void ObsToggleFilter(string scene, string filterName, int connection = 0);
 void ObsToggleFilter(string scene, string source, string filterName, int connection = 0);
+```
+
+```csharp
 void ObsSetRandomFilterState(string scene, int state, int connection = 0);
 void ObsSetRandomFilterState(string scene, string source, int state, int connection = 0);
 ```
@@ -89,8 +124,22 @@ void ObsHideScenesFilters(string scene, int connection = 0);
 ```
 
 ## Media
+All `state` enums that are used for `int state` (use the number property on the left side):
+
+----:|:------------
+`0` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_NONE` | No action.
+`1` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_PLAY` | Play the media input.
+`2` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_PAUSE` | Pause the media input.
+`3` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_STOP` | Stop the media input.
+`4` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_RESTART` | Restart the media input.
+`5` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_NEXT` | Go to the next playlist item.
+`6` | `OBS_WEBSOCKET_MEDIA_INPUT_ACTION_PREVIOUS` | Go to the previous playlist item.
+
 ```csharp
 void ObsSetMediaState(string scene, string source, int state, int connection = 0);
+```
+
+```csharp
 void ObsMediaPlay(string scene, string source, int connection = 0);
 void ObsMediaPause(string scene, string source, int connection = 0);
 void ObsMediaRestart(string scene, string source, int connection = 0);
@@ -111,14 +160,12 @@ void ObsSetColorSourceColor(string scene, string source, string hexColor, int co
 void ObsSetColorSourceRandomColor(string scene, string source, int connection = 0);
 ```
 
-## Get Connection By Name
-```csharp
-int ObsGetConnectionByName(string name);
-```
-
 ## Replay Buffer
 ```csharp
 void ObsSetReplayBufferState(int state, int connection = 0);
+```
+
+```csharp
 void ObsReplayBufferStart(int connection = 0);
 void ObsReplayBufferStop(int connection = 0);
 void ObsReplayBufferSave(int connection = 0);
