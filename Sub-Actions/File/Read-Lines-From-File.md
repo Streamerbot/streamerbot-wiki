@@ -2,7 +2,7 @@
 title: Read Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2022-12-04T19:11:42.532Z
+date: 2023-01-04T06:38:16.039Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
@@ -21,3 +21,10 @@ For example, you have a file of welcome messages, that consist of `Welcome %user
 
 ### Attempt Auto-typing
 While reading the contents of the file, an attempt will be made on each line to auto-type it.  So if it's a number, it will make sure the variable contains a number type.
+
+## Variables
+
+Name | Description
+----:|:------------
+`lineCount` | The amount of lines the file has.
+`line#` | Change the `#` to the line number e.g. if you have 3 lines it wil output: `line0`, `line1`, `line2` 
