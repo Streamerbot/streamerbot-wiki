@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-03T23:14:43.952Z
+date: 2023-01-04T17:44:04.981Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -11,10 +11,23 @@ dateCreated: 2021-08-25T21:51:24.140Z
 # Streamer.bot v0.1.17 (WIP)
 Upcoming changes in the next release!{.subtitle}
 
+* Fix some typos
 * CPH Method, EnableTimer was not correctly resetting a timer
 * SetTimerState sub-action was not correctly resetting a timer's line counts
 * Regression, was not listening for Twitch Community Goal events
 {.changelog-fixes}
+
+<span></span>
+
+* Add 3 new C# methods to remove the cooldown of a command
+{.changelog-new}
+
+## New C# Methods
+```csharp
+void CommandRemoveGlobalCooldown(string id);
+void CommandRemoveUserCooldown(string id, int userId);
+void CommandRemoveAllUserCooldowns(string id);
+```
 
 # Streamer.bot v0.1.16 (Current)
 Released 2022-12-31{.subtitle}
