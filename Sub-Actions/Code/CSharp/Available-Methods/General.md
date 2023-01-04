@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-01-03T00:12:10.751Z
+date: 2023-01-04T02:49:57.349Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -127,33 +127,6 @@ bool AddUserToGroup(string userName, string groupName);
 ```csharp
 bool RemoveUserFromGroup(int userId, string groupName);
 bool RemoveUserFromGroup(string userName, string groupName);
-```
-
-## Commands
-### Enable/Disable Commands
-```csharp
-void EnableCommand(string id);
-void DisableCommand(string id);
-```
-
-### Set Commands Cooldowns
-```csharp
-void CommandSetGlobalCooldownDuration(string id, int seconds);
-void CommandSetUserCooldownDuration(string id, int seconds);
-```
-
-### Add to Commands Cooldowns
-```csharp
-void CommandAddToGlobalCooldown(string id, int seconds);
-void CommandAddToUserCooldown(string id, int userId, int seconds);
-void CommandAddToAllUserCooldowns(string id, int seconds);
-```
-
-### Reset Commands Cooldowns
-```csharp
-void CommandResetGlobalCooldown(string id);
-void CommandResetUserCooldown(string id, int userId);
-void CommandResetAllUserCooldowns(string id);
 ```
 
 ---
