@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2022-08-10T12:48:50.957Z
+date: 2023-01-04T02:43:34.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -10,8 +10,20 @@ dateCreated: 2022-08-03T09:46:48.752Z
 
 # TwitchSpeaker v0.0.49 (WIP)
 Upcoming changes in the next release!{.subtitle}
+
 * Some fixes
+* Fixes to Microsoft Azure initializations
 {.changelog-fixes}
+
+<span></span>
+
+* Update external libraries
+* Update internal libraries
+* Change Microsoft Azure Services to use 48khz audio
+* Request new Twitch Scopes
+* Switch some Twitch events to use EventSub
+* Update account tab for Twitch to match design/styling seen in Streamer.bot
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.48 (Current)
 Released 2022-01-13{.subtitle}
