@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-04T17:44:04.981Z
+date: 2023-01-05T18:51:30.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,7 +20,12 @@ Upcoming changes in the next release!{.subtitle}
 <span></span>
 
 * Add 3 new C# methods to remove the cooldown of a command
+* Add new [Websocket Event](#websocket-events), ActionCompleted
 {.changelog-new}
+
+## Websocket Events
+### ActionCompleted
+`0.1.17` introduces a new Raw event, ActionCompleted.  Subscribing to this event in the Websocket Server will get you information when an action is completed.
 
 ## New C# Methods
 ```csharp
