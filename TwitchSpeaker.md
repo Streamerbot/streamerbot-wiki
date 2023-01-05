@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-05T01:35:45.135Z
+date: 2023-01-05T01:38:46.339Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -27,7 +27,6 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/TwitchSpeaker/Events)
 - [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
 - [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
-- [<i class="mdi mdi-cog text--twitch"></i>**Settings**](/TwitchSpeaker/Tabs/Settings){.disabled}
 {.btn-grid .my-5}
 
 ## Settings
@@ -36,7 +35,6 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
 - [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Tabs/Settings/Replacement){.disabled}
 - [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/TwitchSpeaker/Tabs/Settings/Voice-Aliases){.disabled}
-- [<i class="mdi mdi-microphone text--twitch"></i>**Speech Engines**](/TwitchSpeaker/Tabs/Settings/Speech-Engines){.disabled}
 {.btn-grid .my-5}
 
 ## Speech Engines
