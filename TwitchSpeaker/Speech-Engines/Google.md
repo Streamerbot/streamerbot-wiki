@@ -1,8 +1,8 @@
 ---
-title: Cloud Service Google
+title: Google Cloud Service
 description: 
 published: true
-date: 2023-01-05T02:11:54.393Z
+date: 2023-01-05T02:13:54.891Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z
