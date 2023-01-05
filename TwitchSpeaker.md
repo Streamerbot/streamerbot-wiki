@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-05T01:38:46.339Z
+date: 2023-01-05T01:40:19.554Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -20,21 +20,21 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .list .dense .my-5}
 
 ## Tabs
-- [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/TwitchSpeaker/Event-Log)
-- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/TwitchSpeaker/Speaking-Queue)
-- [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/TwitchSpeaker/Speaking-History)
-- [<i class="mdi mdi-account text--twitch"></i>**Users**](/TwitchSpeaker/Users)
-- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/TwitchSpeaker/Events)
+- [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/TwitchSpeaker/Tabs/Event-Log)
+- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/TwitchSpeaker/Tabs/Speaking-Queue)
+- [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/TwitchSpeaker/Tabs/Speaking-History)
+- [<i class="mdi mdi-account text--twitch"></i>**Users**](/TwitchSpeaker/Tabs/Users)
+- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/TwitchSpeaker/Tabs/Events)
 - [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
 - [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
 {.btn-grid .my-5}
 
 ## Settings
-- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/TwitchSpeaker/General/UDP-Interface){.disabled}
-- [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/TwitchSpeaker/Tabs/Settings/Ignored-Voices-Locales){.disabled}
-- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Tabs/Settings/Speaking-Options){.disabled}
-- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Tabs/Settings/Replacement){.disabled}
-- [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/TwitchSpeaker/Tabs/Settings/Voice-Aliases){.disabled}
+- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/TwitchSpeaker/Settings/General){.disabled}
+- [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/TwitchSpeaker/Settings/Ignored-Voices-Locales){.disabled}
+- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options){.disabled}
+- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Settings/Replacement){.disabled}
+- [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/TwitchSpeaker/Settings/Voice-Aliases){.disabled}
 {.btn-grid .my-5}
 
 ## Speech Engines
