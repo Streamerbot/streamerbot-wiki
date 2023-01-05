@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-04T02:43:34.841Z
+date: 2023-01-05T01:07:58.994Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -23,7 +23,14 @@ Upcoming changes in the next release!{.subtitle}
 * Request new Twitch Scopes
 * Switch some Twitch events to use EventSub
 * Update account tab for Twitch to match design/styling seen in Streamer.bot
+* Move some settings into database files
 {.changelog-updates}
+
+<span></span>
+
+* Auto Updater! This contains the ground work for going forward
+* Added ability to login to Streamer.bot website, this is mainly used for access to beta/alpha update channels
+{.changelog-new}
 
 # TwitchSpeaker v0.0.48 (Current)
 Released 2022-01-13{.subtitle}
