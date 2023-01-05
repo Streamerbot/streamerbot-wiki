@@ -1,8 +1,8 @@
 ---
 title: Settings
-description: Setting Related To TwitchSpeaker TTS
+description: TwitchSpeaker Settings Reference
 published: false
-date: 2023-01-05T02:07:59.661Z
+date: 2023-01-05T02:08:28.501Z
 tags: tts, settings, twitchspeaker
 editor: markdown
 dateCreated: 2022-12-29T21:22:56.795Z
