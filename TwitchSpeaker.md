@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-05T02:38:14.887Z
+date: 2023-01-05T12:23:59.969Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -31,8 +31,8 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .my-5}
 
 ## Settings
-- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/TwitchSpeaker/Settings/General)
-- [<i class="mdi mdi-account-multiple text--twitch"></i>**Accounts**](/TwitchSpeaker/Settings/Accounts)
+- [<i class="mdi mdi-format-align-center text--twitch"></i>**General *General and miscellaneous settings.***](/TwitchSpeaker/Settings/General)
+- [<i class="mdi mdi-account-multiple text--twitch"></i>**Accounts *Log in to all your acoounts with Twitch, Streamer.bot Website, etc.***](/TwitchSpeaker/Settings/Accounts)
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/TwitchSpeaker/Settings/Ignored-Voices-Locales){.disabled}
 - [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options){.disabled}
 - [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Settings/Replacement){.disabled}
@@ -40,11 +40,11 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .my-5}
 
 ## Speech Engines
-- [<i class="mdi mdi-google theme--dark"></i>**Google**](/TwitchSpeaker/Speech-Engines/Google)
-- [<i class="mdi mdi-microsoft-azure theme--dark"></i>**Azure**](/TwitchSpeaker/Speech-Engines/Azure)
-- [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/TwitchSpeaker/Speech-Engines/Amazon-Polly)
-- [<i class="mdi mdi-microphone theme--dark"></i>**Watson**](/TwitchSpeaker/Speech-Engines/Watson)
-- [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/TwitchSpeaker/Speech-Engines/SAPI5)
-- [<i class="mdi mdi-microphone theme--dark"></i>**Acapela**](/TwitchSpeaker/Speech-Engines/Acapela){.disabled}
-- [<i class="mdi mdi-microphone theme--dark"></i>**CereProc**](/TwitchSpeaker/Speech-Engines/CereProc){.disabled}
+- [<i class="mdi mdi-google theme--dark"></i>**Google *Use Google Cloud Service for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Google)
+- [<i class="mdi mdi-microsoft-azure theme--dark"></i>**Azure *Use Azure for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Azure)
+- [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly *Use Amazon Polly for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Amazon-Polly)
+- [<i class="mdi mdi-microphone theme--dark"></i>**Watson *Use Watson for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Watson)
+- [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5 *Use SAPI5 for your TTS voices.***](/TwitchSpeaker/Speech-Engines/SAPI5)
+- [<i class="mdi mdi-microphone theme--dark"></i>**Acapela *Use Acapela for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Acapela){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**CereProc *Use CereProc for your TTS voices.***](/TwitchSpeaker/Speech-Engines/CereProc){.disabled}
 {.btn-grid .my-5}
