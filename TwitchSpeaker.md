@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2022-12-09T02:28:20.107Z
+date: 2023-01-05T01:33:56.788Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -40,18 +40,11 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .my-5}
 
 ## Speech Engines
-- [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/SAPI5){.disabled}
-- [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/Amazon-Polly){.disabled}
-- [<i class="mdi mdi-google theme--dark"></i>**Google**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/Google)
-- [<i class="mdi mdi-microphone theme--dark"></i>**Watson**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/Watson){.disabled}
+- [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5**](/TwitchSpeaker/Speech-Engines/SAPI5){.disabled}
+- [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly**](/TwitchSpeaker/Speech-Engines/Amazon-Polly){.disabled}
+- [<i class="mdi mdi-google theme--dark"></i>**Google**](/TwitchSpeaker/Speech-Engines/Google)
+- [<i class="mdi mdi-microphone theme--dark"></i>**Watson**](/TwitchSpeaker/Speech-Engines/Watson){.disabled}
 - [<i class="mdi mdi-microsoft-azure theme--dark"></i>**Azure**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/Azure)
-- [<i class="mdi mdi-microphone theme--dark"></i>**Acapela**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/Acapela){.disabled}
-- [<i class="mdi mdi-microphone theme--dark"></i>**CereProc**](/TwitchSpeaker/Tabs/Settings/Speech-Engines/CereProc){.disabled}
-{.btn-grid .my-5}
-
-## Other
-- [<i class="mdi mdi-transit-connection-variant text--twitch"></i>**Connect to Twitch**](/TwitchSpeaker/Connect-to-Twitch){.disabled}
-- [<i class="mdi mdi-volume-mute text--twitch"></i>**Silence TTS**](/TwitchSpeaker/Pages/Settings/Silence-TTS){.disabled}
-- [<i class="mdi mdi-speaker text--twitch"></i>**Generic Speaker**](/TwitchSpeaker/Pages/Settings/Generic-Speaker){.disabled}
-- [<i class="mdi mdi-cog text--twitch"></i>**Save Settings**](/TwitchSpeaker/Pages/Settings/Save-Settings){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**Acapela**](/TwitchSpeaker/Speech-Engines/Acapela){.disabled}
+- [<i class="mdi mdi-microphone theme--dark"></i>**CereProc**](/TwitchSpeaker/Speech-Engines/CereProc){.disabled}
 {.btn-grid .my-5}
