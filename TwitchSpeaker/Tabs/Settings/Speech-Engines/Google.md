@@ -2,7 +2,7 @@
 title: Cloud Service Google
 description: 
 published: true
-date: 2022-10-17T07:56:20.955Z
+date: 2023-01-05T01:34:56.439Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z
@@ -22,8 +22,6 @@ Goto Google Cloud Services, you can setup a free account and get a trial which l
 10. Cllick +Create Key, pick JSON then Create, save this JSON FILE!
 11. Click Done
 12. Point to this JSON file for Google Auth in the TTS Settings tab, and you can now use the Google engine
-
-> Still these should be all the correct steps.
 
 ---
 
