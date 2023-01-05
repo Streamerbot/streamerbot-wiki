@@ -2,11 +2,16 @@
 title: Settings
 description: Setting Related To TwitchSpeaker TTS
 published: false
-date: 2022-12-29T21:22:56.795Z
+date: 2023-01-05T02:07:59.661Z
 tags: tts, settings, twitchspeaker
 editor: markdown
 dateCreated: 2022-12-29T21:22:56.795Z
 ---
 
-# Settings 
-To get to the TwitchSpeaker settings in the top row of tabs you will find `Settings` tab click this and a window of will appear like the one below.
+- [<i class="mdi mdi-format-align-center text--twitch"></i>**General**](/TwitchSpeaker/Settings/General)
+- [<i class="mdi mdi-account-multiple text--twitch"></i>**Accounts**](/TwitchSpeaker/Settings/Accounts)
+- [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales**](/TwitchSpeaker/Settings/Ignored-Voices-Locales){.disabled}
+- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options){.disabled}
+- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Settings/Replacement){.disabled}
+- [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/TwitchSpeaker/Settings/Voice-Aliases){.disabled}
+{.btn-grid .my-5}
