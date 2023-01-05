@@ -2,21 +2,22 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-05T02:28:20.752Z
+date: 2023-01-05T02:38:14.887Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
 ---
 
 ## Basics
-- [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade*Learn how to update your TwitchSpeaker installation to the latest version***](/TwitchSpeaker/Update)
-- [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup*Learn how to restore a backup with TwitchSpeaker!***](/TwitchSpeaker/Backup)
-- [<i class="mdi mdi-update text--twitch"></i>**Changelogs*List of new features, bug fixes and improvements***](/TwitchSpeaker/Changelogs)
+- [<i class="mdi mdi-arrow-collapse-up text--twitch"></i>**How to Upgrade *Learn how to update your TwitchSpeaker installation to the latest version.***](/TwitchSpeaker/Update)
+- [<i class="mdi mdi-floppy text--twitch"></i>**How to Backup *Learn how to restore a backup with TwitchSpeaker!***](/TwitchSpeaker/Backup)
+- [<i class="mdi mdi-update text--twitch"></i>**Changelogs *List of new features, bug fixes and improvements.***](/TwitchSpeaker/Changelogs)
 {.btn-grid .list .dense .my-5}
 
 ## General
-- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference in Streamer.bot***](/Sub-Actions/TwitchSpeaker)
-- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface*Run TwitchSpeaker stuff trough Streamer.bot and other applications***](/TwitchSpeaker/General/UDP-Interface)
+- [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference in Streamer.bot.***](/Sub-Actions/TwitchSpeaker)
+- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface *Run TwitchSpeaker stuff trough Streamer.bot and other applications.***](/TwitchSpeaker/General/UDP-Interface)
+- [<i class="mdi mdi-comment-alert text--twitch"></i>**Commands *Commands that all the moderaters can use on your stream to control the TTS.***](/TwitchSpeaker/General/Commands)
 {.btn-grid .list .dense .my-5}
 
 ## Tabs
