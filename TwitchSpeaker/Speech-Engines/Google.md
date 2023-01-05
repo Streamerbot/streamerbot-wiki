@@ -2,7 +2,7 @@
 title: Cloud Service Google
 description: 
 published: true
-date: 2023-01-05T01:34:56.439Z
+date: 2023-01-05T02:11:54.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z
@@ -22,6 +22,14 @@ Goto Google Cloud Services, you can setup a free account and get a trial which l
 10. Cllick +Create Key, pick JSON then Create, save this JSON FILE!
 11. Click Done
 12. Point to this JSON file for Google Auth in the TTS Settings tab, and you can now use the Google engine
+
+> Google Cloud Services is a paid service, so **BE AWARE** of your usage/expirations.
+>
+> **Google Cloud Text To Speech Free Limits**
+Standard (non-WaveNet) voices up to 4 million characters per month, and WaveNet voices are upto 1 million characters per month. Character counts include SSML tags, which the application does use, so, you can't go by just the normal text alone.
+>
+> WaveNet and non-WaveNet voices are indicated in the voice selections.
+{.is-info}
 
 ---
 
