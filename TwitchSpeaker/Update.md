@@ -2,14 +2,28 @@
 title: Update TwitchSpeaker
 description: Learn how to update your TwitchSpeaker installation to the latest version
 published: true
-date: 2022-11-04T13:48:07.241Z
+date: 2023-01-05T01:37:32.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T16:56:03.875Z
 ---
 
-## Backup
+# Auto Updater
+> Automatic updates are now supported with the release of *v0.0.49*{.version-badge}
+{.is-success}
 
+## Overview
+1. Click on `Check for Updates` or the update window has been shown on startup.
+2. **Optional:** Change the `Update Channel` between `stable`/`beta`/`alpha`, this will only work when your [Streamer.bot Website Integration](/Integrations/Streamer-bot) is connected.
+3. Now you can click on the `Download` button.
+4. And then click on the `Install` button.
+5. Now TwitchSpeaker is updated!
+
+![auto-updater-001.png](/update/auto-updater-001.png =500x)
+![auto-updater-002.png](/update/auto-updater-002.png =500x)
+
+# Manual
+## Backup
 > It is highly recommended to backup your existing installation **before** updating TwitchSpeaker
 {.is-warning}
 
