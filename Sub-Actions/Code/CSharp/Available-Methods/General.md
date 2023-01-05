@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-01-04T02:49:57.349Z
+date: 2023-01-05T18:32:47.191Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -29,9 +29,26 @@ string UrlEncode(string text);
 string EscapeString(string text);
 ```
 
+---
+
+Use these methods to get the __source and the eventType.
 ```csharp
 EventSource GetSource();
 EventType GetEventType();
+```
+
+Examples:
+
+```csharp
+if (CPH.GetEventType() == EventType.YouTubeFirstWords) { ... }
+```
+```csharp
+if (CPH.GetSource() == EventSource.Twitch) { ... }
+```
+
+To use this feature you need to add this to the top of the code.
+```csharp
+using Streamer.bot.Common.Events;
 ```
 
 ## Actions
