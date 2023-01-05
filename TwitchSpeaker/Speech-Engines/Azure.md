@@ -1,8 +1,8 @@
 ---
-title: Cloud Service Microsoft Azure
-description: 
+title: Microsoft Azure
+description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2022-10-17T07:59:38.741Z
+date: 2023-01-05T02:14:41.774Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T07:57:46.725Z
