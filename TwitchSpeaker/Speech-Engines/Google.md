@@ -2,13 +2,13 @@
 title: Google Cloud Service
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-05T02:14:19.514Z
+date: 2023-01-05T02:16:35.249Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z
 ---
 
-Goto Google Cloud Services, you can setup a free account and get a trial which lasts for 12 months if I remember correctly. There are also limits.
+Goto Google Cloud Services, you can setup a free account and get a trial which lasts for 12 months, but there are limits.
 
 1. Goto API & Services (Dashboard)
 2. Click Cloud Text-to-Speech API
