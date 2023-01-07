@@ -2,7 +2,7 @@
 title: HTML Overlay
 description: Streamer.bot Extended Features
 published: true
-date: 2022-12-01T04:55:34.169Z
+date: 2023-01-07T13:37:28.312Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-07T17:09:36.784Z
@@ -18,7 +18,7 @@ All you need to do is create a Channel Reward with the name ***SPLAT*** then rel
 
 It also comes preconfigured to rain emotes down over the content on screen. [VRFlad]
 
-> This is still actively being tested & developed. 
+> The HTML Overlay requires the that the [WebSocket Server](/Servers-Clients/WebSocket-Server) is enabled in Streamer.bot
 {.is-warning}
 
 > Special thanks to Ruirize for the development.
