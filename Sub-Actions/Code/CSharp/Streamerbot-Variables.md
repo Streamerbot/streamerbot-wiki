@@ -2,7 +2,7 @@
 title: Variable Types
 description: A list of all available variable types that you can import in to your code
 published: true
-date: 2023-01-08T09:58:07.220Z
+date: 2023-01-08T12:03:17.786Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T22:11:03.320Z
@@ -25,7 +25,7 @@ var variable = args["variable"];
 
 > `string` is for text not for numbers or other things.
 >
-> This is what you most of the time use for things like `user` and `rawInput`.
+> Used for e.g. `user` and `rawInput`.
 {.is-info}
 
 ```csharp
