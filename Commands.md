@@ -2,7 +2,7 @@
 title: Commands
 description: Define and configure chat commands with Streamer.bot
 published: true
-date: 2022-12-21T20:27:24.721Z
+date: 2023-01-08T03:55:49.296Z
 tags: commands
 editor: markdown
 dateCreated: 2021-08-25T21:31:22.243Z
@@ -139,7 +139,7 @@ Commands are platform agnostic and will trigger when a matching phrase is typed 
 Name | Description
 ----:|:------------
 `command` | The command that was used
-`commandID` | The ID of the command that was used *v0.1.8+*{.version-badge}
+`commandId` | The ID of the command
 `rawInput` | The message entered, if the command was a Starts With, this will be removed 
 `rawInputEscaped` | The message escaped
 `rawInputUrlEncoded` | The message URL encoded
