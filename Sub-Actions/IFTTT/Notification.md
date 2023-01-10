@@ -2,32 +2,33 @@
 title: Notification
 description: IFTTT Sub-Action Reference
 published: true
-date: 2022-12-22T16:07:38.540Z
+date: 2023-01-10T18:12:31.357Z
 tags: v0.1.15
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z
 ---
 
 ## Overview
-Send Notification to IFTTT to trigger the Streamer.bot event
+Send a basic notification trigger to IFTTT from Streamer.bot
 
-![overview.png](/Sub-Actions/IFTTT/notification/overview.png =400x)
+![ifttt-notification-basic.png](/Integrations/IFTTT/ifttt-notification-basic.png =300x)
 
 ## Setup Guide
-![Overview-IFTTT-1.png](https://ik1497.github.io/Integrations/IFTTT/Overview-IFTTT-1.png =500x)
-![Overview-IFTTT-2.png](https://ik1497.github.io/Integrations/IFTTT/Overview-IFTTT-2.png =500x)
-
-1. Go to IFTTT and create a new applet.
-2. With the `If` use Streamer.bot.
-3. **Login** with the **Streamer.bot Website** in **IFTTT** and in the **Streamer.bot application**.
-4. Fill in the Notification Text field to match Streamer.bot.
-5. And now you can go in Streamer.bot, create the IFTTT Notification Sub-Action and copy/paste the Notification Text field from IFTTT to Streamer.bot.
+1. Create a new applet in your IFTTT app
+2. For `If This,` select the `Streamer.bot` service
+3. Select the `IFTTT Notification Sub-Action` as your trigger
+4. If you have not already, you will be asked to authenticate with your Streamer.bot account
+5. Enter a matching event name in both your IFTTT applet and your Streamer.bot sub-action to trigger on specific events
 
 ## Configuration
-### Notification Text
-This text will be sent to IFTTT as a part of the trigger and can be used to filter requests.
+### Event Name
+The event name will be sent to IFTTT as a part of the trigger and can be used to filter requests.
+
+### Text
+Enter any text, including variables, to be sent with your trigger to IFTTT.
 
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/en/Sub-Actions/IFTTT)
+- [<i class="mdi mdi-chevron-right"></i> **IFTTT Notification (Advanced) *Up Next***](/en/Sub-Actions/IFTTT/Notification-Advanced)
 {.btn-grid .my-5}
