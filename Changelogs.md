@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-05T18:51:30.612Z
+date: 2023-01-10T04:28:09.216Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -15,12 +15,14 @@ Upcoming changes in the next release!{.subtitle}
 * CPH Method, EnableTimer was not correctly resetting a timer
 * SetTimerState sub-action was not correctly resetting a timer's line counts
 * Regression, was not listening for Twitch Community Goal events
+* Issue with collapsing all action groups
 {.changelog-fixes}
 
 <span></span>
 
 * Add 3 new C# methods to remove the cooldown of a command
 * Add new [Websocket Event](#websocket-events), ActionCompleted
+* Ability to directly rename an Action Group, without having to edit every action
 {.changelog-new}
 
 ## Websocket Events
