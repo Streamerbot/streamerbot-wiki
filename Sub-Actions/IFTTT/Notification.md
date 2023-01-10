@@ -1,9 +1,9 @@
 ---
-title: Notification
+title: IFTTT Notification
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-01-10T18:12:31.357Z
-tags: v0.1.15
+date: 2023-01-10T18:12:43.089Z
+tags: 
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z
 ---
