@@ -2,7 +2,7 @@
 title: OBS Studio Events v5
 description: Reference of all configurable events from OBS Studio (v5)
 published: true
-date: 2022-11-17T01:34:53.785Z
+date: 2023-01-10T05:24:22.368Z
 tags: obs, obs-studio, events, obs-websocket
 editor: markdown
 dateCreated: 2022-06-27T02:46:20.098Z
@@ -119,6 +119,7 @@ Events related to media input changes{.subtitle}
 ## UI Events
 Events related to Ui changes{.subtitle}
 * [**StudioModeStateChanged *Studio mode has been enabled or disabled***](/Broadcasters/OBS/Events/Ui-Events/StudioModeStateChanged)
+* [**ScreenshotSaved *A screenshot has been saved***](/Broadcasters/OBS/Events/Ui-Events/ScreenshotSaved)
 {.btn-grid .list .dense .my-5}
 
 ## Additional Event Info
