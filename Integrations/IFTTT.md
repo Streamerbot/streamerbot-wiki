@@ -2,13 +2,13 @@
 title: IFTTT
 description: Trigger applets with Sub-Actions
 published: true
-date: 2023-01-10T18:32:15.714Z
+date: 2023-01-10T18:32:34.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-08T08:55:20.007Z
 ---
 
-# Overview
+## Overview
 The IFTTT integration allows you to execute an action in Streamer.bot from any [IFTTT](https://ifttt.com) applet.
 
 You can also send outgoing triggers from Streamer.bot to IFTTT using the included [IFTTT sub-actions](/Sub-Actions/IFTTT)
