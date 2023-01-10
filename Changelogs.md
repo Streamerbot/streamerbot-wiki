@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-10T04:28:09.216Z
+date: 2023-01-10T04:29:56.794Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,7 +20,13 @@ Upcoming changes in the next release!{.subtitle}
 
 <span></span>
 
+* Twitch User IDs are now string across the entire application
+{.changelog-updates}
+
+<span></span>
+
 * Add 3 new C# methods to remove the cooldown of a command
+* Add 3 new C# methods to AddTo, Remove and Reset a user's cooldown that takes a string for the user id
 * Add new [Websocket Event](#websocket-events), ActionCompleted
 * Ability to directly rename an Action Group, without having to edit every action
 {.changelog-new}
@@ -34,6 +40,10 @@ Upcoming changes in the next release!{.subtitle}
 void CommandRemoveGlobalCooldown(string id);
 void CommandRemoveUserCooldown(string id, int userId);
 void CommandRemoveAllUserCooldowns(string id);
+
+void CommandResetUserCooldown(string id, string userId);
+void CommandRemoveUserCooldown(string id, string userId);
+void CommandAddToUserCooldown(string id, string userId, int seconds);
 ```
 
 # Streamer.bot v0.1.16 (Current)
