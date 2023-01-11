@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-10T04:29:56.794Z
+date: 2023-01-11T00:36:55.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -16,6 +16,7 @@ Upcoming changes in the next release!{.subtitle}
 * SetTimerState sub-action was not correctly resetting a timer's line counts
 * Regression, was not listening for Twitch Community Goal events
 * Issue with collapsing all action groups
+* Disable OK button in Set Argument sub-action dialog when loaded, so it gets validated properly
 {.changelog-fixes}
 
 <span></span>
@@ -27,8 +28,10 @@ Upcoming changes in the next release!{.subtitle}
 
 * Add 3 new C# methods to remove the cooldown of a command
 * Add 3 new C# methods to AddTo, Remove and Reset a user's cooldown that takes a string for the user id
+* Add 3 new C# methods for handling adding, removing and checking if user is in group for string user ids
 * Add new [Websocket Event](#websocket-events), ActionCompleted
 * Ability to directly rename an Action Group, without having to edit every action
+* Add filter to user permissions in Command Dialog
 {.changelog-new}
 
 ## Websocket Events
@@ -44,6 +47,10 @@ void CommandRemoveAllUserCooldowns(string id);
 void CommandResetUserCooldown(string id, string userId);
 void CommandRemoveUserCooldown(string id, string userId);
 void CommandAddToUserCooldown(string id, string userId, int seconds);
+
+bool UserIdInGroup(string userId, string groupName);
+bool AddUserIdToGroup(string userId, string groupName);
+bool RemoveUserIdFromGroup(string userId, string groupName);
 ```
 
 # Streamer.bot v0.1.16 (Current)
