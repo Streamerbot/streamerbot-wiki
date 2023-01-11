@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2022-12-23T10:29:43.103Z
+date: 2023-01-11T13:06:48.786Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -117,84 +117,8 @@ This request will get you a list of all events that may be emitted
 ```json
 {
   "events": {
-    "application": [
-      "ActionAdded",
-      "ActionUpdated",
-      "ActionDeleted"
-    ],
-    "command": [
-      "Message",
-      "Whisper",
-      "MessageCooldown",
-      "BotWhisper"
-    ],
-    "donorDrive": [
-      "Donation",
-      "ProfileUpdated"
-    ],
-    "fileWatcher": [
-      "Changed",
-      "Created",
-      "Deleted",
-      "Renamed"
-    ],
     "general": [
       "Custom"
-    ],
-    "hypeRate": [
-      "HeartRatePulse"
-    ],
-    "kofi": [
-      "Donation",
-      "Subscription",
-      "Resubscription",
-      "ShopOrder",
-      "Commission"
-    ],
-    "misc": [
-      "TimedAction",
-      "PyramidSuccess",
-      "PyramidBroken"
-    ],
-    "patreon": [
-      "FollowCreated",
-      "FollowDeleted",
-      "PledgeCreated",
-      "PledgeUpdated",
-      "PledgeDeleted"
-    ],
-    "pulsoid": [
-      "HeartRatePulse"
-    ],
-    "quote": [
-      "Added",
-      "Show"
-    ],
-    "raw": [
-      "Action",
-      "SubAction"
-    ],
-    "shopify": [
-      "OrderCreated",
-      "OrderPaid"
-    ],
-    "speechToText": [
-      "Dictation",
-      "Command"
-    ],
-    "streamElements": [
-      "Tip",
-      "Merch"
-    ],
-    "streamlabs": [
-      "Donation",
-      "Merchandise"
-    ],
-    "tipeeeStream": [
-      "Donation"
-    ],
-    "treatStream": [
-      "Treat"
     ],
     "twitch": [
       "Follow",
@@ -240,17 +164,67 @@ This request will get you a list of all events that may be emitted
       "CharityCompleted",
       "CoinCheer",
       "ShoutoutCreated",
-      "UserUntimedOut"
+      "UserUntimedOut",
+      "CharityStarted",
+      "CharityProgress",
+      "GoalBegin",
+      "GoalProgress",
+      "GoalEnd",
+      "ShieldModeBegin",
+      "ShieldModeEnd",
+      "AdMidRoll"
+    ],
+    "streamlabs": [
+      "Donation",
+      "Merchandise"
+    ],
+    "speechToText": [
+      "Dictation",
+      "Command"
+    ],
+    "command": [
+      "Message",
+      "Whisper",
+      "MessageCooldown",
+      "BotWhisper"
+    ],
+    "fileWatcher": [
+      "Changed",
+      "Created",
+      "Deleted",
+      "Renamed"
+    ],
+    "quote": [
+      "Added",
+      "Show"
+    ],
+    "misc": [
+      "TimedAction",
+      "PyramidSuccess",
+      "PyramidBroken"
+    ],
+    "raw": [
+      "Action",
+      "SubAction",
+      "ActionCompleted"
     ],
     "websocketClient": [
       "Open",
       "Close",
       "Message"
     ],
+    "streamElements": [
+      "Tip",
+      "Merch"
+    ],
     "websocketCustomServer": [
       "Open",
       "Close",
       "Message"
+    ],
+    "donorDrive": [
+      "Donation",
+      "ProfileUpdated"
     ],
     "youTube": [
       "BroadcastStarted",
@@ -268,11 +242,54 @@ This request will get you a list of all events that may be emitted
       "BroadcastUpdated",
       "MembershipGift",
       "GiftMembershipReceived",
-      "FirstWords"
+      "FirstWords",
+      "PresentViewers"
+    ],
+    "pulsoid": [
+      "HeartRatePulse"
+    ],
+    "hypeRate": [
+      "HeartRatePulse"
+    ],
+    "kofi": [
+      "Donation",
+      "Subscription",
+      "Resubscription",
+      "ShopOrder",
+      "Commission"
+    ],
+    "patreon": [
+      "FollowCreated",
+      "FollowDeleted",
+      "PledgeCreated",
+      "PledgeUpdated",
+      "PledgeDeleted"
+    ],
+    "application": [
+      "ActionAdded",
+      "ActionUpdated",
+      "ActionDeleted"
+    ],
+    "tipeeeStream": [
+      "Donation"
+    ],
+    "treatStream": [
+      "Treat"
+    ],
+    "shopify": [
+      "OrderCreated",
+      "OrderPaid"
+    ],
+    "obs": [
+      "Connected",
+      "Disconnected"
+    ],
+    "midi": [
+      "Message"
     ]
   },
-  "status": "ok",
-  "id": "<id>"
+  "status": "ok"
+  "id": "<id>",
 }
 ```
 
