@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-05T01:07:58.994Z
+date: 2023-01-11T00:37:12.382Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -30,6 +30,7 @@ Upcoming changes in the next release!{.subtitle}
 
 * Auto Updater! This contains the ground work for going forward
 * Added ability to login to Streamer.bot website, this is mainly used for access to beta/alpha update channels
+* Add new TTS Engine service, UberDuck.ai
 {.changelog-new}
 
 # TwitchSpeaker v0.0.48 (Current)
