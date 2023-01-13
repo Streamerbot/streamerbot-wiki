@@ -2,7 +2,7 @@
 title: IFTTT Notification (Advanced)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-01-10T18:13:52.175Z
+date: 2023-01-13T17:25:55.389Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T18:10:28.578Z
@@ -11,7 +11,7 @@ dateCreated: 2023-01-10T18:10:28.578Z
 ## Overview
 Send a notification trigger to IFTTT from Streamer.bot with additional arguments.
 
-![ifttt-notification-advanced.png](/Integrations/IFTTT/ifttt-notification-advanced.png =300x)
+![overview.png](/Sub-Actions/IFTTT/notification-advanced/overview.png =500x)
 
 ## Setup Guide
 1. Create a new applet in your IFTTT app
