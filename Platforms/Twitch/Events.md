@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2023-01-13T07:35:47.693Z
+date: 2023-01-13T07:40:01.376Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -27,17 +27,27 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Midroll *When an ad runs on your channel in the middle of streams*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Ad-Midroll){.disabled}
 {.btn-grid .my-5}
 
-## Channel
-* [<i class="mdi mdi-calendar-check-outline text--twitch"></i> **Stream Online *When you start streaming***](/Platforms/YouTube/Events/Stream-Online){.disabled}
-* [<i class="mdi mdi-calendar-remove-outline text--twitch"></i> **Stream Offline *When you stop streaming***](/Platforms/Twitch/Events/Stream-Offline){.disabled}
-{.btn-grid .my-5}
-
 ## Moderation
+Configurable events in the *Platforms > Twitch > Moderation* tab{.subtitle}
+
 - [<i class="mdi mdi-comment-remove-outline text--twitch"></i> **Message Deleted *When a message is deleted in your twitch chat***](/Platforms/Twitch/Events/Message-Deleted)
 - [<i class="mdi mdi-account-minus text--twitch"></i> **User Banned *When a user is banned***](/Platforms/Twitch/Events/User-Banned)
 - [<i class="mdi mdi-account-tie-voice-off text--twitch"></i> **User Timed Out *When a user is timed out***](/Platforms/Twitch/Events/User-Timed-Out)
 - [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode Begin *Shield Mode has begun*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Shield-Mode-Begin){.disabled}
 - [<i class="mdi mdi-shield text--twitch"></i> **Shield Mode End *Shield Mode has ended*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Shield-Mode-End){.disabled}
+{.btn-grid .my-5}
+
+## Channel
+Configurable events in the *Platforms > Twitch > Channel* tab{.subtitle}
+
+* [<i class="mdi mdi-calendar-check-outline text--twitch"></i> **Stream Online *When you start streaming***](/Platforms/YouTube/Events/Stream-Online){.disabled}
+* [<i class="mdi mdi-calendar-remove-outline text--twitch"></i> **Stream Offline *When you stop streaming***](/Platforms/Twitch/Events/Stream-Offline){.disabled}
+{.btn-grid .my-5}
+
+## Bot
+Configurable events in the *Platforms > Twitch > Bot* tab{.subtitle}
+
+- [<i class="mdi mdi-account-voice text--twitch"></i> **Whispers *When you receive a non-command whisper on your bot account***](/Platforms/Twitch/Events/Bot-Whispers){.disabled}
 {.btn-grid .my-5}
 
 ## Standard Twitch Events
