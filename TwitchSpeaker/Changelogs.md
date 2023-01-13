@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-11T03:22:16.749Z
+date: 2023-01-13T04:46:39.851Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -13,6 +13,7 @@ Upcoming changes in the next release!{.subtitle}
 
 * Some fixes
 * Fixes to Microsoft Azure initializations
++ Fix Twitch sub and re-sub events not speaking/parsing correctly
 {.changelog-fixes}
 
 <span></span>
