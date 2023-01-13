@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2023-01-13T07:45:52.006Z
+date: 2023-01-13T07:47:35.739Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -40,8 +40,8 @@ Configurable events in the *Platforms > Twitch > Moderation* tab{.subtitle}
 ## Channel
 Configurable events in the *Platforms > Twitch > Channel* tab{.subtitle}
 
-* [<i class="mdi mdi-calendar-check-outline text--twitch"></i> **Stream Online *When you start streaming*** *v0.1.17*{.version-badge}](/Platforms/YouTube/Events/Stream-Online){.disabled}
-* [<i class="mdi mdi-calendar-remove-outline text--twitch"></i> **Stream Offline *When you stop streaming*** *v0.1.17*{.version-badge}](/Platforms/Twitch/Events/Stream-Offline){.disabled}
+* [<i class="mdi mdi-calendar-check-outline text--twitch"></i> **Stream Online *When you start streaming*** *v0.1.17*{.version-badge}](/Platforms/Twitch/Events/Stream-Online)
+* [<i class="mdi mdi-calendar-remove-outline text--twitch"></i> **Stream Offline *When you stop streaming*** *v0.1.17*{.version-badge}](/Platforms/Twitch/Events/Stream-Offline)
 {.btn-grid .my-5}
 
 ## Bot
