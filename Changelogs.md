@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-11T00:36:55.549Z
+date: 2023-01-13T02:29:39.682Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,6 +22,12 @@ Upcoming changes in the next release!{.subtitle}
 <span></span>
 
 * Twitch User IDs are now string across the entire application
+* Twitch Channel Shield Mode EventSub events are out of beta, updated this internally
+* Twitch Charity Donation event now includes the id of the donation, this has been added as a new arg `%donationId%`
+* Updated Twitch Add Target Info to include tags
+* YouTube based events have a `%broadcastId%` variable now
+* Events that add primary user information, now have a `%lastActive%` variable (this might change to userLastActive, unsure atm)
+* StreamElements, linked the YouTube provider events
 {.changelog-updates}
 
 <span></span>
@@ -32,11 +38,52 @@ Upcoming changes in the next release!{.subtitle}
 * Add new [Websocket Event](#websocket-events), ActionCompleted
 * Ability to directly rename an Action Group, without having to edit every action
 * Add filter to user permissions in Command Dialog
+* Add 4 new sub-actions to [Add, Remove, Clear and Set Twitch Tags](#twitch-add-remove-clear-and-set-channel-tags)
+* Add 4 new C# methods to Add, Remove, Clear and Set Twitch Tags
+* Add 2 new Twitch events, [StreamOnline](#twitch-streamonline-and-streamoffline-events) and [StreamOffline](#twitch-streamonline-and-streamoffline-events)
+* StreamElements, add a new `%provider%` variable to Tip and Merch events (can be twitch, youtube or streamelements)
+* StreamElements, add a new `%tipId%` variable to the Tip event, this is StreamElement's internal tip id value
 {.changelog-new}
 
 ## Websocket Events
 ### ActionCompleted
 `0.1.17` introduces a new Raw event, ActionCompleted.  Subscribing to this event in the Websocket Server will get you information when an action is completed.
+
+## New Sub-Actions
+### Twitch Add, Remove, Clear and Set Channel Tags
+Yes, Twitch finally added the ability to manipulate the new tags!
+
+The Clear Channel Tags sub-action has no input, and will just clear your tags.
+
+The Add, Remove and Set Channel Tag sub-actions all support variables.
+
+The Add Target Info adds the following new arguments:
+`%tagCount%` - The number of tags
+`%tag#%` - The tag at index position #
+`%tags%` - A `List<string>()` object for use in C#
+`%tagsDelimited%` - A comma delimited string of the tags
+
+
+> At the moment, there is a bug in the Twitch Helix endpoint, where its unable to clear the tags completely.  So for the time being Clear Tags and Removing the last tag will fail. Once Twitch fixes this, they should start working.
+>
+> If you keep at least 1 tag active, you'll be able to add/remove tags at will.  And for setting all tags, at least 1 needs to be set.
+{.is-warning}
+
+## New Events
+### Twitch StreamOnline and Offline events
+For the new Twitch StreamOnline event, this will not be triggered if you are online and Streamer.bot connects to your Twitch account.
+
+StreamOnline Event arguments
+`%startedAt%` - The date, time the stream went online
+`%game%` - The category name
+`%gameId%` - The category id
+`%tagCount%` - The number of tags
+`%tag#%` - The tag at index position #
+`%tags%` - A `List<string>()` object for use in C#
+`%tagsDelimited%` - A comma delimited string of the tags
+
+StreamOffline Event arguments
+`%endedAt%` - The date time when the stream went offline
 
 ## New C# Methods
 ```csharp
@@ -51,6 +98,11 @@ void CommandAddToUserCooldown(string id, string userId, int seconds);
 bool UserIdInGroup(string userId, string groupName);
 bool AddUserIdToGroup(string userId, string groupName);
 bool RemoveUserIdFromGroup(string userId, string groupName);
+
+bool TwitchClearChannelTags();
+bool TwitchSetChannelTags(List<string> tags);
+bool TwitchAddChannelTag(string tag);
+bool TwitchRemoveChannelTag(string tag);
 ```
 
 # Streamer.bot v0.1.16 (Current)
