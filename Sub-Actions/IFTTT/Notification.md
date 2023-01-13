@@ -2,7 +2,7 @@
 title: IFTTT Notification (Basic)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-01-13T07:54:03.895Z
+date: 2023-01-13T17:29:54.447Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z
@@ -11,7 +11,7 @@ dateCreated: 2022-12-10T04:18:01.719Z
 ## Overview
 Send a basic notification trigger to IFTTT from Streamer.bot
 
-![ifttt-notification-basic.png](/Integrations/IFTTT/ifttt-notification-basic.png =300x)
+![overview.png](/Sub-Actions/IFTTT/notification/overview.png =400x)
 
 ## Setup Guide
 1. Create a new applet in your IFTTT app
@@ -30,5 +30,5 @@ Enter any text, including variables, to be sent with your trigger to IFTTT.
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/en/Sub-Actions/IFTTT)
-- [<i class="mdi mdi-chevron-right"></i> **IFTTT Notification (Advanced) *Up Next***](/en/Sub-Actions/IFTTT/Notification-Advanced)
+- [<i class="mdi mdi-android-messages"></i> **IFTTT Notification (Advanced) *Up Next***](/en/Sub-Actions/IFTTT/Notification-Advanced)
 {.btn-grid .my-5}
