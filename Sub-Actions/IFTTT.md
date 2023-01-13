@@ -2,13 +2,13 @@
 title: IFTTT Sub-Actions
 description: Reference of all IFTTT Sub-Actions
 published: true
-date: 2023-01-13T07:53:19.537Z
+date: 2023-01-13T07:53:33.840Z
 tags: v0.1.15
 editor: markdown
 dateCreated: 2022-12-10T04:15:16.884Z
 ---
 
-- [<i class="mdi mdi-android-messages"></i>**Notification (Basic) *Send a basic notification trigger to IFTTT *v0.1.17*{.version-badge}***](/Sub-Actions/IFTTT/Notification){.disabled}
+- [<i class="mdi mdi-android-messages"></i>**Notification (Basic) *Send a basic notification trigger to IFTTT *v0.1.15*{.version-badge}***](/Sub-Actions/IFTTT/Notification)
 - [<i class="mdi mdi-android-messages"></i>**Notification (Advanced) *Send a notification with additional data to IFTTT *v0.1.17*{.version-badge}***](/Sub-Actions/IFTTT/Notification-Advanced){.disabled}
 {.btn-grid .my-5}
 
