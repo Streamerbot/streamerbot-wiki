@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-13T02:29:39.682Z
+date: 2023-01-13T06:28:36.789Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,6 +17,7 @@ Upcoming changes in the next release!{.subtitle}
 * Regression, was not listening for Twitch Community Goal events
 * Issue with collapsing all action groups
 * Disable OK button in Set Argument sub-action dialog when loaded, so it gets validated properly
+* Fix Twitch HypeTrain end event, was missing `%contributors%` variable
 {.changelog-fixes}
 
 <span></span>
