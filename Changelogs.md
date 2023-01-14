@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T16:42:21.764Z
+date: 2023-01-14T16:48:59.114Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -32,6 +32,7 @@ Upcoming changes in the next release!{.subtitle}
 * StreamElements, linked the YouTube provider events
 * Harden file saving routines
 * Move Twitch Channel Reward counters to the twitch data db file
+* Improvements to the auto-updater, cancellation support and timeout.  **NOTE** This won't be useable until the **next** update.
 {.changelog-updates}
 
 <span></span>
