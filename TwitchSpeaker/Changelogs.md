@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-13T04:47:50.444Z
+date: 2023-01-14T01:06:51.075Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -20,11 +20,13 @@ Upcoming changes in the next release!{.subtitle}
 
 * Update external libraries
 * Update internal libraries
+* Some general code cleanup
 * Change Microsoft Azure Services to use 48khz audio
 * Request new Twitch Scopes
 * Switch some Twitch events to use EventSub
 * Update account tab for Twitch to match design/styling seen in Streamer.bot
 * Move some settings into database files
+* Harden file saving routines
 {.changelog-updates}
 
 <span></span>
@@ -33,7 +35,17 @@ Upcoming changes in the next release!{.subtitle}
 * Added ability to login to Streamer.bot website, this is mainly used for access to beta/alpha update channels
 * Add new TTS Engine service, UberDuck.ai
 * Add new TTS Engine service, tts.monster
+* Add new [UDP Commands](#new-udp-commands)
 {.changelog-new}
+
+## New UDP Commands
+There are 3 new UDP commans
+
+```js
+{ "command": "set", "method": "sticky", "value": true/false }
+{ "command": "set", "method": "nickname", "username": "%user%", "nickname": "somestring" }
+{ "command": "assign", "method": "last", "username": "%user%" }
+```
 
 # TwitchSpeaker v0.0.48 (Current)
 Released 2022-01-13{.subtitle}
