@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T16:48:59.114Z
+date: 2023-01-14T18:25:46.845Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,6 +33,7 @@ Upcoming changes in the next release!{.subtitle}
 * Harden file saving routines
 * Move Twitch Channel Reward counters to the twitch data db file
 * Improvements to the auto-updater, cancellation support and timeout.  **NOTE** This won't be useable until the **next** update.
+* Disable and remove Twitch Coin Cheer events, since Twitch halted this experiment October 2022
 {.changelog-updates}
 
 <span></span>
