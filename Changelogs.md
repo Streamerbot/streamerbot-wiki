@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T03:08:16.580Z
+date: 2023-01-14T16:42:21.764Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -53,6 +53,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add new argument to all actions, `%actionQueuedAt%`, this is when the action was queued
 * Add 2 new sub-actions for resetting reward counts
 * Add 4 new C# methods for resetting reward counts
+* Add an Auto Type option to the SEt Argument sub-action, if disabled, the value will be treated as a string
 {.changelog-new}
 
 ## Websocket Events
