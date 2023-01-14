@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T01:05:03.123Z
+date: 2023-01-14T01:05:27.538Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -29,6 +29,7 @@ Upcoming changes in the next release!{.subtitle}
 * YouTube based events have a `%broadcastId%` variable now
 * Events that add primary user information, now have a `%userPreviousActive%` variable
 * StreamElements, linked the YouTube provider events
+* Harden file saving routines
 {.changelog-updates}
 
 <span></span>
