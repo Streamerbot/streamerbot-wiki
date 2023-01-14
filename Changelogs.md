@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-13T06:28:36.789Z
+date: 2023-01-14T01:05:03.123Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -27,7 +27,7 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch Charity Donation event now includes the id of the donation, this has been added as a new arg `%donationId%`
 * Updated Twitch Add Target Info to include tags
 * YouTube based events have a `%broadcastId%` variable now
-* Events that add primary user information, now have a `%lastActive%` variable (this might change to userLastActive, unsure atm)
+* Events that add primary user information, now have a `%userPreviousActive%` variable
 * StreamElements, linked the YouTube provider events
 {.changelog-updates}
 
@@ -44,6 +44,10 @@ Upcoming changes in the next release!{.subtitle}
 * Add 2 new Twitch events, [StreamOnline](#twitch-streamonline-and-streamoffline-events) and [StreamOffline](#twitch-streamonline-and-streamoffline-events)
 * StreamElements, add a new `%provider%` variable to Tip and Merch events (can be twitch, youtube or streamelements)
 * StreamElements, add a new `%tipId%` variable to the Tip event, this is StreamElement's internal tip id value
+* Add new C# method to get how many channel points a user has used, Twitch only
+* Add new sub-action to [clear users from a group](#clear-users-from-a-group)
+* Add new C# method to clear users from a group
+* Add new argument to all actions, `%actionQueuedAt%`, this is when the action was queued
 {.changelog-new}
 
 ## Websocket Events
@@ -69,6 +73,9 @@ The Add Target Info adds the following new arguments:
 >
 > If you keep at least 1 tag active, you'll be able to add/remove tags at will.  And for setting all tags, at least 1 needs to be set.
 {.is-warning}
+
+### Clear Users From a Group
+This sub-action will allow you to select one of your groups, so you can clear the users belonging to it during an action
 
 ## New Events
 ### Twitch StreamOnline and Offline events
@@ -104,6 +111,10 @@ bool TwitchClearChannelTags();
 bool TwitchSetChannelTags(List<string> tags);
 bool TwitchAddChannelTag(string tag);
 bool TwitchRemoveChannelTag(string tag);
+
+long TwitchGetChannelPointsUsedByUserId(string userId);
+
+bool ClearUsersFromGroup(string groupName);
 ```
 
 # Streamer.bot v0.1.16 (Current)
