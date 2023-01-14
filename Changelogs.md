@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T01:05:27.538Z
+date: 2023-01-14T03:08:16.580Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -18,6 +18,7 @@ Upcoming changes in the next release!{.subtitle}
 * Issue with collapsing all action groups
 * Disable OK button in Set Argument sub-action dialog when loaded, so it gets validated properly
 * Fix Twitch HypeTrain end event, was missing `%contributors%` variable
+* Fix command group collapsing
 {.changelog-fixes}
 
 <span></span>
@@ -30,6 +31,7 @@ Upcoming changes in the next release!{.subtitle}
 * Events that add primary user information, now have a `%userPreviousActive%` variable
 * StreamElements, linked the YouTube provider events
 * Harden file saving routines
+* Move Twitch Channel Reward counters to the twitch data db file
 {.changelog-updates}
 
 <span></span>
@@ -49,6 +51,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add new sub-action to [clear users from a group](#clear-users-from-a-group)
 * Add new C# method to clear users from a group
 * Add new argument to all actions, `%actionQueuedAt%`, this is when the action was queued
+* Add 2 new sub-actions for resetting reward counts
+* Add 4 new C# methods for resetting reward counts
 {.changelog-new}
 
 ## Websocket Events
@@ -116,6 +120,11 @@ bool TwitchRemoveChannelTag(string tag);
 long TwitchGetChannelPointsUsedByUserId(string userId);
 
 bool ClearUsersFromGroup(string groupName);
+
+void TwitchResetRewardCounter(string rewardId);
+void TwitchResetRewardUserCounters(string rewardId);
+void TwitchResetUserRewardCounters(string userId, bool persisted);
+void TwitchResetUserRewardCounter(string rewardId, string userId);
 ```
 
 # Streamer.bot v0.1.16 (Current)
