@@ -2,7 +2,7 @@
 title: Watson
 description: TwitchSpeaker Speech Engines Reference
 published: false
-date: 2023-01-15T11:50:04.745Z
+date: 2023-01-15T11:50:10.337Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:21:45.256Z
@@ -21,5 +21,5 @@ dateCreated: 2023-01-05T02:21:45.256Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
