@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: false
-date: 2023-01-15T10:59:27.383Z
+date: 2023-01-15T11:25:51.630Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -45,6 +45,8 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-amazon theme--dark"></i>**Amazon Polly *Use Amazon Polly for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Amazon-Polly)
 - [<i class="mdi mdi-microphone theme--dark"></i>**Watson *Use Watson for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Watson)
 - [<i class="mdi mdi-microsoft theme--dark"></i>**SAPI5 *Use SAPI5 for your TTS voices.***](/TwitchSpeaker/Speech-Engines/SAPI5)
+- [<i class="mdi mdi-duck theme--dark"></i>**UberDuck *Use UberDuck for your TTS voices.***](/TwitchSpeaker/Speech-Engines/UberDuck){.disabled}
+- [<i class="mdi mdi-alien theme--dark"></i>**TTS Monster *Use TTS Monster for your TTS voices.***](/TwitchSpeaker/Speech-Engines/TTS-Monster){.disabled}
 - [<i class="mdi mdi-microphone theme--dark"></i>**Acapela *Use Acapela for your TTS voices.***](/TwitchSpeaker/Speech-Engines/Acapela){.disabled}
 - [<i class="mdi mdi-microphone theme--dark"></i>**CereProc *Use CereProc for your TTS voices.***](/TwitchSpeaker/Speech-Engines/CereProc){.disabled}
 {.btn-grid .my-5}
