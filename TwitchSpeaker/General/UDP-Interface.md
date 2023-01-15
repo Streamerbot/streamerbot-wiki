@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Control TwitchSpeaker with Streamer.bot or other applications over a UDP connection
 published: true
-date: 2023-01-15T11:15:17.534Z
+date: 2023-01-15T11:20:55.142Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -128,6 +128,42 @@ Port | `6669` (the port can't be changed)
 {
   "command": "profile", 
   "profile": "none"
+}
+```
+
+## set (sticky)
+Added in v0.0.49
+```json
+{
+  "command": "set",
+  "method": "sticky",
+  "value": true
+}
+{
+  "command": "set",
+  "method": "sticky",
+  "value": false
+}
+```
+
+## set (nickname)
+Added in v0.0.49
+```json
+{
+  "command": "set",
+  "method": "nickname",
+  "username": "%user%",
+  "nickname": "somestring"
+}
+```
+
+## assign (last)
+Added in v0.0.49
+```json
+{
+  "command": "assign",
+  "method": "last",
+  "username": "%user%"
 }
 ```
 
