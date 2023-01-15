@@ -2,7 +2,7 @@
 title: UberDuck
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-15T11:42:51.194Z
+date: 2023-01-15T11:43:09.995Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T11:42:51.194Z
@@ -15,6 +15,7 @@ dateCreated: 2023-01-15T11:42:51.194Z
 5. Now you will be given 2 keys, a public key and a secret key. Now put the public key in the `Client` field and the Secret key in the `Secret` field, and you can coonect by clicking `UberDuck` in the `Add Engine` list.
 
 > UberDuck is a paid service
+{.is-info}
 
 ---
 
