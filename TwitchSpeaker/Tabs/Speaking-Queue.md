@@ -1,8 +1,8 @@
 ---
 title: Speaking Queue
 description: The Queue where the next TTS message is held 
-published: true
-date: 2023-01-06T12:53:03.753Z
+published: false
+date: 2023-01-15T11:52:08.707Z
 tags: twitch, queues, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-08-08T00:16:31.439Z
@@ -16,6 +16,6 @@ To get to this is tab when Twitch Speaker is open click the second tab called "S
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class="mdi mdi-history text--twitch"></i>**Speaking History *Up Next***](/en/TwitchSpeaker/Speaking-History)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
+- [<i class="mdi mdi-history text--twitch"></i>**Speaking History *Up Next***](/TwitchSpeaker/Tabs/Speaking-History)
 {.btn-grid .my-5}
