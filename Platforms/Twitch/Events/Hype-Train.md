@@ -2,7 +2,7 @@
 title: Hype Train
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:39:29.703Z
+date: 2023-01-15T12:27:25.073Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
@@ -13,57 +13,104 @@ In this tab you can assign actions to the various levels of the hype train.
 
 To get to this tab you need to click through the following tabs, First click the `Settings` tab next click on the `Events` tab then finally click the `Hype Train` tab. You should now see a window just like the image below.
 
-![hypetrain.png](/hypetrain.png)
+![hypetrain.png](/hypetrain.png =700x)
 
-So in this Tab you can see 5 sections: Start, Progression, Level Up, and Finish. Each section will be explained below in their own sections. 
-
-## Start
-In this section you can set an action to trigger when a Hype Train is started in your Twitch channel. All you need to do is make sure you have an action created for this event and we will assign this action to the `Start` trigger event in this tab. To do this click the button `<No Action Selected>` now a window with all your actions will appear like the one below. 
-
-![actionshype.png](/actionshype.png)
-
-Select the relevant event in this case it would be the `Start Event Action` for this section.  Now this has been set when a hype train has started in your channel Streamer.bot will trigger the hype train start action. 
-
-## Progression
-In this section you can set an action to trigger when a Hype Train is progressing in your twitch channel. All you need to do is make sure you have an action created for this event and we will assign this action to the `Progression` trigger event in this tab. To do this click the button `<No Action Selected>` 
-
-Select the relevant event in this case it would be the `Progression Action` for this section.  Now this has been set when a hype train progresses in your channel Streamer.bot will trigger this action. 
-
-
-## Level Up 
-In this section you can set an action to trigger when a Hype Train progresses through each of the levels. You can also add variation to each level that is triggered. To do this in the `Level Up` section you will need to add action to each level in the drop down menu or alternatively just assign an action to the default `Generic`. 
-
-![hype_levels_.png](/hype_levels_.png)
-
-To do this select an option from the drop down whether it's the generic or the level 1-5. Select one then click the button `<No Action Selected>` an action window will appear from here you would select the relevant action to the event in this case it would be the `A Level Up` for this section. Now this has been set when a hype train progresses in your channel Streamer.bot will trigger this action(s).
-
-## Finish 
-In this section you can set an action to trigger when a Hype Train has finished in your Twitch channel. All you need to do is make sure you have an action created for this event and we will assign this action to the `Finish` trigger event in this tab. To do this click the button `<No Action Selected>` now a window with all your actions will appear, select the action you want to run when this event is triggered.
+In this Tab you can see 5 sections: Start, Progression, Level Up, and Finish. Each section will be explained below in their own sections. 
 
 ## Test Section 
 On the right in this tab is the test section where you can test all that you have just set up. You can test the events, level goal and level total these will let you test the variations and the progression actions you have. Total will let you test the finished event you have set.
 
-
 ## Variables
+### Start
 Name | Description
 ----:|:------------
-`level` | Current level <br> `1-5`
-`percent` |Percent complete of the level <br> `50`
-`percentDecimal` | Percent completion of the level as a decimal value <br> `0.5`
-`contributors` | Number of contributors in the hype train <br> *Not available on Hype Train Start*{.small}
-`conductor` | Twitch User ID of the conductor
-{.vars-table}
+`level` | The current Hype Train level e.g. `3`
+`startedAt` | The time the hype train started e.g. `8/25/2020 8:30:27 PM`
+`expiresAt` | The time the hype train expires e.g. `8/25/2020 8:32:27 PM`
+`duration` | The duration of the hype train e.g. `120`
+`percent` | The amount of percentage for the current level e.g. `80%`
+`percentDecimal` | The amount of decimal percentage for the current level e.g. `0.8`
+`top.bits.user` | The best cheerer of this hype train display name
+`top.bits.userName` | The best cheerer of this hype train login name
+`top.bits.userId` | The best cheerer of this hype train user id
+`top.bits.total` | The amount of bits from the best cheerer of this hype train
+`top.subscription.user` | The most amount of giftsubs given by user in this hype train display name
+`top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
+`top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
+`top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
 
-## Level Up
+### Progression
 Name | Description
 ----:|:------------
-`prevLevel` | Previous level of the hype train <br> `1-4`
-{.vars-table}
+`level` | The current Hype Train level e.g. `3`
+`startedAt` | The time the hype train started e.g. `8/25/2020 8:30:27 PM`
+`expiresAt` | The time the hype train expires e.g. `8/25/2020 8:32:27 PM`
+`duration` | The duration of the hype train e.g. `120`
+`percent` | The amount of percentage for the current level e.g. `80%`
+`percentDecimal` | The amount of decimal percentage for the current level e.g. `0.8`
+`contributors` | The amount of contributors of the hype train e.g. `10`
+`user` | The user that progresses the hype train display name
+`userName` | The user that progresses the hype train login name
+`userId` | The user that progresses the hype train user id
+`userType` | twitch
+`isSubscribed` | If the user that progresses the hype train is a subscriber `True`/`False`
+`isModerator` | If the user that progresses the hype train is a moderator `True`/`False`
+`isVip` | If the user that progresses the hype train is a vip `True`/`False`
+`userPreviousActive` | The time that the user was previously active e.g. `8/25/2020 8:10:27 PM`
+`top.bits.user` | The best cheerer of this hype train display name
+`top.bits.userName` | The best cheerer of this hype train login name
+`top.bits.userId` | The best cheerer of this hype train user id
+`top.bits.total` | The amount of bits from the best cheerer of this hype train
+`top.subscription.user` | The most amount of giftsubs given by user in this hype train display name
+`top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
+`top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
+`top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
 
-## Progression
+### Level Up
 Name | Description
 ----:|:------------
-`user` | The user who is contributing to the hype train
+`prevLevel`	| The previous Hype Train level e.g. `2`
+`level` | The current Hype Train level e.g. `3`
+`startedAt` | The time the hype train started e.g. `8/25/2020 8:30:27 PM`
+`expiresAt` | The time the hype train expires e.g. `8/25/2020 8:32:27 PM`
+`duration` | The duration of the hype train e.g. `120`
+`percent` | The amount of percentage for the current level e.g. `80%`
+`percentDecimal` | The amount of decimal percentage for the current level e.g. `0.8`
+`contributors` | The amount of contributors of the hype train e.g. `10`
+`user` | The user that progresses the hype train display name
+`userName` | The user that progresses the hype train login name
+`userId` | The user that progresses the hype train user id
+`userType` | twitch
+`isSubscribed` | If the user that progresses the hype train is a subscriber `True`/`False`
+`isModerator` | If the user that progresses the hype train is a moderator `True`/`False`
+`isVip` | If the user that progresses the hype train is a vip `True`/`False`
+`userPreviousActive` | The time that the user was previously active e.g. `8/25/2020 8:10:27 PM`
+`top.bits.user` | The best cheerer of this hype train display name
+`top.bits.userName` | The best cheerer of this hype train login name
+`top.bits.userId` | The best cheerer of this hype train user id
+`top.bits.total` | The amount of bits from the best cheerer of this hype train
+`top.subscription.user` | The most amount of giftsubs given by user in this hype train display name
+`top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
+`top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
+`top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+
+### Finish
+Name | Description
+----:|:------------
+`level` | The current Hype Train level e.g. `3`
+`startedAt` | The time the hype train started e.g. `8/25/2020 8:30:27 PM`
+`percent` | The amount of percentage for the current level e.g. `80%`
+`percentDecimal` | The amount of decimal percentage for the current level e.g. `0.8`
+`contributors` | The amount of contributors of the hype train e.g. `10`
+`top.bits.user` | The best cheerer of this hype train display name
+`top.bits.userName` | The best cheerer of this hype train login name
+`top.bits.userId` | The best cheerer of this hype train user id
+`top.bits.total` | The amount of bits from the best cheerer of this hype train
+`top.subscription.user` | The most amount of giftsubs given by user in this hype train display name
+`top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
+`top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
+`top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+
 
 ---
 
