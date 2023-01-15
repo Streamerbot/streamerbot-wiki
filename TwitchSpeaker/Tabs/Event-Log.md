@@ -2,7 +2,7 @@
 title: Event Log
 description: Event logs are speaker placed here 
 published: false
-date: 2023-01-15T11:51:01.433Z
+date: 2023-01-15T11:51:25.562Z
 tags: twitch, twitchspeaker, event
 editor: markdown
 dateCreated: 2022-08-08T00:10:28.128Z
@@ -17,5 +17,5 @@ From the screen capture above you could read the Event Log tab just like a log f
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
-- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue *Up Next***](/TwitchSpeaker/Speaking-Queue)
+- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue *Up Next***](/TwitchSpeaker/Tabs/Speaking-Queue)
 {.btn-grid .my-5}
