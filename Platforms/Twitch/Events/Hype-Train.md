@@ -2,7 +2,7 @@
 title: Hype Train
 description: Twitch Events Reference
 published: true
-date: 2023-01-15T12:28:43.857Z
+date: 2023-01-15T18:47:52.089Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
@@ -38,6 +38,10 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`top.other.user` | The user display name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userName` | The user login name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userId` | The user id of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.total` | The toal amount of the user that have given the most amount of things that aren't bits/giftsubs this hype train
 `id` | The unique hype train id
 
 ### Progression
@@ -66,6 +70,10 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`top.other.user` | The user display name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userName` | The user login name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userId` | The user id of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.total` | The toal amount of the user that have given the most amount of things that aren't bits/giftsubs this hype train
 `id` | The unique hype train id
 
 ### Level Up
@@ -95,6 +103,10 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`top.other.user` | The user display name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userName` | The user login name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userId` | The user id of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.total` | The toal amount of the user that have given the most amount of things that aren't bits/giftsubs this hype train
 `id` | The unique hype train id
 
 ### Finish
@@ -113,6 +125,10 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`top.other.user` | The user display name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userName` | The user login name of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.userId` | The user id of the user that have given the most amount of things that aren't bits/giftsubs this hype train
+`top.other.total` | The toal amount of the user that have given the most amount of things that aren't bits/giftsubs this hype train
 `id` | The unique hype train id
 
 ---
