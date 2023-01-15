@@ -1,8 +1,8 @@
 ---
 title: Speaking History
 description: History of what has been spoken 
-published: true
-date: 2023-01-06T12:53:44.564Z
+published: false
+date: 2023-01-15T11:52:44.794Z
 tags: twitch, tts, twitchspeaker, history
 editor: markdown
 dateCreated: 2022-08-08T23:05:00.790Z
@@ -21,6 +21,6 @@ In this tab as we know the speaking history is displayed.  How one would read th
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
-- [<i class=" mdi mdi-account text--twitch"></i>**Users *Up Next***](/en/TwitchSpeaker/Users)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
+- [<i class=" mdi mdi-account text--twitch"></i>**Users *Up Next***](/TwitchSpeaker/Tabs/Users)
 {.btn-grid .my-5}
