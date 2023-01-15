@@ -2,7 +2,7 @@
 title: Hype Train
 description: Twitch Events Reference
 published: true
-date: 2023-01-15T12:27:25.073Z
+date: 2023-01-15T12:28:43.857Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
@@ -38,6 +38,7 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`id` | The unique hype train id
 
 ### Progression
 Name | Description
@@ -65,6 +66,7 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`id` | The unique hype train id
 
 ### Level Up
 Name | Description
@@ -93,6 +95,7 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
+`id` | The unique hype train id
 
 ### Finish
 Name | Description
@@ -110,7 +113,7 @@ Name | Description
 `top.subscription.userName` | The most amount of giftsubs given by user in this hype train login name
 `top.subscription.userId` | The most amount of giftsubs given by user in this hype train user id
 `top.subscription.total` | The most amount of giftsubs given by user in this hype train giftsub count
-
+`id` | The unique hype train id
 
 ---
 
