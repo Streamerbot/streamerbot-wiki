@@ -2,35 +2,17 @@
 title: UDP Interface
 description: Control TwitchSpeaker with Streamer.bot or other applications over a UDP connection
 published: true
-date: 2023-01-15T11:01:47.521Z
+date: 2023-01-15T11:15:17.534Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
 ---
 
-Port: `6669` (the port cannot be changed)
+----:|:------------
+Port | `6669` (the port can't be changed)
 
-Payload Data:
+## speak
 ```json
-{ "command": "pause" }
-{ "command": "resume" }
-{ "command": "clear" }
-{ "command": "off" }
-{ "command": "disable" }
-{ "command": "on" }
-{ "command": "enable" }
-{ "command": "stop" }
-{ "command": "events", "value": "", "state": "on" }
-{ "command": "events", "value": "", "state": "off" }
-{ "command": "reg", "mode": "add", "user": "%user%", "id": "%userId%" }
-{ "command": "reg", "mode": "del", "user": "%user%", "id": "%userId%" }
-{ "command": "profile", "profile": "none" }
-{ "command": "profile", "profile": "<profile name>" }
-```
-
-You can also send text to be spoken
-
- ```json
 {
   "command": "speak",
   "id": "<id>",
@@ -39,108 +21,63 @@ You can also send text to be spoken
 }
 ```
 
-## Examples
-
-<details style="margin: 0.5em 0em;">
-<summary>pause</summary>
-  
+## pause
 ```json
 {
   "command": "pause"
 }
 ```
   
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>resume</summary>
-
+## resume
 ```json
 {
   "command": "resume"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>clear</summary>
-
+## clear
 ```json
 {
   "command": "clear"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>off</summary>
-  
+## off
 ```json
 {
   "command": "off"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>disable</summary>
-
+## disable
 ```json
 {
   "command": "disable"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>on</summary>
-
+## on
 ```json
 {
   "command": "on"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>enable</summary>
-
+## enable
 ```json
 {
   "command": "enable"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>stop</summary>
-
+## stop
 ```json
 {
   "command": "stop"
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>events (on)</summary>
-
-```json
-{
-  "command": "events",
-  "value": "",
-  "state": "on"
-}
-```
-
-**Example:**
+## events (on)
 ```json
 {
   "command": "events",
@@ -149,20 +86,7 @@ You can also send text to be spoken
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>events (off)</summary>
-
-```json
-{
-  "command": "events",
-  "value": "",
-  "state": "off"
-}
-```
-
-**Example:**
+## events (off)
 ```json
 {
   "command": "events",
@@ -171,21 +95,7 @@ You can also send text to be spoken
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>reg (add)</summary>
-
-```json
-{
-  "command": "reg",
-  "mode": "add",
-  "user": "",
-  "id": ""
-}
-```
-
-**Example:**
+## reg (add)
 ```json
 {
   "command": "reg",
@@ -195,21 +105,7 @@ You can also send text to be spoken
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>reg (del)</summary>
-
-```json
-{
-  "command": "reg",
-  "mode": "del",
-  "user": "",
-  "id": ""
-}
-```
-
-**Example:**
+## reg (del)
 ```json
 {
   "command": "reg",
@@ -218,19 +114,8 @@ You can also send text to be spoken
   "id": "%userId%"
 }
 ```
-</details>
 
-<details style="margin: 0.5em 0em;">
-<summary>profile</summary>
-
-```json
-{
-  "command": "profile",
-  "profile": ""
-}
-```
-
-**Example:**
+## profile
 ```json
 {
   "command": "profile",
@@ -238,11 +123,7 @@ You can also send text to be spoken
 }
 ```
 
-</details>
-
-<details style="margin: 0.5em 0em;">
-<summary>profile (none)</summary>
-
+## profile (none)
 ```json
 {
   "command": "profile", 
@@ -250,8 +131,7 @@ You can also send text to be spoken
 }
 ```
 
-</details>
-  
-***
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
