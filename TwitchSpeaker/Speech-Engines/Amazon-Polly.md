@@ -2,7 +2,7 @@
 title: Amazon Polly
 description: TwitchSpeaker Speech Engines Reference
 published: false
-date: 2023-01-15T11:46:22.471Z
+date: 2023-01-15T11:47:40.528Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:17:11.130Z
@@ -38,5 +38,5 @@ NOTE It might take a couple hours for your Amazon account to be completely activ
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
