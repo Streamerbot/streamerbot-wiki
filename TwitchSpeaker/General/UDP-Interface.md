@@ -1,16 +1,16 @@
 ---
 title: UDP Interface
-description: Run TwitchSpeaker stuff trough Streamer.bot
+description: Control TwitchSpeaker with Streamer.bot or other applications over a UDP connection
 published: true
-date: 2022-09-17T16:16:31.119Z
+date: 2023-01-15T11:01:47.521Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
 ---
 
-Port: `6669`
+Port: `6669` (the port cannot be changed)
 
-Payload Data (currently available):
+Payload Data:
 ```json
 { "command": "pause" }
 { "command": "resume" }
@@ -25,7 +25,7 @@ Payload Data (currently available):
 { "command": "reg", "mode": "add", "user": "%user%", "id": "%userId%" }
 { "command": "reg", "mode": "del", "user": "%user%", "id": "%userId%" }
 { "command": "profile", "profile": "none" }
-{ "command": "profile", "profile": "<profile name>" 
+{ "command": "profile", "profile": "<profile name>" }
 ```
 
 You can also send text to be spoken
