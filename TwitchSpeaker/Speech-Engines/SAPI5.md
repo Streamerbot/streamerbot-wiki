@@ -1,8 +1,8 @@
 ---
 title: SAPI5
 description: TwitchSpeaker Speech Engines Reference
-published: true
-date: 2023-01-05T02:28:04.986Z
+published: false
+date: 2023-01-15T11:48:56.259Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:27:05.275Z
@@ -12,5 +12,5 @@ SAPI5 comes free with your Windows computer, this has some voices you can use, t
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
