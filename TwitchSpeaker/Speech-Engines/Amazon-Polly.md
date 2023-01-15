@@ -2,7 +2,7 @@
 title: Amazon Polly
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-05T02:17:11.130Z
+date: 2023-01-15T11:46:10.122Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:17:11.130Z
@@ -26,7 +26,7 @@ First you will need an Amazon AWS account, you can also setup a free trial. This
 14. IMPORTANT You need to copy the Access Key ID and the Secret Access Key (make it visible by clicking show)
 15. Using those 2 keys, enter them in the TTS Settings in the app and you can now add the Amazon Polly Engine
 
-NOTE It might take a couple hours for your Amazon account to be completely active, as it has to do a credit card verification even tho its a free tier.
+NOTE It might take a couple hours for your Amazon account to be completely active, as it has to do a credit card verification even though its a free tier.
 
 > Amazon Polly is a paid service, so **BE AWARE** of your usage/expirations.
 >
