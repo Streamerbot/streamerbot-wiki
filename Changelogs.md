@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T18:25:46.845Z
+date: 2023-01-18T00:06:50.547Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,8 @@ Upcoming changes in the next release!{.subtitle}
 * Disable OK button in Set Argument sub-action dialog when loaded, so it gets validated properly
 * Fix Twitch HypeTrain end event, was missing `%contributors%` variable
 * Fix command group collapsing
+* Fix initial collapsed states of Command Groups
+* Fix initial collapsed states of Twitch Reward Groups
 {.changelog-fixes}
 
 <span></span>
@@ -56,6 +58,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add 2 new sub-actions for resetting reward counts
 * Add 4 new C# methods for resetting reward counts
 * Add an Auto Type option to the SEt Argument sub-action, if disabled, the value will be treated as a string
+* Add ability to rename a Command group
+* Add ability to rename a Twitch Reward group
 {.changelog-new}
 
 ## Websocket Events
