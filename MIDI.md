@@ -2,14 +2,14 @@
 title: MIDI
 description: Musical Instrument Digital Interface
 published: false
-date: 2023-01-18T06:49:09.374Z
+date: 2023-01-18T06:49:46.145Z
 tags: v0.1.15, midi
 editor: markdown
 dateCreated: 2022-11-24T09:49:55.140Z
 ---
 
 ## MIDI In
-So, it will now be possible to run actions by using your MIDI Piano, and MIDI synth, oh, even your MIDI wind instrument, or anything that supports MIDI!
+It's now be possible to run actions by using your MIDI Piano, and MIDI synth, oh, even your MIDI wind instrument, or anything that supports MIDI!
 
 When adding an `Event`, you will be able to just press the key, turn the knob, or flick the wheel to have it auto populate all the settings for you.
 
