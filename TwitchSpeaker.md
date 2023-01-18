@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: false
-date: 2023-01-15T11:50:39.856Z
+date: 2023-01-18T21:58:21.919Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -21,13 +21,13 @@ dateCreated: 2022-08-02T16:36:25.669Z
 {.btn-grid .list .dense .my-5}
 
 ## Tabs
-- [<i class="mdi mdi-clock text--twitch"></i>**Event Log**](/TwitchSpeaker/Tabs/Event-Log)
-- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue**](/TwitchSpeaker/Tabs/Speaking-Queue)
-- [<i class="mdi mdi-history text--twitch"></i>**Speaking History**](/TwitchSpeaker/Tabs/Speaking-History)
-- [<i class="mdi mdi-account text--twitch"></i>**Users**](/TwitchSpeaker/Tabs/Users)
-- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events**](/TwitchSpeaker/Tabs/Events)
-- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
-- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards**](/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
+- [<i class="mdi mdi-clock text--twitch"></i>**Event Log *A lList of events and/or logs that have ran.***](/TwitchSpeaker/Tabs/Event-Log)
+- [<i class="mdi mdi-human-queue text--twitch"></i>**Speaking Queue *A list of TTS messages that are queued.***](/TwitchSpeaker/Tabs/Speaking-Queue)
+- [<i class="mdi mdi-history text--twitch"></i>**Speaking History *A list of TTS messages that have ran.***](/TwitchSpeaker/Tabs/Speaking-History)
+- [<i class="mdi mdi-account text--twitch"></i>**Users *A list of users and their available data/settings.***](/TwitchSpeaker/Tabs/Users)
+- [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events *A list of events that can be assigned to TTS messages.***](/TwitchSpeaker/Tabs/Events)
+- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands *Commands that you can create for TSS messages.***](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
+- [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards *Channel Point Rewards that you can assign to TTS messages.***](/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
 {.btn-grid .my-5}
 
 ## Settings
