@@ -2,7 +2,7 @@
 title: Ignored Voices/Locales
 description: TwitchSpeaker Settings Reference
 published: true
-date: 2023-01-05T12:43:41.157Z
+date: 2023-01-18T22:28:37.737Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T12:43:41.157Z
@@ -18,5 +18,6 @@ First you'll need to make a profile, you can do this in the top right corner. Ty
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
+- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options){.disabled}
 {.btn-grid .my-5}
