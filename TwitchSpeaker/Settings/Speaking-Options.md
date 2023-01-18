@@ -2,7 +2,7 @@
 title: Speaking Options
 description: TwitchSpeaker Speaking Options 
 published: false
-date: 2023-01-10T04:00:59.872Z
+date: 2023-01-18T22:59:12.922Z
 tags: twitch, tts, settings, twitchspeaker, options
 editor: markdown
 dateCreated: 2023-01-10T02:25:56.142Z
@@ -29,3 +29,9 @@ The `Allowed Forced` option
 The ` Only say username if previous was different` 
 
 The `Replace %name% with nickname if available` 
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
+- [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement *Add a bad words filter or use regex to replace words.***](/TwitchSpeaker/Settings/Replacement)
+{.btn-grid .my-5}
