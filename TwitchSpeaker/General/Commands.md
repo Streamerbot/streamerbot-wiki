@@ -2,7 +2,7 @@
 title: Commands
 description: TwitchSpeaker Commands Reference
 published: false
-date: 2023-01-15T15:56:35.385Z
+date: 2023-01-18T22:31:33.088Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:38:01.787Z
@@ -32,5 +32,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
