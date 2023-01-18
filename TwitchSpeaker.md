@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: false
-date: 2023-01-18T22:21:11.912Z
+date: 2023-01-18T22:37:30.174Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -34,7 +34,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General *General and miscellaneous settings.***](/TwitchSpeaker/Settings/General)
 - [<i class="mdi mdi-account-multiple text--twitch"></i>**Accounts *Log in to all your acoounts with Twitch, Streamer.bot Website, etc.***](/TwitchSpeaker/Settings/Accounts)
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales *Voices/Locales that will be excluded from random voice selection.***](/TwitchSpeaker/Settings/Ignored-Voices-Locales)
-- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options){.disabled}
+- [<i class="mdi mdi-format-list-numbered text--twitch"></i>**Speaking Options**](/TwitchSpeaker/Settings/Speaking-Options)
 - [<i class="mdi mdi-content-cut text--twitch"></i>**Replacement**](/TwitchSpeaker/Settings/Replacement){.disabled}
 - [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases**](/TwitchSpeaker/Settings/Voice-Aliases){.disabled}
 {.btn-grid .my-5}
