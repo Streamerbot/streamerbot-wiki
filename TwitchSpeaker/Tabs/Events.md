@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2023-01-15T11:56:12.663Z
+date: 2023-01-18T21:59:53.254Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -56,5 +56,5 @@ Name | Description
 
 
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
-- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands**](/TwitchSpeaker/Tabs/Custom-Commands)
+- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands *Commands that you can create for TSS messages.***](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
 {.btn-grid .my-5}
