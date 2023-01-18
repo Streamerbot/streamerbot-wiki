@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: false
-date: 2023-01-18T21:58:21.919Z
+date: 2023-01-18T22:21:11.912Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -26,7 +26,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-history text--twitch"></i>**Speaking History *A list of TTS messages that have ran.***](/TwitchSpeaker/Tabs/Speaking-History)
 - [<i class="mdi mdi-account text--twitch"></i>**Users *A list of users and their available data/settings.***](/TwitchSpeaker/Tabs/Users)
 - [<i class="mdi mdi-clock mdi-flip-h text--twitch"></i>**Events *A list of events that can be assigned to TTS messages.***](/TwitchSpeaker/Tabs/Events)
-- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands *Commands that you can create for TSS messages.***](/TwitchSpeaker/Tabs/Custom-Commands){.disabled}
+- [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands *Commands that you can create for TSS messages.***](/TwitchSpeaker/Tabs/Custom-Commands)
 - [<i class="mdi mdi-adjust text--twitch"></i>**Channel Rewards *Channel Point Rewards that you can assign to TTS messages.***](/TwitchSpeaker/Tabs/Channel-Rewards){.disabled}
 {.btn-grid .my-5}
 
