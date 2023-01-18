@@ -2,7 +2,7 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2023-01-18T22:20:06.135Z
+date: 2023-01-18T22:20:15.578Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
@@ -35,7 +35,6 @@ In this section is where you can really customise TwitchSpeaker TTS with your ow
 ![per-event-settings.png](/twitchspeaker/tabs/events/per-event-settings.png =700x)
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `name` | Say the name of the user who triggered the event
