@@ -2,7 +2,7 @@
 title: Speaking Options
 description: TwitchSpeaker Speaking Options 
 published: false
-date: 2023-01-18T23:49:25.371Z
+date: 2023-01-18T23:52:37.060Z
 tags: twitch, tts, settings, twitchspeaker, options
 editor: markdown
 dateCreated: 2023-01-10T02:25:56.142Z
@@ -46,6 +46,17 @@ The `Silence Command Output` will silence the output of the command.
 
 ### Permissions
 General permissions for who has access to TTS.
+
+### Emotes
+If you want to ignore emotes from certain sevices and/or only allow the first emote.
+
+You can also specify allowed emotes, this will bypass the filters set previously.
+
+### TTS Speaking Commands
+Commands that can be used in chat to use TTS.
+
+### Ignored Prefixes
+Ignores TTS where the message is prefixed with certain characters.
 
 ---
 
