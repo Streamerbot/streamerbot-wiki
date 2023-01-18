@@ -2,7 +2,7 @@
 title: UberDuck
 description: TwitchSpeaker Speech Engines Reference
 published: false
-date: 2023-01-15T11:45:28.547Z
+date: 2023-01-18T22:32:23.594Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T11:42:51.194Z
@@ -19,5 +19,5 @@ dateCreated: 2023-01-15T11:42:51.194Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 {.btn-grid .my-5}
