@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-18T00:08:15.277Z
+date: 2023-01-18T00:42:58.685Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -61,6 +61,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add an Auto Type option to the SEt Argument sub-action, if disabled, the value will be treated as a string
 * Add ability to rename a Command group
 * Add ability to rename a Twitch Reward group
+* Add 2 new sub-actions to Set the Enabled and Paused state of a Twitch Reward group
+* Add 6 new C# methods to set the Enabled and Paused state of a Twitch Reward group
 {.changelog-new}
 
 ## Websocket Events
@@ -133,6 +135,13 @@ void TwitchResetRewardCounter(string rewardId);
 void TwitchResetRewardUserCounters(string rewardId);
 void TwitchResetUserRewardCounters(string userId, bool persisted);
 void TwitchResetUserRewardCounter(string rewardId, string userId);
+
+void TwitchRewardGroupEnable(string groupName);
+void TwitchRewardGroupDisable(string groupName);
+void TwitchRewardGroupToggleEnable(string groupName);
+void TwitchRewardGroupPause(string groupName);
+void TwitchRewardGroupUnPause(string groupName);
+void TwitchRewardGroupTogglePause(string groupName);
 ```
 
 # Streamer.bot v0.1.16 (Current)
