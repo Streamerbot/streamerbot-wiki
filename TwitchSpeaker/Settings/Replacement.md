@@ -2,7 +2,7 @@
 title: Replacement
 description: TwitchSpeaker Documentation
 published: false
-date: 2023-01-18T23:11:33.516Z
+date: 2023-01-19T23:39:31.680Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T22:54:32.068Z
@@ -16,7 +16,7 @@ dateCreated: 2023-01-18T22:54:32.068Z
 In the bad word filter you can add all words that you don't want to get included in the TTS. When a word out of the list occurs you can choose to filter it in different ways with the `Filter Action`, you can choose for `Disabled` (ignores all bad words), `Strip` (erases all bad words from TTS) or `Yeet All` (literally yeets all the contents of the TTS).
 
 ### Regex Replacement
-Here you can use regular expressions to change certain parts of the TTS to something else, you can also just use plain text if you're aren't familar with regular expressions.
+Here you can use regular expressions to change certain parts of the TTS to something else, you can also just use plain text if you're not familiar with regular expressions.
 **don't abuse this to putting words in other people mouths**.
 
 ---
