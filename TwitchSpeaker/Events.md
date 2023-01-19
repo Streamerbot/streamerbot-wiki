@@ -2,13 +2,11 @@
 title: Events
 description: Reference of all events that are used in TwitchSpeaker
 published: true
-date: 2023-01-19T20:47:28.458Z
+date: 2023-01-19T20:47:41.026Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:58:31.890Z
 ---
-
-On each page below you will find reference of each events along with their respective variables.
 
 ## Twitch
 - [<i class="mdi mdi-account text--twitch"></i> **Follow**](/TwitchSpeaker/Events/Twitch/Follow)
