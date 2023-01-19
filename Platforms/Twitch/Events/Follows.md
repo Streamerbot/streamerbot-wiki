@@ -2,7 +2,7 @@
 title: Follows Event
 description: Twitch Events Reference
 published: true
-date: 2023-01-08T09:58:19.458Z
+date: 2023-01-19T20:18:41.945Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T19:52:20.005Z
@@ -26,5 +26,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
