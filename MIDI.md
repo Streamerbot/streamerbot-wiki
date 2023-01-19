@@ -1,8 +1,8 @@
 ---
 title: MIDI
 description: Musical Instrument Digital Interface
-published: false
-date: 2023-01-18T06:49:46.145Z
+published: true
+date: 2023-01-19T19:48:23.987Z
 tags: v0.1.15, midi
 editor: markdown
 dateCreated: 2022-11-24T09:49:55.140Z
