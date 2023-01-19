@@ -1,8 +1,8 @@
 ---
 title: Websocket Server
 description: Control TwitchSpeaker with its internal Websocket Server!
-published: true
-date: 2023-01-19T19:44:09.121Z
+published: false
+date: 2023-01-19T19:44:22.215Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:43:54.205Z
