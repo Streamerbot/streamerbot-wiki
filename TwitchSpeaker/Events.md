@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that are used in TwitchSpeaker
 published: true
-date: 2023-01-19T20:17:38.755Z
+date: 2023-01-19T20:30:44.419Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:58:31.890Z
@@ -36,6 +36,6 @@ On each page below you will find reference of each events along with their respe
 {.btn-grid .my-5}
 
 ## StreamLabs
-- [<i class="mdi mdi-account text--twitch"></i> **Merchandise**](/TwitchSpeaker/Events/StreamElements/Merchandise)
+- [<i class="mdi mdi-account text--twitch"></i> **Merchandise**](/TwitchSpeaker/Events/StreamLabs/Merchandise)
 - [<i class="mdi mdi-cash text--twitch"></i> **Donation**](/TwitchSpeaker/Events/StreamLabs/Donation)
 {.btn-grid .my-5}
