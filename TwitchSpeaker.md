@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: false
-date: 2023-01-19T19:46:56.755Z
+date: 2023-01-19T19:52:37.507Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -19,9 +19,9 @@ dateCreated: 2022-08-02T16:36:25.669Z
 - [<i class="mdi mdi-comment-alert text--twitch"></i>**Commands *Commands that all the moderaters can use on your stream to control the TTS.***](/TwitchSpeaker/General/Commands)
 {.btn-grid .list .dense .my-5}
 
-## Server / Clients
-- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface *Run TwitchSpeaker stuff trough Streamer.bot and other applications.***](/TwitchSpeaker/Server-Clients/UDP-Interface)
-- [<i class="mdi mdi-api text--twitch"></i>**Websocket Server *Send websocket requests.***](/TwitchSpeaker/Server-Clients/Websocket-Server)
+## Servers / Clients
+- [<i class="mdi mdi-application text--twitch"></i>**UDP Interface *Run TwitchSpeaker stuff trough Streamer.bot and other applications.***](/TwitchSpeaker/Servers-Clients/UDP-Interface)
+- [<i class="mdi mdi-api text--twitch"></i>**Websocket Server *Send websocket requests.***](/TwitchSpeaker/Servers-Clients/Websocket-Server)
 {.btn-grid .list .dense .my-5}
 
 ## Tabs
