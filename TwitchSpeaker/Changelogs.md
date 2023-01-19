@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T19:30:14.276Z
+date: 2023-01-19T19:31:35.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -45,6 +45,8 @@ Yes, that's correct, TwitchSpeaker is no longer the default icon, it has its own
 
 ## WebSocket Server
 With v0.0.49 you'll now be able to control TwitchSpeaker with a WebSocket connection.
+> This is just the initial addition of this capability, I already have plans to expand this out, so for now, I would recommend not adding feature requests surrounding this feature.
+{.is-info}
 
 The settings for this are under `Settings` -> `WebSocket Server`, be sure to set auto start to enabled, so it'll run when you start TwitchSpeaker.
 
