@@ -2,7 +2,7 @@
 title: Accounts
 description: TwitchSpeaker Settings Reference
 published: false
-date: 2023-01-19T22:04:27.230Z
+date: 2023-01-19T22:04:46.331Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T01:59:38.296Z
@@ -18,7 +18,7 @@ To interact with your Twitch, StreamElements, Streamlabs or if you want to Auto 
 This is used for listening to events like Follow, Sub, GiftBomb, etc.
 
 ### Streamer.bot Website
-If you want to use the auto updater on the alpha/beta update channels you will be required to log into the Streamer.bot Website, this is required to receive all updates. Access to the alpha/beta update channels you are required to have these roles assigned to your discord user profile which can be acquired via the Streamer.Bot discord[Streamer.bot Discord](https://discord.streamer.bot).
+If you want to use the auto updater on the alpha/beta update channels you will be required to log into the Streamer.bot Website, this is required to receive all updates. Access to the alpha/beta update channels you are required to have these roles assigned to your discord user profile which can be acquired via the Streamer.Bot discord [Streamer.bot Discord](https://discord.streamer.bot).
 
 ### StreamLabs
 This is used for the Donation event.
