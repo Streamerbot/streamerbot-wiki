@@ -2,15 +2,15 @@
 title: Events
 description: Twitch Speaker Event options 
 published: false
-date: 2023-01-18T22:20:15.578Z
+date: 2023-01-19T22:34:25.569Z
 tags: twitch, tts, events, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-13T00:09:15.503Z
 ---
 
-In the TwitchSpeaker Events Tab you will find a series of configurable event for the TTS 
+In the TwitchSpeaker Events Tab you will find a series of configurable event for the TTS
 
-So, to get to this tab all you need to do is to open `TwitchSpeaker` then click `Events` tab you will land on this page shown below.
+So, to get to this tab all you need to do is to open `TwitchSpeaker` then click the `Events` tab you will land on this page shown below.
 
 ![events-tab-overview.png](/twitchspeaker/tabs/events/events-tab-overview.png =700x)
 
@@ -20,7 +20,7 @@ First section of this tab you will see is a `Global Event Settings` here you wil
 ![global-event-voice.png](/twitchspeaker/tabs/events/global-event-voice.png =700x)
 
 ## Event States
-In this section you have a check box to enable/disable the event triggers for TwitchSpeaker to announce along with addition options as seen in the screenshot below. You can specify the amount for Cheer, Donations, Raids and Hosts with (x) number of viewers. 
+In this section you have a check box to enable/disable the event triggers for TwitchSpeaker to announce along with additional options as seen in the screenshot below. You can specify the amount for Cheer, Donations, Raids and Hosts with (x) number of viewers.
 
 > **Note: Hosts are now discontinued due to Twitch API changes. **
 {.is-info}
@@ -30,7 +30,7 @@ In this section you have a check box to enable/disable the event triggers for Tw
 ---
 
 ## Per Event Settings
-In this section is where you can really customise TwitchSpeaker TTS with your own unique message and your flare and personality to it also it doesn’t have to be just one single message. You can have multiple different messages for each event and TwitchSpeaker will choose one at random or you can add weight to each message (this makes it that TwitchSpeaker will favour 1 message more than the other that are available). In this section you also have a check box that allows you to Enable/Disable a specific message.
+This section is where you can really customise TwitchSpeaker TTS with your own unique message and your flair and personality. also it doesn’t have to be just one single message. You can have multiple different messages for each event and TwitchSpeaker will choose one at random or you can add weight to each message (this makes it that TwitchSpeaker will favour 1 message more than the other that are available). In this section you also have a checkbox that allows you to Enable/Disable a specific message.
 
 ![per-event-settings.png](/twitchspeaker/tabs/events/per-event-settings.png =700x)
 
@@ -57,3 +57,4 @@ Name | Description
 - [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 - [<i class="mdi mdi-exclamation-thick text--twitch"></i>**Custom Commands *Commands that you can create for TSS messages.***](/TwitchSpeaker/Tabs/Custom-Commands)
 {.btn-grid .my-5}
+
