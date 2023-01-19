@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T05:51:09.850Z
+date: 2023-01-19T05:51:21.275Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -59,7 +59,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add new argument to all actions, `%actionQueuedAt%`, this is when the action was queued
 * Add 2 new sub-actions for resetting reward counts
 * Add 4 new C# methods for resetting reward counts
-* Add an Auto Type option to the SEt Argument sub-action, if disabled, the value will be treated as a string
+* Add an Auto Type option to the Set Argument sub-action, if disabled, the value will be treated as a string
 * Add ability to rename a Command group
 * Add ability to rename a Twitch Reward group
 * Add 2 new sub-actions to Set the Enabled and Paused state of a Twitch Reward group
