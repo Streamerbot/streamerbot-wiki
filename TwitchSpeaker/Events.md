@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that are used in TwitchSpeaker
 published: false
-date: 2023-01-19T20:53:58.308Z
+date: 2023-01-19T20:55:35.880Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:58:31.890Z
@@ -26,7 +26,7 @@ dateCreated: 2023-01-19T19:58:31.890Z
 - [<i class="mdi mdi-train text--twitch"></i> **HypeTrainLevelUp *When a hype train levels up***](/TwitchSpeaker/Events/Twitch/HypeTrainLevelUp)
 - [<i class="mdi mdi-train text--twitch"></i> **HypeTrainEnded *When a hype train ends***](/TwitchSpeaker/Events/Twitch/HypeTrainEnded)
 - [<i class="mdi mdi-progress-upload text--twitch"></i> **GoalContribution *When an user contributes to a goal***](/TwitchSpeaker/Events/Twitch/GoalContribution)
-- [<i class="mdi mdi-progress-check text--twitch"></i> **GoalFinsihed *When a hype train finsishes***](/TwitchSpeaker/Events/Twitch/GoalFinsihed)
+- [<i class="mdi mdi-progress-check text--twitch"></i> **GoalFinsihed *When a hype train finishes***](/TwitchSpeaker/Events/Twitch/GoalFinsihed)
 {.btn-grid .my-5}
 
 ## StreamElements
