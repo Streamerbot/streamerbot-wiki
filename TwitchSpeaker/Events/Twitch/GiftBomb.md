@@ -2,7 +2,7 @@
 title: GiftBomb
 description: TwitchSpeaker Twitch Events Reference
 published: false
-date: 2023-01-19T20:33:39.192Z
+date: 2023-01-19T20:34:17.830Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:33:39.192Z
@@ -13,7 +13,6 @@ Name | Description
 ----:|:------------
 `name` | The name of the user who dropped the gift bomb
 `gifts` | The number of gift subs in the gift bomb
-`totalGifts` | The total number of gifts the user has given
 `tier` | The tier of the subscription
 
 ---
