@@ -2,7 +2,7 @@
 title: Voice Aliases
 description: TwitchSpeaker Documentation
 published: false
-date: 2023-01-18T23:11:45.252Z
+date: 2023-01-19T23:50:15.253Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T23:09:28.414Z
