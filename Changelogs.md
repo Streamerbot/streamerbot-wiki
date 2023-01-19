@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T23:05:39.077Z
+date: 2023-01-19T23:38:50.437Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -97,7 +97,7 @@ The Add Target Info adds the following new arguments:
 ### Twitch Send Shoutout
 This is a basic sub-action, either use a variable, or a fixed user login to send a shoutout to the user.
 
-> Youy may send a Shoutout once every 2 minutes, and to the same broadcaster once every 60 minutes.
+> You may send a Shoutout once every 2 minutes, and to the same broadcaster once every 60 minutes.
 {.is-warning}
 
 ### Clear Users From a Group
