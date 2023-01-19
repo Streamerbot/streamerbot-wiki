@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that are used in TwitchSpeaker
 published: true
-date: 2023-01-19T20:36:58.838Z
+date: 2023-01-19T20:37:53.990Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:58:31.890Z
@@ -24,11 +24,11 @@ On each page below you will find reference of each events along with their respe
 - [<i class="mdi mdi-adjust text--twitch"></i> **ChannelPoints**](/TwitchSpeaker/Events/Twitch/ChannelPoints)
 - [<i class="mdi mdi-gift text--twitch"></i> **GiftBomb**](/TwitchSpeaker/Events/Twitch/GiftBomb)
 - [<i class="mdi mdi-gift text--twitch"></i> **GiftBombWithTotal**](/TwitchSpeaker/Events/Twitch/GiftBombWithTotal)
-- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainStarted**](/TwitchSpeaker/Events/Twitch/HypeTrainStarted){.disabled}
-- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainLevelUp**](/TwitchSpeaker/Events/Twitch/HypeTrainLevelUp){.disabled}
-- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainEnded**](/TwitchSpeaker/Events/Twitch/HypeTrainEnded){.disabled}
-- [<i class="mdi mdi-progress-upload text--twitch"></i> **GoalContribution**](/TwitchSpeaker/Events/Twitch/GoalContribution){.disabled}
-- [<i class="mdi mdi-progress-check text--twitch"></i> **GoalFinsihed**](/TwitchSpeaker/Events/Twitch/GoalFinsihed){.disabled}
+- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainStarted**](/TwitchSpeaker/Events/Twitch/HypeTrainStarted)
+- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainLevelUp**](/TwitchSpeaker/Events/Twitch/HypeTrainLevelUp)
+- [<i class="mdi mdi-train text--twitch"></i> **HypeTrainEnded**](/TwitchSpeaker/Events/Twitch/HypeTrainEnded)
+- [<i class="mdi mdi-progress-upload text--twitch"></i> **GoalContribution**](/TwitchSpeaker/Events/Twitch/GoalContribution)
+- [<i class="mdi mdi-progress-check text--twitch"></i> **GoalFinsihed**](/TwitchSpeaker/Events/Twitch/GoalFinsihed)
 {.btn-grid .my-5}
 
 ## StreamElements
