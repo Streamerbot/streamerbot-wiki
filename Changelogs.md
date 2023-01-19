@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T22:39:17.245Z
+date: 2023-01-19T23:05:39.077Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -66,7 +66,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add ability to rename a Twitch Reward group
 * Add 2 new sub-actions to Set the Enabled and Paused state of a Twitch Reward group
 * Add 6 new C# methods to set the Enabled and Paused state of a Twitch Reward group
-* Add new sub-action to send a [Twitch Shoutout](#twitch-send-shoutout)
+* Add new sub-action to send a [Twitch Shoutout](#twitch-send-shoutout), located under `Twitch` -> `Moderation`
 * Add 2 new C# methods to send a Twitch Shoutout
 * Add new event for when you (the broadcaster) receives a [Twitch Shoutout](#twitch-shoutout-received) from another user
 {.changelog-new}
