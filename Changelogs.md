@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T05:51:21.275Z
+date: 2023-01-19T22:39:17.245Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -38,6 +38,8 @@ Upcoming changes in the next release!{.subtitle}
 * Disable and remove Twitch Coin Cheer events, since Twitch halted this experiment October 2022
 * Enabled, Disable, Pause and Unpause Twitch Reward group context menu items no longer waits for each API call
 * Update handling/broadcasting of Action start/completed
+* Request new `moderator:manage:shoutouts` scope
+* Switch [Twitch Shoutout Created](#twitch-shoutout-created) event internally to new Twitch EventSub event
 {.changelog-updates}
 
 <span></span>
@@ -64,6 +66,9 @@ Upcoming changes in the next release!{.subtitle}
 * Add ability to rename a Twitch Reward group
 * Add 2 new sub-actions to Set the Enabled and Paused state of a Twitch Reward group
 * Add 6 new C# methods to set the Enabled and Paused state of a Twitch Reward group
+* Add new sub-action to send a [Twitch Shoutout](#twitch-send-shoutout)
+* Add 2 new C# methods to send a Twitch Shoutout
+* Add new event for when you (the broadcaster) receives a [Twitch Shoutout](#twitch-shoutout-received) from another user
 {.changelog-new}
 
 ## Websocket Events
@@ -84,14 +89,32 @@ The Add Target Info adds the following new arguments:
 `%tags%` - A `List<string>()` object for use in C#
 `%tagsDelimited%` - A comma delimited string of the tags
 
-
 > At the moment, there is a bug in the Twitch Helix endpoint, where its unable to clear the tags completely.  So for the time being Clear Tags and Removing the last tag will fail. Once Twitch fixes this, they should start working.
 >
 > If you keep at least 1 tag active, you'll be able to add/remove tags at will.  And for setting all tags, at least 1 needs to be set.
 {.is-warning}
 
+### Twitch Send Shoutout
+This is a basic sub-action, either use a variable, or a fixed user login to send a shoutout to the user.
+
+> Youy may send a Shoutout once every 2 minutes, and to the same broadcaster once every 60 minutes.
+{.is-warning}
+
 ### Clear Users From a Group
 This sub-action will allow you to select one of your groups, so you can clear the users belonging to it during an action
+
+## Updated Events
+### Twitch Shoutout Created
+With the Shoutout events being added to EventSub, this event has been moved from PubSub to EventSub, this unfortunately changes some of the variables.  This Event has also been moved to the `Moderation` tab
+
+Variables Removed
+`%targetUserPrimaryColorHex%`
+`%targetUserProfileImageURL%`
+
+Variables Added
+`%viewerCount%` - The number of users that were watching the broadcaster’s stream at the time of the Shoutout.
+`%cooldownEndsAt%` - The DateTime of when the broadcaster may send a Shoutout to a different broadcaster.
+`%targetCooldownEndsAt%` - The DateTime of when the broadcaster may send another Shoutout to the same broadcaster.
 
 ## New Events
 ### Twitch StreamOnline and Offline events
@@ -108,6 +131,12 @@ StreamOnline Event arguments
 
 StreamOffline Event arguments
 `%endedAt%` - The date time when the stream went offline
+
+### Twitch Shoutout Received
+With the new EventSub events for Shoutouts, **Streamer.bot** can now react to receiving a Shoutout
+
+Shoutout Received Event Arguments
+`%viewerCount%` - The number of users that were watching the from broadcaster's stream at the time of the Shoutout
 
 ## New C# Methods
 ```csharp
@@ -143,6 +172,9 @@ void TwitchRewardGroupToggleEnable(string groupName);
 void TwitchRewardGroupPause(string groupName);
 void TwitchRewardGroupUnPause(string groupName);
 void TwitchRewardGroupTogglePause(string groupName);
+
+bool TwitchSendShoutoutById(string userId);
+bool TwitchSendShoutoutByLogin(string userLogin);
 ```
 
 # Streamer.bot v0.1.16 (Current)
