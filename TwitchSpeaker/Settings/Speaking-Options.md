@@ -2,7 +2,7 @@
 title: Speaking Options
 description: TwitchSpeaker Speaking Options 
 published: false
-date: 2023-01-19T21:56:21.017Z
+date: 2023-01-19T21:58:07.041Z
 tags: twitch, tts, settings, twitchspeaker, options
 editor: markdown
 dateCreated: 2023-01-10T02:25:56.142Z
@@ -18,7 +18,7 @@ TwitchSpeaker has many speaking options as seen in the screenshot below but each
 ### Speaking Options 
 In this section you will find most of the control in this tab. 
 
-The `Say everything` option can be Enabled or disabled so when this option is enable TwitchSpeaker will say everything in chat unless the chatter/user is on the ignored list. When this option is disabled. The user/chatters are required to use the `TTS Speaking Commands` that you have set in that section (this will be explained later) but default it is either `! or !say` before the message for twitch speaker to speak this. 
+The `Say Everything` option can be Enabled or disabled so when this option is enable TwitchSpeaker will say everything in chat unless the chatter/user is on the ignored list. When this option is disabled. The user/chatters are required to use the `TTS Speaking Commands` that you have set in that section (this will be explained later) but default it is either `! or !say` before the message for twitch speaker to speak this. 
 
 The `Say Username` option again the same enable / disable options . When enabled is will speak the username of the message being spoken  and if this is disabled the username is skipped  however, this option does have a post fix which you can edit by changing the text in this field by default it is set to `said`  Example: "Omnidreamer said Hello". This is the example if this option is enabled but if this is disabled twitch speaker it would just say "Hello".
 
