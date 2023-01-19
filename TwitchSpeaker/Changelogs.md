@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-14T01:06:51.075Z
+date: 2023-01-19T19:30:14.276Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -36,7 +36,66 @@ Upcoming changes in the next release!{.subtitle}
 * Add new TTS Engine service, UberDuck.ai
 * Add new TTS Engine service, tts.monster
 * Add new [UDP Commands](#new-udp-commands)
+* Add new [WebSocket Server](#websocket-server) for controlling TwitchSpeaker
+* Add new application icon
 {.changelog-new}
+
+## TwitchSpeaker has finally gained an icon!
+Yes, that's correct, TwitchSpeaker is no longer the default icon, it has its own identity now.
+
+## WebSocket Server
+With v0.0.49 you'll now be able to control TwitchSpeaker with a WebSocket connection.
+
+The settings for this are under `Settings` -> `WebSocket Server`, be sure to set auto start to enabled, so it'll run when you start TwitchSpeaker.
+
+Request format
+```js
+{
+    "request": "<command>",
+    "id": "0",
+}
+```
+Much like **Streamer.bot**, **TwitchSpeaker** follows the same request format, where `request` is the command you wish to perform, and `id` is some identifier or nonce.
+
+Commands available: `Speak`, `Pause`, `Resume`, `Clear`, `Stop`, `Off`, `Disable`, `On`, `Enable`, `Events`, `Mode`
+
+### Speak
+This is probably the command that will be used the most, this will make TwitchSpeaker speak the `message` you want, using the `voice` specified
+```js
+{
+    "request": "Speak",
+    "id": "0",
+    "voice": "EventVoice",
+    "message": "This is a test message",
+    "badWordFilter": true/false // optional
+}
+```
+
+### Pause, Resume, Clear, Stop, Off, Disable, On, Enable
+These commands have no parameters, so the basic request can be used.
+
+### Events
+This will let you enable or disable events being spoken
+```js
+{
+    "request": "Events",
+    "id": "0",
+    "state": "[on|off]"
+}
+```
+
+### Mode
+This will let you change the speaking mode, from everything, to a command
+```js
+{
+    "request": "Mode",
+    "id": "0",
+    "mode": "[all|command]"
+}
+```
+> If there are no commands already setup, switching to command, will return a failure response
+{.is-info}
+
 
 ## New UDP Commands
 There are 3 new UDP commans
