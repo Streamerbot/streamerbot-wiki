@@ -2,7 +2,7 @@
 title: Speaking History
 description: History of what has been spoken 
 published: false
-date: 2023-01-20T03:58:53.531Z
+date: 2023-01-20T03:59:43.590Z
 tags: twitch, tts, twitchspeaker, history
 editor: markdown
 dateCreated: 2022-08-08T23:05:00.790Z
@@ -12,7 +12,7 @@ Speaking History is a function that Twitch Speaker has and can be useful. You wi
 
 To get to this tab is easy, make sure you have TwitchSpeaker open then in the first row of tabs click `Speaking History`.
 
-![speaking-history.png](/twitchspeaker/tabs/speaking-history/speaking-history.png =700x)
+![speaking-history.png](/twitchspeaker/tabs/speaking-history/speaking-historynew.png =700x)
 
 In this tab as we know the speaking history is displayed.  How one would read this is as follows starting from the left is the cloud service/engine used to process the TTS message, then the voice used and the locale, the voice modifications like pitch rate and the volume of the voice  then the username and finally their message.
 
