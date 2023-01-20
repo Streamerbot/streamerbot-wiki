@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T04:40:22.002Z
+date: 2023-01-20T14:53:05.062Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -28,6 +28,7 @@ Upcoming changes in the next release!{.subtitle}
 * Update account tab for Twitch to match design/styling seen in Streamer.bot
 * Move some settings into database files
 * Harden file saving routines
+* Remove Twitch Host event and settings
 {.changelog-updates}
 
 <span></span>
