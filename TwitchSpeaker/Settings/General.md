@@ -2,16 +2,16 @@
 title: General
 description: TwitchSpeaker Settings Reference
 published: false
-date: 2023-01-18T23:10:48.331Z
+date: 2023-01-20T04:40:52.999Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:07:07.950Z
 ---
 
 ## Overview
-![settings-general-overview.png](/twitchspeaker/settings-general-overview.png =700x)
+![setting-general-overview-v1.png](/twitchspeaker/setting-general-overview-v1.png =700x)
 
-All the general settings for the application can be changed here, so if you want your audio output device or perhaps your default voice allias you need to do it here.
+All the general settings Twitch Speaker can be changed here, so if you want your audio output device or perhaps to change your default voice alias you need to do it here.
 
 ---
 
