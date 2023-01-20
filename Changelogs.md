@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T15:10:31.695Z
+date: 2023-01-20T19:02:36.015Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -56,7 +56,7 @@ Released 2023-01-20{.subtitle}
 * Add filter to user permissions in Command Dialog
 * Add 4 new sub-actions to [Add, Remove, Clear and Set Twitch Tags](#twitch-add-remove-clear-and-set-channel-tags)
 * Add 4 new C# methods to Add, Remove, Clear and Set Twitch Tags
-* Add 2 new Twitch events, [StreamOnline](#twitch-streamonline-and-streamoffline-events) and [StreamOffline](#twitch-streamonline-and-streamoffline-events)
+* Add 2 new Twitch events, [StreamOnline](#twitch-streamonline-and-offline-events) and [StreamOffline](#twitch-streamonline-and-offline-events)
 * StreamElements, add a new `%provider%` variable to Tip and Merch events (can be twitch, youtube or streamelements)
 * StreamElements, add a new `%tipId%` variable to the Tip event, this is StreamElement's internal tip id value
 * Add new C# method to get how many channel points a user has used, Twitch only
