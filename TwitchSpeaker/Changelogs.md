@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T19:31:35.369Z
+date: 2023-01-20T04:40:22.002Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -14,6 +14,7 @@ Upcoming changes in the next release!{.subtitle}
 * Some fixes
 * Fixes to Microsoft Azure initializations
 * Fix Twitch sub and re-sub events not speaking/parsing correctly
+* Fix potential crash when double clicking empty space in the lists on the Ignored Voices/Locales tab
 {.changelog-fixes}
 
 <span></span>
