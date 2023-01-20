@@ -1,8 +1,8 @@
 ---
 title: Merchandise
 description: TwitchSpeaker StreamLabs Events Reference
-published: false
-date: 2023-01-19T20:35:20.686Z
+published: true
+date: 2023-01-20T15:15:24.881Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:35:20.686Z
