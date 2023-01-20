@@ -1,8 +1,8 @@
 ---
 title: Follow
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:19:35.778Z
+published: true
+date: 2023-01-20T15:13:13.481Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:19:35.778Z
