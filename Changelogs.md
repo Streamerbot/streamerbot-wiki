@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T00:36:44.376Z
+date: 2023-01-20T01:38:09.943Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,7 +28,7 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch User IDs are now string across the entire application
 * Twitch Channel Shield Mode EventSub events are out of beta, updated this internally
 * Twitch Charity Donation event now includes the id of the donation, this has been added as a new arg `%donationId%`
-* Updated Twitch Add Target Info to include tags
+* Updated Twitch `Add Target Info` to include tags
 * YouTube based events have a `%broadcastId%` variable now
 * Events that add primary user information, now have a `%userPreviousActive%` variable
 * StreamElements, linked the YouTube provider events
