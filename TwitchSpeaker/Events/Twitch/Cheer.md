@@ -1,8 +1,8 @@
 ---
 title: Cheer
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:31:53.656Z
+published: true
+date: 2023-01-20T15:14:11.653Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:31:53.656Z
