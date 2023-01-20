@@ -1,8 +1,8 @@
 ---
 title: GoalFinsihed
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:47:14.388Z
+published: true
+date: 2023-01-20T15:15:04.527Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:47:14.388Z
