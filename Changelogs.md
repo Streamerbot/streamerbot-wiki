@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T03:34:32.618Z
+date: 2023-01-20T03:46:47.565Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -41,6 +41,7 @@ Upcoming changes in the next release!{.subtitle}
 * Request new `moderator:manage:shoutouts` scope
 * Switch [Twitch Shoutout Created](#twitch-shoutout-created) event internally to new Twitch EventSub event
 * Twitch Charity EventSub Events have been moved out of beta status
+* Fix variables shown in the TipeeeStream tip event help button
 {.changelog-updates}
 
 <span></span>
