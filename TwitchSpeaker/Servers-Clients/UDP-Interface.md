@@ -2,7 +2,7 @@
 title: UDP Interface
 description: Control TwitchSpeaker with Streamer.bot or other applications over a UDP connection
 published: false
-date: 2023-01-15T15:56:50.516Z
+date: 2023-01-20T13:11:59.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
@@ -137,12 +137,7 @@ Added in v0.0.49
 {
   "command": "set",
   "method": "sticky",
-  "value": true
-}
-{
-  "command": "set",
-  "method": "sticky",
-  "value": false
+  "value": true/false
 }
 ```
 
