@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-20T15:09:35.013Z
+date: 2023-01-20T15:10:54.286Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -17,6 +17,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 ## General
 - [<i class="mdi mdi-lightning-bolt-outline text--twitch"></i>**Sub Actions *TwitchSpeaker Sub Action Reference in Streamer.bot.***](/Sub-Actions/TwitchSpeaker)
 - [<i class="mdi mdi-comment-alert text--twitch"></i>**Commands *Commands that all the moderaters can use on your stream to control the TTS.***](/TwitchSpeaker/Commands)
+- [<i class="mdi mdi-creation text--twitch"></i>**Events *Reference of all TwitchSpeaker events.***](/TwitchSpeaker/Events)
 {.btn-grid .list .dense .my-5}
 
 ## Servers / Clients
