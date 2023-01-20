@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T04:28:53.480Z
+date: 2023-01-20T12:43:23.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix command group collapsing
 * Fix initial collapsed states of Command Groups
 * Fix initial collapsed states of Twitch Reward Groups
+* Fix start raid C# method
 {.changelog-fixes}
 
 <span></span>
