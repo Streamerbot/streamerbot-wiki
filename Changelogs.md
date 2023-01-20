@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T12:43:23.080Z
+date: 2023-01-20T15:10:31.695Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.17 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.17 (Current)
+Released 2023-01-20{.subtitle}
 
 * Fix some typos
 * CPH Method, EnableTimer was not correctly resetting a timer
@@ -187,7 +187,7 @@ bool TwitchSendShoutoutById(string userId);
 bool TwitchSendShoutoutByLogin(string userLogin);
 ```
 
-# Streamer.bot v0.1.16 (Current)
+# Streamer.bot v0.1.16
 Released 2022-12-31{.subtitle}
 
 * Starting **Streamer.bot** in a folder with uncommon characters should no longer cause a crash
