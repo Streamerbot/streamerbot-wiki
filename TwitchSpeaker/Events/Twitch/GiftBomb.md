@@ -1,8 +1,8 @@
 ---
 title: GiftBomb
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:34:17.830Z
+published: true
+date: 2023-01-20T15:14:29.759Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:33:39.192Z
