@@ -2,11 +2,13 @@
 title: Users
 description: User options
 published: false
-date: 2023-01-20T04:07:23.688Z
+date: 2023-01-20T04:07:56.833Z
 tags: twitch, tts, twitchspeaker
 editor: markdown
 dateCreated: 2022-09-12T00:17:59.367Z
 ---
+
+## TwitchSpeaker Users Tab
 
 In the TwitchSpeaker Users Tab you have various options which are available to all users that TwitchSpeaker has seen in the Twitch chat.
 >**Note: YouTube is not currently supported**
