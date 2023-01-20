@@ -1,8 +1,8 @@
 ---
 title: ChannelPoints
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:36:39.269Z
+published: true
+date: 2023-01-20T15:14:23.958Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:33:01.399Z
