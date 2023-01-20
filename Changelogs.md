@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-19T23:38:50.437Z
+date: 2023-01-20T00:36:44.376Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -134,6 +134,8 @@ StreamOffline Event arguments
 
 ### Twitch Shoutout Received
 With the new EventSub events for Shoutouts, **Streamer.bot** can now react to receiving a Shoutout
+> This event is sent only if Twitch posts the Shoutout to your activity feed.
+{.is-warning}
 
 Shoutout Received Event Arguments
 `%viewerCount%` - The number of users that were watching the from broadcaster's stream at the time of the Shoutout
