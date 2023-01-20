@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T14:53:05.062Z
+date: 2023-01-20T15:10:53.721Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
 ---
 
-# TwitchSpeaker v0.0.49 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# TwitchSpeaker v0.0.49 (Current)
+Released 2023-01-20{.subtitle}
 
 * Some fixes
 * Fixes to Microsoft Azure initializations
@@ -110,7 +110,7 @@ There are 3 new UDP commans
 { "command": "assign", "method": "last", "username": "%user%" }
 ```
 
-# TwitchSpeaker v0.0.48 (Current)
+# TwitchSpeaker v0.0.48
 Released 2022-01-13{.subtitle}
 * Fix mod/vip issue with non western characters
 {.changelog-fixes}
