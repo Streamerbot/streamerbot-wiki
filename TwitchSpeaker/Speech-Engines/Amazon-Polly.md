@@ -1,8 +1,8 @@
 ---
 title: Amazon Polly
 description: TwitchSpeaker Speech Engines Reference
-published: false
-date: 2023-01-15T11:47:40.528Z
+published: true
+date: 2023-01-20T15:08:18.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:17:11.130Z
