@@ -2,7 +2,7 @@
 title: TwitchSpeaker
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-01-20T15:18:29.305Z
+date: 2023-01-20T15:20:07.122Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z
@@ -22,7 +22,7 @@ dateCreated: 2022-08-02T16:36:25.669Z
 
 ## Servers / Clients
 - [<i class="mdi mdi-application text--twitch"></i>**UDP Interface *Run TwitchSpeaker stuff trough Streamer.bot and other applications.***](/TwitchSpeaker/Servers-Clients/UDP-Interface)
-- [<i class="mdi mdi-api text--twitch"></i>**Websocket Server Requests *Send websocket requests.***](/TwitchSpeaker/Servers-Clients/Websocket-Server)
+- [<i class="mdi mdi-api text--twitch"></i>**Websocket Server Requests *Send websocket requests.***](/TwitchSpeaker/Servers-Clients/Websocket-Server/Requests)
 {.btn-grid .list .dense .my-5}
 
 ## Tabs
