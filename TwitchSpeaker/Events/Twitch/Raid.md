@@ -1,8 +1,8 @@
 ---
 title: Raid
 description: TwitchSpeaker Twitch Events Reference
-published: false
-date: 2023-01-19T20:31:07.727Z
+published: true
+date: 2023-01-20T15:14:06.429Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:31:07.727Z
