@@ -1,8 +1,8 @@
 ---
 title: UDP Interface
 description: Control TwitchSpeaker with Streamer.bot or other applications over a UDP connection
-published: false
-date: 2023-01-20T13:11:59.626Z
+published: true
+date: 2023-01-20T15:05:53.749Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-17T15:23:48.991Z
