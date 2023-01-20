@@ -1,8 +1,8 @@
 ---
 title: Accounts
 description: TwitchSpeaker Settings Reference
-published: false
-date: 2023-01-20T04:41:51.503Z
+published: true
+date: 2023-01-20T15:06:38.515Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T01:59:38.296Z
