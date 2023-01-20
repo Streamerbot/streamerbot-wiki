@@ -2,7 +2,7 @@
 title: Add Random Users
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:36:10.528Z
+date: 2023-01-20T16:58:00.654Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:36:10.528Z
@@ -21,6 +21,8 @@ The amount of random users that you want to use.
 Only selects random users that are present.
 
 ## Variables
+`#` starts at `0`, e.g. if the Count is set to `50` the `#` will be `0`, `1`, `2` ...... `47`, `48`, `49`.
+
 Name | Description
 ----:|:------------
 `randomUser#` | The random user's display name.
