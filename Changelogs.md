@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T02:53:29.736Z
+date: 2023-01-20T03:34:32.618Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -70,6 +70,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add new sub-action to send a [Twitch Shoutout](#twitch-send-shoutout), located under `Twitch` -> `Moderation`
 * Add 2 new C# methods to send a Twitch Shoutout
 * Add new event for when you (the broadcaster) receives a [Twitch Shoutout](#twitch-shoutout-received) from another user
+* Add 2 new sub-actions to [Start and Cancel a raid](#twitch-start-and-cancel-raid) on Twitch
 {.changelog-new}
 
 ## Websocket Events
@@ -103,6 +104,9 @@ This is a basic sub-action, either use a variable, or a fixed user login to send
 
 ### Clear Users From a Group
 This sub-action will allow you to select one of your groups, so you can clear the users belonging to it during an action
+
+### Twitch Start and Cancel Raid
+Since the C# methods for this have existed for a bit, adding in sub-actions to perform this now as well.
 
 ## Updated Events
 ### Twitch Shoutout Created
