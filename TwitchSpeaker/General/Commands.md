@@ -1,8 +1,8 @@
 ---
 title: Commands
 description: TwitchSpeaker Commands Reference
-published: false
-date: 2023-01-18T22:31:33.088Z
+published: true
+date: 2023-01-20T15:05:55.736Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:38:01.787Z
