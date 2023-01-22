@@ -2,7 +2,7 @@
 title: Stream Deck Plugin
 description: The official Streamer.bot plugin for the Elgato Stream Deck
 published: true
-date: 2023-01-22T20:51:48.953Z
+date: 2023-01-22T20:57:12.400Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-22T20:49:41.805Z
@@ -16,8 +16,6 @@ dateCreated: 2023-01-22T20:49:41.805Z
 
 ## Overview
 This plugin allows you to execute Streamer.bot actions from your [Elgato Stream Deck](https://www.elgato.com/en/stream-deck)
-
-This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
 
 > This plugin requires the that the [WebSocket Server](/Servers-Clients/WebSocket-Server) is enabled in Streamer.bot
 {.is-warning}
