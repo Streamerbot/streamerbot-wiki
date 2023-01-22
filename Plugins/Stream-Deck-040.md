@@ -1,8 +1,8 @@
 ---
-title: Stream Deck Plugin
+title: Stream Deck Plugin (v0.4.0)
 description: The official Streamer.bot plugin for the Elgato Stream Deck
-published: true
-date: 2023-01-22T21:22:34.997Z
+published: false
+date: 2023-01-22T23:49:13.128Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-22T20:49:41.805Z
@@ -17,6 +17,10 @@ dateCreated: 2023-01-22T20:49:41.805Z
 ## Overview
 This plugin allows you to execute Streamer.bot actions from your [Elgato Stream Deck](https://www.elgato.com/en/stream-deck)
 
+![overview-040.png](/plugins/streamdeck/overview-040.png =300x)
+![overview-action.png](/plugins/streamdeck/overview-action.png =500x)
+![overview-action.png](/plugins/streamdeck/overview-push-to-run-actions.png =500x)
+
 > This plugin requires the that the [WebSocket Server](/Servers-Clients/WebSocket-Server) is enabled in Streamer.bot
 {.is-warning}
 
@@ -25,9 +29,7 @@ This plugin allows you to execute Streamer.bot actions from your [Elgato Stream 
 1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above, this will automatically install the plugin
 3. Make sure that the `Streamer.bot Authentication` field matches your [WebSocket Server](/en/Servers-Clients/WebSocket-Server) settings
 
-![overview-040.png](/plugins/streamdeck/overview-040.png =300x)
-![overview-action.png](/plugins/streamdeck/overview-action.png =500x)
-![overview-action.png](/plugins/streamdeck/overview-push-to-run-actions.png =500x)
+## Buttons
 
 ---
 
