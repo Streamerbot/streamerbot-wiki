@@ -2,7 +2,7 @@
 title: Stream Deck Plugin
 description: The official Streamer.bot plugin for the Elgato Stream Deck
 published: true
-date: 2023-01-22T20:51:43.943Z
+date: 2023-01-22T20:51:48.953Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-22T20:49:41.805Z
@@ -32,5 +32,4 @@ This is more of a proof of concept then a fully realized plugin, while it does w
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/Plugins)
-- [<i class="mdi mdi-table"></i> **Streamer.bot Decks *Next Up***](https://wiki.streamer.bot/en/Extended-Features/HTML-Decks)
 {.btn-grid .my-5}
