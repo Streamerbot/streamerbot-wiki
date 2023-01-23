@@ -1,8 +1,8 @@
 ---
 title: Action
 description: Stream Deck Plugin Buttons Reference 
-published: false
-date: 2023-01-23T00:06:42.777Z
+published: true
+date: 2023-01-23T05:20:32.071Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-23T00:01:06.877Z
