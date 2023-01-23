@@ -2,7 +2,7 @@
 title: Action
 description: Stream Deck Plugin Buttons Reference 
 published: false
-date: 2023-01-23T00:04:45.186Z
+date: 2023-01-23T00:06:33.094Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-23T00:01:06.877Z
@@ -22,5 +22,5 @@ This is an JSON Object with all arguments you want to add in the action. By defa
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/Plugins)
+- [<i class="mdi mdi-chevron-left"></i>**Stream Deck *Go Back***](/Plugins/Stream-Deck)
 {.btn-grid .my-5}
