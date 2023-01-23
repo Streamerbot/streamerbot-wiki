@@ -2,11 +2,19 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-23T17:25:45.429Z
+date: 2023-01-23T17:41:11.753Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+# Streamer.bot v0.1.18 (WIP)
+Upcoming changes in the next release!{.subtitle}
+
+* Fix Set Channel Tags sub-action, was limited to 5
+{.changelog-fixes}
+
+<span></span>
 
 # Streamer.bot v0.1.17 (Current)
 Released 2023-01-20{.subtitle}
