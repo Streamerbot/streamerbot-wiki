@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-23T17:41:11.753Z
+date: 2023-01-23T23:51:02.032Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,6 +13,11 @@ Upcoming changes in the next release!{.subtitle}
 
 * Fix Set Channel Tags sub-action, was limited to 5
 {.changelog-fixes}
+
+<span></span>
+
+* Update Twitch Add Target Info to include the target's channel title, this will be available in `%targetChannelTitle%`
+{.changelog-updates}
 
 <span></span>
 
