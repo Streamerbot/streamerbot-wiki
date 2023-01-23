@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T19:02:36.015Z
+date: 2023-01-23T17:25:45.429Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -49,7 +49,7 @@ Released 2023-01-20{.subtitle}
 <span></span>
 
 * Add 3 new C# methods to remove the cooldown of a command
-* Add 3 new C# methods to AddTo, Remove and Reset a user's cooldown that takes a string for the user id
+* Add 3 new C# methods to Add To, Remove and Reset a user's cooldown that takes a string for the user id
 * Add 3 new C# methods for handling adding, removing and checking if user is in group for string user ids
 * Add new [Websocket Event](#websocket-events), ActionCompleted
 * Ability to directly rename an Action Group, without having to edit every action
@@ -58,7 +58,7 @@ Released 2023-01-20{.subtitle}
 * Add 4 new C# methods to Add, Remove, Clear and Set Twitch Tags
 * Add 2 new Twitch events, [StreamOnline](#twitch-streamonline-and-offline-events) and [StreamOffline](#twitch-streamonline-and-offline-events)
 * StreamElements, add a new `%provider%` variable to Tip and Merch events (can be twitch, youtube or streamelements)
-* StreamElements, add a new `%tipId%` variable to the Tip event, this is StreamElement's internal tip id value
+* StreamElements, add a new `%tipId%` variable to the Tip event, this is StreamElements's internal tip id value
 * Add new C# method to get how many channel points a user has used, Twitch only
 * Add new sub-action to [clear users from a group](#clear-users-from-a-group)
 * Add new C# method to clear users from a group
@@ -89,10 +89,13 @@ The Clear Channel Tags sub-action has no input, and will just clear your tags.
 The Add, Remove and Set Channel Tag sub-actions all support variables.
 
 The Add Target Info adds the following new arguments:
-`%tagCount%` - The number of tags
-`%tag#%` - The tag at index position #
-`%tags%` - A `List<string>()` object for use in C#
-`%tagsDelimited%` - A comma delimited string of the tags
+
+Name | Description
+----:|:------------
+`tagCount` | The number of tags
+`tag#` | The tag at index position #
+`tags` | A `List<string>()` object for use in C#
+`tagsDelimited` | A comma delimited string of the tags
 
 > At the moment, there is a bug in the Twitch Helix endpoint, where its unable to clear the tags completely.  So for the time being Clear Tags and Removing the last tag will fail. Once Twitch fixes this, they should start working.
 >
@@ -116,29 +119,39 @@ Since the C# methods for this have existed for a bit, adding in sub-actions to p
 With the Shoutout events being added to EventSub, this event has been moved from PubSub to EventSub, this unfortunately changes some of the variables.  This Event has also been moved to the `Moderation` tab
 
 Variables Removed
-`%targetUserPrimaryColorHex%`
-`%targetUserProfileImageURL%`
+* `%targetUserPrimaryColorHex%`
+* `%targetUserProfileImageURL%`
+{.grid-list}
 
 Variables Added
-`%viewerCount%` - The number of users that were watching the broadcaster’s stream at the time of the Shoutout.
-`%cooldownEndsAt%` - The DateTime of when the broadcaster may send a Shoutout to a different broadcaster.
-`%targetCooldownEndsAt%` - The DateTime of when the broadcaster may send another Shoutout to the same broadcaster.
+
+Name | Description
+----:|:------------
+`viewerCount` | The number of users that were watching the broadcaster’s stream at the time of the Shoutout.
+`cooldownEndsAt` | The DateTime of when the broadcaster may send a Shoutout to a different broadcaster.
+`targetCooldownEndsAt` | The DateTime of when the broadcaster may send another Shoutout to the same broadcaster.
 
 ## New Events
 ### Twitch StreamOnline and Offline events
 For the new Twitch StreamOnline event, this will not be triggered if you are online and Streamer.bot connects to your Twitch account.
 
 StreamOnline Event arguments
-`%startedAt%` - The date, time the stream went online
-`%game%` - The category name
-`%gameId%` - The category id
-`%tagCount%` - The number of tags
-`%tag#%` - The tag at index position #
-`%tags%` - A `List<string>()` object for use in C#
-`%tagsDelimited%` - A comma delimited string of the tags
+
+Name | Description
+----:|:------------
+`startedAt` | The date, time the stream went online
+`game` | The category name
+`gameId` | The category id
+`tagCount` | The number of tags
+`tag#` | The tag at index position #
+`tags` | A `List<string>()` object for use in C#
+`tagsDelimited` | A comma delimited string of the tags
 
 StreamOffline Event arguments
-`%endedAt%` - The date time when the stream went offline
+
+Name | Description
+----:|:------------
+`endedAt` | The date time when the stream went offline
 
 ### Twitch Shoutout Received
 With the new EventSub events for Shoutouts, **Streamer.bot** can now react to receiving a Shoutout
@@ -146,43 +159,62 @@ With the new EventSub events for Shoutouts, **Streamer.bot** can now react to re
 {.is-warning}
 
 Shoutout Received Event Arguments
-`%viewerCount%` - The number of users that were watching the from broadcaster's stream at the time of the Shoutout
+
+Name | Description
+----:|:------------
+`%viewerCount%` | The number of users that were watching the from broadcaster's stream at the time of the Shoutout
 
 ## New C# Methods
 ```csharp
 void CommandRemoveGlobalCooldown(string id);
 void CommandRemoveUserCooldown(string id, int userId);
 void CommandRemoveAllUserCooldowns(string id);
+```
 
+```csharp
 void CommandResetUserCooldown(string id, string userId);
 void CommandRemoveUserCooldown(string id, string userId);
 void CommandAddToUserCooldown(string id, string userId, int seconds);
+```
 
+```csharp
 bool UserIdInGroup(string userId, string groupName);
 bool AddUserIdToGroup(string userId, string groupName);
 bool RemoveUserIdFromGroup(string userId, string groupName);
+```
 
+```csharp
 bool TwitchClearChannelTags();
 bool TwitchSetChannelTags(List<string> tags);
 bool TwitchAddChannelTag(string tag);
 bool TwitchRemoveChannelTag(string tag);
+```
 
+```csharp
 long TwitchGetChannelPointsUsedByUserId(string userId);
+```
 
+```csharp
 bool ClearUsersFromGroup(string groupName);
+```
 
+```csharp
 void TwitchResetRewardCounter(string rewardId);
 void TwitchResetRewardUserCounters(string rewardId);
 void TwitchResetUserRewardCounters(string userId, bool persisted);
 void TwitchResetUserRewardCounter(string rewardId, string userId);
+```
 
+```csharp
 void TwitchRewardGroupEnable(string groupName);
 void TwitchRewardGroupDisable(string groupName);
 void TwitchRewardGroupToggleEnable(string groupName);
 void TwitchRewardGroupPause(string groupName);
 void TwitchRewardGroupUnPause(string groupName);
 void TwitchRewardGroupTogglePause(string groupName);
+```
 
+```csharp
 bool TwitchSendShoutoutById(string userId);
 bool TwitchSendShoutoutByLogin(string userLogin);
 ```
