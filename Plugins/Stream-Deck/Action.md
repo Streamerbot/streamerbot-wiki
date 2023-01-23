@@ -2,14 +2,14 @@
 title: Action
 description: Stream Deck Plugin Buttons Reference 
 published: false
-date: 2023-01-23T00:06:33.094Z
+date: 2023-01-23T00:06:42.777Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-23T00:01:06.877Z
 ---
 
 ## Overview
-Run an Streamer.bot Action
+Run a Streamer.bot Action
 
 ![overview-action.png](/plugins/streamdeck/overview-action.png =500x)
 
