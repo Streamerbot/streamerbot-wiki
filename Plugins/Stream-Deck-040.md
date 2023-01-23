@@ -2,7 +2,7 @@
 title: Stream Deck Plugin (v0.4.0)
 description: The official Streamer.bot plugin for the Elgato Stream Deck
 published: false
-date: 2023-01-23T00:04:30.181Z
+date: 2023-01-23T00:07:14.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-22T20:49:41.805Z
@@ -41,7 +41,7 @@ The endpoint of the Streamer.bot websocket. This by default is `/` and should al
 
 ## Buttons
 More details about each button{.subtitle}
-- [<i class="mdi mdi-lightning-bolt"></i>**Action *Run an Streamer.bot Action***](Stream-Deck/Action)
+- [<i class="mdi mdi-lightning-bolt"></i>**Action *Run a Streamer.bot Action***](Stream-Deck/Action)
 - [<i class="mdi mdi-lightning-bolt"></i>**Push to run Actions *Run seperate actions when pressing and releasing the button***](Stream-Deck/Push-to-run-Actions)
 {.btn-grid .list .my-5}
 
