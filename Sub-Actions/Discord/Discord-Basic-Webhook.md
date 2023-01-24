@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: true
-date: 2022-10-28T23:01:33.500Z
+date: 2023-01-24T16:22:58.010Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -29,6 +29,9 @@ The webhook url that you've copied from this Discord.
 
 ### Content
 The content of the message of the webhook, can use <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>enter</kbd> for multiple lines.
+
+### Avatar Url
+Here you can optionally fill out an URL to temporarily change the avatar of the webhook to something to your choose, an example use case for this is adding a Chat Message event and using the user's profile image in this field with the [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target) Sub-Action and then using the `%targetUserProfileImageUrl%` variable.
 
 ### Image
 Optional added images the to webhook message.
