@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-23T23:51:02.032Z
+date: 2023-01-24T00:06:35.662Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -20,6 +20,11 @@ Upcoming changes in the next release!{.subtitle}
 {.changelog-updates}
 
 <span></span>
+
+* Add ability to delete an group in the Action list
+* Add ability to delete a group in the Command list
+* Add deletion confirmation for Commands
+{.changelog-new}
 
 # Streamer.bot v0.1.17 (Current)
 Released 2023-01-20{.subtitle}
