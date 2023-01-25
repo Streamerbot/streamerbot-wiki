@@ -2,7 +2,7 @@
 title: Statistics Update
 description: YouTube Events Reference
 published: true
-date: 2022-11-14T23:01:13.059Z
+date: 2023-01-25T14:06:01.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:24:41.093Z
@@ -11,10 +11,10 @@ dateCreated: 2022-09-29T22:24:41.093Z
 ## Variables
 Name | Description
 ----:|:------------
-`likeCount` | The number of likes the broadcast has
-`dislikeCount` | The number of dislikes the broadcast has
-`viewCount` | The number of viewers the broadcast has had
-`commentCount` | The number of comments added to the broadcast
+`likeCount` | The total number of likes from the broadcast
+`dislikeCount` | The total number of dislikes from the broadcast
+`viewCount` | The total number of views from the broadcast
+`commentCount` | The total number of comments from the broadcast
 `favoriteCount` | How many times the broadcast has been favorited
 
 ---
