@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-26T01:50:50.044Z
+date: 2023-01-26T02:31:30.959Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,11 +17,13 @@ Upcoming changes in the next release!{.subtitle}
 * Fix crash if a tab was hidden and you use the bottom right status to try to navigate to it
 * Fix not being able to use a named hostname for an OBS connection
 * Fix crash when adding a Custom Websocket server and emptying the port field
+* TipeeeStream credentials were not being saved correctly, causing it to lose them every restart
 {.changelog-fixes}
 
 <span></span>
 
 * Update Twitch Add Target Info to include the target's channel title, this will be available in `%targetChannelTitle%`
+* Request new scope `moderator:manage:banned_users` for the Twitch Bot account, this was missing for banning users to work
 {.changelog-updates}
 
 <span></span>
@@ -45,6 +47,11 @@ The total amount that has been seen is also shown in the user's information in t
 
 > If you do a test event, this will be ignored and not added to whomever shows up for the test event.
 {.is-info}
+
+## Twitch Scopes
+Requesting the following new scopes for the bot account, as they were missing or new
+* `moderator:manage:banned_users`
+{.grid-list}
 
 # Streamer.bot v0.1.17 (Current)
 Released 2023-01-20{.subtitle}
