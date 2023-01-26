@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-24T00:22:15.327Z
+date: 2023-01-26T01:04:57.832Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
 Upcoming changes in the next release!{.subtitle}
 
 * Fix Set Channel Tags sub-action, was limited to 5
+* Handle crash from Midi In events that can not be decoded properly
+* Fix Custom Websocket CLient close action not being triggered
+
 {.changelog-fixes}
 
 <span></span>
@@ -25,6 +28,10 @@ Upcoming changes in the next release!{.subtitle}
 * Add ability to delete a group in the Command list
 * Add deletion confirmation for Commands
 * Add ability to select multiple Actions, and delete them
+* Add an `isTest` argument to some Twitch events, this will be set when the event comes from the Test button within **Streamer.bot**
+* Read Lines From File sub-action now supports variables in the path, you can edit the path
+* Read Random Line From File sub-action now supports variables in the path, you can edit the path
+* Write To File sub-action now supports variables in the path, you can edit the path
 {.changelog-new}
 
 # Streamer.bot v0.1.17 (Current)
