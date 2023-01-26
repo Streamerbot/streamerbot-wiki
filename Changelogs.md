@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-26T01:04:57.832Z
+date: 2023-01-26T01:50:50.044Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,8 +13,10 @@ Upcoming changes in the next release!{.subtitle}
 
 * Fix Set Channel Tags sub-action, was limited to 5
 * Handle crash from Midi In events that can not be decoded properly
-* Fix Custom Websocket CLient close action not being triggered
-
+* Fix Custom Websocket Client close action not being triggered
+* Fix crash if a tab was hidden and you use the bottom right status to try to navigate to it
+* Fix not being able to use a named hostname for an OBS connection
+* Fix crash when adding a Custom Websocket server and emptying the port field
 {.changelog-fixes}
 
 <span></span>
@@ -32,7 +34,17 @@ Upcoming changes in the next release!{.subtitle}
 * Read Lines From File sub-action now supports variables in the path, you can edit the path
 * Read Random Line From File sub-action now supports variables in the path, you can edit the path
 * Write To File sub-action now supports variables in the path, you can edit the path
+* **Streamer.bot** is now tracking [Twitch Bit donations](#twitch-bit-donations).
 {.changelog-new}
+
+## Twitch Data
+### Twitch Bit Donations
+Starting with **Streamer.bot v0.1.18**, it will now keep a record of any bit donations that it sees, this means if something comes in when it is not open, it will never know it happened (since there is no way to get past data from Twitch on this).
+
+The total amount that has been seen is also shown in the user's information in the UI
+
+> If you do a test event, this will be ignored and not added to whomever shows up for the test event.
+{.is-info}
 
 # Streamer.bot v0.1.17 (Current)
 Released 2023-01-20{.subtitle}
