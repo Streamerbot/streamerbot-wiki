@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-26T02:31:30.959Z
+date: 2023-01-26T21:11:58.861Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -37,7 +37,13 @@ Upcoming changes in the next release!{.subtitle}
 * Read Random Line From File sub-action now supports variables in the path, you can edit the path
 * Write To File sub-action now supports variables in the path, you can edit the path
 * **Streamer.bot** is now tracking [Twitch Bit donations](#twitch-bit-donations).
+* New C# method to obtain a users total bits donated (this uses the above tracked data)
 {.changelog-new}
+
+## New C# Methods
+```cs
+long TwitchGetBitsDonatedByUserId(string userId);
+```
 
 ## Twitch Data
 ### Twitch Bit Donations
