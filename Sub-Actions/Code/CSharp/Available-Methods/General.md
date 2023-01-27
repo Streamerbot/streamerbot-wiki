@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-01-05T18:32:47.191Z
+date: 2023-01-27T02:23:57.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -132,16 +132,19 @@ void SetArgument(string variableName, object value);
 
 ## Groups
 ```csharp
+bool UserIdInGroup(string userId, string groupName);
 bool UserInGroup(int userId, string groupName);
 bool UserInGroup(string userName, string groupName);
 ```
 
 ```csharp
+bool AddUserIdToGroup(string userId, string groupName);
 bool AddUserToGroup(int userId, string groupName);
 bool AddUserToGroup(string userName, string groupName);
 ```
 
 ```csharp
+bool RemoveUserIdFromGroup(string userId, string groupName);
 bool RemoveUserFromGroup(int userId, string groupName);
 bool RemoveUserFromGroup(string userName, string groupName);
 ```
