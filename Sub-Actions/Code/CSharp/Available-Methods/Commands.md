@@ -2,7 +2,7 @@
 title: Commands
 description: C# Available Methods Reference
 published: true
-date: 2023-01-04T12:44:23.167Z
+date: 2023-01-27T02:37:55.953Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-04T02:49:39.966Z
@@ -23,7 +23,7 @@ void CommandSetUserCooldownDuration(string id, int seconds);
 ## Add to Commands Cooldowns
 ```csharp
 void CommandAddToGlobalCooldown(string id, int seconds);
-void CommandAddToUserCooldown(string id, int userId, int seconds);
+void CommandAddToUserCooldown(string id, string userId, int seconds);
 void CommandAddToAllUserCooldowns(string id, int seconds);
 ```
 
@@ -32,8 +32,18 @@ This makes it so if there is a cooldown of e.g. 60 seconds and when running this
 
 ```csharp
 void CommandResetGlobalCooldown(string id);
-void CommandResetUserCooldown(string id, int userId);
+void CommandResetUserCooldown(string id, string userId);
 void CommandResetAllUserCooldowns(string id);
+```
+
+## Remove Command Cooldowns
+This will remove any cooldowns on the command, effectively making the command useable again.
+{.subtitle}
+
+```csharp
+void CommandRemoveGlobalCooldown(string id);
+void CommandRemoveUserCooldown(string id, string userId);
+void CommandRemoveAllUserCooldowns(string id);
 ```
 
 ---
