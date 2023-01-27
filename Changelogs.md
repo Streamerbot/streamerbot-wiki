@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-26T21:11:58.861Z
+date: 2023-01-27T00:27:59.217Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -24,6 +24,8 @@ Upcoming changes in the next release!{.subtitle}
 
 * Update Twitch Add Target Info to include the target's channel title, this will be available in `%targetChannelTitle%`
 * Request new scope `moderator:manage:banned_users` for the Twitch Bot account, this was missing for banning users to work
+* **Streamer.bot** no longer uses the `games.dat` data file for [Twitch game categories](#twitch-game-categories), it is now realtime search capable
+* Updates to the [DonorDrive](#donordrive-updates) integration
 {.changelog-updates}
 
 <span></span>
@@ -38,12 +40,19 @@ Upcoming changes in the next release!{.subtitle}
 * Write To File sub-action now supports variables in the path, you can edit the path
 * **Streamer.bot** is now tracking [Twitch Bit donations](#twitch-bit-donations).
 * New C# method to obtain a users total bits donated (this uses the above tracked data)
+* Add 2 new sub-actions to add/remove a Twitch VIP
+* Add 2 new sub-actions to add/remove a Twitch Moderator
 {.changelog-new}
 
 ## New C# Methods
 ```cs
 long TwitchGetBitsDonatedByUserId(string userId);
 ```
+
+## Twitch Game Categories
+Trying to manage the games.dat file was starting to get out of hand, so with v0.1.18, it is gone completely, and in its place, when selecting specific games, you're able to perform realtime searches against Twitch's own categories, so you'll always have the most current data moving forward.
+
+Internally, because of this change, some methods were also updated to handle the data file no longer existing.
 
 ## Twitch Data
 ### Twitch Bit Donations
@@ -53,6 +62,11 @@ The total amount that has been seen is also shown in the user's information in t
 
 > If you do a test event, this will be ignored and not added to whomever shows up for the test event.
 {.is-info}
+
+## DonorDrive Updates
+The DonorDrive integration now pulls a list of known charities from the DonorDrive api, and uses this for the different provider types now.  This is mostly a quality of life improvement so you do not have to try and figure out the endpoint to use for a custom provider.
+
+If the charity you are setting up, doesn't happen to be in the new list, you'll still be able to configure a custom provider
 
 ## Twitch Scopes
 Requesting the following new scopes for the bot account, as they were missing or new
