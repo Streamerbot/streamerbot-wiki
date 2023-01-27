@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T02:34:52.981Z
+date: 2023-01-27T02:39:37.554Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -240,11 +240,6 @@ void TwitchAnnounce(string message, bool bot = false, string color = null);
 ```
 
 ## Team Information
-```csharp
-List<TeamInfo> GetTeamInfo(int userId);
-List<TeamInfo> GetTeamInfo(string username);
-```
-
 ```csharp
 List<TeamInfo> GetTeamInfoById(string userId);
 List<TeamInfo> GetTeamInfoByLogin(string userLogin);
