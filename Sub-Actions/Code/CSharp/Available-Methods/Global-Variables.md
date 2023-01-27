@@ -2,7 +2,7 @@
 title: Global Variables
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T16:54:34.723Z
+date: 2023-01-27T16:57:10.367Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T00:13:01.336Z
@@ -32,9 +32,11 @@ void UnsetYouTubeUser(string userName, bool persisted = true);
 ```
 
 ## Deprecated Methods
-
+> **Deprecated**
 > These methods will either be removed in a future version of **Streamer.bot**, it's best to move to the replacements, or no longer exist.
-{.is-warning}
+{.is-danger}
+
+### User Vars
 
 The following methods have counterparts in the Twitch and YouTube section
 ```csharp
