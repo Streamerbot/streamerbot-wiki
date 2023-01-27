@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T02:32:35.633Z
+date: 2023-01-27T02:34:52.981Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -55,6 +55,12 @@ bool TwitchRemoveChannelTag(string tag);
 ```
 > Clearing tags is currently broken on Twitch's side, as long as you keep at least 1 tag, everything will work.  Unknown when Twitch will fix this
 {.is-warning}
+
+## Shoutout
+```csharp
+bool TwitchSendShoutoutById(string userId);
+bool TwitchSendShoutoutByLogin(string userLogin);
+```
 
 ## Timeouts / Bans
 ```csharp
