@@ -2,7 +2,7 @@
 title: Play Sound From Folder
 description: Sounds Sub-Action Reference
 published: true
-date: 2022-12-30T15:58:15.278Z
+date: 2023-01-27T03:04:43.072Z
 tags: sounds, folder, recursive
 editor: markdown
 dateCreated: 2021-11-22T01:08:16.939Z
@@ -36,3 +36,10 @@ Example: In the image below you can see the `<sub directory>\filename.mp3` of wh
 
 ### Volume
 Adjust the volume of the sound file.  This is a very basic volume adjustment, and is usually better to adjust the volume with a tool like Audacity.
+
+## Variables
+Name | Description
+----:|:------------
+`randomSoundFile` | The full path, including file name of the sound that was played.
+`randomSoundFileName` | The file name of the sound that was played.
+{.vars-table}
