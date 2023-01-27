@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-03T00:12:41.192Z
+date: 2023-01-27T02:28:25.025Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -202,6 +202,39 @@ bool TwitchCancelRaid();
 ```csharp
 void TwitchAnnounce(string message, bool bot = false, string color = null);
 ```
+
+## Team Information
+```csharp
+List<TeamInfo> GetTeamInfo(int userId);
+List<TeamInfo> GetTeamInfo(string username);
+```
+
+```csharp
+List<TeamInfo> GetTeamInfoById(string userId);
+List<TeamInfo> GetTeamInfoByLogin(string userLogin);
+```
+
+```csharp
+public class TeamInfo
+{
+    public string Id { get; set; }
+    public string Login { get; set; }
+    public string Name { get; set; }
+
+    public string BackgroundImageUrl { get; set; }
+    public string Banner { get; set; }
+
+    public string CreatedAt { get; set; }
+    public string UpdatedAt { get; set; }
+
+    public string Info { get; set; }
+    public string ThumbnailUrl { get; set; }
+    public string TeamName { get; set; }
+    public string TeamDisplayName { get; set; }
+    public string TeamId { get; set; }
+}
+```
+
 
 ## OAuth & Client Id
 ```csharp
