@@ -2,7 +2,7 @@
 title: Global Variables
 description: C# Available Methods Reference
 published: true
-date: 2023-01-03T00:14:33.504Z
+date: 2023-01-27T16:53:35.669Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T00:13:01.336Z
@@ -11,18 +11,8 @@ dateCreated: 2023-01-03T00:13:01.336Z
 ## General
 ```csharp
 T GetGlobalVar<T>(string varName, bool persisted = true);
-T GetUserVar<T>(string userName, string varName, bool persisted = true);
-```
-
-```csharp
 void SetGlobalVar(string varName, object value, bool persisted = true);
-void SetUserVar(string userName, string varName, object value, bool persisted = true);
-```
-
-```csharp
 void UnsetGlobalVar(string varName, bool persisted = true);
-void UnsetUserVar(string userName, string varName, bool persisted = true);
-void UnsetUser(string userName, bool persisted = true);
 ```
 
 ## Twitch
@@ -39,6 +29,19 @@ T GetYouTubeUserVar<T>(string userName, string varName, bool persisted = true);
 void SetYouTubeUserVar(string userName, string varName, object value, bool persisted = true);
 void UnsetYouTubeUserVar(string userName, string varName, bool persisted = true);
 void UnsetYouTubeUser(string userName, bool persisted = true);
+```
+
+## Deprecated Methods
+
+> These methods will be removed in a future version of **Streamer.bot**, it's best to move to the replacements.
+{.is-warning}
+
+The following methods have counterparts in the Twitch and YouTube section
+```csharp
+T GetUserVar<T>(string userName, string varName, bool persisted = true);
+void SetUserVar(string userName, string varName, object value, bool persisted = true);
+void UnsetUserVar(string userName, string varName, bool persisted = true);
+void UnsetUser(string userName, bool persisted = true);
 ```
 
 ---
