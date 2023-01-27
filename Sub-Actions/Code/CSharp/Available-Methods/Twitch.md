@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T02:31:10.657Z
+date: 2023-01-27T02:32:35.633Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -88,6 +88,26 @@ bool TwitchRedemptionCancel(string rewardId, string redemptionId);
 bool UpdateRewardTitle(string rewardId, string title);
 bool UpdateRewardPrompt(string rewardId, string prompt);
 bool UpdateReward(string rewardId, string title = null, string prompt = null, int? cost = null);
+```
+
+```csharp
+long TwitchGetChannelPointsUsedByUserId(string userId);
+```
+
+```csharp
+void TwitchResetRewardCounter(string rewardId);
+void TwitchResetRewardUserCounters(string rewardId);
+void TwitchResetUserRewardCounters(string userId, bool persisted);
+void TwitchResetUserRewardCounter(string rewardId, string userId);
+```
+
+```csharp
+void TwitchRewardGroupEnable(string groupName);
+void TwitchRewardGroupDisable(string groupName);
+void TwitchRewardGroupToggleEnable(string groupName);
+void TwitchRewardGroupPause(string groupName);
+void TwitchRewardGroupUnPause(string groupName);
+void TwitchRewardGroupTogglePause(string groupName);
 ```
 
 ## Polls
