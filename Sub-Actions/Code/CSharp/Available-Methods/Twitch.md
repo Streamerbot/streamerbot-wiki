@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T02:28:25.025Z
+date: 2023-01-27T02:31:10.657Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -45,6 +45,16 @@ void SendAction(string action, bool bot = true);
 bool TwitchClearChatMessages(bool bot = true);
 bool TwitchDeleteChatMessage(string messageId, bool bot = true);
 ```
+
+## Channel Tags
+```csharp
+bool TwitchClearChannelTags();
+bool TwitchSetChannelTags(List<string> tags);
+bool TwitchAddChannelTag(string tag);
+bool TwitchRemoveChannelTag(string tag);
+```
+> Clearing tags is currently broken on Twitch's side, as long as you keep at least 1 tag, everything will work.  Unknown when Twitch will fix this
+{.is-warning}
 
 ## Timeouts / Bans
 ```csharp
