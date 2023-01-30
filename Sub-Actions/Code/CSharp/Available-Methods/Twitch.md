@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T02:39:37.554Z
+date: 2023-01-30T10:06:53.687Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -16,6 +16,10 @@ List<Cheermote> GetCheermotes();
 ```csharp
 void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
+void TwitchSlowMode(bool enabled = true, int duration = 0);
+
+// Requires a minimum version of v0.1.15
+void TwitchFollowMode(bool enabled = true, int duration = 0);
 ```
 
 ## Whisper
@@ -204,18 +208,7 @@ public class StreamMarker
 void TwitchRunCommercial(int duration);
 ```
 
-## Slow Mode
-```csharp
-void TwitchSlowMode(bool enabled = true, int duration = 0);
-```
-
-## Follow Mode
-```csharp
-// Requires a minimum version of v0.1.15
-void TwitchFollowMode(bool enabled = true, int duration = 0);
-```
-
-## Stream Update
+## Stream Information
 ```csharp
 bool SetChannelTitle(string title);
 GameInfo SetChannelGame(string game);
