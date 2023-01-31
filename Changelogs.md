@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-27T00:27:59.217Z
+date: 2023-01-31T23:17:07.049Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -18,6 +18,9 @@ Upcoming changes in the next release!{.subtitle}
 * Fix not being able to use a named hostname for an OBS connection
 * Fix crash when adding a Custom Websocket server and emptying the port field
 * TipeeeStream credentials were not being saved correctly, causing it to lose them every restart
+* VoiceMod integration works again, for oiceMod v2.38.1 and higher
+* Fix manual disconnect of Twitch Bot Chat Client
+* Fix wording in Set Action group state sub-action
 {.changelog-fixes}
 
 <span></span>
@@ -42,11 +45,34 @@ Upcoming changes in the next release!{.subtitle}
 * New C# method to obtain a users total bits donated (this uses the above tracked data)
 * Add 2 new sub-actions to add/remove a Twitch VIP
 * Add 2 new sub-actions to add/remove a Twitch Moderator
+* Add auto-indentation to Execute C# Code sub-action editor
+* Add basic auto-completion for the `CPH` object in the Execute C# Code sub-action editor
+* Add new C# method to get list of Twitch Rewards
 {.changelog-new}
 
 ## New C# Methods
 ```cs
 long TwitchGetBitsDonatedByUserId(string userId);
+```
+
+```cs
+List<TwitchReward> TwitchGetRewards()
+```
+Structure of `TwitchReward`
+```cs
+public class TwitchReward
+{
+    public string Id { get; set; }
+    public string Title { get; set; }
+    public string Prompt { get; set; }
+    public int Cost { get; set; }
+    public bool InputRequired { get; set; }
+    public string BackgroundColor { get; set; }
+    public bool Paused { get; set; }
+    public bool Enabled { get; set; }
+    public bool IsOurs { get; set; }
+}
+
 ```
 
 ## Twitch Game Categories
