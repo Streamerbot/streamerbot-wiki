@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-01-30T10:06:53.687Z
+date: 2023-02-02T01:30:33.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -10,16 +10,17 @@ dateCreated: 2022-10-29T20:51:36.923Z
 
 ## General
 ```csharp
-List<Cheermote> GetCheermotes();
-```
-
-```csharp
 void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
 void TwitchSlowMode(bool enabled = true, int duration = 0);
 
 // Requires a minimum version of v0.1.15
 void TwitchFollowMode(bool enabled = true, int duration = 0);
+```
+
+## Cheermotes
+```csharp
+List<Cheermote> GetCheermotes();
 ```
 
 ## Whisper
@@ -77,6 +78,17 @@ bool TwitchTimeoutUser(string username, int duration, string reason = null, bool
 ```
 
 ## Channel Rewards
+### Get Rewards
+```csharp
+List<TwitchReward> TwitchGetRewards();
+```
+
+### Get Reward Usage
+```csharp
+long TwitchGetChannelPointsUsedByUserId(string userId);
+```
+
+### Reward States
 ```csharp
 void DisableReward(string rewardId);
 void EnableReward(string rewardId);
@@ -84,33 +96,7 @@ void PauseReward(string rewardId);
 void UnPauseReward(string rewardId);
 ```
 
-```csharp
-void UpdateRewardCost(string rewardId, int cost, bool additive = false);
-void UpdateRewardCooldown(string rewardId, int cooldown, bool additive = false);
-```
-
-```csharp
-bool TwitchRedemptionFulfill(string rewardId, string redemptionId);
-bool TwitchRedemptionCancel(string rewardId, string redemptionId);
-```
-
-```csharp
-bool UpdateRewardTitle(string rewardId, string title);
-bool UpdateRewardPrompt(string rewardId, string prompt);
-bool UpdateReward(string rewardId, string title = null, string prompt = null, int? cost = null);
-```
-
-```csharp
-long TwitchGetChannelPointsUsedByUserId(string userId);
-```
-
-```csharp
-void TwitchResetRewardCounter(string rewardId);
-void TwitchResetRewardUserCounters(string rewardId);
-void TwitchResetUserRewardCounters(string userId, bool persisted);
-void TwitchResetUserRewardCounter(string rewardId, string userId);
-```
-
+### Reward Group States
 ```csharp
 void TwitchRewardGroupEnable(string groupName);
 void TwitchRewardGroupDisable(string groupName);
@@ -118,6 +104,33 @@ void TwitchRewardGroupToggleEnable(string groupName);
 void TwitchRewardGroupPause(string groupName);
 void TwitchRewardGroupUnPause(string groupName);
 void TwitchRewardGroupTogglePause(string groupName);
+```
+
+### Update Rewards
+```csharp
+bool UpdateRewardTitle(string rewardId, string title);
+bool UpdateRewardPrompt(string rewardId, string prompt);
+bool UpdateReward(string rewardId, string title = null, string prompt = null, int? cost = null);
+```
+
+### Reward Costs
+```csharp
+void UpdateRewardCost(string rewardId, int cost, bool additive = false);
+void UpdateRewardCooldown(string rewardId, int cooldown, bool additive = false);
+```
+
+### Fulfill/Cancel
+```csharp
+bool TwitchRedemptionFulfill(string rewardId, string redemptionId);
+bool TwitchRedemptionCancel(string rewardId, string redemptionId);
+```
+
+### Reset Reward Counters
+```csharp
+void TwitchResetRewardCounter(string rewardId);
+void TwitchResetRewardUserCounters(string rewardId);
+void TwitchResetUserRewardCounters(string userId, bool persisted);
+void TwitchResetUserRewardCounter(string rewardId, string userId);
 ```
 
 ## Polls
