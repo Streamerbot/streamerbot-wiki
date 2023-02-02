@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:31:49.344Z
+date: 2023-02-02T01:33:47.570Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -81,7 +81,6 @@ bool TwitchTimeoutUser(string username, int duration, string reason = null, bool
 ### Get Rewards
 ```csharp
 // Added in v0.1.18
-
 List<TwitchReward> TwitchGetRewards();
 ```
 
@@ -148,6 +147,12 @@ string TwitchPredictionCreate(string title, List<string> options, int duration);
 void TwitchPredictionCancel(string predictionId);
 void TwitchPredictionLock(string predictionId);
 void TwitchPredictionResolve(string predictionId, string winningId);
+```
+
+## Bits
+```csharp
+// Added in v0.1.18
+long TwitchGetBitsDonatedByUserId(string userId);
 ```
 
 ## Clips
