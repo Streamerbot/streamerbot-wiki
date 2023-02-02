@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:30:33.784Z
+date: 2023-02-02T01:31:49.344Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -80,6 +80,8 @@ bool TwitchTimeoutUser(string username, int duration, string reason = null, bool
 ## Channel Rewards
 ### Get Rewards
 ```csharp
+// Added in v0.1.18
+
 List<TwitchReward> TwitchGetRewards();
 ```
 
