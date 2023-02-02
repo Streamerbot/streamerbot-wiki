@@ -2,25 +2,16 @@
 title: Discord
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:23:15.542Z
+date: 2023-02-02T01:24:00.838Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T21:03:50.261Z
 ---
 
 ## Post Text To Webhook
-### Tabset {.tabset}
-#### Code
 ```csharp
 bool DiscordPostTextToWebhook(string webhookUrl, string content, string username = null, bool textToSpeech = false);
 ```
-
-#### Example
-```csharp
-let result = CPH.DiscordPostTextToWebhook("webhookUrl", "content", "username"/null, true/false);
-```
-
-### End Tabset {.tabset}
 
 ---
 
