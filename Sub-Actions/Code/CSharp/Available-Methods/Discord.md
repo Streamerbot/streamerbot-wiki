@@ -2,7 +2,7 @@
 title: Discord
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:22:48.299Z
+date: 2023-02-02T01:23:15.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T21:03:50.261Z
@@ -17,7 +17,7 @@ bool DiscordPostTextToWebhook(string webhookUrl, string content, string username
 
 #### Example
 ```csharp
-let result = CPH.DiscordPostTextToWebhook("webhookUrl", "content", "username" / null, true/false);
+let result = CPH.DiscordPostTextToWebhook("webhookUrl", "content", "username"/null, true/false);
 ```
 
 ### End Tabset {.tabset}
