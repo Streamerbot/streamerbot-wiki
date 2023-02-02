@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:33:47.570Z
+date: 2023-02-02T01:35:36.935Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -82,6 +82,22 @@ bool TwitchTimeoutUser(string username, int duration, string reason = null, bool
 ```csharp
 // Added in v0.1.18
 List<TwitchReward> TwitchGetRewards();
+```
+
+Structure of TwitchReward:
+```csharp
+public class TwitchReward
+{
+    public string Id { get; set; }
+    public string Title { get; set; }
+    public string Prompt { get; set; }
+    public int Cost { get; set; }
+    public bool InputRequired { get; set; }
+    public string BackgroundColor { get; set; }
+    public bool Paused { get; set; }
+    public bool Enabled { get; set; }
+    public bool IsOurs { get; set; }
+}
 ```
 
 ### Get Reward Usage
