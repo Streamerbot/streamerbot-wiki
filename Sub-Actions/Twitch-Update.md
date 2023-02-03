@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-03T20:54:34.611Z
+date: 2023-02-03T20:55:29.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -80,7 +80,7 @@ Get information about your subscribers{.subtitle}
 
 ## Tags
 Add, clear, set and remove channel tags{.subtitle}
-* [<i class="mdi mdi- text--twitch"></i>**Add Channel Tag ****](/Sub-Actions/Twitch/Add Channel Tag)
+* [<i class="mdi mdi- text--twitch"></i>**Add Channel Tag ****](/Sub-Actions/Twitch/Add-Channel-Tag)
 * [<i class="mdi mdi- text--twitch"></i>**Clear Channel Tags ****](/Sub-Actions/Twitch/Clear-Channel-Tags)
 * [<i class="mdi mdi- text--twitch"></i>**Remove Channel Tag ****](/Sub-Actions/Twitch/Remove-Channel-Tag)
 * [<i class="mdi mdi- text--twitch"></i>**Set Channel Tags ****](/Sub-Actions/Twitch/Set-Channel-Tags)
