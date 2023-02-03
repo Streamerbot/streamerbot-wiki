@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-03T21:00:38.878Z
+date: 2023-02-03T21:02:50.078Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -44,12 +44,12 @@ Get information about your followers{.subtitle}
 ## Moderation
 Modeate you Twitch broadcaster channel{.subtitle}
 
-* [<i class="mdi mdi- text--twitch"></i>**Add Moderator ****](/Sub-Actions/Twitch/Add-Moderator)
-* [<i class="mdi mdi- text--twitch"></i>**Add VIP ****](/Sub-Actions/Twitch/Add-VIP)
-* [<i class="mdi mdi- text--twitch"></i>**Remove Moderator ****](/Sub-Actions/Twitch/Remove-Moderator)
-* [<i class="mdi mdi- text--twitch"></i>**Remove VIP ****](/Sub-Actions/Twitch/Remove-VIP)
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add Moderator ****](/Sub-Actions/Twitch/Add-Moderator)
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add VIP ****](/Sub-Actions/Twitch/Add-VIP)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove Moderator ****](/Sub-Actions/Twitch/Remove-Moderator)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove VIP ****](/Sub-Actions/Twitch/Remove-VIP)
 * [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/Sub-Actions/Twitch/Run-Commercial)
-* [<i class="mdi mdi- text--twitch"></i>**Send Shoutout ****](/Sub-Actions/Twitch/Send-Shoutout)
+* [<i class="mdi mdi-account-star text--twitch"></i>**Send Shoutout ****](/Sub-Actions/Twitch/Send-Shoutout)
 * [<i class="mdi mdi-account-tie-voice-off text--twitch"></i>**Timeout User *Timeout a user for a specified amount of time***](/Sub-Actions/Twitch/Timeout-User)
 {.btn-grid .my-5}
 
