@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-03T20:55:29.305Z
+date: 2023-02-03T21:00:38.878Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -37,8 +37,8 @@ Chat Message and Announcements control{.subtitle}
 Get information about your followers{.subtitle}
 
 * [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
-* [<i class="mdi mdi- text--twitch"></i>**Get Follower Count ****](/Sub-Actions/Twitch/Get-Follower-Count)
-* [<i class="mdi mdi- text--twitch"></i>**Get Latest Follower ****](/Sub-Actions/Twitch/Get-Latest-Follower)
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count ****](/Sub-Actions/Twitch/Get-Follower-Count)
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower ****](/Sub-Actions/Twitch/Get-Latest-Follower)
 {.btn-grid .my-5}
 
 ## Moderation
@@ -68,22 +68,22 @@ Modeate you Twitch broadcaster channel{.subtitle}
 ## Raid
 Cancel and start raids{.subtitle}
 
-* [<i class="mdi mdi- text--twitch"></i>**Cancel Raid ****](/Sub-Actions/Twitch/Cancel-Raid)
-* [<i class="mdi mdi- text--twitch"></i>**Start Raid ****](/Sub-Actions/Twitch/Start-Raid)
+* [<i class="mdi mdi-target-account text--twitch"></i>**Cancel Raid ****](/Sub-Actions/Twitch/Cancel-Raid)
+* [<i class="mdi mdi-target-account text--twitch"></i>**Start Raid ****](/Sub-Actions/Twitch/Start-Raid)
 {.btn-grid .my-5}
 
 ## Subscribers
 Get information about your subscribers{.subtitle}
-* [<i class="mdi mdi- text--twitch"></i>**Get Latest Subscriber ****](/Sub-Actions/Twitch/Get-Latest-Subscriber)
-* [<i class="mdi mdi- text--twitch"></i>**Get Subscriber Count ****](/Sub-Actions/Twitch/Get-Subscriber-Count)
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Subscriber ****](/Sub-Actions/Twitch/Get-Latest-Subscriber)
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Subscriber Count ****](/Sub-Actions/Twitch/Get-Subscriber-Count)
 {.btn-grid .my-5}
 
 ## Tags
 Add, clear, set and remove channel tags{.subtitle}
-* [<i class="mdi mdi- text--twitch"></i>**Add Channel Tag ****](/Sub-Actions/Twitch/Add-Channel-Tag)
-* [<i class="mdi mdi- text--twitch"></i>**Clear Channel Tags ****](/Sub-Actions/Twitch/Clear-Channel-Tags)
-* [<i class="mdi mdi- text--twitch"></i>**Remove Channel Tag ****](/Sub-Actions/Twitch/Remove-Channel-Tag)
-* [<i class="mdi mdi- text--twitch"></i>**Set Channel Tags ****](/Sub-Actions/Twitch/Set-Channel-Tags)
+* [<i class="mdi mdi-tag-plus text--twitch"></i>**Add Channel Tag ****](/Sub-Actions/Twitch/Add-Channel-Tag)
+* [<i class="mdi mdi-tag-remove text--twitch"></i>**Clear Channel Tags ****](/Sub-Actions/Twitch/Clear-Channel-Tags)
+* [<i class="mdi mdi-tag-minus text--twitch"></i>**Remove Channel Tag ****](/Sub-Actions/Twitch/Remove-Channel-Tag)
+* [<i class="mdi mdi-tag-plus text--twitch"></i>**Set Channel Tags ****](/Sub-Actions/Twitch/Set-Channel-Tags)
 {.btn-grid .my-5}
 
 ## User
