@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-31T23:17:07.049Z
+date: 2023-02-03T19:13:29.464Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,8 @@ Upcoming changes in the next release!{.subtitle}
 * VoiceMod integration works again, for oiceMod v2.38.1 and higher
 * Fix manual disconnect of Twitch Bot Chat Client
 * Fix wording in Set Action group state sub-action
+* Fix the Twitch Set Follower Mode/Chat Delay methods
+* Fix being able to delete Twitch Hype Train level
 {.changelog-fixes}
 
 <span></span>
@@ -29,6 +31,8 @@ Upcoming changes in the next release!{.subtitle}
 * Request new scope `moderator:manage:banned_users` for the Twitch Bot account, this was missing for banning users to work
 * **Streamer.bot** no longer uses the `games.dat` data file for [Twitch game categories](#twitch-game-categories), it is now realtime search capable
 * Updates to the [DonorDrive](#donordrive-updates) integration
+* Update Add Broadcaster information to add new variables
+* Move Add Follow Age to a new Followers sub-menu
 {.changelog-updates}
 
 <span></span>
@@ -48,6 +52,10 @@ Upcoming changes in the next release!{.subtitle}
 * Add auto-indentation to Execute C# Code sub-action editor
 * Add basic auto-completion for the `CPH` object in the Execute C# Code sub-action editor
 * Add new C# method to get list of Twitch Rewards
+* Add Incentive event to DonorDrive
+* Add 2 new sub-actions to get the Latest Twitch Subscriber and Follower
+* Add 2 new sub-actions to get the Twitch Subscriber and Follower count
+* Add an isTest variable to the Community Goal event
 {.changelog-new}
 
 ## New C# Methods
