@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-03T21:02:50.078Z
+date: 2023-02-03T21:04:40.273Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -37,8 +37,8 @@ Chat Message and Announcements control{.subtitle}
 Get information about your followers{.subtitle}
 
 * [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
-* [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count ****](/Sub-Actions/Twitch/Get-Follower-Count)
-* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower ****](/Sub-Actions/Twitch/Get-Latest-Follower)
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count *Get your current follower count***](/Sub-Actions/Twitch/Get-Follower-Count)
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower *Get data about your latest follower***](/Sub-Actions/Twitch/Get-Latest-Follower)
 {.btn-grid .my-5}
 
 ## Moderation
@@ -74,8 +74,8 @@ Cancel and start raids{.subtitle}
 
 ## Subscribers
 Get information about your subscribers{.subtitle}
-* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Subscriber ****](/Sub-Actions/Twitch/Get-Latest-Subscriber)
-* [<i class="mdi mdi-counter text--twitch"></i>**Get Subscriber Count ****](/Sub-Actions/Twitch/Get-Subscriber-Count)
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Subscriber *Get data about your latest subscriber***](/Sub-Actions/Twitch/Get-Latest-Subscriber)
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Subscriber Count *Get your current subscriber count***](/Sub-Actions/Twitch/Get-Subscriber-Count)
 {.btn-grid .my-5}
 
 ## Tags
