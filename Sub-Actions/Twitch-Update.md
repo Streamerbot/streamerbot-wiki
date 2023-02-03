@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-03T21:04:40.273Z
+date: 2023-02-03T21:08:34.858Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -44,12 +44,12 @@ Get information about your followers{.subtitle}
 ## Moderation
 Modeate you Twitch broadcaster channel{.subtitle}
 
-* [<i class="mdi mdi-account-plus text--twitch"></i>**Add Moderator ****](/Sub-Actions/Twitch/Add-Moderator)
-* [<i class="mdi mdi-account-plus text--twitch"></i>**Add VIP ****](/Sub-Actions/Twitch/Add-VIP)
-* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove Moderator ****](/Sub-Actions/Twitch/Remove-Moderator)
-* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove VIP ****](/Sub-Actions/Twitch/Remove-VIP)
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add Moderator *Add a moderator to your channel***](/Sub-Actions/Twitch/Add-Moderator)
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add VIP *Add a vip to your channel***](/Sub-Actions/Twitch/Add-VIP)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove Moderator *Remove a moderator from your channel***](/Sub-Actions/Twitch/Remove-Moderator)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove VIP *Remove a vip from your channel***](/Sub-Actions/Twitch/Remove-VIP)
 * [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/Sub-Actions/Twitch/Run-Commercial)
-* [<i class="mdi mdi-account-star text--twitch"></i>**Send Shoutout ****](/Sub-Actions/Twitch/Send-Shoutout)
+* [<i class="mdi mdi-account-star text--twitch"></i>**Send Shoutout *Send a shoutout to a Twitch user***](/Sub-Actions/Twitch/Send-Shoutout)
 * [<i class="mdi mdi-account-tie-voice-off text--twitch"></i>**Timeout User *Timeout a user for a specified amount of time***](/Sub-Actions/Twitch/Timeout-User)
 {.btn-grid .my-5}
 
@@ -68,8 +68,8 @@ Modeate you Twitch broadcaster channel{.subtitle}
 ## Raid
 Cancel and start raids{.subtitle}
 
-* [<i class="mdi mdi-target-account text--twitch"></i>**Cancel Raid ****](/Sub-Actions/Twitch/Cancel-Raid)
-* [<i class="mdi mdi-target-account text--twitch"></i>**Start Raid ****](/Sub-Actions/Twitch/Start-Raid)
+* [<i class="mdi mdi-target-account text--twitch"></i>**Cancel Raid *Cancel a raid on someone***](/Sub-Actions/Twitch/Cancel-Raid)
+* [<i class="mdi mdi-target-account text--twitch"></i>**Start Raid *Start a raid on someone***](/Sub-Actions/Twitch/Start-Raid)
 {.btn-grid .my-5}
 
 ## Subscribers
@@ -80,10 +80,10 @@ Get information about your subscribers{.subtitle}
 
 ## Tags
 Add, clear, set and remove channel tags{.subtitle}
-* [<i class="mdi mdi-tag-plus text--twitch"></i>**Add Channel Tag ****](/Sub-Actions/Twitch/Add-Channel-Tag)
-* [<i class="mdi mdi-tag-remove text--twitch"></i>**Clear Channel Tags ****](/Sub-Actions/Twitch/Clear-Channel-Tags)
-* [<i class="mdi mdi-tag-minus text--twitch"></i>**Remove Channel Tag ****](/Sub-Actions/Twitch/Remove-Channel-Tag)
-* [<i class="mdi mdi-tag-plus text--twitch"></i>**Set Channel Tags ****](/Sub-Actions/Twitch/Set-Channel-Tags)
+* [<i class="mdi mdi-tag-plus text--twitch"></i>**Add Channel Tag *Add a single channel tag to your channel***](/Sub-Actions/Twitch/Add-Channel-Tag)
+* [<i class="mdi mdi-tag-remove text--twitch"></i>**Clear Channel Tags *Clear all channel tags from your channel***](/Sub-Actions/Twitch/Clear-Channel-Tags)
+* [<i class="mdi mdi-tag-minus text--twitch"></i>**Remove Channel Tag *Remove a single channel tag from your channel***](/Sub-Actions/Twitch/Remove-Channel-Tag)
+* [<i class="mdi mdi-tag-plus text--twitch"></i>**Set Channel Tags *Set channel tag(s) on your channel***](/Sub-Actions/Twitch/Set-Channel-Tags)
 {.btn-grid .my-5}
 
 ## User
