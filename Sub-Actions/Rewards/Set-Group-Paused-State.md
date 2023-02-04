@@ -2,7 +2,7 @@
 title: Set Group Paused State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T12:00:24.629Z
+date: 2023-02-04T12:00:30.669Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T12:00:02.580Z
@@ -15,7 +15,7 @@ Pause or unpause all channel point rewards from a group.
 
 ## Configuration
 ### Group
-Fill in the group of the channel points.
+Fill in the group of channel points.
 
 ### State
 Name | Description
