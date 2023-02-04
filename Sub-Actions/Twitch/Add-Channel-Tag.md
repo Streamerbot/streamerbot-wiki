@@ -2,20 +2,20 @@
 title: Add Channel Tag
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-04T10:27:30.584Z
+date: 2023-02-04T10:27:55.867Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:27:30.584Z
 ---
 
 ## Overview
-Add a moderator to your Twitch channel.
+Add one tag to your channel.
 
 ![overview.png](/Sub-Actions/Twitch/add-channel-tag/overview.png =400x)
 
 ## Configuration
 ### Tag
-The single tag you want to add.
+The tag you want to add.
 
 ---
 
