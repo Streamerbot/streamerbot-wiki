@@ -2,7 +2,7 @@
 title: Update Redemption Status
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-11-01T21:06:34.206Z
+date: 2023-02-04T12:12:02.926Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:07:12.107Z
@@ -11,7 +11,7 @@ dateCreated: 2022-06-11T05:07:12.107Z
 ## Overview
 Set a reward redemption as fulfilled or canceled.
 
-![redemption_status.png](/redemption_status.png)
+![overview.png](/Sub-Actions/Twitch/update-redemption-status/overview.png =400x)
 
 ## Configuration
 ### Status
@@ -25,6 +25,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Configure Reward *Up Next***](/en/Sub-Actions/Rewards/Configure-Reward)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
