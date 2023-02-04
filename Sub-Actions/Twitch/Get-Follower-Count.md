@@ -2,21 +2,21 @@
 title: Get Follower Count
 description: Twitch Sub-Action Reference
 published: false
-date: 2023-02-04T09:55:58.636Z
+date: 2023-02-04T09:59:19.382Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T09:55:45.432Z
 ---
 
 ## Overview
-Gets your current follower count to use as a variable
+Gets your current follower count to use as a variable.
 
 ![overview.png](/Sub-Actions/Twitch/get-follower-count/overview.png =400x)
 
 ## Variables
 Name | Description
 ----:|:------------
-`followerCount` | The currrent amount of followers.
+`followerCount` | The currrent amount of followers
 {.vars-table}
 
 ---
