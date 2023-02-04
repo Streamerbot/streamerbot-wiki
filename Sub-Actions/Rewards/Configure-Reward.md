@@ -2,7 +2,7 @@
 title: Configure Rewards
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:33:51.909Z
+date: 2023-02-04T11:34:33.160Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-09T02:20:12.720Z
@@ -25,5 +25,5 @@ Checking this box will move any rewards in the `Not Configured` group into the `
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
