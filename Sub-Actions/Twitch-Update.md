@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-04T11:29:42.365Z
+date: 2023-02-04T11:29:49.241Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -102,7 +102,7 @@ Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
 * [<i class="mdi mdi-counter text--twitch"></i>**Reset Reward User Counters *Reset all user counters***](/Sub-Actions/Rewards/Reset-Reward-User-Counters)
 * [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
 * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Rewards/Set-Enabled-State)
-* [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
+* [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown)
 * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Group Enabled State *Change the enabled state of entire reward group***](/Sub-Actions/Rewards/Set-Group-Enabled-State)
 * [<i class="mdi mdi-pause text--twitch"></i>**Set Group Paused State *Change the paused state of entire reward group***](/Sub-Actions/Rewards/Set-Group-Paused-State)
 * [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
