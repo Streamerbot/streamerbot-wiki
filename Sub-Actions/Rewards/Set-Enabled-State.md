@@ -2,7 +2,7 @@
 title: Set Enabled State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-07-28T20:19:00.335Z
+date: 2023-02-04T11:37:38.667Z
 tags: twitch, subactions, channel-point-rewards
 editor: markdown
 dateCreated: 2021-11-02T04:11:44.953Z
@@ -11,24 +11,20 @@ dateCreated: 2021-11-02T04:11:44.953Z
 ## Overview
 Enable or disable a channel point reward.
 
-![sub-action-rewards-set-enabled-state-001.png](/sub-action-rewards-set-enabled-state-001.png)
+![overview.png](/Sub-Actions/Twitch/set-enabled-state/overview.png =400x)
 
 ## Configuration
 ### Reward
 Select the channel point reward to modify.
 
 ### State
-| Values | Description |
-|-------:|:------------|
-|`Enabled`| **Enable** the channel point reward
-|`Disabled`| **Disable** the channel point reward
-|`Toggle`| Toggle the current status between `Enabled` or `Disabled`
-
-### Variables
-No variables generated.
+Name | Description
+----:|:------------
+`Enabled` | **Enable** the channel point reward
+`Disabled` | **Disable** the channel point reward
+`Toggle` | Toggle the current status between `Enabled` or `Disabled`
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Set Paused State *Up Next***](/en/Sub-Actions/Rewards/Set-Paused-State)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
