@@ -2,7 +2,7 @@
 title: Reset Reward Counter
 description: Rewards Sub-Action Reference
 published: true
-date: 2023-02-04T11:43:00.198Z
+date: 2023-02-04T11:43:41.417Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:41:26.445Z
@@ -15,7 +15,7 @@ Reset the reward counter.
 
 ## Configuration
 ### Reward
-Select the reward you want to modify.
+Select the reward.
 
 ---
 
