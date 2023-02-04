@@ -2,14 +2,14 @@
 title: Set Global Cooldown
 description: Rewards Sub-Action Reference
 published: true
-date: 2023-02-04T11:53:11.890Z
+date: 2023-02-04T11:53:21.591Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:53:11.890Z
 ---
 
 ## Overview
-Change the global cooldown on a reward.
+Change the global cooldown from a reward.
 
 ![overview.png](/Sub-Actions/Twitch/set-global-cooldown/overview.png =400x)
 
