@@ -2,7 +2,7 @@
 title: Configure Rewards
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:31:34.715Z
+date: 2023-02-04T11:33:51.909Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-09T02:20:12.720Z
@@ -11,7 +11,7 @@ dateCreated: 2022-06-09T02:20:12.720Z
 ## Overview
 Enable, disable and pause multiple rewards.
 
-![overview.png](/Sub-Actions/Twitch/configure-rewards/overview.png)
+![overview.png](/Sub-Actions/Twitch/configure-rewards/overview.png =400x)
 
 ## Configuration
 ### Move To
