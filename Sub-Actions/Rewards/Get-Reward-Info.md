@@ -2,27 +2,29 @@
 title: Get Reward Info
 description: Rewards Sub-Action Reference
 published: true
-date: 2022-11-01T22:42:41.426Z
+date: 2023-02-04T11:34:35.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T22:41:40.241Z
 ---
 
 ## Overview
-Gets the info from a reward
+Get the info from a reward.
+
+![overview.png](/Sub-Actions/Twitch/get-reward-info/overview.png =400x)
 
 ## Variables
 Name | Description
 ----:|:------------
-`rewardId` | String identifier for this reward.
-`rewardTitle` | The title of the reward.
-`rewardBackgroundColor` | The background color of the reward.
-`rewardEnabled` | If the reward is enabled.
-`rewardPrompt` | The verbiage shown on the channel point description.
-`rewardSkipReuqestQueue` | If there is a skip request in the queue. <br> <small>Note there is a typo in the variable, will be fixed in *v0.1.15*{.version-badge}.</small>
-`rewardCost` | The cost of the reward.
+`rewardId` | String identifier for this reward
+`rewardTitle` | The title of the reward
+`rewardBackgroundColor` | The background color of the reward
+`rewardEnabled` | If the reward is enabled
+`rewardPrompt` | The verbiage shown on the channel point description
+`rewardSkipReuqestQueue` | If there is a skip request in the queue
+`rewardCost` | The cost of the reward
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Sub-Actions *Go Back***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
