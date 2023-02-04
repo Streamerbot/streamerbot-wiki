@@ -2,7 +2,7 @@
 title: Set Paused State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:55:49.636Z
+date: 2023-02-04T11:57:05.609Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:00:36.383Z
@@ -18,11 +18,11 @@ Toggle the paused state of a channel point reward.
 Select the reward you want to modify.
 
 ### State
-| Values | Description |
-|-------:|:------------|
-|`Paused`| Set the selected reward as **paused**
-|`Unpaused`| Set the selected reward as **unpaused**
-|`Toggle`| Toggle the existing paused/unpaused state of the selected reward
+Name | Description
+----:|:------------
+`Paused` | Set the selected reward as **paused**
+`Unpaused` | Set the selected reward as **unpaused**
+`Toggle` | Toggle the existing paused/unpaused state of the selected reward
 
 ---
 
