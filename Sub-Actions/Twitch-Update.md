@@ -2,7 +2,7 @@
 title: [Private] Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: false
-date: 2023-02-04T11:20:08.502Z
+date: 2023-02-04T11:26:48.721Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T20:44:46.659Z
@@ -97,10 +97,14 @@ Fetch information about specific users{.subtitle}
 Reference of all Twitch Channel Point Reward Sub-Actions{.subtitle}
 
 * [<i class="mdi mdi-cog text--twitch"></i> **Configure Reward *Enable / Disable one or more channel point rewards***](/Sub-Actions/Rewards/Configure-Reward)
-* [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
 * [<i class="mdi mdi-download text--twitch"></i>**Get Reward Info *Gets the info from a reward***](/Sub-Actions/Rewards/Get-Reward-Info)
+* [<i class="mdi mdi- text--twitch"></i>**Reset Reward Counter ****](/Sub-Actions/Rewards/Reset-Reward-Counter)
+* [<i class="mdi mdi- text--twitch"></i>**Reset Reward User Counters ****](/Sub-Actions/Rewards/Reset-Reward-User-Counters)
+* [<i class="mdi mdi-more text--twitch"></i>**Set Cost *Change the channel point cost of a reward***](/Sub-Actions/Rewards/Set-Cost)
 * [<i class="mdi mdi-toggle-switch text--twitch"></i>**Set Enabled State *Enable / Disable a channel point reward***](/Sub-Actions/Rewards/Set-Enabled-State)
 * [<i class="mdi mdi-timelapse text--twitch"></i>**Set Global Cooldown *Set cooldown time in seconds***](/Sub-Actions/Rewards/Set-Global-Cooldown){.disabled}
+* [<i class="mdi mdi- text--twitch"></i>**Set Group Enabled State ****](/Sub-Actions/Rewards/Set-Group-Enabled-State)
+* [<i class="mdi mdi- text--twitch"></i>**Set Group Paused State ****](/Sub-Actions/Rewards/Set-Group-Paused-State)
 * [<i class="mdi mdi-pause text--twitch"></i>**Set Paused State *Pause / Unpause redemptions***](/Sub-Actions/Rewards/Set-Paused-State)
 * [<i class="mdi mdi-text-box text--twitch"></i>**Set Prompt *Set the prompt text shown for a channel point reward***](/Sub-Actions/Rewards/Set-Prompt)
 * [<i class="mdi mdi-format-title text--twitch"></i>**Set Title *Set the name of a channel point reward***](/Sub-Actions/Rewards/Set-Title)
