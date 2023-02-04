@@ -1,8 +1,8 @@
 ---
 title: Start Raid
 description: Twitch Sub-Action Reference
-published: false
-date: 2023-02-04T10:11:38.717Z
+published: true
+date: 2023-02-04T10:33:00.224Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:11:38.717Z
