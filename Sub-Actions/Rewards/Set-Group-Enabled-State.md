@@ -2,7 +2,7 @@
 title: Set Group Enabled State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:59:46.509Z
+date: 2023-02-04T12:00:25.480Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:54:53.317Z
@@ -15,7 +15,7 @@ Enable or disable all channel point rewards from a group.
 
 ## Configuration
 ### Group
-Fill in the group of the channel points.
+Fill in the group of channel points.
 
 ### State
 Name | Description
