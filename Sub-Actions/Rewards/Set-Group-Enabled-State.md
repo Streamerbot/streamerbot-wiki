@@ -2,7 +2,7 @@
 title: Set Group Enabled State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:59:19.461Z
+date: 2023-02-04T11:59:46.509Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:54:53.317Z
@@ -20,8 +20,8 @@ Fill in the group of the channel points.
 ### State
 Name | Description
 ----:|:------------
-`Enabled` | **Enable** the channel point reward
-`Disabled` | **Disable** the channel point reward
+`Enabled` | **Enable** the channel point reward group
+`Disabled` | **Disable** the channel point reward group
 `Toggle` | Toggle the current status between `Enabled` or `Disabled`
 
 ---
