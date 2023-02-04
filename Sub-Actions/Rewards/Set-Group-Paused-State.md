@@ -2,7 +2,7 @@
 title: Set Group Paused State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T12:00:02.580Z
+date: 2023-02-04T12:00:24.629Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T12:00:02.580Z
@@ -22,7 +22,7 @@ Name | Description
 ----:|:------------
 `Paused` | Set the selected group as **paused**
 `Unpaused` | Set the selected group as **unpaused**
-`Toggle` | Toggle the existing paused/unpaused state of the selected reward
+`Toggle` | Toggle the existing paused/unpaused state of the selected group
 
 ---
 
