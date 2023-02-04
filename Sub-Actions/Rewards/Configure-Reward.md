@@ -2,16 +2,16 @@
 title: Configure Rewards
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2022-07-12T18:53:15.981Z
+date: 2023-02-04T11:31:34.715Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-09T02:20:12.720Z
 ---
 
 ## Overview
-Enable or disable multiple rewards.
+Enable, disable and pause multiple rewards.
 
-![configurerewardspopup.png](/configurerewardspopup.png)
+![overview.png](/Sub-Actions/Twitch/configure-rewards/overview.png)
 
 ## Configuration
 ### Move To
@@ -23,11 +23,7 @@ Enable or disable multiple rewards.
 ### Disable not configured rewards
 Checking this box will move any rewards in the `Not Configured` group into the `Disabled` group.
 
-## Variables
-No variables generated.
-
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Rewards Sub-Actions *Go Back***](/en/Sub-Actions/Rewards)
-- [<i class="mdi mdi-twitch text--twitch"></i>**Set Cost *Up Next***](/en/Sub-Actions/Rewards/Set-Cost)
 {.btn-grid .my-5}
