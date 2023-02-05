@@ -2,7 +2,7 @@
 title: Ad Midroll
 description: Twitch Events Reference
 published: true
-date: 2023-02-05T17:04:50.686Z
+date: 2023-02-05T17:06:58.651Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-05T17:04:50.686Z
@@ -16,7 +16,7 @@ Name | Description
 `ad.warmupTime` | How long until the ad runs (ms)
 {.vars-table}
 
-### Additional Sources
+### Additional Variables
 * [<i class="mdi mdi-account text--twitch"></i>**Broadcaster**](/en/Platforms/Twitch/Events/General/Broadcaster)
 {.btn-grid .my-5}
 
