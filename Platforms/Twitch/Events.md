@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2023-01-13T07:51:24.322Z
+date: 2023-02-05T17:21:04.111Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -12,6 +12,35 @@ Streamer.bot constantly listens for events from your configured Twitch account a
 
 > Some Twitch events may require [Affiliate](https://help.twitch.tv/s/article/twitch-affiliate-program-faq) status and some may be unavailable if prohibited by local laws.
 {.is-info}
+
+## Standard Variables
+### User
+User variables are added when a specific person invokes it, this is with chat messages, cheers, whispers, etc. when something like a Ad Run, Present Viewers event triggers it won't generate variables because these aren't user specific.
+
+Name | Description
+----:|:------------
+`user` | The user that followed the broadcaster
+`userName` | The login name of the user that followed the broadcaster
+`userId` | Unique user identifier
+`userType` | pecifies which streaming service the triggering user is coming from <br> `twitch` or `youtube`
+`isSubscribed` | Boolean value indicating the sender's subscription status <br> `True`/`False`
+`isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
+`isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
+`userPreviousActive` | When the user was previously active
+`eventSource` | specifies which streaming service the triggering event is coming from <br> `twitch` or `youtube`
+{.vars-table}
+
+### Broadcaster
+This is always generated with Twitch events.
+
+Name | Description
+----:|:------------
+| `broadcastUser` | The Twitch display name of the broadcaster account
+| `broadcastUserName` | The Twitch user name of the broadcaster account
+| `broadcastUserId` | The Twitch user ID of the broadcaster account
+| `broadcastIsAffiliate` | Boolean value indicating if the broadcast account is a Twitch affiliate <br> `True` / `False`
+| `broadcastIsPartner` | Boolean value indicating if the broadcast account is a Twitch partner <br> `True` / `False`
+{.vars-table}
 
 ## General
 Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle}
