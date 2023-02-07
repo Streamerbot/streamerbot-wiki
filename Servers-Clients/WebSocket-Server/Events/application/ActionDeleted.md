@@ -2,7 +2,7 @@
 title: ActionDeleted
 description: Websocket Events Reference - application
 published: true
-date: 2023-02-07T23:28:36.729Z
+date: 2023-02-07T23:48:20.624Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:28:36.729Z
@@ -16,6 +16,7 @@ dateCreated: 2023-02-07T23:28:36.729Z
   "enabled": true
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Websocket Events *Go Back***](/Servers-Clients/WebSocket-Server/Events)
