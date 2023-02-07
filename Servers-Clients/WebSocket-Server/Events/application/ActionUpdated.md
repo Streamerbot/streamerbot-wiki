@@ -2,7 +2,7 @@
 title: ActionUpdated
 description: Websocket Events Reference - application
 published: true
-date: 2023-02-07T23:29:43.573Z
+date: 2023-02-07T23:48:18.138Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:29:43.573Z
@@ -16,6 +16,7 @@ dateCreated: 2023-02-07T23:29:43.573Z
   "enabled": true
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Websocket Events *Go Back***](/Servers-Clients/WebSocket-Server/Events)
