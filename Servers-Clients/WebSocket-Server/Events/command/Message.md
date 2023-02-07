@@ -2,7 +2,7 @@
 title: Message
 description: Websocket Events Reference - command
 published: true
-date: 2023-02-07T23:32:56.482Z
+date: 2023-02-07T23:40:19.071Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:32:56.482Z
@@ -14,7 +14,7 @@ dateCreated: 2023-02-07T23:32:56.482Z
   "counter": 1,
   "userCounter": 1,
   "message": "",
-  "user":{
+  "user": {
   	"display": "ik1497",
     "id": "695682330",
     "name": "ik1497",
