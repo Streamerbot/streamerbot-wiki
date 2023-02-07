@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2023-02-07T01:23:30.398Z
+date: 2023-02-07T01:24:46.242Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -53,7 +53,7 @@ Configurable events in the *Platforms > Twitch > Events > General* tab{.subtitle
 - [<i class="mdi mdi-numeric-1-box text--twitch"></i> **First Words *First words of the stream for individual users***](/Platforms/Twitch/Events/First-Words)
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers *This event occurs every 5 minutes***](/Platforms/Twitch/Events/Present-Viewers)
 - [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Run *When an ad runs on your channel***](/Platforms/Twitch/Events/Ad-Run)
-- [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Midroll *When an ad runs on your channel in the middle of streams*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Ad-Midroll){.disabled}
+- [<i class="mdi mdi-television-classic text--twitch"></i> **Ad Midroll *When an ad runs on your channel in the middle of streams*** *v0.1.15*{.version-badge}](/Platforms/Twitch/Events/Ad-Midroll)
 {.btn-grid .my-5}
 
 ## Moderation
