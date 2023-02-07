@@ -2,7 +2,7 @@
 title: ActionCompleted
 description: Websocket Events Reference - raw
 published: true
-date: 2023-02-07T23:24:59.600Z
+date: 2023-02-07T23:48:13.199Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:24:59.600Z
@@ -28,6 +28,7 @@ dateCreated: 2023-02-07T23:24:59.600Z
   }
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Websocket Events *Go Back***](/Servers-Clients/WebSocket-Server/Events)
