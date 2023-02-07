@@ -2,7 +2,7 @@
 title: ChatMessage
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-07T23:43:10.517Z
+date: 2023-02-07T23:48:26.579Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:43:10.517Z
@@ -43,6 +43,7 @@ dateCreated: 2023-02-07T23:43:10.517Z
   }
 }
 ```
+
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Websocket Events *Go Back***](/Servers-Clients/WebSocket-Server/Events)
