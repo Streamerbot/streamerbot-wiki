@@ -2,11 +2,37 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-02-08T00:12:58.348Z
+date: 2023-02-08T06:02:14.575Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
 ---
+
+### Tab {.tabset}
+#### Schema
+```json
+{
+    "timeStamp": ISO 8601 DateTime,
+    "event": {
+        "source": string
+        "type": string
+    },
+    "data": {.object.} /* see information below for what this can contain */
+}
+```
+
+#### Example
+
+```json
+{
+    "timeStamp": "2022-01-30T21:32:04.4588947-05:00",
+    "event": {
+        "source": "Twitch",
+        "type": "ChatMessage"
+    },
+    "data": {.object.}
+}
+```
 
 ## twitch
 * [**AdMidRoll**](/Servers-Clients/WebSocket-Server/Events/twitch/AdMidRoll)
