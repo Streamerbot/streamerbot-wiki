@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-03T19:13:29.464Z
+date: 2023-02-10T18:52:46.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,6 +33,9 @@ Upcoming changes in the next release!{.subtitle}
 * Updates to the [DonorDrive](#donordrive-updates) integration
 * Update Add Broadcaster information to add new variables
 * Move Add Follow Age to a new Followers sub-menu
+* Switch to new Twitch Follow event sub beta subscription
+* Switch to new Twitch Get Followers api call
+* Internally handle Twitch Moderator add/remove, updating users without waiting for them to perform an action
 {.changelog-updates}
 
 <span></span>
@@ -56,6 +59,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add 2 new sub-actions to get the Latest Twitch Subscriber and Follower
 * Add 2 new sub-actions to get the Twitch Subscriber and Follower count
 * Add an isTest variable to the Community Goal event
+* Request new Twitch scope, `moderator:read:followers`
+* Add Twitch Chat Cleared event
 {.changelog-new}
 
 ## New C# Methods
@@ -105,6 +110,7 @@ If the charity you are setting up, doesn't happen to be in the new list, you'll 
 ## Twitch Scopes
 Requesting the following new scopes for the bot account, as they were missing or new
 * `moderator:manage:banned_users`
+* `moderator:read:followers`
 {.grid-list}
 
 # Streamer.bot v0.1.17 (Current)
