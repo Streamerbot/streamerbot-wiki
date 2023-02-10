@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-10T18:52:46.673Z
+date: 2023-02-10T18:55:11.875Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -59,6 +59,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add 2 new sub-actions to get the Latest Twitch Subscriber and Follower
 * Add 2 new sub-actions to get the Twitch Subscriber and Follower count
 * Add an isTest variable to the Community Goal event
+* Add last and previous active to Twitch Add Target Info sub-action
 * Request new Twitch scope, `moderator:read:followers`
 * Add Twitch Chat Cleared event
 {.changelog-new}
