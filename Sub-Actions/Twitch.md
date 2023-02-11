@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2023-02-04T12:15:42.852Z
+date: 2023-02-11T21:32:59.622Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -81,7 +81,7 @@ Add, clear, set and remove channel tags{.subtitle}
 * [<i class="mdi mdi-tag-plus text--twitch"></i>**Add Channel Tag *Add a single channel tag to your channel***](/Sub-Actions/Twitch/Add-Channel-Tag)
 * [<i class="mdi mdi-tag-remove text--twitch"></i>**Clear Channel Tags *Clear all channel tags from your channel***](/Sub-Actions/Twitch/Clear-Channel-Tags)
 * [<i class="mdi mdi-tag-minus text--twitch"></i>**Remove Channel Tag *Remove a single channel tag from your channel***](/Sub-Actions/Twitch/Remove-Channel-Tag)
-* [<i class="mdi mdi-tag-plus text--twitch"></i>**Set Channel Tags *Set channel tag(s) on your channel***](/Sub-Actions/Twitch/Set-Channel-Tags)
+* [<i class="mdi mdi-tag-multiple text--twitch"></i>**Set Channel Tags *Set channel tag(s) on your channel***](/Sub-Actions/Twitch/Set-Channel-Tags)
 {.btn-grid .my-5}
 
 ## User
