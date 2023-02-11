@@ -2,7 +2,7 @@
 title: Get Subscriber Count
 description: Twitch Sub-Action Reference
 published: false
-date: 2023-02-04T10:23:21.438Z
+date: 2023-02-11T21:30:52.107Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:23:21.438Z
@@ -17,7 +17,7 @@ Gets your current sbscriber count to use as a variable.
 Name | Description
 ----:|:------------
 `subscriberCount` | The currrent amount of subscribers
-`subscriberPoints` | The currrent amount of subscribers
+`subscriberPoints` | Total points for your subscribers <br> Tier 1 = 1 point, Tier 2 = 2 points, Tier 3 = 6 points
 {.vars-table}
 
 ---
