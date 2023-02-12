@@ -2,7 +2,7 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-02-12T12:52:39.257Z
+date: 2023-02-12T13:38:53.539Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
@@ -45,6 +45,7 @@ dateCreated: 2023-02-07T23:13:42.483Z
 * [**CharityDonation**](/Servers-Clients/WebSocket-Server/Events/twitch/CharityDonation)
 * [**CharityProgress**](/Servers-Clients/WebSocket-Server/Events/twitch/CharityProgress)
 * [**CharityStarted**](/Servers-Clients/WebSocket-Server/Events/twitch/CharityStarted)
+* [**ChatCleared**](/Servers-Clients/WebSocket-Server/Events/twitch/ChatCleared)
 * [**ChatMessage**](/Servers-Clients/WebSocket-Server/Events/twitch/ChatMessage)
 * [**ChatMessageDeleted**](/Servers-Clients/WebSocket-Server/Events/twitch/ChatMessageDeleted)
 * [**Cheer**](/Servers-Clients/WebSocket-Server/Events/twitch/Cheer)
