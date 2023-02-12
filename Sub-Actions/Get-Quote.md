@@ -2,25 +2,33 @@
 title: Get Quote
 description: General Sub-Actions Reference
 published: true
-date: 2022-12-04T19:12:40.623Z
+date: 2023-02-12T14:06:11.477Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:26.393Z
 ---
 
-Use this sub-action to add a quote to your arguments
+## Overview
+Add variables from a specific or random quote to your arguments
 
+## Configuration
 ### Type
-
 The type can either be `Random` or `Specific`, if `Random`, a random quote will be picked from your available quotes, and added to the arguments
 
 ### Quote Id
-
 Available when you have the `Type` set to `Specific`, you can specify the exact quote number to be added to the arguments
 
-***
-
-**NOTE** Adding multiple `Get Quote` sub-actions will overwrite any previous ones
+## Variables
+Name | Description
+----:|:------------
+`quoteTime` | The time that the quote was made
+`quoteId` | The numeric id of the quote
+`quoteUserId` | The user id from the account that made the quote
+`quoteUser` | The user's display name from the account that made the quote
+`quotePlatform` | The platform from the account that made the quote <br> `twitch`/`youtube`
+`quoteGameId` | The game id from the quote
+`quoteGame` | The game name from the quote
+`quote` | The quote itself
 
 ---
 
