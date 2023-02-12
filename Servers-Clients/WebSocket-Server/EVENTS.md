@@ -2,7 +2,7 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-02-12T02:20:15.430Z
+date: 2023-02-12T02:49:25.351Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
@@ -191,8 +191,8 @@ dateCreated: 2023-02-07T23:13:42.483Z
 {.btn-grid .my-5}
 
 ## quote
-* [**Added**](/Servers-Clients/WebSocket-Server/Events/quote/Added)
-* [**Show**](/Servers-Clients/WebSocket-Server/Events/quote/Show)
+* [**Added** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/quote/Added){.disabled}
+* [**Show** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/quote/Show){.disabled}
 {.btn-grid .my-5}
 
 ## shopify
@@ -224,13 +224,13 @@ dateCreated: 2023-02-07T23:13:42.483Z
 {.btn-grid .my-5}
 
 ## websocketClient
-* [**Close**](/Servers-Clients/WebSocket-Server/Events/websocketClient/Close)
-* [**Message**](/Servers-Clients/WebSocket-Server/Events/websocketClient/Message)
-* [**Open**](/Servers-Clients/WebSocket-Server/Events/websocketClient/Open)
+* [**Close** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketClient/Close){.disabled}
+* [**Message** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketClient/Message){.disabled}
+* [**Open** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketClient/Open){.disabled}
 {.btn-grid .my-5}
 
 ## websocketCustomServer
-* [**Close**](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Close)
-* [**Message**](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Message)
-* [**Open**](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Open)
+* [**Close** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Close){.disabled}
+* [**Message** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Message){.disabled}
+* [**Open** *NOT BROADCAST*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/websocketCustomServer/Open){.disabled}
 {.btn-grid .my-5}
