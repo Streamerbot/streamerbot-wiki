@@ -2,7 +2,7 @@
 title: SubAction
 description: Websocket Events Reference - raw
 published: true
-date: 2023-02-07T23:48:09.406Z
+date: 2023-02-12T04:51:04.555Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:26:32.117Z
@@ -16,7 +16,6 @@ dateCreated: 2023-02-07T23:26:32.117Z
   "id": "175e0874-9c3d-4144-b681-23affbdcd01d",
   "actionId": "4de3bc18-1597-4502-81ac-4bb5ebb049e5",
   "name": "Execute Code",
-  "arguments":
   "arguments": {
     "source": "StreamerbotToolbox",
     "actionId": "f0ee372d-c659-4114-8ac4-d16656b8a296",
