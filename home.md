@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2023-01-20T16:52:30.185Z
+date: 2023-02-14T16:53:52.330Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -65,6 +65,7 @@ Available Plugins{.overline}
 <div>
 
 Extended Features{.overline}
+* [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/twitchspeaker/logo.svg"> TwitchSpeaker Documentation](/TwitchSpeaker)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/deck-logo.png"> Streamer.bot Decks](/Extended-Features/HTML-Decks)
 * [<img style="height: 1em; transform: translateY(2px);" src="/logos/html.svg"> HTML-Overlay](/Extended-Features/HTML-Overlay)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://extensions.streamer.bot/logos/streamerbot-ext-logo.png"> Extensions Wiki](https://extensions.streamer.bot)
@@ -74,7 +75,6 @@ Extended Features{.overline}
 <div>
 
 Additional Links{.overline}
-* [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/twitchspeaker/logo.svg"> TwitchSpeaker Documentation](/TwitchSpeaker)
 * [Streamer.bot Website](https://streamer.bot)
 * [Submit Your Ideas &amp; Suggestions](https://ideas.streamer.bot)
 * [Discord](https://discord.streamer.bot)
