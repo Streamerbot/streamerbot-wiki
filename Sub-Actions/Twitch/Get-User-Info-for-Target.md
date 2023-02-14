@@ -2,7 +2,7 @@
 title: Get User Info for Target
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-11-03T19:32:06.202Z
+date: 2023-02-14T16:49:44.058Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:30.189Z
@@ -37,14 +37,20 @@ Name | Description
 `targetUserType` | The type of user, `affiliate`, `partner` or empty for regular user
 `targetIsAffiliate` | A boolean value indicating if the user is an affiliate
 `targetIsPartner` | A boolean value indicating if the user is a partner
+`targetLastActive` | When the user was last active
+`targetPreviousActive` | When the user was previously active
 `targetIsSubscribed` | A boolean value indicating if the user is currently subscribed
 `targetIsModerator` | A boolean value indicating if the user is a moderator
 `targetIsVip` | A boolean value indicating if the user is a VIP
+`targetChannelTitle` | The stream title of the user
 `game` | The user's current game category
 `gameId` | The numeric id of the game category
 `createdAt` | Datetime of when the account was created
 `accountAge` | Age of the account in seconds
 {.vars-table}
+
+> This includes the user's tags as variables
+{.is-success}
 
 ---
 
