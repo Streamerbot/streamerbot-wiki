@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-14T23:05:35.636Z
+date: 2023-02-14T23:10:27.070Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -38,6 +38,7 @@ Upcoming changes in the next release!{.subtitle}
 * Switch to new Twitch Get Followers api call
 * Internally handle Twitch Moderator add/remove, updating users without waiting for them to perform an action
 * Update Twitch connection's ssl properties
+* Update Twitch Add Target Info sub-action to include subscription tier, if user is subscribed
 {.changelog-updates}
 
 <span></span>
