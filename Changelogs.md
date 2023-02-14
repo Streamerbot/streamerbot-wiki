@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-10T18:55:11.875Z
+date: 2023-02-14T23:05:35.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,6 +23,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix wording in Set Action group state sub-action
 * Fix the Twitch Set Follower Mode/Chat Delay methods
 * Fix being able to delete Twitch Hype Train level
+* Better handling of Twitch 500 error code, still needs more tweaking, its hard to fix when unable to repro
 {.changelog-fixes}
 
 <span></span>
@@ -36,6 +37,7 @@ Upcoming changes in the next release!{.subtitle}
 * Switch to new Twitch Follow event sub beta subscription
 * Switch to new Twitch Get Followers api call
 * Internally handle Twitch Moderator add/remove, updating users without waiting for them to perform an action
+* Update Twitch connection's ssl properties
 {.changelog-updates}
 
 <span></span>
@@ -62,11 +64,14 @@ Upcoming changes in the next release!{.subtitle}
 * Add last and previous active to Twitch Add Target Info sub-action
 * Request new Twitch scope, `moderator:read:followers`
 * Add Twitch Chat Cleared event
+* Track subscriptions in local Twitch DB
+* Add new C# method TwitchIsUserSubscribed
 {.changelog-new}
 
 ## New C# Methods
 ```cs
 long TwitchGetBitsDonatedByUserId(string userId);
+bool TwitchIsUserSubscribed(string userId, out string tier);
 ```
 
 ```cs
