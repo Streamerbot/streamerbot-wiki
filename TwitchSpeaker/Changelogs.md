@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T23:18:55.732Z
+date: 2023-02-15T23:22:37.712Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -23,7 +23,7 @@ Upcoming changes in the next release!{.subtitle}
 
 <span></span>
 
-* Add new C# method TwitchIsUserSubscribed
+* Request new Twitch scope, `moderator:read:followers`
 {.changelog-new}
 
 ## Twitch Scopes
