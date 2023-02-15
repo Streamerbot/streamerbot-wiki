@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-14T23:10:27.070Z
+date: 2023-02-15T03:58:33.416Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -18,7 +18,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix not being able to use a named hostname for an OBS connection
 * Fix crash when adding a Custom Websocket server and emptying the port field
 * TipeeeStream credentials were not being saved correctly, causing it to lose them every restart
-* VoiceMod integration works again, for oiceMod v2.38.1 and higher
+* VoiceMod integration works again, for VoiceMod v2.38.1 and higher
 * Fix manual disconnect of Twitch Bot Chat Client
 * Fix wording in Set Action group state sub-action
 * Fix the Twitch Set Follower Mode/Chat Delay methods
