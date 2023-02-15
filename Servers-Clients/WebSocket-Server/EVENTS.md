@@ -2,7 +2,7 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-02-15T19:11:55.316Z
+date: 2023-02-15T19:20:20.959Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
@@ -103,7 +103,7 @@ dateCreated: 2023-02-07T23:13:42.483Z
 * [**MemberMileStone**](/Servers-Clients/WebSocket-Server/Events/youTube/MemberMileStone)
 * [**MembershipGift**](/Servers-Clients/WebSocket-Server/Events/youTube/MembershipGift)
 * [**Message**](/Servers-Clients/WebSocket-Server/Events/youTube/Message)
-* [**MessageDeleted**](/Servers-Clients/WebSocket-Server/Events/youTube/MessageDeleted)
+* [**MessageDeleted** *BROKEN*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/youTube/MessageDeleted)
 * [**NewSponsor**](/Servers-Clients/WebSocket-Server/Events/youTube/NewSponsor)
 * [**NewSponsorOnlyEnded**](/Servers-Clients/WebSocket-Server/Events/youTube/NewSponsorOnlyEnded)
 * [**NewSponsorOnlyStarted**](/Servers-Clients/WebSocket-Server/Events/youTube/NewSponsorOnlyStarted)
