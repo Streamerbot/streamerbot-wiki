@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-01-20T15:10:53.721Z
+date: 2023-02-15T13:57:51.622Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -53,7 +53,7 @@ With v0.0.49 you'll now be able to control TwitchSpeaker with a WebSocket connec
 The settings for this are under `Settings` -> `WebSocket Server`, be sure to set auto start to enabled, so it'll run when you start TwitchSpeaker.
 
 Request format
-```js
+```json
 {
     "request": "<command>",
     "id": "0",
@@ -65,7 +65,7 @@ Commands available: `Speak`, `Pause`, `Resume`, `Clear`, `Stop`, `Off`, `Disable
 
 ### Speak
 This is probably the command that will be used the most, this will make TwitchSpeaker speak the `message` you want, using the `voice` specified
-```js
+```json
 {
     "request": "Speak",
     "id": "0",
@@ -80,7 +80,7 @@ These commands have no parameters, so the basic request can be used.
 
 ### Events
 This will let you enable or disable events being spoken
-```js
+```json
 {
     "request": "Events",
     "id": "0",
@@ -90,7 +90,7 @@ This will let you enable or disable events being spoken
 
 ### Mode
 This will let you change the speaking mode, from everything, to a command
-```js
+```json
 {
     "request": "Mode",
     "id": "0",
@@ -104,7 +104,7 @@ This will let you change the speaking mode, from everything, to a command
 ## New UDP Commands
 There are 3 new UDP commans
 
-```js
+```json
 { "command": "set", "method": "sticky", "value": true/false }
 { "command": "set", "method": "nickname", "username": "%user%", "nickname": "somestring" }
 { "command": "assign", "method": "last", "username": "%user%" }
