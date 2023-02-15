@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T03:58:33.416Z
+date: 2023-02-15T06:03:48.728Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,7 +23,8 @@ Upcoming changes in the next release!{.subtitle}
 * Fix wording in Set Action group state sub-action
 * Fix the Twitch Set Follower Mode/Chat Delay methods
 * Fix being able to delete Twitch Hype Train level
-* Better handling of Twitch 500 error code, still needs more tweaking, its hard to fix when unable to repro
+* Fix issue with api calls to retrieve list of Twitch banned/timed out users, Twitch changed something with this endpoint
+* Fix YouTube Stream EndEvent not triggering
 {.changelog-fixes}
 
 <span></span>
