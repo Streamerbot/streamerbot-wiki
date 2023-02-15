@@ -2,11 +2,16 @@
 title: Chat Message
 description: Twitch Events Reference
 published: true
-date: 2022-12-18T18:40:25.122Z
+date: 2023-02-15T18:10:37.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:28:11.564Z
 ---
+
+## Event Information
+:----|:------------:
+Twitch Service: | `Chat Client`
+Added in: | *N/A*{.version-badge}
 
 ## Variables
 Name | Description
