@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T13:25:00.473Z
+date: 2023-02-15T17:43:35.010Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -69,6 +69,17 @@ Upcoming changes in the next release!{.subtitle}
 * Track subscriptions in local Twitch DB
 * Add new C# method TwitchIsUserSubscribed
 {.changelog-new}
+
+## Important Notes for Twitch
+There 2 pending changes for the Twitch API:
+
+The first involves IRC slash commands and 3rd party applications.
+> As of Februray 24th, 2023, 3rd party apps will no longer be able to use IRC slash commands.  **Streamer.bot** has already been updated with support for the new API methods to perform these commands
+{.is-warning}
+
+The second, involves the old, undocumented API to retrieve a channels list of chatters.  Currently the Raid Event adds a `%raiderNames%` variable with information on who it thinks is part of the raid.  Because this end point is being retired, this variable will no longer be available, as there are no replacement methods that can be used publicly.
+> As of April 3rd, 2023, the tmi endpoint for obtaining a channel's list of chatters will be removed, **Streamer.bot** will be removing the afformentioned `%raiderNames%` variable sometime in March with an update.
+{.is-warning}
 
 ## New C# Methods
 ```cs
