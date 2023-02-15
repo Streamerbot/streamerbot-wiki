@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-15T16:50:01.675Z
+date: 2023-02-15T16:50:16.252Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -19,7 +19,6 @@ void TwitchFollowMode(bool enabled = true, int duration = 0);
 ## User Information
 ```csharp
 // Added in v0.1.18
-
 bool TwitchIsUserSubscribed(string userId, out string tier);
 ```
 
