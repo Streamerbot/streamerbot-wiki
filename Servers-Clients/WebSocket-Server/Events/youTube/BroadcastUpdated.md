@@ -2,7 +2,7 @@
 title: BroadcastUpdated
 description: Websocket Events Reference - youTube
 published: true
-date: 2023-02-15T19:00:25.210Z
+date: 2023-02-15T19:02:03.347Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-15T19:00:25.210Z
@@ -12,7 +12,7 @@ dateCreated: 2023-02-15T19:00:25.210Z
 {
   "id": "VzUoct69BkE",
   "title": "Test",
-  "description": "Description...",
+  "description": "Description line 1\n\nDescription line 3\n\n\nDescription line 6",
   "privacy": "public"
 }
 ```
