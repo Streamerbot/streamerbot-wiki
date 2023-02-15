@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T19:13:43.401Z
+date: 2023-02-15T23:18:50.187Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -129,9 +129,12 @@ The DonorDrive integration now pulls a list of known charities from the DonorDri
 If the charity you are setting up, doesn't happen to be in the new list, you'll still be able to configure a custom provider
 
 ## Twitch Scopes
+Requesting the following new scopes for the broadcaster account
+* `moderator:read:followers`
+{.grid-list}
+
 Requesting the following new scopes for the bot account, as they were missing or new
 * `moderator:manage:banned_users`
-* `moderator:read:followers`
 {.grid-list}
 
 # Streamer.bot v0.1.17 (Current)
