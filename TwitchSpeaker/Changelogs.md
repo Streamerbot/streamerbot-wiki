@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T19:13:30.685Z
+date: 2023-02-15T23:18:55.732Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -20,6 +20,16 @@ Upcoming changes in the next release!{.subtitle}
 * Update retry timer for Twitch services to reset when cancelling the retry
 * Update retry timer for Twitch services to have a hard limit of 2 minutes
 {.changelog-updates}
+
+<span></span>
+
+* Add new C# method TwitchIsUserSubscribed
+{.changelog-new}
+
+## Twitch Scopes
+Requesting the following new scopes for the broadcaster ccount account
+* `moderator:read:followers`
+{.grid-list}
 
 # TwitchSpeaker v0.0.49 (Current)
 Released 2023-01-20{.subtitle}
