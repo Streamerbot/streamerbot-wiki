@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T06:03:48.728Z
+date: 2023-02-15T13:25:00.473Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -25,6 +25,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix being able to delete Twitch Hype Train level
 * Fix issue with api calls to retrieve list of Twitch banned/timed out users, Twitch changed something with this endpoint
 * Fix YouTube Stream EndEvent not triggering
+* Adjust SSL protocol capabilities for Chat, PubSub and EventSub connections
 {.changelog-fixes}
 
 <span></span>
@@ -38,7 +39,6 @@ Upcoming changes in the next release!{.subtitle}
 * Switch to new Twitch Follow event sub beta subscription
 * Switch to new Twitch Get Followers api call
 * Internally handle Twitch Moderator add/remove, updating users without waiting for them to perform an action
-* Update Twitch connection's ssl properties
 * Update Twitch Add Target Info sub-action to include subscription tier, if user is subscribed
 {.changelog-updates}
 
