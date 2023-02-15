@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T19:11:27.228Z
+date: 2023-02-15T19:13:30.685Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
@@ -18,7 +18,7 @@ Upcoming changes in the next release!{.subtitle}
 <span></span>
 
 * Update retry timer for Twitch services to reset when cancelling the retry
-* Update retry timer to have a hard limit of 2 minutes
+* Update retry timer for Twitch services to have a hard limit of 2 minutes
 {.changelog-updates}
 
 # TwitchSpeaker v0.0.49 (Current)
