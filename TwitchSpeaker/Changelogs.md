@@ -2,11 +2,24 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T13:57:51.622Z
+date: 2023-02-15T19:11:27.228Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
 ---
+
+# TwitchSpeaker v0.0.50 (WIP)
+Upcoming changes in the next release!{.subtitle}
+
+* Fix issue with api calls to retrieve list of Twitch banned/timed out users, Twitch changed something with this endpoint
+* Adjust SSL protocol capabilities for Chat, PubSub and EventSub connections
+{.changelog-fixes}
+
+<span></span>
+
+* Update retry timer for Twitch services to reset when cancelling the retry
+* Update retry timer to have a hard limit of 2 minutes
+{.changelog-updates}
 
 # TwitchSpeaker v0.0.49 (Current)
 Released 2023-01-20{.subtitle}
