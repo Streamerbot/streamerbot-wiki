@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T17:43:35.010Z
+date: 2023-02-15T19:11:29.421Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -40,6 +40,8 @@ Upcoming changes in the next release!{.subtitle}
 * Switch to new Twitch Get Followers api call
 * Internally handle Twitch Moderator add/remove, updating users without waiting for them to perform an action
 * Update Twitch Add Target Info sub-action to include subscription tier, if user is subscribed
+* Update retry timer for Twitch services to reset when cancelling the retry
+* Update retry timer to have a hard limit of 2 minutes
 {.changelog-updates}
 
 <span></span>
