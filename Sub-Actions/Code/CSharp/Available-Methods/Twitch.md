@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-02T01:35:36.935Z
+date: 2023-02-15T16:50:01.675Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -13,9 +13,14 @@ dateCreated: 2022-10-29T20:51:36.923Z
 void TwitchSubscriberOnly(bool enabled = true);
 void TwitchEmoteOnly(bool enabled = true);
 void TwitchSlowMode(bool enabled = true, int duration = 0);
-
-// Requires a minimum version of v0.1.15
 void TwitchFollowMode(bool enabled = true, int duration = 0);
+```
+
+## User Information
+```csharp
+// Added in v0.1.18
+
+bool TwitchIsUserSubscribed(string userId, out string tier);
 ```
 
 ## Cheermotes
@@ -253,8 +258,6 @@ bool SetChannelGameById(string gameId);
 
 ## Raids
 ```csharp
-// Requires a minimum version of v0.1.15
-
 bool TwitchStartRaidById(string userId);
 bool TwitchStartRaidByName(string userName);
 bool TwitchCancelRaid();
