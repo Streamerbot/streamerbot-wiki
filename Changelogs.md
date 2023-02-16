@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-16T23:34:38.662Z
+date: 2023-02-16T23:42:14.688Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -73,7 +73,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add Twitch Chat Cleared event
 * Track subscriptions in local Twitch DB
 * Add new C# method TwitchIsUserSubscribed
-* Add a new inline method `$length()$`, this will get the langth of a string, and variables are supported, any variable used will be treated as a string
+* Add a new inline method `$length()$`, this will get the length of a string, and variables are supported, any variable used will be treated as a string
 {.changelog-new}
 
 ## Important Notes for Twitch
