@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T23:18:50.187Z
+date: 2023-02-16T23:34:38.662Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -26,6 +26,8 @@ Upcoming changes in the next release!{.subtitle}
 * Fix issue with api calls to retrieve list of Twitch banned/timed out users, Twitch changed something with this endpoint
 * Fix YouTube Stream EndEvent not triggering
 * Adjust SSL protocol capabilities for Chat, PubSub and EventSub connections
+* Fix potential crash with OBS Websocket 5 and null values in an item's transform (not sure how this is even possible)
+* Fix YouTube present viewers slider value, was using Twitch's slider bar
 {.changelog-fixes}
 
 <span></span>
@@ -42,6 +44,7 @@ Upcoming changes in the next release!{.subtitle}
 * Update Twitch Add Target Info sub-action to include subscription tier, if user is subscribed
 * Update retry timer for Twitch services to reset when cancelling the retry
 * Update retry timer for Twitch services to have a hard limit of 2 minutes
+* Twitch's Shout Out endpoint and EventSub subscriptions have been moved out of beta to general availability
 {.changelog-updates}
 
 <span></span>
@@ -70,6 +73,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add Twitch Chat Cleared event
 * Track subscriptions in local Twitch DB
 * Add new C# method TwitchIsUserSubscribed
+* Add a new inline method `$length()$`, this will get the langth of a string, and variables are supported, any variable used will be treated as a string
 {.changelog-new}
 
 ## Important Notes for Twitch
