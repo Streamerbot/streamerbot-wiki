@@ -2,7 +2,7 @@
 title: Read Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-01-04T06:38:16.039Z
+date: 2023-02-17T21:45:11.856Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
@@ -28,3 +28,4 @@ Name | Description
 ----:|:------------
 `lineCount` | The amount of lines the file has.
 `line#` | Change the `#` to the line number e.g. if you have 3 lines it wil output: `line0`, `line1`, `line2` 
+`fileFound` |  This can be used to see if the file is present. Returns true or false.
