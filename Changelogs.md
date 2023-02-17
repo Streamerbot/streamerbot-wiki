@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-16T23:42:14.688Z
+date: 2023-02-17T03:25:01.336Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -66,7 +66,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add new C# method to get list of Twitch Rewards
 * Add Incentive event to DonorDrive
 * Add 2 new sub-actions to get the Latest Twitch Subscriber and Follower
-* Add 2 new sub-actions to get the Twitch Subscriber and Follower count
+* Add new sub-action to get your Twitch Follower count (`%followerCount%`)
+* Add new sub-action to get your Twitch Subscriber Count (`%subscriberCount%`) and Subscriber Points (`%subscriberPoints%`)
 * Add an isTest variable to the Community Goal event
 * Add last and previous active to Twitch Add Target Info sub-action
 * Request new Twitch scope, `moderator:read:followers`
