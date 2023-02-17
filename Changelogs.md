@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-17T03:25:01.336Z
+date: 2023-02-17T03:30:17.457Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -66,8 +66,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add new C# method to get list of Twitch Rewards
 * Add Incentive event to DonorDrive
 * Add 2 new sub-actions to get the Latest Twitch Subscriber and Follower
-* Add new sub-action to get your Twitch Follower count (`%followerCount%`)
-* Add new sub-action to get your Twitch Subscriber Count (`%subscriberCount%`) and Subscriber Points (`%subscriberPoints%`)
+* Add new sub-action to get your [Twitch Follower Count](#twitch-follower-count)
+* Add new sub-action to get your [Twitch Subscriber Count and Subscriber Points](#twitch-subscriber-count)
 * Add an isTest variable to the Community Goal event
 * Add last and previous active to Twitch Add Target Info sub-action
 * Request new Twitch scope, `moderator:read:followers`
@@ -132,6 +132,34 @@ The total amount that has been seen is also shown in the user's information in t
 The DonorDrive integration now pulls a list of known charities from the DonorDrive api, and uses this for the different provider types now.  This is mostly a quality of life improvement so you do not have to try and figure out the endpoint to use for a custom provider.
 
 If the charity you are setting up, doesn't happen to be in the new list, you'll still be able to configure a custom provider
+
+## New Sub-Actions
+### Twitch Follower Count
+This sub-action will get your current follower count
+
+Variables available:
+Name | Description
+----:|:------------
+`followerCount` | Your follower count
+
+### Twitch Latest Follower
+This sub-action will get the last user that followed your channel
+
+Variables available:
+Name | Description
+----:|:------------
+`latestFollower.user` | The display name of the user that followed you
+`latestFollower.userName` | The login of the user that followed you
+`latestFollower.userId` | The ID of the user that followed you
+
+### Twitch Subscriber Count
+This sub-action will get your current subscriber count and point total
+
+Variables available:
+Name | Description
+----:|:------------
+`subscriberCount` | Your subscriber count
+`subscriberPoints` | The total number of subscriber points you have
 
 ## Twitch Scopes
 Requesting the following new scopes for the broadcaster account
