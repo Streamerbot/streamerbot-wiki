@@ -2,7 +2,7 @@
 title: Inline Functions
 description: 
 published: true
-date: 2023-02-17T10:41:59.397Z
+date: 2023-02-17T10:42:54.869Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-17T20:51:12.374Z
@@ -16,7 +16,7 @@ All functions will also parse variable replacements within the function call its
 
 ## Available Functions
 
-* [Math *Basic and advanced mathematical functions*](/Inline-Functions/Math)
+* [Math *Basic and advanced mathematical functions `$math()$`*](/Inline-Functions/Math)
 {.links-list}
 
 ## Planned Functions
