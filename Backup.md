@@ -2,7 +2,7 @@
 title: Restore a Backup
 description: Learn how to restore a backup with Streamer.bot!
 published: true
-date: 2022-10-29T22:51:19.601Z
+date: 2023-02-17T21:40:50.071Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
@@ -16,7 +16,7 @@ Go to your backup folder, it's located in `Streamer.bot-[version]/backup`.
 
 ## Unzip Backup
 In the backup folder you can choose the latest backup that has been made.
-If you unzip that file, you should see `globals.dat`, `quotes.dat`, `users.dat`, `firstwords.cache`, `credits.cache`, `actions.json` and `settings.json`.
+If you unzip that file, you should see `games.dat`, `quotes.dat`, `users.dat`, `auth.db`, `globals.db`, `twitch_date.db`, ,`firstwords.cache`, `credits.cache`, `actions.json`, `settings.json`, `midi.json`, `twitch_rewards.json` and `commands.json`.
 
 ## Data Folder
 All the files that are in the backup you can paste in `Streamer.bot-[version]/data`.
