@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-17T03:30:58.937Z
+date: 2023-02-17T19:38:20.524Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -56,7 +56,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add an `isTest` argument to some Twitch events, this will be set when the event comes from the Test button within **Streamer.bot**
 * Read Lines From File sub-action now supports variables in the path, you can edit the path
 * Read Random Line From File sub-action now supports variables in the path, you can edit the path
-* Write To File sub-action now supports variables in the path, you can edit the path
+* Write To File sub-action now supports variables in the path, you can edit the path, as well, the path will be created if it does not exist
 * **Streamer.bot** is now tracking [Twitch Bit donations](#twitch-bit-donations).
 * New C# method to obtain a users total bits donated (this uses the above tracked data)
 * Add 2 new sub-actions to add/remove a Twitch VIP
