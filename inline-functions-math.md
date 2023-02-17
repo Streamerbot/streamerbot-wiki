@@ -2,21 +2,25 @@
 title: Inline Math Function
 description: 
 published: true
-date: 2022-07-09T19:55:50.673Z
+date: 2023-02-17T10:38:22.440Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-17T21:12:11.893Z
 ---
 
-# Math
-
+## Math
 Levaraging the [mXparser](https://github.com/mariuszgromada/MathParser.org-mXparser) library, you can now evaluate mathematical equations directly inline with variable replacements.
 
-# Supported Tokens
+### Inline Math Examples
+- `$math(10+10)$`
+- `$math(%x% * 1.275971208)$`
+- `$math(%tier% * 10)$`
+- `$math(%duration% / 1000)$`
 
+## Supported Tokens
 For easier reference, these are all the supported tokens, this is current for the version of mXparser that is used, these can also be seen on the [mXparser](https://github.com/mariuszgromada/MathParser.org-mXparser) GitHub, version 4.4.2 is the version in use.
 
-## Number format
+### Number format
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 |Number|Decimal Number|Decimal number|1, 1.5, -
@@ -28,7 +32,7 @@ For easier reference, these are all the supported tokens, this is current for th
 |Number|Base 1-36|Base 1-36 number - number literal| bN.xxxx , BN.xxxx|
 |Number|Fraction|Number literal as fraction| 1_2 , 2_3_4, 172_345, 345_172 |
 
-## Operators
+### Operators
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | `+` | Operator | Addition | a + b |
@@ -41,7 +45,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | `%` | Operator | Percentage | n% |
 | `^^` | Operator | Tetration | a^^b |
 
-## Boolean Operators
+### Boolean Operators
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | & |Boolean Operator|Logical conjunction (AND)|p & q|
@@ -64,7 +68,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | <-> |Boolean Operator|Logical biconditional (EQV)|p <-> q|
 | ~ |Boolean Operator|Negation|~p|
 
-## Bitwise Operators
+### Bitwise Operators
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | @~ |Bitwise Operator|Bitwise unary complement|@~10|
@@ -74,7 +78,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | @<< |Bitwise Operator|Signed left shift|10 @<< 2|
 | @>> |Bitwise Operator|Signed right shift|10 @>> 2|
 
-## Binary Relations
+### Binary Relations
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | = |Binary Relation|Equality|a = b|
@@ -87,7 +91,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | <= |Binary Relation|Lower or equal|a <= b|
 | >= |Binary Relation|Greater or equal|a >= b|
 
-## Unary Functions
+### Unary Functions
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | sin | Unary Function | Trigonometric sine function | sin(x) |
@@ -191,7 +195,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | logGamma | Unary Function | Log Gamma special function, lnΓ(x) | logGamma(x) |
 | diGamma | Unary Function | Digamma function as the logarithmic derivative of the Gamma special function, ψ(x) | diGamma(x) |
 
-## Binary Functions
+### Binary Functions
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | log | Binary Function | Logarithm function | log(a, b) |
@@ -223,7 +227,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | Beta | Binary Function | The Beta special function B(x,y), also called the Euler integral of the first kind | Beta(x,y) |
 | logBeta | Binary Function | The Log Beta special function ln B(x,y), also called the Log Euler integral of the first kind, ln B(x,y) | logBeta(x,y) |
 
-## 3-args Functions
+### 3-args Functions
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | if | 3-args Function | If function | if( cond, expr-if-true, expr-if-false ) |
@@ -242,7 +246,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | BetaI | 3-args Function | The regularized incomplete beta (or regularized beta) special function I(x; a, b), also called the regularized incomplete Euler integral of the first kind | BetaI(x,a,b) |
 | BetaReg | 3-args Function | The regularized incomplete beta (or regularized beta) special function I(x; a, b), also called the regularized incomplete Euler integral of the first kind | BetaReg(x,a,b) |
 
-## Variadic Functions
+### Variadic Functions
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | iff | Variadic Function | If function | iff( cond-1, expr-1; ... ; cond-n, expr-n ) |
@@ -269,7 +273,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | base | Variadic Function | Returns number in given numeral system base represented by list of digits | base(b, d1, ..., dn) |
 | ndist | Variadic Function | Number of distinct values | ndist(v1, ..., vn) |
 
-## Calculus Operators / Iterated Operators
+### Calculus Operators / Iterated Operators
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | sum | Calculus Operator | Summation operator - SIGMA | sum( i, from, to, expr , <by> ) |
@@ -288,7 +292,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | maxi | Calculus Operator | Maximum value | maxi( i, from, to, expr , <by> ) |
 | solve | Calculus Operator | f(x) = 0 equation solving, function root finding | solve( expr, a, b ) |
 
-## Random Variables
+### Random Variables
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [Uni] |Random Variable|Random variable - Uniform continuous distribution U(0,1), usage example: 2*[Uni]|2*[Uni]|
@@ -324,7 +328,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [Nat9] |Random Variable|Random variable - random natural number - Uniform discrete distribution U{1, 10^9} - usage example sin( 3*[Nat9] )|2*[Nat9]|
 | [Nor] |Random Variable|Random variable - Normal distribution N(0,1) - usage example cos( 3*[Nor]+1 )|[Nor]*3|
 
-## Mathematical Constants
+### Mathematical Constants
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | pi |Constant Value|Pi, Archimedes' constant or Ludolph's number|2*pi|
@@ -375,7 +379,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [NaN] | Constant Value | Not-a-Number | [NaN] |
 
 
-## Physical Constant
+### Physical Constant
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [c] |Constant Value|\<Physical Constant\> Light speed in vacuum [m/s] (m=1, s=1)|[c]*3|
@@ -387,7 +391,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [mP] |Constant Value|\<Physical Constant\> Planck mass [kg] (kg=1)|[mP]*3|
 | [tP] |Constant Value|\<Physical Constant\> Planck time [s] (s=1)|2*[tP]|
 
-## Astronomical Constant
+### Astronomical Constant
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [ly] |Constant Value|\<Astronomical Constant\> Light year [m] (m=1)|[ly]*3|
@@ -462,7 +466,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [z] |Unit|\<Metric prefix\> Sextillionth / Zepto = 10^-21|2*[z]|
 | [y] |Unit|\<Metric prefix\> Septillionth / Yocto = 10^-24|[y]*3|
 
-## Units of length
+### Units of length
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [m] |Unit|\<Unit of length\> Metre / Meter (m=1)|2*[m]|
@@ -486,7 +490,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [acre] |Unit|\<Unit of area\> Acre (m=1)|2*[acre]|
 | [km2] |Unit|\<Unit of area\> Square kilometre / Square kilometer (m=1)|[km2]*3|
 
-## Units of volume
+### Units of volume
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [mm3] |Unit|\<Unit of volume\> Cubic millimetre / Cubic millimeter (m=1)|2*[mm3]|
@@ -498,7 +502,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [gall] |Unit|\<Unit of volume\> Gallon (m=1)|2*[gall]|
 | [pint] |Unit|\<Unit of volume\> Pint (m=1)|[pint]*3|
 
-## Units of time
+### Units of time
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [s] |Unit|\<Unit of time\> Second (s=1)|2*[s]|
@@ -509,7 +513,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [week] |Unit|\<Unit of time\> Week (s=1)|[week]*3|
 | [yearj] |Unit|\<Unit of time\> Julian year = 365.25 days (s=1)|2*[yearj]|
 
-## Units of mass
+### Units of mass
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [kg] |Unit|\<Unit of mass\> Kilogram (kg=1)|[kg]*3|
@@ -520,7 +524,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [oz] |Unit|\<Unit of mass\> Ounce (kg=1)|2*[oz]|
 | [lb] |Unit|\<Unit of mass\> Pound (kg=1)|[lb]*3|
 
-## Units of information
+### Units of information
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [b] |Unit|\<Unit of information\> Bit (bit=1)|2*[b]|
@@ -542,7 +546,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [ZB] |Unit|\<Unit of information\> Zettabyte (bit=1)|2*[ZB]|
 | [YB] |Unit|\<Unit of information\> Yottabyte (bit=1)|[YB]*3|
 
-## Units of energy
+### Units of energy
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [J] |Unit|\<Unit of energy\> Joule (m=1, kg=1, s=1)|2*[J]|
@@ -552,7 +556,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | [GeV] |Unit|\<Unit of energy\> Gigaelectronovolt (m=1, kg=1, s=1)|2*[GeV]|
 | [TeV] |Unit|\<Unit of energy\> Teraelectronovolt (m=1, kg=1, s=1)|[TeV]*3|
 
-## Units of speed
+### Units of speed
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [m/s] |Unit|\<Unit of speed\> Metre / Meter per second (m=1, s=1)|2*[m/s]|
@@ -560,14 +564,14 @@ For easier reference, these are all the supported tokens, this is current for th
 | [mi/h] |Unit|\<Unit of speed\> Mile per hour (m=1, s=1)|2*[mi/h]|
 | [knot] |Unit|\<Unit of speed\> Knot (m=1, s=1)|[knot]*3|
 
-## Units of acceleration
+### Units of acceleration
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [m/s2] |Unit|\<Unit of acceleration\> Metre / Meter per square second (m=1, s=1)|2*[m/s2]|
 | [km/h2] |Unit|\<Unit of acceleration\> Kilometre / Kilometer per square hour (m=1, s=1)|[km/h2]*3|
 | [mi/h2] |Unit|\<Unit of acceleration\> Mile per square hour (m=1, s=1)|2*[mi/h2]|
 
-## Units of angle
+### Units of angle
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | [rad] |Unit|\<Unit of angle\> Radian (rad=1)|[rad]*pi|
@@ -575,7 +579,7 @@ For easier reference, these are all the supported tokens, this is current for th
 | ['] |Unit|\<Unit of angle\> Minute of arc (rad=1)|[']*3|
 | [''] |Unit|\<Unit of angle\> Second of arc (rad=1)|2*['']|
 
-## Other parser symbols
+### Other parser symbols
 |Keyword|Category|Description|Example|
 |---|---|---|---|---|
 | ( |Parser Symbol|Left parentheses|(3+2)/4|
