@@ -1,8 +1,8 @@
 ---
-title: Announcement Event
+title: Announcement
 description: Twitch Events Reference
 published: true
-date: 2022-08-24T04:27:32.538Z
+date: 2023-02-17T15:42:29.412Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:27:32.538Z
