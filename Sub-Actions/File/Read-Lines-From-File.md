@@ -2,7 +2,7 @@
 title: Read Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-02-17T21:45:11.856Z
+date: 2023-02-18T18:34:31.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
@@ -23,11 +23,11 @@ For example, you have a file of welcome messages, that consist of `Welcome %user
 While reading the contents of the file, an attempt will be made on each line to auto-type it.  So if it's a number, it will make sure the variable contains a number type.
 
 ## Variables
-
 Name | Description
 ----:|:------------
 `lineCount` | The amount of lines the file has.
 `line#` | Change the `#` to the line number e.g. if you have 3 lines it wil output: `line0`, `line1`, `line2` 
 `fileFound` |  This can be used to see if the file is present. Returns true or false.
 
-NOTE: Linecount start from 1 line number starts from 0. For example if your linecount is 20, your line# max is 19.
+> The line count number starts at 0. For example if your linecount is 20, your line# will go from 0-19.
+{.is-info}
