@@ -2,7 +2,7 @@
 title: Get Latest Follower
 description: Twitch Sub-Action Reference
 published: false
-date: 2023-02-04T10:20:32.861Z
+date: 2023-02-18T19:48:24.944Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T09:59:01.115Z
@@ -13,8 +13,7 @@ Get the latest follower from your channel.
 
 ![overview.png](/Sub-Actions/Twitch/get-latest-follower/overview.png =400x)
 
-## Configuration
-### State
+## Variables
 Name | Description
 ----:|:------------
 `latestFollower.user` | The latest follower's display name
