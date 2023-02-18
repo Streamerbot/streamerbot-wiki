@@ -2,7 +2,7 @@
 title: Get Latest Subscriber
 description: Twitch Sub-Action Reference
 published: false
-date: 2023-02-04T10:20:45.738Z
+date: 2023-02-18T19:48:50.551Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:20:12.691Z
@@ -14,7 +14,6 @@ Get the latest subscriber from your channel.
 ![overview.png](/Sub-Actions/Twitch/get-latest-subscriber/overview.png =400x)
 
 ## Configuration
-### State
 Name | Description
 ----:|:------------
 `latestSubscriber.userName` | The latest subscriber's display name
