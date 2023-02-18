@@ -30,4 +30,4 @@ Name | Description
 `line#` | Change the `#` to the line number e.g. if you have 3 lines it wil output: `line0`, `line1`, `line2` 
 `fileFound` |  This can be used to see if the file is present. Returns true or false.
 
-NOTE: Linecount start from 1 line number starts from 0. For example if your linecount is 20, your line# max is 19 
+NOTE: Linecount start from 1 line number starts from 0. For example if your linecount is 20, your line# max is 19.
