@@ -2,7 +2,7 @@
 title: Whisper
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-08T00:00:42.686Z
+date: 2023-02-19T13:06:17.780Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T00:00:42.686Z
@@ -11,11 +11,11 @@ dateCreated: 2023-02-08T00:00:42.686Z
 ```json
 {
   "message": {
-    "msgId": "42",
+    "msgId": "2",
     "userId": "750146097",
     "username": "ik1497bot",
     "displayName": "Ik1497Bot",
-    "message": "This is a test whisper",
+    "message": "Test",
     "emotes": [],
     "badges": []
   }
