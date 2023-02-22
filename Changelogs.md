@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-17T19:38:20.524Z
+date: 2023-02-22T02:23:04.167Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,6 +28,9 @@ Upcoming changes in the next release!{.subtitle}
 * Adjust SSL protocol capabilities for Chat, PubSub and EventSub connections
 * Fix potential crash with OBS Websocket 5 and null values in an item's transform (not sure how this is even possible)
 * Fix YouTube present viewers slider value, was using Twitch's slider bar
+* Fix test button for Twitch Stream Update, it will now grab the game info from your channel, if no game is selected
+* Fix visual bug with VIP and Mod still showing checked (or unchecked) on a user after selecting it.
+* Fix clear check box not being disables in the Set Action Queue Pause State sub-action by default
 {.changelog-fixes}
 
 <span></span>
@@ -45,6 +48,7 @@ Upcoming changes in the next release!{.subtitle}
 * Update retry timer for Twitch services to reset when cancelling the retry
 * Update retry timer for Twitch services to have a hard limit of 2 minutes
 * Twitch's Shout Out endpoint and EventSub subscriptions have been moved out of beta to general availability
+* Rename TwitchSpeaker sub-action
 {.changelog-updates}
 
 <span></span>
@@ -75,6 +79,10 @@ Upcoming changes in the next release!{.subtitle}
 * Track subscriptions in local Twitch DB
 * Add new C# method TwitchIsUserSubscribed
 * Add a new inline method `$length()$`, this will get the length of a string, and variables are supported, any variable used will be treated as a string
+* **Streamer.bot** will now recognize when a user is given VIP, and update data internally, unfortuantely, there is no event for when VIP is removed at the moment
+* Provide a notice when Importing commands, that they will be disabled
+* Add new sub-action, Read Specific Line from File
+* Add new Twitch sub-actions, Ban User, Unban User, and UnTimeout User
 {.changelog-new}
 
 ## Important Notes for Twitch
