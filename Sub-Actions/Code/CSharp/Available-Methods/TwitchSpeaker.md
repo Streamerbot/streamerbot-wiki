@@ -1,8 +1,8 @@
 ---
-title: TwitchSpeaker
+title: Speaker.bot
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T22:48:43.956Z
+date: 2023-02-22T23:47:20.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T22:47:55.289Z
