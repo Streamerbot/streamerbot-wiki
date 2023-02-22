@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-22T05:44:18.727Z
+date: 2023-02-22T18:08:14.300Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.18 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.18 (Current)
+Released 2023-02-22{.subtitle}
 
 * Fix Set Channel Tags sub-action, was limited to 5
 * Handle crash from Midi In events that can not be decoded properly
@@ -226,7 +226,7 @@ Requesting the following new scopes for the bot account, as they were missing or
 * `moderator:manage:banned_users`
 {.grid-list}
 
-# Streamer.bot v0.1.17 (Current)
+# Streamer.bot v0.1.17
 Released 2023-01-20{.subtitle}
 
 * Fix some typos
