@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-22T02:23:04.167Z
+date: 2023-02-22T02:32:21.092Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -82,7 +82,7 @@ Upcoming changes in the next release!{.subtitle}
 * **Streamer.bot** will now recognize when a user is given VIP, and update data internally, unfortuantely, there is no event for when VIP is removed at the moment
 * Provide a notice when Importing commands, that they will be disabled
 * Add new sub-action, Read Specific Line from File
-* Add new Twitch sub-actions, Ban User, Unban User, and UnTimeout User
+* Add new Twitch sub-actions, [Ban User](#twitch-ban-user), [Unban User](#twitch-unban-user), and [UnTimeout User](#twitch-untimeout-user)
 {.changelog-new}
 
 ## Important Notes for Twitch
@@ -168,6 +168,51 @@ Name | Description
 ----:|:------------
 `subscriberCount` | Your subscriber count
 `subscriberPoints` | The total number of subscriber points you have
+
+### Twitch Ban User
+This sub-action will let you ban a user, you will be able to either enter in a specific user nname, or use a variable.  You can also specify a reason, and use variables in this field
+
+Variables available:
+Name | Description
+----:|:------------
+`banResult` | `True` / `False` if the ban was successful
+
+These variables are only available if the sub-action was successful.
+Name | Description
+----:|:------------
+`bannedUserId` | The user id of the user that was banned
+`bannedUserName` | The user login of the user that was banned
+`bannedUser` | THe display name of the user that was banned
+
+### Twitch Unban User
+This sub-action will let you unban a user, you will be able to either enter in a specific user name, or use a variable.
+
+Variables available:
+Name | Description
+----:|:------------
+`unbanResult` | `True` / `False` if the ban was successful
+
+These variables are only available if the sub-action was successful.
+Name | Description
+----:|:------------
+`unbannedUserId` | The user id of the user that was banned
+`unbannedUserName` | The user login of the user that was banned
+`unbannedUser` | THe display name of the user that was banned
+
+### Twitch UnTimeout User
+This sub-action will let you ban a user, you will be able to either enter in a specific user nname, or use a variable.
+
+Variables available:
+Name | Description
+----:|:------------
+`banResult` | `True` / `False` if the ban was successful
+
+These variables are only available if the sub-action was successful.
+Name | Description
+----:|:------------
+`unTimedOutUserId` | The user id of the user that was banned
+`unTimedOutUserName` | The user login of the user that was banned
+`unTimedOutUser` | THe display name of the user that was banned
 
 ## Twitch Scopes
 Requesting the following new scopes for the broadcaster account
