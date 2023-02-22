@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-22T05:30:25.482Z
+date: 2023-02-22T05:44:18.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,6 +31,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix test button for Twitch Stream Update, it will now grab the game info from your channel, if no game is selected
 * Fix visual bug with VIP and Mod still showing checked (or unchecked) on a user after selecting it.
 * Fix clear check box not being disables in the Set Action Queue Pause State sub-action by default
+* Fix Twitch Raid Send, Cancel and Go test not working correctly
 {.changelog-fixes}
 
 <span></span>
