@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-22T02:32:21.092Z
+date: 2023-02-22T03:08:43.217Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -83,6 +83,7 @@ Upcoming changes in the next release!{.subtitle}
 * Provide a notice when Importing commands, that they will be disabled
 * Add new sub-action, Read Specific Line from File
 * Add new Twitch sub-actions, [Ban User](#twitch-ban-user), [Unban User](#twitch-unban-user), and [UnTimeout User](#twitch-untimeout-user)
+* Add ability to set the queue/group of multiple actions at once
 {.changelog-new}
 
 ## Important Notes for Twitch
