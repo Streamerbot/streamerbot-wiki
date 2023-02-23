@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2023-01-04T12:39:26.216Z
+date: 2023-02-23T00:10:29.994Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -42,7 +42,7 @@ Broadcast software based CPH methods{.subtitle}
 ## Intergrations
 Intergration based CPH methods{.subtitle}
 
-* [<i class="mdi mdi-speaker text--twitch"></i> **TwitchSpeaker *Send TTS text to TwitchSpeaker***](/Sub-Actions/Code/CSharp/Available-Methods/TwitchSpeaker)
+* [<img src="https://streamer.bot/twitchspeaker/logo.svg"></img> **Speaker.bot *Send TTS text to Speaker.bot***](/Sub-Actions/Code/CSharp/Available-Methods/Speakerbot)
 * [<img src="https://streamer.bot/img/integrations/voicemod.png"> **VoiceMod *Select voices, modify state, get current state***](/Sub-Actions/Code/CSharp/Available-Methods/VoiceMod)
 * [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream *Change color settings, send commands***](/Sub-Actions/Code/CSharp/Available-Methods/Lumia-Stream)
 * [<i class="mdi mdi-discord text--discord"></i> **Discord *Send webhook requests to Discord***](/Sub-Actions/Code/CSharp/Available-Methods/Discord)
