@@ -1,8 +1,8 @@
 ---
 title: Get Latest Subscriber
 description: Twitch Sub-Action Reference
-published: false
-date: 2023-02-18T19:48:57.345Z
+published: true
+date: 2023-02-25T06:31:15.079Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:20:12.691Z
