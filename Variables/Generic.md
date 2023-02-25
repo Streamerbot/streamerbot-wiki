@@ -2,7 +2,7 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2023-02-25T23:07:17.573Z
+date: 2023-02-25T23:08:50.787Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
@@ -39,7 +39,7 @@ Name | Description
 Variables related to the triggering event source{.subtitle}
 
 > These variables aren't strings and thus **cannot** be used in if statement Sub-Actions. To compare these values C# is needed with the usage of the [appropriate types](/Sub-Actions/Code/CSharp/Available-Methods/General#source-event-type)
-{.is-danger}
+{.is-warning}
 
 Name | Description
 ----:|:------------
