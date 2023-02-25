@@ -1,8 +1,8 @@
 ---
 title: Get Latest Follower
 description: Twitch Sub-Action Reference
-published: false
-date: 2023-02-18T19:48:24.944Z
+published: true
+date: 2023-02-25T06:30:40.147Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T09:59:01.115Z
