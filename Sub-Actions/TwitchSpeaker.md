@@ -1,8 +1,8 @@
 ---
-title: TwitchSpeaker Sub-Actions
-description: Reference of Sub-Actions used for sending text to TwitchSpeaker TTS
+title: Speaker.bot Sub-Actions
+description: Reference of Sub-Actions used for sending text to Speaker.bot
 published: true
-date: 2023-01-18T22:31:11.802Z
+date: 2023-02-25T06:33:55.588Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T13:38:23.685Z
