@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-02-25T23:01:27.170Z
+date: 2023-02-25T23:02:10.566Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -29,7 +29,7 @@ string UrlEncode(string text);
 string EscapeString(string text);
 ```
 
-## Source and event types
+## Source and Event Type
 
 Use these methods to get the __source and the eventType.
 ```csharp
