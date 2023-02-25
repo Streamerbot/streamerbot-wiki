@@ -1,8 +1,8 @@
 ---
 title: Add VIP
 description: Twitch Sub-Action Reference
-published: false
-date: 2023-02-04T10:07:44.318Z
+published: true
+date: 2023-02-25T06:30:53.281Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:06:28.935Z
