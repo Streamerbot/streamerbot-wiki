@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2023-02-11T21:32:59.622Z
+date: 2023-02-25T06:30:24.079Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -35,17 +35,17 @@ Chat Message and Announcements control{.subtitle}
 Get information about your followers{.subtitle}
 
 * [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
-* [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count *Get your current follower count*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Follower-Count){.disabled}
-* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower *Get data about your latest follower*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Follower){.disabled}
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count *Get your current follower count*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Follower-Count)
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower *Get data about your latest follower*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Follower)
 {.btn-grid .my-5}
 
 ## Moderation
 Modeate you Twitch broadcaster channel{.subtitle}
 
-* [<i class="mdi mdi-account-plus text--twitch"></i>**Add Moderator *Add a moderator to your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Add-Moderator){.disabled}
-* [<i class="mdi mdi-account-plus text--twitch"></i>**Add VIP *Add a vip to your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Add-VIP){.disabled}
-* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove Moderator *Remove a moderator from your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Remove-Moderator){.disabled}
-* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove VIP *Remove a vip from your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Remove-VIP){.disabled}
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add Moderator *Add a moderator to your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Add-Moderator)
+* [<i class="mdi mdi-account-plus text--twitch"></i>**Add VIP *Add a vip to your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Add-VIP)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove Moderator *Remove a moderator from your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Remove-Moderator)
+* [<i class="mdi mdi-account-minus text--twitch"></i>**Remove VIP *Remove a vip from your channel*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Remove-VIP)
 * [<i class="mdi mdi-television-classic text--twitch"></i>**Run Commercial *Start an ad break***](/Sub-Actions/Twitch/Run-Commercial)
 * [<i class="mdi mdi-account-star text--twitch"></i>**Send Shoutout *Send a shoutout to a Twitch user***](/Sub-Actions/Twitch/Send-Shoutout)
 * [<i class="mdi mdi-account-tie-voice-off text--twitch"></i>**Timeout User *Timeout a user for a specified amount of time***](/Sub-Actions/Twitch/Timeout-User)
@@ -72,8 +72,8 @@ Cancel and start raids{.subtitle}
 
 ## Subscribers
 Get information about your subscribers{.subtitle}
-* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Subscriber *Get data about your latest subscriber*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Subscriber){.disabled}
-* [<i class="mdi mdi-counter text--twitch"></i>**Get Subscriber Count *Get your current subscriber count*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Subscriber-Count){.disabled}
+* [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Subscriber *Get data about your latest subscriber*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Subscriber)
+* [<i class="mdi mdi-counter text--twitch"></i>**Get Subscriber Count *Get your current subscriber count*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Subscriber-Count)
 {.btn-grid .my-5}
 
 ## Tags
