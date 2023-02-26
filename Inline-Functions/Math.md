@@ -1,8 +1,8 @@
 ---
 title: Inline Math Function
-description: 
+description: Inline Functions Reference
 published: true
-date: 2023-02-17T10:38:22.440Z
+date: 2023-02-26T20:09:52.272Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-17T21:12:11.893Z
