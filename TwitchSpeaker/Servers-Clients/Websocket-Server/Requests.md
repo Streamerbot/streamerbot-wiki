@@ -2,7 +2,7 @@
 title: Websocket Server Requests
 description: Control TwitchSpeaker with its internal Websocket Server!
 published: true
-date: 2023-01-28T21:45:06.664Z
+date: 2023-02-26T11:42:52.459Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:43:54.205Z
@@ -60,30 +60,6 @@ This will let you change the speaking mode, from everything, to a command
 > If there are no commands already setup, switching to command, will return a failure response
 {.is-info}
 
-## Pause
-```json
-{
-    "request": "Pause"
-    "id": "<id>",
-}
-```
-
-## Resume
-```json
-{
-    "request": "Resume"
-    "id": "<id>",
-}
-```
-
-## Clear
-```json
-{
-    "request": "Clear"
-    "id": "<id>",
-}
-```
-
 ## Stop
 ```json
 {
@@ -100,14 +76,6 @@ This will let you change the speaking mode, from everything, to a command
 }
 ```
 
-## Disable
-```json
-{
-    "request": "Disable"
-    "id": "<id>",
-}
-```
-
 ## On
 ```json
 {
@@ -120,6 +88,38 @@ This will let you change the speaking mode, from everything, to a command
 ```json
 {
     "request": "Enable"
+    "id": "<id>",
+}
+```
+
+## Disable
+```json
+{
+    "request": "Disable"
+    "id": "<id>",
+}
+```
+
+## Pause Queue
+```json
+{
+    "request": "Pause"
+    "id": "<id>",
+}
+```
+
+## Resume Queue
+```json
+{
+    "request": "Resume"
+    "id": "<id>",
+}
+```
+
+## Clear Queue
+```json
+{
+    "request": "Clear"
     "id": "<id>",
 }
 ```
