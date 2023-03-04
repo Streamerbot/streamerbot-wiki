@@ -2,7 +2,7 @@
 title: OBS Studio
 description: C# Available Methods Reference
 published: true
-date: 2023-01-03T00:53:44.042Z
+date: 2023-03-04T16:26:27.609Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:56:46.806Z
@@ -107,9 +107,9 @@ void ObsSetRandomFilterState(string scene, string source, int state, int connect
 ## Mute
 ```csharp
 void ObsSetSourceMuteState(string scene, string source, int state, int connection = 0);
-void ObsSourceMute(string scene, string source, string filterName, int connection = 0);
-void ObsSourceUnMute(string scene, string source, string filterName, int connection = 0);
-void ObsSourceMuteToggle(string scene, string source, string filterName, int connection = 0);
+void ObsSourceMute(string scene, string source, int connection = 0);
+void ObsSourceUnMute(string scene, string source, int connection = 0);
+void ObsSourceMuteToggle(string scene, string source, int connection = 0);
 ```
 
 ## Raw
