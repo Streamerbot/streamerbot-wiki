@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-02-25T23:06:21.870Z
+date: 2023-03-04T14:08:27.148Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z
@@ -128,25 +128,6 @@ set an argument to be used in subsequent sub-actions{.subtitle}
 
 ```csharp
 void SetArgument(string variableName, object value);
-```
-
-## Groups
-```csharp
-bool UserIdInGroup(string userId, string groupName);
-bool UserInGroup(int userId, string groupName);
-bool UserInGroup(string userName, string groupName);
-```
-
-```csharp
-bool AddUserIdToGroup(string userId, string groupName);
-bool AddUserToGroup(int userId, string groupName);
-bool AddUserToGroup(string userName, string groupName);
-```
-
-```csharp
-bool RemoveUserIdFromGroup(string userId, string groupName);
-bool RemoveUserFromGroup(int userId, string groupName);
-bool RemoveUserFromGroup(string userName, string groupName);
 ```
 
 ---
