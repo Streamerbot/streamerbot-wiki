@@ -2,7 +2,7 @@
 title: C# Available Methods
 description: Reference of all methods that can be accessed via the CPH object available in Streamer.bot
 published: true
-date: 2023-02-23T00:10:29.994Z
+date: 2023-03-04T14:10:31.459Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-28T16:37:34.887Z
@@ -23,6 +23,7 @@ General & miscellaneous CPH methods{.subtitle}
 * [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Enable/Disable commands, Change/Reset/Add Cooldowns***](/Sub-Actions/Code/CSharp/Available-Methods/Commands)
 * [<i class="mdi mdi-earth primary--text"></i> **Global Variables *General Global Variables and YouTube/Twitch Global Variables***](/Sub-Actions/Code/CSharp/Available-Methods/Global-Variables)
 * [<i class="mdi mdi-server-network primary--text"></i> **Servers and Clients *Websocket servers, UDP Broadcast, etc.***](/Sub-Actions/Code/CSharp/Available-Methods/Servers-and-Clients)
+* [<i class="mdi mdi-folder primary--text"></i> **User Groups *Add, Remove and see if a user is in a group***](/Sub-Actions/Code/CSharp/Available-Methods/Groups)
 {.btn-grid .my-5}
 
 ## Platforms
