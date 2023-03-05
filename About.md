@@ -2,7 +2,7 @@
 title: About
 description: Streamer.bot, supercharge your stream!
 published: true
-date: 2022-10-31T10:11:15.359Z
+date: 2023-03-05T22:02:53.319Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:00.127Z
@@ -23,13 +23,6 @@ The support and seeing so many folks starting to use it, and learn it has been r
 
 Many thanks to all those who use it, and to those who show an interest in it.
 
-> 	Lyfesaver74, VRFlad, Krayn_, Geocym, Njna_Grimsdottir,
-> 	TinkerGlitch, angturil, sourgirl, FreakVR, Ravendarq, XypherOrion, 
-> 	Whipstickgostop, MadCapthulhu, Corben78, Andilippi, MrLiveProducer,
-> 	Crindash, extrasprinkles, unknownorchid, Kimakeru, TiddyVRLive,
-> 	Quin69, GaiusPanda, TommoIRL, Carey, HYP3STRIKE, silvermonkey595,
-> 	SuperiorBuds, TheLegendTubaGuy, Troyhammaren, Exiled Vigor, friscopinball, greifer, Wesley,
-> 	ForeheadFox, Hoddlom, Nynxy, EggFriedCheese, SpiritChunker, Thelete, 
-> 	SUDO, HeyFalcon, xWuuuTx
+> Lyfesaver74, Whipstickgostop, Krayn_, Geocym, Njna_Grimsdottir, TinkerGlitch, Quin69, MeepsKitten, Exiled Vigor, GaiusPanda, Kimakeru, SuperiorBuds, BeauwithaBang, ChefBrent, PioneerTulip, silvermonkey, Troyhammaren, greifer, VRFlad, TheLegendTubaGuy, WaldoAndFriend, Speedy, Anonymously42, LOOPYFIST, CrazyLittle, Jesus_Pals, Pikacools, Harry Plotter, MadCapthulhu, Corben78, Andilippi, FreakVR, Ravendarq, XypherOrion, MrLiveProducer, Crindash, unknownorchid, TiddyVRLive, EggFriedCheese, SUDO
 
 And anyone else who I may have forgotten; thank you for the support.
