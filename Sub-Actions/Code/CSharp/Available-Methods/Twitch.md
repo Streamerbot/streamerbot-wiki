@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-02-15T16:50:16.252Z
+date: 2023-03-06T08:31:14.713Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -176,7 +176,7 @@ long TwitchGetBitsDonatedByUserId(string userId);
 ```
 
 ## Clips
-> All clip data is returned as oldest to newest, this is a limitation of the Twitch API.  To get most recent clips, one would have to get all the clips for the user, one got-ya for this, there is a hard limit of 1000 clips that can be returned
+> All clip data is sorted by view count, this is a limitation of the Twitch API. To get most recent clips, one would have to get all the clips for the user, one got-ya for this, there is a hard limit of 1000 clips that can be returned
 {.is-info}
 
 ```csharp
