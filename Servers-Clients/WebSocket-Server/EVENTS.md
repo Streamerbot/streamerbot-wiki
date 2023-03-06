@@ -2,7 +2,7 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-02-19T13:08:03.071Z
+date: 2023-03-06T18:08:00.843Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
@@ -150,6 +150,10 @@ dateCreated: 2023-02-07T23:13:42.483Z
 
 ## general
 * [**Custom**](/Servers-Clients/WebSocket-Server/Events/general/Custom)
+{.btn-grid .my-5}
+
+## hotKey
+* [**press**](/Servers-Clients/WebSocket-Server/Events/hotKey/press)
 {.btn-grid .my-5}
 
 ## hypeRate
