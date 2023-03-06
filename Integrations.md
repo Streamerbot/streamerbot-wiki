@@ -2,7 +2,7 @@
 title: Integrations
 description: Connect various services with Streamer.bot through integrations
 published: true
-date: 2023-01-22T16:57:23.050Z
+date: 2023-03-06T17:21:52.297Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T18:49:06.746Z
@@ -14,7 +14,7 @@ Streamer.bot integrates with many streaming related services, detailed below.
 Don't see an integration you're looking for? Check out the [Ideas &amp; Suggestions](https://ideas.streamer.bot) site to see if it's already been requested or to submit a new feature request.
 
 ## Supported Integrations
-- [<img src="https://streamer.bot/twitchspeaker/logo.svg">  **TwitchSpeaker *Send TTS text to TwitchSpeaker***](/TwitchSpeaker)
+- [<img src="https://streamer.bot/twitchspeaker/logo.svg"> **Speaker.bot *Send TTS text to Speaker.bot***](/TwitchSpeaker)
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Donation &amp; merch events***](/Integrations/Streamlabs)
 - [<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/Integrations/StreamElements)
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donations integration***](/Integrations/Ko-Fi)
