@@ -2,7 +2,7 @@
 title: WebSocket Server Events (PRIVATE)
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: false
-date: 2023-03-06T18:08:00.843Z
+date: 2023-03-06T18:10:16.161Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:13:42.483Z
@@ -72,6 +72,8 @@ dateCreated: 2023-02-07T23:13:42.483Z
 * [**PredictionLocked**](/Servers-Clients/WebSocket-Server/Events/twitch/PredictionLocked)
 * [**PredictionUpdated**](/Servers-Clients/WebSocket-Server/Events/twitch/PredictionUpdated)
 * [**PresentViewers** *BROKEN*{.version-badge}](/Servers-Clients/WebSocket-Server/Events/twitch/PresentViewers)
+* [**PyramidBroken**](/Servers-Clients/WebSocket-Server/Events/misc/PyramidBroken)
+* [**PyramidSuccess**](/Servers-Clients/WebSocket-Server/Events/misc/PyramidSuccess)
 * [**Raid**](/Servers-Clients/WebSocket-Server/Events/twitch/Raid)
 * [**ReSub**](/Servers-Clients/WebSocket-Server/Events/twitch/ReSub)
 * [**RewardCreated**](/Servers-Clients/WebSocket-Server/Events/twitch/RewardCreated)
@@ -173,14 +175,13 @@ dateCreated: 2023-02-07T23:13:42.483Z
 {.btn-grid .my-5}
 
 ## misc
-* [**PyramidBroken**](/Servers-Clients/WebSocket-Server/Events/misc/PyramidBroken)
-* [**PyramidSuccess**](/Servers-Clients/WebSocket-Server/Events/misc/PyramidSuccess)
 * [**TimedAction**](/Servers-Clients/WebSocket-Server/Events/misc/TimedAction)
 {.btn-grid .my-5}
 
 ## obs
 * [**Connected**](/Servers-Clients/WebSocket-Server/Events/obs/Connected)
 * [**Disconnected**](/Servers-Clients/WebSocket-Server/Events/obs/Disconnected)
+* [**Event**](/Servers-Clients/WebSocket-Server/Events/obs/Event)
 {.btn-grid .my-5}
 
 ## patreon
