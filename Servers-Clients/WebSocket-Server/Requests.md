@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2023-03-06T17:26:04.720Z
+date: 2023-03-06T17:26:45.608Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -315,8 +315,8 @@ This request will get you a list of all the actions you have configured in your 
     {
       "id": "<action guid>",
       "name": "<action name>",
-			"group": "<group name>",
-			"subaction_count": 0,
+      "group": "<group name>",
+      "subaction_count": 0,
       "enabled": true|false
     },
   ],
