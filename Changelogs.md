@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-08T04:16:02.210Z
+date: 2023-03-08T23:06:03.544Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -26,6 +26,7 @@ Upcoming changes in the next release!{.subtitle}
 * Twitch EventSub Follow event has been updated to version 2
 * Twitch Raid event no longer includes raider's names, see note below
 * Twitch Raid event moved to EventSub
+* Remove option to use old style Sub-action menu
 {.changelog-updates}
 
 ## Important Notes for Twitch
