@@ -2,11 +2,37 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-22T18:08:14.300Z
+date: 2023-03-08T04:16:02.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+# Streamer.bot v0.1.19 (WIP)
+Upcoming changes in the next release!{.subtitle}
+
+* DonorDrive would not reconnect properly
+* DonorDrive incentive event was not being triggered
+* Some DonorDrive events were not propogating to the UI
+* DonorDrive events on the UI were not being sorted correctly when new events happened
+* Fix Patreon events not firing
+* Fix potential issue with Kofi events
+* Fix internal tracking of moderator/vips
+* Fix isModerator and isVip related variables for actions, and add target info sub-action
+{.changelog-fixes}
+
+<span></span>
+
+* Twitch EventSub Follow event has been updated to version 2
+* Twitch Raid event no longer includes raider's names, see note below
+* Twitch Raid event moved to EventSub
+{.changelog-updates}
+
+## Important Notes for Twitch
+
+The old, undocumented API to retrieve a channels list of chatters.  Currently the Raid Event adds a `%raiderNames%` variable with information on who it thinks is part of the raid.  Because this end point is being retired, this variable will no longer be available, as there are no replacement methods that can be used publicly.
+> As of April 3rd, 2023, the tmi endpoint for obtaining a channel's list of chatters will be removed, **Streamer.bot** will be removing the aforementioned `%raiderNames%` variable sometime in March with an update.
+{.is-warning}
 
 # Streamer.bot v0.1.18 (Current)
 Released 2023-02-22{.subtitle}
