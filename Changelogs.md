@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-09T00:38:13.076Z
+date: 2023-03-09T17:46:05.331Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -19,6 +19,8 @@ Upcoming changes in the next release!{.subtitle}
 * Fix potential issue with Kofi events
 * Fix internal tracking of moderator/vips
 * Fix isModerator and isVip related variables for actions, and add target info sub-action
+* Update Twitch Clear Chat sub-action to use broadcaster account
+* Prevent Test button of some OBS sub-actions when using variables from crashing
 {.changelog-fixes}
 
 <span></span>
