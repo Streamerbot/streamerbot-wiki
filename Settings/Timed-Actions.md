@@ -2,7 +2,7 @@
 title: Timed Actions
 description: 
 published: true
-date: 2023-03-09T08:49:50.950Z
+date: 2023-03-09T08:50:32.269Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:26.506Z
@@ -15,8 +15,7 @@ Actions to be performed either repeatedly or for a duration can be defined here.
 <kbd>Right-clicking</kbd> inside the pane opens the context menu
 
 ## Context Menu
-
----:|---
+----:|:------------
 `Add` | Add a new `Timed Action`
 `Edit` | Open the `Edit Timed Action` dialogue to modify the highlighted entry | This is the same as <kbd>Double-Clicking</kbd> the entry
 `Delete` | Delete the highlighted entry
@@ -28,10 +27,9 @@ When a timer becomes enabled its action will execute on the next occurence.
 Unless manually overridden by another [action](/Actions), the `Timed action` will only execute again if both the `Interval` and `Lines` criteria have been met
 
 ## Edit Timed Action
+![timed-action-edit-018.png](/timed-action-edit-018.png)
 
-![timed-action-edit-018.png](/timed-action-edit-018.png){.align-center}
-
----:|---
+----:|:------------
 `Enabled` | States this timer is currently running
 `Repeat` | Defines if the `Timed Action` should automatically run again once the limiting criteria are met
 `Interval` | Minimum time in seconds that must elapse before the action will run again | If `Random` is checked this becomes an upper and lower bound entry
@@ -39,8 +37,7 @@ Unless manually overridden by another [action](/Actions), the `Timed action` wil
 `Action` | Choose the [action](/Actions) to execute when the timer state becomes `Enabled`
 
 ### Action Selector
-
-![action-selector-018.png](/action-selector-018.png){.align-center}
+![action-selector-018.png](/action-selector-018.png)
 
 The action list can be filtered using the control in the upper right to help find what you need easier.
 
