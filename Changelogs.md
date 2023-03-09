@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-09T00:20:16.556Z
+date: 2023-03-09T00:38:13.076Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -33,7 +33,7 @@ Upcoming changes in the next release!{.subtitle}
 
 ## Important Notes for Twitch
 
-The old, undocumented API to retrieve a channels list of chatters.  Currently the Raid Event adds a `%raiderNames%` variable with information on who it thinks is part of the raid.  Because this end point is being retired, this variable will no longer be available, as there are no replacement methods that can be used publicly.
+Currently the Raid Event adds a `%raiderNames%` variable with information on who it thinks is part of the raid.  Because the `tmi` end point is being retired, this variable will no longer be available, as there are no replacement methods that can be used publicly.
 > As of April 3rd, 2023, the tmi endpoint for obtaining a channel's list of chatters will be removed, **Streamer.bot** will be removing the aforementioned `%raiderNames%` variable sometime in March with an update.
 {.is-warning}
 
