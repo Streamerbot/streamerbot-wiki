@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-09T00:18:32.593Z
+date: 2023-03-09T00:20:16.556Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,7 +13,7 @@ Upcoming changes in the next release!{.subtitle}
 
 * DonorDrive would not reconnect properly
 * DonorDrive incentive event was not being triggered
-* Some DonorDrive events were not propogating to the UI
+* Some DonorDrive events were not propagating to the UI
 * DonorDrive events on the UI were not being sorted correctly when new events happened
 * Fix Patreon events not firing
 * Fix potential issue with Kofi events
