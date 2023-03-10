@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-10T00:09:12.959Z
+date: 2023-03-10T16:33:04.581Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.19 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.19 (Current)
+Released 2023-03-10{.subtitle}
 
 * DonorDrive would not reconnect properly
 * DonorDrive incentive event was not being triggered
@@ -42,7 +42,7 @@ Currently the Raid Event adds a `%raiderNames%` variable with information on who
 > As of April 3rd, 2023, the tmi endpoint for obtaining a channel's list of chatters will be removed, **Streamer.bot** will be removing the aforementioned `%raiderNames%` variable sometime in March with an update.
 {.is-warning}
 
-# Streamer.bot v0.1.18 (Current)
+# Streamer.bot v0.1.18
 Released 2023-02-22{.subtitle}
 
 * Fix Set Channel Tags sub-action, was limited to 5
