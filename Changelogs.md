@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-09T17:46:05.331Z
+date: 2023-03-10T00:03:33.201Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,6 +31,8 @@ Upcoming changes in the next release!{.subtitle}
 * Tweaks to Twitch EventSub connection
 * Tweaks to how Twitch retry timers were handled
 * Some tweaks to internal viewer object, hopefully duplicate users no longer show
+* Play Sound sub-action now supports variables
+* Play Sound from Folder sub-action now supports variables
 {.changelog-updates}
 
 ## Important Notes for Twitch
