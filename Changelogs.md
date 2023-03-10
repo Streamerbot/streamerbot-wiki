@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-10T00:03:33.201Z
+date: 2023-03-10T00:09:12.959Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ Upcoming changes in the next release!{.subtitle}
 * Fix isModerator and isVip related variables for actions, and add target info sub-action
 * Update Twitch Clear Chat sub-action to use broadcaster account
 * Prevent Test button of some OBS sub-actions when using variables from crashing
+* Fix C# method ClearUsersFromGroup()
 {.changelog-fixes}
 
 <span></span>
