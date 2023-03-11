@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-11T15:27:46.767Z
+date: 2023-03-11T15:27:50.741Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -26,8 +26,6 @@ dateCreated: 2023-03-11T15:01:12.651Z
 - [<i class="mdi mdi-timer primary--text"></i> **Timed Actions *Run an action every x seconds***](/Triggers/Core/Timed-Actions)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Run actions with your voice***](/Triggers/Core/Voice-Control)
 {.btn-grid .my-5}
-
-
 
 ### Websocket
 - [<i class="mdi mdi-plus-network primary--text"></i> **Client *Listen to all messages from a websocket client***](/Triggers/Core/WebSocket/Client)
