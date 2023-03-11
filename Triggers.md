@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-11T15:32:15.853Z
+date: 2023-03-11T15:33:45.994Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -30,6 +30,7 @@ Streamer.bot specific triggers{.subtitle}
 - [<i class="mdi mdi-format-quote-open primary--text"></i> **Quote *When quotes are added or removed***](/Triggers/Core/Quote)
 - [<i class="mdi mdi-timer primary--text"></i> **Timed Actions *Run an action every x seconds***](/Triggers/Core/Timed-Actions)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Run actions with your voice***](/Triggers/Core/Voice-Control)
+- [<i class="mdi mdi-midi primary--text"></i> **MIDI *Musical Instrument Digital Interface***](/Triggers/MIDI)
 {.btn-grid .my-5}
 
 ### Websocket
@@ -45,7 +46,6 @@ Triggers for Streamer.bot integrations{.subtitle}
 - [<img src="/donordrive.webp"/>**DonorDrive *Fundraiser donation events***](/Triggers/DonorDrive)
 - [<img src="https://streamer.bot/img/integrations/hyperate.png"/>**HypeRate.io *Heartrate events***](/Triggers/HypeRate-io)
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donation events***](/Triggers/Ko-Fi)
-- MIDI
 - [<img src="/digital-patreon-logo_coral.png"/>**Patreon *Donation events***](/Triggers/Patreon)
 - [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate events***](/Triggers/Pulsoid)
 - [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid***](/Triggers/Shopify){.disabled}
