@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-02-15T23:22:37.712Z
+date: 2023-03-11T21:23:10.477Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-03T09:46:48.752Z
 ---
 
-# TwitchSpeaker v0.0.50 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Speaker.bot v0.1.0 (Current)
+Released 2023-02-22{.subtitle}
 
 * Fix issue with api calls to retrieve list of Twitch banned/timed out users, Twitch changed something with this endpoint
 * Adjust SSL protocol capabilities for Chat, PubSub and EventSub connections
@@ -31,7 +31,7 @@ Requesting the following new scopes for the broadcaster ccount account
 * `moderator:read:followers`
 {.grid-list}
 
-# TwitchSpeaker v0.0.49 (Current)
+# TwitchSpeaker v0.0.49
 Released 2023-01-20{.subtitle}
 
 * Some fixes
