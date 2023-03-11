@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-11T15:21:10.059Z
+date: 2023-03-11T15:27:46.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -22,12 +22,12 @@ dateCreated: 2023-03-11T15:01:12.651Z
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Chat commands and chat cooldowns***](/Triggers/Core/Commands)
 - [<i class="mdi mdi-file-code primary--text"></i> **File/Folder Watcher *Listen to file/folder alterations***](/Triggers/Core/File-Folder-Watcher)
 - [<i class="mdi mdi-keyboard primary--text"></i> **Hot Keys *Listen to custom defined key presses***](/Triggers/Core/Hot-Keys)
-- [<i class="mdi mdi-keyboard primary--text"></i> **Hot Keys *Listen to custom defined key presses***](/Triggers/Core/Quote)
+- [<i class="mdi mdi-format-quote-open primary--text"></i> **Quote *When quotes are added or removed***](/Triggers/Core/Quote)
+- [<i class="mdi mdi-timer primary--text"></i> **Timed Actions *Run an action every x seconds***](/Triggers/Core/Timed-Actions)
+- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Run actions with your voice***](/Triggers/Core/Voice-Control)
 {.btn-grid .my-5}
 
-Quote
-Timed Actions
-Voice Control
+
 
 ### Websocket
 - [<i class="mdi mdi-plus-network primary--text"></i> **Client *Listen to all messages from a websocket client***](/Triggers/Core/WebSocket/Client)
