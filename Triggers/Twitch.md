@@ -2,7 +2,7 @@
 title: Twitch
 description: Reference of all available Twitch triggers
 published: true
-date: 2023-03-11T15:37:53.466Z
+date: 2023-03-11T15:38:06.229Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:35:41.292Z
@@ -92,6 +92,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch *Go Back***](/Triggers)
+- [<i class="mdi mdi-chevron-left"></i>**Triggers *Go Back***](/Triggers)
 - [<i class="mdi mdi-twitch text--twitch"></i>**Twitch Sub-Actions *Up Next***](/Sub-Actions/Twitch)
 {.btn-grid .my-5}
