@@ -2,22 +2,28 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-11T15:27:57.703Z
+date: 2023-03-11T15:32:15.853Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
 ---
 
 ## Platforms
+Streaming platform triggers{.subtitle}
+
 - [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for everything in your livestream***](/Triggers/Platforms/Twitch)
 - [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Events for everything in your livestream***](/Triggers/Platforms/YouTube)
 {.btn-grid .my-5}
 
 ## Broadcasters
+Broadcasting Software triggers{.subtitle}
+
 - [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Events for all changes within OBS Studio***](/Triggers/OBS-Studio)
 {.btn-grid .my-5}
 
 ## Core
+Streamer.bot specific triggers{.subtitle}
+
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Chat commands and chat cooldowns***](/Triggers/Core/Commands)
 - [<i class="mdi mdi-file-code primary--text"></i> **File/Folder Watcher *Listen to file/folder alterations***](/Triggers/Core/File-Folder-Watcher)
 - [<i class="mdi mdi-keyboard primary--text"></i> **Hot Keys *Listen to custom defined key presses***](/Triggers/Core/Hot-Keys)
@@ -27,11 +33,15 @@ dateCreated: 2023-03-11T15:01:12.651Z
 {.btn-grid .my-5}
 
 ### Websocket
+Websocket client and custom server message triggers{.subtitle}
+
 - [<i class="mdi mdi-plus-network primary--text"></i> **Client *Listen to all messages from a websocket client***](/Triggers/Core/WebSocket/Client)
 - [<i class="mdi mdi-plus-network primary--text"></i> **Custom Server *Listen to all messages from a websocket server***](/Triggers/Core/WebSocket/Custom-Server)
 {.btn-grid .my-5}
 
 ## Intergrations
+Triggers for Streamer.bot integrations{.subtitle}
+
 - [<img src="/donordrive.webp"/>**DonorDrive *Fundraiser donation events***](/Triggers/DonorDrive)
 - [<img src="https://streamer.bot/img/integrations/hyperate.png"/>**HypeRate.io *Heartrate events***](/Triggers/HypeRate-io)
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donation events***](/Triggers/Ko-Fi)
