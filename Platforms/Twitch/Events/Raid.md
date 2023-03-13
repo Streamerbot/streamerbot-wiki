@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2023-03-13T18:33:32.228Z
+date: 2023-03-13T19:20:18.377Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -46,9 +46,6 @@ Name | Description
 `user` | The user who is raiding the channel
 `viewers` | Number of viewers in the raid as reported by Twitch
 {.vars-table}
-
-> **%raiderNames%** is a best guess effort in determining who came along in the raid, there is currently no mechanism from Twitch that provides this information during a raid, so a few extra API calls are made to "guess" at this list
-{.is-info}
 
 ### Sending a Raid
 Name | Description
