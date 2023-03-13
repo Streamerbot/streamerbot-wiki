@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-03-10T16:33:04.581Z
+date: 2023-03-13T18:38:12.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -114,7 +114,7 @@ Released 2023-02-22{.subtitle}
 * Track subscriptions in local Twitch DB
 * Add new C# method TwitchIsUserSubscribed
 * Add a new inline method `$length()$`, this will get the length of a string, and variables are supported, any variable used will be treated as a string
-* **Streamer.bot** will now recognize when a user is given VIP, and update data internally, unfortuantely, there is no event for when VIP is removed at the moment
+* **Streamer.bot** will now recognize when a user is given VIP, and update data internally, unfortunately, there is no event for when VIP is removed at the moment
 * Provide a notice when Importing commands, that they will be disabled
 * Add new sub-action, Read Specific Line from File
 * Add new Twitch sub-actions, [Ban User](#twitch-ban-user), [Unban User](#twitch-unban-user), and [UnTimeout User](#twitch-untimeout-user)
@@ -219,7 +219,7 @@ Name | Description
 ----:|:------------
 `bannedUserId` | The user id of the user that was banned
 `bannedUserName` | The user login of the user that was banned
-`bannedUser` | THe display name of the user that was banned
+`bannedUser` | The display name of the user that was banned
 
 ### Twitch Unban User
 This sub-action will let you unban a user, you will be able to either enter in a specific user name, or use a variable.
@@ -234,7 +234,7 @@ Name | Description
 ----:|:------------
 `unbannedUserId` | The user id of the user that was banned
 `unbannedUserName` | The user login of the user that was banned
-`unbannedUser` | THe display name of the user that was banned
+`unbannedUser` | The display name of the user that was banned
 
 ### Twitch UnTimeout User
 This sub-action will let you ban a user, you will be able to either enter in a specific user nname, or use a variable.
