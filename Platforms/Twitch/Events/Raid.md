@@ -2,8 +2,8 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2023-03-13T18:17:26.272Z
-tags: twitch, events
+date: 2023-03-13T18:32:45.909Z
+tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
 ---
@@ -44,6 +44,7 @@ This event triggers after the raid has transferred your users to the new channel
 Name | Description
 ----:|:------------
 `user` | The user who is raiding the channel
+`viewers` | Number of viewers in the raid as reported by Twitch
 `raiderNames` | A comma separated list of display names of users in the raid, any names in groups that have been marked as bots will be excluded.
 {.vars-table}
 
