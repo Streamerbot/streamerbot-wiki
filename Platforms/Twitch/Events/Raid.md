@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2023-03-13T18:32:45.909Z
+date: 2023-03-13T18:33:32.228Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -21,7 +21,7 @@ The `Generic` action is run on any incoming raid that does not match a defined r
 
 ### Viewer Ranges
 If you would like a special alert to override the generic action for incoming raids of specific sizes you can define the ranges and the Action to assign to them here.
-> 
+
 > You can add as many ranges as you like but there is no way to define an unlimited upper bound, so if you are using ranges make sure your largest one has a Max value that will be big enough for your needs, otherwise Streamer.bot will default back to the Generic action
 {.is-info}
 
@@ -45,7 +45,6 @@ Name | Description
 ----:|:------------
 `user` | The user who is raiding the channel
 `viewers` | Number of viewers in the raid as reported by Twitch
-`raiderNames` | A comma separated list of display names of users in the raid, any names in groups that have been marked as bots will be excluded.
 {.vars-table}
 
 > **%raiderNames%** is a best guess effort in determining who came along in the raid, there is currently no mechanism from Twitch that provides this information during a raid, so a few extra API calls are made to "guess" at this list
