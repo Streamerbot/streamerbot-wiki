@@ -2,14 +2,14 @@
 title: Command Triggered
 description: Commands Triggers Reference
 published: true
-date: 2023-03-14T16:25:18.117Z
+date: 2023-03-14T16:28:47.149Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:25:18.117Z
 ---
 
 ## Overview
-The HotKey Press trigger is used for when you press a key on one of your keyboards.
+This triggers when someone uses your command.
 
 For a detailed guide on how Commands work in Streamer.bot see [this page](/Commands).
 
@@ -35,7 +35,7 @@ Name | Description
 `counter` | A running total of how many times a command has been run since application launch (if `Persisted` is checked, the total will be saved and reloaded at launch)
 {.vars-table}
 
-> These variable include the [User Variables](/en/Variables/User-Variables) and the [Broadcaster Variables](/en/Variables/Broadcaster)
+> These variable include the [User Variables](/Variables/User-Variables) and the [Broadcaster Variables](/Variables/Broadcaster)
 {.is-success}
 
 ---
