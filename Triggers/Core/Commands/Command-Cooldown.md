@@ -2,7 +2,7 @@
 title: Command Cooldown
 description: Commands Triggers Reference
 published: true
-date: 2023-03-14T16:28:01.586Z
+date: 2023-03-14T16:28:49.790Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:24:24.254Z
@@ -29,7 +29,7 @@ Name | Description
 `userCooldownLeft` | How many seconds are left for the user cooldown of the command
 {.vars-table}
 
-> These variable include the [User Variables](/en/Variables/User-Variables) and the [Broadcaster Variables](/en/Variables/Broadcaster)
+> These variable include the [User Variables](/Variables/User-Variables) and the [Broadcaster Variables](/Variables/Broadcaster)
 {.is-success}
 
 ---
