@@ -2,14 +2,14 @@
 title: Command Cooldown
 description: Commands Triggers Reference
 published: true
-date: 2023-03-14T16:25:44.418Z
+date: 2023-03-14T16:28:01.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:24:24.254Z
 ---
 
 ## Overview
-The HotKey Press trigger is used for when you press a key on one of your keyboards.
+This triggers when your command is on a cooldown and someone tries to use it.
 
 For a detailed guide on how Commands work in Streamer.bot see [this page](/Commands).
 
