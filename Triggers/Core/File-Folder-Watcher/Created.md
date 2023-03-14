@@ -2,7 +2,7 @@
 title: Created
 description: File/Folder Watcher Triggers Reference
 published: true
-date: 2023-03-14T21:40:07.475Z
+date: 2023-03-14T21:51:09.113Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T21:40:07.475Z
@@ -15,7 +15,7 @@ For a detailed guide on how the File/Folder Watcher works in Streamer.bot see [t
 
 ## Configuration
 ### Watcher
-Select any or a watcher from the Settings --> File/Folder Watcher tab
+Select any or a specific watcher from the Settings --> File/Folder Watcher tab
 
 ## Variables
 Name | Description
