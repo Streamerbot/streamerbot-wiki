@@ -2,20 +2,20 @@
 title: Renamed
 description: File/Folder Watcher Triggers Reference
 published: true
-date: 2023-03-14T21:42:54.378Z
+date: 2023-03-14T21:44:00.489Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T21:42:54.378Z
 ---
 
 ## Overview
-This triggers when a file gets created in the folder you're watching.
+This triggers when a file gets renamed in the folder you're watching.
 
 For a detailed guide on how the File/Folder Watcher works in Streamer.bot see [this page](/Settings/File-Folder-Watcher).
 
 ## Configuration
 ### Watcher
-Select any or a watcher from the Settings --> File/Folder Watcher tab
+Select any or a specific watcher from the Settings --> File/Folder Watcher tab
 
 ## Variables
 Name | Description
