@@ -2,7 +2,7 @@
 title: Timed Actions
 description: Core Triggers Reference
 published: true
-date: 2023-03-14T11:43:52.859Z
+date: 2023-03-14T15:58:49.167Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T11:43:42.350Z
@@ -15,7 +15,7 @@ Go to the [Timed Actions](/en/Settings/Timed-Actions) page for a detailed explan
 
 ## Configuration
 ### Timers
-Select a timer from the `Settings --> Timed Actions` tab
+Select a timer from the Settings --> Timed Actions tab
 
 ---
 
