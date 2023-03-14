@@ -2,7 +2,7 @@
 title: Pulsoid
 description: Triggers Reference
 published: true
-date: 2023-03-14T22:42:25.064Z
+date: 2023-03-14T22:47:01.713Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:42:25.064Z
