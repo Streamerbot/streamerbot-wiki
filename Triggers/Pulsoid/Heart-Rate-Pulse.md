@@ -2,14 +2,14 @@
 title: Heart Rate Pulse
 description: Pulsoid Triggers Reference
 published: true
-date: 2023-03-14T22:52:08.981Z
+date: 2023-03-14T22:52:38.445Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:46:41.107Z
 ---
 
 ## Overview
-This triggers every second that you're using the heart rate monitor.
+This triggers every second that you're using your heart rate monitor.
 
 For a detailed guide about Pulsoid see [this page](/Integrations/Pulsoid).
 
