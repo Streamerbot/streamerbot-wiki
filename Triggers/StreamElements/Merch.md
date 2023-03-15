@@ -2,7 +2,7 @@
 title: Merch
 description: StreamElements Triggers Reference
 published: true
-date: 2023-03-15T20:26:58.297Z
+date: 2023-03-15T20:32:41.829Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:26:58.297Z
@@ -20,7 +20,7 @@ Name | Description
 `merchAvatar` | The URL of the user's avatar
 `merchAmount` | The amount of the purchase
 `merchCurrency` | The 3 letter payment currency code
-`merchMessage` | The message that the user included
+`merchMessage` | The message that the user may has included
 `merchQuantity` | The total number of items purchased
 `merchItems` | The number of distinct items purchased
 `merchItem#.name` | Name of the item purchased, where # is the index of the item (0 based)
