@@ -2,7 +2,7 @@
 title: Quote
 description: Core Triggers Reference
 published: true
-date: 2023-03-15T22:18:02.361Z
+date: 2023-03-15T22:22:35.335Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:18:02.361Z
