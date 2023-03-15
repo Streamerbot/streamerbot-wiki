@@ -2,7 +2,7 @@
 title: Tip
 description: StreamElements Triggers Reference
 published: true
-date: 2023-03-15T20:24:35.272Z
+date: 2023-03-15T20:25:07.569Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:22:17.119Z
@@ -23,7 +23,7 @@ Name | Description
 `tipUsername` | Username of the user as provided by StreamElements (may not be from Twitch)
 `tipAvatar` | The URL of the user's avatar
 `tipAmount` | The amount of the tip
-`tipCurrency` | The 3 letter tip currency code
+`tipCurrency` | The 3 letter payment currency code
 `tipMessage` | The tip message that the user included
 `isTest` | Boolean value indicating if the tip was a test `True`/`False`
 {.vars-table}
