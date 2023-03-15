@@ -2,7 +2,7 @@
 title: Donation
 description: Streamlabs Triggers Reference
 published: true
-date: 2023-03-15T20:32:22.676Z
+date: 2023-03-15T20:35:49.210Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:32:22.676Z
@@ -30,5 +30,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**StreamElements Triggers Reference *Go Back***](/Triggers/StreamElements)
+- [<i class="mdi mdi-chevron-left"></i>**Streamlabs Triggers Reference *Go Back***](/Triggers/Streamlabs)
 {.btn-grid .my-5}
