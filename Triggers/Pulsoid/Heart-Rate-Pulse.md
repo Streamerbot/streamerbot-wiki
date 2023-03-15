@@ -2,7 +2,7 @@
 title: Heart Rate Pulse
 description: Pulsoid Triggers Reference
 published: true
-date: 2023-03-14T22:52:38.445Z
+date: 2023-03-15T19:28:56.169Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:46:41.107Z
@@ -20,7 +20,7 @@ You can select ranges if you want to filter between two values.
 ## Variables
 Name | Description
 ----:|:------------
-`measuredAt` | The epoch time the measurement was taken
+`measuredAt` | The epoch time from the measurement
 `heartRate` | The heart rate BPM
 {.vars-table}
 
