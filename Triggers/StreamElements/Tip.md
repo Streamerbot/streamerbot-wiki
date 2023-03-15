@@ -2,7 +2,7 @@
 title: Tip
 description: StreamElements Triggers Reference
 published: true
-date: 2023-03-15T20:22:17.119Z
+date: 2023-03-15T20:24:35.272Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:22:17.119Z
@@ -21,7 +21,7 @@ You can select ranges if you want to filter between two values.
 Name | Description
 ----:|:------------
 `tipUsername` | Username of the user as provided by StreamElements (may not be from Twitch)
-`tipAvatar` | The URL to the avatar of the user
+`tipAvatar` | The URL of the user's avatar
 `tipAmount` | The amount of the tip
 `tipCurrency` | The 3 letter tip currency code
 `tipMessage` | The tip message that the user included
