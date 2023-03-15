@@ -2,7 +2,7 @@
 title: Merch
 description: StreamElements Triggers Reference
 published: true
-date: 2023-03-15T20:32:41.829Z
+date: 2023-03-15T21:12:02.880Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:26:58.297Z
@@ -28,7 +28,7 @@ Name | Description
 `merchItem#.quantity` | How many of the item was purchased, where # is the index of the item (0 based)
 {.vars-table}
 
-> Change the `#` to a number from 0 to the end of the merch item. So e.g. `%merchItem0.name%`, `%merchItem1.name%`, `%merchItem2.name%`
+> Change the `#` to a number from 0 to the end of the merch items. So e.g. `%merchItem0.name%`, `%merchItem1.name%`, `%merchItem2.name%`
 {.is-info}
 
 ---
