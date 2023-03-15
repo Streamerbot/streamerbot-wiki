@@ -2,7 +2,7 @@
 title: Merchandise
 description: Streamlabs Triggers Reference
 published: true
-date: 2023-03-15T20:35:37.414Z
+date: 2023-03-15T20:35:54.301Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:35:37.414Z
@@ -26,5 +26,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**StreamElements Triggers Reference *Go Back***](/Triggers/StreamElements)
+- [<i class="mdi mdi-chevron-left"></i>**Streamlabs Triggers Reference *Go Back***](/Triggers/Streamlabs)
 {.btn-grid .my-5}
