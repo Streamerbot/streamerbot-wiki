@@ -2,7 +2,7 @@
 title: User Banned Event
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:35:42.395Z
+date: 2023-03-16T13:00:18.611Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:32:41.932Z
@@ -21,5 +21,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
