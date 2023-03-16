@@ -2,7 +2,7 @@
 title: Gift Subscription
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:46:53.133Z
+date: 2023-03-16T13:02:45.855Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-12-12T22:40:35.506Z
@@ -46,5 +46,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
