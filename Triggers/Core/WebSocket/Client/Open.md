@@ -2,7 +2,7 @@
 title: Open
 description: WebSocket Client Triggers Reference
 published: true
-date: 2023-03-16T21:44:22.620Z
+date: 2023-03-16T21:44:30.810Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T21:42:30.447Z
