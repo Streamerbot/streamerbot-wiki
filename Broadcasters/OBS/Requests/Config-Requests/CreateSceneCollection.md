@@ -2,7 +2,7 @@
 title: CreateSceneCollection
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:19:13.695Z
+date: 2023-03-16T12:07:07.563Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:48:24.108Z
@@ -39,6 +39,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#createscenecollection)
 {.btn-grid .my-5}
