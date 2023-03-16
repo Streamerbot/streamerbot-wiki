@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:01:27.855Z
+date: 2023-03-16T13:01:40.982Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -31,7 +31,7 @@ Streamer.bot can also perform actions when you are preparing to raid at the end 
 
 #### Start
 This triggers when the Raid command is first sent either from a `/raid` command in chat or from the Twitch! dashboard. 
-Streamer.bot will detect the destination username and populate the following [Variables](/en/Variables#sending-a-raid) that can be used to drive on screen elements and chat messages
+Streamer.bot will detect the destination username and populate the following [Variables](/Variables#sending-a-raid) that can be used to drive on screen elements and chat messages
 
 #### Cancel
 If for any reason the raid is cancelled, this action will trigger. It can be used to reset any elements initialised by the `Start` event or kick off something completely new
