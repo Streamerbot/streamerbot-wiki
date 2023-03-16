@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Common Streamer.bot support & troubleshooting questions
 published: true
-date: 2022-11-14T20:16:44.574Z
+date: 2023-03-16T11:24:30.913Z
 tags: faq, support
 editor: markdown
 dateCreated: 2022-08-04T15:20:57.008Z
@@ -34,7 +34,7 @@ You have Sub Counter **enabled** in Streamer.bot and it is not pointing to a val
 3. And your done! Your sub-actions should behave fine.
 
 **If you used OBS Raw then check this below ⬇⬇⬇⬇**
-https://wiki.streamer.bot/en/Broadcasters/OBS/Requests
+https://wiki.streamer.bot/Broadcasters/OBS/Requests
 https://obs-raw.streamer.bot/
 
 **If you did remove your OBS Connection, you can [Restore a Backup](/Backup)**
