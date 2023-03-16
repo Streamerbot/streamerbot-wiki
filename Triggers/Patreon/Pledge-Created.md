@@ -2,7 +2,7 @@
 title: Pledge Created
 description: Patreon Triggers Reference
 published: true
-date: 2023-03-15T20:44:33.800Z
+date: 2023-03-16T11:12:07.369Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:44:33.800Z
@@ -82,4 +82,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Patreon Triggers Reference *Go Back***](/Triggers/Patreon)
+- [<i class="mdi mdi-cash-check primary--text"></i> **Pledge Updated *Next Up***](/Triggers/Patreon/Pledge-Updated)
 {.btn-grid .my-5}
