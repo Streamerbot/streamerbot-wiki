@@ -2,7 +2,7 @@
 title: Broadcast Ended
 description: YouTube Events Reference
 published: true
-date: 2022-11-14T22:55:06.445Z
+date: 2023-03-16T13:10:49.516Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T08:59:50.572Z
@@ -14,5 +14,5 @@ dateCreated: 2022-09-29T08:59:50.572Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
