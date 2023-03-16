@@ -2,7 +2,7 @@
 title: GetCurrentSceneTransitionCursor
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:34:30.679Z
+date: 2023-03-16T12:23:38.315Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T11:49:36.239Z
@@ -36,6 +36,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getcurrentscenetransitioncursor)
 {.btn-grid .my-5}
