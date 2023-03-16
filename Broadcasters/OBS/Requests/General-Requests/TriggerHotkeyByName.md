@@ -2,7 +2,7 @@
 title: TriggerHotkeyByName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:04:49.427Z
+date: 2023-03-16T12:53:08.569Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:22:43.800Z
@@ -10,7 +10,7 @@ dateCreated: 2022-07-30T01:22:43.800Z
 
 ## Overview
 Triggers a hotkey using its name. See `GetHotkeyList`
-- [<i class="mdi mdi-keyboard"></i>**GetHotkeyList Request Reference**](/en/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
+- [<i class="mdi mdi-keyboard"></i>**GetHotkeyList Request Reference**](/Broadcasters/OBS/Requests/General-Requests/GetHotkeyList)
 {.btn-grid .my-5}
 
 ## Request Fields
