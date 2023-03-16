@@ -2,7 +2,7 @@
 title: Execute C# Method
 description: 
 published: true
-date: 2023-02-04T16:04:20.415Z
+date: 2023-03-16T13:29:13.848Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:54.418Z
@@ -24,5 +24,5 @@ The capabilities of this sub-action maybe extended later.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/Sub-Actions/Code)
 {.btn-grid .my-5}
