@@ -2,7 +2,7 @@
 title: Set Scene Filter State
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:42:46.988Z
+date: 2023-03-16T11:46:06.730Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T13:05:02.947Z
@@ -33,5 +33,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
