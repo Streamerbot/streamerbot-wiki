@@ -2,7 +2,7 @@
 title: Get Shield Mode Status
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-12-22T16:14:46.546Z
+date: 2023-03-16T13:37:20.312Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-05T09:35:30.752Z
@@ -23,7 +23,7 @@ Name | Description
 `moderatorLogin` | The moderator's login name
 {.vars-table}
 
-> This will include [Broadcaster Variables](/en/Sub-Actions/Twitch/Add-Broadcaster-Information)
+> This will include [Broadcaster Variables](/Sub-Actions/Twitch/Add-Broadcaster-Information)
 {.is-success}
 
 ---
