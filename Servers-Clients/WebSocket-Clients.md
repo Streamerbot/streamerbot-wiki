@@ -2,13 +2,13 @@
 title: WebSocket Clients
 description: Configure Streamer.bot to connect to an external WebSocket server
 published: true
-date: 2022-12-04T20:33:17.557Z
+date: 2023-03-16T13:16:27.376Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:08.368Z
 ---
 
-> Currently, due to the nature of the Websocket Client, the only real use for these is within the [Execute C# Code](/en/Sub-Actions/Code/Execute-CSharp-Code) sub-action.
+> Currently, due to the nature of the Websocket Client, the only real use for these is within the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action.
 {.is-info}
 
 ## Overview
