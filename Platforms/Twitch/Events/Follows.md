@@ -2,7 +2,7 @@
 title: Follows Event
 description: Twitch Events Reference
 published: true
-date: 2023-01-19T20:18:41.945Z
+date: 2023-03-16T13:03:17.869Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T19:52:20.005Z
@@ -21,7 +21,7 @@ Name | Description
 `eventSource` | specifies which streaming service the triggering event is coming from *v0.1.8+*{.version-badge} <br> `twitch` or `youtube`
 {.vars-table}
 
-> This will also include all the [Broadcaster Variables](/en/Variables/Broadcaster)
+> This will also include all the [Broadcaster Variables](/Variables/Broadcaster)
 {.is-success}
 
 ---
