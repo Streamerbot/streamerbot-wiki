@@ -2,7 +2,7 @@
 title: Super Sticker
 description: YouTube Events Reference
 published: true
-date: 2022-11-14T23:01:15.688Z
+date: 2023-03-16T13:10:30.492Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:14:12.721Z
@@ -23,5 +23,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
