@@ -2,7 +2,7 @@
 title: Polls
 description: Twitch Events Reference
 published: true
-date: 2022-10-30T13:26:15.007Z
+date: 2023-03-16T12:56:59.987Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:34.620Z
@@ -174,5 +174,5 @@ TlM0RR+LCAAAAAAABAClVk2TokgQvW/E/gejr7vdi4DTMjfBBrFtd6RHENY5UFQ1IsXH8CHgxPz3TQqd
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
