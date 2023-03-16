@@ -2,7 +2,7 @@
 title: File/Folder Watcher
 description: 
 published: true
-date: 2022-08-30T20:12:27.188Z
+date: 2023-03-16T07:00:04.973Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:58.151Z
@@ -10,9 +10,9 @@ dateCreated: 2021-08-25T21:31:58.151Z
 
 With the `File/Folder Watcher` feature you can specify an action to run whenever a file that matches the defined filter is modified
 
-Folder watch actions that have been defined will show in this pane to indicate the `Folder being watched`, `The file filter`, is `Enabled` state and the **[Action](/en/Actions)** that will trigger when the conditions are met
+Folder watch actions that have been defined will show in this pane to indicate the `Folder being watched`, `The file filter`, is `Enabled` state and the **[Action](/Actions)** that will trigger when the conditions are met
 
-![file-folder-watcher-018.png](/file-folder-watcher-018.png){.align-center}
+![file-folder-watcher-018.png](/file-folder-watcher-018.png)
 
 <kbd>Right-clicking</kbd> inside the pane opens the context menu
 
@@ -25,24 +25,16 @@ Folder watch actions that have been defined will show in this pane to indicate t
 `Set Action` | Shortcut to the `Select Action` dialogue
 `Enabled` | Shortcut to set the Active state of the Folder Watch entry
 
-
-
-## Edit File Watch Dialogue
-
-*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
----|---
-![image](/130543487-37f328d3-55b9-4dab-8f53-c46fde0ff967.png)|![file-folder-watcher-edit-018.png](/file-folder-watcher-edit-018.png)
-Can only monitor specific files | Monitors entire folders and will trigger on every match defined in the filter
-
-
+## Edit File/Folder Watcher Dialogue
+![file-folder-watcher-edit-018.png](/file-folder-watcher-edit-018.png)
+Can only monitor specific files or Monitors entire folders and will trigger on every match defined in the filter
 
 > Filters can be a generic or specific as required and uses the `*` symbol as a wildcard.
 > eg. `*.*` will match all files in a folder, `*.txt` will match all text files, `some*.txt` will match all text files that begin with the word `some` and so on
 {.is-success}
 
 ### Action Selector
-
-![action-selector-018.png](/action-selector-018.png){.align-center}
+![action-selector-018.png](/action-selector-018.png)
 
 The action list can be filtered using the control in the upper right to help find what you need easier.
 
