@@ -2,7 +2,7 @@
 title: RefreshBrowserSource
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-01T14:51:31.943Z
+date: 2023-03-16T12:43:25.974Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T12:19:55.650Z
@@ -43,6 +43,6 @@ CPH.ObsSendRaw("PressInputPropertiesButton", "{'inputName': '', 'propertyName': 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#pressinputpropertiesbutton)
 {.btn-grid .my-5}
