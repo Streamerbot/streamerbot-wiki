@@ -2,7 +2,7 @@
 title: Execute C# Code
 description: 
 published: true
-date: 2022-10-30T00:51:25.533Z
+date: 2023-03-16T13:28:56.020Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
@@ -122,5 +122,5 @@ TerrierDarts{.overline}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/en/Sub-Actions/Code)
+- [<i class="mdi mdi-chevron-left"></i> **Code *Go Back***](/Sub-Actions/Code)
 {.btn-grid .my-5}
