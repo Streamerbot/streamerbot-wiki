@@ -2,7 +2,7 @@
 title: Renamed
 description: File/Folder Watcher Triggers Reference
 published: true
-date: 2023-03-14T21:44:00.489Z
+date: 2023-03-16T11:03:38.502Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T21:42:54.378Z
@@ -32,4 +32,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**File/Folder Watcher Triggers Reference *Go Back***](/Triggers/Core/File-Folder-Watcher)
+- [<i class="mdi mdi-square-edit-outline primary--text"></i> **Changed *Next Up***](/Triggers/Core/File-Folder-Watcher/Changed)
 {.btn-grid .my-5}
