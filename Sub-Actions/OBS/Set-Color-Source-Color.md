@@ -2,7 +2,7 @@
 title: Set Color Source Color
 description: OBS Studio Sub-Actions reference
 published: true
-date: 2022-10-28T00:17:54.137Z
+date: 2023-03-16T11:44:28.825Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-02T02:53:25.130Z
@@ -31,5 +31,5 @@ This picks a random color once.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
