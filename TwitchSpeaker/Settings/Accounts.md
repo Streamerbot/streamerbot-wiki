@@ -2,7 +2,7 @@
 title: Accounts
 description: TwitchSpeaker Settings Reference
 published: true
-date: 2023-01-20T15:06:38.515Z
+date: 2023-03-16T12:49:19.975Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T01:59:38.296Z
@@ -28,6 +28,6 @@ This is used for the Merchandise and the StreamElementsTip events.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 - [<i class="mdi mdi-close-thick text--twitch"></i>**Ignored Voices/Locales *Voices/Locales that will be excluded from random voice selection.***](/TwitchSpeaker/Settings/Ignored-Voices-Locales)
 {.btn-grid .my-5}
