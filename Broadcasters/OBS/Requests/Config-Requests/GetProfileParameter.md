@@ -2,7 +2,7 @@
 title: GetProfileParameter
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:18:44.806Z
+date: 2023-03-16T12:07:30.356Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:12:19.306Z
@@ -45,6 +45,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getprofileparameter)
 {.btn-grid .my-5}
