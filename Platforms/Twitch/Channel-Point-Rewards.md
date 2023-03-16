@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T12:56:36.986Z
+date: 2023-03-16T13:06:36.193Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z
@@ -72,8 +72,8 @@ Name | Description
 `rewardCost` | The channel point cost of the redeemed reward *v0.1.5+*{.version-badge}  <br> `100`
 `counter` | Number of times this reward has been redeemed <br> `1`
 `userCounter` | Number of times the same user has redeemed this reward <br> `1`
-`rawInput` | String text entered by the user (if required) <br> `https://streamer.bot/en/Test Unescaped Text $$$`
-`rawInputEscaped` | String text entered by the user (escaped) <br> `https://streamer\.bot/en/Test Escaped Text \$\$\$`
+`rawInput` | String text entered by the user (if required) <br> `https://streamer.bot/Test Unescaped Text $$$`
+`rawInputEscaped` | String text entered by the user (escaped) <br> `https://streamer\.bot/Test Escaped Text \$\$\$`
 `user` | The user that had redeemed the channel point
 `userName` | User login name <br> *e.g. on Twitch this is the username in all lowercase, useful for comparison*
 `userId` | Unique user identifier
@@ -83,7 +83,7 @@ Name | Description
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
 {.vars-table}
 
-> This will also include all the [Broadcaster Variables](/en/Variables/Broadcaster)
+> This will also include all the [Broadcaster Variables](/Variables/Broadcaster)
 {.is-success}
 
 ---
