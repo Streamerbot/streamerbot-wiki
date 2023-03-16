@@ -2,7 +2,7 @@
 title: IFTTT Notification (Basic)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-01-13T17:29:54.447Z
+date: 2023-03-16T11:55:33.474Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z
@@ -29,6 +29,6 @@ Enter any text, including variables, to be sent with your trigger to IFTTT.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/en/Sub-Actions/IFTTT)
-- [<i class="mdi mdi-android-messages"></i> **IFTTT Notification (Advanced) *Up Next***](/en/Sub-Actions/IFTTT/Notification-Advanced)
+- [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/Sub-Actions/IFTTT)
+- [<i class="mdi mdi-android-messages"></i> **IFTTT Notification (Advanced) *Up Next***](/Sub-Actions/IFTTT/Notification-Advanced)
 {.btn-grid .my-5}
