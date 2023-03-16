@@ -2,7 +2,7 @@
 title: Hype Train
 description: Twitch Events Reference
 published: true
-date: 2023-01-15T18:47:52.089Z
+date: 2023-03-16T13:02:29.138Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-22T02:59:47.855Z
@@ -133,5 +133,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
