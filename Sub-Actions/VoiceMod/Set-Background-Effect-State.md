@@ -2,7 +2,7 @@
 title: Set Background Effect State
 description: 
 published: true
-date: 2022-10-31T10:04:58.917Z
+date: 2023-03-16T11:53:11.049Z
 tags: twitch, integrations, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-27T19:28:31.104Z
@@ -11,7 +11,7 @@ dateCreated: 2022-06-27T19:28:31.104Z
 ## Overview
 With the Streamer.bot *v0.1.8*{.version-badge} you can set the Background Effect State's that are used from within the VoiceMod Application.
 
-First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod))
+First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/Integrations/VoiceMod))
 Once you have done this you can now proceed to the set up this Sub-Action.
 
 ![set-background-effect-state-complete.png](/voicemod/set-background-effect-state-complete.png)
