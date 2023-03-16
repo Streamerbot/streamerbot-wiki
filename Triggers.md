@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-16T21:42:42.715Z
+date: 2023-03-16T21:45:11.236Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -36,8 +36,8 @@ Streamer.bot specific triggers{.subtitle}
 ### Websocket
 Websocket client and custom server message triggers{.subtitle}
 
-- [<i class="mdi mdi-plus-network primary--text"></i> **Client *Listen to all messages from a websocket client***](/Triggers/Core/WebSocket/Client)
-- [<i class="mdi mdi-plus-network primary--text"></i> **Custom Server *Listen to all messages from a websocket server***](/Triggers/Core/WebSocket/Custom-Server)
+- [<i class="mdi mdi-plus-network primary--text"></i> **Client *Listen to all messages from a websocket client***](/Triggers/Core/Websocket/Client)
+- [<i class="mdi mdi-plus-network primary--text"></i> **Custom Server *Listen to all messages from a websocket server***](/Triggers/Core/Websocket/Custom-Server)
 {.btn-grid .my-5}
 
 ## Intergrations
