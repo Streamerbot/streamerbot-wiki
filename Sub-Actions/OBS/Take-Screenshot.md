@@ -2,7 +2,7 @@
 title: Take Screenshot
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-21T15:28:48.942Z
+date: 2023-03-16T11:41:05.068Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z
@@ -35,5 +35,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
