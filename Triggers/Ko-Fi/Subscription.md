@@ -2,7 +2,7 @@
 title: Subscription
 description: Ko-Fi Triggers Reference
 published: true
-date: 2023-03-15T21:09:58.598Z
+date: 2023-03-16T11:07:30.480Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T21:09:58.598Z
@@ -29,4 +29,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Ko-Fi Triggers Reference *Go Back***](/Triggers/Ko-Fi)
+- [<i class="mdi mdi-contactless-payment-circle primary--text"></i> **Commission *Next Up***](/Triggers/Ko-Fi/Commission)
 {.btn-grid .my-5}
