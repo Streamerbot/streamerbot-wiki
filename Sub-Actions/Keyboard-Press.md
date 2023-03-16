@@ -2,7 +2,7 @@
 title: Keyboard Press
 description: General Sub-Actions Reference
 published: true
-date: 2022-12-04T19:12:36.856Z
+date: 2023-03-16T11:58:42.835Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T03:47:06.237Z
@@ -26,6 +26,6 @@ The modifier to press along with the key.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-file-code primary--text"></i>**File *Read &amp; write from local files***](/en/Sub-Actions/File)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-file-code primary--text"></i>**File *Read &amp; write from local files***](/Sub-Actions/File)
 {.btn-grid .my-5}
