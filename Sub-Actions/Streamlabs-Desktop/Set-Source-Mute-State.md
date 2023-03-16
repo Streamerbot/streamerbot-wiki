@@ -2,7 +2,7 @@
 title: Set Source Mute State
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:49:16.135Z
+date: 2023-03-16T11:49:14.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:59:02.372Z
@@ -28,5 +28,5 @@ If the selected SLOBS connection is currently connected, a dropdown list of avai
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
