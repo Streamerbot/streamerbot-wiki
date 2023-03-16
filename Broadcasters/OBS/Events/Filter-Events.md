@@ -2,17 +2,17 @@
 title: Filter Events
 description: Events related to filter changes
 published: true
-date: 2022-10-29T22:09:22.959Z
+date: 2023-03-16T11:35:40.391Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:40:22.853Z
 ---
 
-* [**SourceFilterListReindexed *A source's filter list has been reindexed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterListReindexed)
-* [**SourceFilterCreated *A filter has been added to a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterCreated)
-* [**SourceFilterRemoved *A filter has been removed from a source***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved)
-* [**SourceFilterNameChanged *The name of a source filter has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged)
-* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/en/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged)
+* [**SourceFilterListReindexed *A source's filter list has been reindexed***](/Broadcasters/OBS/Events/Filter-Events/SourceFilterListReindexed)
+* [**SourceFilterCreated *A filter has been added to a source***](/Broadcasters/OBS/Events/Filter-Events/SourceFilterCreated)
+* [**SourceFilterRemoved *A filter has been removed from a source***](/Broadcasters/OBS/Events/Filter-Events/SourceFilterRemoved)
+* [**SourceFilterNameChanged *The name of a source filter has changed***](/Broadcasters/OBS/Events/Filter-Events/SourceFilterNameChanged)
+* [**SourceFilterEnableStateChanged *A source filter's enable state has changed***](/Broadcasters/OBS/Events/Filter-Events/SourceFilterEnableStateChanged)
 {.btn-grid .my-5}
 
 ---
