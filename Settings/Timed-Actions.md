@@ -2,7 +2,7 @@
 title: Timed Actions
 description: 
 published: true
-date: 2023-03-09T08:50:32.269Z
+date: 2023-03-16T07:03:32.995Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:26.506Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-25T21:32:26.506Z
 
 Actions to be performed either repeatedly or for a duration can be defined here.
 
-![timed-actions-context-018.png](/timed-actions-context-018.png){.align-center}
+![timed-actions-context-018.png](/timed-actions-context-018.png)
 
 <kbd>Right-clicking</kbd> inside the pane opens the context menu
 
