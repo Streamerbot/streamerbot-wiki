@@ -2,7 +2,7 @@
 title: Groups
 description: 
 published: true
-date: 2023-03-16T13:18:21.664Z
+date: 2023-03-16T13:56:27.333Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:38.641Z
@@ -26,7 +26,7 @@ Alternatively, you can Import / Export users from a group using the context menu
 
 ## Bot Groups
 
-The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the **[Credits](/en/Settings/Credits)** function.
+The context menu can designate a group as a bot container. Accounts that appear in this group are automatically ignored from the **[Credits](/Settings/Credits)** function.
 Other features may be made bot group aware in future releases
 
 ## Context Menu
