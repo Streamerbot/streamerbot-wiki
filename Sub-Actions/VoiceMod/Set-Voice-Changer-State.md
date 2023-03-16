@@ -2,7 +2,7 @@
 title: Set Voice Changer State
 description: 
 published: true
-date: 2022-10-31T10:07:28.328Z
+date: 2023-03-16T11:53:46.166Z
 tags: twitch, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T16:36:02.549Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-28T16:36:02.549Z
 
 With the Streamer.bot *v0.1.8*{.version-badge} you can set the Voice Changer State that is included with the VoiceMod Application.
 
-First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/en/Integrations/VoiceMod)
+First make sure Streamer.bot is connected to VoiceMod (if you haven't done this and /or don't know how please check out the how to connect to VoiceMod [here.](/Integrations/VoiceMod)
 Once you have done this you can now proceed to the set up this Sub-Action.
 
 
