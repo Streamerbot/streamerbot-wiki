@@ -2,7 +2,7 @@
 title: Set GDI Text
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:48:47.335Z
+date: 2023-03-16T11:49:01.218Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:56:53.397Z
@@ -25,5 +25,5 @@ Enter any text or display the contents of a defined `variable`
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
