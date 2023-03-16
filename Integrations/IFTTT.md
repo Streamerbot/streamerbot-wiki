@@ -2,7 +2,7 @@
 title: IFTTT
 description: Trigger applets with Sub-Actions
 published: true
-date: 2023-01-10T18:32:34.567Z
+date: 2023-03-16T12:53:42.179Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-08T08:55:20.007Z
@@ -40,5 +40,5 @@ For example, the following JSON payload...
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
