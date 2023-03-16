@@ -2,19 +2,17 @@
 title: Get Commands
 description: Commands Sub-Actions Reference
 published: true
-date: 2022-12-04T19:10:21.811Z
+date: 2023-03-16T13:23:19.202Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z
 ---
 
-# Get Commands
-
 This sub action allows you to populate the commands and output them to your twitch chat. Just like the one below 
-![get_all_commands_output_.png](/commands/get_all_commands_output_.png){.align-center}
+![get_all_commands_output_.png](/commands/get_all_commands_output_.png)
 
 To do this all you need to do is create an action and give it a name next go to the sub action window on the right and then right click to get the option menu to open now navigate through the following `Add Action` then `Commands` then click the `Get Commands` Option. Just like the image below. 
-![commands_menu.png](/commands/commands_menu.png){.align-center}
+![commands_menu.png](/commands/commands_menu.png)
 
 Once you have done this a dialog box will appear from here you can select the group of commands you want to be outputted to the user that requested the commands list in your twitch chat. Various options will be displayed depending on how you have grouped your commands in the Commands tab.
 > Note: Due to a limitation on Twitch if your total commands exceed 500 Characters the message to the Twitch chat will **NOT** be sent!!! 
@@ -22,7 +20,7 @@ Once you have done this a dialog box will appear from here you can select the gr
 
 Next field we have is a variable name field here you will need to input a name for all the commands populated to be stored in ready for you to call in a Send to Twitch channel action. So enter a name and remember it. We will need this later.
 
-![dialog_-group_options_.png](/commands/dialog_-group_options_.png){.align-left}![example_catergory_.png](/commands/example_catergory_.png)
+![dialog_-group_options_.png](/commands/dialog_-group_options_.png) ![example_catergory_.png](/commands/example_catergory_.png)
 
 Next we have 2 check boxes `Include All` and `Only Has Permission`
 
@@ -39,8 +37,6 @@ Lastly create a sub action to output the contents of the variable that is storin
 
 ![get_commands_sub_action_list_.png](/commands/get_commands_sub_action_list_.png)
 
-
-
 This is one example you can import to get started.
 ## {.tabset}
 ### Import Code
@@ -54,7 +50,5 @@ This sub-action populates 2 variables with the custom name you specify, one as a
 
 Name | Description
 ----:|:------------
-| `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action |
-| `<variableName>.List` | List object for C# containing all commands matching criteria specified in the sub-action |
-
-
+`<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action
+`<variableName>.List` | List object for C# containing all commands matching criteria specified in the sub-action
