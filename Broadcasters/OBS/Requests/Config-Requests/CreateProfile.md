@@ -2,7 +2,7 @@
 title: CreateProfile
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:18:55.347Z
+date: 2023-03-16T12:07:19.491Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T02:10:23.538Z
@@ -37,6 +37,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#createprofile)
 {.btn-grid .my-5}
