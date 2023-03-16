@@ -2,7 +2,7 @@
 title: Follow Deleted
 description: Patreon Triggers Reference
 published: true
-date: 2023-03-15T20:43:28.183Z
+date: 2023-03-16T11:11:30.953Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:43:28.183Z
@@ -83,4 +83,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Patreon Triggers Reference *Go Back***](/Triggers/Patreon)
+- [<i class="mdi mdi-cash-plus primary--text"></i> **Pledge Created *Next Up***](/Triggers/Patreon/Pledge-Created)
 {.btn-grid .my-5}
