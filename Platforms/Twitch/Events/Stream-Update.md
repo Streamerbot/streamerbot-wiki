@@ -2,7 +2,7 @@
 title: Stream Update
 description: Twitch Events Reference
 published: true
-date: 2022-07-16T15:32:26.928Z
+date: 2023-03-16T13:00:57.112Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-07-08T04:16:50.386Z
@@ -30,5 +30,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
