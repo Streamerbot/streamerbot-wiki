@@ -2,7 +2,7 @@
 title: Membership Gift Event
 description: YouTube Events Reference
 published: true
-date: 2023-01-25T13:57:52.395Z
+date: 2023-03-16T13:09:52.597Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:22:29.284Z
@@ -17,5 +17,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
