@@ -2,7 +2,7 @@
 title: DuplicateSceneItem
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:48:46.994Z
+date: 2023-03-16T12:31:47.583Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T19:19:00.007Z
@@ -49,6 +49,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#duplicatesceneitem)
 {.btn-grid .my-5}
