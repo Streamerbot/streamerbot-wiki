@@ -2,7 +2,7 @@
 title: Additional Request Info
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-13T23:50:24.618Z
+date: 2023-03-16T11:27:33.201Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T23:02:31.884Z
@@ -10,7 +10,7 @@ dateCreated: 2022-09-01T23:02:31.884Z
 
 This are examples for requests that existed in privious version of the obs websocket{.subtitle}
 
-* [**RefreshBrowserSource *Refresh a browser source***](/en/Broadcasters/OBS/Requests/Additional-Request-Info/RefreshBrowserSource)
+* [**RefreshBrowserSource *Refresh a browser source***](/Broadcasters/OBS/Requests/Additional-Request-Info/RefreshBrowserSource)
 {.btn-grid .my-5}
 
 ---
