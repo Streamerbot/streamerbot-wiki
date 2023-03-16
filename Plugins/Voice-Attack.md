@@ -2,7 +2,7 @@
 title: Voice Attack Plugin
 description: The official Streamer.bot Voice Attack plugin
 published: false
-date: 2023-03-16T13:14:02.739Z
+date: 2023-03-16T13:42:15.213Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T20:25:48.092Z
@@ -22,7 +22,7 @@ This plugin allows you to execute Streamer.bot actions with [Voice Attack](https
 ## Installation
 1. Close down the `StreamDeck` application
 1. Double click the `nate1280.streamerbot.streamDeckPlugin` file that you've downloaded above, this will automatically install the plugin
-3. Make sure that the `Streamer.bot Authentication` field matches your [WebSocket Server](/en/Servers-Clients/WebSocket-Server) settings
+3. Make sure that the `Streamer.bot Authentication` field matches your [WebSocket Server](/Servers-Clients/WebSocket-Server) settings
 
 ![streamdeck-overview.png](/plugins/streamdeck/streamdeck-overview.png =450x)
 
