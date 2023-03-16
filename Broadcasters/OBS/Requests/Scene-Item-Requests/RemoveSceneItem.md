@@ -2,7 +2,7 @@
 title: RemoveSceneItem
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:48:58.982Z
+date: 2023-03-16T12:31:39.931Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T19:15:37.043Z
@@ -42,6 +42,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#removesceneitem)
 {.btn-grid .my-5}
