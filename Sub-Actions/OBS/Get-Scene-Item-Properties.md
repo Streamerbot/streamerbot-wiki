@@ -2,7 +2,7 @@
 title: Get Scene Item Properties
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:45:41.910Z
+date: 2023-03-16T11:45:49.406Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T01:36:29.236Z
@@ -41,7 +41,7 @@ Name | Type | Description
 `props.status` | `String`{.datatype} | The status of the sub-action
 `props.visible` | `Boolean`{.datatype} | If the source is visible
 `props.width` | `Number`{.datatype} | Scene item width (base source width multiplied by the horizontal scaling factor)
-`props.groupChildren[#].<one of these above>` | `mixed`{.datatype} | List of children (if this item is a group)
+`props.groupChildren[#].<one of these above>` | `Mixed`{.datatype} | List of children (if this item is a group)
 `props._json` | `String`{.datatype} | Everything above in a json format
 
 ---
