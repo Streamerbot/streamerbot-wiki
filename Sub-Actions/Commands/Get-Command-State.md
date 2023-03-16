@@ -2,7 +2,7 @@
 title: Get Command State
 description: Commands Sub-Actions Reference
 published: true
-date: 2022-12-04T19:10:20.605Z
+date: 2023-03-16T13:24:59.246Z
 tags: subactions, commands, streamerbot, actions
 editor: markdown
 dateCreated: 2022-05-23T21:53:34.525Z
@@ -30,5 +30,5 @@ Select the command and then click `Ok` and that it you have successfully added t
 
 Name | Description
 ----:|:------------
-| `commandState` | Boolean for command enabled state <br> `True / False`
+`commandState` | Boolean for command enabled state <br> `True / False`
 {.vars-table}
