@@ -2,7 +2,7 @@
 title: Command Cooldown
 description: Commands Triggers Reference
 published: true
-date: 2023-03-14T16:28:49.790Z
+date: 2023-03-16T10:32:00.380Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:24:24.254Z
@@ -35,4 +35,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Commands Triggers Reference *Go Back***](/Triggers/Core/Commands)
+- [<i class="mdi mdi-comment-alert primary--text"></i> **Command Triggered *Up Next***](/Triggers/Core/Commands/Command-Triggered)
 {.btn-grid .my-5}
