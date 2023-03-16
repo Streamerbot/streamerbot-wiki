@@ -2,7 +2,7 @@
 title: C# Compiler
 description: 
 published: true
-date: 2022-08-30T20:26:39.939Z
+date: 2023-03-16T13:17:37.118Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T20:13:40.631Z
@@ -14,5 +14,5 @@ The default C# compiler in **0.1.8** is already very robust and will find its ow
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
