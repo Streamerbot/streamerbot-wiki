@@ -2,7 +2,7 @@
 title: Community Goal
 description: Twitch Events Reference
 published: true
-date: 2022-11-18T01:13:05.701Z
+date: 2023-03-16T13:03:33.727Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-21T05:48:30.807Z
@@ -48,5 +48,5 @@ Unverified variables - Mileage may vary
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
