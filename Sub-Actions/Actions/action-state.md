@@ -2,13 +2,12 @@
 title: Set Action State
 description: Action Sub-Actions Reference
 published: true
-date: 2022-12-04T19:08:36.049Z
+date: 2023-03-16T13:27:31.533Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T21:13:13.618Z
 ---
 
-# Set Action State
 Enables and Disables specific actions 
 
 `Action`	Defines which action group to affect
@@ -16,5 +15,5 @@ Enables and Disables specific actions
 
 ***
 
-> For setting the state of action groups see [Set Action Group State](/en/Sub-Actions/action-group-state)
+> For setting the state of action groups see [Set Action Group State](/Sub-Actions/action-group-state)
 {.is-info}
