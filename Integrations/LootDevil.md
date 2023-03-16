@@ -2,7 +2,7 @@
 title: LootDevil (Deprecated)
 description: Integrate Streamer.bot with the LootDevil webhooks API
 published: false
-date: 2022-10-28T00:43:10.046Z
+date: 2023-03-16T12:54:15.436Z
 tags: integrations, v0.1.11, webhooks, deprecated
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z
@@ -11,7 +11,7 @@ dateCreated: 2022-08-31T01:57:24.360Z
 ## Overview
 [LootDevil](https://lootdevil.com) aims to provide safe and secure wishlists for creators, enabling you to accept gifts from your fans without sharing your name and address.
 
-> This integration requires the [Streamer.bot Website Integration](/en/Integrations/Streamer-bot)
+> This integration requires the [Streamer.bot Website Integration](/Integrations/Streamer-bot)
 {.is-success}
 
 
@@ -54,5 +54,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
