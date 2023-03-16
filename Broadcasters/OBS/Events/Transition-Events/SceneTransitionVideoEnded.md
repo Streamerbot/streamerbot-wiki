@@ -2,7 +2,7 @@
 title: SceneTransitionVideoEnded
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:19:30.026Z
+date: 2023-03-16T12:52:09.638Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T15:46:51.838Z
@@ -11,7 +11,7 @@ dateCreated: 2022-08-08T15:46:51.838Z
 ## Overview
 A scene transition's video has completed fully.
 
-Useful for stinger transitions to tell when the video actually ends. [SceneTransitionEnded](/en/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded) only signifies the cut point, not the completion of transition playback.
+Useful for stinger transitions to tell when the video actually ends. [SceneTransitionEnded](/Broadcasters/OBS/Events/Transition-Events/SceneTransitionEnded) only signifies the cut point, not the completion of transition playback.
 
 Note: Appears to be called by every transition, regardless of relevance.
 
