@@ -2,7 +2,7 @@
 title: Present Viewers
 description: YouTube Events Reference
 published: true
-date: 2023-01-18T20:04:54.607Z
+date: 2023-03-16T13:10:04.053Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-02T17:38:39.040Z
@@ -18,5 +18,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
