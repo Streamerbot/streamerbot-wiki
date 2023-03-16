@@ -2,7 +2,7 @@
 title: Voice Aliases
 description: TwitchSpeaker Documentation
 published: true
-date: 2023-01-20T15:08:30.193Z
+date: 2023-03-16T12:50:28.965Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T23:09:28.414Z
@@ -15,6 +15,6 @@ Here you can create all your voice aliases, they're used as the voice for the TT
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 - [<i class="mdi mdi-format-align-center text--twitch"></i>**General *General and miscellaneous settings.***](/TwitchSpeaker/Settings/General)
 {.btn-grid .my-5}
