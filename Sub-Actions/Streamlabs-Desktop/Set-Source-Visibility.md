@@ -2,11 +2,12 @@
 title: Set Source Visibility
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:49:31.869Z
+date: 2023-03-16T11:49:18.502Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:59:38.761Z
 ---
+
 ## Overview
 Shows or hides a selected source
 
@@ -28,5 +29,5 @@ Checking this option will activate the selected source, unchecking it will hide 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
