@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: true
-date: 2023-02-11T18:38:49.295Z
+date: 2023-03-16T11:55:09.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -49,5 +49,5 @@ Whether the Discord webhook message is Text to Speech or not.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Discord Sub-Actions *Go Back***](/en/Sub-Actions/Discord)
+- [<i class="mdi mdi-chevron-left"></i> **Discord Sub-Actions *Go Back***](/Sub-Actions/Discord)
 {.btn-grid .my-5}
