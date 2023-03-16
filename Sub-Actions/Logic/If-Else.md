@@ -2,7 +2,7 @@
 title: If/Else
 description: Logic Sub-Actions Reference
 published: true
-date: 2022-12-04T19:13:54.541Z
+date: 2023-03-16T13:32:17.835Z
 tags: logic, if, else
 editor: markdown
 dateCreated: 2022-01-09T11:33:31.443Z
@@ -41,5 +41,5 @@ This specifies if the Action should `Continue` or `Break` after performing its n
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/Sub-Actions/Logic)
 {.btn-grid .my-5}
