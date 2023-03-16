@@ -2,7 +2,7 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-10-13T11:10:57.559Z
+date: 2023-03-16T11:54:43.199Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z
@@ -38,5 +38,5 @@ A list of all your lights that you've added with Lumia Stream. If you don't sele
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/en/Sub-Actions/Lumia-Stream)
+- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
