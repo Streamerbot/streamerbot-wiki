@@ -2,7 +2,7 @@
 title: Streaming
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:57:35.599Z
+date: 2023-03-16T11:40:58.240Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:18.153Z
@@ -22,5 +22,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
