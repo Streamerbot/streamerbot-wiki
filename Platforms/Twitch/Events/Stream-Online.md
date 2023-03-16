@@ -2,7 +2,7 @@
 title: Stream Online
 description: Twitch Events Reference
 published: true
-date: 2023-02-07T01:21:46.098Z
+date: 2023-03-16T13:01:03.001Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-13T07:49:38.164Z
@@ -23,5 +23,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
