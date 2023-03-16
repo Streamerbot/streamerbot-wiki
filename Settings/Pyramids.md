@@ -2,7 +2,7 @@
 title: Pyramids
 description: Execute an action when emote pyramids are completed
 published: true
-date: 2022-07-15T18:10:22.558Z
+date: 2023-03-16T13:18:33.976Z
 tags: settings, pyramids
 editor: markdown
 dateCreated: 2021-08-25T21:32:42.610Z
@@ -37,5 +37,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
