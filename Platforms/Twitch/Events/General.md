@@ -2,7 +2,7 @@
 title: General
 description: Twitch Events Reference
 published: true
-date: 2022-08-24T04:32:46.357Z
+date: 2023-03-16T13:03:09.662Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-25T21:31:30.022Z
@@ -136,5 +136,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
