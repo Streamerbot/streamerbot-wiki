@@ -2,7 +2,7 @@
 title: Open
 description: WebSocket Client Triggers Reference
 published: true
-date: 2023-03-16T21:44:03.515Z
+date: 2023-03-16T21:44:22.620Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T21:42:30.447Z
@@ -32,5 +32,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**WebSocket Client Triggers Reference *Go Back***](/Triggers/Core/WebSocket-Client)
+- [<i class="mdi mdi-chevron-left"></i>**Websocket Client Triggers Reference *Go Back***](/Triggers/Core/Websocket-Client)
 {.btn-grid .my-5}
