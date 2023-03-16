@@ -2,7 +2,7 @@
 title: Present Viewers Event
 description: Twitch Events Reference
 published: true
-date: 2023-01-02T21:36:38.183Z
+date: 2023-03-16T13:01:50.054Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:35:31.605Z
@@ -39,5 +39,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
