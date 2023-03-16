@@ -2,7 +2,7 @@
 title: Actions Sub-Actions
 description: Reference of all Action Sub-Actions
 published: true
-date: 2022-12-04T19:25:00.986Z
+date: 2023-03-16T13:21:24.245Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T18:54:22.179Z
@@ -10,10 +10,10 @@ dateCreated: 2022-07-10T18:54:22.179Z
 
 - [**Clear Action Queue *Clear pending actions from a queue***](/Sub-Actions/Actions/Clear-Action-Queue)
 - [**Get Action Group State  *Check Enabled state of all actions in a group***](/Sub-Actions/Actions/action-group-state)
-- [**Get Action State *Check Enabled state of an action***](/en/Sub-Actions/Actions/Get-Action-State)
+- [**Get Action State *Check Enabled state of an action***](/Sub-Actions/Actions/Get-Action-State)
 - [**Run Action *Execute another SB action***](/Sub-Actions/Actions/Do-Action)
 - [**Set Action Group State  *Enable / Disable all actions in a group***](/Sub-Actions/Actions/action-group-state)
-- [**Set Action Queue Pause State *Pause / Resume an action queue***](/en/Sub-Actions/Actions/Set-Action-Queue-Pause-State)
+- [**Set Action Queue Pause State *Pause / Resume an action queue***](/Sub-Actions/Actions/Set-Action-Queue-Pause-State)
 - [**Set Action State *Enable / Disable an action***](/Sub-Actions/Actions/action-state)
 {.btn-grid .my-5}
 
