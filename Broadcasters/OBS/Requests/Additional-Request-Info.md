@@ -2,7 +2,7 @@
 title: Additional Request Info
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T11:27:33.201Z
+date: 2023-03-16T11:27:49.051Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T23:02:31.884Z
@@ -15,5 +15,5 @@ This are examples for requests that existed in privious version of the obs webso
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 {.btn-grid .my-5}
