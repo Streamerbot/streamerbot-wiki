@@ -2,7 +2,7 @@
 title: Discord Basic Webhook
 description: Discord Sub-Action Reference
 published: true
-date: 2023-03-16T11:55:09.248Z
+date: 2023-03-16T13:31:07.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-16T17:08:15.813Z
@@ -39,7 +39,7 @@ role: to get the id go to your server settings > role > right click on the role 
 format to use in the message: `<@&discordRoleId>` e.g. `<@&0123456789>`.
 
 ### Avatar Url
-Here you can optionally fill out an URL to temporarily change the avatar of the webhook to something to your choose, an example use case for this is adding a Chat Message event and using the user's profile image in this field with the [Get User Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target) Sub-Action and then using the `%targetUserProfileImageUrl%` variable.
+Here you can optionally fill out an URL to temporarily change the avatar of the webhook to something to your choose, an example use case for this is adding a Chat Message event and using the user's profile image in this field with the [Get User Info for Target](/Sub-Actions/Twitch/Get-User-Info-for-Target) Sub-Action and then using the `%targetUserProfileImageUrl%` variable.
 
 ### Image
 Optional added images the to webhook message.
