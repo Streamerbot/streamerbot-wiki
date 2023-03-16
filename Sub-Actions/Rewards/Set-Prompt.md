@@ -2,7 +2,7 @@
 title: Set Prompt
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T12:05:34.853Z
+date: 2023-03-16T13:35:32.697Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:02:11.199Z
@@ -20,7 +20,7 @@ Select the reward.
 ### Prompt
 Enter the text to apply to your reward prompt.
 
-This input field can span multiple lines and will also accept [variables](/en/Variables)
+This input field can span multiple lines and will also accept [variables](/Variables)
 
 ### Reset to Original
 Reset the reward prompt to it's original value.
