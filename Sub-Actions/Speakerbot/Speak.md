@@ -2,7 +2,7 @@
 title: Speak
 description: How to pair up Streamer.bot and Twitch Speaker
 published: true
-date: 2023-03-16T11:50:47.608Z
+date: 2023-03-16T11:51:02.455Z
 tags: twitch, tts, speak, voice
 editor: markdown
 dateCreated: 2022-03-03T03:27:48.570Z
@@ -16,11 +16,11 @@ To do this select an Action you want to have this type of interactivity included
 
 ![speaker_options_.png](/twitchspeaker/speaker_options_.png =300x)
 
-In this dialog box you will need to complete in order for streamer bot to pass data through to the Twitch Speaker application starting from the top is `Voice Alias` you will need to input a `Voice Alias` to tell the TTS what voice to use so for this example I’m going to use the default alias this can be found in the [Twitch Speaker Application](https://streamer.bot). Open your Twitch Speaker application once loaded, click the `Settings ` tab and then click the `General` tab if it is not displayed already. It should look like this.
+In this dialog box you will need to complete in order for streamer bot to pass data through to the Twitch Speaker application starting from the top is `Voice Alias` you will need to input a `Voice Alias` to tell the TTS what voice to use so for this example I’m going to use the default alias this can be found in the [Speaker.bot Application](https://streamer.bot). Open your Twitch Speaker application once loaded, click the `Settings ` tab and then click the `General` tab if it is not displayed already. It should look like this.
 
 ![twitch_speaker_application.png](/twitchspeaker/twitch_speaker_application.png =700x)
 
-in this window look for the `Default Voice Alias` drop down and you will see the name of the Default voice remember this name as you will need to input this name into the Streamer.Bot Twitch Speaker dialog box. Next if you so choose you can pass the message through the bad word filter in the Twitch Speaker application if you would like this to happen the please check the box next to this option.
+in this window look for the `Default Voice Alias` drop down and you will see the name of the Default voice remember this name as you will need to input this name into the Streamer.Bot Twitch Speaker dialog box. Next if you so choose you can pass the message through the bad word filter in the Speaker.bot application if you would like this to happen the please check the box next to this option.
 
 Last step is the message box. You can either hard write the message in the box or pass a variable containing the message or even both. It’s up to you. Click the `Test` button for a preview, when you're happy with it click the `OK `button then `Save Setting & Viewers` button on the bot and you’re ready to go.  
 
