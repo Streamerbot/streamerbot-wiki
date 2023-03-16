@@ -2,7 +2,7 @@
 title: Flip Source
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:48:10.756Z
+date: 2023-03-16T11:42:24.350Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:18.885Z
@@ -29,5 +29,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
