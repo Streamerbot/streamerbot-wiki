@@ -2,7 +2,7 @@
 title: Credits
 description: 
 published: true
-date: 2022-07-09T19:58:59.684Z
+date: 2023-03-16T13:17:03.187Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:30.409Z
@@ -114,5 +114,5 @@ When sending the above request to `CPH` you will get back a response that is fil
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
