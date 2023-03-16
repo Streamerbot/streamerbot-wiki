@@ -2,7 +2,7 @@
 title:  Charity
 description: Twitch Events Reference
 published: true
-date: 2022-12-27T13:16:59.157Z
+date: 2023-03-16T13:03:58.715Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-09-26T15:58:17.808Z
@@ -90,5 +90,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
