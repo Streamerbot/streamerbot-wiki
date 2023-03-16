@@ -2,14 +2,13 @@
 title: Set Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2022-12-06T16:00:10.570Z
+date: 2023-03-16T13:33:01.504Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:56:41.484Z
 ---
 
 ## Overview
-
 ![logic-global-set.png](/logic-global-set.png)
 
 ## Configuration
@@ -21,7 +20,7 @@ This sub-action stores data in one of the `Global` data stores, valid options ar
 User Context | Description
 -----|-----
 `Redeemer`| Store data for the user activating the action
-`Target`| Store data for the current `targetUser` - Used in conjunction with the [Get Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target) sub-action
+`Target`| Store data for the current `targetUser` - Used in conjunction with the [Get Info for Target](/Sub-Actions/Twitch/Get-User-Info-for-Target) sub-action
 
 ### Persisted
 
@@ -46,6 +45,6 @@ Mode | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
-- [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Next Up***](/en/Sub-Actions/Logic/Get-Global-Variable)
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/Sub-Actions/Logic)
+- [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Next Up***](/Sub-Actions/Logic/Get-Global-Variable)
 {.btn-grid .my-5}
