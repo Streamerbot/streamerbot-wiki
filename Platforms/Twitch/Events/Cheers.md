@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Events Reference
 published: true
-date: 2022-11-08T20:50:14.834Z
+date: 2023-03-16T13:03:43.085Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -75,5 +75,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
