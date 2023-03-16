@@ -2,7 +2,7 @@
 title: Hosts
 description: Twitch Events Reference
 published: false
-date: 2022-10-29T17:36:33.904Z
+date: 2023-03-16T13:02:37.011Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2022-01-03T14:45:31.132Z
@@ -33,5 +33,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
