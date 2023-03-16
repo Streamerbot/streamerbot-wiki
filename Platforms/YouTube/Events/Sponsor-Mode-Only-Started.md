@@ -2,7 +2,7 @@
 title: Sponsor Mode Only Started
 description: YouTube Events Reference
 published: true
-date: 2022-11-14T23:01:08.037Z
+date: 2023-03-16T13:10:14.040Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:18:21.213Z
@@ -16,5 +16,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
