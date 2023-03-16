@@ -2,14 +2,14 @@
 title: Discord
 description: Integrate Streamer.bot with the Discord webhooks
 published: true
-date: 2022-12-22T16:12:12.836Z
+date: 2023-03-16T12:53:26.683Z
 tags: webhooks, v0.1.14, discord
 editor: markdown
 dateCreated: 2022-09-27T10:35:28.047Z
 ---
 
 ## Quick Links
-- [<i class="mdi mdi-lightning-bolt-outline text--discord"></i> **Discord Sub-Action Reference *Click here for the full list of all Discord sub-actions***](/en/Sub-Actions/Discord)
+- [<i class="mdi mdi-lightning-bolt-outline text--discord"></i> **Discord Sub-Action Reference *Click here for the full list of all Discord sub-actions***](/Sub-Actions/Discord)
 {.btn-grid .my-5}
 
 ## Overview
@@ -30,5 +30,5 @@ With [Discord](https://discord.com) webhooks you can send messages to your Disco
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
