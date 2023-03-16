@@ -2,7 +2,7 @@
 title: GetOutputList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:53:26.141Z
+date: 2023-03-16T12:34:29.777Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T14:15:24.931Z
@@ -41,6 +41,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getoutputlist)
 {.btn-grid .my-5}
