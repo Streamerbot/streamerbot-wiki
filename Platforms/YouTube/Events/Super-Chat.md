@@ -2,7 +2,7 @@
 title: Super Chat
 description: YouTube Events Reference
 published: true
-date: 2022-12-09T09:28:34.669Z
+date: 2023-03-16T13:10:24.480Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-29T22:13:07.455Z
@@ -21,5 +21,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/en/Platforms/YouTube/Events)
+- [<i class="mdi mdi-chevron-left"></i>**YouTube Events *Go Back***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
