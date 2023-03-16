@@ -2,7 +2,7 @@
 title: Sub Counter
 description: Maintain persistent sub-counter variables
 published: true
-date: 2022-07-15T18:21:39.577Z
+date: 2023-03-16T13:18:54.620Z
 tags: settings
 editor: markdown
 dateCreated: 2021-11-14T21:08:19.940Z
@@ -10,7 +10,7 @@ dateCreated: 2021-11-14T21:08:19.940Z
 
 ## Overview
 
-The Sub Counter will increment a persisted [variable](/en/Variables) every time a sub is received and save the result to a specified file.
+The Sub Counter will increment a persisted [variable](/Variables) every time a sub is received and save the result to a specified file.
 
 ![sub-counter2.png](/sub-counter2.png)
 
@@ -32,7 +32,7 @@ Select the file/location to save sub-counter data
 ### Output Text
 Enter the text to output to the selected file.
 
-This input supports [variables](/en/Variables)
+This input supports [variables](/Variables)
 
 ## Variables
 
@@ -46,5 +46,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
