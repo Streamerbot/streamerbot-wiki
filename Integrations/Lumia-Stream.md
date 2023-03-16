@@ -2,7 +2,7 @@
 title: Lumia Stream
 description: Control your lights!
 published: true
-date: 2022-09-12T15:30:06.648Z
+date: 2023-03-16T12:54:54.941Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T16:10:41.072Z
@@ -10,7 +10,7 @@ dateCreated: 2022-08-25T16:10:41.072Z
 
 ## Quick Links
 
-- [<i class="mdi mdi-lightning-bolt-outline" style="color: #ff4566;"></i> **Lumia Stream Sub-Action Reference *Click here for the full list of all Lumia Stream sub-actions***](/en/Sub-Actions/Lumia-Stream)
+- [<i class="mdi mdi-lightning-bolt-outline" style="color: #ff4566;"></i> **Lumia Stream Sub-Action Reference *Click here for the full list of all Lumia Stream sub-actions***](/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
 
 ## Overview
@@ -41,5 +41,5 @@ These checkboxes are recommended to be marked:
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/en/Integrations)
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
 {.btn-grid .my-5}
