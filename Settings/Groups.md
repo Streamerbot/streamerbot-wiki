@@ -2,7 +2,7 @@
 title: Groups
 description: 
 published: true
-date: 2022-08-30T20:20:23.551Z
+date: 2023-03-16T13:18:21.664Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:38.641Z
@@ -42,5 +42,5 @@ Other features may be made bot group aware in future releases
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
