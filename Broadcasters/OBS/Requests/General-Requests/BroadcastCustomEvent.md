@@ -2,7 +2,7 @@
 title: BroadcastCustomEvent
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-02T02:33:15.090Z
+date: 2023-03-16T12:04:34.468Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:24:52.588Z
@@ -44,6 +44,6 @@ CPH.ObsSendRaw("BroadcastCustomEvent", "{'eventData': { '': '' }}", 0);
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#broadcastcustomevent)
 {.btn-grid .my-5}
