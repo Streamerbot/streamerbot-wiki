@@ -2,7 +2,7 @@
 title: Raids
 description: Twitch Events Reference
 published: true
-date: 2023-03-13T19:20:18.377Z
+date: 2023-03-16T13:01:27.855Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-03T14:40:22.386Z
@@ -59,5 +59,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
