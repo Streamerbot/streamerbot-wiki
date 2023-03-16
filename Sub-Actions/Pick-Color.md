@@ -2,7 +2,7 @@
 title: Pick Color
 description: General Sub-Actions Reference
 published: true
-date: 2022-12-04T19:14:43.067Z
+date: 2023-03-16T11:59:38.312Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T20:36:22.012Z
@@ -40,6 +40,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-numeric primary--text"></i>**Get Random Number *Populate a variable with a random number***](/en/Sub-Actions/Get-Random-Number)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-numeric primary--text"></i>**Get Random Number *Populate a variable with a random number***](/Sub-Actions/Get-Random-Number)
 {.btn-grid .my-5}
