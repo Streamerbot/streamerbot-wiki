@@ -2,7 +2,7 @@
 title: Set Image Source File
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-19T15:01:34.132Z
+date: 2023-03-16T11:42:47.150Z
 tags: twitch, obs, youtube, image
 editor: markdown
 dateCreated: 2022-05-17T00:21:00.986Z
@@ -25,5 +25,5 @@ The new filepath for the media source
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
