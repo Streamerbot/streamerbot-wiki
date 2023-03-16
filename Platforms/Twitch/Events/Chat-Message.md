@@ -2,7 +2,7 @@
 title: Chat Message
 description: Twitch Events Reference
 published: true
-date: 2023-02-15T18:11:21.909Z
+date: 2023-03-16T13:03:49.778Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:28:11.564Z
@@ -38,5 +38,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
