@@ -2,7 +2,7 @@
 title: Hide Source's Filters
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:23:22.149Z
+date: 2023-03-16T11:46:02.852Z
 tags: twitch, obs, slobs
 editor: markdown
 dateCreated: 2022-03-19T16:40:42.314Z
@@ -22,5 +22,5 @@ You can choose between all your sources here.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
