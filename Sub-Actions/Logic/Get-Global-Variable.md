@@ -2,7 +2,7 @@
 title: Get Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2022-12-06T16:00:54.082Z
+date: 2023-03-16T13:32:03.187Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:54:26.112Z
@@ -23,7 +23,7 @@ Global variables can be stored with or without an associated `userID`
 User Context | Description
 -----|-----
 `Redeemer`|Pull the information for the user activating the action
-`Target`|Pull the information for the current `targetUser` - Used in conjunction with the [Get Info for Target](/en/Sub-Actions/Twitch/Get-User-Info-for-Target) sub-action
+`Target`|Pull the information for the current `targetUser` - Used in conjunction with the [Get Info for Target](/Sub-Actions/Twitch/Get-User-Info-for-Target) sub-action
 
 
 ### Persisted
@@ -47,6 +47,6 @@ If the specified `Global` / `User` variable does not exist for that context, the
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/en/Sub-Actions/Logic)
-- [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Next Up***](/en/Sub-Actions/Logic/Set-Global-Variable)
+- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/Sub-Actions/Logic)
+- [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Next Up***](/Sub-Actions/Logic/Set-Global-Variable)
 {.btn-grid .my-5}
