@@ -2,7 +2,7 @@
 title: Shop Order
 description: Ko-Fi Triggers Reference
 published: true
-date: 2023-03-15T21:12:48.715Z
+date: 2023-03-16T11:08:52.922Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T21:12:48.715Z
@@ -33,4 +33,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Ko-Fi Triggers Reference *Go Back***](/Triggers/Ko-Fi)
+- [<i class="mdi mdi-account primary--text"></i> **Subscription *Next Up***](/Triggers/Ko-Fi/Subscription)
 {.btn-grid .my-5}
