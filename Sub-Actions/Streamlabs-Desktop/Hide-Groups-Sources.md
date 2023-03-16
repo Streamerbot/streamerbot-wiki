@@ -2,7 +2,7 @@
 title: Hide Group's Sources
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T11:48:50.958Z
+date: 2023-03-16T13:36:53.988Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:53:29.517Z
@@ -15,7 +15,7 @@ This will set the source visibilty for all sources in a defined group to `Inacti
 
 ## Configuration
 ### Connection
-Any SLOBS connections you have configured in the [SLOBS](/SLOBS) tab will be listed to choose from
+Any SLOBS connections you have configured in the [Streamlabs Desktop](/Broadcasters/StreamlabsDesktop) tab will be listed to choose from
 
 ### Scene
 If the selected SLOBS connection is currently connected, a dropdown list of available scenes will populate for selection, otherwise the scene name can be entered manually.
@@ -25,7 +25,7 @@ If the selected SLOBS connection is currently connected, a dropdown list of avai
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
 
 ---
