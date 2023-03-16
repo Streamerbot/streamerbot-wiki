@@ -2,7 +2,7 @@
 title: Sounds Sub-Actions
 description: Reference of all Sounds Sub-Actions
 published: true
-date: 2022-10-18T00:32:42.756Z
+date: 2023-03-16T12:00:06.274Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-23T22:36:07.705Z
@@ -15,12 +15,12 @@ Streamer.bot has the capability of playing sounds directly from the application,
 
 You can choose a specific sound file to play or specify a folder and have the bot pick one at random.
 
-* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](/en/Sub-Actions/Sounds/Play-Sound)
-* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound From Folder *Play a sound file from a folder***](/en/Sub-Actions/Sounds/Play-Sounds-From-Folder)
+* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound *Play a sound file on your computer***](/Sub-Actions/Sounds/Play-Sound)
+* [<i class="mdi mdi-volume-high primary--text"></i>**Play Sound From Folder *Play a sound file from a folder***](/Sub-Actions/Sounds/Play-Sounds-From-Folder)
 {.btn-grid .my-5}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Sub-actions reference for managing Voice Control commands***](/en/Sub-Actions/Voice-Control)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Sub-actions reference for managing Voice Control commands***](/Sub-Actions/Voice-Control)
 {.btn-grid .my-5}
