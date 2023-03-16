@@ -2,7 +2,7 @@
 title: Streaming
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:49:44.994Z
+date: 2023-03-16T11:48:42.568Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T13:00:38.601Z
@@ -15,5 +15,5 @@ Signal the defined SLOBS connection to `Start` or `Stop` a streaming session to 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
