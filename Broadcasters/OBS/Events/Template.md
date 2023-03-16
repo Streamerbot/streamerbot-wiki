@@ -2,14 +2,14 @@
 title: Template
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2022-10-29T22:19:59.846Z
+date: 2023-03-16T11:33:29.131Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z
 ---
 
 ## Overview
-DESCRIPTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+DESCRIPTION
 
 ## Variables
 Name | Type | Description | 
@@ -26,5 +26,5 @@ Name | Type | Description |
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**OBS Studio Events Reference *Go Back***](/Broadcasters/OBS/Events)
-- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#INSERTTHENAMEHEREPLEASEDPNTFORGETITIK1497PLEASEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)
+- [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#INSERTHASHHERE)
 {.btn-grid my-5}
