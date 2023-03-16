@@ -2,7 +2,7 @@
 title: Get Status
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-28T00:17:37.693Z
+date: 2023-03-16T11:41:15.343Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:29:58.608Z
@@ -23,5 +23,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
