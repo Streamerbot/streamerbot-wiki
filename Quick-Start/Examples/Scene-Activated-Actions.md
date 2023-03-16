@@ -2,7 +2,7 @@
 title: Quick Start - Scene Activated Actions
 description: Perform actions when changing scenes
 published: false
-date: 2022-08-18T12:57:03.008Z
+date: 2023-03-16T13:15:48.363Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T18:26:07.707Z
@@ -16,7 +16,7 @@ dateCreated: 2022-08-07T18:26:07.707Z
 
 ## Guide
 
-For this to work you need to use the OBS event `SwitchScenes`
+For this to work you need to use the OBS event `CurrentProgramSceneChanged`
 
 ![obs-event-tab-switchscenes.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes.jpg =700x)
 ![obs-event-tab-switchscenes-zoomed.jpg](/quick-start/scene-activated-actions-example/obs-event-tab-switchscenes-zoomed.jpg =700x)
@@ -43,7 +43,7 @@ In the actions you can have a lot of things, in the tutorial the are some `Twitc
 if ("obsEvent.scene-name" Equals "Main") do "Enable Channel Points" then break"
 if ("obsEvent.scene-name" Equals "BRB") do "Disable Channel Points" then break"
 ```
-This `disable`/`enable` channel points you can check [this](/en/Quick-Start/Examples/Disable-Enable-Channel-Points)
+This `disable`/`enable` channel points you can check [this](/Quick-Start/Examples/Disable-Enable-Channel-Points)
 
 ---
 ### Solution 2 - C# Option
@@ -54,7 +54,7 @@ OBS Get Current Scene
 Execute Code (C#)
 ```
 **This is the C# code you will need.**
-```cs
+```csharp
 using System;
 
 public class CPHInline
@@ -78,7 +78,7 @@ Daan - Tutorials{.overline}
   
 <span></span>
 
-<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/9ZuO3KrbvRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+<div class=“iframe-container”><iframe src="https://www.youtube.com/embed/Mlxox0KgyWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
 
 </div>
   <div>
