@@ -2,7 +2,7 @@
 title: GetMonitorList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-01T00:00:52.188Z
+date: 2023-03-16T12:43:01.428Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T18:29:40.159Z
@@ -34,6 +34,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getmonitorlist)
 {.btn-grid .my-5}
