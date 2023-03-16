@@ -2,7 +2,7 @@
 title: Flip Source
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:49:38.174Z
+date: 2023-03-16T11:48:46.885Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:51:33.260Z
@@ -33,5 +33,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
