@@ -2,7 +2,7 @@
 title: Quotes
 description: Configure Streamer.bot's built in !quote command
 published: true
-date: 2022-07-15T18:23:44.009Z
+date: 2023-03-16T13:18:43.199Z
 tags: commands, settings, quotes
 editor: markdown
 dateCreated: 2021-08-25T21:32:14.446Z
@@ -54,5 +54,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
