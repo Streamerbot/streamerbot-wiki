@@ -2,19 +2,18 @@
 title: Get Command Group State
 description: Commands Sub-Actions Reference
 published: true
-date: 2022-12-04T19:10:19.380Z
+date: 2023-03-16T13:24:05.521Z
 tags: subactions, commands
 editor: markdown
 dateCreated: 2022-07-15T18:48:11.947Z
 ---
 
-##  Variables
-
+## Variables
 The following variables will be available after execution of this sub-action:
 
 Name | Description
 ----:|:------------
-| `commandGroupState` | Boolean for command group enabled state <br> `True / False`
-| `commandsEnabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled |
-| `commandsDisabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled |
+`commandGroupState` | Boolean for command group enabled state <br> `True / False`
+`commandsEnabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled
+`commandsDisabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled
 {.vars-table}
