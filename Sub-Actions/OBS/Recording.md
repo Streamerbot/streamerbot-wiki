@@ -2,7 +2,7 @@
 title: Recording
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-07T08:45:10.656Z
+date: 2023-03-16T11:40:45.159Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:42.180Z
@@ -24,5 +24,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
