@@ -2,7 +2,7 @@
 title: SetCurrentPreviewScene
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:22:53.342Z
+date: 2023-03-16T12:14:26.464Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T12:56:54.884Z
@@ -39,6 +39,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#setcurrentpreviewscene)
 {.btn-grid .my-5}
