@@ -2,7 +2,7 @@
 title: User Interface
 description: 
 published: true
-date: 2022-07-09T19:59:27.561Z
+date: 2023-03-16T13:19:10.522Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-14T20:59:45.133Z
@@ -23,5 +23,5 @@ The tab order on each level can be changed by dragging the tab to the desired po
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
