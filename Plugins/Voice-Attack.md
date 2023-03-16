@@ -2,7 +2,7 @@
 title: Voice Attack Plugin
 description: The official Streamer.bot Voice Attack plugin
 published: false
-date: 2022-10-02T20:31:25.878Z
+date: 2023-03-16T13:14:02.739Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-02T20:25:48.092Z
@@ -17,7 +17,7 @@ dateCreated: 2022-10-02T20:25:48.092Z
 ## Overview
 This plugin allows you to execute Streamer.bot actions with [Voice Attack](https://voiceattack.com/)
 
-**Make sure that the that the [UDP Server](/en/Servers-Clients/UDP-Server) is enabled in streamer.bot**
+**Make sure that the that the [UDP Server](/Servers-Clients/UDP-Server) is enabled in streamer.bot**
 
 ## Installation
 1. Close down the `StreamDeck` application
@@ -28,6 +28,6 @@ This plugin allows you to execute Streamer.bot actions with [Voice Attack](https
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/en/Plugins)
-- [<i class="mdi mdi-table"></i> **Streamer.bot Decks *Next Up***](https://wiki.streamer.bot/en/Extended-Features/HTML-Decks)
+- [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/Plugins)
+- [<i class="mdi mdi-table"></i> **Streamer.bot Decks *Next Up***](/Extended-Features/HTML-Decks)
 {.btn-grid .my-5}
