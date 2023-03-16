@@ -2,7 +2,7 @@
 title: Merch
 description: StreamElements Triggers Reference
 published: true
-date: 2023-03-15T21:12:02.880Z
+date: 2023-03-16T11:14:20.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:26:58.297Z
@@ -34,4 +34,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**StreamElements Triggers Reference *Go Back***](/Triggers/StreamElements)
+- [<i class="mdi mdi-cash primary--text"></i> **Tip *Next Up***](/Triggers/StreamElements/Tip)
 {.btn-grid .my-5}
