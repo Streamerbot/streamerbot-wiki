@@ -2,7 +2,7 @@
 title: Donation
 description: Ko-Fi Triggers Reference
 published: true
-date: 2023-03-15T21:07:49.317Z
+date: 2023-03-16T11:08:13.277Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T21:07:49.317Z
@@ -28,4 +28,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Ko-Fi Triggers Reference *Go Back***](/Triggers/Ko-Fi)
+- [<i class="mdi mdi-account-reactivate primary--text"></i> **Resubscription *Next Up***](/Triggers/Ko-Fi/Resubscription)
 {.btn-grid .my-5}
