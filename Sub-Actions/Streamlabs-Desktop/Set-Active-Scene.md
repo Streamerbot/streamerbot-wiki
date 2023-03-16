@@ -2,7 +2,7 @@
 title: Set Active Scene
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:48:40.471Z
+date: 2023-03-16T11:49:25.219Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:56:17.628Z
@@ -21,5 +21,5 @@ If the selected SLOBS connection is currently connected, a dropdown list of avai
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
