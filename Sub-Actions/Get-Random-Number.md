@@ -2,7 +2,7 @@
 title: Get Random Number
 description: General Sub-Actions Reference
 published: true
-date: 2022-12-04T19:12:38.633Z
+date: 2023-03-16T11:58:13.744Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T02:13:10.625Z
@@ -33,6 +33,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-code-braces primary--text"></i>**Code *Custom code actions***](/en/Sub-Actions/Code)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-code-braces primary--text"></i>**Code *Custom code actions***](/Sub-Actions/Code)
 {.btn-grid .my-5}
