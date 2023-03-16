@@ -2,7 +2,7 @@
 title: Timed Actions
 description: 
 published: true
-date: 2023-03-16T07:03:32.995Z
+date: 2023-03-16T13:19:03.511Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:26.506Z
@@ -47,5 +47,5 @@ To unassign all action press the `Clear` button
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
