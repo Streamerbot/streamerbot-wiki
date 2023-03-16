@@ -2,11 +2,12 @@
 title: Rotate Source
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2022-07-20T20:48:33.814Z
+date: 2023-03-16T11:48:54.985Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:55:40.989Z
 ---
+
 ## Overview
 Sets the rotation tranformation angle of a source to the specified angle
 
@@ -35,5 +36,5 @@ By default this is an `Absolute` angle with 0 being normal rotation, valid range
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/en/Sub-Actions/Streamlabs-Desktop)
+- [<i class="mdi mdi-chevron-left"></i> **Streamlabs Desktop Sub-Actions *Go Back***](/Sub-Actions/Streamlabs-Desktop)
 {.btn-grid .my-5}
