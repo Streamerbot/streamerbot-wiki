@@ -2,7 +2,7 @@
 title: Get Quote
 description: General Sub-Actions Reference
 published: true
-date: 2023-02-12T14:06:11.477Z
+date: 2023-03-16T11:58:08.024Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:26.393Z
@@ -32,6 +32,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-keyboard-close primary--text"></i>**Keyboard Press *Simulate keystrokes***](/en/Sub-Actions/Keyboard-Press)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-keyboard-close primary--text"></i>**Keyboard Press *Simulate keystrokes***](/Sub-Actions/Keyboard-Press)
 {.btn-grid .my-5}
