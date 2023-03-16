@@ -2,7 +2,7 @@
 title: Stream Deck Plugin
 description: The official Streamer.bot plugin for Elgato Stream Deck
 published: true
-date: 2023-03-16T13:11:44.176Z
+date: 2023-03-16T13:41:30.697Z
 tags: plugins, stream-deck
 editor: markdown
 dateCreated: 2022-08-13T20:20:57.000Z
@@ -15,7 +15,7 @@ dateCreated: 2022-08-13T20:20:57.000Z
 ***
 
 ## Overview
-This plugin allows you to execute Streamer.bot actions from your [Elgato Stream Deck](https://www.elgato.com/en/stream-deck)
+This plugin allows you to execute Streamer.bot actions from your [Elgato Stream Deck](https://www.elgato.com/stream-deck)
 
 This is more of a proof of concept then a fully realized plugin, while it does work, it was thrown together very quickly, and I'm sure there are better ways to do what it does, and also to add more features/capabilities
 
@@ -31,6 +31,6 @@ This is more of a proof of concept then a fully realized plugin, while it does w
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/en/Plugins)
+- [<i class="mdi mdi-chevron-left"></i>**Streamer.bot External Plugins *Go Back***](/Plugins)
 - [<i class="mdi mdi-table"></i> **Streamer.bot Decks *Next Up***](/Extended-Features/HTML-Decks)
 {.btn-grid .my-5}
