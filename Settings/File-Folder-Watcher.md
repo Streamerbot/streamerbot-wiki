@@ -2,7 +2,7 @@
 title: File/Folder Watcher
 description: 
 published: true
-date: 2023-03-16T07:00:04.973Z
+date: 2023-03-16T13:17:47.190Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:58.151Z
@@ -66,5 +66,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
