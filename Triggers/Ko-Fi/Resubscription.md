@@ -2,7 +2,7 @@
 title: Resubscription
 description: Ko-Fi Triggers Reference
 published: true
-date: 2023-03-15T21:08:58.419Z
+date: 2023-03-16T11:08:34.073Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T21:08:58.419Z
@@ -29,4 +29,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Ko-Fi Triggers Reference *Go Back***](/Triggers/Ko-Fi)
+- [<i class="mdi mdi-store primary--text"></i> **Shop Order *Next Up***](/Triggers/Ko-Fi/Shop-Order)
 {.btn-grid .my-5}
