@@ -2,7 +2,7 @@
 title: IFTTT Notification (Advanced)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-01-13T17:30:11.937Z
+date: 2023-03-16T11:55:39.141Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T18:10:28.578Z
@@ -35,6 +35,6 @@ Additionally, all arguments will be made available as JSON in the `ArgumentsJson
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/en/Sub-Actions/IFTTT)
-- [<i class="mdi mdi-android-messages"></i> **IFTTT Notification (Basic) *Up Next***](/en/Sub-Actions/IFTTT/Notification)
+- [<i class="mdi mdi-chevron-left"></i> **IFTTT Sub-Actions *Go Back***](/Sub-Actions/IFTTT)
+- [<i class="mdi mdi-android-messages"></i> **IFTTT Notification (Basic) *Up Next***](/Sub-Actions/IFTTT/Notification)
 {.btn-grid .my-5}
