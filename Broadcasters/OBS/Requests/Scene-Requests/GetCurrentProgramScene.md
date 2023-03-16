@@ -2,7 +2,7 @@
 title: GetCurrentProgramScene
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-08-31T23:23:25.056Z
+date: 2023-03-16T12:13:54.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T00:21:50.186Z
@@ -34,6 +34,6 @@ Added in | *v5.0.0*{.obs-version-badge}
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getcurrentprogramscene)
 {.btn-grid .my-5}
