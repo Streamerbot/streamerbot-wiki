@@ -2,7 +2,7 @@
 title: Replacement
 description: TwitchSpeaker Documentation
 published: true
-date: 2023-01-20T15:07:58.971Z
+date: 2023-03-16T12:50:13.863Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T22:54:32.068Z
@@ -21,6 +21,6 @@ Here you can use regular expressions to change certain parts of the TTS to somet
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/en/TwitchSpeaker)
+- [<i class="mdi mdi-chevron-left"></i>**TwitchSpeaker *Go Back***](/TwitchSpeaker)
 - [<i class="mdi mdi-account-voice text--twitch"></i>**Voice Aliases *Voice groups you need to make with voices for TTS***](/TwitchSpeaker/Settings/Voice-Aliases)
 {.btn-grid .my-5}
