@@ -2,7 +2,7 @@
 title: Set To Default
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-10-13T11:09:32.956Z
+date: 2023-03-16T11:54:37.180Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-30T14:48:43.138Z
@@ -18,5 +18,5 @@ Configure your default state settings in `Default State` `->` `Default Light Sta
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/en/Sub-Actions/Lumia-Stream)
+- [<i class="mdi mdi-chevron-left"></i> **Lumia Stream *Go Back***](/Sub-Actions/Lumia-Stream)
 {.btn-grid .my-5}
