@@ -2,7 +2,7 @@
 title: Trigger Alert
 description: PolyPop Sub-Actions Reference
 published: true
-date: 2022-10-17T17:18:37.780Z
+date: 2023-03-16T13:34:55.559Z
 tags: subactions, polypop
 editor: markdown
 dateCreated: 2022-06-27T21:28:06.392Z
@@ -51,5 +51,5 @@ You have successfully linked Streamer.bot to PolyPop and configured the trigger 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)
 {.btn-grid .my-5}
