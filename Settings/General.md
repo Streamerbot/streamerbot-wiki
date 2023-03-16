@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2023-03-16T07:04:31.114Z
+date: 2023-03-16T13:17:54.601Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:34.610Z
@@ -50,5 +50,5 @@ Volume can be overridden on a per sub-action basis if needed
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/en/Settings)
+- [<i class="mdi mdi-chevron-left"></i> **Settings *Go Back***](/Settings)
 {.btn-grid .my-5}
