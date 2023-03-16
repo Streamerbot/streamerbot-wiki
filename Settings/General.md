@@ -2,22 +2,19 @@
 title: General
 description: 
 published: true
-date: 2022-09-05T15:40:46.156Z
+date: 2023-03-16T07:04:31.114Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:34.610Z
 ---
 
-*v0.1.0 - v0.1.7*{.version-badge} | *v0.1.8+*{.version-badge}
----|---
-![Settings General](/130132575-9efb23f4-d56f-4c6f-ba21-985ccefda2e9.png)|![settings-general-018.png](/settings-general-018.png)
+![settings-general-018.png](/settings-general-018.png)
 
 
 ## Action Queues
 
 *v0.1.8+*{.version-badge}
 
-> **INFO**
 > [Action Queues](/en/Action-Queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
 {.is-info}
 
