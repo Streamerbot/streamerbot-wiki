@@ -2,7 +2,7 @@
 title: Set Active Scene
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:31:10.512Z
+date: 2023-03-16T11:45:59.767Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:10.870Z
@@ -21,5 +21,5 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
