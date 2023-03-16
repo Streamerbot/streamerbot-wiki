@@ -2,7 +2,7 @@
 title: SetInputName
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2022-09-02T02:32:12.425Z
+date: 2023-03-16T12:16:05.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:20:18.286Z
@@ -44,6 +44,6 @@ CPH.ObsSendRaw("SetInputName", "{'inputName': '', 'newInputName': ''}", 0);
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/en/Broadcasters/OBS/Requests)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Studio Requests Reference *Go Back***](/Broadcasters/OBS/Requests)
 - [<i class="mdi mdi-github"></i> **OBS WebSocket Documentation *GitHub documentation for this request***](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#setinputname)
 {.btn-grid .my-5}
