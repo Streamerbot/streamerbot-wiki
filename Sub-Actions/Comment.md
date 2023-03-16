@@ -2,7 +2,7 @@
 title: Comment
 description: General Sub-Actions Reference
 published: true
-date: 2022-12-04T19:09:03.885Z
+date: 2023-03-16T11:56:20.618Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:35:07.851Z
@@ -19,6 +19,6 @@ How it looks in your sub-actions
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/en/Sub-Actions)  
-- [<i class="mdi mdi-timelapse primary--text"></i>**Delay *Delay the next sub-action***](/en/Sub-Actions/Delay)
+- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)  
+- [<i class="mdi mdi-timelapse primary--text"></i>**Delay *Delay the next sub-action***](/Sub-Actions/Delay)
 {.btn-grid .my-5}
