@@ -2,7 +2,7 @@
 title: Show
 description: Quote Triggers Reference
 published: true
-date: 2023-03-15T22:22:17.470Z
+date: 2023-03-16T11:05:40.127Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:22:17.470Z
@@ -26,4 +26,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Quote Triggers Reference *Go Back***](/Triggers/Core/Quote)
+- [<i class="mdi mdi-comment-quote primary--text"></i> **Added *Mext Up***](/Triggers/Core/Quote/Added)
 {.btn-grid .my-5}
