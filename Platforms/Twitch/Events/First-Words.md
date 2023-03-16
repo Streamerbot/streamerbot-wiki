@@ -2,7 +2,7 @@
 title: First Words
 description: Twitch Events Reference
 published: true
-date: 2022-12-18T18:40:06.563Z
+date: 2023-03-16T13:03:23.668Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-18T18:40:06.563Z
@@ -33,5 +33,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/en/Platforms/Twitch/Events)
+- [<i class="mdi mdi-chevron-left"></i>**Twitch Events *Go Back***](/Platforms/Twitch/Events)
 {.btn-grid .my-5}
