@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2023-03-16T13:17:54.601Z
+date: 2023-03-16T13:18:02.091Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:32:34.610Z
@@ -15,13 +15,13 @@ dateCreated: 2021-08-25T21:32:34.610Z
 
 *v0.1.8+*{.version-badge}
 
-> [Action Queues](/en/Action-Queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
+> [Action Queues](/Action-Queues) have been moved to their own top-level tab in 0.1.8 and have a complete UI overhaul. Click the link for more information
 {.is-info}
 
 
 *v0.1.0 - v0.1.7*{.version-badge}
 
-All **[Actions](/en/Actions)** defined in Streamerbot must be assigned to an `Action Queue`
+All **[Actions](/Actions)** defined in Streamerbot must be assigned to an `Action Queue`
 
 By default all actions will trigger immediately but if actions have a duration this may lead to multiple actions happening simultaneously.
 
