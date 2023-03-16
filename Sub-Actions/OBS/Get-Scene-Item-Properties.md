@@ -2,7 +2,7 @@
 title: Get Scene Item Properties
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:18:27.906Z
+date: 2023-03-16T11:45:41.910Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T01:36:29.236Z
@@ -46,5 +46,5 @@ Name | Type | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
