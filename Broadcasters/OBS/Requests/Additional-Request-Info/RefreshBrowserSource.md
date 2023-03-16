@@ -2,14 +2,14 @@
 title: RefreshBrowserSource
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:43:25.974Z
+date: 2023-03-16T12:52:43.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T12:19:55.650Z
 ---
 
 ## Overview
-Refresh a browser source with the [PressInputPropertiesButton](/en/Broadcasters/OBS/Requests/Input-Requests/PressInputPropertiesButton) request
+Refresh a browser source with the [PressInputPropertiesButton](/Broadcasters/OBS/Requests/Input-Requests/PressInputPropertiesButton) request
 
 ## Request Fields
 Name | Type | Required| Description |
