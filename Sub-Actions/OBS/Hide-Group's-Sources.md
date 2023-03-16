@@ -2,7 +2,7 @@
 title: Hide Group's Sources
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2022-10-09T13:20:18.207Z
+date: 2023-03-16T11:42:27.804Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:34.433Z
@@ -22,5 +22,5 @@ If the selected OBS connection is currently connected, a dropdown list of availa
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/en/Sub-Actions/OBS)
+- [<i class="mdi mdi-chevron-left"></i> **OBS Studio Sub-Actions *Go Back***](/Sub-Actions/OBS)
 {.btn-grid .my-5}
