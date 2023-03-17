@@ -2,7 +2,7 @@
 title: Shopify
 description: Triggers Reference
 published: true
-date: 2023-03-17T20:41:11.521Z
+date: 2023-03-17T21:07:09.108Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T11:02:49.497Z
@@ -14,5 +14,6 @@ dateCreated: 2023-03-16T11:02:49.497Z
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Triggers Reference *Go Back***](/Triggers)
+- [<i class="mdi mdi-chevron-left"></i> **Triggers Reference *Go Back***](/Triggers)
+- [<img src="/logos/shopify.svg"> **Shopify Documentation *Next Up***](/Integrations/Shopify)
 {.btn-grid .my-5}
