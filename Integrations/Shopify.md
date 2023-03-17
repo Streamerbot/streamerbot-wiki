@@ -2,14 +2,14 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: false
-date: 2023-03-17T21:04:53.557Z
+date: 2023-03-17T21:05:34.373Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
 ---
 
 ## Quick Links
-- [<i class="mdi mdi-creation" style="color: #5E8E3E;"></i> **Shopify Triggers Reference *Click here for the full list of all Shopify triggers and variables***](/Triggers/Shopify/Order-Paid)
+- [<i class="mdi mdi-creation" style="color: #5E8E3E;"></i> **Shopify Triggers Reference *Click here for the full list of all Shopify triggers and variables***](/Triggers/Shopify)
 {.btn-grid .list .my-5}
 
 ## Overview
