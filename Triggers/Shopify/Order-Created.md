@@ -2,7 +2,7 @@
 title: Order Created
 description: Shopify Triggers Reference
 published: true
-date: 2023-03-17T17:31:10.113Z
+date: 2023-03-17T21:10:04.606Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T17:26:06.796Z
@@ -72,5 +72,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Shopify Triggers Reference *Go Back***](/Triggers/Shopify)
-- [<i class="mdi mdi-cash primary--text"></i> **Order Paid *Next Up***](/Triggers/Shopify/Order-Paid)
+- [<i class="mdi mdi-cash" style="color: #5E8E3E;"></i> **Order Paid *Next Up***](/Triggers/Shopify/Order-Paid)
 {.btn-grid .my-5}
