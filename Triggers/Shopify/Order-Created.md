@@ -2,7 +2,7 @@
 title: Order Created
 description: Shopify Triggers Reference
 published: true
-date: 2023-03-17T17:26:48.625Z
+date: 2023-03-17T17:31:10.113Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T17:26:06.796Z
@@ -17,7 +17,7 @@ For a detailed guide about Shopify see [this page](/Integrations/Shopify).
 Name | Description
 ----:|:------------
 `shopify.created_at`| The time the order was paid
-`shopify.event` | The event name, in this case `orders/paid`
+`shopify.event` | The event name, in this case `orders/create`
 `shopify.id` | The shopify id
 `shopify.email` | The email of the customer e.g. `jon@doe.ca`
 `shopify.closed_at` | When the store is closed
