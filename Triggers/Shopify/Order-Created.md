@@ -1,8 +1,8 @@
 ---
 title: Order Created
-description: Patreon Triggers Reference
+description: Shopify Triggers Reference
 published: true
-date: 2023-03-17T17:26:06.796Z
+date: 2023-03-17T17:26:48.625Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T17:26:06.796Z
