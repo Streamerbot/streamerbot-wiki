@@ -2,7 +2,7 @@
 title: Shopify
 description: If you can dream it, you can sell it with Shopify
 published: false
-date: 2023-03-17T21:05:34.373Z
+date: 2023-03-17T21:07:37.921Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-11-14T23:05:03.709Z
@@ -32,3 +32,8 @@ Paste the URL that you've copied from https://streamer.bot/user/settings#shopify
 
 ### Webhook API version
 Use the Latest version
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **All Integrations *Go Back***](/Integrations)
+{.btn-grid .my-5}
