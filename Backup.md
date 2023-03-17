@@ -2,7 +2,7 @@
 title: Restore a Backup
 description: Learn how to restore a backup with Streamer.bot!
 published: true
-date: 2023-02-17T21:41:42.848Z
+date: 2023-03-17T20:35:45.405Z
 tags: backup, restore, corrupt files
 editor: markdown
 dateCreated: 2022-07-16T22:38:01.518Z
@@ -33,5 +33,4 @@ After these steps all your actions, settings, etc. will be returned, enjoy!
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Update Streamer.bot *Go Back***](/Update)
-- [<i class="mdi mdi-speaker text--twitch"></i>**Restore a Backup with TwitchSpeaker*Up Next***](/TwitchSpeaker/Backup)
 {.btn-grid .my-5}
