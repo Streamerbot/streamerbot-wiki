@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-17T17:23:34.994Z
+date: 2023-03-17T20:07:56.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -48,7 +48,7 @@ Triggers for Streamer.bot integrations{.subtitle}
 - [<img src="/ko-fi_icon_rgb_rounded.png"/>**Ko-Fi *Donation events***](/Triggers/Ko-Fi)
 - [<img src="/digital-patreon-logo_coral.png"/>**Patreon *Follow and Pledge events***](/Triggers/Patreon)
 - [<img src="https://streamer.bot/img/integrations/pulsoid.png"/>**Pulsoid *Heartrate events***](/Triggers/Pulsoid)
-- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid***](/Triggers/Shopify){.disabled}
+- [<img src="/logos/shopify.svg"/>**Shopify *Events when orders are Created and Paid***](/Triggers/Shopify)
 - [<img src="https://streamer.bot/img/integrations/streamelements.png"/>**StreamElements *Tip &amp; merch events***](/Triggers/StreamElements)
 - [<img src="https://streamer.bot/img/integrations/streamlabs.png"/>**Streamlabs *Donation &amp; merch events***](/Triggers/Streamlabs)
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donation events***](/Triggers/TipeeeStream)
