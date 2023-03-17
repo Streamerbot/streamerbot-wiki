@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-03-06T08:31:14.713Z
+date: 2023-03-17T13:35:22.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -74,10 +74,14 @@ bool TwitchSendShoutoutByLogin(string userLogin);
 ## Timeouts / Bans
 ```csharp
 bool TwitchBanUser(string userName, string reason = null, bool bot = false);
+
+```csharp
+// This will unban and untimeout users
 bool TwitchUnbanUser(string userName, bool bot = false);
 ```
 
 ```csharp
+// A duration of 0 will result in a ban
 bool TwitchTimeoutUser(string username, int duration, string reason = null, bool bot = false);
 ```
 
