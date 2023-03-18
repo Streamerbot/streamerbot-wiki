@@ -2,7 +2,7 @@
 title: Settings (WIP)
 description: Documentation of the settings menu tabs in Streamer.bot
 published: false
-date: 2023-03-18T20:18:16.925Z
+date: 2023-03-18T20:47:24.813Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T07:08:13.463Z
