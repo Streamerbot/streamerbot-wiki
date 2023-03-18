@@ -2,7 +2,7 @@
 title: Command
 description: Voice Control Triggers Reference
 published: true
-date: 2023-03-14T22:34:14.348Z
+date: 2023-03-18T01:21:37.501Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:34:14.348Z
@@ -35,5 +35,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**File/Folder Watcher Triggers Reference *Go Back***](/Triggers/Core/File-Folder-Watcher)
+- [<i class="mdi mdi-chevron-left"></i>**Voice Control Triggers Reference *Go Back***](/Triggers/Core/Voice-Contral)
 {.btn-grid .my-5}
