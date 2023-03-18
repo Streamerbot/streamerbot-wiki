@@ -2,7 +2,7 @@
 title: Groups
 description: Settings Reference
 published: false
-date: 2023-03-18T20:41:18.756Z
+date: 2023-03-18T20:46:32.869Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-18T20:41:06.036Z
@@ -15,18 +15,18 @@ On this tab you can change your user groups
 
 ## Configuration
 ### Groups
-Here you will see a list of all created groups.
+Here you will see a list of all the created groups.
 
 ### Add Group
-You can type in this field to add a group name.
+To add a group you need to give it a name and choose if you want it to be a bots group or not. Then simply click the `Add` button.
 
-- <kbd><i class="mdi mdi-checkbox-marked"></i> Bots</kbd> when this checkbox is checked it will categorize it under `Bot Groups`.
-- <kbd><i class="mdi mdi-checkbox-blank"></i> Bots</kbd> when this checkbox is **not** checked it will categorize it under `Normal Groups`.
+- <kbd><i class="mdi mdi-checkbox-marked"></i> Bots</kbd> when this checkbox is checked it will categorize the group under `Bot Groups`.
+- <kbd><i class="mdi mdi-checkbox-blank"></i> Bots</kbd> when this checkbox is **not** checked it will categorize the group under `Normal Groups`.
 
 ### Users
 When a group is highlighted it will show a list of all the users in that group.
 
-To add people to this group you can use a couple C# Methods or even directly from the `Viewers` tab, if you <kbd>right-click</kbd> on a user you can add them to the previously made groups.
+To add people to this group you can use a couple C# Methods or an easier method is to do it directly from the `Viewers` tab, if you <kbd>right-click</kbd> on a user you can add them to the previously made groups.
 
 ## Context Menu
 When <kbd>right-clicking</kbd> on a group it will open up a context menu with a few diffrent options. And those will be explained below.
@@ -41,7 +41,9 @@ This will clear all the users from this group.
 This will toggle this group between a `Normal Group` and a `Bot Group`.
 
 ### Export to File
-This will export all the group data to a `.sbgrp` file. This will export the user data to a Streamer.bot Group file in a Compressed JSON format, it must be noted that this won't import a group, this will only import the user data on an existing group. This can be imported to everyone who you give this file.
+This will export all the user data to a `.sbgrp` file. This will export it to a Streamer.bot Group file in a Compressed JSON format, it must be noted that this file won't import a group because this will only import the user data on an existing group. 
+
+This file can be shared if you want to share groups with diffrent people.
 
 ### Import from File
 This will import users from a file to an existing group. This file has been [exported](#export-to-file) previously. You can simply just click this button and select the file.
