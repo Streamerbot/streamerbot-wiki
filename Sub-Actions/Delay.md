@@ -2,7 +2,7 @@
 title: Delay
 description: General Sub-Actions Reference
 published: true
-date: 2023-03-16T11:57:15.143Z
+date: 2023-03-19T14:05:27.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:38:54.916Z
@@ -11,7 +11,7 @@ dateCreated: 2021-10-24T23:38:54.916Z
 ## Overview
 With this sub-action, you can add a delay within your sub-actions, pasue for X number of milliseconds before proceeding onto the next sub-action.
 
-![sub-action-delay-001.png](/sub-action-delay-001.png)
+![sub-action-delay-001.png](/sub-action-delay-001.png =400x)
 
 ---
 
