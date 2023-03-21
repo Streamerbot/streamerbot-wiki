@@ -2,7 +2,7 @@
 title: Write To File
 description: File Sub-Actions Reference
 published: true
-date: 2023-03-21T01:18:21.140Z
+date: 2023-03-21T13:48:21.876Z
 tags: write to file
 editor: markdown
 dateCreated: 2021-11-20T01:38:58.905Z
@@ -11,7 +11,7 @@ dateCreated: 2021-11-20T01:38:58.905Z
 ## Overview
 Using this sub-action, it allows you to write data from a variable to a file, which can then be used for other things later if you so choose. So, any of the variables listed you can extract the data from and write to this file.
 
-![write_to_file.png](/write_to_file.png)
+![write_to_file.png](/write_to_file.png =400x)
 
 ## Configuration
 ### Append to file 
