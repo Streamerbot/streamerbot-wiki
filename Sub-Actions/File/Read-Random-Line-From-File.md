@@ -2,7 +2,7 @@
 title: Read Random Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2022-12-04T19:11:51.370Z
+date: 2023-03-21T01:17:54.538Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-18T21:44:05.986Z
@@ -27,3 +27,8 @@ The `%user%` would be replaced when reading the file.
 
 ### Attempt Auto-typing
 While reading the contents of the file, an attempt will be made on each line to determine its ‘type’. So, if it's a number, it will make sure the variable is defined as a numeric, if it contains a string it will define the variable as a string. This is useful for future operations on the created variable.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **File Sub-Actions *Go Back***](/Sub-Actions/File)
+{.btn-grid .my-5}
