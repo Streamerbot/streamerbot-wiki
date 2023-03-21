@@ -2,7 +2,7 @@
 title: Write To File
 description: File Sub-Actions Reference
 published: true
-date: 2022-12-04T19:11:55.692Z
+date: 2023-03-21T01:18:21.140Z
 tags: write to file
 editor: markdown
 dateCreated: 2021-11-20T01:38:58.905Z
@@ -20,3 +20,8 @@ Appending to a file will add the incoming data to the end of the file. So, the d
 If the Append to File option is unchecked it will overwrite everytime each time new data is written.
 
 You can capture more that one variable at anytime.
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **File Sub-Actions *Go Back***](/Sub-Actions/File)
+{.btn-grid .my-5}
