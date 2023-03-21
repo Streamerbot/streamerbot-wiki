@@ -2,7 +2,7 @@
 title: Read Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-02-18T18:34:31.624Z
+date: 2023-03-21T01:17:22.890Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
@@ -31,3 +31,8 @@ Name | Description
 
 > The line count number starts at 0. For example if your linecount is 20, your line# will go from 0-19.
 {.is-info}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **File Sub-Actions *Go Back***](/Sub-Actions/File)
+{.btn-grid .my-5}
