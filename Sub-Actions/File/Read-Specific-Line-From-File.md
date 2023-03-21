@@ -2,14 +2,14 @@
 title: Read Specific Line From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-03-21T13:54:00.555Z
+date: 2023-03-21T13:54:25.436Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T13:54:00.555Z
 ---
 
 ## Overview
-With this Sub-Action you can read one specific line of a file.
+With this Sub-Action you can read a specific line of a file.
 
 ![read-specific-line-from-file.png](/read-specific-line-from-file.png =400x)
 
