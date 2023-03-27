@@ -2,7 +2,7 @@
 title: CPH Methods
 description: Streamer.bot C# Concepts Reference
 published: true
-date: 2023-03-27T00:18:07.140Z
+date: 2023-03-27T14:07:54.938Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T00:11:32.868Z
@@ -83,4 +83,23 @@ Example 2:
 ```csharp
 // As you see the `int connection = 0` is removed here, because you might only have one connection so it doesn't matter
 CPH.ObsSetScene("Camera Scene");
+```
+
+## Extra Examples
+### Example 1
+#### Docs
+```csharp
+bool TwitchAddVip(string userName);
+```
+
+#### Example
+For full docs about the `args[]` below go to [this page](/Sub-Actions/Code/CSharp/Streamerbot-Variables)
+
+```csharp
+string user = args["userName"].ToString(); // This grabs the `userName` variable from the action, NOTE: if the variable doesn't exist the code will stop
+bool vipSuccess = CPH.TwitchAddVip(user); // This adds the user as a vip and stores if it succeeds in `vipSuccess`
+
+if (vipSuccess) { // Everything inside this if statement only runs if the user has successfully been added a vip
+	CPH.SendMessage($"Added {user} as a vip");
+}
 ```
