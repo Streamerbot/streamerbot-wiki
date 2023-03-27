@@ -2,7 +2,7 @@
 title: Sub Actions (WIP)
 description: Reference of all Streamer.bot Sub-Actions
 published: false
-date: 2023-03-27T18:29:33.380Z
+date: 2023-03-27T18:30:52.213Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -35,11 +35,13 @@ Sub-Actions specific to Streamer.bot [Integrations](/Integrations) {.subtitle}
 
 ## General
 All general purpose sub-actions available for use{.subtitle}
-
 - [<img src="/logos/midi.svg" style="height: auto;"></img> **MIDI *Sub-Actions to control MIDI Output devices*** *v0.1.15*{.version-badge}](/Sub-Actions/MIDI)
 - [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Modify Streamer.bot action state***](/Sub-Actions/Actions)
-- [<i class="mdi mdi-comment-edit primary--text"></i> **Comment *Add a comment line to your sub-action stack***](/Sub-Actions/Comment)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Manage chat command state***](/Sub-Actions/Commands)
+{.btn-grid .my-5}
+
+## Core
+- [<i class="mdi mdi-comment-edit primary--text"></i> **Comment *Add a comment line to your sub-action stack***](/Sub-Actions/Comment)
 - [<i class="mdi mdi-code-braces primary--text"></i> **Code *Custom code actions***](/Sub-Actions/Code)
 - [<i class="mdi mdi-timelapse primary--text"></i> **Delay *Delay the next sub-action***](/Sub-Actions/Delay)
 - [<i class="mdi mdi-file-code primary--text"></i> **File *Read &amp; write from local files***](/Sub-Actions/File)
