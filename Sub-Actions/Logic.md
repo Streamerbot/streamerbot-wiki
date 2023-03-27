@@ -2,7 +2,7 @@
 title: Logic Sub-Actions
 description: Reference of all Logic Sub-Actions
 published: true
-date: 2023-03-27T18:20:01.080Z
+date: 2023-03-27T18:37:29.924Z
 tags: subactions, logic, if, else, set argument, break, global variables
 editor: markdown
 dateCreated: 2022-06-28T00:50:33.068Z
@@ -15,7 +15,6 @@ These will take data from various sources and evalutate them to direct the actio
 * [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Read data from a`Global Variable` into an argument***](/Sub-Actions/Logic/Get-Global-Variable)
 * [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Save data to a custom `Global Variable`***](/Sub-Actions/Logic/Set-Global-Variable)
 * [<i class="mdi mdi-ab-testing primary--text"></i> **If / Else *Performs an `Action` if logical test is `True`***](/Sub-Actions/Logic/If-Else)
-* [<i class="mdi mdi-variable-box primary--text"></i> **Set Argument *Store / Manipulate data in an argument***](/Sub-Actions/Logic/Set-Argument)
 * [<i class="mdi mdi-close-box primary--text"></i> **Break *Diagnostic user only, cancels the running action***](/Sub-Actions/Logic/Break)
 {.btn-grid .my-5}
 
