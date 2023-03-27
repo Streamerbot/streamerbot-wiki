@@ -2,7 +2,7 @@
 title: Sub Actions (WIP)
 description: Reference of all Streamer.bot Sub-Actions
 published: false
-date: 2023-03-27T18:45:37.623Z
+date: 2023-03-27T18:45:53.918Z
 tags: subactions, reference
 editor: markdown
 dateCreated: 2021-08-25T21:34:29.815Z
@@ -42,7 +42,7 @@ All general purpose sub-actions available for use{.subtitle}
 
 ## Core
 - [<i class="mdi mdi-variable-box primary--text"></i> **Arguments *Manipulate arguments in your running action***](/Sub-Actions/Arguments)
-- [<i class="mdi mdi-code-braces primary--text"></i> **C# *Custom C# actions***](/Sub-Actions/Code/CSharp)
+- [<i class="mdi mdi-code-braces primary--text"></i> **C# *Custom C# code and methods***](/Sub-Actions/Code/CSharp)
 - [<i class="mdi mdi-timelapse primary--text"></i> **Delay *Delay the next sub-action***](/Sub-Actions/Delay)
 - [<i class="mdi mdi-file-code primary--text"></i> **File IO *Read &amp; write from local files***](/Sub-Actions/File)
 - [<i class="mdi mdi-comment-quote-outline primary--text"></i> **Get Quote *Fetch a saved quote from the database***](/Sub-Actions/Get-Quote)
