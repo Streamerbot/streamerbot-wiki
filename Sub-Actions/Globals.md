@@ -2,14 +2,14 @@
 title: Global Sub-Actions
 description: Reference of all Global Sub-Actions
 published: true
-date: 2023-03-27T18:50:24.322Z
+date: 2023-03-27T18:50:52.599Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T18:50:24.322Z
 ---
 
-* [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Read data from a`Global Variable` into an argument***](/Sub-Actions/Logic/Get-Global-Variable)
-* [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Save data to a custom `Global Variable`***](/Sub-Actions/Logic/Set-Global-Variable)
+* [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Read data from a`Global Variable` into an argument***](/Sub-Actions/Globals/Get-Global-Variable)
+* [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Save data to a custom `Global Variable`***](/Sub-Actions/Globals/Set-Global-Variable)
 {.btn-grid .my-5}
 
 ---
