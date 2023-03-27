@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2023-03-27T18:36:43.110Z
+date: 2023-03-27T19:00:42.879Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T18:35:56.849Z
@@ -35,22 +35,26 @@ Sub-Actions specific to Streamer.bot [Integrations](/Integrations) {.subtitle}
 
 ## General
 All general purpose sub-actions available for use{.subtitle}
-
 - [<img src="/logos/midi.svg" style="height: auto;"></img> **MIDI *Sub-Actions to control MIDI Output devices*** *v0.1.15*{.version-badge}](/Sub-Actions/MIDI)
 - [<i class="mdi mdi-lightning-bolt primary--text"></i> **Actions *Modify Streamer.bot action state***](/Sub-Actions/Actions)
-- [<i class="mdi mdi-comment-edit primary--text"></i> **Comment *Add a comment line to your sub-action stack***](/Sub-Actions/Comment)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Manage chat command state***](/Sub-Actions/Commands)
-- [<i class="mdi mdi-code-braces primary--text"></i> **Code *Custom code actions***](/Sub-Actions/Code)
+{.btn-grid .my-5}
+
+## Core
+- [<i class="mdi mdi-variable-box primary--text"></i> **Arguments *Manipulate arguments in your running action***](/Sub-Actions/Arguments)
+- [<i class="mdi mdi-code-braces primary--text"></i> **C# *Custom C# code and methods***](/Sub-Actions/Code/CSharp)
 - [<i class="mdi mdi-timelapse primary--text"></i> **Delay *Delay the next sub-action***](/Sub-Actions/Delay)
-- [<i class="mdi mdi-file-code primary--text"></i> **File *Read &amp; write from local files***](/Sub-Actions/File)
+- [<i class="mdi mdi-file-code primary--text"></i> **File IO *Read &amp; write from local files***](/Sub-Actions/File)
 - [<i class="mdi mdi-comment-quote-outline primary--text"></i> **Get Quote *Fetch a saved quote from the database***](/Sub-Actions/Get-Quote)
 - [<i class="mdi mdi-numeric primary--text"></i> **Get Random Number *Populate a variable with a random number***](/Sub-Actions/Get-Random-Number)
-- [<i class="mdi mdi-keyboard-close primary--text"></i> **Keyboard Press *Simulate keystrokes***](/Sub-Actions/Keyboard-Press)
-- [<i class="mdi mdi-state-machine primary--text"></i> **Logic *Manage variables, If/Else, Break***](/Sub-Actions/Logic)
-- [<i class="mdi mdi-code-greater-than primary--text"></i> **Perform Command *Execute a Windows program or script***](/Sub-Actions/Perform-Command)
-- [<i class="mdi mdi-format-color-fill primary--text"></i> **Pick Color *Populate color variables for OBS, HTML, or C#***](/Sub-Actions/Pick-Color)
+- [<i class="mdi mdi-earth primary--text"></i> **Globals *Set and Get global variables***](/Sub-Actions/Globals)
+- [<i class="mdi mdi-state-machine primary--text"></i> **Logic *Manage If Statements and Break your action***](/Sub-Actions/Logic)
+- [<i class="mdi mdi-tag primary--text"></i> **Misc *Miscellaneous Sub-Actions***](/Sub-Actions/Misc)
 - [<i class="mdi mdi-network primary--text"></i> **Network *Fetch URL, UDP Broadcast***](/Sub-Actions/Network)
-- [<i class="mdi mdi-timer primary--text"></i> **Set Timer State *Enable or disable timed actions***](/Sub-Actions/Set-Timer-State)
+- [<i class="mdi mdi-format-color-fill primary--text"></i> **Pick Color *Populate color variables for OBS, HTML, or C#***](/Sub-Actions/Pick-Color)
 - [<i class="mdi mdi-volume-high primary--text"></i> **Sounds *Play sound files***](/Sub-Actions/Sounds)
+- [<i class="mdi mdi-cog primary--text"></i> **System *Sub-Actions to interact with your local system***](/Sub-Actions/System)
+- [<i class="mdi mdi-timer primary--text"></i> **Timers *Change the timer states***](/Sub-Actions/Timers)
+- [<i class="mdi mdi-account-multiple primary--text"></i> **Users *Interact with user groups***](/Sub-Actions/Users)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Manage Voice Control commands***](/Sub-Actions/Voice-Control)
 {.btn-grid .my-5}
