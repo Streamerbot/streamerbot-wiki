@@ -2,7 +2,7 @@
 title: Get Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2023-03-29T02:00:21.013Z
+date: 2023-03-29T02:01:18.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:54:26.112Z
@@ -48,5 +48,5 @@ If the specified `Global` / `User` variable does not exist for that context, the
 ---
 
 - [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/Sub-Actions/Logic)
-- [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Next Up***](Set-Global-Variable)
+- [<i class="mdi mdi-earth primary--text"></i> **Global (Set) *Next Up***](/Sub-Actions/Globals/Set-Global-Variable)
 {.btn-grid .my-5}
