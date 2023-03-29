@@ -1,8 +1,8 @@
 ---
 title: Get Global Variable
-description: Logic Sub-Action Reference
+description: Globals Sub-Action Reference
 published: true
-date: 2023-03-29T02:01:18.367Z
+date: 2023-03-29T02:14:54.470Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:54:26.112Z
