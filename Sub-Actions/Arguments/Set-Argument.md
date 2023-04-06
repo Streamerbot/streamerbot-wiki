@@ -2,7 +2,7 @@
 title: Set Argument
 description: Logic Sub-Actions Reference
 published: true
-date: 2023-03-27T19:05:44.053Z
+date: 2023-04-06T17:03:00.306Z
 tags: logic, set argument
 editor: markdown
 dateCreated: 2022-06-28T00:44:25.623Z
@@ -22,5 +22,5 @@ The data you want to store in the argument
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Argument Sub-Actions *Go Back***](/Sub-Actions/Arguments)
+- [<i class="mdi mdi-chevron-left"></i> **Arguments Sub-Actions *Go Back***](/Sub-Actions/Arguments)
 {.btn-grid .my-5}
