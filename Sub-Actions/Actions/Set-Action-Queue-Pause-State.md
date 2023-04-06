@@ -2,7 +2,7 @@
 title: Set Action Queue Pause State
 description: Action Sub-Actions Reference
 published: true
-date: 2023-03-16T13:27:19.003Z
+date: 2023-04-06T17:01:47.887Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T22:05:53.471Z
@@ -57,3 +57,8 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ---
 
 With these 3 actions created, give them an easy way to be executed such as a streamdeck button or command that trusted users can run. This way you can react quickly if the need arises
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Actions Sub-Actions Reference *Go Back***](/Sub-Actions/Actions)
+{.btn-grid .my-5}
