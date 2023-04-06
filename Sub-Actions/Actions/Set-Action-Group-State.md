@@ -2,7 +2,7 @@
 title: Set Action Group State
 description: Action Sub-Actions Reference
 published: true
-date: 2023-04-06T16:57:15.711Z
+date: 2023-04-06T17:01:28.809Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T21:07:53.659Z
@@ -15,3 +15,8 @@ Enables and Disables entire groups of actions
 
 > For setting the state of individual actions see [Set Action State](/Sub-Actions/action-state)
 {.is-info}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Actions Sub-Actions Reference *Go Back***](/Sub-Actions/Actions)
+{.btn-grid .my-5}
