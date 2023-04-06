@@ -2,18 +2,22 @@
 title: Set Action State
 description: Action Sub-Actions Reference
 published: true
-date: 2023-03-16T13:27:31.533Z
+date: 2023-04-06T17:02:36.960Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T21:13:13.618Z
 ---
 
+## Overview
 Enables and Disables specific actions 
 
 `Action`	Defines which action group to affect
 `State` What state should be set for each individual Action in that group. Valid options are `Enable`, `Disable` & `Toggle`
 
-***
-
 > For setting the state of action groups see [Set Action Group State](/Sub-Actions/action-group-state)
 {.is-info}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Actions Sub-Actions Reference *Go Back***](/Sub-Actions/Actions)
+{.btn-grid .my-5}
