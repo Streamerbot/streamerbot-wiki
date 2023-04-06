@@ -2,20 +2,19 @@
 title: Set Action Queue Pause State
 description: Action Sub-Actions Reference
 published: true
-date: 2023-04-06T17:01:47.887Z
+date: 2023-04-06T17:02:11.380Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T22:05:53.471Z
 ---
 
+## Overview
 This action will freeze either a named `Action Queue` or all queues, effectively disabling the bot from being able to perform any commands, alerts, channel point rewards etc. until the queue is resumed.
 
 Valid States `Pause` `Resume`
 
 ![set-action-queue-pause-state.png](/set-action-queue-pause-state.png)
 
-{.is-warning}
-> **WARNING**
 > If all action queues are paused, you will not be able to unpause them unless the action is set to `Always Run`
 {.is-warning}
 
