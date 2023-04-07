@@ -2,7 +2,7 @@
 title: Get Commands
 description: Commands Sub-Actions Reference
 published: true
-date: 2023-03-16T13:23:19.202Z
+date: 2023-04-07T22:03:07.427Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z
@@ -38,17 +38,21 @@ Lastly create a sub action to output the contents of the variable that is storin
 ![get_commands_sub_action_list_.png](/commands/get_commands_sub_action_list_.png)
 
 This is one example you can import to get started.
-## {.tabset}
-### Import Code
+
+## Import Code
 ```
 TlM0RR+LCAAAAAAABACVVE1vnDAQvVfqf7CQclu3BoOB3FY59FZVVW5VDsYeZ5EMbGy8ySrKfy+GRXztSskJe974ed4bD+/fvyEUnMDYsqmDexTu+kDNK+h2QTBsuWg72HaRf36P0Pvw6aBS+jxGIQ15nuJMhhzHMs+7VUFxqiCLwkTlBciBqz/04sB5/tppPUWh5oUGz9caB1N8LOahqSpeSzsjejaNO97AuH7lZ/vXeVmKaztjNF1qU+17VVtUNLVwxkDdbrGNEws3ljXttZ7K6aETN6XX+PuiSGyqHjythXYS/PmVFz184PYPmKq0l55tM4amCMZJQaTEjNMEx6liOCcxxUwIBYUUWSb46uZXKJ8PXjb5QZZIez76kkMS0nWxEt48MkU/dre8aeHNswc/K0CPB7CAuAHUHgCNViB+4qX2JqG2QefG3SN0N4J3q3KPBhR0nZJ7IRrX94tcc4LmcUyAAWZURjiOshDnImM4kkokImE0idnXndhdbfviTS8cij7jkG2cEfA43EGuP59pMlc6VRbTUGQUR5GSOA6THPOoG0ipICIUFEvJl3UmN3RuKrioJDOV4/JpPUC/PEk/RU/zudOaHy3IGTqAPdGQOfw7RvDjP2NyCCfABAAA
 ```
 
 ## Variables
-
 This sub-action populates 2 variables with the custom name you specify, one as a string and one as a list
 
 Name | Description
 ----:|:------------
 `<variableName>` | Comma separated string containing all commands matching criteria specified in the sub-action
 `<variableName>.List` | List object for C# containing all commands matching criteria specified in the sub-action
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Commands Sub-Actions Reference *Go Back***](/Sub-Actions/Commands)
+{.btn-grid .my-5}
