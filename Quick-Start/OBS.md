@@ -14,6 +14,8 @@ dateCreated: 2022-07-10T01:33:32.353Z
 
 ## Prerequisites
 *If you are running **OBS 28 or higher** the WebSocket Plugin is pre-installed and the settings can be found on the top bar under Tools.*
+![image](https://user-images.githubusercontent.com/96934345/230672612-5850ee77-50b6-409e-8fa7-0ef6de2ab314.png)
+
 *If you don't see the websocket settings and you have **OBS 28+**, go to Help > Verify Files*
 
 To enable remote control of your **OBS Studio** instance from **Streamer.bot** you must first install the OBS WebSocket Plugin
