@@ -14,7 +14,7 @@ Enables and Disables specific actions
 `Action`	Defines which action group to affect
 `State` What state should be set for each individual Action in that group. Valid options are `Enable`, `Disable` & `Toggle`
 
-> For setting the state of action groups see [Set Action Group State](/Sub-Actions/action-group-state)
+> For setting the state of action groups see [Set Action Group State](/Sub-Actions/Actions/Set-Action-Group-State)
 {.is-info}
 
 ---

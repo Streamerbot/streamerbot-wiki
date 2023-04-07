@@ -9,7 +9,7 @@ dateCreated: 2022-06-28T00:44:25.623Z
 ---
 
 ## Overview
-This sub-action is used to define custom `Arguments` or perform [Inline Functions](/Inline-Functions) with them such as [Math](/inline-functions-math)
+This sub-action is used to define custom `Arguments` or perform [Inline Functions](/Inline-Functions) with them such as [Math](/Inline-Functions/Math)
 
 ![logic-set-argument.png](/logic-set-argument.png)
 
