@@ -2,7 +2,7 @@
 title: Get Command Group State
 description: Commands Sub-Actions Reference
 published: true
-date: 2023-03-16T13:24:05.521Z
+date: 2023-04-07T22:02:27.779Z
 tags: subactions, commands
 editor: markdown
 dateCreated: 2022-07-15T18:48:11.947Z
@@ -17,3 +17,8 @@ Name | Description
 `commandsEnabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are enabled
 `commandsDisabled` | `Dictionary<Guid, Guid>` of command ID, action IDs, of commands that are disabled
 {.vars-table}
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Commands Sub-Actions Reference *Go Back***](/Sub-Actions/Commands)
+{.btn-grid .my-5}
