@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2022-11-08T17:32:05.935Z
+date: 2023-04-07T18:56:22.824Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T19:54:55.723Z
@@ -16,13 +16,13 @@ dateCreated: 2022-07-09T19:54:55.723Z
 
 ---
   
-<img src = "https://contrib.rocks/image?repo=Streamerbot/streamerbot-wiki&max=10">
+<img src="https://contrib.rocks/image?repo=Streamerbot/streamerbot-wiki&max=7">
   
 ---
   
 ## Streamer.bot Wiki
 The place for all documentation about streamer.bot
 
-Check the [homepage](/home.md)
+See the [rendered wiki](https://wiki.streamer.bot) here!
 
 </div>
