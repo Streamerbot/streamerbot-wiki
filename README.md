@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2023-04-07T18:56:22.824Z
+date: 2023-04-07T18:58:52.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-09T19:54:55.723Z
@@ -16,7 +16,7 @@ dateCreated: 2022-07-09T19:54:55.723Z
 
 ---
   
-<img src="https://contrib.rocks/image?repo=Streamerbot/streamerbot-wiki&max=7">
+[![Contributors](https://contrib.rocks/image?repo=Streamerbot/streamerbot-wiki&max=7)](https://github.com/Streamerbot/streamerbot-wiki/graphs/contributors)
   
 ---
   
