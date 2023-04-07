@@ -18,5 +18,5 @@ The new state to apply, either `Enabled`, `Disabled`, or `Toggle`
 
 ---
 
-> For setting the state of command groups see [Set Command State](/Sub-Actions/command-state)
+> For setting the state of command groups see [Set Command State](/Sub-Actions/Commands/Set-Command-State)
 {.is-info}
