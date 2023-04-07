@@ -13,7 +13,7 @@ Enables and Disables entire groups of actions
 `Group`	Defines which action group to affect
 `State` What state should be set for each individual Action in that group. Valid options are `Enable`, `Disable` & `Toggle`
 
-> For setting the state of individual actions see [Set Action State](/Sub-Actions/action-state)
+> For setting the state of individual actions see [Set Action State](/Sub-Actions/Actions/action-state)
 {.is-info}
 
 ---
