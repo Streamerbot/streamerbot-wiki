@@ -10,7 +10,7 @@ dateCreated: 2022-07-10T18:56:02.350Z
 
 * [**Get Commands *Populate variables to list command groups***](/Sub-Actions/Commands/Get-Commands)
 * [**Set Command Group State *Enable / Disable all commands in a group***](/Sub-Actions/Commands/Set-Command-Group-State)
-* [**Set Command State *Enable / Disable a single command***](/Sub-Actions/Set-Command-State)
+* [**Set Command State *Enable / Disable a single command***](/Sub-Actions/Commands/Set-Command-State)
 * [**Get Command Group State *Check Enabled state of all commands in a group***](/Sub-Actions/Commands/Get-Command-Group-State)
 * [**Get Command State *Check Enabled state of a single command***](/Sub-Actions/Commands/Get-Command-State)
 {.btn-grid .my-5}

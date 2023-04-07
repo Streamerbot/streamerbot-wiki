@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-08-25T21:31:42.148Z
 ---
 
-Here is an example that will log all the arguments that you have access to for an action.  It's best to add this as is, and then use the [Execute C# Method](/Sub-Actions/Code/Execute-CSharp-Method) to use it in your other actions.
+Here is an example that will log all the arguments that you have access to for an action.  It's best to add this as is, and then use the [Execute C# Method](/Sub-Actions/Code/CSharp/Execute-Method) to use it in your other actions.
 
 # Tabs {.tabset}
 ## Code
