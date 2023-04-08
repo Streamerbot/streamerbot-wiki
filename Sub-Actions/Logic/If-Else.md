@@ -2,7 +2,7 @@
 title: If/Else
 description: Logic Sub-Actions Reference
 published: true
-date: 2023-03-16T13:32:17.835Z
+date: 2023-04-07T20:18:07
 tags: logic, if, else
 editor: markdown
 dateCreated: 2022-01-09T11:33:31.443Z
@@ -38,6 +38,13 @@ If the box is unchecked then Streamerbot will queue it as normal as a completely
 
 ### Then
 This specifies if the Action should `Continue` or `Break` after performing its named Action. This flag will only trigger if the test was `True`, if not it will always `Continue`
+
+
+## RegEx Match
+The RexEx operator is used to perform a regular expression match on the contents of an `Argument` defined in `Value`.
+
+### Defining a RegEx
+Using tools like [RegExr](https://regexr.com) you can more easily see a breakdown of the RegEx syntax and how it will work to make sure that it functions how you intend it. You can also see the [C# RegEx Docs](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.7.2) for C# specific syntax but you can also use JavaScript based RegEx syntax and most RegEx Engines support it.
 
 ---
 
