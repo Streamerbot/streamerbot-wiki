@@ -2,7 +2,7 @@
 title: Predictions
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T12:57:27.808Z
+date: 2023-04-08T14:11:03
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z
@@ -98,7 +98,7 @@ Because how some of this is handled, it is recommended that Execute C# code is u
 **Note** if there are variables missing that you think maybe of benefit, let us know [here](https://ideas.streamer.bot) and we can likely add them in
 
 ## Basic Creation Example
-To create a prediction outside of the UI, you will need to use [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code), a simple example is provided below.  I've added a few comments to it which hopefully will help you get it setup for your usage.  If you still have questions, be sure to ask them in the discord!
+To create a prediction outside of the UI, you will need to use [Execute C# Code](/Sub-Actions/Code/CSharp), a simple example is provided below.  I've added a few comments to it which hopefully will help you get it setup for your usage.  If you still have questions, be sure to ask them in the discord!
 
 ### Code
 
