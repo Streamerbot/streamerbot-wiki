@@ -2,7 +2,7 @@
 title: Streamlabs Desktop
 description: Configure Streamlabs Desktop as a broadcaster in Streamer.bot
 published: true
-date: 2022-10-29T21:57:43.828Z
+date: 2023-04-08T14:11:29
 tags: broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2021-08-25T21:32:18.787Z
@@ -13,7 +13,7 @@ dateCreated: 2021-08-25T21:32:18.787Z
 ## Overview
 Control your Streamlabs Desktop instance(s) with Streamer.bot
 
-Adding at least one connection will allow you to control your Streamlabs Desktop either through the various [sub-actions](/Sub-Actions) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/Execute-CSharp-Code) sub-action
+Adding at least one connection will allow you to control your Streamlabs Desktop either through the various [sub-actions](/Sub-Actions) that have been included, or via the [Execute C# Code](/Sub-Actions/Code/CSharp) sub-action
 
 ## Configuration
 `Right-Click` `->` `Add` to define a new connection
