@@ -2,7 +2,7 @@
 title: Get User Info for Target
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-14T16:49:44.058Z
+date: 2023-04-08T21:49:11.529Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:30.189Z
@@ -17,6 +17,7 @@ Collects various data for a Twitch user and populates a set of variables.
 ### Source Type
 Name | Description
 ----:|:------------
+`Broadcaster` | The currently logged in broadcaster account
 `User` | User that invoked the action e.g. a raid leader, subscriber, point redeemer etc.
 `From Input` | This will take the next word proceeding the trigger as the username to lookup. This user does not have to be present in the channel
 `Variable` | Use the content of an existing variable as the target
@@ -40,6 +41,7 @@ Name | Description
 `targetLastActive` | When the user was last active
 `targetPreviousActive` | When the user was previously active
 `targetIsSubscribed` | A boolean value indicating if the user is currently subscribed
+`targetSubscriptionTier` | `1000`, `2000`, `3000` - Numeric value indicating tier
 `targetIsModerator` | A boolean value indicating if the user is a moderator
 `targetIsVip` | A boolean value indicating if the user is a VIP
 `targetChannelTitle` | The stream title of the user
@@ -47,6 +49,10 @@ Name | Description
 `gameId` | The numeric id of the game category
 `createdAt` | Datetime of when the account was created
 `accountAge` | Age of the account in seconds
+`tagCount` | A count of the tags that channel set most recently
+`tag#` | Consecutive arguments populated with one tag value each
+`tags` | All tags in a `list` format 
+`tagsDelimited` | A comma separated list of all tags
 {.vars-table}
 
 > This includes the user's tags as variables
