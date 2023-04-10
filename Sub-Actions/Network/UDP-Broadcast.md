@@ -2,7 +2,7 @@
 title: UDP Broadcast
 description: Network Sub-Actions Reference
 published: true
-date: 2023-04-10T05:35:14.043Z
+date: 2023-04-10T05:35:22.342Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:25.751Z
@@ -25,8 +25,6 @@ Broadcast a UDP payload on a specified port
 ```
 
 Replace `BotVoice` with the alias you want Speaker.bot to use, and `message` with the text you would like spoken
-
-
 
 ---
 
