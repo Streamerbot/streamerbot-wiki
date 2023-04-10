@@ -2,12 +2,13 @@
 title: Set Voice Control Command
 description: Voice Control Sub-Actions Reference
 published: true
-date: 2022-12-04T19:18:03.571Z
+date: 2023-04-10T05:43:26.511Z
 tags: twitch, integrations, voice, youtube, streamerbot
 editor: markdown
 dateCreated: 2022-07-04T01:16:31.435Z
 ---
 
+## Overview
 With the Streamer.bot (0.18 +) you can now assign an action to a voice control command, then trigger this with a keyword or sentence that you say.
 To do this you need to make sure you have streamer.bot listening to you on the correct input device. The microphone that you are going to use. 
 
@@ -16,13 +17,13 @@ First open streamer.bot and then navigate the following tabs `Voice Control` the
 You will want the bot to start listening to you when you start the bot up so go ahead and enable the "Auto Start Listen" by checking the box just like the image below. Also in this tab on the bottom is the "Audio Input Device"
 when you have done this be sure the bot is listening by click the **Start Listening** button. click Save button at the top.
 
-![vc-setting-tab.png](/voice-control/vc-setting-tab.png){.align-center}
+![vc-setting-tab.png](/voice-control/vc-setting-tab.png)
 
 ### Setting up your voice command 
 
 First make sure that streamer.bot is open and then navigate through the following tabs `Voice Control` then in the second row of tabs click `Commands` in this tab is where we set up the voice commands so in the white space right click here and click `Add` a new dialog box will appear like the one below.
 
-![vc-add-dialog.png](/voice-control/vc-add-dialog.png){.align-center}
+![vc-add-dialog.png](/voice-control/vc-add-dialog.png)
 
 In this dialog you can see the following option and input fields we need to configure so starting with the top input field 
 
@@ -39,4 +40,7 @@ In this dialog you can see the following option and input fields we need to conf
 
 When you happy with this click the `Ok` button. Save then you have created your first of many voice control commands 
 
-![vc-command-complete.png](/voice-control/vc-command-complete.png){.align-center}
+---
+
+- [<i class="mdi mdi-chevron-left"></i> **Voice Control Sub-Actions Reference *Go Back***](/Sub-Actions/Voice-Control)
+{.btn-grid .my-5}
