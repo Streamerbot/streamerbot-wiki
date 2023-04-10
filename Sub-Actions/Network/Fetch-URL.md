@@ -2,12 +2,13 @@
 title: Fetch URL
 description: Network Sub-Actions Reference
 published: true
-date: 2023-04-10T05:34:18.326Z
+date: 2023-04-10T05:34:31.137Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:44:38.655Z
 ---
 
+## Overview
 With this sub-action you are able to fetch the result of a URL, much like the URL commands that Nightbot and many other bots have, provide a URL, and a variable name to write the result to, and you'll be able to use it in other sub-actions.
 
 ![sub-action-fetch-url-001.png](/sub-action-fetch-url-001.png)
