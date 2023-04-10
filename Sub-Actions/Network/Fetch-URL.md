@@ -2,7 +2,7 @@
 title: Fetch URL
 description: Network Sub-Actions Reference
 published: true
-date: 2023-04-10T05:34:31.137Z
+date: 2023-04-10T05:36:01.860Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:44:38.655Z
@@ -17,5 +17,5 @@ An example usage, would be a website that just returns a joke.  You would enter 
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Network Sub-Actions *Go Back***](/Sub-Actions/Network)
+- [<i class="mdi mdi-chevron-left"></i>**Network Sub-Actions Reference *Go Back***](/Sub-Actions/Network)
 {.btn-grid .my-5}
