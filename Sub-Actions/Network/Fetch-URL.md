@@ -2,7 +2,7 @@
 title: Fetch URL
 description: Network Sub-Actions Reference
 published: true
-date: 2023-02-14T07:46:52.774Z
+date: 2023-04-10T05:34:18.326Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:44:38.655Z
@@ -13,3 +13,8 @@ With this sub-action you are able to fetch the result of a URL, much like the UR
 ![sub-action-fetch-url-001.png](/sub-action-fetch-url-001.png)
 
 An example usage, would be a website that just returns a joke.  You would enter the URL, and in the variable name, just put `joke`, and as as another sub-action after, send a message to your Twitch channel, with the message being `%joke%`.  Now you have a joke action, that you could trigger by many different means!
+
+---
+
+- [<i class="mdi mdi-chevron-left"></i>**Network Sub-Actions *Go Back***](/Sub-Actions/Network)
+{.btn-grid .my-5}
