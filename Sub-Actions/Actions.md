@@ -2,7 +2,7 @@
 title: Actions Sub-Actions
 description: Reference of all Action Sub-Actions
 published: true
-date: 2023-04-10T05:46:38.132Z
+date: 2023-04-10T05:46:54.996Z
 tags: subactions
 editor: markdown
 dateCreated: 2022-07-10T18:54:22.179Z
@@ -14,7 +14,7 @@ dateCreated: 2022-07-10T18:54:22.179Z
 - [**Get Action Group State  *Get the state of the actions in a group***](/Sub-Actions/Actions/Get-Action-Group-State)
 - [**Set Action Group State  *Enable / Disable all actions in a group***](/Sub-Actions/Actions/Set-Action-Group-State)
 - [**Set Action Queue Pause State *Pause / Resume an action queue***](/Sub-Actions/Actions/Set-Action-Queue-Pause-State)
-- [**Set Action State *Enable / Disable an action***](/Sub-Actions/Actions/action-state)
+- [**Set Action State *Enable / Disable an action***](/Sub-Actions/Actions/Set-Action-State)
 {.btn-grid .my-5}
 
 ---
