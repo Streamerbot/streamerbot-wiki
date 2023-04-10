@@ -2,7 +2,7 @@
 title: UDP Broadcast
 description: Network Sub-Actions Reference
 published: true
-date: 2023-04-10T05:35:22.342Z
+date: 2023-04-10T05:36:12.885Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:25.751Z
@@ -28,5 +28,5 @@ Replace `BotVoice` with the alias you want Speaker.bot to use, and `message` wit
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Network Sub-Actions *Go Back***](/Sub-Actions/Network)
+- [<i class="mdi mdi-chevron-left"></i>**Network Sub-Actions Reference *Go Back***](/Sub-Actions/Network)
 {.btn-grid .my-5}
