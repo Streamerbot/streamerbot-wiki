@@ -2,14 +2,13 @@
 title: Keyboard Press
 description: General Sub-Actions Reference
 published: true
-date: 2023-04-10T05:36:44.671Z
+date: 2023-04-10T05:36:52.115Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-02T03:47:06.237Z
 ---
 
 ## Overview
-
 Send keyboard presses to the current active application, or to global hotkeys.
 
 ![sub-action-keyboard-press-001.png](/sub-action-keyboard-press-001.png)
