@@ -2,7 +2,7 @@
 title: Set Timer State
 description: General Sub-Actions Reference
 published: true
-date: 2023-03-16T11:59:56.644Z
+date: 2023-04-10T05:38:17.541Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:13.939Z
@@ -22,6 +22,6 @@ The new state to apply, either `Enabled`, `Disabled`, or `Toggle`.
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Sub-Actions Reference *Go Back***](/Sub-Actions)
+- [<i class="mdi mdi-chevron-left"></i>**Timers Sub-Actions Reference *Go Back***](/Sub-Actions/Timers)
 - [<i class="mdi mdi-numeric primary--text"></i>**Get Random Number *Populate a variable with a random number***](/Sub-Actions/Get-Random-Number)
 {.btn-grid .my-5}
