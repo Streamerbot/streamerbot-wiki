@@ -2,7 +2,7 @@
 title: Set Global Variable
 description: Logic Sub-Action Reference
 published: true
-date: 2023-03-29T02:01:08.802Z
+date: 2023-04-10T05:37:53.928Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:56:41.484Z
@@ -45,6 +45,6 @@ Mode | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i> **Logic Sub-Actions *Go Back***](/Sub-Actions/Logic)
+- [<i class="mdi mdi-chevron-left"></i> **Globals Sub-Actions Reference *Go Back***](/Sub-Actions/Globals)
 - [<i class="mdi mdi-earth primary--text"></i> **Global (Get) *Next Up***](/Sub-Actions/Globals/Get-Global-Variable)
 {.btn-grid .my-5}
