@@ -2,7 +2,7 @@
 title: OBS
 description: Triggers Reference
 published: true
-date: 2023-04-17T23:37:35.180Z
+date: 2023-04-17T23:43:12.976Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:11:08.378Z
