@@ -2,7 +2,7 @@
 title: Twitch Events
 description: Reference of all available Twitch events
 published: true
-date: 2023-02-07T01:24:46.242Z
+date: 2023-04-17T23:27:07.517Z
 tags: twitch, events, reference
 editor: markdown
 dateCreated: 2022-07-13T18:55:36.587Z
@@ -22,7 +22,7 @@ Name | Description
 `user` | The user that followed the broadcaster
 `userName` | The login name of the user that followed the broadcaster
 `userId` | Unique user identifier
-`userType` | pecifies which streaming service the triggering user is coming from <br> `twitch` or `youtube`
+`userType` | Which streaming service the triggering user is coming from <br> `twitch` or `youtube`
 `isSubscribed` | Boolean value indicating the sender's subscription status <br> `True`/`False`
 `isModerator` | Boolean value indicating the sender's moderator status <br> `True`/`False`
 `isVip` | Boolean value indicating the sender's VIP status <br> `True`/`False`
