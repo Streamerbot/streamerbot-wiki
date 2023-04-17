@@ -2,14 +2,14 @@
 title: OBS Disconnected
 description: OBS Triggers Reference
 published: true
-date: 2023-04-17T23:37:23.500Z
+date: 2023-04-17T23:41:03.677Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:35:58.284Z
 ---
 
 ## Overview
-This triggers when your OBS disconnects to Streamer.bot
+This triggers when your OBS disconnects to Streamer.bot.
 
 ## Variables
 Name | Description
