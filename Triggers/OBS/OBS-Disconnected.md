@@ -2,7 +2,7 @@
 title: OBS Disconnected
 description: OBS Triggers Reference
 published: true
-date: 2023-04-17T23:35:58.284Z
+date: 2023-04-17T23:37:23.500Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:35:58.284Z
@@ -21,5 +21,6 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Pulsoid Triggers Reference *Go Back***](/Triggers/Pulsoid)
+- [<i class="mdi mdi-chevron-left"></i>**OBS Triggers Reference *Go Back***](/Triggers/OBS)
+- [<i class="mdi mdi-tag-multiple-outline text--obs"></i> **OBS Event *Up Next***](/Triggers/OBS/OBS-Event)
 {.btn-grid .my-5}
