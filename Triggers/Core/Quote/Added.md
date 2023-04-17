@@ -2,7 +2,7 @@
 title: Added
 description: Quote Triggers Reference
 published: true
-date: 2023-03-16T11:05:24.774Z
+date: 2023-04-17T22:58:54.060Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:21:34.997Z
@@ -17,7 +17,7 @@ For a detailed guide on how Quotes work in Streamer.bot see [this page](/Setting
 Name | Description
 ----:|:------------
 `quote` | The quote content
-`quoteID` | The quote ID number
+`quoteID` | The numeric quote id
 `quoteUser` | The user that added the quote,
 `quoteGame` | The game the broadcaster was playing at the time
 `quoteTime` | The date it was logged
