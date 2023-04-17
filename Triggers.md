@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-03-17T20:07:56.204Z
+date: 2023-04-17T23:44:30.295Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -18,7 +18,7 @@ Streaming platform triggers{.subtitle}
 ## Broadcasters
 Broadcasting Software triggers{.subtitle}
 
-- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Events for all changes within OBS Studio***](/Broadcasters/OBS/Events)
+- [<img src="https://streamer.bot/img/integrations/obs.svg"/> **OBS Studio *Connected, Disconnected, and client specific events for OBS Studio***](/Triggers/OBS)
 {.btn-grid .my-5}
 
 ## Core
