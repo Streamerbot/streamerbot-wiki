@@ -2,7 +2,7 @@
 title: Websocket Custom Server
 description: Core Websocket Triggers Reference
 published: true
-date: 2023-04-18T00:19:10.365Z
+date: 2023-04-18T00:23:06.753Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:48:40.539Z
