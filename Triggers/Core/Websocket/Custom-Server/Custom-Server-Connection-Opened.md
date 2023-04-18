@@ -2,7 +2,7 @@
 title: Custom Server Connection Opened
 description: Websocket Custom Server Reference
 published: true
-date: 2023-04-18T00:18:57.466Z
+date: 2023-04-18T00:21:47.210Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-18T00:15:36.923Z
@@ -20,8 +20,8 @@ Select any or a specific websocket server
 ## Variables
 Name | Description
 ----:|:------------
-`wsIdx` | The 0-based id of this websocket server e.g. `0`, `1`, `2`, etc.
-`wsId` | The UUID of this websocket server
+`wssIdx` | The 0-based id of this websocket server e.g. `0`, `1`, `2`, etc.
+`wssId` | The UUID of this websocket server
 `ip` | The ip of this websocket serber e.g. `127.0.0.1`
 `sessionId` | The session id of the client
 
