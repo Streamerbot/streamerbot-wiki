@@ -1,8 +1,8 @@
 ---
 title: Custom Server Connection Opened
-description: WebSocket Client Triggers Reference
+description: Websocket Custom Server Reference
 published: true
-date: 2023-04-18T00:15:36.923Z
+date: 2023-04-18T00:17:07.662Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-18T00:15:36.923Z
