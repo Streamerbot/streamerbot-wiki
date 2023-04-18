@@ -2,7 +2,7 @@
 title: Custom Server Connection Opened
 description: Websocket Custom Server Reference
 published: true
-date: 2023-04-18T00:17:07.662Z
+date: 2023-04-18T00:18:57.466Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-18T00:15:36.923Z
@@ -28,4 +28,5 @@ Name | Description
 ---
 
 - [<i class="mdi mdi-chevron-left"></i>**Websocket Custom Server Triggers Reference *Go Back***](/Triggers/Core/Websocket/Custom-Server)
+- [<i class="mdi mdi-message-text primary--text"></i> **Custom Server Message *Up Next***](/Triggers/Core/Websocket/Custom-Server/Custom-Server-Message)
 {.btn-grid .my-5}
