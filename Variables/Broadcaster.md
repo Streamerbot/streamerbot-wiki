@@ -2,13 +2,16 @@
 title: Broadcaster
 description: 
 published: true
-date: 2023-03-16T11:38:16.763Z
+date: 2023-04-23T12:12:38.602Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:56:05.373Z
 ---
 
-This requires the [Add Broadcaster Information](/Sub-Actions/Twitch/Add-Broadcaster-Information) Sub-Action for getting the variables
+These variables require the [Add Broadcaster Information](/Sub-Actions/Twitch/Add-Broadcaster-Information) Sub-Action or an event
+
+## Twitch
+All broadcaster variables that can be received from Twitch{.subtitle}
 
 Name | Description
 ----:|:------------
