@@ -2,7 +2,7 @@
 title: Read Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-03-21T13:48:18.786Z
+date: 2023-04-23T19:56:18.193Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:49:24.324Z
@@ -29,7 +29,7 @@ Name | Description
 `line#` | Change the `#` to the line number e.g. if you have 3 lines it wil output: `line0`, `line1`, `line2` 
 `fileFound` |  This can be used to see if the file is present. Returns true or false.
 
-> The line count number starts at 0. For example if your linecount is 20, your line# will go from 0-19.
+> The line count number starts at 0. For example if your linecount is 20, your `line#` will go from 0-19.
 {.is-info}
 
 ---
