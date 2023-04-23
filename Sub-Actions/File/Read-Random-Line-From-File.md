@@ -2,7 +2,7 @@
 title: Read Random Lines From File
 description: File Sub-Actions Reference
 published: true
-date: 2023-03-21T13:48:25.791Z
+date: 2023-04-23T19:47:15.322Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-18T21:44:05.986Z
@@ -27,6 +27,9 @@ The `%user%` would be replaced when reading the file.
 
 ### Attempt Auto-typing
 While reading the contents of the file, an attempt will be made on each line to determine its ‘type’. So, if it's a number, it will make sure the variable is defined as a numeric, if it contains a string it will define the variable as a string. This is useful for future operations on the created variable.
+
+### Count
+This option defines the number of lines that will be read from the file.
 
 ---
 
