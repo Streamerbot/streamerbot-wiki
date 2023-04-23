@@ -1,8 +1,8 @@
 ---
-title: Broadcaster
-description: 
+title: Broadcaster Variables
+description: Variables reference
 published: true
-date: 2023-04-23T12:12:38.602Z
+date: 2023-04-23T12:13:30.056Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T17:56:05.373Z
