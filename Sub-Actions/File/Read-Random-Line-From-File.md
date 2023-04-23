@@ -11,7 +11,7 @@ dateCreated: 2021-11-18T21:44:05.986Z
 ## Overview
 Using this sub-action, you can load the entire contents of a file into your action, then you can have the bot read a random line from the file and load it into a variable `%randomLine%`.
 
-![sub-action-readrandomlinefromfile-01.png](/sub-action-readrandomlinefromfile-01.png =400x)
+![image](https://user-images.githubusercontent.com/96934345/233861551-1740e991-4a17-4db4-a109-378056d49431.png)
 
 ## Configuration
 ### Parse Variables
