@@ -2,7 +2,7 @@
 title: Cheers
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:03:43.085Z
+date: 2023-04-25T21:05:05.969Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-08-26T02:31:57.116Z
@@ -70,7 +70,6 @@ Name | Description
 `badgeCount` | A count of the number of badges the user is displaying
 `badges` | 
 `eventSource` | The platform identifier string (For cheers this will always be `twitch`)
-
 {.vars-table}
 
 ---
