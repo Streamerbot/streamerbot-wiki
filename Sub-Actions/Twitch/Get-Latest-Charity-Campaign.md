@@ -2,14 +2,14 @@
 title: Get Latest Charity Campaign
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-04T15:31:13.119Z
+date: 2023-04-25T17:19:53.810Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:38:18.188Z
 ---
 
 ## Overview
-Fetches your latest Twitch Charity campaign and add the information as variables.
+Fetches your latest Twitch Charity campaign and adds the information as variables.
 
 ![overview.png](/Sub-Actions/Twitch/get-latest-charity-campaign/overview.png =400x)
 
