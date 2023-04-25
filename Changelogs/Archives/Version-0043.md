@@ -2,7 +2,7 @@
 title: Version 0.0.43
 description: 
 published: true
-date: 2021-08-26T02:09:48.130Z
+date: 2023-04-25T18:07:23.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:55.625Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-25T21:35:55.625Z
 
 Jump to [New Features](#new-features)
 
-* Execue code window is now resizeable
+* Execute code window is now resizeable
 * Fix audio selection issues
 * Add a simple online version check, uses a file in this repo to get the current version
 * Add new sub-action Execute C# Method
