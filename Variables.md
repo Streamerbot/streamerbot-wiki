@@ -2,7 +2,7 @@
 title: Variables
 description: Reference of all variables/arguments that may be available in Streamer.bot events and sub-actions
 published: true
-date: 2023-03-29T01:52:18.533Z
+date: 2023-04-25T17:26:14.993Z
 tags: variables, arguments
 editor: markdown
 dateCreated: 2021-08-25T21:34:50.460Z
@@ -50,6 +50,8 @@ Further information on valid formatting modifiers can be found [here](https://do
 
 ## Variable Sources
 - [<i class="mdi mdi-variable-box primary--text"></i> **Generic Variables *Available to most triggers automatically***](/Variables/Generic)
+- [<i class="mdi mdi-antenna primary--text"></i> **Broadcaster Variables *Variables deticated to the broadcaster***](/Variables/Broadcaster)
+- [<i class="mdi mdi-account primary--text"></i> **User Variables *Variables deticated to the user***](/Variables/User-Variables)
 - [<i class="mdi mdi-creation primary--text"></i> **Events *All events and their associated variables***](/Events)
 - [<i class="mdi mdi-lightning-bolt-outline primary--text"></i> **Sub-Actions *Some sub-actions will also generate variables***](/Sub-Actions)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Variables from triggered chat commands***](/Commands#variables)
