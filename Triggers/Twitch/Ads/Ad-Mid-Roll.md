@@ -2,7 +2,7 @@
 title: Ad Mid Roll
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:02:29.049Z
+date: 2023-04-25T21:12:28.732Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:00:23.693Z
@@ -12,6 +12,11 @@ dateCreated: 2023-04-25T21:00:23.693Z
 This triggers 5 seconds prior to the start of the ad. See the [Ad Run](/Trigger/Twitch/Ads/Ad-Run) trigger if you want it to trigger at ad start.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
+
+## Event Data
+:----|:------------:
+Twitch Service: | `PubSub`
+Added in: | *v0.1.15*{.version-badge}
 
 ## Variables
 Name | Description
