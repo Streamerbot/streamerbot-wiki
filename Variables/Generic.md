@@ -2,7 +2,7 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2023-04-25T17:21:30.483Z
+date: 2023-04-25T17:23:53.303Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z
@@ -37,6 +37,8 @@ Variables related to the action being called{.subtitle}
 
 Name | Description
 ----:|:------------
-`actionId` | The unique ID number of the first action called
-`runningActionId` | The instance ID number of the action in the queue
+`actionId` | The unique ID number of the first action called.
+`actionName` | The name of the action.
+`runningActionId` | The instance ID number of the action in the queue.
+`actionQueuedAt` | The ISO 8601 time that the action was queued.
 {.vars-table}
