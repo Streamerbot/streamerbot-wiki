@@ -2,7 +2,7 @@
 title: Cheer
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:14:38.825Z
+date: 2023-04-25T21:16:11.392Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:05:21.877Z
@@ -17,6 +17,10 @@ For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 :----|:------------:
 Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
+
+## Configuration
+### Ranges
+You can select ranges if you want to filter between two values.
 
 ## Variables
 Name | Description
