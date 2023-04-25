@@ -2,7 +2,7 @@
 title: Cheer
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:13:40.639Z
+date: 2023-04-25T21:14:38.825Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:05:21.877Z
@@ -15,7 +15,7 @@ For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
 ## Event Data
 :----|:------------:
-Twitch Service: | `EventSub`
+Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
 
 ## Variables
