@@ -2,14 +2,14 @@
 title: Log
 description: Misc Sub-Actions Reference
 published: true
-date: 2023-04-25T17:17:24.069Z
+date: 2023-04-25T17:17:36.688Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T17:17:24.069Z
 ---
 
 ## Overview
-This Sub-Action is used to add log stuff to your log file. This is used for easier debugging.
+This Sub-Action is used to add log lines to your log file. This is used for easier debugging.
 
 ![Streamer.bot Log Sub-Action](/sub-action-log-001.png)
 
