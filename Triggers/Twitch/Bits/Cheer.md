@@ -2,7 +2,7 @@
 title: Cheer
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:08:15.129Z
+date: 2023-04-25T21:13:40.639Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:05:21.877Z
@@ -12,6 +12,11 @@ dateCreated: 2023-04-25T21:05:21.877Z
 This triggers when you get a cheer donation.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
+
+## Event Data
+:----|:------------:
+Twitch Service: | `EventSub`
+Added in: | *N/A*{.version-badge}
 
 ## Variables
 Name | Description
