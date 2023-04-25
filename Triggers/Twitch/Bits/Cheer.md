@@ -2,14 +2,14 @@
 title: Cheer
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:05:21.877Z
+date: 2023-04-25T21:08:15.129Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:05:21.877Z
 ---
 
 ## Overview
-This triggers when an ad starts to run. See the [Ad Midroll](/Trigger/Twitch/Ads/Ad-Mid-Roll) trigger if you want the trigger to run 5 seconds prior to the ad.
+This triggers when you get a cheer donation.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
