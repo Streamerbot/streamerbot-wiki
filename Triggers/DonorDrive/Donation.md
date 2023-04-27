@@ -2,7 +2,7 @@
 title: Donation
 description: DonorDrive Triggers Reference
 published: true
-date: 2023-03-17T21:09:26.224Z
+date: 2023-04-27T14:30:18.177Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:09:59.903Z
@@ -15,7 +15,7 @@ For a detailed guide about DonorDrive see [this page](/Integrations/DonorDrive).
 
 ## Configuration
 ### DonorDrive
-Select any or a DonorDrive provider as the source for this donation
+Select any or a DonorDrive provider as the source for this donation.
 
 ## Variables
 Name | Description
