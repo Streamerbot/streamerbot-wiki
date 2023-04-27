@@ -2,7 +2,7 @@
 title: Pyramid Success
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-27T15:17:55.911Z
+date: 2023-04-27T15:22:47.909Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-27T15:17:55.911Z
@@ -19,6 +19,8 @@ Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
 
 ## Variables
+This includes the [User](/Variables/User-Variables) Variables.
+
 Name | Description
 ----:|:------------
 `totalPyramids` | The total amount of pyramids the user has made.
