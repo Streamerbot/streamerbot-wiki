@@ -2,7 +2,7 @@
 title: Cheer
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:30:24.289Z
+date: 2023-04-27T15:23:16.900Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:05:21.877Z
@@ -23,7 +23,7 @@ Added in: | *N/A*{.version-badge}
 You can select ranges if you want to filter between two values.
 
 ## Variables
-This includes the [Chat Variables](/Variables/Chat-Variables).
+This includes the [Chat](/Variables/Chat-Variables) variables.
 
 Name | Description
 ----:|:------------
