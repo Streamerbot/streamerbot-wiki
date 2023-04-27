@@ -2,7 +2,7 @@
 title: Profile Updated
 description: DonorDrive Triggers Reference
 published: true
-date: 2023-03-17T21:09:13.094Z
+date: 2023-04-27T14:30:28.474Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:12:32.227Z
@@ -15,7 +15,7 @@ For a detailed guide about DonorDrive see [this page](/Integrations/DonorDrive).
 
 ## Configuration
 ### DonorDrive
-Select any or a DonorDrive provider as the source for this event
+Select any or a DonorDrive provider as the source for this event.
 
 ## Variables
 Name | Description
