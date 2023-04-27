@@ -2,7 +2,7 @@
 title: Ad Run
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-25T21:25:56.581Z
+date: 2023-04-27T14:57:35.905Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T20:55:52.968Z
@@ -22,7 +22,7 @@ Added in: | *v0.1.10*{.version-badge}
 Name | Description
 ----:|:------------
 `adLength` | The length of the ad in seconds.
-`adScheduled` | If this ad was scheduled. This variable can be be `True` or `False`.
+`adScheduled` | If this ad was scheduled. Returns `True` or `False`.
 {.vars-table}
 
 ---
