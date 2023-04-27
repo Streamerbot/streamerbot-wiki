@@ -2,7 +2,7 @@
 title: Pyramid Broken
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-27T15:22:36.285Z
+date: 2023-04-27T15:23:31.178Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-27T15:22:36.285Z
@@ -19,7 +19,7 @@ Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
 
 ## Variables
-This includes the [User](/Variables/User-Variables) Variables.
+This includes the [User](/Variables/User-Variables) variables.
 
 Name | Description
 ----:|:------------
