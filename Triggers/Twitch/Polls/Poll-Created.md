@@ -2,7 +2,7 @@
 title: Poll Created
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T18:50:08.733Z
+date: 2023-04-28T18:50:49.105Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T18:50:08.733Z
@@ -15,7 +15,7 @@ For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
 ## Event Data
 :----|:------------:
-Twitch Service: | `PubSub`
+Twitch Service: | `EventSub`
 Added in: | *v0.1.10*{.version-badge}
 
 ## Variables
