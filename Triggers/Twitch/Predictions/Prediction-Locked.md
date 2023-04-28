@@ -2,7 +2,7 @@
 title: Prediction Locked
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T19:04:44.097Z
+date: 2023-04-28T19:05:39.079Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T19:04:44.097Z
@@ -21,7 +21,7 @@ Added in: | *v0.0.50*{.version-badge}
 ## Variables
 Name | Description
 ----:|:------------
-`prediction.Id` | Twitch's ID of the prediction
+`prediction.Id` | Twitch's id of the prediction
 `prediction.CreatedAt` | The timestamp that the prediction was created
 `prediction.Title` | The title of the prediction
 `prediction.PredictionWindow` | How many seconds the prediction last
