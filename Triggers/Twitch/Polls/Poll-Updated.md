@@ -2,7 +2,7 @@
 title: Poll Updated
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T18:52:55.982Z
+date: 2023-04-28T18:55:22.380Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T18:52:55.982Z
@@ -37,7 +37,7 @@ Name | Description
 `poll._json` | All the variables in a JSON Object
 {.vars-table}
 
-> Change the `#` incrementing from 0. So e.g. %variable0%, %variable1%, %variable2%
+> Change the `#` incrementing from 0. So e.g. `variable0%` `variable1%` `variable2%`
 {.is-info}
 
 ---
