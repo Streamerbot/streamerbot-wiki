@@ -2,7 +2,7 @@
 title: OBS Studio
 description: C# Available Methods Reference
 published: true
-date: 2023-03-04T16:26:27.609Z
+date: 2023-05-02T00:12:20.145Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:56:46.806Z
@@ -43,22 +43,15 @@ string ObsGetCurrentScene(int connection = 0);
 ## Sources
 ```csharp
 void ObsSetSourceVisibility(string scene, string source, bool visible, int connection = 0);
-bool ObsIsSourceVisible(string scene, string source, int connection = 0);
-```
-
-```csharp
-void ObsShowSource(string scene, string source, int connection = 0);
-string ObsSetRandomGroupSourceVisible(string scene, string groupName, int connection = 0);
-```
-
-```csharp
 void ObsHideSource(string scene, string source, int connection = 0);
-void ObsHideGroupsSources(string scene, string groupName, int connection = 0);
-```
+void ObsShowSource(string scene, string source, int connection = 0);
 
-```csharp
-List<string> ObsGetGroupSources(string scene, string groupName, int connection = 0);
 string ObsGetSceneItemProperties(string scene, string source, int connection = 0);
+List<string> ObsGetGroupSources(string scene, string groupName, int connection = 0);
+bool ObsIsSourceVisible(string scene, string source, int connection = 0);
+
+string ObsSetRandomGroupSourceVisible(string scene, string groupName, int connection = 0);
+void ObsHideGroupsSources(string scene, string groupName, int connection = 0);
 ```
 
 ## Browser Sources
