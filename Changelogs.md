@@ -2,11 +2,51 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-04-28T18:13:46.973Z
+date: 2023-05-03T01:04:02.670Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+ # Streamer.bot v0.1.20 (WIP)
+ Upcoming changes in the next release!{.subtitle}
+
+* Misc tweaks/fixes
+* Fix GetCommands sub-action, had an underlying change that wasn't fully propogated
+* Update Read Random Line From File to not potentially crash
+* Fix Read Specific Line From File to use an indexed variable if it already exists
+* Fix TipeeeStream dialog text
+* Fix Set Action Group State, should show correct enabled/disabled
+* Fix C# Twitch Reward Group methods, they should affect pausing now, not enabled
+* Fix Reward Set Group Paused State, should show paused/unpaused correctly now
+* Fix crash in File Change event when file > 50kb
+* Tweak tray icon text, there's now a limit of 128 characters, from 64
+{.changelog-fixes}
+
+<span></span>
+
+* Switch Twitch Raid event to EventSub
+* Update Twitch EventSub connection URL
+* HotKeyPress event was missing the `__source` value
+* When an action or group is set to random, ignore comments and disabled sub-actions when picking
+* Add `obs.id` to OBS Event arguments
+{.changelog-updates}
+
+<span></span>
+
+* Add new C# Method, LogError
+* Add new feature set to support new Stream Deck plugin
+{.changelog-new}
+
+## Stream Deck Plugin
+Yes, you heard that right, there is a new Stream Deck plugin in the works, and will be released some time after this update, so there are features and settings available with this version to support the update.
+
+More details will follow
+
+## Important Notes for Twitch
+
+> As of May 15th, 2023, Twitch is updating the EventSub URL, and moving it out of beta, this means that any versions prior to this will not connect to Twitch's EventSub
+{.is-warning}
 
 # Streamer.bot v0.1.19 (Current)
 Released 2023-03-10{.subtitle}
