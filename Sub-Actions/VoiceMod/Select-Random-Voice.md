@@ -22,7 +22,7 @@ To do this navigate to the `Actions` tab, next you can either create a new actio
 Next in the Sub-Action's pane you will need to add this sub action so to do this we `Right Click` in the Sub-Action pane next navigate the menus through the following `Add Sub-Action` the down the second menu to `VoiceMod` the click on the `Select Random Voice` action. Once selected a dialog box will appear like the one below.
 
 
-![dialog-box.png](/voicemod/dialog-box.png)
+![dialog-box.png](/voicemod/dialog-box.png =400x)
 
 In this Dialog box you have a **'Mode:'** drop down selection menu. In this menu you have 4 Options to choose from 
 1. All Voices - Streamer.bot with select a random voice out of all the voices available. 
@@ -35,7 +35,7 @@ when you have selected this option, you can test the action via the `Test` Butto
 When your happy with your selection you have made click `Ok` to continue 
 
 
-![select-random-voice-complete.png](/voicemod/select-random-voice-complete.png){.align-center}
+![select-random-voice-complete.png](/voicemod/select-random-voice-complete.png)
 
 And that is it you have successfully set up Streamer.Bot to select a random voice on and action trigger.
 

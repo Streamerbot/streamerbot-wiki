@@ -9,7 +9,7 @@ dateCreated: 2022-10-19T05:56:41.484Z
 ---
 
 ## Overview
-![logic-global-set.png](/logic-global-set.png)
+![logic-global-set.png](/logic-global-set.png =400x)
 
 ## Configuration
 ### Destination

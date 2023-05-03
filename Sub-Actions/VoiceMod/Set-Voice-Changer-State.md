@@ -17,7 +17,7 @@ Once you have done this you can now proceed to the set up this Sub-Action.
 To do this navigate to the Actions tab, next you can either create a new action or use an existing one.
 Next in the Sub-Action's pane you will need to add this sub action so to do this we `Right Click` in the Sub-Action pane next navigate the menus through the following `Add Sub-Action` the down the second menu to `VoiceMod` the click on the `Set Voice Changer State` action. Once selected a dialog box will appear like the one below.
 
-![vc-dialog.png](/voicemod/vc-dialog.png =500x)
+![vc-dialog.png](/voicemod/vc-dialog.png =400x)
 
 This dialog box has a drop-down menu box named **"State"**. This menu has 3 states. 
 

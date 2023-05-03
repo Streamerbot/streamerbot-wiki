@@ -23,7 +23,7 @@ when you have done this be sure the bot is listening by click the **Start Listen
 
 First make sure that streamer.bot is open and then navigate through the following tabs `Voice Control` then in the second row of tabs click `Commands` in this tab is where we set up the voice commands so in the white space right click here and click `Add` a new dialog box will appear like the one below.
 
-![vc-add-dialog.png](/voice-control/vc-add-dialog.png)
+![vc-add-dialog.png](/voice-control/vc-add-dialog.png =400x)
 
 In this dialog you can see the following option and input fields we need to configure so starting with the top input field 
 

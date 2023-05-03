@@ -11,7 +11,7 @@ dateCreated: 2022-06-13T03:36:48.752Z
 ## Overview
 Check if an action has a specific state, returning a boolean value.
 
-![get-action-state.png](/get-action-state/get-action-state.png)
+![get-action-state.png](/get-action-state/get-action-state.png =400x)
 
 ## Configuration
 ### Timer

@@ -11,7 +11,7 @@ dateCreated: 2021-11-19T20:36:22.012Z
 ## Overview
 Convert a selected color into a bank of variables that can then be passed to C# code, HTML objects, or any OBS source that is color-aware.
 
-![pick-color.png](/pick-color.png)
+![pick-color.png](/pick-color.png =400x)
 
 ## Configuration
 ### Color / OBS Color

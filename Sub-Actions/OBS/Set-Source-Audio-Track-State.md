@@ -10,7 +10,7 @@ dateCreated: 2022-07-12T17:51:11.423Z
 
 ## Overview
 
-![overview.png](/Sub-Actions/OBS/set-source-audio-track-state/overview.png)
+![overview.png](/Sub-Actions/OBS/set-source-audio-track-state/overview.png =400x)
 
 ## Configuration
 ### Track

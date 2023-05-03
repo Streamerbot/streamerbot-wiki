@@ -14,7 +14,7 @@ This sub action will; let you add a random number to your arguments, either betw
 For example if you choose between `1` and `3`
 You wil get the values: `1`, `2` and `3`
 
-![sub-action-get-random-number.png](/sub-action-get-random-number.png)
+![sub-action-get-random-number.png](/sub-action-get-random-number.png =400x)
 
 ## Variables
 

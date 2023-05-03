@@ -14,7 +14,7 @@ With this sub-action, you can run an exe, batch file, cmdlet, Powershell script,
 
 A common usage for this action, is using the LIV URI for switching camera profiles `liv-app://camera/set/#`
 
-![perform-command-dialog.png](/Sub-Actions/perform-command-dialog.png =300x)
+![perform-command-dialog.png](/Sub-Actions/perform-command-dialog.png =400x)
 
 ## Configuration
 

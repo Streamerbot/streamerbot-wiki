@@ -14,7 +14,7 @@ The If sub-action performs a logical test on the contents of an `Argument` and i
 > If the test comes back `False` the rest of the IF statement will be ignored and the action will always continue to the next sub-action 
 {.is-warning}
 
-![logic-if.png](/logic-if.png)
+![logic-if.png](/logic-if.png =400x)
 
 ## Configuration
 ### Variable

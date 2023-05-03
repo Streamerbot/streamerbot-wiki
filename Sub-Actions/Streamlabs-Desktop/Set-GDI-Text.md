@@ -11,7 +11,7 @@ dateCreated: 2021-08-26T12:56:53.397Z
 ## Overview
 Set the text string to appear in a GDI Text Source
 
-![overview.png](/Sub-Actions/OBS/set-gdi-text/overview.png)
+![overview.png](/Sub-Actions/OBS/set-gdi-text/overview.png =400x)
 
 ## Configuration
 ### Scene

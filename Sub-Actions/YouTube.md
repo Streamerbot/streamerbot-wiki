@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-07-10T18:41:53.894Z
 ---
 
-<i class="mdi mdi-youtube text--youtube"></i>{.align-abstopright}
-
 ## Chat
 Chat message sub-actions{.subtitle} 
 - [<i class="mdi mdi-comment text--youtube"></i>**Send Message to Channel *Send a formatted message to your YouTube chat***](/Sub-Actions/YouTube/Send-Message-To-Channel)

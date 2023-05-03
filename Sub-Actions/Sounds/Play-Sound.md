@@ -11,7 +11,7 @@ dateCreated: 2021-11-02T04:23:33.090Z
 ## Overview
 Play a sound file on your computer.
 
-![sub-action-sounds-play-sound-001.png](/sub-action-sounds-play-sound-001.png)
+![sub-action-sounds-play-sound-001.png](/sub-action-sounds-play-sound-001.png =400x)
 
 ## Configuration
 ### Audio Device
