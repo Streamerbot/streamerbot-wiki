@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-03T01:04:02.670Z
+date: 2023-05-04T14:39:31.932Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Fix Reward Set Group Paused State, should show paused/unpaused correctly now
 * Fix crash in File Change event when file > 50kb
 * Tweak tray icon text, there's now a limit of 128 characters, from 64
+* Fix Get Commands Subaction, could add a new one with no variable
+* Fix missing `__source` variable for Twitch Poll and Prediction events
 {.changelog-fixes}
 
 <span></span>
