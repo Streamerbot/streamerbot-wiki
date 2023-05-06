@@ -13,7 +13,7 @@ This action will freeze either a named `Action Queue` or all queues, effectively
 
 Valid States `Pause` `Resume`
 
-![set-action-queue-pause-state.png](/set-action-queue-pause-state.png)
+![set-action-queue-pause-state.png](/set-action-queue-pause-state.png =400x)
 
 > If all action queues are paused, you will not be able to unpause them unless the action is set to `Always Run`
 {.is-warning}

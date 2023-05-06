@@ -19,7 +19,7 @@ Once you have done this you can now proceed to the set up this Sub-Action.
 To do this navigate to the Actions tab, next you can either create a new action or use an existing one.
 Next in the Sub-Action's pane you will need to add this sub action so to do this we `Right Click` in the Sub-Action pane next navigate the menus through the following `Add Sub-Action` the down the second menu to `VoiceMod` the click on the `Select Voice` action. Once selected a dialog box will appear like the one below.
 
-![select-voice-dialog.png](/voicemod/select-voice-dialog.png)
+![select-voice-dialog.png](/voicemod/select-voice-dialog.png =400x)
 
 In this Dialog box you have a **'Voice:'** drop down selection menu. In this menu it will list all the voices that are available for you to use when you have selected a voice , you can test the action via the Test Button.
 

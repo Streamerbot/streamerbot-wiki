@@ -11,7 +11,7 @@ dateCreated: 2022-10-19T05:54:26.112Z
 ## Overview
 This sub-action copies data from a stored `Global` type variable into a custom `Argument` so it is available to the rest of the action.
 
-![logic-global-get.png](/logic-global-get.png)
+![logic-global-get.png](/logic-global-get.png =400x)
 
 ## Configuration
 ### Source

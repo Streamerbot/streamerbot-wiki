@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-07-10T19:06:14.215Z
 ---
 
-![voicemod.png](/logos/voicemod.png){.align-abstopright}
-
 * [<i class="mdi mdi-microphone text--voicemod"></i>**Get Current Voice *Queries VoiceMod for the current voice in use***](/Sub-Actions/VoiceMod/Get-Current-Voice)
 * [<i class="mdi mdi-animation-outline text--voicemod"></i>**Select Random Voice *Make Streamer.bot pick a random voice***](/Sub-Actions/VoiceMod/Select-Random-Voice)
 * [<i class="mdi mdi-microphone text--voicemod"></i>**Select Voice *Select a Specific voice***](/Sub-Actions/VoiceMod/Select-Voice)

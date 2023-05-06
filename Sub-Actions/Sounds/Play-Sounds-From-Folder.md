@@ -11,7 +11,7 @@ dateCreated: 2021-11-22T01:08:16.939Z
 ## Overview
 This sub action allows you to play a sound file from a folder on your computer that is in the folder you specify in the dialog box. 
 
-![sound_from_folder.png](/sound_from_folder.png)
+![sound_from_folder.png](/sound_from_folder.png =400x)
 
 ## Configuration
 ### Audio Device
@@ -32,7 +32,7 @@ With this enabled, the bot will select from audio files not only in the selected
 
 Example: In the image below you can see the `<sub directory>\filename.mp3` of where the bot found the audio file within the original directory and sub directories.
 
-![recursive.png](/recursive.png)
+![recursive.png](/recursive.png =400x)
 
 ### Volume
 Adjust the volume of the sound file.  This is a very basic volume adjustment, and is usually better to adjust the volume with a tool like Audacity.
