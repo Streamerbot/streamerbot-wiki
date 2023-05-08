@@ -1,8 +1,8 @@
 ---
 title: Execute C# Code
-description: 
+description: Execute custom C# code in your actions
 published: true
-date: 2023-03-16T13:28:56.020Z
+date: 2023-05-08T02:26:52.363Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:50.110Z
