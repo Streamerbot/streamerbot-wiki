@@ -2,7 +2,7 @@
 title: Generic Event
 description: MIDI Sub-Actions Reference
 published: false
-date: 2023-03-16T13:33:23.396Z
+date: 2023-05-08T02:29:15.874Z
 tags: v0.1.15
 editor: markdown
 dateCreated: 2022-12-22T01:28:36.476Z
@@ -16,6 +16,8 @@ Send out a Generic MIDI out event to your MIDI device.
 ## Configuration
 ### Name
 ### Device
+Select the MIDI device to sent this event to.
+
 ### Command
 Name | Description
 ----:|:------------
@@ -30,8 +32,8 @@ Name | Description
 ### Data1
 ### Data2
 ### Ignore NoteOff
-### Device
-### Open
+### Learn from - Device
+### Learn from - Open
 
 ---
 
