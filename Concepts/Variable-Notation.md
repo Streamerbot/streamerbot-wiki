@@ -2,7 +2,7 @@
 title: Variable Notation
 description: Guide on how to use the Streamer.bot variable notation
 published: true
-date: 2023-05-09T22:02:01.769Z
+date: 2023-05-09T22:02:20.145Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-09T22:02:01.769Z
@@ -11,7 +11,7 @@ dateCreated: 2023-05-09T22:02:01.769Z
 ## Overview
 All Streamer.bot variables are parsed from a JSON object, you can access this object in C# with the [args dictonary](/Sub-Actions/Code/CSharp/Streamerbot-Variables). But in normal Sub-Actions you can use the parsed version with `%%`'s.
 
-In this guide we'll show you on how all the variables from the documentation and from the JSON work.
+In this guide we'll show you on how all the variables from the documentation work.
 
 ## Type 1
 ### Examples
