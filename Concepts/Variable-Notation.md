@@ -2,29 +2,25 @@
 title: Variable Notation
 description: Guide on how to use the Streamer.bot variable notation
 published: true
-date: 2023-05-09T22:02:20.145Z
+date: 2023-05-09T22:08:06.445Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-09T22:02:01.769Z
 ---
 
 ## Overview
-All Streamer.bot variables are parsed from a JSON object, you can access this object in C# with the [args dictonary](/Sub-Actions/Code/CSharp/Streamerbot-Variables). But in normal Sub-Actions you can use the parsed version with `%%`'s.
+Variables are documentated in a specific way, some documentation may look a bit weird. Here is a list of those with their explanation.
 
-In this guide we'll show you on how all the variables from the documentation work.
+## `#`
+The `#` is used in lists of variables with the same name. The `#` will go from 0 to the end of the list.
 
-## Type 1
-### Examples
-* `%line#%`
-* `%poll.choice#%`
+### Example Documentaion 
+`line#`
 
-### Guide
-Here you see two variables with multiple numbered variations. The `#` means a number reaching from 0 to the end of the list. So if you have 3 lines the variables will be `line0`, `line1` and `line2`.
-
-## Type 2
-### Examples
-* `%user%`
-* `%poll.duration%`
-
-### Guide
-Here you see two variables in a pure object form. Object are parsed with `.`'s so an object of poll with duration will be `poll.duration` and the default object with user will just be `user`.
+### What you can use
+* `line0`
+* `line1`
+* `line2`
+* `line3`
+* `line4`
+* `line5`
