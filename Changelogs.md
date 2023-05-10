@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-04T14:39:31.932Z
+date: 2023-05-10T14:26:33.348Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,6 +23,8 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Tweak tray icon text, there's now a limit of 128 characters, from 64
 * Fix Get Commands Subaction, could add a new one with no variable
 * Fix missing `__source` variable for Twitch Poll and Prediction events
+* Fix missing `__source` variable for StreamElements events
+* Fix profile image url in Twitch Raid start/send events
 {.changelog-fixes}
 
 <span></span>
@@ -32,12 +34,16 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * HotKeyPress event was missing the `__source` value
 * When an action or group is set to random, ignore comments and disabled sub-actions when picking
 * Add `obs.id` to OBS Event arguments
+* Add `isFollowing` variable for `Twitch Add Follow Age Info` sub-action
+* Add `targetIsFollowing` variable for `Twitch Add Target Info` sub-action
 {.changelog-updates}
 
 <span></span>
 
 * Add new C# Method, LogError
 * Add new feature set to support new Stream Deck plugin
+* Add new test method for Twitch Raids
+* Add an AutoType option to the `Logic If` sub-action
 {.changelog-new}
 
 ## Stream Deck Plugin
