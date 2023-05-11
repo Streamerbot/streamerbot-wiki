@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-10T14:26:33.348Z
+date: 2023-05-11T00:42:59.725Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -36,6 +36,7 @@ dateCreated: 2021-08-25T21:51:24.140Z
 * Add `obs.id` to OBS Event arguments
 * Add `isFollowing` variable for `Twitch Add Follow Age Info` sub-action
 * Add `targetIsFollowing` variable for `Twitch Add Target Info` sub-action
+* For the Twitch Create Clip sub-action, updated `createClipUrl` to be the URL friendly URL for the clip, and added `createClipEmbedUrl ` that will contain the embed url
 {.changelog-updates}
 
 <span></span>
