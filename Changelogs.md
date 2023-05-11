@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-11T00:42:59.725Z
+date: 2023-05-11T00:43:35.654Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
- # Streamer.bot v0.1.20 (WIP)
- Upcoming changes in the next release!{.subtitle}
+ # Streamer.bot v0.1.20 (Current)
+ Released 2023-05-10{.subtitle}
 
 * Misc tweaks/fixes
 * Fix GetCommands sub-action, had an underlying change that wasn't fully propogated
@@ -57,7 +57,7 @@ More details will follow
 > As of May 15th, 2023, Twitch is updating the EventSub URL, and moving it out of beta, this means that any versions prior to this will not connect to Twitch's EventSub
 {.is-warning}
 
-# Streamer.bot v0.1.19 (Current)
+# Streamer.bot v0.1.19
 Released 2023-03-10{.subtitle}
 
 * DonorDrive would not reconnect properly
