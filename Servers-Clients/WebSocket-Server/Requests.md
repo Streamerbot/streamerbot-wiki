@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2023-03-06T17:26:45.608Z
+date: 2023-05-12T06:56:22.492Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -51,7 +51,7 @@ The basic format for a request is as follows:
       "Follow",
       "Cheer",
       "Sub",
-      "Resub",
+      "ReSub",
       "GiftSub",
       "GiftBomb"
 		]
@@ -90,7 +90,7 @@ This request allows you to unsubscribe from any message events you are currently
       "Follow",
       "Cheer",
       "Sub",
-      "Resub",
+      "ReSub",
       "GiftSub",
       "GiftBomb"
 		]
