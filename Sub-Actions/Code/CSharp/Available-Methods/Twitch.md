@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-05-13T03:36:44.207Z
+date: 2023-05-13T03:42:34.730Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -205,7 +205,7 @@ List<ClipData> GetClipsForUser(int userId, TimeSpan duration);
 List<ClipData> GetClipsForUser(int userId, TimeSpan duration, int count);
 ```
 
-### Get clips for game
+### Get clips for game id
 ```csharp
 List<ClipData> GetClipsForGame(int gameId);
 List<ClipData> GetClipsForGame(int gameId, int count);
