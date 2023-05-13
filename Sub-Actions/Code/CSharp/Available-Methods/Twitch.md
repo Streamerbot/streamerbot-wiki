@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-05-03T16:08:54.546Z
+date: 2023-05-13T03:23:17.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -176,22 +176,24 @@ void TwitchPredictionResolve(string predictionId, string winningId);
 long TwitchGetBitsDonatedByUserId(string userId);
 ```
 
-## Clips
+## Get Clips
 > All clip data is sorted by view count, this is a limitation of the Twitch API. To get most recent clips, one would have to get all the clips for the user, one got-ya for this, there is a hard limit of 1000 clips that can be returned
 {.is-info}
 
+### Get all clips
 ```csharp
 List<ClipData> GetAllClips();
+```
+
+### Get clips for game
+```csharp
 List<ClipData> GetClipsForGame(int gameId);
+```
+
+### Get clips for user
+```csharp
 List<ClipData> GetClipsForUser(int userId);
 List<ClipData> GetClipsForUser(string username);
-```
-
-```csharp
-ClipData CreateClip();
-```
-
-```csharp
 List<ClipData> GetClipsForUser(int userId, int count);
 List<ClipData> GetClipsForUser(int userId, DateTime start, DateTime end);
 List<ClipData> GetClipsForUser(int userId, DateTime start, DateTime end, int count);
@@ -209,7 +211,12 @@ List<ClipData> GetClipsForGame(int gameId, TimeSpan duration);
 List<ClipData> GetClipsForGame(int gameId, TimeSpan duration, int count);
 ```
 
-### ClipData contains the following values
+## Create Clip
+```csharp
+ClipData CreateClip();
+```
+
+ClipData contains the following values:
 ```csharp
 string Id;
 string Url;
