@@ -2,7 +2,7 @@
 title: Twitch
 description: C# Available Methods Reference
 published: true
-date: 2023-05-13T03:36:17.458Z
+date: 2023-05-13T03:36:44.207Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:51:36.923Z
@@ -185,14 +185,14 @@ long TwitchGetBitsDonatedByUserId(string userId);
 List<ClipData> GetAllClips();
 ```
 
-### Get clips for game
+### Get clips for username
 ```csharp
-List<ClipData> GetClipsForGame(int gameId);
-List<ClipData> GetClipsForGame(int gameId, int count);
-List<ClipData> GetClipsForGame(int gameId, DateTime start, DateTime end);
-List<ClipData> GetClipsForGame(int gameId, DateTime start, DateTime end, int count);
-List<ClipData> GetClipsForGame(int gameId, TimeSpan duration);
-List<ClipData> GetClipsForGame(int gameId, TimeSpan duration, int count);
+List<ClipData> GetClipsForUser(string username);
+List<ClipData> GetClipsForUser(string userName, int count);
+List<ClipData> GetClipsForUser(string username, DateTime start, DateTime end);
+List<ClipData> GetClipsForUser(string username, DateTime start, DateTime end, int count);
+List<ClipData> GetClipsForUser(string username, TimeSpan duration);
+List<ClipData> GetClipsForUser(string username, TimeSpan duration, int count);
 ```
 
 ### Get clips for user id
@@ -205,14 +205,14 @@ List<ClipData> GetClipsForUser(int userId, TimeSpan duration);
 List<ClipData> GetClipsForUser(int userId, TimeSpan duration, int count);
 ```
 
-### Get clips for username
+### Get clips for game
 ```csharp
-List<ClipData> GetClipsForUser(string username);
-List<ClipData> GetClipsForUser(string userName, int count);
-List<ClipData> GetClipsForUser(string username, DateTime start, DateTime end);
-List<ClipData> GetClipsForUser(string username, DateTime start, DateTime end, int count);
-List<ClipData> GetClipsForUser(string username, TimeSpan duration);
-List<ClipData> GetClipsForUser(string username, TimeSpan duration, int count);
+List<ClipData> GetClipsForGame(int gameId);
+List<ClipData> GetClipsForGame(int gameId, int count);
+List<ClipData> GetClipsForGame(int gameId, DateTime start, DateTime end);
+List<ClipData> GetClipsForGame(int gameId, DateTime start, DateTime end, int count);
+List<ClipData> GetClipsForGame(int gameId, TimeSpan duration);
+List<ClipData> GetClipsForGame(int gameId, TimeSpan duration, int count);
 ```
 
 ## Create Clip
