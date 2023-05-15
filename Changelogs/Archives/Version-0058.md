@@ -2,7 +2,7 @@
 title: Version 0.0.58
 description: 
 published: true
-date: 2021-08-26T02:16:30.219Z
+date: 2023-05-15T11:53:22.025Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:36.285Z
@@ -51,7 +51,7 @@ bool RemoveUserFromGroup(int userId, string groupName);
 bool RemoveUserFromGroup(string userName, string groupName);
 ```
 
-## GetGloabl Default Value
+## GetGlobal Default Value
 Added in the ability to specify a default value for Get Global sub-action.
 
 When this is not set, it will behave as it has in past versions.
