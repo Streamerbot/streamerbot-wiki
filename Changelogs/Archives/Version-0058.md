@@ -2,7 +2,7 @@
 title: Version 0.0.58
 description: 
 published: true
-date: 2023-05-15T11:53:22.025Z
+date: 2023-05-15T11:53:28.627Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:36.285Z
@@ -39,7 +39,7 @@ Allow is the default behaviour, and if both permission lists are empty, then any
 
 Deny is a new option, if this is selected, and both permission lists are empty, then everyone is denied from using the command.  If either permission list has a group or a user in it, and the user trying to activate the command exists in the group, or user list, then they will not be allowed to use the command.
 
-## New Execute C# Functions
+## New Execute C# Methods
 Added a few functions to deal with adding/removing users from groups
 
 ```csharp
