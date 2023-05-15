@@ -2,13 +2,42 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-11T00:43:35.654Z
+date: 2023-05-15T23:34:22.298Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
- # Streamer.bot v0.1.20 (Current)
+ # Streamer.bot v0.1.21 (WIP)
+ Upcoming changes in the next release!{.subtitle}
+
+* Fixes for some Stream deck sub-actions
+* Fix some dialog text
+{.changelog-fixes}
+
+<span></span>
+
+* Temporarily add T or YT after user's name in Command Dialog permissions
+{.changelog-updates}
+
+<span></span>
+* Request new Twitch scope, `channel:manage:guest_star`
+* Add support for (Twitch Guest Star)[#twitch-guest-star] events
+{.changelog-new}
+
+## Stream Deck Plugin
+
+During the beta phase for this version, the new Stream Deck plugin will be available to beta users to test and play with!
+
+## Twitch Guest Star
+Added subscriptions to listen to the new Twitch Guest Start EventSub subscriptions
+
+## Twitch Scopes
+Requesting the following new scopes for the broadcaster account
+* `channel:manage:guest_star`
+{.grid-list}
+
+# Streamer.bot v0.1.20 (Current)
  Released 2023-05-10{.subtitle}
 
 * Misc tweaks/fixes
