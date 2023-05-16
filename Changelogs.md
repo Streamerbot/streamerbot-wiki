@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-15T23:34:22.298Z
+date: 2023-05-16T14:03:07.418Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -23,7 +23,30 @@ dateCreated: 2021-08-25T21:51:24.140Z
 <span></span>
 * Request new Twitch scope, `channel:manage:guest_star`
 * Add support for (Twitch Guest Star)[#twitch-guest-star] events
+* Add new (C# Methods)[new-c-methods] for Stream Deck
 {.changelog-new}
+
+## New C# Methods
+
+```cs
+void StreamDeckSetBackgroundColor(string buttonId, string color);
+void StreamDeckSetBackgroundColor(string buttonId, string color, int state);
+void StreamDeckSetBackgroundUrl(string buttonId, string imageUrl);
+void StreamDeckSetBackgroundUrl(string buttonId, string imageUrl, string color);
+void StreamDeckSetBackgroundUrl(string buttonId, string imageUrl, int state);
+void StreamDeckSetBackgroundUrl(string buttonId, string imageUrl, string color, int state);
+void StreamDeckSetBackgroundLocal(string buttonId, string imageFile);
+void StreamDeckSetBackgroundLocal(string buttonId, string imageFile, string color);
+void StreamDeckSetBackgroundLocal(string buttonId, string imageFile, int state);
+void StreamDeckSetBackgroundLocal(string buttonId, string imageFile, string color, int state);
+void StreamDeckSetTitle(string buttonId, string title);
+void StreamDeckSetTitle(string buttonId, string title, int state);
+void StreamDeckSetState(string buttonId, int state);
+void StreamDeckSetValue(string buttonId, string value);
+void StreamDeckShowAlert(string buttonId);
+void StreamDeckShowOk(string buttonId);
+void StreamDeckToggleState(string buttonId);
+```
 
 ## Stream Deck Plugin
 
