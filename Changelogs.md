@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-16T14:03:07.418Z
+date: 2023-05-18T22:44:35.672Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -46,6 +46,36 @@ void StreamDeckSetValue(string buttonId, string value);
 void StreamDeckShowAlert(string buttonId);
 void StreamDeckShowOk(string buttonId);
 void StreamDeckToggleState(string buttonId);
+```
+
+### New Methods for Twitch Guest Star
+```cs
+GuestStarSettings TwitchGetChannelGuestStarSettings();
+bool TwitchUpdateChannelGuestStarSettings(bool? isModeratorSendLiveEnabled = null, int? slotCount = null, bool? isBrowserSourceAudioEnabled = null, string groupLayout = null, bool? regeneratgeBrowserSource = null);
+GuestSession TwitchGetGuestStarSession();
+GuestSession TwitchCreateGuestStarSession();
+GuestSession TwitchEndGuestStarSession();
+List<GuestStarInvite> TwitchGetGuestStarInvites();
+bool TwitchSendGuestStarInvite(string userLogin);
+bool TwitchDeleteGuestStarInvite(string userLogin);
+bool TwitchAssignGuestStarSlot(string userLogin, int slot);
+bool TwitchUpdateGuestStarSlot(int sourceSlot, int destinationSlot);
+bool TwitchDeleteGuestStarSlot(string userLogin, int slot);
+bool TwitchUpdateGuestStarSlotSettings(int slotId, bool? isAudioEnabled = null, bool? isVideoEnabled = null, bool? isLive = null, int? volume = null);
+```
+
+Classes
+```cs
+public class GuestStarSettings
+{
+    public bool IsModeratorSendLiveEnabled { get; set; }
+    public int SlotCount { get; set; }
+    public bool IsBrowserSourceAudioEnabled { get; set; }
+    public string GroupLayout { get; set; }
+    public string BrowserSourceToken { get; set; }
+}
+
+
 ```
 
 ## Stream Deck Plugin
