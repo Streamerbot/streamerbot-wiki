@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-18T22:44:35.672Z
+date: 2023-05-18T22:46:15.295Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -64,7 +64,7 @@ bool TwitchDeleteGuestStarSlot(string userLogin, int slot);
 bool TwitchUpdateGuestStarSlotSettings(int slotId, bool? isAudioEnabled = null, bool? isVideoEnabled = null, bool? isLive = null, int? volume = null);
 ```
 
-Classes
+Supporting return classes
 ```cs
 public class GuestStarSettings
 {
@@ -75,7 +75,42 @@ public class GuestStarSettings
     public string BrowserSourceToken { get; set; }
 }
 
+public class GuestSession
+{
+    public string Id { get; set; }
+    public List<GuestStar> Guests { get; set; }
+}
 
+public class GuestStar
+{
+    public string SlotId { get; set; }
+    public bool IsLive { get; set; }
+    public string UserId { get; set; }
+    public string UserName { get; set; }
+    public string UserLogin { get; set; }
+    public int Volume { get; set; }
+    public DateTime AssignedAt { get; set; }
+    public MediaSettings AudioSettings { get; set; }
+    public MediaSettings VideoSettings { get; set; }
+}
+
+public class MediaSettings
+{
+    public bool IsHostEnabled { get; set; }
+    public bool IsGuestEnabled { get; set; }
+    public bool IsAvailable { get; set; }
+}
+
+public class GuestStarInvite
+{
+    public string UserId { get; set; }
+    public DateTime InvitedAt { get; set; }
+    public string Status { get; set; }
+    public bool IsVideoEnabled { get; set; }
+    public bool IsAudioEnabled { get; set; }
+    public bool IsVideoAvailable { get; set; }
+    public bool IsAudioAvailable { get; set; }
+}
 ```
 
 ## Stream Deck Plugin
