@@ -2,13 +2,13 @@
 title: Script Test
 description: 
 published: false
-date: 2023-05-18T19:20:02.429Z
+date: 2023-05-18T19:21:09.949Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-25T00:55:11.125Z
 ---
 
-<div class=“iframe-container”><iframe src="http://localhost:3001/embed/OBSStudio/ObsSetScene?view=edit" title="CPH Methods editor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
+<div class=“iframe-container”><iframe src="http://localhost:3001/embed/OBSStudio/ObsSetColorSourceRgbColor?view=edit" title="CPH Methods editor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allow fullscreen style="border: none; max-width: 100%; width: 100%; aspect-ratio: 16/9;"></iframe></div>
 
 ## Faq
 
