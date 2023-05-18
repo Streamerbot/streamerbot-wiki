@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2023-02-25T06:32:57.566Z
+date: 2023-05-18T15:44:55.533Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -37,6 +37,23 @@ Get information about your followers{.subtitle}
 * [<i class="mdi mdi-account-heart text--twitch"></i>**Get Follow Age Info for Target *Populate variables with user follow information***](/Sub-Actions/Twitch/Get-Follow-Age-Info-for-Target)
 * [<i class="mdi mdi-counter text--twitch"></i>**Get Follower Count *Get your current follower count*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Follower-Count)
 * [<i class="mdi mdi-account-clock text--twitch"></i>**Get Latest Follower *Get data about your latest follower*** *v0.1.18*{.version-badge}](/Sub-Actions/Twitch/Get-Latest-Follower)
+{.btn-grid .my-5}
+
+## Guest Star
+Manage and retrieve your Guest Star settings{.subtitle}
+
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Assign Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Assign-Guest-Star-Slot){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Create Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Create-Guest-Star-Session){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Invite){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Slot){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**End Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/End-Guest-Star-Session){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Get-Channel-Guest-Star-Settings){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Invites**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Invites){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Session){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Send Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Send-Guest-Star-Invite){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Channel-Guest-Star-Settings){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot-Settings){.disabled}
 {.btn-grid .my-5}
 
 ## Moderation
