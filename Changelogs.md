@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-18T22:46:15.295Z
+date: 2023-05-18T22:46:22.505Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -63,7 +63,6 @@ bool TwitchUpdateGuestStarSlot(int sourceSlot, int destinationSlot);
 bool TwitchDeleteGuestStarSlot(string userLogin, int slot);
 bool TwitchUpdateGuestStarSlotSettings(int slotId, bool? isAudioEnabled = null, bool? isVideoEnabled = null, bool? isLive = null, int? volume = null);
 ```
-
 Supporting return classes
 ```cs
 public class GuestStarSettings
