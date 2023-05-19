@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-18T22:46:22.505Z
+date: 2023-05-19T01:09:53.957Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,11 +13,13 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 * Fixes for some Stream deck sub-actions
 * Fix some dialog text
+* Update Twitch Goal Progress event to check if the goal has reached the target, and also send an End event
 {.changelog-fixes}
 
 <span></span>
 
 * Temporarily add T or YT after user's name in Command Dialog permissions
+* Update Stream Deck sub-actions to allow variables in the Button ID
 {.changelog-updates}
 
 <span></span>
