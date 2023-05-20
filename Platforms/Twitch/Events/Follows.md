@@ -2,7 +2,7 @@
 title: Follows Event
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:03:17.869Z
+date: 2023-03-16T13:03:19.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T19:52:20.005Z

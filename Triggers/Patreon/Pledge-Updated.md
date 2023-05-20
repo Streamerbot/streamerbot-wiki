@@ -2,7 +2,7 @@
 title: Pledge Updated
 description: Patreon Triggers Reference
 published: true
-date: 2023-03-17T21:19:10.786Z
+date: 2023-03-17T21:19:13.050Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:45:47.934Z

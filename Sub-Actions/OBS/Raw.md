@@ -2,7 +2,7 @@
 title: Raw
 description: OBS raw is powerfull tool to do OBS things that you can't do in regular sub-actions.
 published: true
-date: 2023-03-16T11:40:29.546Z
+date: 2023-03-16T11:40:32.501Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-20T18:39:46.278Z

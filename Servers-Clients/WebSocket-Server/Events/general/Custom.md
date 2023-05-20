@@ -2,7 +2,7 @@
 title: Custom
 description: Websocket Events Reference - general
 published: true
-date: 2023-02-07T23:17:45.606Z
+date: 2023-02-07T23:18:45.066Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:17:45.606Z

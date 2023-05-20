@@ -2,7 +2,7 @@
 title: GetVersion
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:04:21.566Z
+date: 2023-03-16T12:04:23.435Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T00:21:44.682Z

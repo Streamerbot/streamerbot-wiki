@@ -2,7 +2,7 @@
 title: WebSocket Client
 description: Core Websocket Triggers Reference
 published: true
-date: 2023-03-16T22:10:14.306Z
+date: 2023-03-16T22:10:16.133Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T21:31:51.362Z

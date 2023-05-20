@@ -2,7 +2,7 @@
 title: VendorEvent
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:13:19.631Z
+date: 2022-10-29T22:13:21.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T10:15:10.463Z

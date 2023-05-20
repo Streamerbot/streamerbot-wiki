@@ -2,7 +2,7 @@
 title: BroadcastUpdated
 description: Websocket Events Reference - youTube
 published: true
-date: 2023-02-15T19:02:03.347Z
+date: 2023-02-15T19:02:05.242Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-15T19:00:25.210Z

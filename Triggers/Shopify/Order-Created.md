@@ -2,7 +2,7 @@
 title: Order Created
 description: Shopify Triggers Reference
 published: true
-date: 2023-03-17T21:10:04.606Z
+date: 2023-03-17T21:10:07.170Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T17:26:06.796Z

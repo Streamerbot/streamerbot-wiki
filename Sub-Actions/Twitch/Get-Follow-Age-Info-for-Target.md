@@ -2,7 +2,7 @@
 title: Get Follow Age Info for Target
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:31:30.122Z
+date: 2022-11-03T19:31:32.728Z
 tags: twitch, subactions, follow age
 editor: markdown
 dateCreated: 2022-02-20T04:01:00.028Z

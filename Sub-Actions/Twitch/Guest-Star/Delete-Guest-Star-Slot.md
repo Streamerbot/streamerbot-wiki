@@ -2,7 +2,7 @@
 title: Delete Guest Star Slot
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-05-18T16:03:00.098Z
+date: 2023-05-18T16:03:02.086Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-18T16:03:00.098Z

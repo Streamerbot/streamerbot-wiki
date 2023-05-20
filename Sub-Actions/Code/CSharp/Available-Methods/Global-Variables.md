@@ -2,7 +2,7 @@
 title: Global Variables
 description: C# Available Methods Reference
 published: true
-date: 2023-01-27T16:57:10.367Z
+date: 2023-01-27T16:57:12.173Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T00:13:01.336Z

@@ -2,7 +2,7 @@
 title: Speaking Options
 description: TwitchSpeaker Speaking Options 
 published: true
-date: 2023-01-20T15:07:53.922Z
+date: 2023-01-20T15:07:55.916Z
 tags: twitch, tts, settings, twitchspeaker, options
 editor: markdown
 dateCreated: 2023-01-10T02:25:56.142Z

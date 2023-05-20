@@ -2,7 +2,7 @@
 title: InputAudioMonitorTypeChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:14:35.457Z
+date: 2022-10-29T22:14:37.675Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:28:40.905Z

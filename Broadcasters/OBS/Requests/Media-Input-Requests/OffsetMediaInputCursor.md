@@ -2,7 +2,7 @@
 title: OffsetMediaInputCursor
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:41:21.109Z
+date: 2023-03-16T12:41:23.058Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:49:16.248Z

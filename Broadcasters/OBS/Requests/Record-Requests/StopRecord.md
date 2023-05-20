@@ -2,7 +2,7 @@
 title: StopRecord
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:40:44.827Z
+date: 2023-03-16T12:40:46.633Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:28:00.647Z

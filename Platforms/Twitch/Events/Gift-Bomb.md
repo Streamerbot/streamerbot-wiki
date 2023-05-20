@@ -2,7 +2,7 @@
 title: Gift Bombs
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:02:53.023Z
+date: 2023-03-16T13:02:54.990Z
 tags: twitch, events
 editor: markdown
 dateCreated: 2021-12-12T22:44:55.140Z

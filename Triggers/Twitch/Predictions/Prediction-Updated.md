@@ -2,7 +2,7 @@
 title: Prediction Updated
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T19:05:34.247Z
+date: 2023-04-28T19:05:36.277Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T19:02:58.301Z

@@ -2,7 +2,7 @@
 title: GetInputSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:16:20.213Z
+date: 2023-03-16T12:16:22.187Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:30:14.263Z

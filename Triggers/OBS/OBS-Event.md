@@ -2,7 +2,7 @@
 title: OBS Event
 description: OBS Triggers Reference
 published: true
-date: 2023-04-17T23:42:44.492Z
+date: 2023-04-17T23:42:46.367Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:42:44.492Z

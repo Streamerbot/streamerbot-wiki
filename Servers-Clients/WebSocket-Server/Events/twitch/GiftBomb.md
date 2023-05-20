@@ -2,7 +2,7 @@
 title: GiftBomb
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-12T02:58:08.470Z
+date: 2023-02-12T02:58:10.286Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T02:58:08.470Z

@@ -2,7 +2,7 @@
 title: Speak
 description: How to pair up Streamer.bot and Twitch Speaker
 published: true
-date: 2023-03-16T11:51:02.455Z
+date: 2023-03-27T18:36:00.251Z
 tags: twitch, tts, speak, voice
 editor: markdown
 dateCreated: 2022-03-03T03:27:48.570Z

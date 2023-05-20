@@ -2,7 +2,7 @@
 title: Get Command State
 description: Commands Sub-Actions Reference
 published: true
-date: 2023-04-07T22:08:49.734Z
+date: 2023-04-07T22:08:51.614Z
 tags: subactions, commands, streamerbot, actions
 editor: markdown
 dateCreated: 2022-05-23T21:53:34.525Z

@@ -2,7 +2,7 @@
 title: General Events
 description: General & miscellaneous OBS Studio events
 published: true
-date: 2022-10-29T22:13:43.171Z
+date: 2022-10-29T22:13:45.250Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:28:17.485Z

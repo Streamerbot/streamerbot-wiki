@@ -2,7 +2,7 @@
 title: Channel Point Rewards
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:06:36.193Z
+date: 2023-03-27T18:36:00.251Z
 tags: twitch, channel-points
 editor: markdown
 dateCreated: 2021-08-25T21:31:18.137Z

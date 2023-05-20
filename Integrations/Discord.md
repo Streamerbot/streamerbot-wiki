@@ -2,7 +2,7 @@
 title: Discord
 description: Integrate Streamer.bot with the Discord webhooks
 published: true
-date: 2023-03-16T12:53:26.683Z
+date: 2023-03-16T12:53:28.481Z
 tags: webhooks, v0.1.14, discord
 editor: markdown
 dateCreated: 2022-09-27T10:35:28.047Z

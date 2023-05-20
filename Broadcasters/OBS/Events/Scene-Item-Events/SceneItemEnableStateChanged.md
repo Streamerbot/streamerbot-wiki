@@ -2,7 +2,7 @@
 title: SceneItemEnableStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:28.639Z
+date: 2022-10-29T22:17:31.016Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:28:05.499Z

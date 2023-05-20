@@ -2,7 +2,7 @@
 title: GetSourceActive
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:08:07.317Z
+date: 2023-03-16T12:08:09.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T23:07:34.159Z

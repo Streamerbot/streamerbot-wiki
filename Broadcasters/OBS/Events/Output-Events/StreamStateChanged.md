@@ -2,7 +2,7 @@
 title: StreamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:56.023Z
+date: 2022-10-29T22:17:58.167Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:05:38.373Z

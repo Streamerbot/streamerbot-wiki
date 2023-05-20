@@ -2,7 +2,7 @@
 title: Remove VIP
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-25T06:31:08.351Z
+date: 2023-02-25T06:31:10.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:08:20.347Z

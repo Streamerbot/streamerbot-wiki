@@ -2,7 +2,7 @@
 title: Voice Control
 description: Core Triggers Reference
 published: true
-date: 2023-03-14T22:34:36.715Z
+date: 2023-03-14T22:34:38.993Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:03:49.961Z

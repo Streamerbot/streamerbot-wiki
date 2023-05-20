@@ -2,7 +2,7 @@
 title: Add Moderator
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-25T06:30:46.310Z
+date: 2023-02-25T06:30:48.225Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:05:38.924Z

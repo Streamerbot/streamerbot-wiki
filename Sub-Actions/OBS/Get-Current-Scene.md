@@ -2,7 +2,7 @@
 title: Get Current Scene
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:45:31.507Z
+date: 2023-03-16T11:45:33.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:22.695Z

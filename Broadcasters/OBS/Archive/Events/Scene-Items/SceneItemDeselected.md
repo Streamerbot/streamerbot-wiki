@@ -2,7 +2,7 @@
 title: SceneItemDeselected
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:32:21.872Z
+date: 2022-10-29T22:32:23.853Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T18:19:56.970Z

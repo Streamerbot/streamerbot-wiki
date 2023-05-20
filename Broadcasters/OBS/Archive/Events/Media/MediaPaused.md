@@ -2,7 +2,7 @@
 title: MediaPaused
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:27:16.983Z
+date: 2022-10-29T22:27:18.924Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:24:31.448Z

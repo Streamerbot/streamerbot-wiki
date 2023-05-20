@@ -2,7 +2,7 @@
 title: Deleted
 description: Websocket Events Reference - fileWatcher
 published: true
-date: 2023-02-12T03:07:46.826Z
+date: 2023-02-12T03:07:48.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:07:46.826Z

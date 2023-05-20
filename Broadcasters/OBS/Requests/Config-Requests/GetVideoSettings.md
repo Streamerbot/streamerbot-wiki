@@ -2,7 +2,7 @@
 title: GetVideoSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:07:46.095Z
+date: 2023-03-16T12:07:47.942Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:26:03.156Z

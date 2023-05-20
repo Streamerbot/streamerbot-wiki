@@ -2,7 +2,7 @@
 title: Linux Support
 description: Information pertaining to running Streamer.bot on Linux
 published: true
-date: 2022-10-29T21:51:19.994Z
+date: 2022-10-29T21:51:22.138Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T01:57:25.992Z

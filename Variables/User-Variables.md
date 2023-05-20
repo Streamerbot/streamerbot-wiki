@@ -2,7 +2,7 @@
 title: User Variables
 description: Variables reference
 published: true
-date: 2023-04-25T17:23:46.989Z
+date: 2023-04-25T17:23:48.862Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:09:12.273Z

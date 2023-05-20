@@ -2,7 +2,7 @@
 title: GetSceneItemBlendMode
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:32:52.263Z
+date: 2023-03-16T12:32:54.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:48:10.781Z

@@ -2,7 +2,7 @@
 title: Watson
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-20T15:08:42.601Z
+date: 2023-01-20T15:08:44.583Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:21:45.256Z

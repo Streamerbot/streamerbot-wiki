@@ -2,7 +2,7 @@
 title: RewardRedemption
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-19T12:45:31.537Z
+date: 2023-02-19T12:45:34.573Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-19T12:45:31.537Z

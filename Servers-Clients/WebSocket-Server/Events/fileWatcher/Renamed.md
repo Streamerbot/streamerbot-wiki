@@ -2,7 +2,7 @@
 title: Renamed
 description: Websocket Events Reference - fileWatcher
 published: true
-date: 2023-02-12T03:06:37.405Z
+date: 2023-02-12T03:06:39.349Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:06:37.405Z

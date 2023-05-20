@@ -2,7 +2,7 @@
 title: CurrentPreviewSceneChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:49.822Z
+date: 2022-10-29T22:17:52.292Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:55:04.886Z

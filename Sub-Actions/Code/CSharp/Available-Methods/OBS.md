@@ -2,7 +2,7 @@
 title: OBS Studio
 description: C# Available Methods Reference
 published: true
-date: 2023-05-02T00:12:20.145Z
+date: 2023-05-02T00:12:23.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:56:46.806Z

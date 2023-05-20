@@ -2,7 +2,7 @@
 title: Set Paused State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T11:57:05.609Z
+date: 2023-02-04T11:57:07.481Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:00:36.383Z

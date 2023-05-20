@@ -2,7 +2,7 @@
 title: SceneListChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:39.941Z
+date: 2022-10-29T22:17:42.014Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:58:41.504Z

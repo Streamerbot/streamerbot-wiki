@@ -2,7 +2,7 @@
 title: ExitStarted
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:13:11.132Z
+date: 2022-10-29T22:13:13.127Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T10:12:49.008Z

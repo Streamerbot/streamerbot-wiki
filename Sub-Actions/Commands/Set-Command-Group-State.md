@@ -2,7 +2,7 @@
 title: Set Command Group State
 description: Commands Sub-Actions Reference
 published: true
-date: 2023-04-07T22:10:09.147Z
+date: 2023-04-07T22:10:11.111Z
 tags: subactions, commands
 editor: markdown
 dateCreated: 2021-11-19T21:44:58.665Z

@@ -2,7 +2,7 @@
 title: Speaker.bot Sub-Actions
 description: Reference of Sub-Actions used for sending text to Speaker.bot
 published: true
-date: 2023-04-09T15:16:22.563Z
+date: 2023-04-09T15:16:25.441Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T13:38:23.685Z

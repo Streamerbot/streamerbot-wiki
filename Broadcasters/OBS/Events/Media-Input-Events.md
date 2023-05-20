@@ -2,7 +2,7 @@
 title: Media Input Events
 description: Events related to media input changes
 published: true
-date: 2022-10-29T22:15:28.655Z
+date: 2022-10-29T22:15:30.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:45:44.903Z

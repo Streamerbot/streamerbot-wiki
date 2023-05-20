@@ -2,7 +2,7 @@
 title: ResumeRecord
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:41:02.259Z
+date: 2023-03-16T12:41:04.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:26:44.262Z

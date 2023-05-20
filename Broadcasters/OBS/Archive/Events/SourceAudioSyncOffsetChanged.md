@@ -2,7 +2,7 @@
 title: SourceAudioSyncOffsetChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:25:47.419Z
+date: 2022-10-29T22:25:50.034Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T15:18:29.858Z

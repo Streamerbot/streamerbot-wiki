@@ -2,7 +2,7 @@
 title: Command
 description: Websocket Events Reference - speechToText
 published: true
-date: 2023-02-12T03:17:35.420Z
+date: 2023-02-12T03:17:37.226Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:17:35.420Z

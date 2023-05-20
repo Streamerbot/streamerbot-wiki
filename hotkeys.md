@@ -2,7 +2,7 @@
 title: Hot Keys
 description: Assigning actions to keyboard shortcuts
 published: true
-date: 2022-10-29T21:49:54.199Z
+date: 2022-10-29T21:49:56.525Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T11:21:31.463Z

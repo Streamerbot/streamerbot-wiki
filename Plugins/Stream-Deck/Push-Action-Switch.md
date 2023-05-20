@@ -2,7 +2,7 @@
 title: Push Action Switch
 description: Stream Deck Plugin Buttons Reference
 published: true
-date: 2023-01-28T22:42:12.831Z
+date: 2023-01-28T22:42:14.644Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-23T00:06:27.917Z

@@ -2,7 +2,7 @@
 title: Command
 description: Voice Control Triggers Reference
 published: true
-date: 2023-03-18T01:21:59.235Z
+date: 2023-03-18T01:22:01.381Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:34:14.348Z

@@ -2,7 +2,7 @@
 title: Get Reward Info
 description: Rewards Sub-Action Reference
 published: true
-date: 2023-02-04T11:34:35.805Z
+date: 2023-02-04T11:34:37.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T22:41:40.241Z

@@ -2,7 +2,7 @@
 title: GetInputList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:15:18.872Z
+date: 2023-03-16T12:15:20.707Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:04:59.472Z

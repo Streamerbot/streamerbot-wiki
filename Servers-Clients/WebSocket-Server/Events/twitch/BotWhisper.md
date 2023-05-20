@@ -2,7 +2,7 @@
 title: BotWhisper
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-19T13:07:44.709Z
+date: 2023-02-19T13:07:46.610Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-19T13:07:44.709Z

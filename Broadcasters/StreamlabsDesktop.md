@@ -2,7 +2,7 @@
 title: Streamlabs Desktop
 description: Configure Streamlabs Desktop as a broadcaster in Streamer.bot
 published: true
-date: 2023-04-08T14:11:29
+date: 2023-04-08T20:20:21.621Z
 tags: broadcasters, streamlabsdesktop
 editor: markdown
 dateCreated: 2021-08-25T21:32:18.787Z

@@ -2,7 +2,7 @@
 title: Get Current Scene
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T11:49:21.769Z
+date: 2023-03-16T11:49:23.564Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:52:16.632Z

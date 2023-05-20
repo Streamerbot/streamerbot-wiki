@@ -2,7 +2,7 @@
 title: GiftSub
 description: TwitchSpeaker Twitch Events Reference
 published: true
-date: 2023-01-20T15:13:55.739Z
+date: 2023-01-20T15:13:57.711Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:25:59.293Z

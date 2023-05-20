@@ -2,7 +2,7 @@
 title: ToggleVirtualCam
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:33:21.885Z
+date: 2023-03-16T12:33:23.707Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T09:29:17.502Z

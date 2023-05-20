@@ -2,7 +2,7 @@
 title: CurrentSceneTransitionDurationChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:19:49.701Z
+date: 2022-10-29T22:19:52.828Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T15:34:35.003Z

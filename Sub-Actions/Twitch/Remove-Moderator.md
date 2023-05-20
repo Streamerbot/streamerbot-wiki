@@ -2,7 +2,7 @@
 title: Remove Moderator
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-25T06:31:00.792Z
+date: 2023-02-25T06:31:02.634Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:08:21.478Z

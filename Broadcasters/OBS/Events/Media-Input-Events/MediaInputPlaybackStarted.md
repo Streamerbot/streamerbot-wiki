@@ -2,7 +2,7 @@
 title: MediaInputPlaybackStarted
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:15:41.011Z
+date: 2022-10-29T22:15:43.118Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:17:14.610Z

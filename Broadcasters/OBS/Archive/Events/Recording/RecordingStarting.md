@@ -2,7 +2,7 @@
 title: RecordingStarting
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:27:59.687Z
+date: 2022-10-29T22:28:01.937Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T17:28:11.096Z

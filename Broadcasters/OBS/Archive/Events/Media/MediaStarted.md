@@ -2,7 +2,7 @@
 title: MediaStarted
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:27:31.081Z
+date: 2022-10-29T22:27:33.202Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:33:33.821Z

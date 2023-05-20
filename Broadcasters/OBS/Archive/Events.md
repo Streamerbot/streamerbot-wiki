@@ -2,7 +2,7 @@
 title: OBS Studio Events (Archive)
 description: Reference of all configurable events from OBS Studio (obs-websocket-4.9.1)
 published: true
-date: 2022-10-29T22:22:10.132Z
+date: 2022-10-29T22:22:12.424Z
 tags: obs, obs-studio, events, reference, obs-websocket-4.9.1
 editor: markdown
 dateCreated: 2022-07-04T19:18:02.800Z

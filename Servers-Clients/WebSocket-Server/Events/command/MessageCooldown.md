@@ -2,7 +2,7 @@
 title: MessageCooldown
 description: Websocket Events Reference - command
 published: true
-date: 2023-02-07T23:47:26.675Z
+date: 2023-02-07T23:47:28.468Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:40:13.917Z

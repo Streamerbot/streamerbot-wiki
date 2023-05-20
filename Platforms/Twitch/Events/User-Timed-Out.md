@@ -2,7 +2,7 @@
 title: User Timed Out Event
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:00:03.377Z
+date: 2023-03-16T13:00:05.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:30:39.460Z

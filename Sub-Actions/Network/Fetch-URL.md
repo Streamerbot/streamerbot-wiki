@@ -2,7 +2,7 @@
 title: Fetch URL
 description: Network Sub-Actions Reference
 published: true
-date: 2023-04-10T05:36:01.860Z
+date: 2023-04-10T05:36:03.937Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-24T23:44:38.655Z

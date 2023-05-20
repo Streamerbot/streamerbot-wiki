@@ -2,7 +2,7 @@
 title: RemoveScene
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:14:46.373Z
+date: 2023-03-16T12:14:48.227Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T12:59:44.246Z

@@ -2,7 +2,7 @@
 title: Get Latest Charity Campaign
 description: Twitch Sub-Actions Reference
 published: true
-date: 2023-04-25T17:19:53.810Z
+date: 2023-04-25T17:19:55.762Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:38:18.188Z

@@ -2,7 +2,7 @@
 title: General
 description: Settings Reference
 published: false
-date: 2023-03-16T07:42:17.237Z
+date: 2023-03-16T07:42:19.161Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T07:42:17.237Z

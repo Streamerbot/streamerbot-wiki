@@ -2,7 +2,7 @@
 title: Variable Types
 description: A list of all available variable types that you can import in to your code
 published: true
-date: 2023-03-16T13:30:12.159Z
+date: 2023-03-16T13:30:14.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T22:11:03.320Z

@@ -2,7 +2,7 @@
 title: Get Global Variable
 description: Globals Sub-Action Reference
 published: true
-date: 2023-04-10T05:37:42.742Z
+date: 2023-04-10T05:37:44.629Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-19T05:54:26.112Z

@@ -2,7 +2,7 @@
 title: GoalContribution
 description: TwitchSpeaker Twitch Events Reference
 published: true
-date: 2023-01-20T15:14:58.231Z
+date: 2023-01-20T15:15:00.212Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:45:48.979Z

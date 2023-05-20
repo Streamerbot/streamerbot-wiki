@@ -2,7 +2,7 @@
 title: Set Source Filter State
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:46:15.134Z
+date: 2023-03-16T11:46:16.936Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:02.059Z

@@ -2,7 +2,7 @@
 title: Output Events
 description: Events related to current output status
 published: true
-date: 2022-10-29T22:20:48.031Z
+date: 2022-10-29T22:20:50.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:45:10.807Z

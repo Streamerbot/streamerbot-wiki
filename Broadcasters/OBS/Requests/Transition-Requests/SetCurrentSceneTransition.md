@@ -2,7 +2,7 @@
 title: SetCurrentSceneTransition
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:23:28.869Z
+date: 2023-03-16T12:23:30.687Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T11:37:20.251Z

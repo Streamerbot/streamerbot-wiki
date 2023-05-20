@@ -2,7 +2,7 @@
 title: SourceFilterCreated
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:09:40.639Z
+date: 2022-10-29T22:09:42.819Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T15:59:15.093Z

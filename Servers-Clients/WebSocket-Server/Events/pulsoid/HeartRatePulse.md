@@ -2,7 +2,7 @@
 title: HeartRatePulse
 description: Websocket Events Reference - pulsoid
 published: true
-date: 2023-02-12T03:38:25.482Z
+date: 2023-02-12T03:38:27.258Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:38:25.482Z

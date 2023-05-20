@@ -2,7 +2,7 @@
 title: Connected
 description: Websocket Events Reference - obs
 published: true
-date: 2023-02-09T14:44:18.239Z
+date: 2023-02-09T14:44:20.059Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-09T14:44:18.239Z

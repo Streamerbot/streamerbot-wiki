@@ -2,7 +2,7 @@
 title: General
 description: C# Available Methods Reference
 published: true
-date: 2023-03-04T14:08:27.148Z
+date: 2023-03-04T14:08:30.076Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:47:28.087Z

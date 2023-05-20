@@ -2,7 +2,7 @@
 title: Set To Default
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2023-03-16T11:54:37.180Z
+date: 2023-03-16T11:54:39.129Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-30T14:48:43.138Z

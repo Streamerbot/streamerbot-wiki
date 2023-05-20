@@ -2,7 +2,7 @@
 title: Present Viewers Event
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:01:50.054Z
+date: 2023-03-16T13:01:51.914Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-23T21:35:31.605Z

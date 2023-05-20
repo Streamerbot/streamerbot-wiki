@@ -2,7 +2,7 @@
 title: Deleted
 description: File/Folder Watcher Triggers Reference
 published: true
-date: 2023-03-16T11:04:29.410Z
+date: 2023-03-16T11:04:31.290Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T21:45:58.861Z

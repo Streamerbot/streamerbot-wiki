@@ -2,7 +2,7 @@
 title: Ignored Voices/Locales
 description: TwitchSpeaker Settings Reference
 published: true
-date: 2023-01-20T15:07:47.128Z
+date: 2023-01-20T15:07:49.087Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T12:43:41.157Z

@@ -2,7 +2,7 @@
 title: SceneItemLockStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:21.742Z
+date: 2022-10-29T22:17:23.813Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:30:07.385Z

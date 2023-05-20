@@ -2,7 +2,7 @@
 title: Perform Command
 description: General Sub-Actions Reference
 published: true
-date: 2023-04-10T05:35:49.856Z
+date: 2023-04-10T05:35:51.998Z
 tags: subactions
 editor: markdown
 dateCreated: 2021-08-25T21:33:38.438Z

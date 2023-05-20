@@ -2,7 +2,7 @@
 title: BroadcastCustomEvent
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:04:34.468Z
+date: 2023-03-16T12:04:36.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T08:24:52.588Z

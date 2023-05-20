@@ -2,7 +2,7 @@
 title: Command Triggered
 description: Commands Triggers Reference
 published: true
-date: 2023-03-16T10:31:11.727Z
+date: 2023-03-16T10:31:13.687Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:25:18.117Z

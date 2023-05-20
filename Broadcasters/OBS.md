@@ -2,7 +2,7 @@
 title: OBS Studio (v5)
 description: Configuration page for one or more connection(s) to OBS Studio instance(s)
 published: true
-date: 2023-03-10T06:32:59.583Z
+date: 2023-03-10T06:33:01.741Z
 tags: obs, broadcasters
 editor: markdown
 dateCreated: 2021-08-25T21:32:10.502Z

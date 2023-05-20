@@ -2,7 +2,7 @@
 title: Select Voice 
 description: Have Streamer.bot Select a voice 
 published: true
-date: 2023-03-16T13:37:52.686Z
+date: 2023-03-16T13:37:54.487Z
 tags: twitch, sub-action, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-25T02:03:26.535Z

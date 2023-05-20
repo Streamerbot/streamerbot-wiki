@@ -2,7 +2,7 @@
 title: SetProfileParameter
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:07:42.065Z
+date: 2023-03-16T12:07:43.881Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:15:20.062Z

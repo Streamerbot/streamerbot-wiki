@@ -2,7 +2,7 @@
 title: StreamLabs Desktop
 description: C# Available Methods Reference
 published: true
-date: 2022-10-29T20:58:05.735Z
+date: 2022-10-29T20:58:07.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T20:58:05.735Z

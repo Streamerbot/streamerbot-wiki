@@ -2,7 +2,7 @@
 title: Resub
 description: TwitchSpeaker Twitch Events Reference
 published: true
-date: 2023-01-20T15:13:45.287Z
+date: 2023-01-20T15:13:47.295Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:23:55.951Z

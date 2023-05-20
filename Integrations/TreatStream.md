@@ -2,7 +2,7 @@
 title: TreatStream
 description: Integrate Streamer.bot with TreatStream
 published: true
-date: 2022-10-29T22:02:51.367Z
+date: 2022-10-29T22:02:53.851Z
 tags: donations, treatstream, v0.1.8
 editor: markdown
 dateCreated: 2022-06-26T23:40:15.870Z

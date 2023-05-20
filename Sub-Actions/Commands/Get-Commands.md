@@ -2,7 +2,7 @@
 title: Get Commands
 description: Commands Sub-Actions Reference
 published: true
-date: 2023-04-07T22:04:30.681Z
+date: 2023-04-07T22:04:32.578Z
 tags: twitch, commands, chat
 editor: markdown
 dateCreated: 2022-02-27T00:38:17.197Z

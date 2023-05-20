@@ -2,7 +2,7 @@
 title: General
 description: TwitchSpeaker Settings Reference
 published: true
-date: 2023-03-16T12:50:01.028Z
+date: 2023-03-16T12:50:02.834Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T02:07:07.950Z

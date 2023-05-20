@@ -2,7 +2,7 @@
 title: Set Color Source Color
 description: OBS Studio Sub-Actions reference
 published: true
-date: 2023-03-16T11:44:28.825Z
+date: 2023-03-16T11:44:30.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-02T02:53:25.130Z

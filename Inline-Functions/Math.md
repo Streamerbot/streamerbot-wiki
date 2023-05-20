@@ -2,7 +2,7 @@
 title: Inline Math Function
 description: Inline Functions Reference
 published: true
-date: 2023-02-26T20:09:52.272Z
+date: 2023-02-26T20:09:55.497Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-17T21:12:11.893Z

@@ -2,7 +2,7 @@
 title: GetCurrentSceneTransitionCursor
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:23:38.315Z
+date: 2023-03-16T12:23:40.138Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T11:49:36.239Z

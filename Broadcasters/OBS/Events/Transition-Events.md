@@ -2,7 +2,7 @@
 title: Transition Events
 description: Events related to transition changes
 published: true
-date: 2022-10-29T22:21:15.825Z
+date: 2022-10-29T22:21:18.044Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:37:37.291Z

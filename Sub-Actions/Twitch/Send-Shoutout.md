@@ -2,7 +2,7 @@
 title: Send Shoutout
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-04T10:32:51.863Z
+date: 2023-02-04T10:32:53.735Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T10:09:45.328Z

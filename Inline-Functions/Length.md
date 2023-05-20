@@ -2,7 +2,7 @@
 title: Inline Length Function
 description: Inline Functions Reference
 published: true
-date: 2023-02-26T20:48:48.429Z
+date: 2023-02-26T20:48:50.219Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-26T20:12:15.708Z

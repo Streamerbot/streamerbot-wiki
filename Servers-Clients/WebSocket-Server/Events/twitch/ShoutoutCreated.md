@@ -2,7 +2,7 @@
 title: ShoutoutCreated
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-12T13:09:32.072Z
+date: 2023-02-12T13:09:33.843Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T13:09:32.072Z

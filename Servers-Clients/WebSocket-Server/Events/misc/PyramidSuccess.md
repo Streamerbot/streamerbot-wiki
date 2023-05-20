@@ -2,7 +2,7 @@
 title: PyramidSuccess
 description: Websocket Events Reference - misc
 published: true
-date: 2023-02-12T03:30:13.731Z
+date: 2023-02-12T03:30:15.511Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:28:26.290Z

@@ -2,7 +2,7 @@
 title: Hot Keys
 description: Core Triggers Reference
 published: true
-date: 2023-03-14T11:36:07.539Z
+date: 2023-03-14T11:36:09.294Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T11:30:53.376Z

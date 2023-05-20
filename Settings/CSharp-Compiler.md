@@ -2,7 +2,7 @@
 title: C# Compiler
 description: 
 published: true
-date: 2023-03-16T13:17:37.118Z
+date: 2023-03-16T13:17:39.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T20:13:40.631Z

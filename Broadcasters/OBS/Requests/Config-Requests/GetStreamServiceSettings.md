@@ -2,7 +2,7 @@
 title: GetStreamServiceSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:07:55.064Z
+date: 2023-03-16T12:07:57.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T05:35:58.203Z

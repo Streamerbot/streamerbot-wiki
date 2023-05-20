@@ -2,7 +2,7 @@
 title: Set Source Mute State
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T11:49:14.323Z
+date: 2023-03-16T11:49:16.312Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:59:02.372Z

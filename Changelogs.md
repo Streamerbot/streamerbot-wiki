@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-20T16:15:36.606Z
+date: 2023-05-20T16:15:39.730Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z

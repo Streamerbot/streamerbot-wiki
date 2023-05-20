@@ -2,7 +2,7 @@
 title: Set Browser Source Url
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:42:34.893Z
+date: 2023-03-16T11:42:36.742Z
 tags: obs
 editor: markdown
 dateCreated: 2022-06-28T02:08:54.022Z

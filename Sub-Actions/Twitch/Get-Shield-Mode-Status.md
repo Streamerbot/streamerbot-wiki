@@ -2,7 +2,7 @@
 title: Get Shield Mode Status
 description: Twitch Sub-Actions Reference
 published: true
-date: 2023-03-16T13:37:20.312Z
+date: 2023-03-16T13:37:22.327Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-05T09:35:30.752Z

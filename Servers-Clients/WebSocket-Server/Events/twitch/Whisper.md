@@ -2,7 +2,7 @@
 title: Whisper
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-19T13:06:17.780Z
+date: 2023-02-19T13:06:19.596Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T00:00:42.686Z

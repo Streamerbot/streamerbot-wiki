@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2023-01-16T07:05:11.464Z
+date: 2023-01-16T07:05:13.403Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z

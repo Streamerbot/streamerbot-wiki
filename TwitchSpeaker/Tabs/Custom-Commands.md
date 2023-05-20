@@ -2,7 +2,7 @@
 title: Custom Commands
 description: TwitchSpeaker Documentation
 published: true
-date: 2023-01-20T15:06:26.520Z
+date: 2023-01-20T15:06:28.313Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T22:19:34.251Z

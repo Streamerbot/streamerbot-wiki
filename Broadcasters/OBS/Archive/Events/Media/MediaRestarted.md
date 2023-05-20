@@ -2,7 +2,7 @@
 title: MediaRestarted
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:27:27.242Z
+date: 2022-10-29T22:27:29.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:26:02.254Z

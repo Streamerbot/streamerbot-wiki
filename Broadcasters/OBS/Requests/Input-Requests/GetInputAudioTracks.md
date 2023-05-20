@@ -2,7 +2,7 @@
 title: GetInputAudioTracks
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:18:11.911Z
+date: 2023-03-16T12:18:13.909Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T11:11:43.011Z

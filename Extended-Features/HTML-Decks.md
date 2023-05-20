@@ -2,7 +2,7 @@
 title: Streamer.bot Decks
 description: How to use the web based decks built on the Streamer.bot website
 published: true
-date: 2022-08-04T16:48:13.175Z
+date: 2022-08-29T22:30:59.796Z
 tags: integrations, streamerbot, decks, website
 editor: markdown
 dateCreated: 2022-06-01T14:35:51.843Z

@@ -2,7 +2,7 @@
 title: Set GDI Text
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T11:49:01.218Z
+date: 2023-03-16T11:49:04.266Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:56:53.397Z

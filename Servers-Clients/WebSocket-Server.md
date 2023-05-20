@@ -2,7 +2,7 @@
 title: WebSocket Server
 description: Configure the internal Streamer.bot WebSocket API
 published: true
-date: 2022-10-02T11:48:39.981Z
+date: 2022-10-02T11:48:42.126Z
 tags: websocket, api
 editor: markdown
 dateCreated: 2021-08-25T21:37:04.299Z

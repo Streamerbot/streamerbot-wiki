@@ -2,7 +2,7 @@
 title: Generic Variables
 description: Variables Reference
 published: true
-date: 2023-04-25T17:23:53.303Z
+date: 2023-04-25T17:23:55.118Z
 tags: variables, reference
 editor: markdown
 dateCreated: 2022-06-30T19:57:33.363Z

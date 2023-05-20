@@ -2,7 +2,7 @@
 title: Set Global Cooldown
 description: Rewards Sub-Action Reference
 published: true
-date: 2023-02-04T11:53:21.591Z
+date: 2023-02-04T11:53:23.358Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:53:11.890Z

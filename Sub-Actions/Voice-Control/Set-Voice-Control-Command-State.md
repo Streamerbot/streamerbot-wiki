@@ -2,7 +2,7 @@
 title: Set Voice Control Command State
 description: Voice Control Sub-Actions Reference
 published: true
-date: 2023-04-10T05:42:07.334Z
+date: 2023-04-10T05:42:09.520Z
 tags: twitch, commands, voice, youtube, streamerbot, voice control
 editor: markdown
 dateCreated: 2022-07-08T20:25:22.954Z

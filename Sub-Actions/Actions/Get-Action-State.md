@@ -2,7 +2,7 @@
 title: Get Action State
 description: Action Sub-Actions Reference
 published: true
-date: 2023-04-06T17:01:19.098Z
+date: 2023-04-06T17:01:20.893Z
 tags: subactions, streamerbot
 editor: markdown
 dateCreated: 2022-06-13T03:36:48.752Z

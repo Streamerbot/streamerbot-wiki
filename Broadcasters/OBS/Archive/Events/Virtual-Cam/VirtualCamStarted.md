@@ -2,7 +2,7 @@
 title: VirtualCamStarted
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:39:48.958Z
+date: 2022-10-29T22:39:52.091Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T18:21:56.344Z

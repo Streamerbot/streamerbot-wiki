@@ -2,7 +2,7 @@
 title: PreviewSceneChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:39:02.730Z
+date: 2022-10-29T22:39:04.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T19:12:25.206Z

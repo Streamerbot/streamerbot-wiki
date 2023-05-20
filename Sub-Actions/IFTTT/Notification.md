@@ -2,7 +2,7 @@
 title: IFTTT Notification (Basic)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-03-16T11:55:33.474Z
+date: 2023-03-16T11:55:35.432Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-10T04:18:01.719Z

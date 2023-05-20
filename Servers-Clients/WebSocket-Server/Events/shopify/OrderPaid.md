@@ -2,7 +2,7 @@
 title: OrderPaid
 description: Websocket Events Reference - shopify
 published: true
-date: 2023-02-12T03:23:33.909Z
+date: 2023-02-12T03:23:35.752Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:23:33.909Z

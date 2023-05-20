@@ -2,7 +2,7 @@
 title: Set Color
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2023-03-16T11:54:43.199Z
+date: 2023-03-16T11:54:45.077Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-25T21:54:15.039Z

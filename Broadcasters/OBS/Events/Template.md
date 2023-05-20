@@ -2,7 +2,7 @@
 title: Template
 description: OBS Studio Events Reference (v5)
 published: false
-date: 2023-03-16T11:33:29.131Z
+date: 2023-03-16T11:33:31.109Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T16:21:10.551Z

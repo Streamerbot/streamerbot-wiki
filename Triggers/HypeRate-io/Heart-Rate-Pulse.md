@@ -2,7 +2,7 @@
 title: Heart Rate Pulse
 description: HypeRate.io Triggers Reference
 published: true
-date: 2023-03-14T22:52:42.454Z
+date: 2023-03-14T22:52:44.520Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:52:42.454Z

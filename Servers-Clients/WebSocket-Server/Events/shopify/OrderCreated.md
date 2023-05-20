@@ -2,7 +2,7 @@
 title: OrderCreated
 description: Websocket Events Reference - shopify
 published: true
-date: 2023-02-12T03:24:19.679Z
+date: 2023-02-12T03:24:21.568Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T03:24:19.679Z

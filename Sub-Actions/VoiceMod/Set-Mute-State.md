@@ -2,7 +2,7 @@
 title: Set Mute State
 description: Toggle the mute state in VoiceMod via Streamer.Bot
 published: true
-date: 2023-03-16T11:53:37.421Z
+date: 2023-03-16T11:53:39.723Z
 tags: twitch, subactions, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-28T15:41:19.761Z

@@ -2,7 +2,7 @@
 title: GetRecordStatus
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:40:27.018Z
+date: 2023-03-16T12:40:28.897Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T19:35:36.890Z

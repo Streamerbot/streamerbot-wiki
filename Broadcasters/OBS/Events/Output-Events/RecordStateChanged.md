@@ -2,7 +2,7 @@
 title: RecordStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:18:06.161Z
+date: 2022-10-29T22:18:08.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:07:37.969Z

@@ -2,7 +2,7 @@
 title: RefreshBrowserSource
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:52:43.995Z
+date: 2023-03-16T12:52:45.836Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T12:19:55.650Z

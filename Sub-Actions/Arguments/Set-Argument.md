@@ -2,7 +2,7 @@
 title: Set Argument
 description: Arguments Sub-Actions Reference
 published: true
-date: 2023-04-06T17:03:13.015Z
+date: 2023-04-07T16:20:30.011Z
 tags: logic, set argument
 editor: markdown
 dateCreated: 2022-06-28T00:44:25.623Z

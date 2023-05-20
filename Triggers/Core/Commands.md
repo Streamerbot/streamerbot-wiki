@@ -2,7 +2,7 @@
 title: Commands
 description: Core Triggers Reference
 published: true
-date: 2023-03-14T16:30:16.930Z
+date: 2023-03-14T16:30:19.067Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T11:49:49.308Z

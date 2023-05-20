@@ -2,7 +2,7 @@
 title: Hide Group's Sources
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T13:36:53.988Z
+date: 2023-03-16T13:36:55.846Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:53:29.517Z

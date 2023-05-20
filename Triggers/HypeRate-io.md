@@ -2,7 +2,7 @@
 title: HypeRate.io
 description: Triggers Reference
 published: true
-date: 2023-03-15T11:12:44.510Z
+date: 2023-03-15T11:12:46.327Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:50:59.617Z

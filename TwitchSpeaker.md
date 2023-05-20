@@ -2,7 +2,7 @@
 title: Speaker.bot
 description: Documentation for TwitchSpeaker
 published: true
-date: 2023-02-25T06:34:48.726Z
+date: 2023-02-25T06:34:50.687Z
 tags: twitchspeaker
 editor: markdown
 dateCreated: 2022-08-02T16:36:25.669Z

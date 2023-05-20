@@ -2,7 +2,7 @@
 title: Get Follower Count
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-02-25T06:30:34.204Z
+date: 2023-02-25T06:30:36.040Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T09:55:45.432Z

@@ -2,7 +2,7 @@
 title: Custom Server Connection Opened
 description: Websocket Custom Server Reference
 published: true
-date: 2023-04-18T00:23:20.662Z
+date: 2023-04-18T00:23:22.662Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-18T00:15:36.923Z

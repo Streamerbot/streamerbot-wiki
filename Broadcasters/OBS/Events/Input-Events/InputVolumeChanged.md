@@ -2,7 +2,7 @@
 title: InputVolumeChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:15:11.012Z
+date: 2022-10-29T22:15:13.076Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:21:50.821Z

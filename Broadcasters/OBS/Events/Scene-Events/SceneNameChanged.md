@@ -2,7 +2,7 @@
 title: SceneNameChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:37.025Z
+date: 2022-10-29T22:17:39.155Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:36:54.227Z

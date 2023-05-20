@@ -2,7 +2,7 @@
 title: Set Background Effect State
 description: 
 published: true
-date: 2023-03-16T11:53:11.049Z
+date: 2023-03-16T11:53:12.921Z
 tags: twitch, integrations, voice, youtube, streamerbot, voicemod
 editor: markdown
 dateCreated: 2022-06-27T19:28:31.104Z

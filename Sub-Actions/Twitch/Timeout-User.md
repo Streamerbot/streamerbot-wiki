@@ -2,7 +2,7 @@
 title: Timeout User
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:13:14.176Z
+date: 2022-11-03T19:33:25.816Z
 tags: twitch, subactions, timeout
 editor: markdown
 dateCreated: 2021-08-25T21:34:21.886Z

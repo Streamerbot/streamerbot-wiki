@@ -2,7 +2,7 @@
 title: Shopify
 description: Triggers Reference
 published: true
-date: 2023-03-17T21:07:09.108Z
+date: 2023-03-17T21:07:10.916Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T11:02:49.497Z

@@ -2,7 +2,7 @@
 title: Raid
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-08T15:09:13.830Z
+date: 2023-02-08T15:09:16.360Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T15:09:13.830Z

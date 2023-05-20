@@ -2,7 +2,7 @@
 title: Websocket Server Requests
 description: Control TwitchSpeaker with its internal Websocket Server!
 published: true
-date: 2023-02-26T11:42:52.459Z
+date: 2023-02-26T11:42:55.442Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T19:43:54.205Z

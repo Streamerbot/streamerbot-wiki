@@ -2,7 +2,7 @@
 title: Event Log
 description: Event logs are speaker placed here 
 published: true
-date: 2023-01-20T15:05:58.383Z
+date: 2023-01-20T15:06:02.114Z
 tags: twitch, tts, twitchspeaker, event
 editor: markdown
 dateCreated: 2022-08-08T00:10:28.128Z

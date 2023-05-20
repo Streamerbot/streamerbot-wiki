@@ -2,7 +2,7 @@
 title: YouTube Event Reference
 description: Reference of all variables available for the YouTube platform
 published: true
-date: 2023-02-05T01:22:56.282Z
+date: 2023-02-05T01:22:59.078Z
 tags: youtube, variables, arguments
 editor: markdown
 dateCreated: 2022-06-23T02:31:00.996Z

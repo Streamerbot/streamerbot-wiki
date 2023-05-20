@@ -2,7 +2,7 @@
 title: SetSourceFilterSettings
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:24:11.810Z
+date: 2023-03-16T12:24:14.378Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T14:59:06.616Z

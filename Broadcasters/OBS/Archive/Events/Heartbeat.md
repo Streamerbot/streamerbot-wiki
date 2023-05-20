@@ -2,7 +2,7 @@
 title: Heartbeat
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:25:27.651Z
+date: 2022-10-29T22:25:29.807Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:47:31.411Z

@@ -2,7 +2,7 @@
 title: Predictions
 description: Twitch Events Reference
 published: true
-date: 2023-04-08T14:11:03
+date: 2023-04-08T20:20:26.136Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:34:38.706Z

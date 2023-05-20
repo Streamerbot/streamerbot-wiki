@@ -2,7 +2,7 @@
 title: Set Prompt
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-03-16T13:35:32.697Z
+date: 2023-03-16T13:35:34.461Z
 tags: subactions, rewards, channel-point-rewards
 editor: markdown
 dateCreated: 2022-06-11T05:02:11.199Z

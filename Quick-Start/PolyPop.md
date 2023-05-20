@@ -2,7 +2,7 @@
 title: Quick Start - PolyPop
 description: Set up Streamer.bot to remotely control your OBS instance
 published: false
-date: 2022-10-30T01:33:39.873Z
+date: 2022-10-30T01:33:42.095Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-06T00:52:07.331Z

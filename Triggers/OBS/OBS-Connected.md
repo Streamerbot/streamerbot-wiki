@@ -2,7 +2,7 @@
 title: OBS Connected
 description: OBS Triggers Reference
 published: true
-date: 2023-04-17T23:41:01.780Z
+date: 2023-04-17T23:41:03.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T23:33:48.680Z

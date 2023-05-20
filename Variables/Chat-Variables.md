@@ -2,7 +2,7 @@
 title: Chat Variables
 description: Variables reference
 published: true
-date: 2023-04-25T21:28:21.634Z
+date: 2023-04-25T21:28:23.792Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T21:28:21.634Z

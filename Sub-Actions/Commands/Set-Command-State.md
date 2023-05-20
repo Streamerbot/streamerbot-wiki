@@ -2,7 +2,7 @@
 title: Set Command State
 description: 
 published: true
-date: 2023-04-07T22:02:06.303Z
+date: 2023-04-07T22:02:08.455Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:33:50.144Z

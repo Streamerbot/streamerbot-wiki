@@ -2,7 +2,7 @@
 title: Send Command
 description: Lumia Stream Sub-Action Reference
 published: true
-date: 2022-12-03T20:25:23.066Z
+date: 2022-12-03T20:25:25.337Z
 tags: v0.1.11, lumia stream, lights, color, brightness, smart home, automation
 editor: markdown
 dateCreated: 2022-08-27T12:54:07.358Z

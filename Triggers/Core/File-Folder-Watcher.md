@@ -2,7 +2,7 @@
 title: File/Folder Watcher
 description: Core Triggers Reference
 published: true
-date: 2023-03-15T19:33:11.217Z
+date: 2023-03-15T19:33:13.520Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T11:59:32.211Z

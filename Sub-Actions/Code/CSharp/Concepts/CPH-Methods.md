@@ -2,7 +2,7 @@
 title: CPH Methods
 description: Streamer.bot C# Concepts Reference
 published: true
-date: 2023-03-27T14:07:54.938Z
+date: 2023-03-27T14:07:57.967Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T00:11:32.868Z

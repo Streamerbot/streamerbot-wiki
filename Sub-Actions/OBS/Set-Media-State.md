@@ -2,7 +2,7 @@
 title: Set Media State
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:43:44.810Z
+date: 2023-03-16T11:43:46.625Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T12:38:29.777Z

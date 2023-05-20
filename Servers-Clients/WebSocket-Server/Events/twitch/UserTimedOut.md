@@ -2,7 +2,7 @@
 title: UserTimedOut
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-07T23:56:03.734Z
+date: 2023-02-07T23:56:05.627Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:56:03.734Z

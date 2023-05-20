@@ -2,7 +2,7 @@
 title: Set Censor State
 description: 
 published: true
-date: 2023-03-16T11:53:21.982Z
+date: 2023-03-16T11:53:23.779Z
 tags: twitch, sub-action, voice, youtube, voicemod, censor
 editor: markdown
 dateCreated: 2022-06-28T02:13:56.492Z

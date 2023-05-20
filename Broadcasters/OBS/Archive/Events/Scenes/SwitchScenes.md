@@ -2,7 +2,7 @@
 title: SwitchScenes
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:34:21.068Z
+date: 2022-10-29T22:34:23.182Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:09:06.949Z

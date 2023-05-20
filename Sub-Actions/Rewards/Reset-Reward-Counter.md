@@ -2,7 +2,7 @@
 title: Reset Reward Counter
 description: Rewards Sub-Action Reference
 published: true
-date: 2023-02-04T11:43:41.417Z
+date: 2023-02-04T11:43:43.307Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T11:41:26.445Z

@@ -2,7 +2,7 @@
 title: Poll Terminated
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T18:56:17.280Z
+date: 2023-04-28T18:56:19.207Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T18:56:17.280Z

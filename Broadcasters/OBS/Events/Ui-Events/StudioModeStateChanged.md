@@ -2,7 +2,7 @@
 title: StudioModeStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:19:57.265Z
+date: 2022-10-29T22:19:59.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:26:59.177Z

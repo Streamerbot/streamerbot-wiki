@@ -2,7 +2,7 @@
 title: Microsoft Azure
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-20T15:08:12.154Z
+date: 2023-01-20T15:08:14.238Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T07:57:46.725Z

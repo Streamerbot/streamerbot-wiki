@@ -2,7 +2,7 @@
 title: GiftSub
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-12T02:56:38.754Z
+date: 2023-02-12T02:56:41.003Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-12T02:56:38.754Z

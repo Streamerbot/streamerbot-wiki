@@ -2,7 +2,7 @@
 title: IFTTT Notification (Advanced)
 description: IFTTT Sub-Action Reference
 published: true
-date: 2023-03-16T11:55:39.141Z
+date: 2023-03-16T11:55:40.975Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T18:10:28.578Z

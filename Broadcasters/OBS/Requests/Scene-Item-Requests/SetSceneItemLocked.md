@@ -2,7 +2,7 @@
 title: SetSceneItemLocked
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:32:29.378Z
+date: 2023-03-16T12:32:31.464Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:27:49.593Z

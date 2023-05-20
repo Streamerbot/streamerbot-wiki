@@ -2,7 +2,7 @@
 title: Renamed
 description: File/Folder Watcher Triggers Reference
 published: true
-date: 2023-03-16T11:03:38.502Z
+date: 2023-03-16T11:03:40.633Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T21:42:54.378Z

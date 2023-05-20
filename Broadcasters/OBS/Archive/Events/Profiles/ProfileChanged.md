@@ -2,7 +2,7 @@
 title: ProfileChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:27:37.037Z
+date: 2022-10-29T22:27:39.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:32:13.600Z

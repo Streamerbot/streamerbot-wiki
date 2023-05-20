@@ -2,7 +2,7 @@
 title: BroadcastStarted
 description: Websocket Events Reference - youTube
 published: true
-date: 2023-02-15T19:02:31.450Z
+date: 2023-02-15T19:02:33.270Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-13T08:57:42.070Z

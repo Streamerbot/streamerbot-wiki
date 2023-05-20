@@ -2,7 +2,7 @@
 title: Generic Event
 description: MIDI Sub-Actions Reference
 published: false
-date: 2023-05-08T02:29:15.874Z
+date: 2023-05-08T02:29:17.696Z
 tags: v0.1.15
 editor: markdown
 dateCreated: 2022-12-22T01:28:36.476Z

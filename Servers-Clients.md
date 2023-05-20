@@ -2,7 +2,7 @@
 title: Servers and Clients
 description: Configure communications to/from Streamer.bot using WebSockets, HTTP, or UDP connections
 published: true
-date: 2022-10-29T21:53:04.508Z
+date: 2022-10-29T21:53:06.697Z
 tags: websocket, settings, api
 editor: markdown
 dateCreated: 2021-08-25T21:32:22.739Z

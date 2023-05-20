@@ -2,7 +2,7 @@
 title: UserBanned
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-07T23:54:35.159Z
+date: 2023-02-07T23:54:37.123Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:54:35.159Z

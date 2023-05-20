@@ -2,7 +2,7 @@
 title: Pyramid Success
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-27T15:23:46.969Z
+date: 2023-04-27T15:23:49.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-27T15:17:55.911Z

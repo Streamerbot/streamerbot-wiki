@@ -2,7 +2,7 @@
 title: Prediction Canceled
 description: Twitch Triggers Reference
 published: true
-date: 2023-04-28T19:07:22.701Z
+date: 2023-04-28T19:07:24.705Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-28T19:07:22.701Z

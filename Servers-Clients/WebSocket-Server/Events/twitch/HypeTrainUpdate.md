@@ -2,7 +2,7 @@
 title: HypeTrainUpdate
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-08T00:06:25.798Z
+date: 2023-02-08T00:06:27.743Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-08T00:06:25.798Z

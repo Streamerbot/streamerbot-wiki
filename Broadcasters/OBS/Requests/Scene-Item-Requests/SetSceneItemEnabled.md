@@ -2,7 +2,7 @@
 title: SetSceneItemEnabled
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:32:15.859Z
+date: 2023-03-16T12:32:17.715Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:17:08.157Z

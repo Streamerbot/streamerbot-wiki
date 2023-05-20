@@ -2,7 +2,7 @@
 title: GetSceneItemEnabled
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:32:09.411Z
+date: 2023-03-16T12:32:11.477Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T08:06:16.057Z

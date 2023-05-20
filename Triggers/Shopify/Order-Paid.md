@@ -2,7 +2,7 @@
 title: Order Paid
 description: Shopify Triggers Reference
 published: true
-date: 2023-03-17T21:10:27.769Z
+date: 2023-03-17T21:10:30.021Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T17:30:53.649Z

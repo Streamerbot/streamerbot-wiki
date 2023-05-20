@@ -2,7 +2,7 @@
 title: DuplicateSceneItem
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:31:47.583Z
+date: 2023-03-16T12:31:49.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T19:19:00.007Z

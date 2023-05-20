@@ -2,7 +2,7 @@
 title: BroadcastCustomMessage
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:23:24.818Z
+date: 2022-10-29T22:23:27.085Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T20:56:37.417Z

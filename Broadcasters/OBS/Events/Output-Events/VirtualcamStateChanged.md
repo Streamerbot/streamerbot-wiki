@@ -2,7 +2,7 @@
 title: VirtualcamStateChanged
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:52.962Z
+date: 2022-10-29T22:17:55.220Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T18:11:02.605Z

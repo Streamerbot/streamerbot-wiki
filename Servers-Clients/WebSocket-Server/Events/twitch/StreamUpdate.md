@@ -2,7 +2,7 @@
 title: StreamUpdate
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-09T14:48:46.146Z
+date: 2023-02-09T14:48:48.078Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-09T14:48:46.146Z

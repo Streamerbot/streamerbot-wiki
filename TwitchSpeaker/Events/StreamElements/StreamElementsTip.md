@@ -2,7 +2,7 @@
 title: StreamElementsTip
 description: TwitchSpeaker StreamElements Events Reference
 published: true
-date: 2023-01-20T15:15:14.410Z
+date: 2023-01-20T15:15:16.351Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T20:34:56.062Z

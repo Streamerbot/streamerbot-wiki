@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2023-05-12T06:56:55.142Z
+date: 2023-05-12T06:56:57.114Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z

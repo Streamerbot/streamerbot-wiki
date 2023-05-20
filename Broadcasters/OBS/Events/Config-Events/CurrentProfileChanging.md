@@ -2,7 +2,7 @@
 title: CurrentProfileChanging
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:08:51.448Z
+date: 2022-10-29T22:08:53.832Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:26:41.123Z

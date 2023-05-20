@@ -2,7 +2,7 @@
 title: PauseRecord
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:40:57.644Z
+date: 2023-03-16T12:40:59.558Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:26:39.903Z

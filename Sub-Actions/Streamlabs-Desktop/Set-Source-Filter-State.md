@@ -2,7 +2,7 @@
 title: Set Source Filter State
 description: Streamlabs Desktop Sub-Action Reference
 published: true
-date: 2023-03-16T11:49:30.253Z
+date: 2023-03-16T11:49:32.078Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-26T12:58:13.000Z

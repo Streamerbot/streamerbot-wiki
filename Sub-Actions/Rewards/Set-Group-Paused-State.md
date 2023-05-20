@@ -2,7 +2,7 @@
 title: Set Group Paused State
 description: Channel Point Rewards Sub-Actions Reference
 published: true
-date: 2023-02-04T12:00:30.669Z
+date: 2023-02-04T12:00:32.583Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-04T12:00:02.580Z

@@ -2,7 +2,7 @@
 title: Take Screenshot
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:41:05.068Z
+date: 2023-03-16T11:41:07.120Z
 tags: sub-action, obs-studio
 editor: markdown
 dateCreated: 2021-09-11T00:20:13.509Z

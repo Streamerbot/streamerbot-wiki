@@ -2,7 +2,7 @@
 title: ShieldModeBegin
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-07T23:50:19.889Z
+date: 2023-02-07T23:50:21.742Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:50:19.889Z

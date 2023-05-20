@@ -2,7 +2,7 @@
 title: StopVirtualCam
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:33:35.533Z
+date: 2023-03-16T12:33:37.631Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-05T09:31:16.241Z

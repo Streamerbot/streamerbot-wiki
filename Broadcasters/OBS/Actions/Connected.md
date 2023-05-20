@@ -2,7 +2,7 @@
 title: Connected
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-12-31T11:48:56.115Z
+date: 2022-12-31T11:48:57.950Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-17T16:05:41.147Z

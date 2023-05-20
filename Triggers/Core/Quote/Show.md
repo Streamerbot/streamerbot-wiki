@@ -2,7 +2,7 @@
 title: Show
 description: Quote Triggers Reference
 published: true
-date: 2023-04-17T22:59:04.989Z
+date: 2023-04-17T22:59:07.001Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T22:22:17.470Z

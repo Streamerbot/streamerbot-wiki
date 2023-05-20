@@ -2,7 +2,7 @@
 title: SourceFilterVisibilityChanged
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:37:08.031Z
+date: 2022-10-29T22:37:10.146Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T16:00:01.166Z

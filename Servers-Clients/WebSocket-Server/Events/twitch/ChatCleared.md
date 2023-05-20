@@ -2,7 +2,7 @@
 title: ChatCleared
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-19T12:59:27.301Z
+date: 2023-02-19T12:59:29.248Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-19T12:59:27.301Z

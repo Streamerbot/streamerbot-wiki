@@ -2,7 +2,7 @@
 title: Donation
 description: TipeeeStream Triggers Reference
 published: true
-date: 2023-03-15T21:36:45.632Z
+date: 2023-03-15T21:36:47.478Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T21:36:45.632Z

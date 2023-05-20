@@ -2,7 +2,7 @@
 title: RecordingStopped
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:28:02.738Z
+date: 2022-10-29T22:28:04.888Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T01:44:48.387Z

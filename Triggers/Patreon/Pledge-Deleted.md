@@ -2,7 +2,7 @@
 title: Pledge Deleted
 description: Patreon Triggers Reference
 published: true
-date: 2023-03-17T21:19:33.880Z
+date: 2023-03-17T21:19:35.997Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:46:44.819Z

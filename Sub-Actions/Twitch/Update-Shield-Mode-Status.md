@@ -2,7 +2,7 @@
 title: Update Shield Mode Status
 description: Twitch Sub-Action Reference
 published: true
-date: 2022-12-22T16:14:52.989Z
+date: 2022-12-22T16:14:56.455Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-06T09:43:35.134Z

@@ -2,7 +2,7 @@
 title: TransitionBegin
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:39:22.850Z
+date: 2022-10-29T22:39:25.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T02:40:20.421Z

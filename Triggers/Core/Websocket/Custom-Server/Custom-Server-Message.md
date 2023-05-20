@@ -2,7 +2,7 @@
 title: Custom Server Message
 description: Websocket Custom Server Reference
 published: true
-date: 2023-04-18T00:22:43.500Z
+date: 2023-04-18T00:22:45.464Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-18T00:22:43.500Z

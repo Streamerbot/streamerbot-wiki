@@ -2,7 +2,7 @@
 title: InputRemoved
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:15:03.503Z
+date: 2022-10-29T22:15:05.557Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T11:13:16.311Z

@@ -2,7 +2,7 @@
 title: GetHotkeyList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:04:45.423Z
+date: 2023-03-16T12:04:47.295Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-30T01:16:17.936Z

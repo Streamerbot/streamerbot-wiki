@@ -2,7 +2,7 @@
 title: Speaker.bot
 description: C# Available Methods Reference
 published: true
-date: 2023-03-17T14:28:26.734Z
+date: 2023-03-17T14:28:28.716Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-29T22:47:55.289Z

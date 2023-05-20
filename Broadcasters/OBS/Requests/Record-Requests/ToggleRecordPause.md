@@ -2,7 +2,7 @@
 title: ToggleRecordPause
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:40:49.971Z
+date: 2023-03-16T12:40:51.796Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-06T12:26:30.929Z

@@ -2,7 +2,7 @@
 title: ScreenshotSaved
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2023-01-10T05:27:38.735Z
+date: 2023-01-10T05:27:40.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T05:27:38.734Z

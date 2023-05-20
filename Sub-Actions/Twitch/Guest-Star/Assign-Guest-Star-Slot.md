@@ -2,7 +2,7 @@
 title: Assign Guest Star Slot
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-05-18T15:59:23.453Z
+date: 2023-05-18T15:59:25.500Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-18T15:59:23.453Z

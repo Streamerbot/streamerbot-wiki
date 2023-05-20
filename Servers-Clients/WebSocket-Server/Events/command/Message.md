@@ -2,7 +2,7 @@
 title: Message
 description: Websocket Events Reference - command
 published: true
-date: 2023-02-07T23:48:04.108Z
+date: 2023-02-07T23:48:06.145Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:32:56.482Z

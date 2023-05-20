@@ -2,7 +2,7 @@
 title: GetProfileParameter
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:07:30.356Z
+date: 2023-03-16T12:07:32.338Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T09:12:19.306Z

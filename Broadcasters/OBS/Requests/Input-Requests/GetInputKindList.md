@@ -2,7 +2,7 @@
 title: GetInputKindList
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:15:28.382Z
+date: 2023-03-16T12:15:30.334Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-01T03:07:55.282Z

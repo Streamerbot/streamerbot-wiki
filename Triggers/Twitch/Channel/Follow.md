@@ -2,7 +2,7 @@
 title: Follow
 description: Twitch Triggers Reference
 published: true
-date: 2023-05-10T22:50:16.310Z
+date: 2023-05-10T22:50:18.542Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-10T22:50:16.310Z

@@ -2,7 +2,7 @@
 title: StreamStopping
 description: OBS Studio Events Reference (Archive)
 published: true
-date: 2022-10-29T22:38:26.103Z
+date: 2022-10-29T22:38:28.281Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T13:23:13.161Z

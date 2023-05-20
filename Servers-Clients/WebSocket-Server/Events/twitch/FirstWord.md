@@ -2,7 +2,7 @@
 title: FirstWord
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-19T13:02:44.440Z
+date: 2023-02-19T13:02:46.357Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-19T13:02:44.440Z

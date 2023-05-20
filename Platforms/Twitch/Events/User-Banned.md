@@ -2,7 +2,7 @@
 title: User Banned Event
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:00:18.611Z
+date: 2023-03-16T13:00:20.417Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:32:41.932Z

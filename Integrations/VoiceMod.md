@@ -2,7 +2,7 @@
 title: VoiceMod
 description: Controlling VoiceMod software via Streamer.bot actions
 published: true
-date: 2023-03-16T12:55:18.184Z
+date: 2023-03-16T12:55:20.017Z
 tags: twitch, integrations, youtube, streamerbot, voicemod, v0.1.8
 editor: markdown
 dateCreated: 2022-06-23T21:15:57.891Z

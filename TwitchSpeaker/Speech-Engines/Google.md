@@ -2,7 +2,7 @@
 title: Google Cloud Service
 description: TwitchSpeaker Speech Engines Reference
 published: true
-date: 2023-01-20T15:08:07.256Z
+date: 2023-01-20T15:08:09.556Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T20:31:16.498Z

@@ -2,7 +2,7 @@
 title: Variable Notation
 description: Guide on how to use the Streamer.bot variable notation
 published: true
-date: 2023-05-09T22:09:11.737Z
+date: 2023-05-09T22:09:13.533Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-09T22:02:01.769Z

@@ -2,7 +2,7 @@
 title: LootDevil (Deprecated)
 description: Integrate Streamer.bot with the LootDevil webhooks API
 published: false
-date: 2023-03-16T12:54:15.436Z
+date: 2023-03-16T12:54:17.490Z
 tags: integrations, v0.1.11, webhooks, deprecated
 editor: markdown
 dateCreated: 2022-08-31T01:57:24.360Z

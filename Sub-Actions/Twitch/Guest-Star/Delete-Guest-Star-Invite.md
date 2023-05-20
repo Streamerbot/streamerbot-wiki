@@ -2,7 +2,7 @@
 title: Delete Guest Star Invite
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-05-18T16:02:00.647Z
+date: 2023-05-18T16:02:02.888Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-18T16:02:00.647Z

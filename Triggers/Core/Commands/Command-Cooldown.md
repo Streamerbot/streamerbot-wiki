@@ -2,7 +2,7 @@
 title: Command Cooldown
 description: Commands Triggers Reference
 published: true
-date: 2023-03-16T10:32:00.380Z
+date: 2023-03-16T10:32:02.350Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T16:24:24.254Z

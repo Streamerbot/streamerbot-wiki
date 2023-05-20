@@ -2,7 +2,7 @@
 title: Heart Rate Pulse
 description: Pulsoid Triggers Reference
 published: true
-date: 2023-03-15T19:28:56.169Z
+date: 2023-03-15T19:28:58.999Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T22:46:41.107Z

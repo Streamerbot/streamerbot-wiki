@@ -2,7 +2,7 @@
 title: SceneItemListReindexed
 description: OBS Studio Events Reference (v5)
 published: true
-date: 2022-10-29T22:17:25.343Z
+date: 2022-10-29T22:17:27.505Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T16:26:09.198Z

@@ -2,7 +2,7 @@
 title: Follow
 description: Websocket Events Reference - twitch
 published: true
-date: 2023-02-07T23:59:44.746Z
+date: 2023-02-07T23:59:46.529Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-07T23:59:44.746Z

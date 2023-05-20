@@ -2,7 +2,7 @@
 title: Message Deleted Event
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:02:16.778Z
+date: 2023-03-16T13:02:18.691Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-24T04:29:28.246Z

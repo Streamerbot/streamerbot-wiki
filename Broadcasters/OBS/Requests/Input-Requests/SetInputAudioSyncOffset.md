@@ -2,7 +2,7 @@
 title: SetInputAudioSyncOffset
 description: OBS Studio Requests Reference (v5)
 published: true
-date: 2023-03-16T12:17:45.625Z
+date: 2023-03-16T12:17:47.424Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-02T07:40:42.028Z

@@ -2,7 +2,7 @@
 title: Log All Arguments Example
 description: 
 published: true
-date: 2021-08-28T02:14:16.787Z
+date: 2023-04-07T20:41:17.989Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:42.148Z

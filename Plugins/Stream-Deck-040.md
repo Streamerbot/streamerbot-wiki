@@ -2,7 +2,7 @@
 title: Stream Deck Plugin (v0.4.0)
 description: The official Streamer.bot plugin for the Elgato Stream Deck
 published: true
-date: 2023-03-16T13:40:44.108Z
+date: 2023-03-16T13:40:46.037Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-22T20:49:41.805Z

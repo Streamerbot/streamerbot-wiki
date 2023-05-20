@@ -2,7 +2,7 @@
 title: Hide Source's Filters
 description: OBS Studio Sub-Action Reference
 published: true
-date: 2023-03-16T11:46:02.852Z
+date: 2023-03-16T11:46:05.138Z
 tags: twitch, obs, slobs
 editor: markdown
 dateCreated: 2022-03-19T16:40:42.314Z

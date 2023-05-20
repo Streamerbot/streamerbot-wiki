@@ -2,7 +2,7 @@
 title: HotKey Press
 description: Hot Keys Triggers Reference
 published: true
-date: 2023-03-16T21:05:42.011Z
+date: 2023-03-16T21:05:44.015Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-14T11:35:38.445Z

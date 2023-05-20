@@ -2,7 +2,7 @@
 title: Send Announcement to Channel
 description: Twitch Sub-Actions Reference
 published: true
-date: 2022-11-03T19:14:10.049Z
+date: 2022-11-03T19:14:12.354Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-03T19:12:06.535Z

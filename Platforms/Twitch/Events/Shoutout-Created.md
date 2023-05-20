@@ -2,7 +2,7 @@
 title: Shoutout Created
 description: Twitch Events Reference
 published: true
-date: 2023-03-16T13:01:18.604Z
+date: 2023-03-16T13:01:20.466Z
 tags: v0.1.14
 editor: markdown
 dateCreated: 2022-10-30T13:13:27.049Z
