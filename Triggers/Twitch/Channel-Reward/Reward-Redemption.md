@@ -2,7 +2,7 @@
 title: Reward Redemption
 description: Twitch Triggers Reference
 published: true
-date: 2023-05-20T18:15:16.142Z
+date: 2023-05-20T18:17:47.989Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T18:15:16.142Z
@@ -19,7 +19,7 @@ Twitch Service: | `PubSub`
 Added in: | *v0.0.30*{.version-badge}
 
 ## Variables
-This includes the [User](/Variables/User-Variables) variables.
+This includes the [User](/Variables/User-Variables) variables and the [Broadcaster](/Variables/Broadcaster) variables.
 
 Name | Description
 ----:|:------------
