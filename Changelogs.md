@@ -2,14 +2,14 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-19T01:09:53.957Z
+date: 2023-05-20T16:15:08.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
- # Streamer.bot v0.1.21 (WIP)
- Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.21 (WIP)
+Upcoming changes in the next release!{.subtitle}
 
 * Fixes for some Stream deck sub-actions
 * Fix some dialog text
@@ -24,13 +24,13 @@ dateCreated: 2021-08-25T21:51:24.140Z
 
 <span></span>
 * Request new Twitch scope, `channel:manage:guest_star`
-* Add support for (Twitch Guest Star)[#twitch-guest-star] events
-* Add new (C# Methods)[new-c-methods] for Stream Deck
+* Add support for [Twitch Guest Star](#twitch-guest-star) events
+* Add new [C# Methods](#new c-methods) for Stream Deck
 {.changelog-new}
 
 ## New C# Methods
-
-```cs
+### New Methods for Stream Deck
+```csharp
 void StreamDeckSetBackgroundColor(string buttonId, string color);
 void StreamDeckSetBackgroundColor(string buttonId, string color, int state);
 void StreamDeckSetBackgroundUrl(string buttonId, string imageUrl);
@@ -51,7 +51,7 @@ void StreamDeckToggleState(string buttonId);
 ```
 
 ### New Methods for Twitch Guest Star
-```cs
+```csharp
 GuestStarSettings TwitchGetChannelGuestStarSettings();
 bool TwitchUpdateChannelGuestStarSettings(bool? isModeratorSendLiveEnabled = null, int? slotCount = null, bool? isBrowserSourceAudioEnabled = null, string groupLayout = null, bool? regeneratgeBrowserSource = null);
 GuestSession TwitchGetGuestStarSession();
@@ -65,8 +65,9 @@ bool TwitchUpdateGuestStarSlot(int sourceSlot, int destinationSlot);
 bool TwitchDeleteGuestStarSlot(string userLogin, int slot);
 bool TwitchUpdateGuestStarSlotSettings(int slotId, bool? isAudioEnabled = null, bool? isVideoEnabled = null, bool? isLive = null, int? volume = null);
 ```
+
 Supporting return classes
-```cs
+```csharp
 public class GuestStarSettings
 {
     public bool IsModeratorSendLiveEnabled { get; set; }
@@ -127,7 +128,7 @@ Requesting the following new scopes for the broadcaster account
 {.grid-list}
 
 # Streamer.bot v0.1.20 (Current)
- Released 2023-05-10{.subtitle}
+Released 2023-05-10{.subtitle}
 
 * Misc tweaks/fixes
 * Fix GetCommands sub-action, had an underlying change that wasn't fully propogated
