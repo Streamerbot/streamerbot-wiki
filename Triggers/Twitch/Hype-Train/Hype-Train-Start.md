@@ -2,7 +2,7 @@
 title: Hype Train Start
 description: Twitch Triggers Reference
 published: true
-date: 2023-05-20T18:00:50.580Z
+date: 2023-05-20T18:02:14.162Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T18:00:50.580Z
@@ -19,8 +19,6 @@ Twitch Service: | `EventSub`
 Added in: | *N/A*{.version-badge}
 
 ## Variables
-This includes the [User](/Variables/User-Variables) variables.
-
 Name | Description
 ----:|:------------
 `level` | The current Hype Train level e.g. `3`
