@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-20T16:15:08.638Z
+date: 2023-05-20T16:15:36.606Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -25,7 +25,7 @@ Upcoming changes in the next release!{.subtitle}
 <span></span>
 * Request new Twitch scope, `channel:manage:guest_star`
 * Add support for [Twitch Guest Star](#twitch-guest-star) events
-* Add new [C# Methods](#new c-methods) for Stream Deck
+* Add new [C# Methods](#new-c-methods) for Stream Deck
 {.changelog-new}
 
 ## New C# Methods
