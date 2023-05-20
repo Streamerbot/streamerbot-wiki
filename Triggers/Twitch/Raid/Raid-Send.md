@@ -2,14 +2,14 @@
 title: Raid Send
 description: Twitch Triggers Reference
 published: true
-date: 2023-05-20T17:56:19.868Z
+date: 2023-05-20T17:57:46.868Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T17:56:19.868Z
 ---
 
 ## Overview
-When a raid that you started is send.
+When a raid that your channel started is send.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
