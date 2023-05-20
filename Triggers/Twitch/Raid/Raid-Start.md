@@ -2,14 +2,14 @@
 title: Raid Start
 description: Twitch Triggers Reference
 published: true
-date: 2023-05-20T17:56:58.546Z
+date: 2023-05-20T17:57:36.112Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T17:56:58.546Z
 ---
 
 ## Overview
-When you start a raid on someone.
+When your channel starts a raid on someone.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
