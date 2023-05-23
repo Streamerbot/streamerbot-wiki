@@ -2,7 +2,7 @@
 title: Installing Streamer.bot on Linux
 description: Information on how to install Streamer.bot on Linux including prequisites
 published: true
-date: 2022-07-09T19:54:42.151Z
+date: 2023-05-23T20:40:24.098Z
 tags: linux, install, how to
 editor: markdown
 dateCreated: 2021-11-23T00:46:04.543Z
@@ -36,6 +36,12 @@ This page will show you what you need to do in order to install Streamer.bot on 
 
 
 > 
+> Ubuntu 23.04 - *`sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ lunar main'`* 
+> 
+> Ubuntu 22.10 - *`sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ kinetic main'`*
+>
+> Ubuntu 22.04 - *`sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ jammy main'`*
+>
 > Ubuntu 21.10 - *`sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ impish main'`*
 > 
 > Ubuntu 21.04 - *`sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main'`*
