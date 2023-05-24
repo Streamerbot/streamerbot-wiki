@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-20T16:15:39.730Z
+date: 2023-05-24T04:57:35.820Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -14,19 +14,31 @@ Upcoming changes in the next release!{.subtitle}
 * Fixes for some Stream deck sub-actions
 * Fix some dialog text
 * Update Twitch Goal Progress event to check if the goal has reached the target, and also send an End event
+* Fix for Twitcout of order gift bomb/sub events
 {.changelog-fixes}
 
 <span></span>
 
 * Temporarily add T or YT after user's name in Command Dialog permissions
 * Update Stream Deck sub-actions to allow variables in the Button ID
+* Tweaks to Twitch's Broadcaster/Bot status indicators
+* Add error handling to Execute C# Copy compiler log to clipboard
+* Add error handling surrounding Execute C# Code's Init() method
 {.changelog-updates}
 
 <span></span>
 * Request new Twitch scope, `channel:manage:guest_star`
 * Add support for [Twitch Guest Star](#twitch-guest-star) events
+* Add new sub-actions for [Twitch Guest Star](#twitch-guest-star) API calls
 * Add new [C# Methods](#new-c-methods) for Stream Deck
 {.changelog-new}
+
+## Twitch out-of-order Gift Bomb/Sub events
+I have updated the handling of gift subs and community gifting events.
+
+Internally these are now cached, and can be associated with the respective IDs if they happen to come out of order from Twitch's IRC server.
+
+If a single gift sub comes in, it should be handled appropriately and still fire an event for it, however, there will be a small 500ms delay, as a byproduct of this caching.
 
 ## New C# Methods
 ### New Methods for Stream Deck
@@ -120,7 +132,9 @@ public class GuestStarInvite
 During the beta phase for this version, the new Stream Deck plugin will be available to beta users to test and play with!
 
 ## Twitch Guest Star
-Added subscriptions to listen to the new Twitch Guest Start EventSub subscriptions
+Added subscriptions to listen to the new Twitch Guest Start EventSub subscriptions.
+
+Added 12 new sub-actions to let the streamer interact with the new API methods for managing the Guest Star feature.
 
 ## Twitch Scopes
 Requesting the following new scopes for the broadcaster account
