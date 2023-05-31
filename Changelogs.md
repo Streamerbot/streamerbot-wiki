@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-24T04:57:35.820Z
+date: 2023-05-31T00:57:08.071Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -11,19 +11,24 @@ dateCreated: 2021-08-25T21:51:24.140Z
 # Streamer.bot v0.1.21 (WIP)
 Upcoming changes in the next release!{.subtitle}
 
+* General tweaks/fixes
 * Fixes for some Stream deck sub-actions
 * Fix some dialog text
 * Update Twitch Goal Progress event to check if the goal has reached the target, and also send an End event
 * Fix for Twitcout of order gift bomb/sub events
+* Fix handling of clearing a queue
+* Fix crash with VoiceMod and non-expected results
 {.changelog-fixes}
 
 <span></span>
 
+* Update shared libraries
 * Temporarily add T or YT after user's name in Command Dialog permissions
 * Update Stream Deck sub-actions to allow variables in the Button ID
 * Tweaks to Twitch's Broadcaster/Bot status indicators
 * Add error handling to Execute C# Copy compiler log to clipboard
 * Add error handling surrounding Execute C# Code's Init() method
+* Test button for Twitch Raid broadcasts across the websocket again
 {.changelog-updates}
 
 <span></span>
@@ -31,7 +36,18 @@ Upcoming changes in the next release!{.subtitle}
 * Add support for [Twitch Guest Star](#twitch-guest-star) events
 * Add new sub-actions for [Twitch Guest Star](#twitch-guest-star) API calls
 * Add new [C# Methods](#new-c-methods) for Stream Deck
+* Add new [Labs](@labs) settings page
+* Add new Action Queue type, see [Labs](#labs)
+* Add a new Twitch Add Present User sub-action
 {.changelog-new}
+
+## Labs
+With this release, to give users a chance to try new features before they're ready, with the knowledge, that they are 100% experimental, I've added a new Labs page.
+
+### New Action Queue
+The first experimental feature is an updated Action Queue, to enable this, just click the check box and restart **Streamer.bot**.  The underlying code for this new action queue uses a different container type, and is a bit easier to maintain and manage.  There is the possibility of lower CPU usage with many queues.
+
+Be sure to give this a try, so it can be promoted to the next version sooner.
 
 ## Twitch out-of-order Gift Bomb/Sub events
 I have updated the handling of gift subs and community gifting events.
