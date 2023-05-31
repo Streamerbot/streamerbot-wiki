@@ -2,20 +2,20 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-31T00:57:08.071Z
+date: 2023-05-31T23:22:13.999Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.21 (WIP)
-Upcoming changes in the next release!{.subtitle}
+# Streamer.bot v0.1.21 (Current)
+Released 2023-05-31{.subtitle}
 
 * General tweaks/fixes
 * Fixes for some Stream deck sub-actions
 * Fix some dialog text
 * Update Twitch Goal Progress event to check if the goal has reached the target, and also send an End event
-* Fix for Twitcout of order gift bomb/sub events
+* Fix for Twitch out of order gift bomb/sub events
 * Fix handling of clearing a queue
 * Fix crash with VoiceMod and non-expected results
 {.changelog-fixes}
@@ -157,7 +157,7 @@ Requesting the following new scopes for the broadcaster account
 * `channel:manage:guest_star`
 {.grid-list}
 
-# Streamer.bot v0.1.20 (Current)
+# Streamer.bot v0.1.20
 Released 2023-05-10{.subtitle}
 
 * Misc tweaks/fixes
