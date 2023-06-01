@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2023-03-27T18:36:00.251Z
+date: 2023-06-01T00:16:55.553Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
@@ -53,8 +53,8 @@ Integrations{.overline}
 <div>
 
 Available Plugins{.overline}
+  * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamdeck.png"> Elgato Stream Deck](https://streamdeck.streamer.bot)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/deckboard.png"> DeckBoard](https://github.com/rivafarabi/streamerbot-deckboard)
-* [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/streamdeck.png"> StreamDeck](/Plugins/Stream-Deck)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/loupedeck.jpg"> LoupeDeck / Razer](https://github.com/XeroxDev/Loupedeck-plugin-StreamerBot)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/touchportal.png"> TouchPortal](https://www.christophecvb.com/touch-portal/plugins/streamer-bot)
 * [<img style="height: 1em; transform: translateY(2px);" src="https://streamer.bot/img/integrations/voiceattack.png"> Voice Attack](https://github.com/nate1280/voiceattack-Streamer.bot)
