@@ -2,13 +2,23 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-05-31T23:22:13.999Z
+date: 2023-06-01T01:23:36.176Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.1.21 (Current)
+# Streamer.bot v0.1.22 (Current)
+Released 2023-05-31{.subtitle}
+
+* Fix Twitch authentication error (non-critical), caused by additional scope request.
+{.changelog-fixes}
+
+<span></span>
+
+This is a hot-fix for 0.1.21 to fix a non-critical (workarounds were available) issue with Twitch Authentication, and requesting new scopes.  Seems I forgot to apply a change after updating the status indicator to still show the Twitch Broadcaster/Bot status after new scopes are required.
+
+# Streamer.bot v0.1.21
 Released 2023-05-31{.subtitle}
 
 * General tweaks/fixes
