@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-01T01:23:36.176Z
+date: 2023-06-01T01:30:40.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -155,7 +155,7 @@ public class GuestStarInvite
 
 ## Stream Deck Plugin
 
-During the beta phase for this version, the new Stream Deck plugin will be available to beta users to test and play with!
+Official plugin and documentation available at [https://streamdeck.streamer.bot](https://streamdeck.streamer.bot)
 
 ## Twitch Guest Star
 Added subscriptions to listen to the new Twitch Guest Start EventSub subscriptions.
