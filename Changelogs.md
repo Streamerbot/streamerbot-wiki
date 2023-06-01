@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-01T01:30:40.773Z
+date: 2023-06-01T01:32:08.704Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -42,6 +42,7 @@ Released 2023-05-31{.subtitle}
 {.changelog-updates}
 
 <span></span>
+* New [Stream Deck Plugin](https://streamdeck.streamer.bot)
 * Request new Twitch scope, `channel:manage:guest_star`
 * Add support for [Twitch Guest Star](#twitch-guest-star) events
 * Add new sub-actions for [Twitch Guest Star](#twitch-guest-star) API calls
