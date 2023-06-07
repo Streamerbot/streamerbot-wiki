@@ -2,7 +2,7 @@
 title: Subscription
 description: Twitch Triggers Reference
 published: true
-date: 2023-06-07T08:40:56.500Z
+date: 2023-06-07T08:42:31.771Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-07T08:40:56.500Z
@@ -17,10 +17,6 @@ For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 :----|:------------:
 Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
-
-## Configuration
-### Ranges
-You can select ranges if you want to filter between two values.
 
 ## Variables
 This includes the [User](/Variables/User-Variables) variables.
