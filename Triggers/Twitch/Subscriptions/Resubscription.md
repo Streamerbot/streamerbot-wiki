@@ -2,14 +2,14 @@
 title: Resubscription
 description: Twitch Triggers Reference
 published: true
-date: 2023-06-07T08:42:04.912Z
+date: 2023-06-07T08:42:30.859Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-07T08:42:04.912Z
 ---
 
 ## Overview
-This triggers when you get a subscription.
+This triggers when you get a resubscription.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
@@ -18,14 +18,10 @@ For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 Twitch Service: | `Chat Client`
 Added in: | *N/A*{.version-badge}
 
-## Configuration
-### Ranges
-You can select ranges if you want to filter between two values.
-
 ## Variables
 This includes the [User](/Variables/User-Variables) variables.
 
-Name | Description
+Name | Descriptions
 ----:|:------------
 `tier` | Subscription tier <br> `prime`, `tier 1`. `tier 2`, `tier 3`
 `monthStreak` | Current subscription streak in months.
