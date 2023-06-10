@@ -2,7 +2,7 @@
 title: Unpublished Page
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-04-18T00:24:14.598Z
+date: 2023-06-10T18:12:30.451Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -11,7 +11,7 @@ dateCreated: 2023-03-11T15:01:12.651Z
 ## Platforms
 Streaming platform triggers{.subtitle}
 
-- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for everything in your livestream***](/Platforms/Twitch/Events)
+- [<i class="mdi mdi-twitch text--twitch"></i> **Twitch *Events for everything in your livestream***](/Triggers/Twitch)
 - [<i class="mdi mdi-youtube text--youtube"></i> **YouTube *Events for everything in your livestream***](/Platforms/YouTube/Events)
 {.btn-grid .my-5}
 
