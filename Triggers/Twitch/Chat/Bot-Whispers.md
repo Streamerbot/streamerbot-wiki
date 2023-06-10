@@ -2,7 +2,7 @@
 title: Bot Whispers
 description: Twitch Triggers Reference
 published: true
-date: 2023-06-10T18:18:58.718Z
+date: 2023-06-10T18:19:13.111Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-10T18:18:58.718Z
@@ -29,7 +29,7 @@ Messages that exceed the maximum length are truncated.
 ## Event Data
 :----|:------------:
 Twitch Service: | `Chat Client`
-Added in: | *v0.0.39*{.version-badge}
+Added in: | *v0.1.14*{.version-badge}
 
 ## Variables
 This includes the [User](/Variables/User-Variables) variables and the [Chat](/Variables/Chat-Variables) variables.
