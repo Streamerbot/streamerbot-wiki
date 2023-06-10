@@ -2,7 +2,7 @@
 title: StreamElements
 description: Streamer.bot integration with StreamElements
 published: true
-date: 2022-10-29T22:00:04.829Z
+date: 2023-06-10T21:26:08.039Z
 tags: integrations, streamelements
 editor: markdown
 dateCreated: 2022-05-13T04:07:00.154Z
@@ -39,7 +39,7 @@ Name | Description
 `tipAmount` | The amount of the tip
 `tipCurrency` | 3 letter currency code
 `tipMessage` | Any tip message the user included
-`isTest` | Boolean value indicating the tip was a test |  `True`/`False`
+`isTest` | Boolean value indicating the tip was a test
 
 ### Merch
 The Merch event is fired any time a new Merch sale is receieved through StreamElements{.subtitle}
