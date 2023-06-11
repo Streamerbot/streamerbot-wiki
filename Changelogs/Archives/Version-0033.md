@@ -2,23 +2,32 @@
 title: Version 0.0.33
 description: 
 published: true
-date: 2022-10-13T06:23:03.120Z
+date: 2023-06-11T18:23:03.418Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:19.768Z
 ---
 
+* Misc fixes
+* Was missing a scope for subscription information (will likely cause a re-authentication)
+* Logging was not set correctly on startup, and don't forget you can increase logging level
+{.changelog-fixes}
+
+<span></span>
+
+* Timed actions are now in seconds (I did no conversions, so be sure to update your timers!)
+* First word event now includes raw input in arguments
+{.changelog-updates}
+
+<span></span>
+
 * Add new File Watcher event
 * Add new raid start/send events
 * Add option to use system default sound when device can't be found, or do nothing
 * Add new sub-action, set timer state (enable/disable timers)
-* Timed actions are now in seconds (I did no conversions, so, be sure to update your timers!)
 * Add option for timed action to be repeatable or run-once
-* First word event now includes raw input in arguments
-* Was missing a scope for subscription information (will likely cause a re-authentication)
-* Logging was not set correctly on startup, and don't forget you can increase logging level
-* Misc fixes/etc
-***
+{.changelog-new}
+
 ## File Watcher Event
 You can now monitor a file for changes, creation and deletion.
 
