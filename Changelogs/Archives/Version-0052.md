@@ -2,7 +2,7 @@
 title: Version 0.0.52
 description: 
 published: true
-date: 2021-08-26T02:12:17.910Z
+date: 2023-06-11T15:08:20.446Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:11.986Z
@@ -12,21 +12,25 @@ Visit the main update for [Streamer.bot 0.0.50](/Changelogs/Archives/Version-005
 
 Since I forgot to update the Twitch client keys in the initial release, this version will request a re-authorization to twitch.
 
-Jump to [New Features](#new-features)
-
-* Hopefully final fix for BTTV/FFZ emotes
-* Add new `Does Not Exist` operator for the if logic Sub-Action
-* Fix Action Queue UI not working
-* Did someone say, [StreamElements](#streamelements) support?
-* WebSocket Server events have been re-worked, read [here](#websocket-server-events) for more info
-* Fix issues with Bot login
 * Miscellaneous fixes
-* Many more I probably forgot
+* Hopefully final fix for BTTV/FFZ emotes
+* Fix Action Queue UI not working
+* Fix issues with Bot login
+{.changelog-fixes}
 
+<span></span>
+
+* WebSocket Server events have been re-worked, read [here](#websocket-server-events) for more info
+{.changelog-updates}
+
+<span></span>
+
+* Add new `Does Not Exist` operator for the if logic Sub-Action
+* Did someone say, [StreamElements](#streamelements) support?
+{.changelog-new}
+
+## Twitch accounts re-authorization
 To re-authorize both accounts, the easiest way is to use 2 different browsers, connect your main account using your default browser, then change the default browser to another one, login with your bot account, and then authorize the bot account.
-
-***
-# New Features
 
 ## StreamElements!
 You can now connect to your StreamElements account and get tip events. To configure this, you will need to obtain your JWT token, and set this within the settings. There is no sign in authorization to do this at the moment due to how long it takes to get this approved.
