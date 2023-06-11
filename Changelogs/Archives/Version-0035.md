@@ -2,13 +2,22 @@
 title: Version 0.0.35
 description: 
 published: true
-date: 2021-08-26T02:06:26.467Z
+date: 2023-06-11T18:21:22.405Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:23.928Z
 ---
 
-* Rename variables for raid start/send, forgot about a possible collision
 * Fix AddTargetInfo, from variable, wasn't working
-* Add channel description for AddTargetInfo
 * Fix Twitch FUCK UP
+{.changelog-fixes}
+
+<span></span>
+
+* Rename variables for raid start/send, forgot about a possible collision
+{.changelog-updates}
+
+<span></span>
+
+* Add channel description for AddTargetInfo
+{.changelog-new}
