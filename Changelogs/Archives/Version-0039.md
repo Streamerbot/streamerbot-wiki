@@ -2,16 +2,21 @@
 title: Version 0.0.39
 description: 
 published: true
-date: 2021-08-26T02:08:02.318Z
+date: 2023-06-11T18:19:17.960Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:39.743Z
 ---
 
+* Update to new twitch library parsing
+{.changelog-updates}
+
+<span></span>
+
 * Add capability to listen to whispers, this requires a new authorization scope, so it will invalidate your current login.
 * Add new event that can be used when a new quote is added
-* Update to new twitch library parsing
-***
+{.changelog-new}
+
 For Quote Add action, I would recommend importing the sample, and using that for now, it replaces the default hard coded action; I'll reiterate, without this action, it will no longer acknowledge a quote being added (but it will be added)
 
 Sample action import for new quote added action
