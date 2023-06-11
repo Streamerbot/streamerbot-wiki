@@ -2,27 +2,27 @@
 title: Version 0.0.57
 description: 
 published: true
-date: 2021-08-26T02:16:09.313Z
+date: 2023-06-11T15:02:32.898Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:32.509Z
 ---
 
-Jump to [New Features](#new-features)
-
+* Misc fixes/updates
 * Fixes for StreamElements, some typo's got past me
-* Delays are now there own Sub-action instead of the before/after
-* Audio playback is handled as actions happen now, and will only block if in a blocking queue
 * Channel Rewards were loaded even if user was not an affiliate or partner, causing a crash
 * Fix sub-action groupings not being loaded in the proper order, check any you may have setup, they may appear different
 * Fix actions not properly propagating return state
 * Fix deserialization of channel info, its possible for a user's game id to be null (yay?)
-* Only one instance of Streamer.bot can be run
-* Weights can now be applied to sub-actions when the `Action` is set to `Random`, or the `Group` is set to `Random`
-* Misc fixes/updates
+{.changelog-fixes}
 
-***
-# New Features
+<span></span>
+
+* Delays are now there own Sub-action instead of the before/after
+* Audio playback is handled as actions happen now, and will only block if in a blocking queue
+* Weights can now be applied to sub-actions when the `Action` is set to `Random`, or the `Group` is set to `Random`
+* Only one instance of Streamer.bot can be run
+{.changelog-new}
 
 ## New Delay Sub-Action
 Delays are now sub-actions that you can place anywhere, and are no longer tied to another sub-action.
