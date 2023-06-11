@@ -2,7 +2,7 @@
 title: Version 0.0.30
 description: 
 published: true
-date: 2023-06-11T18:26:00.161Z
+date: 2023-06-11T18:26:03.060Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:07.602Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-25T21:35:07.602Z
 * Add new action to play a random sound from a folder
 * Ability to choose audio output device application wide, and action specific (play sound + play sound from folder)
 * Import/Export feature, you can import/export your actions and share them with others, or back them up
-{.changelog-news}
+{.changelog-new}
 
 ## Channel Rewards
 Can now manage the state of your Channel Rewards within CPH, toggle paused/enabled.
