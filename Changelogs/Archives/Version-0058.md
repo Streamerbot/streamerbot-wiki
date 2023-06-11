@@ -2,13 +2,11 @@
 title: Version 0.0.58
 description: 
 published: true
-date: 2023-06-11T15:00:02.938Z
+date: 2023-06-11T15:00:22.927Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:36.285Z
 ---
-
-Jump to [New Features](#new-features)
 
 * Misc fixes/updates
 * Fix how Twitch authorization happens, it now forces an authorize each time instead of only the first time, so you can easily switch accounts
