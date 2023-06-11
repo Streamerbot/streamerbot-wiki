@@ -2,7 +2,7 @@
 title: Version 0.0.59
 description: 
 published: true
-date: 2023-06-11T14:58:05.760Z
+date: 2023-06-11T14:58:12.288Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:40.187Z
@@ -29,7 +29,6 @@ dateCreated: 2021-08-25T21:36:40.187Z
 * Add new right click menu item on rewards, to copy the reward id, for use in C# code
 * Add ability to create custom websocket servers (supported solely by C#)
 {.changelog-new}
-
 
 ## HTTP Server
 I've added a new GET method, ClearFirstWordsCache, this will reset your first words cache
