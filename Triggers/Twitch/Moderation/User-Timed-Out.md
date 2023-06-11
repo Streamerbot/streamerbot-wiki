@@ -2,14 +2,14 @@
 title: User Timed Out
 description: Twitch Triggers Reference
 published: true
-date: 2023-06-11T11:43:28.955Z
+date: 2023-06-11T11:43:39.115Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-11T11:43:28.955Z
 ---
 
 ## Overview
-When a user gets banned in chat.
+When a user gets timed out in chat.
 
 For a detailed guide about Twitch see [this page](/Platforms/Twitch).
 
