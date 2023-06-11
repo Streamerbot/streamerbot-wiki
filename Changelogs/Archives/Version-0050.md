@@ -2,7 +2,7 @@
 title: Version 0.0.50
 description: 
 published: true
-date: 2021-08-26T02:11:12.524Z
+date: 2023-06-11T15:12:39.467Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:03.945Z
@@ -22,45 +22,48 @@ So, I now give you...
 
 One added note, since their have been quite a few asking about this, I have also setup a [Patreon](https://www.patreon.com/nate1280) which should be going live the same day as this release, and will likely be evolving a bit over the next month as I try to figure things out.
 
-***
-
-Jump to [New Features](#new-features)
-
-* Resizable window
+* Miscellaneous fixes
 * Fixes to credits
-* Add auto reconnect option for twitch
-* Removed peak meter from speech to text tab
-* Only show errors when using Execute C# code, ignores warnings now
 * Execute C# code wasn't returning result
 * Fix some potential crashes originating from speech to text if its not present
 * Fix/update import/export to properly handle Execute C# Code/Method actions
 * Fix editing reward, certain values were not cleared
-* Add new [HTTP Server](#http-server)
-* Overhaul of certain thread related specifics, tldr; speedier, improvements all around
-* Rewrote Twitch API handling
-* Fix OBS Set Browser Source, invalid URLs would crash, taking down the queue they were running from
-* Make queues a bit more resilient to crashes
-* General performance improvements
-* Add new event, present viewers
-* Add support for [Streamlabs!](#streamlabs)
-* Added support for another streaming app, [SLOBS!](#slobs-support)
+* Fix creating/editing channel rewards
 * Fix Reward Set Cost sub-action
-* Add new sub-action to set a scene's filter state
-* Add support for [Twitch Polls and Predictions!](#twitch-polls-and-predictions)
-* Add new [Message event](#new-message-event)
+* Fix OBS Set Browser Source, invalid URLs would crash, taking down the queue they were running from
+* Should no longer crash when you enter an invalid color when creating rewards
+* Make queues a bit more resilient to crashes
+{.changelog-fixes}
+
+<span></span>
+
+* Only show errors when using Execute C# code, ignores warnings now
+* Removed peak meter from speech to text tab
 * Update commands to have more sources for triggering, they can be activated from sub and resub messages, new commands will default to message sources
+* Overhaul of certain thread related specifics, tldr; speedier, improvements all around
+* Resizable window
+* Rewrote Twitch API handling
+* General performance improvements
 * Pass along the user's color in twitch messages and some relevant events
 * Update how cheers are handled, this means the loss of the `totalBits` variable, but full emote support and more has been gained
-* Fix creating/editing channel rewards
-* Add new sub-action to pause action queues, as well as accompanying Execute C# methods
-* Should no longer crash when you enter an invalid color when creating rewards
-* Miscellaneous fixes
-* Many more I probably forgot
+{.changelog-updates}
 
+<span></span>
+
+* Add auto reconnect option for twitch
+* Add new [HTTP Server](#http-server)
+* Add new event, present viewers
+* Add new sub-action to set a scene's filter state
+* Add support for [Streamlabs!](#streamlabs)
+* Add new [Message event](#new-message-event)
+* Add support for [Twitch Polls and Predictions!](#twitch-polls-and-predictions)
+* Add new sub-action to pause action queues, as well as accompanying Execute C# methods
+* Added support for another streaming app, [SLOBS!](#slobs-support)
+{.changelog-new}
+
+## Plugins
 There is even a TouchPortal plugin built to support Streamer.bot! A StreamDeck plugin is also in the works.
 
-***
-# New Features
 ## Execute C# Code
 There is a new method that can be used:
 ```csharp
