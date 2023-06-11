@@ -2,29 +2,34 @@
 title: Version 0.0.59
 description: 
 published: true
-date: 2021-08-26T02:16:49.746Z
+date: 2023-06-11T14:58:05.760Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:40.187Z
 ---
 
-Jump to [New Features](#new-features)
+* Fix the test button for cheer events, anon toggle will actually work now
+* Fix a potential crash when anon events come through that can trigger first words
+* Fix `CPH.Wait(int)`, underlying code was incorrect and crashing silently
+* Fix `CPH.PauseReward`, `CPH.UnPauseReward` and the sub-action for this, was calling enable not pause
+* Fix permissions for Commands, small logic error
+{.changelog-fixes}
+
+<span></span>
+
+* Remove broadcaster account from top channel point users in GetCredits
+* Update commands, specifically Starts With, it now adds a space when it checks, so it treats it like an argument based, instead of `!test` matching both `!test` and `!test123`
+{.changelog-updates}
+
+<span></span>
 
 * Add new HTTP Get method to reset FirstWords cache
 * Add new methods to Execute C# to reset Credits and FirstWords
-* Remove broadcaster account from top channel point users in GetCredits
-* Fix the test button for cheer events, anon toggle will actually work now
-* Fix a potential crash when anon events come through that can trigger first words
 * Add a new anonymous argument for cheer, gift sub and gift bombs
-* Fix `CPH.Wait(int)`, underlying code was incorrect and crashing silently
-* Fix `CPH.PauseReward`, `CPH.UnPauseReward` and the sub-action for this, was calling enable not pause
-* Update commands, specifically Starts With, it now adds a space when it checks, so it treats it like an argument based, instead of `!test` matching both `!test` and `!test123`
 * Add new right click menu item on rewards, to copy the reward id, for use in C# code
 * Add ability to create custom websocket servers (supported solely by C#)
-* Fix permissions for Commands, small logic error
+{.changelog-new}
 
-***
-# New Features
 
 ## HTTP Server
 I've added a new GET method, ClearFirstWordsCache, this will reset your first words cache
