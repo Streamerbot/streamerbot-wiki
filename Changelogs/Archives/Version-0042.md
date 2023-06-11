@@ -2,16 +2,15 @@
 title: Version 0.0.42
 description: 
 published: true
-date: 2021-08-26T02:09:27.229Z
+date: 2023-06-11T18:13:19.307Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:35:51.728Z
 ---
 
-# Version 0.42
-
 * Fix being able to delete websocket client
 * Fix wrong actions being put in the edit dialog
+{.changelog-fixes}
 
 This is a bug fix release
 
