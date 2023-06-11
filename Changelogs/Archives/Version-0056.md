@@ -2,31 +2,35 @@
 title: Version 0.0.56
 description: 
 published: true
-date: 2021-08-26T02:15:42.992Z
+date: 2023-06-11T15:04:44.798Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:28.010Z
 ---
 
-Jump to [New Features](#new-features)
-
+* Misc fixes/updates
 * Fix for IsSourceVisible not returning a value (woops)
-* Twitch emote urls have been updated to new cdn, so animated emotes will show if used
 * Fix not being able to delete a file in file watcher
 * Handle a potential error in audio playback (from malformed audio, or wrong audio types)
+* Fixed a crash when editing some reward sub-actions when there are no rewards
+* Fix Logic > If when action is deleted, trying to edit will cause it to crash
+{.changelog-fixes}
+
+<span></span>
+
+* Twitch emote urls have been updated to new cdn, so animated emotes will show if used
 * OBS Set Source Visibility has been changed to a state, and will auto update settings
 * SLOBS Set Source Visibility has been changed to a state, and will auto update settings
 * Twitch Message sub-actions will now show part of the message to be sent in the sub action list
-* Add new capability to get your clips, this functionality is reserved for Execute C# at the moment, and a basic example will be provided
-* Fixed a crash when editing some reward sub-actions when there are no rewards
-* Fix LogicIf when action is deleted, trying to edit will cause it to crash
-* Add new option to LogicIf, DoAction and C# Run Action, you can now run the action immediately (inline), or queue it so it runs in its set queue
 * Update AddTargetInfo sub-action to overwrite values if they already exist, so it can be run multiple times
-* Add new [WebSocket Server Request](/Servers-Clients/WebSocket-Server/Requests), `GetActiveViewers`
-* Misc fixes/updates
+{.changelog-updates}
 
-***
-# New Features
+<span></span>
+
+* Add new capability to get your clips, this functionality is reserved for Execute C# at the moment, and a basic example will be provided
+* Add new [WebSocket Server Request](/Servers-Clients/WebSocket-Server/Requests), `GetActiveViewers`
+* Add new option to LogicIf, DoAction and C# Run Action, you can now run the action immediately (inline), or queue it so it runs in its set queue
+{.changelog-new}
 
 ## LogicIf, DoAction, C# RunAction Update
 Before, when using any of these sub-actions, running an action would just run it inline, as if it was just a sub-action.  With this update, a new option has been added to all of these `Run Immediately` which is selected by default.
