@@ -2,7 +2,7 @@
 title: Version 0.0.58
 description: 
 published: true
-date: 2023-05-15T11:53:30.870Z
+date: 2023-06-11T15:00:02.938Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:36:36.285Z
@@ -10,24 +10,30 @@ dateCreated: 2021-08-25T21:36:36.285Z
 
 Jump to [New Features](#new-features)
 
+* Misc fixes/updates
 * Fix how Twitch authorization happens, it now forces an authorize each time instead of only the first time, so you can easily switch accounts
 * Fix for 3rd party emotes not being handled correctly for /me actions
-* Add new sub-action to put a random number in the arguments
 * 5xx errors from Twitch API were not being handled properly, causing a crash, they should be handled now
-* FirstWords are now cached, so on a bot restart/crash they won't happen again, this is setup the same way as credits and the reset duration can be configured
-* Add new option to Commands, Ignore Bot Account, which will ignore the command if it's coming from your setup bot account
-* Update permissions for Commands, groups and user permissions can be combined now. Also added a grant type for allow/deny
-* Updated Twitch Timeout sub-action, Exclude Moderators now applies to Redeemer option
-* Add new Execute C# functions for adding/removing users to/from groups
-* Added a missing scope for twitch bot account, this will require a re-authorization
 * Fix Set Global sub-action not working when you try to set a specific value
-* Add a `Default Value` option to Get Global sub-action
 * Fix Set Time State sub-action, not being able to select a timer
 * Fix a potential crash when deleting a reward with an action attached, then renaming that action afterwards
-* Misc fixes/updates
+{.changelog-fixes}
 
-***
-# New Features
+<span></span>
+
+* FirstWords are now cached, so on a bot restart/crash they won't happen again, this is setup the same way as credits and the reset duration can be configured
+* Update permissions for Commands, groups and user permissions can be combined now. Also added a grant type for allow/deny
+* Updated Twitch Timeout sub-action, Exclude Moderators now applies to Redeemer option
+{.changelog-updates}
+
+<span></span>
+
+* Add new sub-action to put a random number in the arguments
+* Add new option to Commands, Ignore Bot Account, which will ignore the command if it's coming from your setup bot account
+* Add new Execute C# functions for adding/removing users to/from groups
+* Added a missing scope for twitch bot account, this will require a re-authorization
+* Add a `Default Value` option to Get Global sub-action
+{.changelog-new}
 
 ## New Random Number Sub-Action
 You can use this sub-action to get a random number between 2 values which will put `%randomNumber%` as a new variable, or the next float value which will put `%randomFloat%` and `%randomPercent%` in the arguments.
