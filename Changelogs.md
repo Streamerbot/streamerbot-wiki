@@ -2,11 +2,18 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-01T01:32:08.704Z
+date: 2023-06-14T03:50:39.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
+
+ # Streamer.bot v0.2.0 (WIP)
+ Upcoming changes in the next release!{.subtitle}
+
+What's this, an actual version bump, or at least a minor one!
+
+Information about whats coming in **v0.2.0** will show up over the next few days.  In the mean time, the handful of alpha testers can tease about it ;)
 
 # Streamer.bot v0.1.22 (Current)
 Released 2023-05-31{.subtitle}
