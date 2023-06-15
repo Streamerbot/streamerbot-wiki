@@ -1,8 +1,8 @@
 ---
-title: Unpublished Page
+title: Triggers (v0.2.0)
 description: Reference of all triggers for your Streamer.bot actions
 published: false
-date: 2023-06-10T18:12:30.451Z
+date: 2023-06-15T07:27:27.520Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
