@@ -2,7 +2,7 @@
 title: Triggers (v0.2.0)
 description: Reference of all triggers for your Streamer.bot actions
 published: true
-date: 2023-06-15T07:27:49.621Z
+date: 2023-06-15T07:33:06.663Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -24,6 +24,7 @@ Broadcasting Software triggers{.subtitle}
 ## Core
 Streamer.bot specific triggers{.subtitle}
 
+- [<i class="mdi mdi-puzzle-edit primary--text"></i> **Custom *Create and use custom triggers***](/Triggers/Custom)
 - [<i class="mdi mdi-comment-alert primary--text"></i> **Commands *Chat commands and chat cooldowns***](/Triggers/Core/Commands)
 - [<i class="mdi mdi-file-code primary--text"></i> **File/Folder Watcher *Listen to file/folder alterations***](/Triggers/Core/File-Folder-Watcher)
 - [<i class="mdi mdi-keyboard primary--text"></i> **Hot Keys *Listen to custom defined key presses***](/Triggers/Core/Hot-Keys)
