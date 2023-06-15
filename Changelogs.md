@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-14T03:50:39.143Z
+date: 2023-06-15T03:49:46.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -11,17 +11,80 @@ dateCreated: 2021-08-25T21:51:24.140Z
  # Streamer.bot v0.2.0 (WIP)
  Upcoming changes in the next release!{.subtitle}
 
-What's this, an actual version bump, or at least a minor one!
+What's this, an actual version bump, or at least a minor one!  This changelog is still a work in progres, there is a lot of data I need to sort through, as some has already been included in past releases.
 
-Information about whats coming in **v0.2.0** will show up over the next few days.  In the mean time, the handful of alpha testers can tease about it ;)
+* Misc fixes and tweaks throughout
+* Fix 7TV emotes not being parsed
+{.changelog-fixes}
+
+<span></span>
+
+* Update how events are handled internally
+{.changelog-updates}
+
+<span></span>
+
+* Add new sub-action to set action queue's blocking state
+* Add new sub-action to set a Twitch Reward's background color
+* Add C# method to update a Twitch Reward's background color
+* Add new sub-action Twitch Reply To Message
+* Add new C# Method, TwitchReplyToMessage
+* Actions will now show red when disabled
+* [Triggers](#triggers)!
+* New C# methods for Triggers
+{.changelog-new}
+
+## Triggers
+Gone are the days of having to move through multiple tabs to assign an action to an event.
+
+Now, you assign a Trigger directly to one or more actions that act on events.
+
+There are **130** different Triggers available in **Streamer.bot**, and there will probably be more!
+
+When upgrading from **0.1.23**, all your events that you have actions associated with, will be upgraded automatically to Triggers.
+
+### Custom Triggers
+Not only are there Triggers for fixed events within **Streamer.bot**, but you'll also be able to create your own named triggers within the UI as will as in C#.  Both of which can be triggered within C#.
+
+If you use the Custom trigger within the UI, just enter any name, and you can trigger it within C# using the following:
+```cs
+// the name, useArgs is a boolean that if true, will forward the args of the action to the trigger
+CPH.TriggerEvent("whatever you named it in the UI");
+```
+To register a custom trigger in C#, that will show up in the Custom menu, use the following:
+```cs
+// Name, event name, and categories it sits in
+CPH.RegisterCustomTrigger("Something", "mine_something", new[] { "Stuff" });
+```
+And to trigger it within your code:
+```cs
+CPH.TriggerCodeEvent("mine_something");
+```
+Typically you would register a trigger in the `void Init()`method, and have it compile at start 
+
+## New C# Methods
+```cs
+bool UpdateRewardBackgroundColor(string rewardId, string backgroundColor);
+bool UpdateReward(string rewardId, string title = null, string prompt = null, int? cost = null, string backroundColor = null);
+```
+```cs
+void TwitchReplyToMessage(string message, string replyId, bool bot = true);
+```
+
+### New Triggers
+There are a couple new Triggers, that previously did not exist as events within **Streamer.bot**
+
+#### Process Started
+Trigger an action when a process has started on your pc
+
+#### Process Stopped
+Trigger an action when a process has stopped on your pc
 
 # Streamer.bot v0.1.22 (Current)
 Released 2023-05-31{.subtitle}
 
 * Fix Twitch authentication error (non-critical), caused by additional scope request.
 {.changelog-fixes}
-
-<span></span>
 
 This is a hot-fix for 0.1.21 to fix a non-critical (workarounds were available) issue with Twitch Authentication, and requesting new scopes.  Seems I forgot to apply a change after updating the status indicator to still show the Twitch Broadcaster/Bot status after new scopes are required.
 
@@ -49,6 +112,7 @@ Released 2023-05-31{.subtitle}
 {.changelog-updates}
 
 <span></span>
+
 * New [Stream Deck Plugin](https://streamdeck.streamer.bot)
 * Request new Twitch scope, `channel:manage:guest_star`
 * Add support for [Twitch Guest Star](#twitch-guest-star) events
