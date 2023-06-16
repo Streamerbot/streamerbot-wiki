@@ -2,7 +2,7 @@
 title: WebSocket Server Events
 description: Documentation of events that are emitted by the Streamer.bot WebSocket Server
 published: true
-date: 2023-06-16T08:42:33.792Z
+date: 2023-06-16T08:43:32.613Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:12.384Z
@@ -1072,8 +1072,8 @@ These are the events **Streamer.bot** broadcasts when changes are made to Action
     {
       "text": "",
       "confidence": 0.0
-		}
-	]
+    }
+  ]
 }
 ```
 
