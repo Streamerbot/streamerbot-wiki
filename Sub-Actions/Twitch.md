@@ -2,7 +2,7 @@
 title: Twitch Sub-Actions
 description: Reference of all available Twitch sub-actions
 published: true
-date: 2023-05-18T16:07:11.119Z
+date: 2023-06-17T22:18:38.486Z
 tags: twitch, subactions
 editor: markdown
 dateCreated: 2022-07-10T18:38:17.767Z
@@ -43,18 +43,18 @@ Get information about your followers{.subtitle}
 Manage and retrieve your Guest Star settings{.subtitle}
 
 
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Assign Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Assign-Guest-Star-Slot){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Create Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Create-Guest-Star-Session){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Invite){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Slot){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**End Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/End-Guest-Star-Session){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Get-Channel-Guest-Star-Settings){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Invites**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Invites){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Session){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Send Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Send-Guest-Star-Invite){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Channel-Guest-Star-Settings){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot){.disabled}
-* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot-Settings){.disabled}
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Assign Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Assign-Guest-Star-Slot)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Create Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Create-Guest-Star-Session)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Invite)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Delete Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Delete-Guest-Star-Slot)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**End Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/End-Guest-Star-Session)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Get-Channel-Guest-Star-Settings)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Invites**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Invites)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Get Guest Star Session**](/Sub-Actions/Twitch/Guest-Star/Get-Guest-Star-Session)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Send Guest Star Invite**](/Sub-Actions/Twitch/Guest-Star/Send-Guest-Star-Invite)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Channel Guest Star Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Channel-Guest-Star-Settings)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot)
+* [<i class="mdi mdi-gesture-tap-button text--twitch"></i>**Update Guest Star Slot Settings**](/Sub-Actions/Twitch/Guest-Star/Update-Guest-Star-Slot-Settings)
 {.btn-grid .my-5}
 
 ## Moderation
