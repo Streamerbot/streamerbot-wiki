@@ -2,7 +2,7 @@
 title: Triggers (v0.2.0)
 description: Reference of all triggers for your Streamer.bot actions
 published: true
-date: 2023-06-18T10:55:39.238Z
+date: 2023-06-18T10:57:08.573Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -29,6 +29,7 @@ Streamer.bot specific triggers{.subtitle}
 - [<i class="mdi mdi-keyboard primary--text"></i> **Hot Keys *Listen to custom defined key presses***](/Triggers/Core/Hot-Keys)
 - [<i class="mdi mdi-expansion-card primary--text"></i> **Processes *Listen to changes from proccesses***](/Triggers/Core/Processes)
 - [<i class="mdi mdi-format-quote-open primary--text"></i> **Quote *When quotes are added or removed***](/Triggers/Core/Quote)
+- [<i class="mdi mdi-test-tube primary--text"></i> **Test *Test this action with custom defined variables***](/Triggers/Core/Test)
 - [<i class="mdi mdi-timer primary--text"></i> **Timed Actions *Run an action every x seconds***](/Triggers/Core/Timed-Actions)
 - [<i class="mdi mdi-account-voice primary--text"></i> **Voice Control *Run actions with your voice***](/Triggers/Core/Voice-Control)
 - [<i class="mdi mdi-midi primary--text"></i> **MIDI *Musical Instrument Digital Interface***](/Triggers/MIDI)
