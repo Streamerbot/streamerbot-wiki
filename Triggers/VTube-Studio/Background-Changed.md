@@ -2,7 +2,7 @@
 title: Background Changed
 description: Pulsoid Triggers Reference
 published: true
-date: 2023-06-18T10:22:48.650Z
+date: 2023-06-18T10:23:04.300Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-18T10:22:48.650Z
@@ -21,5 +21,5 @@ Name | Description
 
 ---
 
-- [<i class="mdi mdi-chevron-left"></i>**Pulsoid Triggers Reference *Go Back***](/Triggers/Pulsoid)
+- [<i class="mdi mdi-chevron-left"></i>**VTube Studio Triggers Reference *Go Back***](/Triggers/VTube-Studio)
 {.btn-grid .my-5}
