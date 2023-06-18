@@ -2,7 +2,7 @@
 title: VTube Studio
 description: Triggers Reference
 published: true
-date: 2023-06-18T10:20:43.417Z
+date: 2023-06-18T10:28:07.378Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-18T10:20:43.417Z
