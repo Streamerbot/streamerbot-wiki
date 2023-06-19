@@ -2,7 +2,7 @@
 title: Twitch
 description: Triggers Reference
 published: true
-date: 2023-06-18T10:42:01.022Z
+date: 2023-06-19T09:11:22.690Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T20:24:10.875Z
@@ -58,19 +58,6 @@ dateCreated: 2023-04-25T20:24:10.875Z
 - [<i class="mdi mdi-account-multiple text--twitch"></i> **Present Viewers**](/Triggers/Twitch/General/Present-Viewers)
 - [<i class="mdi mdi-account-arrow-left text--twitch"></i> **Shoutout Received**](/Triggers/Twitch/General/Shoutout-Received)
 - [<i class="mdi mdi-update text--twitch"></i> **Stream Update**](/Triggers/Twitch/General/Stream-Update)
-{.btn-grid .my-5}
-
-## Guest Star
-- [<i class="mdi mdi-progress-upload text--twitch"></i> **Community Goal Contribution**](/Triggers/Twitch/Community-Goal/Community-Goal-Contribution)
-- [<i class="mdi mdi-progress-close text--twitch"></i> **Community Goal Ended**](/Triggers/Twitch/Community-Goal/Community-Goal-Ended)
-{.btn-grid .my-5}
-
-## General
-- [<i class="mdi mdi-account-edit text--twitch"></i> **Guest Star Guest Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Guest-Update)
-- [<i class="mdi mdi-account-clock text--twitch"></i> **Guest Star Session Begin**](/Triggers/Twitch/Guest-Star/Guest-Star-Session-Begin)
-- [<i class="mdi mdi-account-multiple-remove text--twitch"></i> **Guest Star Session End**](/Triggers/Twitch/Guest-Star/Guest-Star-Session-End)
-- [<i class="mdi mdi-account-cog text--twitch"></i> **Guest Star Settings Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Settings-Update)
-- [<i class="mdi mdi-account-multiple-plus text--twitch"></i> **Guest Star Slot Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Slot-Update)
 {.btn-grid .my-5}
 
 ## Hype Train
