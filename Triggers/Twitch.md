@@ -2,7 +2,7 @@
 title: Twitch
 description: Triggers Reference
 published: true
-date: 2023-06-19T09:11:22.690Z
+date: 2023-06-19T09:11:54.622Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-25T20:24:10.875Z
@@ -59,6 +59,14 @@ dateCreated: 2023-04-25T20:24:10.875Z
 - [<i class="mdi mdi-account-arrow-left text--twitch"></i> **Shoutout Received**](/Triggers/Twitch/General/Shoutout-Received)
 - [<i class="mdi mdi-update text--twitch"></i> **Stream Update**](/Triggers/Twitch/General/Stream-Update)
 {.btn-grid .my-5}
+
+## Guest Star
+ - [<i class="mdi mdi-account-edit text--twitch"></i> **Guest Star Guest Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Guest-Update)
+ - [<i class="mdi mdi-account-clock text--twitch"></i> **Guest Star Session Begin**](/Triggers/Twitch/Guest-Star/Guest-Star-Session-Begin)
+ - [<i class="mdi mdi-account-multiple-remove text--twitch"></i> **Guest Star Session End**](/Triggers/Twitch/Guest-Star/Guest-Star-Session-End)
+ - [<i class="mdi mdi-account-cog text--twitch"></i> **Guest Star Settings Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Settings-Update)
+ - [<i class="mdi mdi-account-multiple-plus text--twitch"></i> **Guest Star Slot Update**](/Triggers/Twitch/Guest-Star/Guest-Star-Slot-Update)
+ {.btn-grid .my-5}
 
 ## Hype Train
 - [<i class="mdi mdi-train text--twitch"></i> **Hype Train End**](/Triggers/Twitch/Hype-Train/Hype-Train-End)
