@@ -2,7 +2,7 @@
 title: Update Channel Guest Star Settings
 description: Twitch Sub-Action Reference
 published: true
-date: 2023-06-17T22:28:43.824Z
+date: 2023-06-19T09:13:08.055Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T22:28:43.823Z
@@ -26,7 +26,7 @@ True/False if the browser source audio should be enabled
 ### Group Layout
 Name | Description
 ----:|:------------
-`TILED_LAYOUT` | A layour where all the guests are tiled
+`TILED_LAYOUT` | A layout where all the guests are tiled
 `SCREENSHARE_LAYOUT` | A layout where your screen is shared along side the guests
 `HORIZONTAL_LAYOUT` | A horizontal layout
 `VERICAL_LAYOUT` | A vertial layout
