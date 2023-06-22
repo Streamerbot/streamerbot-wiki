@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-15T03:49:46.462Z
+date: 2023-06-22T00:55:15.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -15,11 +15,22 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 
 * Misc fixes and tweaks throughout
 * Fix 7TV emotes not being parsed
+* Fixes to shutdown routines
+* Fix some threads not being stopped properly
+* Fix maximum for Twitch Sub-counter Rollover, it's now 32,767 (from 100)
+* Fix data validation in Twitch Prediction dialog
+* Fix data validation in Twitch Poll dialog
+* Fix Twitch EventSub related issues, potential duplicate events
 {.changelog-fixes}
 
 <span></span>
 
 * Update how events are handled internally
+* Tweaks to LiteDB handling
+* Tweaks to Credits for Twitch, should add presence for any event now
+* Add some more logging during shutdown
+* Change how shutdown works from an update
+* Add url check to Websocket Client creation
 {.changelog-updates}
 
 <span></span>
@@ -32,6 +43,10 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Actions will now show red when disabled
 * [Triggers](#triggers)!
 * New C# methods for Triggers
+* [VTube Studio](#vtube-studio) Integration!
+* A new [Global Variables Viewer](#global-variables-viewer)
+* New [Inline Chat Window](#inline-chat-window) feature, see Twitch and YouTube chat within **Streamer.bot**
+* Add list of users gifted a sub in the Twitch Gift Bomb event
 {.changelog-new}
 
 ## Triggers
@@ -62,6 +77,30 @@ CPH.TriggerCodeEvent("mine_something");
 ```
 Typically you would register a trigger in the `void Init()`method, and have it compile at start 
 
+## VTube Studio
+A brand new integration is coming to **v0.2.0**, and that's VTube Studio!
+
+You'll be able to react to some events from VTube Studio, as well as 5 new sub-actions to interact with it.
+
+There are also a handful of C# methods, for those that prefer to write C# code for there actions.
+
+### New Sub-actions
+The following sub-actions are available for use with VTube Studio
+* Load Model
+* Load Model by Name
+* Trigger Hotkey
+* Trigger Hotkey by Name
+* Move Model
+{.grid-list}
+
+## Global Variables Viewer
+Ever wonder what global variables are floating around **Streamer.bot**? will, now you can see them, and see them update in realtime witha  Global Variable viewer.
+
+In addition to seeing them, you can add new ones, edit existing ones, and even outright delete them.
+
+## Inline Chat Window
+Open up a window, and view your Twitch, and/or YouTube chat, right within **Streamer.bot** itself!
+
 ## New C# Methods
 ```cs
 bool UpdateRewardBackgroundColor(string rewardId, string backgroundColor);
@@ -69,6 +108,13 @@ bool UpdateReward(string rewardId, string title = null, string prompt = null, in
 ```
 ```cs
 void TwitchReplyToMessage(string message, string replyId, bool bot = true);
+```
+```cs
+bool VTubeStudioLoadModelById(string modelId);
+bool VTubeStudioLoadModelByName(string modelName);
+bool VTubeStudioTriggerHotkeyById(string hotkeyId);
+bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
+bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
 ```
 
 ### New Triggers
