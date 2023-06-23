@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-22T00:55:15.227Z
+date: 2023-06-23T01:37:47.390Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -21,6 +21,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Fix data validation in Twitch Prediction dialog
 * Fix data validation in Twitch Poll dialog
 * Fix Twitch EventSub related issues, potential duplicate events
+* Fix Handling of DoActions across various methods to parse properly for C#
 {.changelog-fixes}
 
 <span></span>
