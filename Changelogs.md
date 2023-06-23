@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-23T01:37:47.390Z
+date: 2023-06-23T04:40:35.836Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -48,6 +48,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * A new [Global Variables Viewer](#global-variables-viewer)
 * New [Inline Chat Window](#inline-chat-window) feature, see Twitch and YouTube chat within **Streamer.bot**
 * Add list of users gifted a sub in the Twitch Gift Bomb event
+* [CrowdControl 2.0](#crowdcontrol-20) Integration!
 {.changelog-new}
 
 ## Triggers
@@ -84,6 +85,13 @@ A brand new integration is coming to **v0.2.0**, and that's VTube Studio!
 You'll be able to react to some events from VTube Studio, as well as 5 new sub-actions to interact with it.
 
 There are also a handful of C# methods, for those that prefer to write C# code for there actions.
+
+## CrowdControl 2.0
+Yes, that's right, yet another integration, and this time it's CrowdControl 2.0!
+
+With this integration, you can now react to 8 different events from CrowdControl.
+
+Since CrowdControl themselves are still developing this version, there are things within **Streamer.bot** that can change as well, and new features are still pending.
 
 ### New Sub-actions
 The following sub-actions are available for use with VTube Studio
