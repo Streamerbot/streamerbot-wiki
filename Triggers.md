@@ -2,7 +2,7 @@
 title: Triggers (v0.2.0)
 description: Reference of all triggers for your Streamer.bot actions
 published: true
-date: 2023-06-18T11:48:20.571Z
+date: 2023-07-06T08:38:41.939Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
@@ -57,4 +57,5 @@ Triggers for Streamer.bot integrations{.subtitle}
 - [<img src="https://streamer.bot/img/integrations/tipeestream.png"/>**TipeeeStream *Donation events***](/Triggers/TipeeeStream)
 - [<img src="https://streamer.bot/img/integrations/treatstream.png"/>**TreatStream *Food delivery events***](/Triggers/TreatStream)
 - [<img src="https://play-lh.googleusercontent.com/vg93vbBq2kmK3KAl3UxP2VyTa0ty-ehCpHsiUGBHuYoTwazYnJT9Lni6zx76odbDOsA"/>**VTube Studio *Triggers from your VTube Studio instance***](/Triggers/VTube-Studio)
+- [<img src="https://streamer.bot/img/integrations/streamdeck.png"/>**Stream Deck *Connection and info events***](/Triggers/Stream-Deck)
 {.btn-grid .my-5}
