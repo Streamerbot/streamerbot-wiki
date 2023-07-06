@@ -2,7 +2,7 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2023-04-07T21:55:42.044Z
+date: 2023-07-06T19:17:40.100Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T18:35:56.849Z
@@ -31,6 +31,7 @@ Sub-Actions specific to Streamer.bot [Integrations](/Integrations) {.subtitle}
 - [<img src="https://streamer.bot/img/integrations/lumia.png"> **Lumia Stream *Change color settings, send commands***](/Sub-Actions/Lumia-Stream)
 - [<i class="mdi mdi-discord text--discord"></i> **Discord *Send webhook requests to Discord***](/Sub-Actions/Discord)
 - [<img src="/logos/ifttt.png" style="height: auto;"></img> **IFTTT *Sub-Actions to trigger IFTTT applets*** *v0.1.15*{.version-badge}](/Sub-Actions/IFTTT)
+- [<img src="https://api.iconify.design/simple-icons:elgato.svg?color=%23ffffff"/>**Stream Deck*Offical Elgato Stream Deck Plugin***](https://streamdeck.streamer.bot/guide/usage/sub-actions)
 {.btn-grid .my-5}
 
 ## General
