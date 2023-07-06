@@ -2,7 +2,7 @@
 title: Triggers (v0.2.0)
 description: Reference of all triggers for your Streamer.bot actions
 published: true
-date: 2023-07-06T08:38:41.939Z
+date: 2023-07-06T08:43:42.231Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-11T15:01:12.651Z
