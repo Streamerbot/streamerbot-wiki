@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2023-07-16T11:43:05.153Z
+date: 2023-07-16T11:44:35.499Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -556,26 +556,26 @@ This request will give the broadcaster information for Twitch/Youtube
 #### Response
 ```json
 {
-    "count": 3,
-    "triggers": [
-        {
-            "name": "Song Start",
-            "eventName": "progressbar_spotify_songstart",
-            "category": "Custom/Spotify"
-        },
-        {
-            "name": "Song Pause",
-            "eventName": "progressbar_spotify_songpause",
-            "category": "Custom/Spotify"
-        },
-        {
-            "name": "Song End",
-            "eventName": "progressbar_spotify_songend",
-            "category": "Custom/Spotify"
-        },
-    ],
-    "status": "ok"
-    "id": "123",
+  "count": 3,
+  "triggers": [
+    {
+      "name": "Song Start",
+      "eventName": "progressbar_spotify_songstart",
+      "category": "Custom/Spotify"
+    },
+    {
+      "name": "Song Pause",
+      "eventName": "progressbar_spotify_songpause",
+      "category": "Custom/Spotify"
+    },
+    {
+      "name": "Song End",
+      "eventName": "progressbar_spotify_songend",
+      "category": "Custom/Spotify"
+    },
+  ],
+  "status": "ok"
+  "id": "123",
 }
 ```
 
