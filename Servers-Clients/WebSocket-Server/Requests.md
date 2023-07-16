@@ -2,7 +2,7 @@
 title: WebSocket Server Requests
 description: Documentation of requests that can be made to the Streamer.bot WebSocket Server
 published: true
-date: 2023-07-16T11:44:35.499Z
+date: 2023-07-16T12:31:11.903Z
 tags: websocket
 editor: markdown
 dateCreated: 2021-08-25T21:37:16.673Z
@@ -535,7 +535,7 @@ This request will give the broadcaster information for Twitch/Youtube
 ```json
 {
   "request": "ExecuteCodeTrigger",
-  "eventName": "<registered name of event>",
+  "triggerName": "<registered name of event>",
   "args": {
     
   },
