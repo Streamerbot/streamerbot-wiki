@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-06-23T04:40:35.836Z
+date: 2023-07-26T02:38:38.598Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -22,6 +22,12 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Fix data validation in Twitch Poll dialog
 * Fix Twitch EventSub related issues, potential duplicate events
 * Fix Handling of DoActions across various methods to parse properly for C#
+* Fix Global Variable, and GLobal User variables
+* Fix FFZ emote url
+* Fix potential crash in LumiaStream's Set Color sub-action
+* When editing an Action Queue, Blocking was not being updated in the UI
+* Fixes to bottom right status indicator and potential crashes
+* Fix Twitch Broadcaster account sometimes being unflagged as broadcaster
 {.changelog-fixes}
 
 <span></span>
@@ -32,6 +38,8 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Add some more logging during shutdown
 * Change how shutdown works from an update
 * Add url check to Websocket Client creation
+* Add Twitch Botn information (if available) to Websocket `GetBroadcaster` method
+* Allow !commands on internal Twitch message parsing, this means !commands typed in the inline chat will work
 {.changelog-updates}
 
 <span></span>
@@ -48,7 +56,12 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * A new [Global Variables Viewer](#global-variables-viewer)
 * New [Inline Chat Window](#inline-chat-window) feature, see Twitch and YouTube chat within **Streamer.bot**
 * Add list of users gifted a sub in the Twitch Gift Bomb event
+* Add support for Twitch's new Hype Chat
+* Add new [Websocket request](#new-websocket-requests), `ExecuteCodeTrigger`
+* Add new [Websocket request](#new-webcosket-requests), `GetCodeTriggers`
 * [CrowdControl 2.0](#crowdcontrol-20) Integration!
+* [Elgato Wave Link](#elgate-wave-link) Integration!
+* Add new [YouTube Bot](#youtube-bot-account) account
 {.changelog-new}
 
 ## Triggers
@@ -56,9 +69,9 @@ Gone are the days of having to move through multiple tabs to assign an action to
 
 Now, you assign a Trigger directly to one or more actions that act on events.
 
-There are **130** different Triggers available in **Streamer.bot**, and there will probably be more!
+There are currently **161** different Triggers available in **Streamer.bot**, and there will probably be more!
 
-When upgrading from **0.1.23**, all your events that you have actions associated with, will be upgraded automatically to Triggers.
+When upgrading from **0.1.22**, all your events that you have actions associated with, will be upgraded automatically to Triggers.
 
 ### Custom Triggers
 Not only are there Triggers for fixed events within **Streamer.bot**, but you'll also be able to create your own named triggers within the UI as will as in C#.  Both of which can be triggered within C#.
@@ -79,19 +92,28 @@ CPH.TriggerCodeEvent("mine_something");
 ```
 Typically you would register a trigger in the `void Init()`method, and have it compile at start 
 
+### New Triggers
+There are a couple new Triggers, that previously did not exist as events within **Streamer.bot**
+
+#### Process Started
+Trigger an action when a process has started on your PC
+
+#### Process Stopped
+Trigger an action when a process has stopped on your PC
+
+### Other New Triggers
+A general list of new events that are available through triggers
+
+* OBS Scene Changed
+* YouTube New Subscriber (handled via StreamElements)
+{.grid-list}
+
 ## VTube Studio
 A brand new integration is coming to **v0.2.0**, and that's VTube Studio!
 
 You'll be able to react to some events from VTube Studio, as well as 5 new sub-actions to interact with it.
 
 There are also a handful of C# methods, for those that prefer to write C# code for there actions.
-
-## CrowdControl 2.0
-Yes, that's right, yet another integration, and this time it's CrowdControl 2.0!
-
-With this integration, you can now react to 8 different events from CrowdControl.
-
-Since CrowdControl themselves are still developing this version, there are things within **Streamer.bot** that can change as well, and new features are still pending.
 
 ### New Sub-actions
 The following sub-actions are available for use with VTube Studio
@@ -101,6 +123,60 @@ The following sub-actions are available for use with VTube Studio
 * Trigger Hotkey by Name
 * Move Model
 {.grid-list}
+
+## CrowdControl 2.0
+Yes, that's right, yet another integration, and this time it's CrowdControl 2.0!
+
+With this integration, you can now react to 8 different events from CrowdControl.
+
+Since CrowdControl themselves are still developing this version, there are things within **Streamer.bot** that can change as well, and new features are still pending.
+
+## Elgato Wave Link
+Yep, another integration, this time its Elgato Wave Link!  Control, and react to changes in Wave Link from within **Streamer.bot**
+
+New triggers:
+* Connected
+* Disconnected
+* Output Switched
+* Output Volume Changed
+* Output Mut CHanged
+* Selected Output Changed
+* Input Volume Changed
+* Input Mute Changed
+* Input Name Changed
+* Microphone Gain Changed
+* Microphone Output Volume Changed
+* Microphone Balance Changed
+* Microphone Setting Changed
+* Filter Added
+* Filter Changed
+* Filter Deleted
+* Filter Bypass State Changed
+{.grid-list}
+
+New sub-actions:
+* Mute Microphone
+* Mute Output
+* Mute Input
+* Set Bypass Filter State
+* Set Filter State
+* Set Output Monitor Device
+* Get Selected Output
+* Set Output Volume
+* Get Output Volumes
+* Set Input Volume
+* Get Input Information
+* Get Microphone Information
+* Set Microphone Gain
+* Set Microphone Output Volume
+* Set Microphone Balance
+* Get Filter State
+{.grid-list}
+
+## YouTube Bot Account
+Yes, I've heard you, and I was finally able to figure out the best way to handle this.
+
+Starting with **0.2.0** you can setup a bot account for YouTube, and use this as the mouth piece for talking to chat.  The YouTube send message sub-action has been udpated, as well as the C# methods.
 
 ## Global Variables Viewer
 Ever wonder what global variables are floating around **Streamer.bot**? will, now you can see them, and see them update in realtime witha  Global Variable viewer.
@@ -126,14 +202,18 @@ bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
 bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
 ```
 
-### New Triggers
-There are a couple new Triggers, that previously did not exist as events within **Streamer.bot**
+## New Websocket Requests
+The new `ExecuteCodeTrigger` WebSocket method will let you trigger a Custom Code Trigger by using this method in a WebSocket connection. The format of the request is as follows.
+```js
+{
+	"method": "ExecuteCodeTrigger",
+	"eventName": "<registered name of event>",
+	"args": {
+		"id": "<someid>"
+	}
+}
+```
 
-#### Process Started
-Trigger an action when a process has started on your pc
-
-#### Process Stopped
-Trigger an action when a process has stopped on your pc
 
 # Streamer.bot v0.1.22 (Current)
 Released 2023-05-31{.subtitle}
