@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-07-26T02:38:38.598Z
+date: 2023-07-27T17:06:57.859Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -106,6 +106,10 @@ A general list of new events that are available through triggers
 
 * OBS Scene Changed
 * YouTube New Subscriber (handled via StreamElements)
+* OBS Streaming Started
+* OBS Streaming Stopped
+* OBS Recording Started
+* OBS Recording Stopped
 {.grid-list}
 
 ## VTube Studio
