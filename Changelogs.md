@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-07-27T17:06:57.859Z
+date: 2023-07-29T01:18:25.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -40,6 +40,10 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Add url check to Websocket Client creation
 * Add Twitch Botn information (if available) to Websocket `GetBroadcaster` method
 * Allow !commands on internal Twitch message parsing, this means !commands typed in the inline chat will work
+* For those running a prerelease build (beta, or alpha), your logging will be automatically pushed to verbose
+* Update how [Export](#import-export) works
+* Update [Import](#import-export) to handle new features, and give it a new UI with new interactions
+* Commands that are disabled will now show as red in the main window
 {.changelog-updates}
 
 <span></span>
@@ -62,6 +66,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * [CrowdControl 2.0](#crowdcontrol-20) Integration!
 * [Elgato Wave Link](#elgate-wave-link) Integration!
 * Add new [YouTube Bot](#youtube-bot-account) account
+* Add nnew [C# Method](#new-c-methods), ObsSendBatchRaw
 {.changelog-new}
 
 ## Triggers
@@ -69,9 +74,15 @@ Gone are the days of having to move through multiple tabs to assign an action to
 
 Now, you assign a Trigger directly to one or more actions that act on events.
 
-There are currently **161** different Triggers available in **Streamer.bot**, and there will probably be more!
+There are currently **166** different Triggers available in **Streamer.bot**, and there will probably be more!
 
 When upgrading from **0.1.22**, all your events that you have actions associated with, will be upgraded automatically to Triggers.
+
+As you are using triggers, much like sub-actions, you will be able to favorite the ones you use the most by right clicking on the trigger within the menu.
+
+Want an overview of triggers used, and which actions have them.  Within the main window, above the trigger list, there is a `?`, clicking this will open the trigger viewer, where you can see a full overview of triggers in use.  **Note** This window does not update in realtime, and requires a manual refresh if changes are made while it's open.
+
+Also at the top of the triggers list, is a `+`, this will allow you to add triggers to the selected action.
 
 ### Custom Triggers
 Not only are there Triggers for fixed events within **Streamer.bot**, but you'll also be able to create your own named triggers within the UI as will as in C#.  Both of which can be triggered within C#.
@@ -182,6 +193,15 @@ Yes, I've heard you, and I was finally able to figure out the best way to handle
 
 Starting with **0.2.0** you can setup a bot account for YouTube, and use this as the mouth piece for talking to chat.  The YouTube send message sub-action has been udpated, as well as the C# methods.
 
+## Import/Export
+How you export actions and command has changed with **0.2.0**, no longer do you havhe to scroll through a list to select the actions you want.  Now, you can just right click on an action, and use the `Add to Export` or `Remove from Export` menu items.  Best of all, the Export window is no longer modal, which means you can keep it open off to the side, as you add your actions and commands and see it populate.  THere is also new information you can attach to an export, such as author, description and a version.
+
+The Import window has also changed to accomodate the new data that's available with exports from **0.2.0**, but don't worry, it will still accept imports from older versions.
+
+Importing will also properly handle new triggers, as well as updating certain data in old exports to the new trigger system.
+
+New with the Import system, you'll be able to overwrite commands and actions, this is primarily for exports from **0.2.0**, as legacy exports altered ids, so matching them correctly is not possible. When you're presented with actions and commands to import, you can right click on an action  or a command, and include/exclude it, if its an exact match to an existing action or command, you can also flag it to be overwritten or not.
+
 ## Global Variables Viewer
 Ever wonder what global variables are floating around **Streamer.bot**? will, now you can see them, and see them update in realtime witha  Global Variable viewer.
 
@@ -204,6 +224,9 @@ bool VTubeStudioLoadModelByName(string modelName);
 bool VTubeStudioTriggerHotkeyById(string hotkeyId);
 bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
 bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
+```
+```cs
+string ObsSendBatchRaw(string data, bool haltOnFailure = false, int executionType = 0, int connectionIdx = 0);
 ```
 
 ## New Websocket Requests
