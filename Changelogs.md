@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-07-29T01:18:25.727Z
+date: 2023-08-09T16:34:45.186Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -83,6 +83,19 @@ As you are using triggers, much like sub-actions, you will be able to favorite t
 Want an overview of triggers used, and which actions have them.  Within the main window, above the trigger list, there is a `?`, clicking this will open the trigger viewer, where you can see a full overview of triggers in use.  **Note** This window does not update in realtime, and requires a manual refresh if changes are made while it's open.
 
 Also at the top of the triggers list, is a `+`, this will allow you to add triggers to the selected action.
+
+### Behavior
+This is the behaviour for triggers, when there is a mix of Any, and Range based, or other criteria based.
+
+The behavior is as follows, for an `event`.
+
+If a `Trigger` has a `Min/Max`, it will get all the `exact` matches, if there are none, then it will try to get the `range` matches, if there are still none, then it will get `any` matches.
+
+If a `Trigger` is `editable`, but not a `Min/Max`, it will get a count of `Any`, and if there is a `disparity`, i.e., there is 1 Any, but say 4 with a Criteria, it will only use those with a `Criteria`
+
+In addition to the above, you can `flag` certain Triggers to `Always Run`, this flag is only available on `editable` triggers. Once either of the two are checked, it will add any Always Run triggers, and proceed to use that list of Triggers
+
+If neither of the two above are met, then it will just run all the triggers for the event.
 
 ### Custom Triggers
 Not only are there Triggers for fixed events within **Streamer.bot**, but you'll also be able to create your own named triggers within the UI as will as in C#.  Both of which can be triggered within C#.
