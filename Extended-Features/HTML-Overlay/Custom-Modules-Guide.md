@@ -2,7 +2,7 @@
 title: HTML Overlay Custom Modules Guide
 description: Learn how to add new features to the HTML Overlay using Javascript
 published: true
-date: 2023-08-10T17:56:51.325Z
+date: 2023-08-10T17:57:37.381Z
 tags: html overlay, extended features, guides
 editor: markdown
 dateCreated: 2022-01-07T17:14:12.750Z
@@ -33,13 +33,7 @@ In this guide we are going to walk through a basic example module for the [**HTM
    
 ## Subscribe to Channel Point Rewards
 
-1. Add the following code to your module to subscribe to Channel Point Rewards events:
-    ```js
-    window.streamerbot.subscribeTo({
-      Twitch: [ "RewardRedemption" ]
-    });
-    ```
-2. Next, add the code to listen to the specific Channel Point Reward for this module:
+1. Add the following code to connect to your Streamer.bot instance and listen to Twitch channel point reward events
     ```js
     // Streamer.bot WebSocket Client configuration
     import "https://cdn.skypack.dev/@streamerbot/client";
