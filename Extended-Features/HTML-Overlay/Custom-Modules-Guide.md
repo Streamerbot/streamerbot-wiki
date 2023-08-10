@@ -2,7 +2,7 @@
 title: HTML Overlay Custom Modules Guide
 description: Learn how to add new features to the HTML Overlay using Javascript
 published: true
-date: 2023-08-10T17:57:37.381Z
+date: 2023-08-10T18:11:01.837Z
 tags: html overlay, extended features, guides
 editor: markdown
 dateCreated: 2022-01-07T17:14:12.750Z
@@ -38,14 +38,14 @@ In this guide we are going to walk through a basic example module for the [**HTM
     // Streamer.bot WebSocket Client configuration
     import "https://cdn.skypack.dev/@streamerbot/client";
     const client = new StreamerbotClient({
-      host: window.config?.host || '127.0.0.1',
-      port: window.config?.port || 8080,
-      endpoint: window.config?.endpoint || '/',
+      host: window.config.host || '127.0.0.1',
+      port: window.config.port || 8080,
+      endpoint: window.config.endpoint || '/',
     });
 
 		// Handle Twitch Channel Point Reward Redemption Events
     client.on('Twitch.RewardRedemption', (message) => {
-      if ((message.data.reward?.title || message.data.title) === config.rewardTitle) {
+      if ((message.data.reward.title || message.data.title) === config.rewardTitle) {
 				// This function is called anytime a Channel Point Reward is redeemed with a name matching our rewardTitle configuration
         // We will be creating this function in the next steps
         showImage();
@@ -91,12 +91,12 @@ const config = {
 // Streamer.bot WebSocket Client configuration
 import "https://cdn.skypack.dev/@streamerbot/client";
 const client = new StreamerbotClient({
-  host: window.config?.host || '127.0.0.1',
-  port: window.config?.port || 8080,
-  endpoint: window.config?.endpoint || '/',
+  host: window.config.host || '127.0.0.1',
+  port: window.config.port || 8080,
+  endpoint: window.config.endpoint || '/',
 });
 client.on('Twitch.RewardRedemption', (message) => {
-  if ((message.data.reward?.title || message.data.title) === config.rewardTitle) {
+  if ((message.data.reward.title || message.data.title) === config.rewardTitle) {
     showImage();
   }
 });
