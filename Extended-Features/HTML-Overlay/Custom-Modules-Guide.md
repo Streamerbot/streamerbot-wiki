@@ -2,7 +2,7 @@
 title: HTML Overlay Custom Modules Guide
 description: Learn how to add new features to the HTML Overlay using Javascript
 published: true
-date: 2022-01-07T18:19:27.300Z
+date: 2023-08-10T17:56:51.325Z
 tags: html overlay, extended features, guides
 editor: markdown
 dateCreated: 2022-01-07T17:14:12.750Z
@@ -41,15 +41,21 @@ In this guide we are going to walk through a basic example module for the [**HTM
     ```
 2. Next, add the code to listen to the specific Channel Point Reward for this module:
     ```js
-    window.streamerbot.onMessage(message => {
-      if (
-        message.event.source === "Twitch" &&
-        message.event.type === "RewardRedemption" &&
-        message.data.title === config.rewardTitle
-      )
-        // This function is called anytime a Channel Point Reward is redeemed with a name matching our rewardTitle configuration
+    // Streamer.bot WebSocket Client configuration
+    import "https://cdn.skypack.dev/@streamerbot/client";
+    const client = new StreamerbotClient({
+      host: window.config?.host || '127.0.0.1',
+      port: window.config?.port || 8080,
+      endpoint: window.config?.endpoint || '/',
+    });
+
+		// Handle Twitch Channel Point Reward Redemption Events
+    client.on('Twitch.RewardRedemption', (message) => {
+      if ((message.data.reward?.title || message.data.title) === config.rewardTitle) {
+				// This function is called anytime a Channel Point Reward is redeemed with a name matching our rewardTitle configuration
         // We will be creating this function in the next steps
         showImage();
+      }
     });
     ```
     
@@ -88,18 +94,15 @@ const config = {
   seconds: Number(url.searchParams.get('seconds')) || 5 // default to 5 seconds
 }
 
-// Will subscribe to these events, mapped directly to the websocket subscription request.
-window.streamerbot.subscribeTo({
-  Twitch: [ "RewardRedemption" ]
+// Streamer.bot WebSocket Client configuration
+import "https://cdn.skypack.dev/@streamerbot/client";
+const client = new StreamerbotClient({
+  host: window.config?.host || '127.0.0.1',
+  port: window.config?.port || 8080,
+  endpoint: window.config?.endpoint || '/',
 });
-
-// Called when any event is received from Streamerbot, including those subscribed to by other scripts.
-window.streamerbot.onMessage(message => {
-  if (
-    message.event.source === "Twitch" &&
-    message.event.type === "RewardRedemption" &&
-    message.data.title === config.rewardTitle
-  ) {
+client.on('Twitch.RewardRedemption', (message) => {
+  if ((message.data.reward?.title || message.data.title) === config.rewardTitle) {
     showImage();
   }
 });
