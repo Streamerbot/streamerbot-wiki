@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-09T16:34:45.186Z
+date: 2023-08-11T03:22:29.829Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -83,6 +83,8 @@ As you are using triggers, much like sub-actions, you will be able to favorite t
 Want an overview of triggers used, and which actions have them.  Within the main window, above the trigger list, there is a `?`, clicking this will open the trigger viewer, where you can see a full overview of triggers in use.  **Note** This window does not update in realtime, and requires a manual refresh if changes are made while it's open.
 
 Also at the top of the triggers list, is a `+`, this will allow you to add triggers to the selected action.
+
+Triggers that are disabled, will be shown as red in the list, and triggers that have the `Always Run` option set, will be shown as blue
 
 ### Behavior
 This is the behaviour for triggers, when there is a mix of Any, and Range based, or other criteria based.
