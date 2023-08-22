@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-11T03:22:29.829Z
+date: 2023-08-22T04:52:20.911Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,6 +28,42 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * When editing an Action Queue, Blocking was not being updated in the UI
 * Fixes to bottom right status indicator and potential crashes
 * Fix Twitch Broadcaster account sometimes being unflagged as broadcaster
+* Fix Twitch Timeout and Ban User methods not working correctly
+* Clearing confirmation dialog settings did not clear quote deletion confirmation
+* Fix potential crash in Set Queue Pause State sub-actions
+* Fix potential crash during shutdown of some services
+* Fix potential crash in Set Action Queue State
+* Fix PlaySoundFromFolder sub-action, was possible for no audio device to be selected
+* Fix crash when deleting multiple actions
+* Fix potential crash in Twitch EventSub library when deserializing events
+* Fix potential crash in Http Service
+* Fix potential crash when an action is completed
+* Fix some unhandled exceptions in Streamer.bot Website Integration
+* Set a minimum size for the sub-action panel on the actions tab
+* Fix potential crashes related to Twitch Predictions
+* Fix potential parsing error when assigning a weight value to a sub-action
+* Some fixes to general OAuth authentication
+* Handle a potential crash in OBS Set GDI Text sub-action dialog
+* Handle a potential crash in SLOBS Set Random Filter State sub-action dialog
+* Fix potential crash when getting version information of an OBS connection
+* Handle potential null ref in the OBS service when a scene is changed
+* Handle a potential null ref during the creation of an Execute C# Code
+* Handle potential null ref when sending an ActionCompleted event to the Websocket
+* Handle potential crash when a Twitch Reward Redemption is updated
+* Fix changing log level not correctly setting log level for some libraries
+* Fix wrong action being picked in a random action group, where there are multiple and all are disabled but 1
+* Fix isSubscribed variable in arguments for Twitch users
+* Fix auto-selection of newly added action
+* Fix potential crash when receiving a Twitch Ad Event
+* Fix potential crash in ReadRandomLinesFromFile sub-action dialog
+* Handle potential crashes in MidiOut Generic sub-action dialog
+* Handle potential crash in SLOBS when getting source filter list
+* Fix Subscriber group in command grounds for Twitch users
+* YouTube connection UI could enter a bad state from auto connect if tokens are invalid
+* Fix issue with Twitch EventSub and multiple instances of Streamer.bot using the same Broadcaster account
+* Handle possible crash in custom C# code when Dispose() is overridden and user code throws
+* Handle potential crash in Read From File sub-actions when parsing invalid paths
+* Handle potential crash in Write To File sub-action when parsing invalid paths
 {.changelog-fixes}
 
 <span></span>
@@ -44,6 +80,17 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Update how [Export](#import-export) works
 * Update [Import](#import-export) to handle new features, and give it a new UI with new interactions
 * Commands that are disabled will now show as red in the main window
+* Add validation checks to Midi Note On sub-action
+* Update Speak sub-action to allow variable support for alias
+* Update how commands are stored internally
+* Enable the vertical scrollbar for the command text box in the command dialog
+* Better handling of shutting down the OBS Service
+* Tweaks to startup procedures
+* Update handling of inline variable parsing
+* Add Twitch and YouTube bot information to the HTTP GetBroadcaster call
+* Have the Streamer.bot tray icon always visible
+* Tweaks to sub-action categories
+* Update Twitch EventSub with changes to Guest Star
 {.changelog-updates}
 
 <span></span>
@@ -66,7 +113,17 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * [CrowdControl 2.0](#crowdcontrol-20) Integration!
 * [Elgato Wave Link](#elgate-wave-link) Integration!
 * Add new [YouTube Bot](#youtube-bot-account) account
-* Add nnew [C# Method](#new-c-methods), ObsSendBatchRaw
+* Add new [C# Method](#new-c-methods), ObsSendBatchRaw
+* Add new [C# Methods](#new-c-methods) for using User global variables
+* Add new [C# Methods](#new-c-methods) for retrieving Twitch User information
+* Split out Third Party Emote Handling
+* Add support for SevenTV's real-time emote updates
+* Add support for BetterTTV's real-time emote updates
+* Add new Important Information popup, when a new release happens, I'll be able to relay information that must be seen, only once at startup
+* Add a startup splash screen
+* Add new [~globalVariable~](#inline-global-accessor) accessor to variables
+* Add new sub-action, Tray Notification, this will allow you to create a custom tray notification from the Streamer.bot tray icon
+* Add new sub-action, Set Voice Control Input, allowing you to change which Input device Voice Control is using
 {.changelog-new}
 
 ## Triggers
@@ -152,7 +209,40 @@ The following sub-actions are available for use with VTube Studio
 * Trigger Hotkey
 * Trigger Hotkey by Name
 * Move Model
+* Color Tint
+* Remove All Color Tints
+* Set Expression State
 {.grid-list}
+
+### New C# Methods for VTubeStudio
+```cs
+bool VTubeStudioLoadModelById(string modelId);
+bool VTubeStudioLoadModelByName(string modelName);
+bool VTubeStudioTriggerHotkeyById(string hotkeyId);
+bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
+bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
+bool VTubeStudioRandomColorTint();
+bool VTubeStudioResetAllColorTints();
+bool VTubeStudioColorTintAll(string hexColor);
+bool VTubeStudioColorTintByNumber(string hexColor, bool mixWithSceneLighting, List<int> artMeshNumbers);
+bool VTubeStudioColorTintByNames(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByNameContains(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByTags(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByTagContains(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioActivateExpression(string expressionFile);
+bool VTubeStudioDeactivateExpression(string expressionFile);
+VTSModelPosition VTubeStudioGetModelPosition();
+string VTubeStudioSendRawRequest(string requestType, string data);
+```
+```cs
+public class VTSModelPosition
+{
+	public double PositionX { get; set; }
+	public double PositionY { get; set; }
+	public double Rotation { get; set; }
+	public double Size { get; set; }
+}
+```
 
 ## CrowdControl 2.0
 Yes, that's right, yet another integration, and this time it's CrowdControl 2.0!
@@ -203,6 +293,35 @@ New sub-actions:
 * Get Filter State
 {.grid-list}
 
+### New C# Methods
+In addition to new sub-actions and trigger, there are also a handful (24 to be exact) new C# methods for interacting with Elgato Wave Link
+```cs
+void WaveLinkOutputMute(string mixer);
+void WaveLinkOutputUnmute(string mixer);
+void WaveLinkOutputToggleMute(string mixer);
+void WaveLinkSetOutputVolume(string mixer, int volume);
+string WaveLinkGetMicrophoneIdentifier(string microphoneName);
+void WaveLinkMicrophoneMute(string microphoneIdentifier);
+void WaveLinkMicrophoneUnmute(string microphoneIdentifier);
+void WaveLinkMicrophoneToggleMute(string microphoneIdentifier);
+void WaveLinkMicrophoneSetVolume(string microphoneIdentifier, double volume);
+double WaveLinkMicrophoneGetVolume(string microphoneIdentifier);
+string WaveLinkGetInputIdentifier(string inputName);
+void WaveLinkInputMute(string identifier, string mixer);
+void WaveLinkInputUnmute(string identifier, string mixer);
+void WaveLinkInputToggleMute(string identifier, string mixer);
+void WaveLinkInputSetVolume(string inputIdentifier, string mixer, int volume);
+long WaveLinkInputGetVolume(string inputIdentifier, string mixer);
+void WaveLinkInputFilterBypassBypassed(string inputIdentifier, string mixer);
+void WaveLinkInputFilterBypassEnabled(string inputIdentifier, string mixer);
+void WaveLinkInputFilterBypassToggle(string inputIdentifier, string mixer);
+string WaveLinkInputGetFilterIdentifier(string inputIdentifier, string filterName);
+void WaveLinkInputFilterEnable(string inputIdentifier, string filterIdentifier);
+void WaveLinkInputFilterDisable(string inputIdentifier, string filterIdentifier);
+void WaveLinkInputFilterToggle(string inputIdentifier, string filterIdentifier);
+bool WaveLinkInputGetFilterState(string inputIdentifier, string filterIdentifier);
+```
+
 ## YouTube Bot Account
 Yes, I've heard you, and I was finally able to figure out the best way to handle this.
 
@@ -218,12 +337,15 @@ Importing will also properly handle new triggers, as well as updating certain da
 New with the Import system, you'll be able to overwrite commands and actions, this is primarily for exports from **0.2.0**, as legacy exports altered ids, so matching them correctly is not possible. When you're presented with actions and commands to import, you can right click on an action  or a command, and include/exclude it, if its an exact match to an existing action or command, you can also flag it to be overwritten or not.
 
 ## Global Variables Viewer
-Ever wonder what global variables are floating around **Streamer.bot**? will, now you can see them, and see them update in realtime witha  Global Variable viewer.
+Ever wonder what global variables are floating around **Streamer.bot**? will, now you can see them, and see them update in realtime with a Global Variable viewer.
 
 In addition to seeing them, you can add new ones, edit existing ones, and even outright delete them.
 
 ## Inline Chat Window
 Open up a window, and view your Twitch, and/or YouTube chat, right within **Streamer.bot** itself!
+
+## Inline Global Accessor
+You can now use `~` to access global variables directly. They will be replaced with the global variable value, if it exists at the time of parsing.
 
 ## New C# Methods
 ```cs
@@ -234,14 +356,55 @@ bool UpdateReward(string rewardId, string title = null, string prompt = null, in
 void TwitchReplyToMessage(string message, string replyId, bool bot = true);
 ```
 ```cs
-bool VTubeStudioLoadModelById(string modelId);
-bool VTubeStudioLoadModelByName(string modelName);
-bool VTubeStudioTriggerHotkeyById(string hotkeyId);
-bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
-bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
+string ObsSendBatchRaw(string data, bool haltOnFailure = false, int executionType = 0, int connectionIdx = 0);
 ```
 ```cs
-string ObsSendBatchRaw(string data, bool haltOnFailure = false, int executionType = 0, int connectionIdx = 0);
+T GetUserVarById<T>(string userId, string varName, bool persisted = true);
+void SetUserVarById(string userId, string varName, object value, bool persistent = true);
+void UnsetUserVarById(string userId, string varName, bool persisted = true);
+void UnsetUserById(string userId, bool persisted = true);
+List<string> UsersWithVariable(string varName, bool persisted = true);
+void SetUsersVarById(List<string> userIds, string varName, object value, bool persisted = true);
+List<Tuple<string, T, DateTime>> GetUsersVar<T>(string varName, bool persisted = true);
+```
+```cs
+TwitchUserInfo TwitchGetUserInfoById(string userId);
+TwitchUserInfo TwitchGetUserInfoByLogin(string userLogin);
+
+public class TwitchUserInfo
+{
+	public string UserName { get; set; }
+	public string UserLogin { get; set; }
+	public string UserId { get; set; }
+	public string Description { get; set; }
+	public string ProfileImageUrl { get; set; }
+	public string UserType { get; set; }
+	public bool IsPartner => string.Equals(UserType, "partner", StringComparison.OrdinalIgnoreCase);
+
+	public bool IsAffiliate => string.Equals(UserType, "affiliate", StringComparison.OrdinalIgnoreCase);
+
+	public bool IsFollowing { get; set; }
+	public DateTime LastActive { get; set; }
+	public DateTime PreviousActive { get; set; }
+	public bool IsSubscribed { get; set; }
+	public string SubscriptionTier { get; set; }
+
+	public bool IsModerator { get; set; }
+	public bool IsVip { get; set; }
+
+	public DateTime CreatedAt { get; set; }
+	public double AccountAge { get; set; }
+
+	public string Game { get; set; }
+	public string GameId { get; set; }
+
+	public string ChannelTitle { get; set; }
+
+	public List<string> Tags { get; set; }
+}
+```
+```cs
+void ShowToastNotification(string id, string title, string message, string attribution = null, string iconPath = null);
 ```
 
 ## New Websocket Requests
