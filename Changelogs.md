@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-22T19:23:51.722Z
+date: 2023-08-22T20:45:26.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -68,6 +68,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Fix deletion of None group in Actions tab
 * Fix deletion of None group in Commands tab
 * Fix selection of duplicated action
+* Fix multi-trigger commands not picking the correct command
 {.changelog-fixes}
 
 <span></span>
@@ -377,7 +378,14 @@ void UnsetYouTubeUserVarById(string userId, string varName, bool persisted = tru
 void UnsetTwitchUserById(string userId, bool persisted = true);
 void UnsetYouTubeUserById(string userId, bool persisted = true);
 
-List<UserVariableValue<T>> GetUsersVar<T>(string varName, bool persisted = true);
+T GetTwitchUserVarById<T>(string userId, string varName, bool persisted = true);
+T GetYouTubeUserVarById<T>(string userId, string varName, bool persisted = true);
+
+List<string> TwitchUsersWithVariable(string varName, bool persisted = true);
+List<string> YouTubeUsersWithVariable(string varName, bool persisted = true);
+
+List<UserVariableValue<T>> GetTwitchUsersVar<T>(string varName, bool persisted = true);
+List<UserVariableValue<T>> GetYouTubeUsersVar<T>(string varName, bool persisted = true);
 ```
 ```cs
 public class UserVariableValue<T>
@@ -392,6 +400,7 @@ public class UserVariableValue<T>
 	public DateTime LastWrite { get; set; }
 }
 ```
+
 ```cs
 TwitchUserInfo TwitchGetBroadcaster();
 TwitchUserInfo TwitchGetUserInfoById(string userId);
@@ -449,6 +458,7 @@ public class TwitchUserInfoEx
 }
 ```
 ```cs
+void ShowToastNotification(string title, string message, string attribution = null, string iconPath = null);
 void ShowToastNotification(string id, string title, string message, string attribution = null, string iconPath = null);
 ```
 ```cs
