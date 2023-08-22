@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-22T19:20:00.645Z
+date: 2023-08-22T19:23:51.722Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -78,7 +78,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Add some more logging during shutdown
 * Change how shutdown works from an update
 * Add url check to Websocket Client creation
-* Add Twitch Botn information (if available) to Websocket `GetBroadcaster` method
+* Add Twitch Bot information (if available) to Websocket `GetBroadcaster` method
 * Allow !commands on internal Twitch message parsing, this means !commands typed in the inline chat will work
 * For those running a prerelease build (beta, or alpha), your logging will be automatically pushed to verbose
 * Update how [Export](#import-export) works
