@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-22T04:52:20.911Z
+date: 2023-08-22T19:20:00.645Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -64,6 +64,10 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Handle possible crash in custom C# code when Dispose() is overridden and user code throws
 * Handle potential crash in Read From File sub-actions when parsing invalid paths
 * Handle potential crash in Write To File sub-action when parsing invalid paths
+* Finally fix the removal of the Broadcaster flag for the Twitch broadcaster account
+* Fix deletion of None group in Actions tab
+* Fix deletion of None group in Commands tab
+* Fix selection of duplicated action
 {.changelog-fixes}
 
 <span></span>
@@ -124,6 +128,8 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Add new [~globalVariable~](#inline-global-accessor) accessor to variables
 * Add new sub-action, Tray Notification, this will allow you to create a custom tray notification from the Streamer.bot tray icon
 * Add new sub-action, Set Voice Control Input, allowing you to change which Input device Voice Control is using
+* Add 2 new C# methods for adding a quote
+* Add 2 new sub-actions, Reset Credits and Reset First Words
 {.changelog-new}
 
 ## Triggers
@@ -359,19 +365,58 @@ void TwitchReplyToMessage(string message, string replyId, bool bot = true);
 string ObsSendBatchRaw(string data, bool haltOnFailure = false, int executionType = 0, int connectionIdx = 0);
 ```
 ```cs
-T GetUserVarById<T>(string userId, string varName, bool persisted = true);
-void SetUserVarById(string userId, string varName, object value, bool persistent = true);
-void UnsetUserVarById(string userId, string varName, bool persisted = true);
-void UnsetUserById(string userId, bool persisted = true);
-List<string> UsersWithVariable(string varName, bool persisted = true);
-void SetUsersVarById(List<string> userIds, string varName, object value, bool persisted = true);
-List<Tuple<string, T, DateTime>> GetUsersVar<T>(string varName, bool persisted = true);
+void SetTwitchUserVarById(string userId, string varName, object value, bool persisted = true);
+void SetYouTubeUserVarById(string userId, string varName, object value, bool persisted = true);
+
+void SetTwitchUsersVarById(List<string> userIds, string varName, object value, bool persisted = true);
+void SetYouTubeUsersVarById(List<string> userIds, string varName, object value, bool persisted = true);
+
+void UnsetTwitchUserVarById(string userId, string varName, bool persisted = true);
+void UnsetYouTubeUserVarById(string userId, string varName, bool persisted = true);
+
+void UnsetTwitchUserById(string userId, bool persisted = true);
+void UnsetYouTubeUserById(string userId, bool persisted = true);
+
+List<UserVariableValue<T>> GetUsersVar<T>(string varName, bool persisted = true);
 ```
 ```cs
+public class UserVariableValue<T>
+{
+	public string UserId { get; set; }
+	public string UserLogin { get; set; }
+	public string UserName { get; set; }
+
+	public string VariableName { get; set; }
+	public T Value { get; set; }
+
+	public DateTime LastWrite { get; set; }
+}
+```
+```cs
+TwitchUserInfo TwitchGetBroadcaster();
 TwitchUserInfo TwitchGetUserInfoById(string userId);
 TwitchUserInfo TwitchGetUserInfoByLogin(string userLogin);
-
+TwitchUserInfoEx TwitchGetExtendedUserInfoById(string userId);
+TwitchUserInfoEx TwitchGetExtendedUserInfoByLogin(string userLogin);
+```
+```cs
 public class TwitchUserInfo
+{
+	public string UserName { get; set; }
+	public string UserLogin { get; set; }
+	public string UserId { get; set; }
+
+	public DateTime LastActive { get; set; }
+	public DateTime PreviousActive { get; set; }
+	public bool IsSubscribed { get; set; }
+	public string SubscriptionTier { get; set; }
+
+	public bool IsModerator { get; set; }
+	public bool IsVip { get; set; }
+}
+```
+```cs
+public class TwitchUserInfoEx
 {
 	public string UserName { get; set; }
 	public string UserLogin { get; set; }
@@ -406,7 +451,10 @@ public class TwitchUserInfo
 ```cs
 void ShowToastNotification(string id, string title, string message, string attribution = null, string iconPath = null);
 ```
-
+```cs
+int AddQuoteForTwitch(string userId, string quote, bool captureGame = false);
+int AddQuoteForYouTube(string userId, string quote);
+```
 ## New Websocket Requests
 The new `ExecuteCodeTrigger` WebSocket method will let you trigger a Custom Code Trigger by using this method in a WebSocket connection. The format of the request is as follows.
 ```js
