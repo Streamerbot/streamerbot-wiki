@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-23T02:30:59.417Z
+date: 2023-08-23T18:14:58.659Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -96,6 +96,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Have the Streamer.bot tray icon always visible
 * Tweaks to sub-action categories
 * Update Twitch EventSub with changes to Guest Star
+* Update Discord Basic Webhook sub-action to support URLs for images
 {.changelog-updates}
 
 <span></span>
