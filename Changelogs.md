@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-22T20:45:26.636Z
+date: 2023-08-23T02:30:59.417Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -380,9 +380,6 @@ void UnsetYouTubeUserById(string userId, bool persisted = true);
 
 T GetTwitchUserVarById<T>(string userId, string varName, bool persisted = true);
 T GetYouTubeUserVarById<T>(string userId, string varName, bool persisted = true);
-
-List<string> TwitchUsersWithVariable(string varName, bool persisted = true);
-List<string> YouTubeUsersWithVariable(string varName, bool persisted = true);
 
 List<UserVariableValue<T>> GetTwitchUsersVar<T>(string varName, bool persisted = true);
 List<UserVariableValue<T>> GetYouTubeUsersVar<T>(string varName, bool persisted = true);
