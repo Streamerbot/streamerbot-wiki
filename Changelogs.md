@@ -2,16 +2,18 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-23T19:05:45.378Z
+date: 2023-08-23T20:51:42.094Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
- # Streamer.bot v0.2.0 (WIP)
- Upcoming changes in the next release!{.subtitle}
+ # Streamer.bot v0.2.0 (Current)
+ Released 2023-08-23{.subtitle}
 
 What's this, an actual version bump, or at least a minor one!  This changelog is still a work in progres, there is a lot of data I need to sort through, as some has already been included in past releases.
+
+![sb-0.2.0-001.png](/sb-0.2.0-001.png)
 
 * Misc fixes and tweaks throughout
 * Fix 7TV emotes not being parsed
