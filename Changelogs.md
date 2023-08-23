@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-23T18:41:00.820Z
+date: 2023-08-23T19:05:45.378Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -231,12 +231,12 @@ bool VTubeStudioTriggerHotkeyByName(string hotkeyName);
 bool VTubeStudioMoveModel(double seconds, bool relative, double? posX = null, double? posY = null, double? rotation = null, double? size = null);
 bool VTubeStudioRandomColorTint();
 bool VTubeStudioResetAllColorTints();
-bool VTubeStudioColorTintAll(string hexColor);
-bool VTubeStudioColorTintByNumber(string hexColor, bool mixWithSceneLighting, List<int> artMeshNumbers);
-bool VTubeStudioColorTintByNames(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
-bool VTubeStudioColorTintByNameContains(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
-bool VTubeStudioColorTintByTags(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
-bool VTubeStudioColorTintByTagContains(string hexColor, bool mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintAll(string hexColor, double mixWithSceneLighting = 0);
+bool VTubeStudioColorTintByNumber(string hexColor, double mixWithSceneLighting, List<int> artMeshNumbers);
+bool VTubeStudioColorTintByNames(string hexColor, double mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByNameContains(string hexColor, double mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByTags(string hexColor, double mixWithSceneLighting, List<string> filterValues);
+bool VTubeStudioColorTintByTagContains(string hexColor, double mixWithSceneLighting, List<string> filterValues);
 bool VTubeStudioActivateExpression(string expressionFile);
 bool VTubeStudioDeactivateExpression(string expressionFile);
 VTSModelPosition VTubeStudioGetModelPosition();
