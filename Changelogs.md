@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-23T18:14:58.659Z
+date: 2023-08-23T18:41:00.820Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -127,7 +127,7 @@ What's this, an actual version bump, or at least a minor one!  This changelog is
 * Add support for BetterTTV's real-time emote updates
 * Add new Important Information popup, when a new release happens, I'll be able to relay information that must be seen, only once at startup
 * Add a startup splash screen
-* Add new [~globalVariable~](#inline-global-accessor) accessor to variables
+* Add new [`~globalVariable~`](#inline-global-accessor) accessor to variables
 * Add new sub-action, Tray Notification, this will allow you to create a custom tray notification from the Streamer.bot tray icon
 * Add new sub-action, Set Voice Control Input, allowing you to change which Input device Voice Control is using
 * Add 2 new C# methods for adding a quote
