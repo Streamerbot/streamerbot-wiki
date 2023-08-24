@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-24T23:55:15.131Z
+date: 2023-08-24T23:59:38.555Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -26,6 +26,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * When subscribing to EventSub subscriptions, no longer subscribe to all if Broadcaster account is not Affiliate or Partner
 * Optimize C# method SetTwitchUsersVarById and SetYouTubeUsersVarsById
 * Optimize C# method GetUsersVar, it runs much faster depending on the circumstances
+* Tweaks to Elgato Wave Link integration
+* Tweaks to OBS Websocket5 library
 {.changelog-updates}
 
 <span></span>
