@@ -2,13 +2,52 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-23T20:51:42.094Z
+date: 2023-08-24T23:55:15.131Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
- # Streamer.bot v0.2.0 (Current)
+# Streamer.bot v0.2.1 (WIP)
+Upcoming changes in the next release!{.subtitle}
+
+While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
+
+* Fix crash in Test Trigger dialog, when clicking away from a cell with an empty value
+* Fix monthsGifted being any in Twitch Gift Sub trigger test
+* Fix issues with C# method SetTwitchUsersVarById and SetYouTubeUserVarsById
+* Fix issues with C# method GetUsersVar
+{.changelog-fixes}
+
+<span></span>
+
+* Remove range restriction check on posX and posY in C# method VTubeStudioMoveModel
+* Add various checks throughout setting uaser globals to prevent empty or null user ids
+* When subscribing to EventSub subscriptions, no longer subscribe to all if Broadcaster account is not Affiliate or Partner
+* Optimize C# method SetTwitchUsersVarById and SetYouTubeUsersVarsById
+* Optimize C# method GetUsersVar, it runs much faster depending on the circumstances
+{.changelog-updates}
+
+<span></span>
+
+* Add setting to commands to ignore internally parsed messages
+* Add StreamElements connected/disconnected triggers
+* Add Streamlabs connected/disconnected triggers
+* Add 7 new triggers for Twitch connections
+* Add a clear button for the action filter
+* Add nerw VTubeStudioEvent TrackingStatusChanged, and accompanying trigger
+* Add new C# method UnsetAllUsersVar, this will unset the specified variable for all users
+{.changelog-new}
+
+## Global User Variables
+A note about `SetTwitchUsersVarById` and `SetYouTubeUsersVarsById`, these 2 C# methods are completely broken in **0.2.0** and should not be used, they will set all the variables for the users specified to the value passed.
+
+## New C# Methods
+```cs
+void UnsetAllUsersVar(string varName, bool persisted = true);
+```
+
+# Streamer.bot v0.2.0 (Current)
  Released 2023-08-23{.subtitle}
 
 What's this, an actual version bump, or at least a minor one!  This changelog is still a work in progres, there is a lot of data I need to sort through, as some has already been included in past releases.
