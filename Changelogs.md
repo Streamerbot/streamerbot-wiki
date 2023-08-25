@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T03:44:56.398Z
+date: 2023-08-25T14:52:00.137Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -42,6 +42,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * In the import dialog, don't show exclude all from import, if there are no actions or commands to import
 * Add address/port checks when connecting to VTubeStudio
 * Prevent logging of VTubeStudio auth data
+* Toast Notification Activation now adds the original toast information to the arguments
 {.changelog-updates}
 
 <span></span>
