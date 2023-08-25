@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T02:56:37.128Z
+date: 2023-08-25T03:15:26.069Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -27,6 +27,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in the Twitch Reward Set Cooldown sub-action
 * Handle potential crash in GetCredits when BitLeaderboard API calls fail
 * Handle potential crash in Twemoji Emote Handler
+* Handle potential crash in OBS Websocket5 Version call
 {.changelog-fixes}
 
 <span></span>
