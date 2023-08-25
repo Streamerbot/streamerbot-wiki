@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T03:43:31.973Z
+date: 2023-08-25T03:44:56.398Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -14,9 +14,9 @@ Upcoming changes in the next release!{.subtitle}
 While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
 
 * Fix crash in Test Trigger dialog, when clicking away from a cell with an empty value
-* Fix monthsGifted being any in Twitch Gift Sub trigger test
-* Fix issues with C# method SetTwitchUsersVarById and SetYouTubeUserVarsById
-* Fix issues with C# method GetUsersVar
+* Fix `monthsGifted` being `any` in Twitch Gift Sub trigger test
+* Fix issues with C# method `SetTwitchUsersVarById` and `SetYouTubeUserVarsById`
+* Fix issues with C# method `GetUsersVar`
 * Handle potential crash in VTubeStudio Trigger Hotkey sub-action dialog
 * Handle potential crash in Twitch Gift Bomb handling
 * Handle potential crash when editing a variable with auto-typing enabled
@@ -35,8 +35,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Remove range restriction check on posX and posY in C# method VTubeStudioMoveModel
 * Add various checks throughout setting uaser globals to prevent empty or null user ids
 * When subscribing to EventSub subscriptions, no longer subscribe to all if Broadcaster account is not Affiliate or Partner
-* Optimize C# method SetTwitchUsersVarById and SetYouTubeUsersVarsById
-* Optimize C# method GetUsersVar, it runs much faster depending on the circumstances
+* Optimize C# method `SetTwitchUsersVarById` and `SetYouTubeUsersVarsById`
+* Optimize C# method `GetUsersVar`, it runs much faster depending on the circumstances
 * Tweaks to Elgato Wave Link integration
 * Tweaks to OBS Websocket5 library
 * In the import dialog, don't show exclude all from import, if there are no actions or commands to import
@@ -51,8 +51,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add Streamlabs connected/disconnected triggers
 * Add 7 new triggers for Twitch connections
 * Add a clear button for the action filter
-* Add nerw VTubeStudioEvent TrackingStatusChanged, and accompanying trigger
-* Add new C# method UnsetAllUsersVar, this will unset the specified variable for all users
+* Add nerw VTubeStudioEvent `TrackingStatusChanged`, and accompanying trigger
+* Add new C# method `UnsetAllUsersVar`, this will unset the specified variable for all users
 * Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
 {.changelog-new}
 
