@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-24T23:59:38.555Z
+date: 2023-08-25T01:15:00.201Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -17,6 +17,11 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Fix monthsGifted being any in Twitch Gift Sub trigger test
 * Fix issues with C# method SetTwitchUsersVarById and SetYouTubeUserVarsById
 * Fix issues with C# method GetUsersVar
+* Handle potential crash in VTubeStudio Trigger Hotkey sub-action dialog
+* Handle potential crash in Twitch Gift Bomb handling
+* Handle potential crash when editing a variable with auto-typing enabled
+* Handle potential crash in CrowdControl Trigger dialogs
+* Handle potential crash in Raid Start trigger test
 {.changelog-fixes}
 
 <span></span>
