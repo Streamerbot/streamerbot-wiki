@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T03:15:26.069Z
+date: 2023-08-25T03:43:18.769Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -12,6 +12,9 @@ dateCreated: 2021-08-25T21:51:24.140Z
 Upcoming changes in the next release!{.subtitle}
 
 While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
+
+## Global User Variables
+A note about `SetTwitchUsersVarById` and `SetYouTubeUsersVarsById`, these 2 C# methods are completely broken in **0.2.0** and should not be used, they will set all the variables for the users specified to the value passed.
 
 * Fix crash in Test Trigger dialog, when clicking away from a cell with an empty value
 * Fix monthsGifted being any in Twitch Gift Sub trigger test
@@ -55,9 +58,6 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add new C# method UnsetAllUsersVar, this will unset the specified variable for all users
 * Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
 {.changelog-new}
-
-## Global User Variables
-A note about `SetTwitchUsersVarById` and `SetYouTubeUsersVarsById`, these 2 C# methods are completely broken in **0.2.0** and should not be used, they will set all the variables for the users specified to the value passed.
 
 ## New C# Methods
 ```cs
