@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T01:35:23.911Z
+date: 2023-08-25T02:23:07.747Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -25,6 +25,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in PerformCommand sub-action dialog when leaving a cell empty
 * Handle potential crash in the Import Dialog when trying to exclude all actions/commands when there aren't any
 * Handle potential crash in the Twitch Reward Set Cooldown sub-action
+* Handle potential crash in GetCredits when BitLeaderboard API calls fail
 {.changelog-fixes}
 
 <span></span>
@@ -37,6 +38,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Tweaks to Elgato Wave Link integration
 * Tweaks to OBS Websocket5 library
 * In the import dialog, don't show exclude all from import, if there are no actions or commands to import
+* Add address/port checks when connecting to VTubeStudio
+* Prevent logging of VTubeStudio auth data
 {.changelog-updates}
 
 <span></span>
