@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T14:52:00.137Z
+date: 2023-08-25T19:25:37.246Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -55,6 +55,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add nerw VTubeStudioEvent `TrackingStatusChanged`, and accompanying trigger
 * Add new C# method `UnsetAllUsersVar`, this will unset the specified variable for all users
 * Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
+* Button to HotKey Trigger dialog to create a HotKey in place
 {.changelog-new}
 
 ## Global User Variables
