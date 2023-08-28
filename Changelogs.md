@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-25T19:25:37.246Z
+date: 2023-08-28T21:24:10.223Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -28,6 +28,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in GetCredits when BitLeaderboard API calls fail
 * Handle potential crash in Twemoji Emote Handler
 * Handle potential crash in OBS Websocket5 Version call
+* Fix long startup times during DB upgrades
 {.changelog-fixes}
 
 <span></span>
