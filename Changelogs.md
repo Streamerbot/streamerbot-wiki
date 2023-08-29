@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-29T01:56:04.495Z
+date: 2023-08-29T02:33:20.781Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -30,6 +30,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in OBS Websocket5 Version call
 * Fix long startup times during DB upgrades
 * Fix creation of a Midi Message trigger not saving the selected event correctly
+* Handle potential crashes in OBS Websocket v4 and v5 handling
+* Handle potential crash in `Write To File` sub-action when trying to write to a file user does not have permission to
 {.changelog-fixes}
 
 <span></span>
@@ -43,8 +45,13 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Tweaks to OBS Websocket5 library
 * In the import dialog, don't show exclude all from import, if there are no actions or commands to import
 * Add address/port checks when connecting to VTubeStudio
+* Add address/port checks when connecting to Streamlabs Desktop
 * Prevent logging of VTubeStudio auth data
-* Toast Notification Activation now adds the original toast information to the arguments
+* `Toast Notification Activation` trigger now adds the original toast information to the arguments
+* Tweaks to Twitch VIP handling
+* Tweaks to Sub-action and Trigger item locations and sorting
+* Rename `Perform Command` to `Run a Program`
+* Add `isSubscribed` back for YouTube users
 {.changelog-updates}
 
 <span></span>
