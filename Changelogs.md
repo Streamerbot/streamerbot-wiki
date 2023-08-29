@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-29T02:33:20.781Z
+date: 2023-08-29T17:51:03.680Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -13,6 +13,7 @@ Upcoming changes in the next release!{.subtitle}
 
 While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
 
+* Fix typos
 * Fix crash in Test Trigger dialog, when clicking away from a cell with an empty value
 * Fix `monthsGifted` being `any` in Twitch Gift Sub trigger test
 * Fix issues with C# method `SetTwitchUsersVarById` and `SetYouTubeUserVarsById`
@@ -32,6 +33,9 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Fix creation of a Midi Message trigger not saving the selected event correctly
 * Handle potential crashes in OBS Websocket v4 and v5 handling
 * Handle potential crash in `Write To File` sub-action when trying to write to a file user does not have permission to
+* Fix UI interactions freezing the UI when connecting/disconnecting to/from various services
+* Fix endless retry loop for Streamer.bot website integration when remote connection is disabled
+* Fix UI feedback when connecting to VTubeStudio
 {.changelog-fixes}
 
 <span></span>
@@ -52,6 +56,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Tweaks to Sub-action and Trigger item locations and sorting
 * Rename `Perform Command` to `Run a Program`
 * Add `isSubscribed` back for YouTube users
+* Better handling of VTubeStudio and timing out requests so they don't get stuck
+* Add checks to VTubeStudio Raw for `undefined` json values
 {.changelog-updates}
 
 <span></span>
