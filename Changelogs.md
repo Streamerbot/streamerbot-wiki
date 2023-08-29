@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-28T21:24:10.223Z
+date: 2023-08-29T01:56:04.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -29,6 +29,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in Twemoji Emote Handler
 * Handle potential crash in OBS Websocket5 Version call
 * Fix long startup times during DB upgrades
+* Fix creation of a Midi Message trigger not saving the selected event correctly
 {.changelog-fixes}
 
 <span></span>
@@ -56,7 +57,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add nerw VTubeStudioEvent `TrackingStatusChanged`, and accompanying trigger
 * Add new C# method `UnsetAllUsersVar`, this will unset the specified variable for all users
 * Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
-* Button to HotKey Trigger dialog to create a HotKey in place
+* Add `Create` button to various triggers
 {.changelog-new}
 
 ## Global User Variables
