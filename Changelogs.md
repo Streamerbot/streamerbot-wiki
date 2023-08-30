@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-30T05:27:18.000Z
+date: 2023-08-30T05:34:39.870Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -87,6 +87,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add `Create` button to various triggers
 * Add delete confirmation when deleting a sub-action group
 * Add 3 new C# methods for interactiong with quotes
+* Add IgnoreAliases setting to GetCommands sub-action, this will return the first command only for each command if enabled
 {.changelog-new}
 
 ## Global User Variables
