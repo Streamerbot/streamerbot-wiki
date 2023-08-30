@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-30T05:34:39.870Z
+date: 2023-08-30T19:03:00.216Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -47,6 +47,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Fix being able to make an empty query search for Twitch Game Categories
 * Handle potential crash in Global Variable Viewer when encountering empty-named variables
 * Handle potential crash in YouTube Gift Membership Received trigger test
+* Fix Process Started/Stopped Trigger display not showing the criteria
+* Fix issue with non-blocking queue and Execute Code sub-actions
 {.changelog-fixes}
 
 <span></span>
@@ -72,6 +74,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Twitch Reward global cooldown updated from int to long, this will effect the C# method `UpdateRewardCooldown`
 * Update GetQuote sub-action to accept `%variables%`
 * Update Get/Set Command State sub-actions to display the command's name instead of the command
+* Update Twitch Timeout User sub-action to have similar fields as the Twitch Unban User sub-action
+* Perform config upgrage on Twitch Timeout User sub-action to new format, be sure to check your timeout sub-actions!
 {.changelog-updates}
 
 <span></span>
@@ -88,6 +92,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add delete confirmation when deleting a sub-action group
 * Add 3 new C# methods for interactiong with quotes
 * Add IgnoreAliases setting to GetCommands sub-action, this will return the first command only for each command if enabled
+* Add new Trigger, Global Variable Updated
 {.changelog-new}
 
 ## Global User Variables
