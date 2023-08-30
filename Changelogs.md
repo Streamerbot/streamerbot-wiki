@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-29T17:51:03.680Z
+date: 2023-08-30T02:14:50.736Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -36,6 +36,12 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Fix UI interactions freezing the UI when connecting/disconnecting to/from various services
 * Fix endless retry loop for Streamer.bot website integration when remote connection is disabled
 * Fix UI feedback when connecting to VTubeStudio
+* Handle potential crash in Twitch Chat Message trigger test
+* Handle more potential crashes for Toast Notifications when trying to run on Windows 7, this is a Windows 10 and higher only feature
+* Better handling of loading certain types on startup
+* Handle potential crash in CrowdControl TimedEffectUpdate event
+* Handle potential crash in OBS GetSceneItemProperties sub-action dialog
+* Handle potential crash in Import Dialog with invalid data
 {.changelog-fixes}
 
 <span></span>
