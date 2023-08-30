@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-30T04:45:25.942Z
+date: 2023-08-30T05:19:55.452Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -70,6 +70,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Better handling of VTubeStudio and timing out requests so they don't get stuck
 * Add checks to VTubeStudio Raw for `undefined` json values
 * Twitch Reward global cooldown updated from int to long, this will effect the C# method `UpdateRewardCooldown`
+* Update GetQuote sub-action to accept `%variables%`
 {.changelog-updates}
 
 <span></span>
@@ -84,6 +85,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
 * Add `Create` button to various triggers
 * Add delete confirmation when deleting a sub-action group
+* Add 3 new C# methods for interactiong with quotes
 {.changelog-new}
 
 ## Global User Variables
@@ -93,7 +95,25 @@ A note about `SetTwitchUsersVarById` and `SetYouTubeUsersVarsById`, these 2 C# m
 ```cs
 void UnsetAllUsersVar(string varName, bool persisted = true);
 ```
-
+```cs
+QuoteData GetQuote(int quoteId);
+int GetQuoteCount();
+bool DeleteQuote(int quoteId);
+```
+The `QuoteData` class
+```cs
+public class QuoteData
+{
+    public DateTime Timestamp { get; set; }
+    public int Id { get; set; }
+    public string UserId { get; set; }
+    public string User { get; set; }
+    public string Platform { get; set; }
+    public string GameId { get; set; }
+    public string GameName { get; set; }
+    public string Quote { get; set; }
+}
+```
 # Streamer.bot v0.2.0 (Current)
  Released 2023-08-23{.subtitle}
 
