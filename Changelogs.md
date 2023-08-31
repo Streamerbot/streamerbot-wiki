@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-31T01:40:28.323Z
+date: 2023-08-31T17:40:21.369Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -50,6 +50,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Fix `Process Started/Stopped` Trigger display not showing the criteria
 * Fix issue with non-blocking queue and Execute Code sub-actions
 * Fix all `Patreon Trigger` tests crashing
+* Fix `YouTube SuperChat` and `SuperSticker` triggers using the microamount and not a decimal value for range comparisons
 {.changelog-fixes}
 
 <span></span>
@@ -77,6 +78,9 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Update `Get/Set Command State` sub-actions to display the command's name instead of the command
 * Update `Twitch Timeout User` sub-action to have similar fields as the `Twitch Unban User` sub-action
 * Perform config upgrage on Twitch Timeout User sub-action to new format, be sure to check your timeout sub-actions!
+* Range based triggers which are se to `greater than`, are now **inclusive** of that value in comparisons
+* Range based triggers which have a `min and max`, are now **inclusive** of the range in comparisons
+* Better handling of Twitch VIP and Moderator role information
 {.changelog-updates}
 
 <span></span>
