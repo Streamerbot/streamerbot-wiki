@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-31T00:39:16.715Z
+date: 2023-08-31T01:25:03.247Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -73,8 +73,8 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Better handling of VTubeStudio and timing out requests so they don't get stuck
 * Add checks to VTubeStudio Raw for `undefined` json values
 * Twitch Reward global cooldown updated from int to long, this will effect the C# method `UpdateRewardCooldown`
-* Update GetQuote sub-action to accept `%variables%`
-* Update Get/Set Command State sub-actions to display the command's name instead of the command
+* Update `GetQuote` sub-action to accept `%variables%`
+* Update `Get/Set Command State` sub-actions to display the command's name instead of the command
 * Update `Twitch Timeout User` sub-action to have similar fields as the `Twitch Unban User` sub-action
 * Perform config upgrage on Twitch Timeout User sub-action to new format, be sure to check your timeout sub-actions!
 {.changelog-updates}
@@ -92,7 +92,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add `Create` button to various triggers
 * Add delete confirmation when deleting a sub-action group
 * Add 3 new C# methods for interactiong with quotes
-* Add IgnoreAliases setting to GetCommands sub-action, this will return the first command only for each command if enabled
+* Add `IgnoreAliases` setting to GetCommands sub-action, this will return the first command only for each command if enabled
 * Add new Trigger, `Global Variable Updated`
 {.changelog-new}
 
