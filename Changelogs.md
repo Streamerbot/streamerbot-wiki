@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-30T19:04:11.376Z
+date: 2023-08-31T00:39:16.715Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -49,6 +49,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Handle potential crash in `YouTube Gift Membership Received` trigger test
 * Fix `Process Started/Stopped` Trigger display not showing the criteria
 * Fix issue with non-blocking queue and Execute Code sub-actions
+* Fix all `Patreon Trigger` tests crashing
 {.changelog-fixes}
 
 <span></span>
