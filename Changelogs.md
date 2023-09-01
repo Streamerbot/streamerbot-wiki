@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-08-31T17:40:21.369Z
+date: 2023-09-01T14:56:32.097Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -92,7 +92,7 @@ While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it 
 * Add a clear button for the action filter
 * Add nerw VTubeStudioEvent `TrackingStatusChanged`, and accompanying trigger
 * Add new C# method `UnsetAllUsersVar`, this will unset the specified variable for all users
-* Add 4 new triggers for BetterTTV and SevenTV Adding/Removeing emotes
+* Add 4 new triggers for BetterTTV and SevenTV Adding/Removing emotes
 * Add `Create` button to various triggers
 * Add delete confirmation when deleting a sub-action group
 * Add 3 new C# methods for interactiong with quotes
