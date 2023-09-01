@@ -2,14 +2,19 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-01T14:56:32.097Z
+date: 2023-09-01T16:38:30.365Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.2.1 (WIP)
+# Streamer.bot v0.2.2 (WIP)
 Upcoming changes in the next release!{.subtitle}
+
+Will start filling things out
+
+# Streamer.bot v0.2.1 (Current)
+ Released 2023-09-01{.subtitle}
 
 While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
 
@@ -126,7 +131,7 @@ public class QuoteData
     public string Quote { get; set; }
 }
 ```
-# Streamer.bot v0.2.0 (Current)
+# Streamer.bot v0.2.0
  Released 2023-08-23{.subtitle}
 
 What's this, an actual version bump, or at least a minor one!  This changelog is still a work in progres, there is a lot of data I need to sort through, as some has already been included in past releases.
