@@ -29,7 +29,7 @@ Name | Description
 `gameSuccess` | If the Sub-Action succeeded <br> `True`/`False`
 `gameName` | The name of the game
 `gameId` | The id of the game
-`gameBoxArt` | The url of the game boxart, can be used with browser sources in your broadcaster.
+`gameBoxArt` | The url of the game boxart, can be used with browser sources in your broadcaster software.
 {.vars-table}
 
 ---
