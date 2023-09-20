@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-20T02:38:25.616Z
+date: 2023-09-20T02:44:07.371Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -48,7 +48,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add 7 new triggers for Streamlabs Desktop
 * Add new historical data collection to Twitch Data. `Subscriptions`, `Gift Bombs`, and `Hype Trains` are now recorded
 * Add option to disable Present Viewers timer for Twitch
-* Add option to compeltely disable the Action History, as well as Pending items
+* Add option to completely disable the Action History, as well as Pending items
+* Add enabled/disabled color indicator to File Watcher items
 {.changelog-new}
 
 ## Simulated Events
