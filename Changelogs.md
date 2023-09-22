@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-22T02:23:58.838Z
+date: 2023-09-22T02:32:01.377Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -36,6 +36,7 @@ Upcoming changes in the next release!{.subtitle}
 * Update display in `Twitch Emote Only` sub-action dialog to be `On`/`Off` instead of `Yes`/`No`
 * Better handling of Twitch Chat for high volume channels
 * Performance tweaks surrounding Twitch Chat handling
+* More Twitch Reply information is added to the arguments, inspect an action that has a reply to see all the new fields, and note `replyTo` is no longer available.
 {.changelog-updates}
 
 <span></span>
