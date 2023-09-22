@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-22T02:23:19.750Z
+date: 2023-09-22T02:23:58.838Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -31,7 +31,7 @@ Upcoming changes in the next release!{.subtitle}
 * Move `Crowd Control` triggers under `Integrations`
 * Don't color a trigger as blue if there are no criteria for it
 * Update `Twitch User Timedout` Trigger to support a range for the duration
-* Add more cleanup to Global Variables during upgrage processes
+* Add more cleanup to Global Variables during upgrade processes
 * Set Twitch Reply To Message sub-action's MsgId field to a default value of `%msgId%` 
 * Update display in `Twitch Emote Only` sub-action dialog to be `On`/`Off` instead of `Yes`/`No`
 * Better handling of Twitch Chat for high volume channels
