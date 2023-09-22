@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-20T02:44:07.371Z
+date: 2023-09-22T02:23:19.750Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -34,6 +34,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add more cleanup to Global Variables during upgrage processes
 * Set Twitch Reply To Message sub-action's MsgId field to a default value of `%msgId%` 
 * Update display in `Twitch Emote Only` sub-action dialog to be `On`/`Off` instead of `Yes`/`No`
+* Better handling of Twitch Chat for high volume channels
+* Performance tweaks surrounding Twitch Chat handling
 {.changelog-updates}
 
 <span></span>
@@ -50,6 +52,8 @@ Upcoming changes in the next release!{.subtitle}
 * Add option to disable Present Viewers timer for Twitch
 * Add option to completely disable the Action History, as well as Pending items
 * Add enabled/disabled color indicator to File Watcher items
+* Add an option to disable the Viewers Tab, for performance reasons
+* Add an option to disable Twitch Present Viewers tick completely
 {.changelog-new}
 
 ## Simulated Events
