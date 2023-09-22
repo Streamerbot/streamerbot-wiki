@@ -2,7 +2,7 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-22T02:32:01.377Z
+date: 2023-09-22T05:36:35.694Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
@@ -47,7 +47,7 @@ Upcoming changes in the next release!{.subtitle}
 * Add a way to disable unused sub-actions
 * Add a way to disable unused triggers
 * Allow re-organizing of triggers, this is only a visual thing
-* Add new C# Method, `TwitchGetBot()`
+* Add new C# Method, `TwitchUserInfo TwitchGetBot();`
 * Add 7 new triggers for Streamlabs Desktop
 * Add new historical data collection to Twitch Data. `Subscriptions`, `Gift Bombs`, and `Hype Trains` are now recorded
 * Add option to disable Present Viewers timer for Twitch
