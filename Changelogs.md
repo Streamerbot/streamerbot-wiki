@@ -2,76 +2,89 @@
 title: Changelogs
 description: List of new features, bug fixes and improvements
 published: true
-date: 2023-09-22T05:36:35.694Z
+date: 2023-11-29T04:54:42.403Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:51:24.140Z
 ---
 
-# Streamer.bot v0.2.2 (WIP)
+# Streamer.bot v0.2.3 (WIP)
 Upcoming changes in the next release!{.subtitle}
+
+# Streamer.bot v0.2.2 (Current)
+Released 2023-11-28{.subtitle}
 
 * Fix typos
 * Fix being able to run multiple instances of **Streamer.bot** from different folders
 * Fix `UserName` and `UserLogin` being reversed in `UserVariableValue<T>` return value
-* Fix Twitch Hype Chat `__source` values
-* Tweaks to internal message parsing
 * Fix potential crash in Streamlabs Desktop handling
 * Fix wrong ToastId being used in Toast Activation trigger
 * Fix issue related to MinMax values for triggers, and logic not working correctly
 * Fix C# methods for getting/setting variables by username not comparing against the user's login
+* Fix Twitch Sub Gift trigger and simulate event wrt months gifted
+* Fix some disconnection logic for Elgato Wave Link client
+* Fix Shutdown logic for VTube Studio
+* Handle potential issue in OBS Event handling
+* Fix potential issue with Twitch EventSub connection and no longer being able to connect till restart of Streamer.bot
+* Fix issue with StreamElements event updating wrong UI
+* DonorDrive Incentive test could potentially crash if user has no incentives to test
+* Remove the length restrictions on Lumia Set Color sub-action, since these fields accept variables
+* Fix editing MIDI In/Out devices not retaining internal links
+* Fix Twitch Timeout Sub-action when dealing with Moderators, was re-modding the wrong person
+* Fix potential crash in Speaker.bot Speak UDP sub-action
+* Fix Twitch Unban not using broadcaster/moderator ids properly
+* Fix crash related to 7TV, and not being able to connect to event services
 {.changelog-fixes}
 
 <span></span>
 
-* Twitch Hype Train progress was re-added back to credits handling
 * `Perform Command` sub-action was not fully renamed to `Run a Program`
 * Update Elgato Wave Link to support Real-time level monitors tht was added in 1.8.2
 * Update logging of parsing 3rd party emotes to `Verbose` level
-* Move `Crowd Control` triggers under `Integrations`
-* Don't color a trigger as blue if there are no criteria for it
 * Update `Twitch User Timedout` Trigger to support a range for the duration
 * Add more cleanup to Global Variables during upgrade processes
 * Set Twitch Reply To Message sub-action's MsgId field to a default value of `%msgId%` 
+* Update Twitch User Timedout Trigger to support a range for the duration
 * Update display in `Twitch Emote Only` sub-action dialog to be `On`/`Off` instead of `Yes`/`No`
-* Better handling of Twitch Chat for high volume channels
-* Performance tweaks surrounding Twitch Chat handling
-* More Twitch Reply information is added to the arguments, inspect an action that has a reply to see all the new fields, and note `replyTo` is no longer available.
+* Update YouTube First Words sub-action dialog
+* Tweaks to Twitch Data Repo db handling
+* Add a reset button to VTubeStudio Color Tint sub-action dialog
+* Update libraries across the board
+* Tweaks to OBS Websocket 5.x handling
+* Tweaks to VTubeStudio sub-action dialogs and how data is handled/loaded on init
+* Stop logging timing for 3rd party emote parsing
+* Startup performance improvements when initializing certain lists
+* Added ability to have Dialog Prompts timeout after a certain amount of time
+* Tweaks to Elgato Wave Link connection handling
+* Remove support for Twitch Hype Chats
 {.changelog-updates}
 
 <span></span>
 
 * Add enabled/disabled color indicator to Timed Actions
-* Add new [`Simulated Events`](#simulated-events)
-* Add a new Dialog that can be used within **Streamer.bot** to search for Twitch user's both from the internal cache, and from within Twitch itself
-* Add a way to disable unused sub-actions
-* Add a way to disable unused triggers
-* Allow re-organizing of triggers, this is only a visual thing
-* Add new C# Method, `TwitchUserInfo TwitchGetBot();`
-* Add 7 new triggers for Streamlabs Desktop
-* Add new historical data collection to Twitch Data. `Subscriptions`, `Gift Bombs`, and `Hype Trains` are now recorded
-* Add option to disable Present Viewers timer for Twitch
-* Add option to completely disable the Action History, as well as Pending items
 * Add enabled/disabled color indicator to File Watcher items
-* Add an option to disable the Viewers Tab, for performance reasons
-* Add an option to disable Twitch Present Viewers tick completely
+* Streamer.bot and libraries are now digitally signed
 {.changelog-new}
 
-## Simulated Events
-Prior to **0.2.0**, one could test certain Twitch events from within the respective events tabs, and with the release of **0.2.0**, this was change to be able to test the `Triggers` directly.
+<span></span>
+## Streamer.bot
+After much back and forth and general annoyance, I can now digitally sign Streamer.bot, Speaker.bot, and all the accompanying libraries.
 
-With the addition of `Triggers`, this opened up the ability to have multiple actions triggered by the same event, so in order to test this, you would have to goto each action, and test the trigger manually.
+Starting with this alpha, alpha-16, Streamer.bot and libraries are now digitally signed.
 
-With **0.2.2**, a new way of testing has been added, `Simulated Events`
+What does this mean? I'm hoping less (or no more) false positives and/or AV software nuking the exe before or while its running. Also, building a better level of trust.
+Startup Performance Improvements
+Yes, that's right, found a few more areas that were behaving a bit slow during startup, and handled them better.
 
-`Simulated Events` are still initiated from a trigger's context menu, however, they will allow you to specify certain data (for instance, for a cheer, you pick the user, and specify the amount), and it will simulate this event application wide, so any triggers that match, will be run.
+This mainly affected users with a long list of actions and/or commands.
 
-With this feature, also comes a way to not only search your local user cache, but, to also search against Twitch itself.
-> The API used for searching only returns users who have streamed within the last 6 months, this is a limitation of the API, and is not possible to circumvent
-{.is-warning}
+Also, some of the startup tweaks that were in the alpha releases has been brought over to this release.
+## MIDI
+In debugging the MIDI services, it appears there was a line left in (copy/pasta) that assigned a midi in/out device a new internal id when it was edited, this should not have been doing that
 
+This is likely the cause of MIDI Trigger links to become broken, as well as breaking the main list of midi devices, and not being able to open it after editing it.
 
-# Streamer.bot v0.2.1 (Current)
+# Streamer.bot v0.2.1
  Released 2023-09-01{.subtitle}
 
 While 0.2.0 launch didn't go as smoothly as I had planned, after a quick fix it was off and running.  To follow up on that, 0.2.1 brings in some more fixes, and a couple of extras with it.
