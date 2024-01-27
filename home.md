@@ -2,13 +2,16 @@
 title: Home
 description: Official Documentation for Streamer.bot
 published: true
-date: 2023-06-01T00:16:55.553Z
+date: 2024-01-27T15:28:00.151Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T17:28:59.469Z
 ---
 
 ![streamerbot.png](/logos/streamerbot.png){.align-abstopright}
+
+- [<img src="/logos/streamerbot.png">  **Streamer.bot docs *Check out the new Streamer.bot docs!***](https://docs.streamer.bot)
+{.btn-grid .my-5}
 
 <section class="overview-grid my-5">
 <div>
