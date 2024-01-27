@@ -2,7 +2,7 @@
 title: Events
 description: Reference of all events that can be used to trigger actions in Streamer.bot
 published: true
-date: 2024-01-27T15:37:47.391Z
+date: 2024-01-27T15:39:02.715Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-25T21:31:34.296Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-25T21:31:34.296Z
 
 <ul class="btn-grid">
   <li>
-    <a style="background: #1c1c1c; padding: 1rem; display: block; text-decoration: none; color: #FFF!important;" href="https://docs.streamer.bot/api/triggers">
+    <a style="background: #1c1c1c; padding: 1rem; display: block; text-decoration: none; color: #FFF!important;" href="https://docs.streamer.bot/api/triggers" class="is-internal-link">
     <i style="font-size: 25px; margin-bottom: .25rem;" class="mdi mdi-creation"></i>
     <div>Triggers</div>
     <div style="font-size: .8rem; font-weight: 300;">Reference of all available triggers and their populated variables.</div>
