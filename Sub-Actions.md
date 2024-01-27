@@ -2,11 +2,21 @@
 title: Sub Actions
 description: Reference of all Streamer.bot Sub-Actions
 published: true
-date: 2023-07-06T19:17:40.100Z
+date: 2024-01-27T15:41:04.670Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T18:35:56.849Z
 ---
+
+<ul class="btn-grid">
+  <li>
+    <a style="background: #1c1c1c; padding: 1rem; display: block; text-decoration: none; color: #FFF!important;" href="https://docs.streamer.bot/api/triggers">
+    <i style="font-size: 25px; margin-bottom: .25rem;" class="mdi mdi-creation"></i>
+    <div>Sub-Actions</div>
+    <div style="font-size: .8rem; font-weight: 300;">Reference of all sub-actions, their parameters, and any populated variables.</div>
+    </a>
+  </li>
+</ul>
 
 ## Platform
 Sub-Actions specific to your streaming platform{.subtitle}
